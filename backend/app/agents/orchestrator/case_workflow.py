@@ -20,6 +20,26 @@ async def run_domain_specialists(state: AgentState) -> AgentState:
     if domain == Domain.BANKING:
         from app.agents.domain_agents.banking.specialists import run_banking_specialists
         return await run_banking_specialists(state)
+    elif domain == Domain.AIRLINES:
+        from app.agents.domain_agents.airlines.specialists import get_airline_specialists
+        
+        # Simple inline orchestrator for airlines
+        state.setdefault("agent_trace", []).append("airlines_orchestrator:start")
+        plan = state.get("plan", {})
+        routes = plan.get("specialists", ["general_aviation"])
+        
+        specialists = get_airline_specialists()
+        all_results = []
+        for route in routes:
+            agent = specialists.get(route)
+            if agent:
+                res = await agent.process(state)
+                all_results.append(res)
+                state["agent_trace"].append(f"specialist_executed:{agent.name}")
+        
+        state["specialist_results"] = all_results
+        return state
+        
     return await run_health_specialists(state)
 
 

@@ -35,6 +35,21 @@ class SupervisorAgent:
         elif domain == Domain.BANKING:
             from app.agents.domain_agents.banking.specialists import run_banking_specialists
             return await run_banking_specialists(state)
+        elif domain == Domain.AIRLINES:
+            from app.agents.domain_agents.airlines.specialists import get_airline_specialists
+            state.setdefault("agent_trace", []).append("airlines_orchestrator:start")
+            plan = state.get("plan", {})
+            routes = plan.get("specialists", ["general_aviation"])
+            specialists = get_airline_specialists()
+            all_results = []
+            for route in routes:
+                agent = specialists.get(route)
+                if agent:
+                    res = await agent.process(state)
+                    all_results.append(res)
+                    state.setdefault("agent_trace", []).append(f"specialist_executed:{agent.name}")
+            state["specialist_results"] = all_results
+            return state
         state.setdefault("specialist_outputs", []).append(
             {
                 "agent": "FAQ/General Agent",

@@ -31,6 +31,20 @@ def build_plan(state: AgentState) -> dict:
             specialists.append("payments")
         if _contains(query, BANK_REG_TERMS):
             specialists.append("regulatory")
+    elif domain == Domain.AIRLINES:
+        AIRLINE_DELAY_TERMS = {"delay", "cancel", "cancellation", "missed", "connection", "overbooking", "denied", "boarding", "schedule"}
+        AIRLINE_BAGGAGE_TERMS = {"baggage", "luggage", "lost", "damaged", "pir", "weight", "cabin", "check-in"}
+        AIRLINE_REFUND_TERMS = {"refund", "ticket", "fare", "fee", "charge", "name correction", "duplicate"}
+        AIRLINE_GEN_TERMS = {"dgca", "charter", "wheelchair", "complaint", "support", "insurance"}
+        
+        if _contains(query, AIRLINE_DELAY_TERMS):
+            specialists.append("delay_cancellation")
+        if _contains(query, AIRLINE_BAGGAGE_TERMS):
+            specialists.append("baggage")
+        if _contains(query, AIRLINE_REFUND_TERMS):
+            specialists.append("refund_ticketing")
+        if _contains(query, AIRLINE_GEN_TERMS):
+            specialists.append("general_aviation")
     else:
         # Default/Health Insurance
         if _contains(query, CLAIM_TERMS):

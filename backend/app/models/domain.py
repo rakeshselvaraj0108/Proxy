@@ -12,7 +12,7 @@ class Domain(str, Enum):
     GOVERNMENT = "government"
 
 
-ACTIVE_DOMAINS = {Domain.HEALTH_INSURANCE, Domain.BANKING}
+ACTIVE_DOMAINS = {Domain.HEALTH_INSURANCE, Domain.BANKING, Domain.AIRLINES}
 
 DOMAIN_LABELS = {
     Domain.HEALTH_INSURANCE: "Health insurance claim denials and reimbursement disputes",
