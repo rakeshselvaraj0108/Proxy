@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Mega Risk Insurance",
+  "url": "https://www.tataaig.com/s3/Claims_Forms_mega_risk_policy.pdf_68dfe7a49f.pdf",
+  "final_url": "https://www.tataaig.com/s3/Claims_Forms_mega_risk_policy.pdf_68dfe7a49f.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "ed590ed52acb8a24100a6e41a664259a3f808ffc4ac82720676b032f7e0da128",
+  "downloaded_at": "2026-07-03T17:10:24.388950+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\Claims_Forms_mega_risk_policy.pdf_68dfe7a49f.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

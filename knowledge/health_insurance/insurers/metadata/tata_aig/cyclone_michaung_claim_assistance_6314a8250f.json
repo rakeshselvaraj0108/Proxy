@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "click here",
+  "url": "https://www.tataaig.com/s3/cyclone_michaung_claim_assistance_6314a8250f.pdf",
+  "final_url": "https://www.tataaig.com/s3/cyclone_michaung_claim_assistance_6314a8250f.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "f954e128901c239abc62eeed224bdb2604aba1ae89014937d0420a48888fb9f7",
+  "downloaded_at": "2026-07-03T17:10:02.568414+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\cyclone_michaung_claim_assistance_6314a8250f.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

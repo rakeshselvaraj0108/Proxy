@@ -1,0 +1,14 @@
+{
+  "source_id": "who_health_topics",
+  "title": "WHO Health Topics",
+  "authority": "World Health Organization",
+  "category": "medical_knowledge",
+  "priority": 4,
+  "url": "https://www.who.int/health-topics",
+  "final_url": "https://www.who.int/health-topics",
+  "content_type": "text/html; charset=utf-8",
+  "content_sha256": "4d48575cb19ac5d8e16d8b2ba4b1ed7d09eb8edf63bf06eb29fd2c68b9aa56ba",
+  "collected_at": "2026-07-03T16:57:42.816950+00:00",
+  "text_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\official_sources\\medical_knowledge\\who_health_topics.md",
+  "purpose": "High-level disease and treatment background for medical understanding"
+}

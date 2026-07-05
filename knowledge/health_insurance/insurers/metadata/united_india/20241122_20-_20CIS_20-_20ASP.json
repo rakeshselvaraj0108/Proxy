@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "policy_wording",
+  "label": "https://uiic.co.in/web/sites/default/files/Policy-Document/20241122%20-%20CIS%20-%20ASP.pdf",
+  "url": "https://uiic.co.in/web/sites/default/files/Policy-Document/20241122%20-%20CIS%20-%20ASP.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/Policy-Document/20241122%20-%20CIS%20-%20ASP.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "96dbf5f71679daf3d872da71a3e5526ca9c551286e6e7dadd6272be5bef1fc66",
+  "downloaded_at": "2026-07-03T17:10:49.111041+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\policy_wording\\20241122_20-_20CIS_20-_20ASP.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": true
+}

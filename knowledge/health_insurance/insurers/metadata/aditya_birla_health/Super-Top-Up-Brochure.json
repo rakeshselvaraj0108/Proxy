@@ -1,0 +1,14 @@
+{
+  "insurer_id": "aditya_birla_health",
+  "insurer_name": "Aditya Birla Health Insurance",
+  "category": "product_brochure",
+  "label": "Download Brochure",
+  "url": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/planpdf/Super-Top-Up-Brochure.pdf",
+  "final_url": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/planpdf/Super-Top-Up-Brochure.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "f7772375d5efc8089da41e0fc459790020c6bf13da3936fb1389bc8ba47f8f5b",
+  "downloaded_at": "2026-07-03T17:09:33.165059+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\aditya_birla_health\\product_brochure\\Super-Top-Up-Brochure.pdf",
+  "official_domain": "www.adityabirlacapital.com",
+  "health_insurance_relevant": true
+}

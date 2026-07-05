@@ -1,0 +1,14 @@
+{
+  "insurer_id": "care_health",
+  "insurer_name": "Care Health Insurance",
+  "category": "other_health_document",
+  "label": "Care Health Insurance",
+  "url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+  "final_url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+  "content_type": "application/pdf",
+  "content_sha256": "2ff29b3fed23b4f10886ea5a0adccfc21c4479ed2db506775c79498dbb92de34",
+  "downloaded_at": "2026-07-04T17:10:06.664269+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\care_health\\other_health_document\\369dff4f-e97d-4eba-85b1-9a0e0080ff58_c9e1c5f9.pdf",
+  "official_domain": "irdai.gov.in",
+  "health_insurance_relevant": true
+}

@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Marine Specific Policy",
+  "url": "https://www.tataaig.com/s3/Claims_Forms_marine_specific_policy.pdf_c5d4076d5e.pdf",
+  "final_url": "https://www.tataaig.com/s3/Claims_Forms_marine_specific_policy.pdf_c5d4076d5e.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "5252ee29abb2a15eee9d8f47158136a9607d7aa2777db432bc6bb88cdb78cefd",
+  "downloaded_at": "2026-07-03T17:10:26.172979+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\Claims_Forms_marine_specific_policy.pdf_c5d4076d5e.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": false
+}

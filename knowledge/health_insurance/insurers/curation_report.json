@@ -1,0 +1,135 @@
+{
+  "metadata_files": 128,
+  "relevant": 103,
+  "irrelevant": 25,
+  "by_insurer": {
+    "aditya_birla_health": {
+      "relevant": 24,
+      "irrelevant": 0,
+      "categories": {
+        "product_brochure": {
+          "relevant": 5,
+          "irrelevant": 0
+        },
+        "other_health_document": {
+          "relevant": 9,
+          "irrelevant": 0
+        },
+        "policy_wording": {
+          "relevant": 10,
+          "irrelevant": 0
+        }
+      }
+    },
+    "bajaj_allianz": {
+      "relevant": 4,
+      "irrelevant": 0,
+      "categories": {
+        "other_health_document": {
+          "relevant": 4,
+          "irrelevant": 0
+        }
+      }
+    },
+    "care_health": {
+      "relevant": 4,
+      "irrelevant": 0,
+      "categories": {
+        "other_health_document": {
+          "relevant": 4,
+          "irrelevant": 0
+        }
+      }
+    },
+    "hdfc_ergo": {
+      "relevant": 6,
+      "irrelevant": 2,
+      "categories": {
+        "other_health_document": {
+          "relevant": 2,
+          "irrelevant": 2
+        },
+        "claim_procedure": {
+          "relevant": 2,
+          "irrelevant": 0
+        },
+        "product_brochure": {
+          "relevant": 2,
+          "irrelevant": 0
+        }
+      }
+    },
+    "icici_lombard": {
+      "relevant": 4,
+      "irrelevant": 0,
+      "categories": {
+        "other_health_document": {
+          "relevant": 4,
+          "irrelevant": 0
+        }
+      }
+    },
+    "niva_bupa": {
+      "relevant": 3,
+      "irrelevant": 0,
+      "categories": {
+        "other_health_document": {
+          "relevant": 3,
+          "irrelevant": 0
+        }
+      }
+    },
+    "reliance_general": {
+      "relevant": 4,
+      "irrelevant": 0,
+      "categories": {
+        "other_health_document": {
+          "relevant": 4,
+          "irrelevant": 0
+        }
+      }
+    },
+    "star_health": {
+      "relevant": 4,
+      "irrelevant": 0,
+      "categories": {
+        "other_health_document": {
+          "relevant": 4,
+          "irrelevant": 0
+        }
+      }
+    },
+    "tata_aig": {
+      "relevant": 25,
+      "irrelevant": 15,
+      "categories": {
+        "claim_procedure": {
+          "relevant": 25,
+          "irrelevant": 15
+        }
+      }
+    },
+    "united_india": {
+      "relevant": 25,
+      "irrelevant": 8,
+      "categories": {
+        "other_health_document": {
+          "relevant": 9,
+          "irrelevant": 0
+        },
+        "policy_wording": {
+          "relevant": 10,
+          "irrelevant": 7
+        },
+        "faq": {
+          "relevant": 2,
+          "irrelevant": 0
+        },
+        "claim_procedure": {
+          "relevant": 4,
+          "irrelevant": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Domestic Travel Claim Form",
+  "url": "https://www.tataaig.com/s3/Claims_Forms_domestic_travel.pdf_bf14575d71.pdf",
+  "final_url": "https://www.tataaig.com/s3/Claims_Forms_domestic_travel.pdf_bf14575d71.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "e9f513eed8f614b0c55d8e7d0c409154ae9da76af5f817aac924b7ccd966d6b2",
+  "downloaded_at": "2026-07-03T17:10:20.151197+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\Claims_Forms_domestic_travel.pdf_bf14575d71.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": false
+}

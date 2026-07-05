@@ -1,0 +1,14 @@
+{
+  "insurer_id": "hdfc_ergo",
+  "insurer_name": "HDFC ERGO",
+  "category": "other_health_document",
+  "label": "Policy Issuance",
+  "url": "https://www.hdfcergo.com/docs/default-source/bitly/service-6.pdf ",
+  "final_url": "https://www.hdfcergo.com/docs/default-source/bitly/service-6.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "ee8a545faf9a217c853f3c2ac8f921aa0da511008a17be6725d757f86a6603da",
+  "downloaded_at": "2026-07-03T17:08:25.693557+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\hdfc_ergo\\other_health_document\\service-6.pdf",
+  "official_domain": "www.hdfcergo.com",
+  "health_insurance_relevant": true
+}

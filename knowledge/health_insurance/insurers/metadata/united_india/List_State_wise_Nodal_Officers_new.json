@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "claim_procedure",
+  "label": "List of Nodal Officers for MACT Claims",
+  "url": "https://uiic.co.in/web/sites/default/files/List_State_wise_Nodal_Officers_new.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/List_State_wise_Nodal_Officers_new.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "1fa8340eae8ea66fe56730e5d398f3e0eaccf7259f4c5079590b92d34587bbb5",
+  "downloaded_at": "2026-07-03T17:10:45.060936+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\claim_procedure\\List_State_wise_Nodal_Officers_new.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": true
+}

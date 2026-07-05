@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Pradhan Mantri Suraksha Bima Yojana(TATPGSP23103V022223)",
+  "url": "https://www.tataaig.com/s3/PMSBY_Claim_Form_64f054dc1e.pdf",
+  "final_url": "https://www.tataaig.com/s3/PMSBY_Claim_Form_64f054dc1e.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "aff0e1c8eab45cf43cc7be138e3bd2c8feeb18ce473115047cbe2ca4f33a34f6",
+  "downloaded_at": "2026-07-03T17:10:17.399725+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\PMSBY_Claim_Form_64f054dc1e.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": false
+}

@@ -1,0 +1,14 @@
+{
+  "insurer_id": "aditya_birla_health",
+  "insurer_name": "Aditya Birla Health Insurance",
+  "category": "product_brochure",
+  "label": "Download Brochure",
+  "url": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/planpdf/GHSbrochure.pdf",
+  "final_url": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/planpdf/GHSbrochure.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "64ceba0dfb63bc7ac0445cec296631e99f8422b16a391ddf98638cebb8eaf7ef",
+  "downloaded_at": "2026-07-03T17:09:36.970559+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\aditya_birla_health\\product_brochure\\GHSbrochure.pdf",
+  "official_domain": "www.adityabirlacapital.com",
+  "health_insurance_relevant": true
+}

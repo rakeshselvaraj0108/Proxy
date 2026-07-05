@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "policy_wording",
+  "label": "https://uiic.co.in/web/sites/default/files/Policy-Document/Personal%20Accident%20Policy%28Individual%20and%20Group%29.pdf",
+  "url": "https://uiic.co.in/web/sites/default/files/Policy-Document/Personal%20Accident%20Policy%28Individual%20and%20Group%29.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/Policy-Document/Personal%20Accident%20Policy%28Individual%20and%20Group%29.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "75cc66bb62822de286a77b737f0de7d93d7358f1754ef3c2dd9ad333344fd708",
+  "downloaded_at": "2026-07-03T17:10:48.072681+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\policy_wording\\Personal_20Accident_20Policy_28Individual_20and_20Group_29.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": true
+}

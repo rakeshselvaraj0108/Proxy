@@ -1,0 +1,14 @@
+{
+  "insurer_id": "aditya_birla_health",
+  "insurer_name": "Aditya Birla Health Insurance",
+  "category": "policy_wording",
+  "label": "Prospectus",
+  "url": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/active-one/prospectus.pdf",
+  "final_url": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/active-one/prospectus.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "8923d6457d368c9d80d097032a7b784c65b30ba07ae68ea7474af7569332fa56",
+  "downloaded_at": "2026-07-03T17:09:20.833664+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\aditya_birla_health\\policy_wording\\prospectus.pdf",
+  "official_domain": "www.adityabirlacapital.com",
+  "health_insurance_relevant": true
+}

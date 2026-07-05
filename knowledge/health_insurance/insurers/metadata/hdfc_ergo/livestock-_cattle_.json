@@ -1,0 +1,14 @@
+{
+  "insurer_id": "hdfc_ergo",
+  "insurer_name": "HDFC ERGO",
+  "category": "other_health_document",
+  "label": "Compare with alternative",
+  "url": "https://www.hdfcergo.com/docs/default-source/downloads/pages/livestock-(cattle).pdf",
+  "final_url": "https://www.hdfcergo.com/docs/default-source/downloads/pages/livestock-(cattle).pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "dc88f8f451427ad92e9cdffd2287179888793d364d8242871e6040366f5b9030",
+  "downloaded_at": "2026-07-03T17:08:30.180000+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\hdfc_ergo\\other_health_document\\livestock-_cattle_.pdf",
+  "official_domain": "www.hdfcergo.com",
+  "health_insurance_relevant": false
+}

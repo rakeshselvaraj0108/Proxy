@@ -1,0 +1,14 @@
+{
+  "insurer_id": "hdfc_ergo",
+  "insurer_name": "HDFC ERGO",
+  "category": "other_health_document",
+  "label": "Policy of Protection of Interests of Policyholders",
+  "url": "https://www.hdfcergo.com/docs/default-source/policies/pphi-policy.pdf",
+  "final_url": "https://www.hdfcergo.com/docs/default-source/policies/pphi-policy.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "83685be140791626f4780043baf19cc6c47cc4cca40167af96c69dc45db0e272",
+  "downloaded_at": "2026-07-03T17:08:24.682374+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\hdfc_ergo\\other_health_document\\pphi-policy.pdf",
+  "official_domain": "www.hdfcergo.com",
+  "health_insurance_relevant": true
+}

@@ -1,0 +1,14 @@
+{
+  "source_id": "medlineplus_health_topics",
+  "title": "MedlinePlus Health Topics",
+  "authority": "U.S. National Library of Medicine",
+  "category": "medical_knowledge",
+  "priority": 4,
+  "url": "https://medlineplus.gov/healthtopics.html",
+  "final_url": "https://medlineplus.gov/healthtopics.html",
+  "content_type": "text/html",
+  "content_sha256": "0af53f451ac6fa67736a513b46cc81107e03ff698f2c815b54dc1c88db808b75",
+  "collected_at": "2026-07-03T16:57:43.535948+00:00",
+  "text_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\official_sources\\medical_knowledge\\medlineplus_health_topics.md",
+  "purpose": "Patient-friendly disease, treatment, and procedure explanations"
+}

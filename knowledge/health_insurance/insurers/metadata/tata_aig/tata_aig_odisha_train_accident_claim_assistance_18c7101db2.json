@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Click here",
+  "url": "https://www.tataaig.com/s3/tata_aig_odisha_train_accident_claim_assistance_18c7101db2.pdf",
+  "final_url": "https://www.tataaig.com/s3/tata_aig_odisha_train_accident_claim_assistance_18c7101db2.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "77de6db203d21f7b81bb368a11e36dfb6c26246c4fa9f09ab628185c5659ded9",
+  "downloaded_at": "2026-07-03T17:10:04.099823+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\tata_aig_odisha_train_accident_claim_assistance_18c7101db2.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

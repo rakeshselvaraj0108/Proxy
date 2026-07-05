@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Package",
+  "url": "https://www.tataaig.com/s3/Claims_Forms_industrial_package.pdf_d906c97e23.pdf",
+  "final_url": "https://www.tataaig.com/s3/Claims_Forms_industrial_package.pdf_d906c97e23.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "51ce0bc5db4a05154416e427ad88d55ca1ca6121b6e9607f4a36927e241e4a45",
+  "downloaded_at": "2026-07-03T17:10:21.724513+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\Claims_Forms_industrial_package.pdf_d906c97e23.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

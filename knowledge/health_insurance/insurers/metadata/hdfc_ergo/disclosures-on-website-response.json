@@ -1,0 +1,14 @@
+{
+  "insurer_id": "hdfc_ergo",
+  "insurer_name": "HDFC ERGO",
+  "category": "claim_procedure",
+  "label": "Product wise cashless services",
+  "url": "https://www.hdfcergo.com/docs/default-source/default-document-library/disclosures-on-website-response.pdf",
+  "final_url": "https://www.hdfcergo.com/docs/default-source/default-document-library/disclosures-on-website-response.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "a6277febce54f4c2456dd8bbdd4dd5fa6301d7dec0f0de46ee8ab78a636b03fe",
+  "downloaded_at": "2026-07-03T17:08:25.176466+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\hdfc_ergo\\claim_procedure\\disclosures-on-website-response.pdf",
+  "official_domain": "www.hdfcergo.com",
+  "health_insurance_relevant": true
+}

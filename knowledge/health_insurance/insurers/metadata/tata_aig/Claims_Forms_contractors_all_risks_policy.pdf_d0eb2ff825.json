@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Contractors All risk",
+  "url": "https://www.tataaig.com/s3/Claims_Forms_contractors_all_risks_policy.pdf_d0eb2ff825.pdf",
+  "final_url": "https://www.tataaig.com/s3/Claims_Forms_contractors_all_risks_policy.pdf_d0eb2ff825.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "649454ba6f44012819f3bd3df57eb4c0c8e72cdad4f6fe711f103eec8e41108a",
+  "downloaded_at": "2026-07-03T17:10:28.013558+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\Claims_Forms_contractors_all_risks_policy.pdf_d0eb2ff825.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": false
+}

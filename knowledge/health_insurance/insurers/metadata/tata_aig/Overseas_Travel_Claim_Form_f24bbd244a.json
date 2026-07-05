@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Overseas Travel Claim Form",
+  "url": "https://www.tataaig.com/s3/Overseas_Travel_Claim_Form_f24bbd244a.pdf",
+  "final_url": "https://www.tataaig.com/s3/Overseas_Travel_Claim_Form_f24bbd244a.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "b6e5bf5940a27cd06798ee1c244ca5451ea7622735fe7bee507f35be67e31d8d",
+  "downloaded_at": "2026-07-03T17:10:20.693343+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\Overseas_Travel_Claim_Form_f24bbd244a.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": false
+}

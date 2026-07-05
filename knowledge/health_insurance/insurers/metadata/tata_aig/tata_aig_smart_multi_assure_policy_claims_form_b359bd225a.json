@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Tata AIG Smart Multi Assure Policy(IRDAN108RPMS0009V01202425)",
+  "url": "https://www.tataaig.com/s3/tata_aig_smart_multi_assure_policy_claims_form_b359bd225a.pdf",
+  "final_url": "https://www.tataaig.com/s3/tata_aig_smart_multi_assure_policy_claims_form_b359bd225a.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "2c4f6b08dea3213536c3cd3e34ce9b0d9ddb8f6c2a8bfeb7b4d216b77b8182a4",
+  "downloaded_at": "2026-07-03T17:10:12.681402+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\tata_aig_smart_multi_assure_policy_claims_form_b359bd225a.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

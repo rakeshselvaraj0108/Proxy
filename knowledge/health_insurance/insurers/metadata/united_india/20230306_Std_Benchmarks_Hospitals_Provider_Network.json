@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "other_health_document",
+  "label": "Standards and Benchmarks for the Hospitals in the Provider Network",
+  "url": "https://uiic.co.in/web/sites/default/files/20230306_Std_Benchmarks_Hospitals_Provider_Network.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/20230306_Std_Benchmarks_Hospitals_Provider_Network.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "1b294703b3e598b660d77b25ce2d70276cee72b8f992a02b309b1fae2887cfd5",
+  "downloaded_at": "2026-07-03T17:10:43.795435+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\other_health_document\\20230306_Std_Benchmarks_Hospitals_Provider_Network.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": true
+}

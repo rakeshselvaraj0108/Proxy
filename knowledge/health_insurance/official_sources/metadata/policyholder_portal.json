@@ -1,0 +1,14 @@
+{
+  "source_id": "policyholder_portal",
+  "title": "IRDAI Policyholder Portal",
+  "authority": "IRDAI Policyholder Portal",
+  "category": "consumer_rights",
+  "priority": 5,
+  "url": "https://policyholder.gov.in/",
+  "final_url": "https://policyholder.gov.in/",
+  "content_type": "text/html;charset=UTF-8",
+  "content_sha256": "f83e98e64640670e5d872a6e3c2cda01d55daf32a14943136549083311227b41",
+  "collected_at": "2026-07-03T16:57:42.679950+00:00",
+  "text_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\official_sources\\consumer_rights\\policyholder_portal.md",
+  "purpose": "Consumer rights, insurance complaints, FAQs, and grievance process"
+}

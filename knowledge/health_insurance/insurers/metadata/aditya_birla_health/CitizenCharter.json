@@ -1,0 +1,14 @@
+{
+  "insurer_id": "aditya_birla_health",
+  "insurer_name": "Aditya Birla Health Insurance",
+  "category": "other_health_document",
+  "label": "Citizen's Charter",
+  "url": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/CitizenCharter.pdf",
+  "final_url": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/CitizenCharter.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "bd05246c33d53fcccca631b3c199620d2ed86258dd3ea4630ab3611eb736bcf3",
+  "downloaded_at": "2026-07-03T17:09:11.256199+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\aditya_birla_health\\other_health_document\\CitizenCharter.pdf",
+  "official_domain": "www.adityabirlacapital.com",
+  "health_insurance_relevant": true
+}

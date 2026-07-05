@@ -1,0 +1,179 @@
+from __future__ import annotations
+
+import json
+from typing import Any
+
+from app.core.config import get_settings
+from app.knowledge_graph.graph_store import GraphStore
+from app.models.domain import Domain
+
+
+class Neo4jGraphStore(GraphStore):
+    def __init__(self) -> None:
+        self.settings = get_settings()
+        self._driver = None
+
+    def _get_driver(self):
+        if self._driver is not None:
+            return self._driver
+        if not self.settings.neo4j_password:
+            raise RuntimeError("NEO4J_PASSWORD is required when GRAPH_STORE_BACKEND=neo4j")
+        from neo4j import GraphDatabase
+
+        self._driver = GraphDatabase.driver(
+            self.settings.neo4j_uri,
+            auth=(self.settings.neo4j_user, self.settings.neo4j_password),
+        )
+        self._driver.verify_connectivity()
+        return self._driver
+
+    async def add_event(self, event_type: str, payload: dict[str, Any]) -> dict[str, Any]:
+        if event_type == "case_graph":
+            return await self.upsert_case_graph(payload.get("case", {}), payload.get("evidence"))
+        if event_type == "knowledge_document":
+            return await self.upsert_knowledge_document(
+                Domain(payload["domain"]),
+                payload["document_id"],
+                payload["title"],
+                payload["source_path"],
+                payload.get("metadata", {}),
+            )
+        return {"event_type": event_type, "mode": "neo4j"}
+
+    async def upsert_case_graph(self, case: dict, evidence: dict | None = None) -> dict[str, Any]:
+        driver = self._get_driver()
+        query = """
+        MERGE (ins:Insurer {name: $institution})
+        MERGE (c:Case {id: $case_id})
+          SET c.title = $title,
+              c.summary = $summary,
+              c.domain = $domain,
+              c.updatedAt = datetime()
+        MERGE (c)-[:AGAINST]->(ins)
+        WITH c
+        OPTIONAL MATCH (c)-[:RESULTED_IN]->(old:Outcome)
+        DELETE old
+        RETURN c.id AS case_id
+        """
+        with driver.session() as session:
+            session.run(
+                query,
+                case_id=case["id"],
+                domain=case["domain"].value if hasattr(case["domain"], "value") else case["domain"],
+                institution=case["institution_name"],
+                title=case.get("title", ""),
+                summary=case.get("summary", ""),
+            )
+        return {"case_id": case["id"], "mode": "neo4j"}
+
+    async def upsert_knowledge_document(
+        self,
+        domain: Domain,
+        document_id: str,
+        title: str,
+        source_path: str,
+        metadata: dict[str, Any],
+    ) -> dict[str, Any]:
+        driver = self._get_driver()
+        insurer_name = metadata.get("insurer_name") or metadata.get("authority")
+        category = metadata.get("category") or metadata.get("knowledge_type") or "policy_document"
+        query = """
+        MERGE (doc:PolicyDocument {id: $document_id})
+          SET doc.title = $title,
+              doc.sourcePath = $source_path,
+              doc.category = $category,
+              doc.domain = $domain,
+              doc.metadataJson = $metadata,
+              doc.updatedAt = datetime()
+        """
+        params: dict[str, Any] = {
+            "document_id": document_id,
+            "title": title,
+            "source_path": source_path,
+            "category": category,
+            "domain": domain.value,
+            "metadata": json.dumps(metadata, ensure_ascii=True),
+        }
+        if insurer_name:
+            query += """
+        MERGE (ins:Insurer {name: $insurer_name})
+        MERGE (ins)-[:PUBLISHES]->(doc)
+        """
+            params["insurer_name"] = insurer_name
+        query += " RETURN doc.id AS document_id"
+        with driver.session() as session:
+            session.run(query, **params)
+        return {"document_id": document_id, "mode": "neo4j"}
+
+    async def query_institution_pattern(self, domain: Domain, institution_name: str) -> list[dict[str, Any]]:
+        driver = self._get_driver()
+        query = """
+        MATCH (ins:Insurer {name: $institution})<-[:AGAINST]-(c:Case {domain: $domain})
+        OPTIONAL MATCH (c)-[:CITES]->(cl:Clause)<-[:CONTAINS]-(doc:PolicyDocument)<-[:PUBLISHES]-(ins)
+        OPTIONAL MATCH (cl)-[:GOVERNED_BY]->(reg:Regulation)
+        OPTIONAL MATCH (c)-[:RESULTED_IN]->(o:Outcome)
+        WITH ins, count(DISTINCT c) AS case_count,
+             collect(DISTINCT cl.title)[0..5] AS top_clauses,
+             collect(DISTINCT o.status) AS outcomes
+        RETURN case_count, top_clauses, outcomes
+        """
+        with driver.session() as session:
+            result = session.run(query, institution=institution_name, domain=domain.value).single()
+        if not result or not result["case_count"]:
+            doc_query = """
+            MATCH (ins:Insurer {name: $institution})-[:PUBLISHES]->(doc:PolicyDocument {domain: $domain})
+            RETURN count(doc) AS docs
+            """
+            with driver.session() as session:
+                doc_result = session.run(doc_query, institution=institution_name, domain=domain.value).single()
+            docs = int(doc_result["docs"]) if doc_result else 0
+            if docs:
+                return [
+                    {
+                        "pattern": f"{docs} indexed policy documents published by {institution_name}.",
+                        "domain": domain.value,
+                        "institution": institution_name,
+                        "confidence": 0.74,
+                    }
+                ]
+            return [
+                {
+                    "pattern": "No prior cases in graph; cite insurer policy wording and IRDAI regulations.",
+                    "domain": domain.value,
+                    "institution": institution_name,
+                    "confidence": 0.5,
+                }
+            ]
+        outcomes = [item for item in (result["outcomes"] or []) if item]
+        outcome_text = f" Outcomes observed: {', '.join(outcomes)}." if outcomes else ""
+        clauses = [item for item in (result["top_clauses"] or []) if item]
+        clause_text = f" Top cited clauses: {'; '.join(clauses)}." if clauses else ""
+        return [
+            {
+                "pattern": f"{result['case_count']} prior cases against {institution_name}.{clause_text}{outcome_text}",
+                "domain": domain.value,
+                "institution": institution_name,
+                "confidence": min(0.65 + int(result["case_count"]) * 0.05, 0.95),
+            }
+        ]
+
+    async def find_similar_cases(self, domain: Domain, institution_name: str, limit: int = 5) -> list[dict[str, Any]]:
+        driver = self._get_driver()
+        query = """
+        MATCH (ins:Insurer {name: $institution})<-[:AGAINST]-(c:Case {domain: $domain})
+        RETURN c.id AS case_id, c.title AS title, c.summary AS summary
+        ORDER BY c.updatedAt DESC
+        LIMIT $limit
+        """
+        with driver.session() as session:
+            rows = session.run(query, institution=institution_name, domain=domain.value, limit=limit)
+            return [dict(row) for row in rows]
+
+    def health_check(self) -> dict[str, Any]:
+        try:
+            driver = self._get_driver()
+            with driver.session() as session:
+                result = session.run("RETURN 1 AS ok").single()
+            return {"status": "ready" if result else "degraded", "backend": "neo4j", "uri": self.settings.neo4j_uri}
+        except Exception as exc:
+            return {"status": "unreachable", "backend": "neo4j", "uri": self.settings.neo4j_uri, "error": str(exc)}

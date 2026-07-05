@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "other_health_document",
+  "label": "Anti-Money Laundering Program",
+  "url": "https://uiic.co.in/web/sites/default/files/AML_UI_POLICY-REVISED-_23.4.2013-IT.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/AML_UI_POLICY-REVISED-_23.4.2013-IT.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "6fd105ba831c7c9cfc991fa4b9fe82da6d183d6e09f0e25033047ad30af4ee57",
+  "downloaded_at": "2026-07-03T17:10:44.035868+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\other_health_document\\AML_UI_POLICY-REVISED-_23.4.2013-IT.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": true
+}

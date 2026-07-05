@@ -1,0 +1,14 @@
+{
+  "insurer_id": "niva_bupa",
+  "insurer_name": "Niva Bupa",
+  "category": "other_health_document",
+  "label": "Whistleblower Policy",
+  "url": "https://www.nivabupa.com/content/dam/nivabupa/PDF/20230725Whistleblower.pdf",
+  "final_url": "https://www.nivabupa.com/content/dam/nivabupa/PDF/20230725Whistleblower.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "88eae054263c50e980b495476838586b1af0445eec67dded63b1d93e800327d8",
+  "downloaded_at": "2026-07-03T17:08:53.758913+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\niva_bupa\\other_health_document\\20230725Whistleblower.pdf",
+  "official_domain": "www.nivabupa.com",
+  "health_insurance_relevant": true
+}

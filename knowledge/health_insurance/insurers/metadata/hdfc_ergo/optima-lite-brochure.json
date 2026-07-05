@@ -1,0 +1,14 @@
+{
+  "insurer_id": "hdfc_ergo",
+  "insurer_name": "HDFC ERGO",
+  "category": "product_brochure",
+  "label": "HDFC ERGO \u2013 Optima Lite Brochure (PDF)",
+  "url": "https://www.hdfcergo.com/docs/default-source/downloads/brochures/optima-lite-brochure.pdf",
+  "final_url": "https://www.hdfcergo.com/docs/default-source/downloads/brochures/optima-lite-brochure.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "6d6cc352728c31bb5665ad197ae78b1c9796b68e9cc250d75635a16673bb0fc5",
+  "downloaded_at": "2026-07-03T17:08:26.072273+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\hdfc_ergo\\product_brochure\\optima-lite-brochure.pdf",
+  "official_domain": "www.hdfcergo.com",
+  "health_insurance_relevant": true
+}

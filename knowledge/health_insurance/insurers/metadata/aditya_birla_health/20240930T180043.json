@@ -1,0 +1,14 @@
+{
+  "insurer_id": "aditya_birla_health",
+  "insurer_name": "Aditya Birla Health Insurance",
+  "category": "other_health_document",
+  "label": "CIS Document",
+  "url": "https://www.adityabirlacapital.com/healthinsurance/assets/PDF/20240930T180043.pdf",
+  "final_url": "https://www.adityabirlacapital.com/healthinsurance/assets/PDF/20240930T180043.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "a284daaef31603b078ff039b83b615934911b50f6d3a5590b361b8ccb9595581",
+  "downloaded_at": "2026-07-03T17:09:33.984903+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\aditya_birla_health\\other_health_document\\20240930T180043.pdf",
+  "official_domain": "www.adityabirlacapital.com",
+  "health_insurance_relevant": true
+}

@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "claim_procedure",
+  "label": "List of Non Motor Non Health Claims Servicing Offices",
+  "url": "https://uiic.co.in/web/sites/default/files/Basic%20Documents/LIST-OF-NON-MOTOR-NON-HEALTH-CLAIMS-SERVICING-OFFICES.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/Basic%20Documents/LIST-OF-NON-MOTOR-NON-HEALTH-CLAIMS-SERVICING-OFFICES.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "4dd9871e7174bfcac96fc1d9585fd93337bb59f4aadba8f3a2ab879ad31c2340",
+  "downloaded_at": "2026-07-03T17:10:41.984290+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\claim_procedure\\LIST-OF-NON-MOTOR-NON-HEALTH-CLAIMS-SERVICING-OFFICES.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": false
+}

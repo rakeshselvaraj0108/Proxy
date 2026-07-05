@@ -1,0 +1,14 @@
+{
+  "insurer_id": "aditya_birla_health",
+  "insurer_name": "Aditya Birla Health Insurance",
+  "category": "other_health_document",
+  "label": "CIS Document",
+  "url": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/active-one/VYTL/product-information/customer-information-sheet.pdf",
+  "final_url": "https://www.adityabirlacapital.com/healthinsurance/assets/pdf/active-one/VYTL/product-information/customer-information-sheet.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "1e5774922feb7a34e2ab063576a41fb650d815379ccd282b267f381fbe3b4472",
+  "downloaded_at": "2026-07-03T17:09:31.464300+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\aditya_birla_health\\other_health_document\\customer-information-sheet_2a0ee0f5.pdf",
+  "official_domain": "www.adityabirlacapital.com",
+  "health_insurance_relevant": true
+}

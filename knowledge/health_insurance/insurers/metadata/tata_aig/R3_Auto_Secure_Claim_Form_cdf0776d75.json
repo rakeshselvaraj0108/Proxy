@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Auto Secure - Motor Insurance (Private Car/Two Wheeler/Commercial Vehicle)",
+  "url": "https://www.tataaig.com/s3/R3_Auto_Secure_Claim_Form_cdf0776d75.pdf",
+  "final_url": "https://www.tataaig.com/s3/R3_Auto_Secure_Claim_Form_cdf0776d75.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "daf83c2045cea7f4783ecc313a9116e6c19305024b997b230ed4466bde542099",
+  "downloaded_at": "2026-07-03T17:10:15.396308+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\R3_Auto_Secure_Claim_Form_cdf0776d75.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": false
+}

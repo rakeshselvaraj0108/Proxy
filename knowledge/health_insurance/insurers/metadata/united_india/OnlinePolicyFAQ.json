@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "faq",
+  "label": "Online Policy FAQ",
+  "url": "https://uiic.co.in/web/sites/default/files/OnlinePolicyFAQ.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/OnlinePolicyFAQ.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "e47ab20294b13afab514455f494d0bba2294da249ec4c23e7d8fbdfd8e4ab131",
+  "downloaded_at": "2026-07-03T17:10:45.613720+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\faq\\OnlinePolicyFAQ.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": true
+}

@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Business Guard Udyam Package",
+  "url": "https://www.tataaig.com/s3/BG_Udyam_Package_Claim_Form_27865246b4.pdf",
+  "final_url": "https://www.tataaig.com/s3/BG_Udyam_Package_Claim_Form_27865246b4.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "5597cdd359bf364fa663c41ff0c44b97b7c93b20265042c774a215bbfd6b1a78",
+  "downloaded_at": "2026-07-03T17:10:29.537591+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\BG_Udyam_Package_Claim_Form_27865246b4.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

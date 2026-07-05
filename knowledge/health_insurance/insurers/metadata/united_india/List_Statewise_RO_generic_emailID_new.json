@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "claim_procedure",
+  "label": "List of Nodal Officers for MACT Claims- Statewise & ROwise with Generic Email ID",
+  "url": "https://uiic.co.in/web/sites/default/files/List_Statewise_RO_generic_emailID_new.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/List_Statewise_RO_generic_emailID_new.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "972a810270883a5826c9502f08b83efda0393f00f7bedd8fa12b35087d65ac02",
+  "downloaded_at": "2026-07-03T17:10:42.667872+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\claim_procedure\\List_Statewise_RO_generic_emailID_new.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": true
+}

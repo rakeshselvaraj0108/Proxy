@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Private Client Group Home Secure Policy(IRDAN108RP0009V03201213 )",
+  "url": "https://www.tataaig.com/s3/PCG_Home_Policy_Claim_Form_65c5e5b1a8.pdf",
+  "final_url": "https://www.tataaig.com/s3/PCG_Home_Policy_Claim_Form_65c5e5b1a8.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "b35f308f732ccfe2ca60d9800a67d95b561fbd3fd3c5a13b878f9b3d6ed89492",
+  "downloaded_at": "2026-07-03T17:10:09.991566+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\PCG_Home_Policy_Claim_Form_65c5e5b1a8.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

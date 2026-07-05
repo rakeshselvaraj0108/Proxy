@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Smart Home All Risk (IRDAN108RP0002V01202425)",
+  "url": "https://www.tataaig.com/s3/smart_home_all_risk_policy_portable_electronics_claim_form_2748f05403.pdf",
+  "final_url": "https://www.tataaig.com/s3/smart_home_all_risk_policy_portable_electronics_claim_form_2748f05403.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "5e1dfe62151105cde22ec3585824eef0f8c4af0d801d1ad44bf4d987c49d3962",
+  "downloaded_at": "2026-07-03T17:10:11.462787+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\smart_home_all_risk_policy_portable_electronics_claim_form_2748f05403.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

@@ -1,0 +1,14 @@
+{
+  "insurer_id": "hdfc_ergo",
+  "insurer_name": "HDFC ERGO",
+  "category": "claim_procedure",
+  "label": "Third Party Claim",
+  "url": "https://www.hdfcergo.com/docs/default-source/third-party-claims/tp-claim-contact-details_v1.pdf",
+  "final_url": "https://www.hdfcergo.com/docs/default-source/third-party-claims/tp-claim-contact-details_v1.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "409ce77c2b2fdfedf78402b5f166005060c11864c613dabaa85ad8450d72687b",
+  "downloaded_at": "2026-07-03T17:08:24.332190+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\hdfc_ergo\\claim_procedure\\tp-claim-contact-details_v1.pdf",
+  "official_domain": "www.hdfcergo.com",
+  "health_insurance_relevant": true
+}

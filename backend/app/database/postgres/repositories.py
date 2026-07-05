@@ -1,0 +1,262 @@
+﻿from __future__ import annotations
+
+import json
+from pathlib import Path
+from uuid import uuid4
+
+from app.database.supabase.client import get_supabase
+from app.knowledge_graph.neo4j.service import knowledge_graph
+from app.models.domain import Domain
+from app.schemas.cases import CaseCreate, CaseStatus
+
+
+class LocalRepositoryStore:
+    def __init__(self, root: Path | None = None) -> None:
+        self.root = root or Path("datasets") / "app_store"
+        self.root.mkdir(parents=True, exist_ok=True)
+
+    def path(self, table: str) -> Path:
+        return self.root / f"{table}.jsonl"
+
+    def read(self, table: str) -> list[dict]:
+        path = self.path(table)
+        if not path.exists():
+            return []
+        rows: list[dict] = []
+        with path.open("r", encoding="utf-8") as handle:
+            for line in handle:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    rows.append(json.loads(line))
+                except json.JSONDecodeError:
+                    continue
+        return rows
+
+    def upsert(self, table: str, key: str, row: dict) -> dict:
+        rows = self.read(table)
+        replaced = False
+        for index, existing in enumerate(rows):
+            if existing.get(key) == row.get(key):
+                rows[index] = row
+                replaced = True
+                break
+        if not replaced:
+            rows.append(row)
+        self.write(table, rows)
+        return row
+
+    def append(self, table: str, row: dict) -> dict:
+        path = self.path(table)
+        with path.open("a", encoding="utf-8") as handle:
+            handle.write(json.dumps(row, ensure_ascii=True, default=str) + "\n")
+        return row
+
+    def append_many(self, table: str, rows: list[dict]) -> int:
+        if not rows:
+            return 0
+        path = self.path(table)
+        with path.open("a", encoding="utf-8") as handle:
+            for row in rows:
+                handle.write(json.dumps(row, ensure_ascii=True, default=str) + "\n")
+        return len(rows)
+
+    def write(self, table: str, rows: list[dict]) -> None:
+        path = self.path(table)
+        with path.open("w", encoding="utf-8") as handle:
+            for row in rows:
+                handle.write(json.dumps(row, ensure_ascii=True, default=str) + "\n")
+
+
+class CaseRepository:
+    """Repository boundary for Supabase/Postgres with durable local fallback."""
+
+    def __init__(self) -> None:
+        self._cases: dict[str, dict] = {}
+        self._documents: dict[str, dict] = {}
+        self._events: list[dict] = []
+        self._agent_runs: dict[str, dict] = {}
+        self._appeals: dict[str, dict] = {}
+        self._knowledge_sources: dict[str, dict] = {}
+        self._knowledge_chunks: dict[str, dict] = {}
+        self.local = LocalRepositoryStore()
+        self.supabase = get_supabase()
+        self._hydrate_local()
+
+    def _hydrate_local(self) -> None:
+        for row in self.local.read("cases"):
+            row["domain"] = Domain(row["domain"]) if isinstance(row.get("domain"), str) else row.get("domain")
+            row["status"] = CaseStatus(row["status"]) if isinstance(row.get("status"), str) else row.get("status")
+            self._cases[row["id"]] = row
+        self._documents = {row["document_id"]: row for row in self.local.read("case_documents")}
+        self._events = self.local.read("case_events")
+        self._agent_runs = {row["id"]: row for row in self.local.read("agent_runs")}
+        self._appeals = {row["id"]: row for row in self.local.read("appeals")}
+        self._knowledge_sources = {row["source_id"]: row for row in self.local.read("knowledge_sources")}
+        self._knowledge_chunks = {row["chunk_id"]: row for row in self.local.read("knowledge_chunks")}
+
+    def _jsonable(self, value):
+        if isinstance(value, Domain) or isinstance(value, CaseStatus):
+            return value.value
+        if isinstance(value, dict):
+            return {key: self._jsonable(item) for key, item in value.items()}
+        if isinstance(value, list):
+            return [self._jsonable(item) for item in value]
+        return value
+
+    async def create_case(self, user_id: str, payload: CaseCreate) -> dict:
+        case_id = str(uuid4())
+        record = {
+            "id": case_id,
+            "user_id": user_id,
+            "domain": payload.domain,
+            "title": payload.title,
+            "institution_name": payload.institution_name,
+            "summary": payload.summary,
+            "jurisdiction": payload.jurisdiction,
+            "status": CaseStatus.INTAKE,
+        }
+        self._cases[case_id] = record
+        stored = self._jsonable(record)
+        self.local.upsert("cases", "id", stored)
+        await self.supabase.upsert("cases", stored, on_conflict="id")
+        await self.add_event(case_id, {"actor": "user", "event_type": "case_created", "title": "Case created", "body": payload.summary})
+        await knowledge_graph.upsert_case_graph(record)
+        return record
+
+    async def update_case_status(self, case_id: str, status: CaseStatus) -> dict | None:
+        case = self._cases.get(case_id)
+        if not case:
+            return None
+        case["status"] = status
+        stored = self._jsonable(case)
+        self.local.upsert("cases", "id", stored)
+        await self.supabase.upsert("cases", stored, on_conflict="id")
+        return case
+
+    async def get_case(self, case_id: str, user_id: str) -> dict | None:
+        case = self._cases.get(case_id)
+        if case and case["user_id"] == user_id:
+            return case
+        rows = await self.supabase.select("cases", {"id": case_id, "user_id": user_id}, limit=1)
+        if not rows:
+            return None
+        row = rows[0]
+        row["domain"] = Domain(row["domain"])
+        row["status"] = CaseStatus(row["status"])
+        self._cases[row["id"]] = row
+        return row
+
+    async def list_cases(self, user_id: str, domain: Domain | None = None) -> list[dict]:
+        rows = [case for case in self._cases.values() if case["user_id"] == user_id]
+        if domain:
+            rows = [case for case in rows if case["domain"] == domain]
+        return rows
+
+    async def add_document(self, document: dict) -> dict:
+        self._documents[document["document_id"]] = document
+        stored = self._jsonable(document)
+        self.local.upsert("case_documents", "document_id", stored)
+        supabase_document = {key: value for key, value in stored.items() if key not in {"document_id", "chunks_indexed"}}
+        await self.supabase.upsert("case_documents", supabase_document, on_conflict="id")
+        await self.add_event(
+            document["case_id"],
+            {
+                "actor": "system",
+                "event_type": "document_uploaded",
+                "title": f"Document uploaded: {document['filename']}",
+                "body": f"Indexed: {document.get('indexed', False)}",
+            },
+        )
+        return document
+
+    async def list_documents(self, case_id: str) -> list[dict]:
+        return [document for document in self._documents.values() if document["case_id"] == case_id]
+
+    async def add_event(self, case_id: str, event: dict) -> dict:
+        record = {"id": str(uuid4()), "case_id": case_id, **event}
+        self._events.append(record)
+        self.local.append("case_events", self._jsonable(record))
+        await self.supabase.insert("case_events", self._jsonable(record))
+        return record
+
+    async def list_events(self, case_id: str) -> list[dict]:
+        return [event for event in self._events if event["case_id"] == case_id]
+
+    async def add_agent_run(self, case_id: str, workflow_name: str, status: str, input_payload: dict, output_payload: dict, error: str | None = None) -> dict:
+        run = {
+            "id": str(uuid4()),
+            "case_id": case_id,
+            "workflow_name": workflow_name,
+            "status": status,
+            "input": input_payload,
+            "output": output_payload,
+            "error": error,
+        }
+        self._agent_runs[run["id"]] = run
+        stored = self._jsonable(run)
+        self.local.append("agent_runs", stored)
+        await self.supabase.insert("agent_runs", stored)
+        await self.add_event(case_id, {"actor": "agent", "event_type": "agent_run", "title": f"{workflow_name} finished", "body": status})
+        return run
+
+    async def list_agent_runs(self, case_id: str) -> list[dict]:
+        return [run for run in self._agent_runs.values() if run["case_id"] == case_id]
+
+    async def add_appeal(self, case_id: str, user_id: str, title: str, content: str) -> dict:
+        version = 1 + len([appeal for appeal in self._appeals.values() if appeal["case_id"] == case_id])
+        appeal = {
+            "id": str(uuid4()),
+            "case_id": case_id,
+            "user_id": user_id,
+            "version": version,
+            "title": title,
+            "content": content,
+            "status": "draft",
+        }
+        self._appeals[appeal["id"]] = appeal
+        self.local.append("appeals", self._jsonable(appeal))
+        await self.supabase.insert("appeals", self._jsonable(appeal))
+        await self.add_event(case_id, {"actor": "agent", "event_type": "appeal_drafted", "title": f"Appeal draft v{version} created", "body": title})
+        return appeal
+
+    async def list_appeals(self, case_id: str) -> list[dict]:
+        return [appeal for appeal in self._appeals.values() if appeal["case_id"] == case_id]
+
+    async def upsert_knowledge_source(self, source: dict) -> dict:
+        self._knowledge_sources[source["source_id"]] = source
+        stored = self._jsonable(source)
+        self.local.upsert("knowledge_sources", "source_id", stored)
+        await self.supabase.upsert("knowledge_sources", stored, on_conflict="source_id")
+        return source
+
+    async def add_knowledge_chunks(self, source_id: str, chunks: list[dict]) -> int:
+        stored_chunks: list[dict] = []
+        supabase_records: list[dict] = []
+        for chunk in chunks:
+            chunk_id = chunk.get("chunk_id") or str(uuid4())
+            record = {"chunk_id": chunk_id, "source_id": source_id, **chunk}
+            self._knowledge_chunks[chunk_id] = record
+            stored = self._jsonable(record)
+            stored_chunks.append(stored)
+            supabase_records.append({key: value for key, value in stored.items() if key != "chunk_id"})
+        self.local.append_many("knowledge_chunks", stored_chunks)
+        await self.supabase.upsert_many("knowledge_chunks", supabase_records, on_conflict="source_id,chunk_index")
+        return len(chunks)
+
+    async def list_knowledge_sources(self, domain: Domain | None = None) -> list[dict]:
+        rows = list(self._knowledge_sources.values())
+        if domain:
+            rows = [source for source in rows if source.get("domain") == domain.value]
+        return rows
+
+    async def list_knowledge_chunks(self, source_id: str | None = None, limit: int = 100) -> list[dict]:
+        rows = list(self._knowledge_chunks.values())
+        if source_id:
+            rows = [chunk for chunk in rows if chunk.get("source_id") == source_id]
+        return rows[:limit]
+
+
+case_repository = CaseRepository()
+

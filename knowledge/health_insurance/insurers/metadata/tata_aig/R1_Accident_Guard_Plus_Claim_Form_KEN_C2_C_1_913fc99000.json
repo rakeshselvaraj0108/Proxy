@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Accident Guard Plus(TATPAIP23086V032223)",
+  "url": "https://www.tataaig.com/s3/R1_Accident_Guard_Plus_Claim_Form_KEN_C2_C_1_913fc99000.pdf",
+  "final_url": "https://www.tataaig.com/s3/R1_Accident_Guard_Plus_Claim_Form_KEN_C2_C_1_913fc99000.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "df70bd1476226d3e3e93a43f8bdd02a9039af661fcb20e18a4e79b3a3e2816c6",
+  "downloaded_at": "2026-07-03T17:10:18.282232+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\R1_Accident_Guard_Plus_Claim_Form_KEN_C2_C_1_913fc99000.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

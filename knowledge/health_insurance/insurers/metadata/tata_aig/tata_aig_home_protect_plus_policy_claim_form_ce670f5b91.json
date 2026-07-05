@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "TATA AIG Home Protect Plus Policy(IRDAN108RPPR0008V01202425)",
+  "url": "https://www.tataaig.com/s3/tata_aig_home_protect_plus_policy_claim_form_ce670f5b91.pdf",
+  "final_url": "https://www.tataaig.com/s3/tata_aig_home_protect_plus_policy_claim_form_ce670f5b91.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "e915244479fd216f3eaa0879867f208d87e62335869aee59076920a7b9a91308",
+  "downloaded_at": "2026-07-03T17:10:12.138146+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\tata_aig_home_protect_plus_policy_claim_form_ce670f5b91.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

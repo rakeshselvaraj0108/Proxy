@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "click here",
+  "url": "https://www.tataaig.com/s3/cyclone_biparjoy_claims_details_89c5221d86.pdf",
+  "final_url": "https://www.tataaig.com/s3/cyclone_biparjoy_claims_details_89c5221d86.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "59c2f3b496e69a8eb647fe65028fe0b608f75821c98172b92951a679683fa8eb",
+  "downloaded_at": "2026-07-03T17:10:08.647797+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\cyclone_biparjoy_claims_details_89c5221d86.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

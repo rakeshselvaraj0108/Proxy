@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "faq",
+  "label": "FAQs on Policy by SMS",
+  "url": "https://uiic.co.in/web/sites/default/files/FAQ%20-PolicybySMS_revised.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/FAQ%20-PolicybySMS_revised.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "8b3a553d467ce440240dffeedd948cb286513a4d9f2cfba2d5987c26b9ade840",
+  "downloaded_at": "2026-07-03T17:10:44.473435+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\faq\\FAQ_20-PolicybySMS_revised.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": true
+}

@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "claim_procedure",
+  "label": "FAQs on COVID-19 Claims",
+  "url": "https://uiic.co.in/web/sites/default/files/FAQ_COVID-19_31-08-22.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/FAQ_COVID-19_31-08-22.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "190e8ef8146afb9cd785072ffa853bcbe2376fd33e3bc2c689f76f0ad2daa1ba",
+  "downloaded_at": "2026-07-03T17:10:42.415824+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\claim_procedure\\FAQ_COVID-19_31-08-22.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": true
+}

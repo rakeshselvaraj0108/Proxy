@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "click here",
+  "url": "https://www.tataaig.com/s3/himachal_pradesh_flood_claims_089cafc7f6.pdf",
+  "final_url": "https://www.tataaig.com/s3/himachal_pradesh_flood_claims_089cafc7f6.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "4c9704158420ed561cc3829cdee5bb47e00ad742b91b6ea7227374edfbc81422",
+  "downloaded_at": "2026-07-03T17:10:03.389124+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\himachal_pradesh_flood_claims_089cafc7f6.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

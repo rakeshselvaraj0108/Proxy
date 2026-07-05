@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Port Package Insurance",
+  "url": "https://www.tataaig.com/s3/port_package_insurance_claims_form_ed0a5725ab.pdf",
+  "final_url": "https://www.tataaig.com/s3/port_package_insurance_claims_form_ed0a5725ab.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "ecc69f3f75afb35c1a6aac9850f0e804eaeaefd6fc4ecba946e02f5dc67e78b2",
+  "downloaded_at": "2026-07-03T17:10:30.692590+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\port_package_insurance_claims_form_ed0a5725ab.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

@@ -1,0 +1,14 @@
+{
+  "insurer_id": "hdfc_ergo",
+  "insurer_name": "HDFC ERGO",
+  "category": "product_brochure",
+  "label": "HDFC ERGO \u2013 Optima Secure Global Brochure (PDF)",
+  "url": "https://www.hdfcergo.com/docs/default-source/downloads/brochures/optima-secure-global-brochure.pdf",
+  "final_url": "https://www.hdfcergo.com/docs/default-source/downloads/brochures/optima-secure-global-brochure.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "d1938a643c7835998ee965749c59dc27907b61172437c07193d4412080677789",
+  "downloaded_at": "2026-07-03T17:08:27.944256+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\hdfc_ergo\\product_brochure\\optima-secure-global-brochure.pdf",
+  "official_domain": "www.hdfcergo.com",
+  "health_insurance_relevant": true
+}

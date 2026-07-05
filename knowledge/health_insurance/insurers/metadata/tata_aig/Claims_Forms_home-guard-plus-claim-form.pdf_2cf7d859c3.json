@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Home Guard Plus",
+  "url": "https://www.tataaig.com/s3/Claims_Forms_home-guard-plus-claim-form.pdf_2cf7d859c3.pdf",
+  "final_url": "https://www.tataaig.com/s3/Claims_Forms_home-guard-plus-claim-form.pdf_2cf7d859c3.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "188e838a5cf7c36d0c107df67a60ccba312f3b04fd8f71beea200cfe4ef45e01",
+  "downloaded_at": "2026-07-03T17:10:13.773733+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\Claims_Forms_home-guard-plus-claim-form.pdf_2cf7d859c3.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

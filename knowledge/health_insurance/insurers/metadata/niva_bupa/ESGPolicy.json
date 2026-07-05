@@ -1,0 +1,14 @@
+{
+  "insurer_id": "niva_bupa",
+  "insurer_name": "Niva Bupa",
+  "category": "other_health_document",
+  "label": "ESG Policy",
+  "url": "https://www.nivabupa.com/content/dam/nivabupa/PDF/ESGPolicy.pdf",
+  "final_url": "https://www.nivabupa.com/content/dam/nivabupa/PDF/ESGPolicy.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "0a39034413055c8ea96d6596c128f9a444f730edf559a001400b82a14efb0584",
+  "downloaded_at": "2026-07-03T17:08:53.296163+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\niva_bupa\\other_health_document\\ESGPolicy.pdf",
+  "official_domain": "www.nivabupa.com",
+  "health_insurance_relevant": true
+}

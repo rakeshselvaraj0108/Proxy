@@ -1,0 +1,250 @@
+{
+  "collected_at": "2026-07-04T17:11:22.046669+00:00",
+  "insurers_requested": 5,
+  "insurers_completed": 5,
+  "total_downloaded": 5,
+  "results": [
+    {
+      "insurer_id": "star_health",
+      "insurer_name": "Star Health and Allied Insurance",
+      "pdf_links_found": 1,
+      "downloaded": 1,
+      "categories": [
+        "other_health_document"
+      ],
+      "documents": [
+        {
+          "insurer_id": "star_health",
+          "insurer_name": "Star Health and Allied Insurance",
+          "category": "other_health_document",
+          "label": "Star Health and Allied Insurance",
+          "url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+          "final_url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+          "content_type": "application/pdf",
+          "content_sha256": "2ff29b3fed23b4f10886ea5a0adccfc21c4479ed2db506775c79498dbb92de34",
+          "downloaded_at": "2026-07-04T17:08:40.001118+00:00",
+          "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\star_health\\other_health_document\\369dff4f-e97d-4eba-85b1-9a0e0080ff58_c9e1c5f9.pdf",
+          "official_domain": "irdai.gov.in",
+          "health_insurance_relevant": false
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://www.starhealth.in/",
+          "error": "RetryError[<Future at 0x1ab6ebfeda0 state=finished raised TimeoutError>]"
+        },
+        {
+          "url": "https://www.starhealth.in/downloads/",
+          "error": "RetryError[<Future at 0x1ab6ebff7c0 state=finished raised TimeoutError>]"
+        },
+        {
+          "url": "https://www.starhealth.in/health-insurance/",
+          "error": "RetryError[<Future at 0x1ab6ebff0d0 state=finished raised TimeoutError>]"
+        },
+        {
+          "url": "https://www.starhealth.in/policy-prospectus-and-wordings",
+          "error": "RetryError[<Future at 0x1ab6ebff1c0 state=finished raised TimeoutError>]"
+        },
+        {
+          "error": "playwright not installed: No module named 'playwright'"
+        },
+        {
+          "source": "irdai_fallback",
+          "links_found": 1
+        }
+      ]
+    },
+    {
+      "insurer_id": "icici_lombard",
+      "insurer_name": "ICICI Lombard",
+      "pdf_links_found": 1,
+      "downloaded": 1,
+      "categories": [
+        "other_health_document"
+      ],
+      "documents": [
+        {
+          "insurer_id": "icici_lombard",
+          "insurer_name": "ICICI Lombard",
+          "category": "other_health_document",
+          "label": "ICICI Lombard",
+          "url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+          "final_url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+          "content_type": "application/pdf",
+          "content_sha256": "2ff29b3fed23b4f10886ea5a0adccfc21c4479ed2db506775c79498dbb92de34",
+          "downloaded_at": "2026-07-04T17:09:23.806391+00:00",
+          "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\icici_lombard\\other_health_document\\369dff4f-e97d-4eba-85b1-9a0e0080ff58_c9e1c5f9.pdf",
+          "official_domain": "irdai.gov.in",
+          "health_insurance_relevant": false
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://www.icicilombard.com/",
+          "error": "RetryError[<Future at 0x1ab6ebff310 state=finished raised HTTPError>]"
+        },
+        {
+          "url": "https://www.icicilombard.com/health-insurance",
+          "error": "RetryError[<Future at 0x1ab6ebff790 state=finished raised HTTPError>]"
+        },
+        {
+          "url": "https://www.icicilombard.com/downloads",
+          "error": "RetryError[<Future at 0x1ab6ebfea10 state=finished raised HTTPError>]"
+        },
+        {
+          "url": "https://www.icicilombard.com/health-insurance/download-policy-wordings",
+          "error": "RetryError[<Future at 0x1ab6ebfe7a0 state=finished raised HTTPError>]"
+        },
+        {
+          "error": "playwright not installed: No module named 'playwright'"
+        },
+        {
+          "source": "irdai_fallback",
+          "links_found": 1
+        }
+      ]
+    },
+    {
+      "insurer_id": "care_health",
+      "insurer_name": "Care Health Insurance",
+      "pdf_links_found": 1,
+      "downloaded": 1,
+      "categories": [
+        "other_health_document"
+      ],
+      "documents": [
+        {
+          "insurer_id": "care_health",
+          "insurer_name": "Care Health Insurance",
+          "category": "other_health_document",
+          "label": "Care Health Insurance",
+          "url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+          "final_url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+          "content_type": "application/pdf",
+          "content_sha256": "2ff29b3fed23b4f10886ea5a0adccfc21c4479ed2db506775c79498dbb92de34",
+          "downloaded_at": "2026-07-04T17:10:06.664269+00:00",
+          "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\care_health\\other_health_document\\369dff4f-e97d-4eba-85b1-9a0e0080ff58_c9e1c5f9.pdf",
+          "official_domain": "irdai.gov.in",
+          "health_insurance_relevant": false
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://www.careinsurance.com/",
+          "error": "RetryError[<Future at 0x1ab6ebfcd00 state=finished raised HTTPError>]"
+        },
+        {
+          "url": "https://www.careinsurance.com/health-insurance/",
+          "error": "RetryError[<Future at 0x1ab6ebfca90 state=finished raised HTTPError>]"
+        },
+        {
+          "url": "https://www.careinsurance.com/downloads.html",
+          "error": "RetryError[<Future at 0x1ab6ebfca60 state=finished raised HTTPError>]"
+        },
+        {
+          "url": "https://www.careinsurance.com/health-insurance/product-brochures.html",
+          "error": "RetryError[<Future at 0x1ab6ebfcca0 state=finished raised HTTPError>]"
+        },
+        {
+          "error": "playwright not installed: No module named 'playwright'"
+        },
+        {
+          "source": "irdai_fallback",
+          "links_found": 1
+        }
+      ]
+    },
+    {
+      "insurer_id": "bajaj_allianz",
+      "insurer_name": "Bajaj Allianz General Insurance",
+      "pdf_links_found": 1,
+      "downloaded": 1,
+      "categories": [
+        "other_health_document"
+      ],
+      "documents": [
+        {
+          "insurer_id": "bajaj_allianz",
+          "insurer_name": "Bajaj Allianz General Insurance",
+          "category": "other_health_document",
+          "label": "Bajaj Allianz General Insurance",
+          "url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+          "final_url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+          "content_type": "application/pdf",
+          "content_sha256": "2ff29b3fed23b4f10886ea5a0adccfc21c4479ed2db506775c79498dbb92de34",
+          "downloaded_at": "2026-07-04T17:10:38.472315+00:00",
+          "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\bajaj_allianz\\other_health_document\\369dff4f-e97d-4eba-85b1-9a0e0080ff58_c9e1c5f9.pdf",
+          "official_domain": "irdai.gov.in",
+          "health_insurance_relevant": false
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://www.bajajallianz.com/download-documents.html",
+          "error": "RetryError[<Future at 0x1ab6ebfcc40 state=finished raised HTTPError>]"
+        },
+        {
+          "url": "https://www.bajajallianz.com/documents/health-insurance.html",
+          "error": "RetryError[<Future at 0x1ab6ebfdb40 state=finished raised HTTPError>]"
+        },
+        {
+          "error": "playwright not installed: No module named 'playwright'"
+        },
+        {
+          "source": "irdai_fallback",
+          "links_found": 1
+        }
+      ]
+    },
+    {
+      "insurer_id": "reliance_general",
+      "insurer_name": "Reliance General Insurance",
+      "pdf_links_found": 1,
+      "downloaded": 1,
+      "categories": [
+        "other_health_document"
+      ],
+      "documents": [
+        {
+          "insurer_id": "reliance_general",
+          "insurer_name": "Reliance General Insurance",
+          "category": "other_health_document",
+          "label": "Reliance General Insurance",
+          "url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+          "final_url": "https://irdai.gov.in/documents/37343/0/Guidelines+on+Standard+Individual+Health+Insurance+Product.pdf/369dff4f-e97d-4eba-85b1-9a0e0080ff58?t=1633496923225",
+          "content_type": "application/pdf",
+          "content_sha256": "2ff29b3fed23b4f10886ea5a0adccfc21c4479ed2db506775c79498dbb92de34",
+          "downloaded_at": "2026-07-04T17:11:22.039282+00:00",
+          "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\reliance_general\\other_health_document\\369dff4f-e97d-4eba-85b1-9a0e0080ff58_c9e1c5f9.pdf",
+          "official_domain": "irdai.gov.in",
+          "health_insurance_relevant": false
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://www.reliancegeneral.co.in/",
+          "error": "RetryError[<Future at 0x1ab6ebff220 state=finished raised HTTPError>]"
+        },
+        {
+          "url": "https://www.reliancegeneral.co.in/Insurance/Health-Insurance.aspx",
+          "error": "RetryError[<Future at 0x1ab6ebfdf60 state=finished raised HTTPError>]"
+        },
+        {
+          "url": "https://www.reliancegeneral.co.in/downloads",
+          "error": "RetryError[<Future at 0x1ab6ebff670 state=finished raised HTTPError>]"
+        },
+        {
+          "url": "https://www.reliancegeneral.co.in/Insurance/Health-Insurance/Downloads.aspx",
+          "error": "RetryError[<Future at 0x1ab6ebfeb00 state=finished raised HTTPError>]"
+        },
+        {
+          "error": "playwright not installed: No module named 'playwright'"
+        },
+        {
+          "source": "irdai_fallback",
+          "links_found": 1
+        }
+      ]
+    }
+  ]
+}

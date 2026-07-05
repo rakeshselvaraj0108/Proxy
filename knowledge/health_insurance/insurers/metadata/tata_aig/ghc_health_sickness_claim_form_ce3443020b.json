@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "TATA AIG Group Hospital Cash",
+  "url": "https://www.tataaig.com/s3/ghc_health_sickness_claim_form_ce3443020b.pdf",
+  "final_url": "https://www.tataaig.com/s3/ghc_health_sickness_claim_form_ce3443020b.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "21f5a40adfc0fb3b01fa9d5b4ccf7f3100ebaba22ea911458ecf356946e14ffa",
+  "downloaded_at": "2026-07-03T17:10:14.474790+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\ghc_health_sickness_claim_form_ce3443020b.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

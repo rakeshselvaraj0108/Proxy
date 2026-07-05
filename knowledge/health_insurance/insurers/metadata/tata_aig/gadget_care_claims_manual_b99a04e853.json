@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Gadget Care+ (IRDAN108RPMS0032V01202526)",
+  "url": "https://www.tataaig.com/s3/gadget_care_claims_manual_b99a04e853.pdf",
+  "final_url": "https://www.tataaig.com/s3/gadget_care_claims_manual_b99a04e853.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "ebc9965df212e61a2571a96622c0f8b3aa3c76310d761dcca45fd9eaf6bb0b03",
+  "downloaded_at": "2026-07-03T17:10:08.976606+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\gadget_care_claims_manual_b99a04e853.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

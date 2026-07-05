@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Builder Risk Insurance",
+  "url": "https://www.tataaig.com/s3/builders_risk_insurance_claim_form_bde67ca477.pdf",
+  "final_url": "https://www.tataaig.com/s3/builders_risk_insurance_claim_form_bde67ca477.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "953d5a7d2735f8e4be7c647077d317dcc15e364aa341fb13372df48a63cabaab",
+  "downloaded_at": "2026-07-03T17:10:30.164182+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\builders_risk_insurance_claim_form_bde67ca477.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": true
+}

@@ -1,0 +1,14 @@
+{
+  "insurer_id": "niva_bupa",
+  "insurer_name": "Niva Bupa",
+  "category": "other_health_document",
+  "label": "Health Companion Price revision",
+  "url": "https://www.nivabupa.com/content/dam/nivabupa/PDF/websitenotes/Health%20Companion%20v7_Webiste%20Note.pdf",
+  "final_url": "https://www.nivabupa.com/content/dam/nivabupa/PDF/websitenotes/Health%20Companion%20v7_Webiste%20Note.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "63d0d872321bfd5a86e4112c8edd1acfe7f5e1b5c91605b7a77708491586239c",
+  "downloaded_at": "2026-07-03T17:08:48.715883+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\niva_bupa\\other_health_document\\Health_20Companion_20v7_Webiste_20Note.pdf",
+  "official_domain": "www.nivabupa.com",
+  "health_insurance_relevant": true
+}

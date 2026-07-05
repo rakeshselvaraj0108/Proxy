@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Service Contract Liability Insurance Policy(IRDAN108CP0065V02201819 )",
+  "url": "https://www.tataaig.com/s3/Service_Contract_Liability_Insurance_Policy_Commercial_Claim_Form_e45b8aae52.pdf",
+  "final_url": "https://www.tataaig.com/s3/Service_Contract_Liability_Insurance_Policy_Commercial_Claim_Form_e45b8aae52.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "a6a5bdd164fcaf3230e0a6745afd61df901ba6d254834c9a87cdee8a8cc26f02",
+  "downloaded_at": "2026-07-03T17:10:22.343739+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\Service_Contract_Liability_Insurance_Policy_Commercial_Claim_Form_e45b8aae52.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": false
+}

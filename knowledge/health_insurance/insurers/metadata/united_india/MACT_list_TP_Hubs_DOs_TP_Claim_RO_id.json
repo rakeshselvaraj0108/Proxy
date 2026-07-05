@@ -1,0 +1,14 @@
+{
+  "insurer_id": "united_india",
+  "insurer_name": "United India Insurance",
+  "category": "claim_procedure",
+  "label": "List of Nodal Officers and Email IDs for contact, statewise with the list of MACTs serviced by each Office/Hub",
+  "url": "https://uiic.co.in/web/sites/default/files/MACT_list_TP_Hubs_DOs_TP_Claim_RO_id.pdf",
+  "final_url": "https://uiic.co.in/web/sites/default/files/MACT_list_TP_Hubs_DOs_TP_Claim_RO_id.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "b6c602479e42b595ed168ede51237d1fca7fc764b4b9dd4e1597fd5dfd351f89",
+  "downloaded_at": "2026-07-03T17:10:42.886975+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\united_india\\claim_procedure\\MACT_list_TP_Hubs_DOs_TP_Claim_RO_id.pdf",
+  "official_domain": "uiic.co.in",
+  "health_insurance_relevant": true
+}

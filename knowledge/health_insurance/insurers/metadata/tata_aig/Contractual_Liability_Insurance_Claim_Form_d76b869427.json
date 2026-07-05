@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Contractual Liability Insurance(IRDAN108CPMS0003V01202425)",
+  "url": "https://www.tataaig.com/s3/Contractual_Liability_Insurance_Claim_Form_d76b869427.pdf",
+  "final_url": "https://www.tataaig.com/s3/Contractual_Liability_Insurance_Claim_Form_d76b869427.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "4ac27ebdfb6e167d048d25e37f674dbcf83e72c6424a864bd673141e890c3808",
+  "downloaded_at": "2026-07-03T17:10:23.187521+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\Contractual_Liability_Insurance_Claim_Form_d76b869427.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": false
+}

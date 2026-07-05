@@ -1,0 +1,14 @@
+{
+  "insurer_id": "tata_aig",
+  "insurer_name": "Tata AIG",
+  "category": "claim_procedure",
+  "label": "Marine Open Policy",
+  "url": "https://www.tataaig.com/s3/Claims_Forms_marine_open_policy.pdf_5e552b9c3d.pdf",
+  "final_url": "https://www.tataaig.com/s3/Claims_Forms_marine_open_policy.pdf_5e552b9c3d.pdf",
+  "content_type": "application/pdf",
+  "content_sha256": "fd3f43596d43e506fd4fe04f937dd144c201313009ac0985bf289b9fc489fd6d",
+  "downloaded_at": "2026-07-03T17:10:25.522856+00:00",
+  "file_path": "C:\\Users\\Rakesh S\\Desktop\\Proxy\\knowledge\\health_insurance\\insurers\\tata_aig\\claim_procedure\\Claims_Forms_marine_open_policy.pdf_5e552b9c3d.pdf",
+  "official_domain": "www.tataaig.com",
+  "health_insurance_relevant": false
+}
