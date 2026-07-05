@@ -1,11 +1,12 @@
-from fastapi import APIRouter
-from app.api.routes import agents, appeals, auth, case_ai, cases, domains, graph, knowledge, search, timeline, upload, ws
+﻿from fastapi import APIRouter
+from app.api.routes import agents, appeals, auth, case_ai, case_workflow_aliases, cases, domains, graph, knowledge, search, timeline, upload, ws
 
 api_router = APIRouter()
 api_router.include_router(auth.router, prefix="/auth", tags=["auth"])
 api_router.include_router(domains.router, prefix="/domains", tags=["domains"])
 api_router.include_router(cases.router, prefix="/cases", tags=["cases"])
 api_router.include_router(case_ai.router, prefix="/case", tags=["case ai"])
+api_router.include_router(case_workflow_aliases.router, tags=["case workflow"])
 api_router.include_router(upload.router, prefix="/upload", tags=["upload"])
 api_router.include_router(search.router, prefix="/search", tags=["search"])
 api_router.include_router(graph.router, prefix="/graph", tags=["knowledge graph"])

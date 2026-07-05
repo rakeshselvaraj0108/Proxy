@@ -1,4 +1,4 @@
-﻿from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends
 from app.agents.orchestrator.case_analysis_workflow import case_analysis_workflow
 from app.agents.orchestrator.case_workflow import case_workflow
 from app.auth.dependencies import CurrentUser, get_current_user
@@ -29,6 +29,11 @@ def agent_output(case_id: str, state: dict) -> dict:
         "workflow_engine": state.get("workflow_engine", ""),
         "final_report": state.get("final_report", state.get("final_answer", "")),
         "final_answer": state.get("final_answer", state.get("final_report", "")),
+        "research_output": state.get("research_output"),
+        "evidence_output": state.get("evidence_output"),
+        "strategy_output": state.get("strategy_output"),
+        "negotiation_output": state.get("negotiation_output"),
+        "review_output": state.get("review_output"),
     }
 
 

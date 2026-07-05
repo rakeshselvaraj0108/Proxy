@@ -8,6 +8,8 @@ def run_startup_checks() -> None:
     settings = get_settings()
     if settings.environment == "test":
         return
+    if not settings.gemini_api_key:
+        raise RuntimeError("GEMINI_API_KEY must be configured in environment or .env file.")
     validate_vector_store_startup()
     from app.knowledge_graph.factory import validate_graph_store_startup
 

@@ -35,6 +35,11 @@ class CaseAnalysisResponse(BaseModel):
     llm_call_count: int = 0
     workflow_engine: str = ""
     embedding_mode: str = ""
+    research_output: dict | None = None
+    evidence_output: dict | None = None
+    strategy_output: dict | None = None
+    negotiation_output: dict | None = None
+    review_output: dict | None = None
 
 
 class CaseDetailResponse(BaseModel):

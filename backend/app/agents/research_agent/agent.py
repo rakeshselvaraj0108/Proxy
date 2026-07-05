@@ -1,13 +1,20 @@
-import json
+"""Research Agent — searches Qdrant, Neo4j, and Web to answer:
 
-from app.agents.state import AgentState
+- Which clauses apply?
+- Which exclusions apply?
+- Which waiting period applies?
+- Which regulations apply?
+"""
+
+from __future__ import annotations
+
+from app.agents.json_parser import parse_agent_json
+from app.agents.state import AgentState, ResearchOutput
 from app.knowledge_graph.neo4j.service import knowledge_graph
 from app.llm.gemini.service import gemini_service
 from app.prompts.health_insurance_agents import research_prompt
 from app.rag.retrieval.qdrant_service import qdrant_service
 from app.services.web_search import web_search_service
-
-from app.agents.research_agent.agent import rank_hits
 
 RESEARCH_QUERIES = [
     "policy coverage clauses exclusions waiting period",
@@ -15,28 +22,57 @@ RESEARCH_QUERIES = [
     "medical necessity pre-authorization reimbursement",
 ]
 
+RESEARCH_FALLBACK_FIELDS: dict = {
+    "applicable_clauses": [],
+    "possible_exclusions": [],
+    "waiting_periods": [],
+    "regulations": [],
+    "confidence": 0.0,
+}
+
+
+def rank_hits(hits: list[dict]) -> list[dict]:
+    """Rank vector search hits by score with authority boost."""
+    for hit in hits:
+        score = float(hit.get("score", 0))
+        meta = hit.get("metadata", {})
+        # Boost IRDAI and regulatory sources
+        authority = (meta.get("authority") or meta.get("category") or "").lower()
+        if any(keyword in authority for keyword in ("irdai", "regulation", "circular", "guideline")):
+            score += 0.5
+        # Boost insurer-specific policy documents
+        if meta.get("insurer_name"):
+            score += 0.05
+        hit["_rank_score"] = min(score, 1.0)
+    return sorted(hits, key=lambda h: h.get("_rank_score", 0), reverse=True)
+
 
 async def run_research_agent(state: AgentState) -> AgentState:
+    """Execute the research agent: search Qdrant + Neo4j + Web, then synthesize via Gemini."""
     domain = state["domain"]
     institution = state.get("institution_name", "")
-    combined_query = f"{state.get('case_summary', '')} {institution} " + " ".join(RESEARCH_QUERIES)
+    case_summary = state.get("case_summary", "")
+    combined_query = f"{case_summary} {institution} " + " ".join(RESEARCH_QUERIES)
 
+    # --- 1. Vector search (Qdrant) ---
     all_hits: list[dict] = []
     seen: set[str] = set()
     for query in [combined_query, f"{institution} policy wording exclusions waiting period"]:
-        hits = rank_hits(await qdrant_service.search(domain, query, limit=6))
+        hits = await qdrant_service.search(domain, query, limit=6)
         for hit in hits:
             hit_id = str(hit.get("id"))
             if hit_id not in seen:
                 seen.add(hit_id)
                 all_hits.append(hit)
 
+    # --- 2. Knowledge Graph (Neo4j) ---
     patterns = await knowledge_graph.find_institution_patterns(domain, institution)
     graph_lines = [p.get("pattern", "") for p in patterns if p.get("pattern")]
     state["graph_context"] = "\n".join(graph_lines)
 
+    # --- 3. Web Search ---
     web_results = await web_search_service.search(
-        f"{institution} health insurance claim denial IRDAI appeal {state.get('case_summary', '')[:200]}",
+        f"{institution} health insurance claim denial IRDAI appeal {case_summary[:200]}",
         max_results=3,
     )
     state["web_search_results"] = web_results
@@ -46,6 +82,7 @@ async def run_research_agent(state: AgentState) -> AgentState:
             f"Web: {r.get('title', '')}\n{r.get('url', '')}\n{r.get('snippet', '')}" for r in web_results
         )
 
+    # --- 4. Rank and format context ---
     ranked = rank_hits(all_hits)[:10]
     state["retrieved_context"] = "\n\n".join(
         f"Source: {hit.get('metadata', {}).get('title') or hit.get('metadata', {}).get('filename') or hit['id']}\n"
@@ -58,14 +95,27 @@ async def run_research_agent(state: AgentState) -> AgentState:
     if web_context:
         state["retrieved_context"] = f"{state.get('retrieved_context', '')}\n\n{web_context}".strip()
 
+    # --- 5. Gemini synthesis ---
     prompt = research_prompt(
         domain,
-        state.get("case_summary", ""),
+        case_summary,
         state.get("retrieved_context", ""),
         state.get("graph_context", ""),
     )
-    analysis = await gemini_service.generate(prompt, temperature=0.15, purpose="reasoning")
-    state["research_summary"] = analysis
+    raw = await gemini_service.generate(prompt, temperature=0.15, purpose="reasoning")
+
+    # --- 6. Parse structured output ---
+    parsed = parse_agent_json(raw, RESEARCH_FALLBACK_FIELDS)
+    research_output: ResearchOutput = {
+        "applicable_clauses": parsed.get("applicable_clauses", []),
+        "possible_exclusions": parsed.get("possible_exclusions", []),
+        "waiting_periods": parsed.get("waiting_periods", []),
+        "regulations": parsed.get("regulations", []),
+        "summary": parsed.get("summary", raw[:2000]),
+        "confidence": float(parsed.get("confidence", 0.5)),
+    }
+    state["research_output"] = research_output
+    state["research_summary"] = research_output["summary"]
     state["citations"] = [
         hit.get("metadata", {}).get("final_url") or hit.get("metadata", {}).get("source_path") or str(hit.get("id"))
         for hit in ranked

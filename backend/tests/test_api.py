@@ -1,4 +1,4 @@
-﻿import asyncio
+import asyncio
 import tempfile
 from pathlib import Path
 
@@ -194,7 +194,7 @@ def test_supervisor_routes_cataract_coverage_to_policy_and_medical() -> None:
     assert "medical" in routes
     assert "claims" not in routes
     assert any(step == "retrieval:qdrant" for step in state["agent_trace"])
-    assert state["llm_call_count"] == len(state["specialist_outputs"])
+    assert state["llm_call_count"] == len(state["specialist_outputs"]) + 5
     assert all(output["model"] == "gemini-2.5-flash" for output in state["specialist_outputs"])
 
 
@@ -215,7 +215,7 @@ def test_supervisor_routes_denial_to_claims_agent() -> None:
     assert state["route"] == "claims"
     assert routes == ["claims"]
     assert "negotiator:merged-specialists" not in state["agent_trace"]
-    assert state["llm_call_count"] == 1
+    assert state["llm_call_count"] == 6
 
 
 def test_gemini_role_model_mapping_uses_optimized_defaults() -> None:

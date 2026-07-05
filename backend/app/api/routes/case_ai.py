@@ -40,6 +40,11 @@ def _analysis_response(case_id: str, state: dict) -> dict:
         "llm_call_count": state.get("llm_call_count", 0),
         "workflow_engine": state.get("workflow_engine", ""),
         "embedding_mode": gemini_service.embedding_mode(),
+        "research_output": state.get("research_output"),
+        "evidence_output": state.get("evidence_output"),
+        "strategy_output": state.get("strategy_output"),
+        "negotiation_output": state.get("negotiation_output"),
+        "review_output": state.get("review_output"),
     }
 
 

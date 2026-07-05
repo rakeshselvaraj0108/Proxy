@@ -28,7 +28,11 @@ class GeminiService:
             return False
 
     def embedding_mode(self) -> str:
-        return "gemini" if self._configure() else "hash_fallback"
+        if self._configure():
+            return "gemini"
+        if self.settings.environment == "test" or self.settings.disable_external_llm:
+            return "hash_fallback"
+        return "gemini"
 
     def model_for(self, purpose: GeminiPurpose | None = None, model_name: str | None = None) -> str:
         if model_name:
@@ -62,10 +66,15 @@ class GeminiService:
                     prompt,
                     generation_config={"temperature": temperature},
                 )
-                return response.text or self._offline_response(prompt)
-            except Exception:
-                return self._offline_response(prompt)
-        return self._offline_response(prompt)
+                if response.text:
+                    return response.text
+            except Exception as exc:
+                if self.settings.environment != "test":
+                    raise RuntimeError(f"Gemini generation API call failed: {exc}") from exc
+
+        if self.settings.environment == "test" or self.settings.disable_external_llm:
+            return self._offline_response(prompt)
+        raise RuntimeError("Gemini API is not configured. Please set GEMINI_API_KEY in your environment/dotenv file.")
 
     async def summarize(self, text: str, instruction: str = "Summarize the retrieved evidence.") -> str:
         prompt = f"{instruction}\n\nText:\n{text[:12000]}"
@@ -97,9 +106,13 @@ class GeminiService:
                 embedding = response.get("embedding") if isinstance(response, dict) else None
                 if embedding:
                     return [float(value) for value in embedding]
-            except Exception:
-                pass
-        return self._hash_embedding(text)
+            except Exception as exc:
+                if self.settings.environment != "test":
+                    raise RuntimeError(f"Gemini embedding API call failed: {exc}") from exc
+
+        if self.settings.environment == "test" or self.settings.disable_external_llm:
+            return self._hash_embedding(text)
+        raise RuntimeError("Gemini API is not configured. Please set GEMINI_API_KEY in your environment/dotenv file.")
 
     def _hash_embedding(self, text: str, dimensions: int = 768) -> list[float]:
         seed = sum(ord(ch) for ch in text)
@@ -117,11 +130,11 @@ class GeminiService:
             return '{"missing_evidence":["Verify exact policy product name"],"hallucination_risks":[],"wrong_clause_risks":[],"weak_arguments":[],"approval_ready":false,"summary":"Human review required before submission."}'
         if "appeal letter" in lower or "negotiation agent" in lower:
             return (
-                "APPEAL LETTER:\nPlease review this claim denial against the cited policy terms and attached medical evidence.\n\n"
-                "COMPLAINT TO INSURER:\nI request a reasoned reopening of my health claim.\n\n"
-                "EMAIL TO INSURER:\nSubject: Appeal against claim denial\n\n"
-                "ESCALATION NOTE:\nIf unresolved, escalate to insurer GRO and IRDAI portal.\n\n"
-                "CONSUMER COMPLAINT DRAFT:\nDraft complaint for policyholder portal submission."
+                '{"appeal_letter":"Formal appeal letter draft.",'
+                '"complaint_email":"Complaint email draft.",'
+                '"escalation_note":"Escalation note draft.",'
+                '"consumer_complaint":"Consumer complaint draft.",'
+                '"summary":"Generated all negotiation documents."}'
             )
         if "final case report" in lower:
             return "Executive Summary: Case analyzed offline. Upload documents and configure GEMINI_API_KEY for full semantic analysis."
@@ -135,3 +148,4 @@ class GeminiService:
 
 
 gemini_service = GeminiService()
+

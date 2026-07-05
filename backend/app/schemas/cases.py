@@ -1,4 +1,6 @@
-﻿from pydantic import BaseModel, Field
+from enum import Enum
+
+from pydantic import BaseModel, Field
 from app.models.domain import Domain
 
 
@@ -18,7 +20,7 @@ class CaseCreate(BaseModel):
     title: str = Field(min_length=4, max_length=160)
     institution_name: str = Field(min_length=2, max_length=160)
     summary: str = Field(min_length=10, max_length=4000)
-    jurisdiction: str = Field(default="US", max_length=80)
+    jurisdiction: str = Field(default="IN", max_length=80)
 
 
 class CaseRead(BaseModel):
@@ -64,3 +66,8 @@ class AgentRunResponse(BaseModel):
     llm_call_count: int = 0
     workflow_engine: str = ""
     final_answer: str = ""
+    research_output: dict | None = None
+    evidence_output: dict | None = None
+    strategy_output: dict | None = None
+    negotiation_output: dict | None = None
+    review_output: dict | None = None
