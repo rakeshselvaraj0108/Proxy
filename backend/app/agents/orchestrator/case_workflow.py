@@ -1,4 +1,4 @@
-﻿from app.agents.domain_agents.health_insurance.specialists import run_health_specialists
+from app.agents.domain_agents.health_insurance.specialists import run_health_specialists
 from app.agents.evidence_agent.agent import run_evidence_agent
 from app.agents.graph_agent.agent import run_graph_agent
 from app.agents.negotiation_agent.agent import run_negotiation_agent
@@ -12,6 +12,15 @@ from app.agents.research_agent.agent import run_research_agent
 from app.agents.review_agent.agent import run_review_agent
 from app.agents.state import AgentState
 from app.agents.strategy_agent.agent import run_strategy_agent
+
+
+async def run_domain_specialists(state: AgentState) -> AgentState:
+    from app.models.domain import Domain
+    domain = state["domain"]
+    if domain == Domain.BANKING:
+        from app.agents.domain_agents.banking.specialists import run_banking_specialists
+        return await run_banking_specialists(state)
+    return await run_health_specialists(state)
 
 
 class CaseWorkflow:
@@ -55,7 +64,7 @@ class CaseWorkflow:
         graph.add_node("retrieval", run_retrieval_agent)
         graph.add_node("graph", run_graph_role_agent)
         graph.add_node("web_search", run_web_search_agent)
-        graph.add_node("specialists", run_health_specialists)
+        graph.add_node("specialists", run_domain_specialists)
         graph.add_node("negotiator", run_negotiator_agent)
         graph.add_node("evidence", run_evidence_agent)
         graph.add_node("strategy", run_strategy_agent)
@@ -90,7 +99,8 @@ class CaseWorkflow:
         state = await run_retrieval_agent(state)
         state = await run_graph_role_agent(state)
         state = await run_web_search_agent(state)
-        state = await run_health_specialists(state)
+        state = await run_domain_specialists(state)
+
         if self._after_specialists(state) == "negotiator":
             state = await run_negotiator_agent(state)
         state = await run_evidence_agent(state)

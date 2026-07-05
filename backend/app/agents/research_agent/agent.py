@@ -36,12 +36,12 @@ def rank_hits(hits: list[dict]) -> list[dict]:
     for hit in hits:
         score = float(hit.get("score", 0))
         meta = hit.get("metadata", {})
-        # Boost IRDAI and regulatory sources
+        # Boost IRDAI, RBI, NPCI and regulatory sources
         authority = (meta.get("authority") or meta.get("category") or "").lower()
-        if any(keyword in authority for keyword in ("irdai", "regulation", "circular", "guideline")):
+        if any(keyword in authority for keyword in ("irdai", "rbi", "npci", "regulation", "circular", "guideline", "ombudsman")):
             score += 0.5
-        # Boost insurer-specific policy documents
-        if meta.get("insurer_name"):
+        # Boost insurer/bank-specific documents
+        if meta.get("insurer_name") or meta.get("bank"):
             score += 0.05
         hit["_rank_score"] = min(score, 1.0)
     return sorted(hits, key=lambda h: h.get("_rank_score", 0), reverse=True)
@@ -57,7 +57,7 @@ async def run_research_agent(state: AgentState) -> AgentState:
     # --- 1. Vector search (Qdrant) ---
     all_hits: list[dict] = []
     seen: set[str] = set()
-    for query in [combined_query, f"{institution} policy wording exclusions waiting period"]:
+    for query in [combined_query, f"{institution} policy wording rules regulations"]:
         hits = await qdrant_service.search(domain, query, limit=6)
         for hit in hits:
             hit_id = str(hit.get("id"))
@@ -71,10 +71,16 @@ async def run_research_agent(state: AgentState) -> AgentState:
     state["graph_context"] = "\n".join(graph_lines)
 
     # --- 3. Web Search ---
+    from app.models.domain import Domain as DomainEnum
+    if domain == DomainEnum.BANKING:
+        web_query = f"{institution} banking dispute RBI ombudsman complaint {case_summary[:200]}"
+    else:
+        web_query = f"{institution} health insurance claim denial IRDAI appeal {case_summary[:200]}"
     web_results = await web_search_service.search(
-        f"{institution} health insurance claim denial IRDAI appeal {case_summary[:200]}",
+        web_query,
         max_results=3,
     )
+
     state["web_search_results"] = web_results
     web_context = ""
     if web_results:

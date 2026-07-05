@@ -1,0 +1,12 @@
+# Master Direction – Credit Card and Debit Card
+
+## Section 1: Introduction
+In exercise of the powers conferred by Section 35A of the Banking Regulation Act, 1949, the Reserve Bank of India being satisfied that it is necessary and expedient in the public interest so to do, hereby, issues the Directions hereinafter specified.
+
+## Section 2: Issue of Credit Cards
+Card-issuers shall ensure that there is no delay in dispatching bills and the customer has sufficient number of days (at least one fortnight) for making payment before the interest starts getting charged.
+In case of a dispute, the card-issuer shall resolve it within 30 days.
+
+## Section 3: Billing and Chargebacks
+Any chargeback request by the Customer against a Merchant for a Transaction shall be processed according to NPCI and card network rules.
+Card-issuers are prohibited from charging hidden Fees or penalties.

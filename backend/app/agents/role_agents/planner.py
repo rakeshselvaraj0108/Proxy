@@ -1,12 +1,16 @@
-﻿from __future__ import annotations
-
-from app.agents.state import AgentState
+from app.models.domain import Domain
 
 CLAIM_TERMS = {"claim", "denial", "denied", "cashless", "reimbursement", "settlement", "preauth", "pre-authorisation", "preauthorization", "hospital bill"}
 POLICY_TERMS = {"cover", "covered", "coverage", "policy", "exclusion", "waiting period", "room rent", "sum insured", "rider", "add-on", "deductible"}
 MEDICAL_TERMS = {"surgery", "disease", "diagnosis", "treatment", "procedure", "cataract", "cancer", "diabetes", "mri", "ct scan", "ayush"}
 LEGAL_TERMS = {"irdai", "regulation", "circular", "ombudsman", "grievance", "complaint", "rights", "rule", "law", "appeal"}
 FAQ_TERMS = {"how", "what", "when", "where", "who", "faq", "general", "explain"}
+
+# Banking terms
+BANK_CARD_TERMS = {"card", "credit", "debit", "chargeback", "merchant", "fraud", "unauthorized", "cvv", "otp", "atm"}
+BANK_LOAN_TERMS = {"loan", "emi", "interest", "foreclosure", "rate", "penalty"}
+BANK_PAYMENT_TERMS = {"upi", "payment", "gateway", "failed", "double debit", "account", "transfer", "kyc"}
+BANK_REG_TERMS = {"rbi", "regulation", "circular", "ombudsman", "rule", "complaint", "cms", "npci"}
 
 
 def _contains(text: str, terms: set[str]) -> bool:
@@ -15,16 +19,28 @@ def _contains(text: str, terms: set[str]) -> bool:
 
 def build_plan(state: AgentState) -> dict:
     query = state.get("case_summary", "").lower()
+    domain = state.get("domain", Domain.HEALTH_INSURANCE)
     specialists: list[str] = []
 
-    if _contains(query, CLAIM_TERMS):
-        specialists.append("claims")
-    if _contains(query, POLICY_TERMS):
-        specialists.append("policy")
-    if _contains(query, MEDICAL_TERMS):
-        specialists.append("medical")
-    if _contains(query, LEGAL_TERMS):
-        specialists.append("legal")
+    if domain == Domain.BANKING:
+        if _contains(query, BANK_CARD_TERMS):
+            specialists.append("cards")
+        if _contains(query, BANK_LOAN_TERMS):
+            specialists.append("loans")
+        if _contains(query, BANK_PAYMENT_TERMS):
+            specialists.append("payments")
+        if _contains(query, BANK_REG_TERMS):
+            specialists.append("regulatory")
+    else:
+        # Default/Health Insurance
+        if _contains(query, CLAIM_TERMS):
+            specialists.append("claims")
+        if _contains(query, POLICY_TERMS):
+            specialists.append("policy")
+        if _contains(query, MEDICAL_TERMS):
+            specialists.append("medical")
+        if _contains(query, LEGAL_TERMS):
+            specialists.append("legal")
 
     if not specialists:
         specialists.append("faq")
@@ -43,7 +59,7 @@ def build_plan(state: AgentState) -> dict:
             "web_search": needs_web,
             "negotiator": len(specialists) > 1,
         },
-        "reason": f"Routed to {', '.join(specialists)} based on query intent.",
+        "reason": f"Routed to {', '.join(specialists)} based on query intent for domain {domain.value}.",
     }
 
 

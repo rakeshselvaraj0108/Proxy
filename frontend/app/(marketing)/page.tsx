@@ -1,5 +1,2 @@
-import { ProxyHero } from "../../components/proxy-hero/ProxyHero";
-
-export default function Page() {
-  return <ProxyHero />;
-}
+﻿import { DashboardHome } from "@/components/proxy-v2/Pages";
+export default function Page() { return <DashboardHome />; }

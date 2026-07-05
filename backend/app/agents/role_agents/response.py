@@ -1,4 +1,4 @@
-﻿from app.agents.state import AgentState
+from app.agents.state import AgentState
 from app.core.config import get_settings
 from app.llm.gemini.service import gemini_service
 
@@ -31,11 +31,21 @@ async def run_response_agent(state: AgentState) -> AgentState:
     final_answer = await _optional_polish(state, final_answer)
     state["final_answer"] = final_answer
     state["evidence_summary"] = state.get("evidence_summary") or final_answer
-    state["strategy"] = state.get("strategy") or f"Use the {state.get('route', 'faq')} route: verify policy wording, attach evidence, and escalate only if the insurer response conflicts with cited rules."
+    state["strategy"] = state.get("strategy") or f"Use the {state.get('route', 'faq')} route: verify policy wording, attach evidence, and escalate only if the institution response conflicts with cited rules."
     state["appeal_draft"] = state.get("appeal_draft") or _default_appeal(state)
-    state["review_notes"] = state.get("review_notes") or [
-        "Verify the exact policy/product name before relying on a clause.",
-        "Prefer insurer policy wording and IRDAI sources over generic summaries.",
-    ]
+    
+    from app.models.domain import Domain
+    if state.get("domain") == Domain.BANKING:
+        state["review_notes"] = state.get("review_notes") or [
+            "Verify the exact card agreement or loan terms name before relying on a clause.",
+            "Prefer bank terms & conditions and RBI/NPCI sources over generic summaries.",
+        ]
+    else:
+        state["review_notes"] = state.get("review_notes") or [
+            "Verify the exact policy/product name before relying on a clause.",
+            "Prefer insurer policy wording and IRDAI sources over generic summaries.",
+        ]
+        
     state.setdefault("agent_trace", []).append("response:final")
     return state
+

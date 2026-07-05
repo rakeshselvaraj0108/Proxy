@@ -1,4 +1,4 @@
-﻿from app.agents.domain_agents.health_insurance.specialists import run_health_specialists
+from app.agents.domain_agents.health_insurance.specialists import run_health_specialists
 from app.agents.role_agents.graph import run_graph_role_agent
 from app.agents.role_agents.negotiator import run_negotiator_agent
 from app.agents.role_agents.planner import run_planner_agent
@@ -32,15 +32,19 @@ class SupervisorAgent:
         domain = state["domain"]
         if domain == Domain.HEALTH_INSURANCE:
             return await run_health_specialists(state)
+        elif domain == Domain.BANKING:
+            from app.agents.domain_agents.banking.specialists import run_banking_specialists
+            return await run_banking_specialists(state)
         state.setdefault("specialist_outputs", []).append(
             {
                 "agent": "FAQ/General Agent",
                 "route": "faq",
-                "answer": "This domain is registered for future support. Add domain specialists before production routing.",
+                "answer": f"This domain {domain} is registered for future support. Add domain specialists before production routing.",
                 "citations": state.get("citations", []),
             }
         )
         return state
+
 
 
 supervisor_agent = SupervisorAgent()
