@@ -1,0 +1,15 @@
+{
+  "domain": "ecommerce",
+  "authority": "Delhivery",
+  "title": "Delhivery Terms and Conditions",
+  "category": "courier_terms",
+  "source_url": "https://www.delhivery.com/terms-and-conditions",
+  "final_url": "https://www.delhivery.com/terms-and-conditions",
+  "type": "html_text",
+  "raw_chars": 215,
+  "stored_path": "knowledge/ecommerce/courier/delhivery/delhivery_terms_official.txt",
+  "sha256": "69fa22680474013e5c8f76cd9082547c8ad4111f60be8837116ea9b8a6337c93",
+  "bytes": 215,
+  "fetched_at": "2026-07-07T12:47:31.400500+00:00",
+  "official_source": true
+}

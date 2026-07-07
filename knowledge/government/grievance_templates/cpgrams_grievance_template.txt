@@ -1,0 +1,30 @@
+CPGRAMS PUBLIC GRIEVANCE — FILING TEMPLATE
+
+Ministry/Department: [e.g. Ministry of External Affairs / UIDAI / Income Tax Department]
+Subject: Delay in [service name] — Reference/Application No. [xxxx]
+
+Grievance Description:
+"I submitted an application for [service, e.g. passport reissue / Aadhaar address update /
+PAN correction / driving licence] on [date] bearing reference/application number [xxxx] at
+[office/portal name]. As per the published service standard, this should be completed
+within [timeline]. As of today, [number] days have passed without resolution or a
+satisfactory explanation.
+
+I have already followed up on [dates] via [phone/email/in-person] with [office name]
+without success. I request that this grievance be examined and the pending
+application/service be resolved at the earliest, and that I be informed of the specific
+reason for the delay if one exists."
+
+Documents to attach:
+- Copy of the original application/acknowledgement receipt
+- Any prior correspondence or follow-up reference numbers
+- Proof of the service standard/timeline being breached (screenshot of official portal
+  timeline, if available)
+
+Escalation path if unresolved:
+1. CPGRAMS grievance -> Nodal Officer of the department (initial disposal window).
+2. CPGRAMS "Appeal" against an unsatisfactory resolution.
+3. RTI request to the same department for the file noting/status, if administrative
+   escalation stalls.
+4. Where applicable, escalate to the sectoral ombudsman/appellate authority (e.g. State
+   Information Commission for RTI, Transport Commissioner for RTO matters).

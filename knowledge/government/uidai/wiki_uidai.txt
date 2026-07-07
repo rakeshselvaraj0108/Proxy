@@ -1,0 +1,3752 @@
+Aadhaar - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+(Redirected from
+Unique Identification Authority of India
+)
+Indian national identification number
+For the films, see
+Aadhaar (2019 film)
+and
+Aadhaar (2022 film)
+.
+Aadhaar
+Slogan
+"Mera Aadhaar, Meri Pehchaan." Translation
+: "My Aadhaar, My Identity"
+Country
+India
+Ministry
+Ministry of Electronics and Information Technology
+,
+India
+Key people
+Neelkanth Mishra,
+[
+1
+]
+Chairman, UIDAI
+Shri Saurabh Vijay,
+IAS
+,
+[
+2
+]
+CEO, UIDAI
+Launched
+28
+January 2009
+;
+17 years ago
+(
+2009-01-28
+)
+[
+3
+]
+Budget
+₹
+11,366
+crore
+(US$1.2
+billion) (up to the month of August 2019)
+[
+4
+]
+Status
+138.3
+crore
+(1.383 billion) holders as of October 2024
+[
+5
+]
+Website
+uidai.gov.in
+Aadhaar Card or UID card
+Specimen of an Aadhaar Card
+Type
+Identity document
+Issued by
+Unique Identification Authority of India
+(UIDAI)
+Purpose
+Identification
+Direct Benefit Transfer
+Insurance
+Bank account
+Eligibility
+Resident of India
+[
+6
+]
+Expiration
+Lifetime validity
+Cost
+First-time enrollment is free of cost.
+Further demographic updates cost
+₹
+75
+(79¢
+US) and biometric updates cost
+₹
+125
+(US$1.30).
+Aadhaar
+is a twelve-digit
+unique identity number
+that can be obtained voluntarily by all residents of
+India
+based on their place of residence,
+biometrics
+and
+demographic
+data.
+[
+7
+]
+[
+8
+]
+The data is collected by the Unique Identification Authority of India (UIDAI), a statutory authority established in January 2016 by the
+Ministry of Electronics and Information Technology
+, following the provisions of the
+Aadhaar Act, 2016
+.
+[
+9
+]
+[
+3
+]
+Applicants to Aadhaar receive an Aadhaar UID Card used to identify a resident of India.
+[
+10
+]
+However, following a series of
+Supreme Court
+rulings and provision of the Aadhar Act, it is not considered proof of Indian citizenship, domicile, address, date of birth, and age.
+[
+11
+]
+[
+12
+]
+It cannot be used as an identification document for international travel.
+[
+13
+]
+As of May 2023, more than 99.9% of India's adult population had been issued an Aadhaar,
+[
+14
+]
+making it  the world's largest
+biometric ID system
+[
+14
+]
+A new Aadhaar app, which replaced the former mAadhar app, was launched on 28 January 2026. This app allows users to digitally show, share, and verify their identity selectively, rather than tendering copies of their physical ID or quoting the unique number itself.
+UIDAI officials claim that Aadhar have the discretion to both share what they desire and when. The requesting entity can tailor the QR codes to its requirements. The Aadhaar number is not stored by the verifiers. Credentials are only exchanged in a digitally-signed format. That detail matters, particularly under India’s Digital Personal Data Protection Act.
+Unique Identification Authority
+The Unique Identification Authority of India (UIDAI) is a statutory body under the Ministry of Electronics and Information Technology, created by the Government of India on July 12, 2016. UIDAI's mandate is to assign a 12-digit unique identification number to all residents of India. This system ensures that the number is linked to residents’ demographic and biometric data, including a photograph, ten fingerprints, and two iris scans, all stored in a centralized database.
+[
+15
+]
+Initially, the UIDAI was set up as an office under the Planning Commission of India in January 2009. It was later made an independent statutory authority to implement and oversee the Aadhaar project, which includes the creation, management, and maintenance of the UID database. The UIDAI is responsible for ensuring the number's integrity and security by verifying and authenticating it in real-time, preventing fraudulent activities.
+[
+16
+]
+Since the first Aadhaar number was issued in September 2010, the UIDAI has expanded its scope, targeting to issue a unique ID to all residents in India. This unique number facilitates access to government services and reduces the likelihood of duplication or fraud.
+[
+17
+]
+History
+Following the
+Kargil War
+in 1999, the Government of India constituted the Kargil Review Committee chaired by security analyst K. Subrahmanyam to examine national security concerns. The Committee submitted its report to Prime Minister Atal Bihari Vajpayee on 7 January 2000.
+[
+18
+]
+Among its recommendations was the phased issuance of identity cards, beginning with residents of border villages and later extending to all citizens in border states.
+[
+19
+]
+In 2000, the Rangarajan Commission was established to review India's statistical system. In its August 2001 report, the Commission recommended the creation of a centralized database of citizens and the issuance of a unique identification number to each individual.
+[
+20
+]
+The report observed that India lacked a standardized population database capable of integrating information across multiple sources and suggested that a unique identification system would improve administrative efficiency.
+[
+21
+]
+A Group of Ministers headed by L. K. Advani was formed to examine these recommendations. In May 2001, the Group endorsed the proposal for a “multi-purpose National Identity Card”, initially to be implemented in border areas. In September 2001, the Ministry of External Affairs proposed the introduction of mandatory national identity cards following reports of passport fraud arising from inadequate interlinking of passport databases.
+[
+22
+]
+In December 2003, the Citizenship (Amendment) Bill, 2003 was introduced in the Lok Sabha. The amendment included a provision empowering the central government to compulsorily register citizens and issue national identity cards.
+[
+23
+]
+Establishment of UIDAI (2009–2013)
+The Unique Identification Authority of India (UIDAI) was established on 28 January 2009 through a notification of the Planning Commission (now NITI Aayog). On 23 June 2009, Nandan Nilekani, co-founder of Infosys, was appointed as its first chairperson with rank equivalent to a Cabinet minister.
+[
+24
+]
+In April 2010, the programme was formally branded as “Aadhaar” and its logo was unveiled.
+[
+25
+]
+Nilekani stated that UIDAI would support legislation to safeguard data collected under the programme. In February 2012, UIDAI launched an online verification system enabling institutions to authenticate Aadhaar numbers electronically.
+[
+26
+]
+In November 2012, a Public Interest Litigation was filed in the Supreme Court of India by former Karnataka High Court judge K. S. Puttaswamy, challenging the constitutional validity of the Aadhaar scheme on grounds including privacy and lack of statutory backing.
+[
+26
+]
+Around this time, Prime Minister Manmohan Singh launched an Aadhaar-linked Direct Benefit Transfer (DBT) scheme in 51 districts, aimed at transferring subsidies directly to beneficiaries’ bank accounts.
+On 23 September 2013, the Supreme Court issued an interim order directing that no person should suffer for not possessing an Aadhaar number and clarified that the programme was voluntary at that stage.
+Legislative enactment and judicial review (2016–2018)
+On 3 March 2016, the Aadhaar Targeted Delivery of Financial and Other Subsidies, Benefits and Services Bill, 2016 was introduced in Parliament as a Money Bill by Finance Minister Arun Jaitley.
+[
+27
+]
+The Bill was passed by the Lok Sabha on 11 March 2016.
+[
+28
+]
+Opposition parties criticised its introduction as a Money Bill, arguing that it limited the role of the Rajya Sabha.
+[
+29
+]
+On 24 August 2017, in Justice K.S. Puttaswamy (Retd.) v. Union of India, the Supreme Court unanimously held that the right to privacy is a fundamental right under the Constitution of India.
+[
+30
+]
+In September 2018, the Supreme Court upheld the constitutional validity of the Aadhaar Act, 2016, while restricting its mandatory use. The Court held that Aadhaar could not be required for opening bank accounts, obtaining mobile connections, or school admissions.
+[
+31
+]
+Subsequent developments
+In 2018, UIDAI introduced face authentication as an additional mode of biometric verification, supplementing fingerprint and iris authentication.
+[
+32
+]
+In 2019, Finance Minister Nirmala Sitharaman proposed permitting the use of Aadhaar in place of a Permanent Account Number (PAN) for specified high-value cash transactions.
+Bhudhaar
+Main article:
+Bhudhaar
+Government of Andhra Pradesh
+started Aadhaar based innovative first of its kind project called
+Bhudhaar
+to assign an 11-digit unique number for every land parcel
+[
+33
+]
+in the state as part of the "land hub in E-Pragati Programme". Andhra Pradesh Chief Minister
+N. Chandrababu Naidu
+launched
+[
+34
+]
+the programme on 20 November 2018 to streamline the land records.
+Union Government of India
+also implementing
+Unique Land Parcel Identification Number (ULPIN)
+Project with the reference
+[
+35
+]
+from this Bhudhaar Project.
+Bhuseva Authority,
+[
+36
+]
+an inter-departmental committee was formulated to implement and its progress monitored in real time basis by
+Andhra Pradesh Chief Minister
+and all citizens using
+Core Dashboard
+(developed and managed by the
+Real Time Governance Society
+).
+Any type of land parcel categories i.e. agriculture lands, rural properties & urban properties (like houses, house sites, and vacant lands) are managed by all land-related departments in the states. These are Revenue, Panchayat Raj, Municipal Administration, Registration, Survey & Settlements, Forest, Endowments, Wakf. Under the Land Hub core platform, these departments integrate their land-related services and issue a new Bhudhaar number to each land holding or property upon ownership change.
+In general Land records consists of two types
+[
+37
+]
+of data: textual data (like village name, name of land owner, survey number, extent, ID proof like Aadhaar,
+Voter ID
+or other related documents), and spatial data (data depicting the sketch of the land, its measurements (in links/metres/feet), adjacent fields, location on ground).
+The
+Bhudhaar
+issuing process contains 2 stages. Firstly, a temporary Bhudhaar is assigned based on valid textual data of an agriculture land holding, rural or urban property. It begins with 99, and the following numbers are generated on a random basis only. There is no meaning to the 9 digits, but they form a unique ID for that property. A special series number is allocated to government lands, for example, 99.312.725.202., where "99" indicates that it is a temporary Bhudhaar.
+Second, a permanent Bhudhaar is assigned once the spatial data is captured and linked to the textual data. The spatial data contains the measurement of the land and its resultant sketch (FMB), the location of the land on the ground along with
+geo-coordinates
+. To capture the measurement of land holding or a sub-division, the
+Andhra Pradesh Government
+uses
+[
+38
+]
+the
+Continuously Operating Reference Station
+(CORS) a state-of-the-art technology in surveying properties. Once the geo-coordinates captured are completed using CORS, the permanent Bhudhaar is assigned, and the first two numbers i.e., 99 in the temporary Bhudhaar are replaced with 28 (State Census Code).
+Predominant uses
+Direct Benefit Transfer
+Main article:
+Direct Benefit Transfer
+The Aadhaar project has been linked to welfare schemes and
+unemployment benefit
+schemes such as the domestic LPG scheme and
+MGNREGA
+. In these
+Direct Benefit Transfer
+(DBT) schemes, the subsidy money is directly transferred to a bank account which is Aadhaar-linked.
+[
+39
+]
+[
+40
+]
+Previously, the direct-benefit transfer had been carried out via the
+National Electronic Funds Transfer
+(NEFT) system, which did not depend on Aadhaar.
+On 29 July 2011, the
+Ministry of Petroleum and Natural Gas
+signed a
+memorandum of understanding
+with UIDAI. The Ministry had hoped the ID system would help eliminate the loss of the subsidised kerosene and LPG.
+[
+41
+]
+In May 2012 the government announced that it would begin issuing Aadhaar-linked MGNREGS cards.
+[
+40
+]
+On 26
+November 2012 a pilot programme was launched in 51 districts.
+[
+42
+]
+Under the original policy for liquefied petroleum gas subsidies, the customers bought gas cylinders from retailers at subsidised prices, and the government compensated companies for their losses. Under the current Direct Benefit Transfer of LPG (DBTL), introduced in 2013, customers had to buy at full price, and the subsidy would be then directly credited to their Aadhaar-linked bank accounts. This scheme, however, did not take off, and in September 2013 a Supreme Court order put a halt on it.
+[
+43
+]
+Subsequently, the GOI constituted a committee to review the "Direct Benefits Transfer for LPG Scheme"
+[
+44
+]
+to study the shortcomings in the scheme and recommend changes. The DBTL scheme was modified later as PAHAL by the new government in November 2014. Under PAHAL, subsidies could be credited to a purchaser's bank account even if he or she did not have an Aadhaar number. Official data show that cooking gas consumption during the January–June period grew at a slower 7.82%, which is nearly four percentage points less than the 11.4% growth in the same period last year.
+[
+45
+]
+[
+46
+]
+The PAHAL scheme has covered 118.9 million of the 145.4 million active LPG consumers until March, as stated by the Petroleum Minister in the Parliament. The DBT has thereby become a "game changer" for India, claimed the Chief Economic Adviser to the Finance Ministry, Government of India, Arvind Subramanian, for in case of LPG subsidy, DBT had resulted in a 24% reduction in the sale of subsidised LPG, as "ghost beneficiaries" had been excluded. The savings to the government were to the tune of
+₹
+127 billion
+(US$2.08 billion)
+in 2014–2015.
+[
+47
+]
+The success of the modified scheme helped fuel marketing companies save almost
+₹
+80
+billion
+(US$1.31 billion)
+from November 2014 to June 2015, said oil company officials.
+[
+45
+]
+The DBT for the
+public distribution system
+(PDS) will be rolled out in September 2015.
+[
+47
+]
+The government's own data, however, suggest that the cost of implementing the DBT for LPG was over a million dollars, a figure quite at odds with the savings figures that the government cites.
+[
+48
+]
+Prime Minister Modi has asked for the integration of all land records with Aadhaar at the earliest, emphasising at his monthly PRAGATI (Pro-Active Governance and Timely Implementation) meeting on 23
+March 2016 that this was extremely important to enable monitoring of the successful implementation of the
+Pradhan Mantri Fasal Bima Yojana
+or crop insurance scheme.
+[
+49
+]
+Aadhaar-enabled biometric attendance systems
+In July 2014 Aadhaar-enabled biometric attendance systems were introduced in government offices. The system was introduced to check the late arrival and absenteeism of government employees. The public could see the daily in and out of employees on the website
+attendance.gov.in
+.
+[
+50
+]
+[
+51
+]
+In October 2014 the website was closed to the public but as of 24
+March 2016 is again active and open to public access.
+[
+52
+]
+The employees use the last four digits (last eight digits for government employee registering as of August 2016) of their Aadhaar number and their fingerprints, for authentication.
+[
+53
+]
+Uses by government agencies
+In November 2014 it was reported that the Ministry for External Affairs was considering making Aadhaar a mandatory requirement for passport holders.
+[
+54
+]
+In February 2015 it was reported that people with an Aadhaar number would get their passports issued within 10 days, as it sped up the verification process by making it easier to check if an applicant had any criminal records in the
+National Crime Records Bureau
+database.
+[
+55
+]
+In May 2015, it was announced that the Ministry of External Affairs was testing the linking of passports to the Aadhaar database.
+[
+56
+]
+In October 2014 the
+Department of Electronics and Information Technology
+said that they were considering linking Aadhaar to
+SIM cards
+.
+[
+57
+]
+In November 2014 the
+Department of Telecom
+asked all telecom operators to collect Aadhaar from all new applicants of SIM cards.
+[
+58
+]
+On 4
+March 2015 a pilot project was launched allowing Aadhaar-linked SIM cards to be sold in some cities. The purchaser could activate the SIM at the time of purchase by submitting his Aadhaar number and pressing his fingerprints on a machine.
+[
+59
+]
+It is part of the
+Digital India
+plan. The Digital India project aims to provide all government services to citizens electronically and is expected to be completed by 2018.
+[
+59
+]
+[
+60
+]
+In July 2014 the
+Employees' Provident Fund Organisation
+(EPFO) began linking provident fund accounts with Aadhaar numbers.
+[
+61
+]
+In November 2014 the EPFO became a UIDAI registrar and began issuing Aadhaar number to provident fund subscribers.
+[
+62
+]
+In December 2014 Labour Minister
+Bandaru Dattatreya
+clarified that an Aadhaar number was not necessary for any provident fund transaction.
+[
+63
+]
+In August 2014 Prime Minister Modi directed the Planning Commission of India to enrol all prisoners in India under the UIDAI.
+[
+64
+]
+In December 2014 it was proposed by the Minister for Women and Child Development,
+Maneka Gandhi
+, that Aadhaar should be made mandatory for men to create a profile on
+matrimonial websites
+, to prevent fake profiles.
+[
+65
+]
+In July 2015 the
+Department of Electronics and Information Technology
+(DeitY) called a meeting of various matrimonial sites and other stakeholders to discuss the use of Aadhaar to prevent fake profiles and protect women from exploitation.
+[
+66
+]
+On 3 March 2015, the
+National Electoral Roll Purification and Authentication Programme
+(NERPAP) of the
+Election Commission
+was started. It aims to link the Elector's Photo Identity Card (EPIC) with the registered voter's Aadhaar number. It aims to create an error-free
+voter
+identification system in India, especially by removing duplications.
+[
+67
+]
+[
+68
+]
+Uses by states
+In the
+Hyderabad
+region of
+Telangana
+state, Aadhaar numbers were linked to ration cards to remove duplicate
+ration cards
+. The project was started in July 2012 and was carried out despite the 2013 Supreme Court order. More than 63,932 ration cards in the white category and 229,757 names were removed from its database in the drive between July 2012 and September 2014.
+[
+69
+]
+[
+70
+]
+[
+71
+]
+In August 2012 the government of the state of
+Andhra Pradesh
+asked citizens to surrender illegal ration cards before it began to link them with Aadhaar numbers. By September 2014, 15
+lakh
+(1.5 million) illegal ration cards had been surrendered.
+[
+72
+]
+[
+73
+]
+In April 2015 the state of
+Maharashtra
+began enrolling all school students in the state in the Aadhaar project to implement the
+Right to Education Act
+properly.
+[
+74
+]
+Electronic-Know Your Customer (e-KYC) using Aadhaar card is also being introduced to activate mobile connections instantly to check Aadhaar Card Status.
+[
+75
+]
+PVC Card
+Sample PVC Aadhaar card front
+Sample PVC Aadhaar card back
+In 2020, UIDAI introduced a new physical Aadhaar card made of
+PVC
+with additional security features such as
+holograms
+, micro text, ghost images,
+guilloché Patterns
+, invisible logos etc.
+[
+76
+]
+The PVC Aadhaar Card can be ordered by any Aadhaar holder from UIDAI's official website and it will be delivered to the Aadhaar holder's registered address in the UIDAI database via
+Speed Post
+at a fee of ₹50.
+[
+77
+]
+[
+78
+]
+Criticism and concerns
+Feasibility concerns
+In October 2010 R. Ramakumar, an economist at the
+Tata Institute of Social Sciences
+,
+[
+79
+]
+wrote in an editorial for
+The Hindu
+that the project was being implemented without any cost-benefit or feasibility studies to ensure whether the project would meet its stipulated goals. He also pointed out that the government was obscuring the security aspects of Aadhaar and focusing on the social benefit schemes. He quoted a former chief of the
+Intelligence Bureau
+Ajit Doval
+, who had said that originally Aadhaar aimed to weed out
+illegal aliens
+.
+[
+80
+]
+In March 2011 Rajanish Dass of
+IIM Ahmedabad
+'s Computer and Information Systems Group published a paper titled "Unique Identity Project in India: A divine dream or a miscalculated heroism". Dass claimed that even if enrolment was voluntary, it was being made mandatory by indirect means. He pointed out that essential schemes like the
+National Food Security Act, 2013
+, was being linked to the UIDAI. He also stated that the feasibility of a project of this size had not been studied and raised concerns about the quality of the biometric data being collected. He cited statements of another researcher,
+Usha Ramanathan
+, that the UIDAI would ultimately have to become profit-making to sustain itself.
+[
+81
+]
+[
+82
+]
+The debate on the feasibility of sustaining a project of the size of the population of India is settled as over 1.22 billion Indians are enrolled in Aadhaar as of July 2018,
+[
+5
+]
+representing about 90% of the total estimated population.
+[
+83
+]
+The scheme complements other initiatives taken by the government, for example
+Digital India
+, to benefit people by giving easier access to public services.
+On 9 November 2012 the
+National Institute of Public Finance and Policy
+(NIPFP) published a paper titled
+A cost-benefit analysis of Aadhaar
+. The paper claimed that by 2015–2016 the benefits of the project would surpass the costs, and by 2020–2021 the total benefit would be
+₹
+251 billion
+(US$2.6
+billion)
+against a total expenditure of
+₹
+48.35 billion
+(US$510
+million)
+. The benefits would come from plugging leakages in various subsidy and social benefit schemes.
+[
+84
+]
+[
+85
+]
+On 2 February 2013
+Reetika Khera
+, a development economist at IIT Delhi, published a paper in the
+Economic and Political Weekly
+titled
+A 'Cost-Benefit' Analysis of UID,
+in response to the cost-benefit analysis published by NIPFP. She argued that the seemingly large benefits were based 'almost entirely on unrealistic assumptions' and outdated data. The paper pointed to how the relative cost-effectiveness of Aadhaar in comparison with alternative technologies
+–
+the basic premise of any cost-benefit analysis
+–
+was entirely ignored. Further, concerns regarding a possible conflict of interest were also raised.
+[
+86
+]
+In March 2016 the
+International Institute for Sustainable Development
+released a report that the benefit from Aadhaar-linked LPG subsidy scheme for 2014–2015 was
+₹
+140 million
+(US$1.5
+million)
+and for 2015–2016 was
+₹
+1.21 billion
+(US$13
+million)
+. These sums were much lower than the number stated by Finance Minister Jaitley in the Lok Sabha. He had said in March 2016 that the government had saved
+₹
+150 billion
+(US$1.6
+billion)
+from the scheme. The paper said that the government was also including the savings from the efforts of oil marketing companies (OMCs) prior to the introduction of Aadhaar. The method used by the OMCs to weed out duplicates and ghost customers was 15–20 times more effective than the Aadhaar-based method.
+[
+87
+]
+The savings of
+₹
+150 billion
+(US$1.6
+billion)
+from the scheme was not claimed by the government to be from LPG subsidy alone, but by plugging leaks and checking corruption with the help of Aadhaar in all the schemes administered by the government of India.
+Lack of legislation and privacy concerns
+On 2 February 2015, the Supreme Court asked the new government to clarify its stance on the project. This was in response to a new PIL filed by Mathew Thomas, a former army officer. Thomas had claimed that the government was ignoring previous orders while pushing ahead with the project and that the project was unconstitutional as it allowed
+profiling
+of citizens. In a reply on 12
+February the government said that it would continue the project.
+[
+88
+]
+[
+89
+]
+On 16 July 2015 the government requested the Supreme Court to revoke its order, saying that it intended to use Aadhaar for various services.
+[
+90
+]
+On 21 July 2015 the Court noted that some states were insisting on Aadhaar for benefits despite its order.
+[
+91
+]
+On 11 August 2015, the Supreme Court directed the government to widely publicise in print and electronic media that Aadhaar was not mandatory for any welfare scheme. The Court also referred the petitions claiming Aadhaar was unconstitutional to a Constitutional Bench.
+[
+92
+]
+On 19 July 2017, a nine-judge bench of the Supreme Court began hearing the arguments on whether there is a fundamental right to privacy.
+[
+93
+]
+On 24 August 2017 the nine-judge bench unanimously upheld the right to privacy as a fundamental right under the Constitution.
+[
+94
+]
+[
+95
+]
+[
+96
+]
+A five-judge constitutional bench of the Supreme Court has heard various cases relating to the validity of Aadhaar on various grounds including privacy, surveillance, and exclusion from welfare benefits.
+[
+97
+]
+As of 27 February 2018, senior counsels Shyam Divan,
+[
+98
+]
+Kapil Sibal,
+[
+99
+]
+and Gopal Subramanium,
+[
+100
+]
+argued over a span of 13 days in this matter.
+In a majority opinion dated 26 September 2018, the Supreme Court upheld the use of Aadhaar.
+[
+101
+]
+Legality of sharing data with law enforcement
+In 2013 in
+Goa
+the
+CBI
+was trying to solve the case of a rape of a schoolgirl. It approached a Goa local court saying that they had acquired some fingerprints from the scene that could be matched with the UIDAI database. The court asked the UIDAI to hand over all data of all persons in Goa to the CBI.
+[
+102
+]
+[
+103
+]
+The UIDAI appealed in the
+Bombay High Court
+saying that accepting such a request would set a precedent for more such requests. The High Court rejected the argument and on 26
+February 2014 in an interim order directed
+Central Forensic Science Laboratory
+(CFSL) to study the technological capability of the database to see if it could solve such a crime. The UIDAI then appealed in the Supreme Court. It argued that the chance of a
+false positive
+was 0.057% and with 600 million people in its database, it would result in hundreds of thousands of false results.
+[
+103
+]
+[
+104
+]
+On 24 March 2014, the Supreme Court restrained the central government and the UIDAI from sharing data with any third party or agency, whether government or private, without the consent of the Aadhaar-holder in writing. Vide another interim order dated 16
+March 2015, the Supreme Court of India has directed that the Union of India and States and all their functionaries should adhere to the order passed by this court on 23
+September 2013. It observed that some government agencies were still treating Aadhaar as mandatory and asked all agencies to issue notifications clarifying that it was not.
+[
+102
+]
+On 26 September 2018, the Supreme Court ruled that Section 57 of the Aadhaar Act was unconstitutional, meaning that private entities cannot compel their customers to provide their Aadhaar number as a condition of service to verify their identity, specifically citing requiring it for bank accounts, school admissions, and mobile phone service as examples of unlawful use cases. However, it did uphold its requirement for income tax filing and welfare programmes.
+[
+105
+]
+[
+106
+]
+[
+107
+]
+[
+108
+]
+Land allotment dispute
+In September 2013 the
+Delhi Development Authority
+accepted a complaint from the activist group
+India Against Corruption
+and cancelled a land allotment to the UIDAI. The land was previously owned by
+BSNL
+, and
+MTNL
+had also laid claims on it. It had an estimated
+₹
+9 billion
+(US$94
+million)
+value but had been allotted to the UIDAI at a very cheap rate.
+[
+109
+]
+The issue of constructing the UIDAI HQs and UIDAI Regional Office building in Delhi was resolved with the Department of Telecom (DoT), following which the Ministry of Urban Development issued a notification on 21
+May 2015 clearing the titles of the land in favour of the UIDAI, including projected land use.
+[
+110
+]
+Security concerns
+In an August 2009 interview with the
+Tehelka
+, former chief of the
+Intelligence Bureau
+(IB), Ajit Doval, said that Aadhaar was originally intended to flush out illegal immigrants, but social security benefits were later added to avoid privacy concerns.
+[
+111
+]
+In December 2011 the Parliamentary Standing Committee on Finance, led by
+Yashwant Sinha
+, rejected the National Identification Authority of India Bill, 2010, and suggested modifications. It expressed objections to the issuing of Aadhaar numbers to
+illegal immigrants
+. The Committee said that the project was being implemented in an unplanned manner and bypassing the Parliament.
+[
+112
+]
+In May 2013, deputy director general of the UIDAI, Ashok Dalwai, admitted that there had been some errors in the registration process. Some people had received Aadhaar cards with wrong photographs or fingerprints.
+[
+113
+]
+According to Aloke Tikku of the
+Hindustan Times
+, some officials of the Intelligence Bureau (IB) had criticised the UIDAI project in September 2013, with the officials saying that the Aadhaar number cannot be considered a credible proof of residence. As under the liberal pilot phase, where a person claimed to live was accepted as the address and recorded.
+[
+114
+]
+In 2018,
+R. S. Sharma
+, former director general of the UIDAI shared his Aadhaar number on Twitter, challenging people to show "one concrete example where you can do any harm to me!" Within hours, Twitter users managed to dig out his personal details like his personal mobile number(s), Gmail and Yahoo addresses, physical address, date of birth, his frequent flyer number, and that he uses an iPhone.
+[
+115
+]
+After this incident, UIDAI tweeted urging users not to share Aadhaar numbers publicly.
+[
+116
+]
+In September 2023, independent analyst
+Moody's
+raised concerns about the Aadhaar system, highlighting its tendency to result in service denials, especially affecting manual labourers in hot, humid climates due to questionable reliability of biometric technologies.
+[
+117
+]
+The Government of India refuted Moody's claims emphasizing the absence of reported security or privacy breaches within the Aadhaar System. The centre's stance was reaffirmed in response to parliamentary enquiries, where it unequivocally stated that no breaches had been reported from the Aadhaar database.
+[
+118
+]
+Overlaps with National Population Register
+Main article:
+National Population Register
+The Union Home Minister
+Rajnath Singh
+reviewing the implementation of the National Population Register (NPR), at a meeting in New Delhi on 18 June 2014
+The Aadhaar and the similar
+National Population Register
+(NPR) projects have been reported to be in conflict. In January 2012 it was reported that the UIDAI would share its data with NPR and the NPR would continue to collect its own data.
+[
+119
+]
+In January 2013 then-Home Minister
+Sushilkumar Shinde
+said that Aadhaar was not an identity card but a number, while the NPR was necessary for national security purposes.
+[
+120
+]
+The 2013 Supreme Court order did not affect the NPR project as it was not linked to any subsidy.
+[
+121
+]
+In July 2014 a meeting was held to discuss the possibility of merging the two projects, Aadhaar and NPR, or making them complementary. The meeting was attended by Home Minister
+Rajnath Singh
+, Law and Justice and Telecom Minister
+Ravi Shankar Prasad
+, and Minister of State for Planning
+Rao Inderjit Singh
+.
+[
+122
+]
+Later in the same month, Rao Inderjit Singh told the Lok Sabha that no plan to merge the two projects has been made.
+[
+123
+]
+On 23 September 2019, the then Union Home Minister Amit Shah announced an idea where the NPR and Aadhaar would be on the 2021 census and would be used with the census data to build a new unique national document,
+[
+124
+]
+however, UIDAI confirmed that for 2021 census, the Aadhaar use would be voluntary, also saying that "Collection of biometrics is not been provided under Citizenship Rules".
+[
+125
+]
+Fraud
+In order to make Aadhaar accessible to often undocumented poorer citizens, obtaining an Aadhaar card does not require significant documentation, with multiple options available. In theory, the use of biometric facilities should reduce or eliminate duplication. So, in theory, while it may be possible to obtain the card under a false name, it is less likely that a person would be able to obtain another Aadhaar card under a different (or real) name.
+The Aadhaar card itself is not a secure document (being printed on paper) and according to the agency should not be treated as an
+identity card
+[
+126
+]
+though it is often treated as such. However, with currently no practical way to validate the card (e.g. by police at airport entry locations) it is of questionable utility as an identity card. "There are five main components in an Aadhaar app transaction
+–
+the customer, the vendor, the app, the back-end validation software, and the Aadhaar system itself." There are also two main external concerns
+–
+the security of the data at rest on the phone and the security of the data in transit. At all seven points, the customer's data is vulnerable to attack ... The app and validation software are insecure, the Aadhaar system itself is insecure, the network infrastructure is insecure, and the laws are inadequate," claims Bhairav Acharya, Program Fellow, New America.
+[
+127
+]
+The Aadhaar card is usually printed on glossy paper, and the government has stated black and white copies are valid. Some agencies charge extra to laminate the document. Other agencies have been reported charging
+₹
+50 to 200 to produce a PVC version of the card, and it is marketed by them as a
+smart card
+, despite having no official validity and no chip.
+[
+128
+]
+Certain
+mobile apps
+claim to verify an Aadhaar card using a
+QR code
+scanner. However, the QR code is not a secure representation of an Aadhaar card either and can be copied and edited. The only way to validate an Aadhaar card is to perform an online validation, which will confirm that the card number is valid, and confirm the postal code and gender of the holder (but not their name or photo). In theory, this means that is possible to create a false Aadhaar card using the number of a genuine holder from the same postal code with the same gender, with the card subject to a number of cases of counterfeiting.
+[
+129
+]
+The digital document itself is self-signed by a non-internationally recognised certificate authority (n)Code Solutions, a division of
+Gujarat Narmada Valley Fertilizers
+Company Ltd (GNFC)
+[
+130
+]
+and needs to be manually installed on the PC. This is despite
+Entrust
+assisting in the development of the solution.
+[
+131
+]
+Cloning of biometric data
+Aadhaar data is linked to the fingerprints of cardholders. This has been used by fraudsters to withdraw money from bank accounts. Most people have linked their bank accounts to their Aadhaar identity due to the mandatory nature of the linkage as promoted by the government. The Aadhaar programme automatically enrolls the bank customer into a payment system wherein money can be withdrawn from their bank account using their Aadhaar card numbers and fingerprints. Fraudsters obtain customers' fingerprints through websites where land-owning documents are public or where fingerprints can be sold to fraudsters by people who can obtain copies of victims' fingerprints through objects in their homes. Essentially, one's fingerprints work as a password that cannot be changed, unlike credit card PINs and many other similar protective services.
+[
+132
+]
+Application issues
+While the service is free for citizens, some agents have been charging fees.
+[
+133
+]
+Despite the modern processes, there are cases where enrolments are lost in the system without explanation. mAadhaar is an official mobile application developed by the UIDAI to provide an interface for Aadhaar number holders to carry their demographic information including name, date of birth, gender, and address along with a photograph linked with their Aadhaar number in smartphones. In one case, every resident in a village in Haridwar was assigned a birthday of 1
+January.
+[
+134
+]
+Aadhar Seva Kendra
+Threat of exclusion
+Many private and public benefits are being linked to Aadhaar numbers and made contingent on it: food aid, cooking-gas subsidies, mobile connections, NREGA wages, government examinations, banking facilities, tax filings, etc. In fact, much of the massive enrolment resulted from the fear of being excluded from these benefits. There have been instances where people have been denied food aid because of issues with authentication arising from network issues or problems with identifying fingerprints (sometimes fingerprints become faded from age or manual labour).
+[
+135
+]
+Documentary proof may be difficult to obtain, with the system requiring documents such as bank accounts, insurance policies, and driving licences that themselves increasingly require an Aadhaar card or similar documentary evidence to originate.
+[
+136
+]
+This may lead to a significant minority underclass of undocumented citizens who will find it harder to obtain necessary services.
+[
+137
+]
+Introducers and Heads of family may also assist in documentation; however, for many agencies and legitimate applications, this facility may not be practical.
+[
+138
+]
+Non-resident Indians
+,
+overseas citizens of India
+, and other resident foreigners may also find it difficult to avail themselves of services they could previously freely obtain, such as local
+SIM cards
+,
+[
+139
+]
+despite assurances to the contrary.
+[
+140
+]
+Since the Unique Identification Authority office first opened in Delhi, people have been allowed to designate their gender as "transgender" on their Aadhaar card, according to an August 2013 report.
+[
+141
+]
+Data leaks and security incidents
+The Aadhaar database has experienced multiple data leaks and security breaches since its inception. These have ranged from the sale of unauthorised access by database administrators, the exposure of personal information on government websites, and unauthorised use and access of Aadhaar data by private institutions.
+The detailed personal information being collected is of extremely high importance to an individual. However, once collected, it is not being treated with the required sensitivity for privacy
+[
+142
+]
+concerns. Major financial transactions are linked with information collected in Aadhaar. Data leaks
+[
+143
+]
+are a gold mine for criminals who now use sophisticated hackers. Government departments and various other agencies that collect this information such as banks cannot be trusted to maintain the secrecy of all this collected information.
+[
+144
+]
+Another case occurred wherein Aadhaar data collected by Reliance Jio was leaked online, and the data may now be widely available to hackers.
+[
+145
+]
+[
+146
+]
+The UIDAI confirms more than 200 government websites were publicly displaying confidential Aadhaar data; though removed now, the data leaked cannot be scrubbed from hackers' databases.
+[
+147
+]
+In July 2017 privacy issues with regard to the Aadhaar card were discussed in the Supreme Court.
+[
+148
+]
+[
+149
+]
+A report from the Center for Internet and Society suggests that the records of about 135 million Indians may have been leaked.
+[
+150
+]
+A loophole was identified that allows all records to be accessed by anyone
+[
+151
+]
+though hackers can find other routes.
+2017
+In February 2017, the Unique Identification Authority of India filed a police complaint after confirming that Axis Bank, a private banking institution, Suvidhaa Infoserve (a business news reporter) and eMudhra (an agency providing e-signature services) had illegally accessed the Aadhaar database and further, had impersonated people after illegally storing their personal data.
+[
+152
+]
+In April 2017, the government of the state of Jharkhand exposed Aadhaar details and personal information of over 10
+lakh
+(1 million) people as a result of a programming mistake on the website of the Jharkhand Directorate of Social Security, making this information available to any person who was logged on to the website.
+[
+153
+]
+[
+154
+]
+In March 2017, the UIDAI blacklisted a contracted agency charged with collecting biometric data, after they shared a photograph containing the personal information of Indian cricketer M.S. Dhoni. The photo was tweeted as part of efforts to promote Aadhaar enrolment in India, and showed Dhoni enrolling, including a visual of his enrolment form being fed into a computer. The image was retweeted by several people, including
+Ravi Shankar Prasad
+, the then-Information and Broadcasting Minister of the Indian Government.
+[
+155
+]
+[
+156
+]
+In August 2017, a software engineer was arrested after he created an app that exploited vulnerabilities in the official Aadhaar app in order to allow him to re-route requests for data, after unlawfully accessing the networks of the
+National Informatics Centre
+. He was able to exploit the Aadhaar app before detection for six months, between January and July 2017.
+[
+157
+]
+[
+158
+]
+Wikileaks tweeted on 25 August 2017 that the same American supplier of fingerprint and Iris scanning equipment that collaborated with the CIA to identify Osama Bin Laden was also supplying equipment to India.
+[
+159
+]
+The complex structure of ownership is detailed in an article in Fountainink.in
+[
+160
+]
+Concerns were raised as early as 2011 in the Sunday
+Guardian
+regarding not following due process and handing over contracts to entities with links to the FBI and having a history of leaking data across countries.
+[
+161
+]
+How the CIA can hack and access the Aadhaar database using a secret Expresslane project is documented in a report on the GGInews website
+[
+162
+]
+and saved in an archive lest it be removed.
+[
+163
+]
+Further communications have also identified the clauses under which data may have freely flowed to foreign agencies due to the nature and wordings in the Aadhaar contracts
+[
+164
+]
+and archived here.
+[
+165
+]
+The Centre for Internet and Society, a non-profit research organisation from India, reported that during 2017, the Aadhaar of 130 million people was leaked as a result of information exposed on websites relating to four government social security schemes. These schemes were the National Social Assistance Programme and the National Rural Employment Guarantee Act (managed by the Ministry of Rural Development), and the Daily Online Payment Reports under NREGA and Chandranna Bima Scheme (managed by the State Government of Andhra Pradesh).
+[
+166
+]
+In May 2017, the Central Government of India admitted in the Supreme Court that Aadhaar data had been leaked several times in that year. Arghya Sengupta, the head of policy consulting institution,
+Vidhi Centre for Legal Policy
+, argued that none of the leaks had come directly from the Aadhaar database, while the Attorney General, Mukul Rohatgi, defended the leaks and argued that, "one cannot have an absolute right over his or her body".
+[
+167
+]
+The leak of Aadhaar data was further confirmed publicly by the Ministry of Electronics and IT.
+[
+168
+]
+2018
+In 2018, the Aadhaar database suffered several breaches, resulting in 1.1 billion people's data being leaked and compromised. This was described by the
+World Economic Forum
+2019
+Global Risks Report
+as the "largest breach" of personal information in that year.
+[
+169
+]
+In the same year, Right to Information petitions filed by media organisations indicated that 210 Indian government officials and institutions had posted parts of the Aadhaar database in publicly accessible sources, resulting in the leak of personal data, resulting in post-facto removals of this data by the Unique Identification Authority of India.
+[
+170
+]
+On 5 January 2018, media correspondents from The Tribune reported that they were, by posing as buyers, able to gain administrator access to the entire Aadhaar database for a payment of
+₹
+500
+(US$5.20)
+, revealing major security flaws.
+[
+171
+]
+Acknowledging this data breach, the Unique Identification Authority of India suspended 5000 officials from accessing the database after an investigation revealed misuse and unauthorised usage.
+[
+172
+]
+The incident was widely reported internationally.
+[
+173
+]
+[
+174
+]
+In response to the incident, UIDAI denied the breach, and filed a criminal complaint against the newspaper and journalists who reported the security flaws.
+[
+175
+]
+On 8 January 2018, India's Union Government confirmed that three websites belonging to the Government of the State of Gujarat had exposed the personal Aadhaar data of citizens. These websites included the website of the University of Gujarat, the Gujarat government website, and the website of Gujarat's Director of Developing Caste Welfare.
+[
+176
+]
+On 24 January 2018, a French security researcher posted on Twitter that the m-Aadhaar mobile application contained serious security vulnerabilities that could be used to compromise the personal data of users.
+[
+177
+]
+In March 2018, an Indian security researcher noted that a vulnerability in the website of
+Indane
+Gas, an Indian-government owned corporation supplying gas cylinders for domestic cooking, had resulted in exposing Aadhaar and personal data of every person enrolled with the Aadhaar database, and not just customers of Indane. American security website
+ZDNet
+reported that they spent a month attempting to contact the National Informatics Centre, the UIDAI, and Indian consulate officials in the United States, but did not receive a response before they ran the story.
+[
+178
+]
+[
+179
+]
+On 20 March 2018, it was reported that Aadhaar data and linked personal information, including addresses, linked to a special scheme by the Government of Andhra Pradesh for women and girls had been left unsecured online and could be accessed by anyone, even though the scheme itself had been suspended in 2015.
+[
+180
+]
+In May 2018, an Indian security researcher found that Aadhaar data linked to personal information, including caste identities, religious affiliation, bank accounts, and personal addresses and mobile numbers had been left unprotected on a website of the State Government of Andhra Pradesh, resulting in the leak of data belonging to 130,000 citizens.
+[
+181
+]
+[
+182
+]
+In September 2018,
+R.S. Sharma
+, the chairman of the Telecom Regulatory Authority of India and former UIDAI chairman, disclosed his Aadhaar number on Twitter and challenged anyone to misuse it, in an effort to demonstrate the security of the Aadhaar programme. Using his Aadhaar, French researchers were able to access and disclose personal information belonging to Sharma, including his personal telephone number, tax identity card, his secretary's phone number, personal address, family photographs, date of birth, frequent flyer numbers, telecom operator, model of phone, details of personal purchases and transactions, and advised him to change his personal Gmail account password as a precaution.
+[
+183
+]
+The information was later used to make an unauthorised symbolic deposit of
+₹
+1
+(1.0¢
+US)
+in his personal bank account as well, to demonstrate the possibility of blackmail and compromise.
+[
+184
+]
+In 2020, his Aadhaar number was also used to unlawfully register him for certain government subsidies for which he was ineligible, resulting in the fraudulent receipt of government funding. Sharma has blamed this incident on the state government's failure to verify his enrolment.
+[
+185
+]
+Virtual ID
+On 1 March 2018, Virtual ID aka VID was introduced and was made as an option for agencies to use Virtual ID by 1 September 2018. A Virtual ID is a 16-digit number that is generated using the Aadhaar number. This Virtual ID can then be used instead of the Aadhaar number to carry out some Aadhaar-related work.
+[
+citation needed
+]
+[
+186
+]
+Revolving door problem
+The question of the
+revolving door
+phenomenon (where "individuals using experience, knowledge and clout gained while in public service in pursuit of profit for private companies") has been raised in the context of Aadhaar, as people who were involved in the creation, design, and popularisation of Aadhaar are now working in the private sector where they can use this knowledge for their own private enterprises which profit off this knowledge. Some examples of this are
+Khosla Labs
+as well as
+iSPIRT
+, a non-profit organisation which is dedicated to developing and supporting
+India Stack
+'s APIs has had many employees who were involved with UIDAI in various capacities.
+[
+187
+]
+CAG Report on the functioning of the UIDAI
+In April 2022, the
+Comptroller and Auditor General of India
+published an audit report on the functioning of the UIDAI. The report contains observations and recommendations based on a performance audit – which included assessments of both the Enrolment and Update Ecosystems as well as the Authentication Ecosystems for the period 2014–15 to 2018–19. The press release lists the Summary of Performance, Significant Audit Findings, and the recommendations.
+[
+188
+]
+[
+189
+]
+Drive to link Aadhaar with Voter ID card
+In 2022, the Election Commission started a drive to link the Aadhaar card with the voter ID card.
+[
+190
+]
+The Union Government claimed that this linking will be voluntary, but the bill passed in the parliament contradicts the claim.
+[
+191
+]
+The rules issued by the Union Government mention that the only "sufficient cause" for a person to not link their Aadhaar Card with the Voter ID Card is if the person does not have one. The election officials cited 'orders from above' to pressure voters into linking these documents.
+[
+192
+]
+The linkage of Aadhaar with Voter ID cards has several concerns. First, Aadhaar is not a proof of citizenship and such a linkage will not filter non-citizens. Another problem is the
+Unique Identification Authority of India
+in 2018 reported that Aadhaar-based biometric authentication had a 12% error rate and linkage of voter ID with Aadhaar in Andhra and Telangana in 2015 led to the disenfranchisement of around 30 lakhs (3 million) voters leading to Supreme Court cancelling the linkage process. Yet another problem is that such a linkage would assign Aadhaar's demographic information to an electoral database leading to misuse for profiling of voters, and India's lack of data protection laws makes it even worse.
+[
+193
+]
+See also
+India portal
+Nandan Nilekani
+, first chairman of the UIDAI
+References
+↑
+"Neelkanth Mishra appointed part-time chairperson of UIDAI, Neelesh Shah and Prof Mausam join as members"
+. 22 August 2023.
+Archived
+from the original on 7 September 2023
+. Retrieved
+7 September
+2023
+.
+↑
+PIB.
+"Saurabh Vijay assumes charge as CEO of Unique Identification Authority of India"
+.
+ETGovernment.com
+. Retrieved
+21 May
+2026
+.
+1
+2
+"About UIDAI"
+. UIDAI.
+Archived
+from the original on 23 July 2017
+. Retrieved
+25 July
+2017
+.
+↑
+"UIDAI Finance and Budge Section"
+.
+UIDAI
+.
+Archived
+from the original on 27 May 2018
+. Retrieved
+4 September
+2018
+.
+1
+2
+"Aadhaar Dashboard"
+. UIDAI.
+Archived
+from the original on 29 December 2019
+. Retrieved
+19 October
+2024
+.
+↑
+"Home – Unique Identification Authority of India
+|
+Government of India"
+. Uidai.gov.in.
+Archived
+from the original on 10 March 2017
+. Retrieved
+12 February
+2022
+.
+↑
+https://dbtbharat.gov.in/data/aadhaar-uidai/AadhaarHandbook2020.pdf
+Aadhaar handbook
+↑
+"Aadhaar is voluntary—but millions of Indians are already trapped"
+.
+Quartz
+. 26 September 2018
+. Retrieved
+20 December
+2023
+.
+↑
+https://uidai.gov.in/images/Aadhaar_Act_2016_as_amended.pdf
+Provisions of the Act
+↑
+"What is a UID Card?"
+.
+Unique Identification Authority of India
+. Retrieved
+3 December
+2025
+.
+↑
+"Supreme Court seeks Government response on plea against use of Aadhaar as citizenship proof"
+.
+The Indian Express
+. 16 June 2026
+. Retrieved
+17 June
+2026
+.
+↑
+"Aadhaar not proof of birth, residence, or citizenship: CEC Gyanesh Kumar"
+.
+www.business-standard.com
+. Archived from
+the original
+on 4 January 2026
+. Retrieved
+17 June
+2026
+.
+↑
+"Aadhaar not valid for Indians travelling to Nepal, Bhutan: Home Ministry"
+.
+Archived
+from the original on 25 June 2017
+. Retrieved
+25 June
+2017
+.
+1
+2
+"Biometrics (facts, use cases, biometric security)"
+.
+www.thalesgroup.com
+. Retrieved
+9 June
+2025
+.
+↑
+"Learning with the Times: What is Aadhaar?"
+.
+The Times of India
+. 4 October 2010.
+ISSN
+0971-8257
+. Retrieved
+27 February
+2026
+.
+↑
+"New UIDAI data centre to come up at Manesar"
+.
+Hindustan Times
+. 7 January 2013
+. Retrieved
+27 February
+2026
+.
+↑
+"Notifications - Reserve Bank of India"
+.
+rbi.org.in
+. Retrieved
+27 February
+2026
+.
+↑
+"A committee and some questions"
+.
+www.frontline.in
+. Archived from
+the original
+on 9 July 2013
+. Retrieved
+27 February
+2026
+.
+↑
+"rediff.com Special: The Kargil Review Committee Report"
+.
+www.rediff.com
+. Retrieved
+27 February
+2026
+.
+↑
+"Ministry of Statistics and Program Implementation | Government Of India"
+.
+www.mospi.gov.in
+. Archived from
+the original
+on 13 January 2026
+. Retrieved
+27 February
+2026
+.
+↑
+"9.2 Population and Basic Statistics at the Local Level | Ministry of Statistics and Program Implementation | Government Of India"
+.
+www.mospi.gov.in
+. Archived from
+the original
+on 7 August 2025
+. Retrieved
+27 February
+2026
+.
+↑
+"Govt in no position to check passport fraud"
+.
+The Times of India
+. 21 September 2001.
+ISSN
+0971-8257
+. Retrieved
+27 February
+2026
+.
+↑
+"The Citizenship (Amendment) Act, 2003"
+.
+indiankanoon.org
+. Retrieved
+27 February
+2026
+.
+↑
+"UIDAI: Inside the World's Largest Data Management Project"
+.
+forbesindia.com
+. Archived from
+the original
+on 15 December 2025
+. Retrieved
+27 February
+2026
+.
+↑
+"UID number gets brand name, logo"
+.
+The Hindu
+. 26 April 2010.
+ISSN
+0971-751X
+. Retrieved
+27 February
+2026
+.
+1
+2
+"₹3L cr gone! Sensex sinks over 1,000 pts in freaky Friday show"
+.
+The Economic Times
+.
+ISSN
+0013-0389
+. Retrieved
+27 February
+2026
+.
+↑
+"New Aadhaar Bill introduced as money Bill in Lok Sabha"
+.
+BusinessLine
+. 3 March 2016
+. Retrieved
+27 February
+2026
+.
+↑
+Livemint (11 March 2016).
+"Aadhaar bill passed in Lok Sabha"
+.
+mint
+. Retrieved
+27 February
+2026
+.
+↑
+"Opposition livid over money bill on Aadhaar"
+.
+The Hindu
+. 5 March 2016.
+ISSN
+0971-751X
+. Retrieved
+27 February
+2026
+.
+↑
+"Indian Supreme Court in landmark ruling on privacy"
+.
+www.bbc.com
+. 24 August 2017
+. Retrieved
+27 February
+2026
+.
+↑
+Saberin, Zeenat.
+"India's top court upholds validity of biometric ID card"
+.
+Al Jazeera
+. Retrieved
+27 February
+2026
+.
+↑
+"Aadhaar Authentication Via Face Recognition From July. How It Will Work"
+.
+NDTV.com
+. Archived from
+the original
+on 23 July 2023
+. Retrieved
+27 February
+2026
+.
+↑
+"Naidu launches 'Bhudhaar'
+"
+.
+The Hindu
+. 20 November 2018.
+ISSN
+0971-751X
+.
+Archived
+from the original on 21 November 2018
+. Retrieved
+1 March
+2019
+.
+↑
+"Naidu launches 'Bhudhaar'
+"
+.
+The Hindu
+. 20 November 2018.
+ISSN
+0971-751X
+.
+Archived
+from the original on 21 November 2018
+. Retrieved
+12 April
+2019
+.
+↑
+"ULPIN Concept Note"
+(PDF)
+.
+Archived
+(PDF)
+from the original on 25 November 2021.
+↑
+"హోం - భూసేవ"
+.
+bhuseva.ap.gov.in
+.
+Archived
+from the original on 17 February 2019
+. Retrieved
+19 February
+2019
+.
+↑
+"Bhudhaar Handout"
+(PDF)
+. Archived from
+the original
+(PDF)
+on 2 December 2021
+. Retrieved
+19 February
+2019
+.
+↑
+"CORS Tender"
+(PDF)
+. Archived from
+the original
+(PDF)
+on 7 February 2019
+. Retrieved
+19 February
+2019
+.
+↑
+"Link your LPG connection to Aadhaar or bank a/c to keep getting subsidy"
+.
+DNA India
+. 2 January 2015.
+Archived
+from the original on 29 April 2015
+. Retrieved
+31 May
+2015
+.
+1
+2
+"In convergence push, NREGA card to carry Aadhar number"
+.
+The Economic Times
+. 2 May 2012. Archived from
+the original
+on 4 July 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"UIDAI, Petroleum Ministry sign MoU on AADHAR"
+.
+The Hindu
+. 30 June 2011.
+Archived
+from the original on 30 August 2013
+. Retrieved
+31 May
+2015
+.
+↑
+"PM launches Aadhar-based direct cash transfers in 51 districts of India"
+.
+NDTV
+. 26 November 2012.
+Archived
+from the original on 23 July 2015
+. Retrieved
+27 May
+2015
+.
+↑
+"Don't tie up benefits to Aadhaar, court tells Centre"
+.
+The Hindu
+. 24 September 2013.
+Archived
+from the original on 30 August 2014
+. Retrieved
+27 May
+2015
+.
+↑
+"Review of the Direct Benefit Transfer for LPG Scheme"
+(PDF)
+. Ministry of Petroleum and Natural Gas. Archived from
+the original
+(PDF)
+on 19 March 2015
+. Retrieved
+18 July
+2015
+.
+1
+2
+"DBTL helps govt save Rs 100 billion as illegal LPG consumption falls"
+.
+Live Mint
+. 3 July 2015.
+Archived
+from the original on 3 July 2015
+. Retrieved
+3 July
+2015
+.
+↑
+"New LPG subsidy transfer linked with Aadhaar starts today"
+.
+DNA India
+. 15 November 2015.
+Archived
+from the original on 26 June 2015
+. Retrieved
+31 May
+2015
+.
+1
+2
+"NDA govt kicks off PDS reforms with direct cash transfers"
+.
+Live Mint
+. 3 July 2015.
+Archived
+from the original on 3 July 2015
+. Retrieved
+3 July
+2015
+.
+↑
+Ready Reckoner: Oil Industry Information at a Glance
+. Ministry of Petroleum and Natural Gas. 2016.
+↑
+"PM Narendra Modi wants integration of all land records with Aadhaar"
+,
+The Economic Times
+, 24 March 2016
+, retrieved
+26 March
+2016
+{{
+citation
+}}
+:  CS1 maint: deprecated archival service (
+link
+)
+↑
+"Aadhar-enabled biometric attendance system introduced"
+.
+The Hindu
+. 22 November 2014.
+Archived
+from the original on 28 November 2014
+. Retrieved
+31 May
+2015
+.
+↑
+"Government website throws up shocking attendance figures"
+.
+DNA India
+. 11 October 2014.
+Archived
+from the original on 13 July 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Password veil over officials' attendance"
+.
+The Telegraph (India)
+. 14 October 2014. Archived from
+the original
+on 14 October 2014
+. Retrieved
+31 May
+2015
+.
+↑
+"Aadhaar-linked biometric attendance for Central staff"
+.
+Deccan Herald
+. 23 August 2014.
+Archived
+from the original on 13 July 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Aadhaar to be must for passports"
+.
+The Times of India
+. 11 November 2014.
+Archived
+from the original on 29 June 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Have Aadhaar? Get passport in 10 days"
+.
+The Times of India
+. 16 February 2015.
+Archived
+from the original on 21 May 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Soon, passport authorities to verify applicant identity with Aadhaar database"
+.
+The Times of India
+. 1 May 2015.
+Archived
+from the original on 4 May 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Aadhaar-SIM Card Linking Project Soon"
+.
+The New Indian Express
+. 31 October 2014. Archived from
+the original
+on 16 July 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Dot Tells Operators to Collect Aadhaar Numbers for Issuing New SIM Cards"
+.
+NDTV
+. 3 November 2014.
+Archived
+from the original on 14 July 2015
+. Retrieved
+31 May
+2015
+.
+1
+2
+"Aadhaar-based SIM sale begins today amid Intelligence Bureau objections"
+.
+DNA India
+. 4 March 2015.
+Archived
+from the original on 23 April 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Digital India – A programme to transform India into digital empowered society and knowledge economy"
+.
+Press Information Bureau
+. 20 August 2014.
+Archived
+from the original on 31 May 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"EPFO revives Aadhaar for rolling out unique account numbers"
+.
+The Indian Express
+. 23 July 2014.
+Archived
+from the original on 23 July 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Now get Aadhaar number through EPFO"
+.
+The Hindu
+. 30 November 2015.
+Archived
+from the original on 3 December 2014
+. Retrieved
+31 May
+2015
+.
+↑
+"Aadhaar details not mandatory for PF transactions: Government"
+.
+The Times of India
+. 8 December 2014.
+Archived
+from the original on 15 February 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"PM asks Plan panel to enrol inmates under Aadhaar"
+.
+The Indian Express
+. 6 August 2014.
+Archived
+from the original on 14 April 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Government asks matrimonial websites to authenticate profiles using Aadhaar cards"
+.
+The Economic Times
+. 16 December 2014. Archived from
+the original
+on 8 July 2015
+. Retrieved
+7 July
+2015
+.
+↑
+"Govt to check fraud by linking Aadhaar to matrimonial accounts"
+.
+Hindustan Times
+. 7 July 2015. Archived from
+the original
+on 7 July 2015
+. Retrieved
+7 July
+2015
+.
+↑
+"EC launches NERPAP countrywide"
+.
+Business Standard
+. 3 March 2014.
+Archived
+from the original on 2 April 2015
+. Retrieved
+4 March
+2015
+.
+↑
+"Voters' List Duplication to be Thing of Past with Aadhaar Linking"
+.
+The New Indian Express
+. 4 March 2015. Archived from
+the original
+on 2 April 2015
+. Retrieved
+4 March
+2015
+.
+↑
+"64,000 bogus cards deactivated after survey"
+.
+The Hindu
+. 12 September 2014.
+Archived
+from the original on 20 December 2016
+. Retrieved
+31 May
+2015
+.
+↑
+"Aadhaar helps weed out bogus ration cards"
+.
+The Hindu
+. 21 January 2014.
+Archived
+from the original on 9 June 2014
+. Retrieved
+31 May
+2015
+.
+↑
+"Aadhaar hurdle in drive against fake ration cards"
+.
+The Hindu
+. 2 July 2014.
+Archived
+from the original on 21 January 2018
+. Retrieved
+31 May
+2015
+.
+↑
+"15 lakh bogus ration cards found so far: Sunitha"
+.
+The Hindu
+. 6 September 2014.
+Archived
+from the original on 17 September 2023
+. Retrieved
+31 May
+2015
+.
+↑
+"2.10 lakh fake ration cards surrendered"
+.
+The New Indian Express
+. 26 August 2012. Archived from
+the original
+on 22 June 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Maharashtra to link school admission with Aadhaar"
+.
+The Hindu
+. 23 April 2015.
+Archived
+from the original on 20 December 2016
+. Retrieved
+31 May
+2015
+.
+↑
+Khan, Danish (17 August 2016).
+"Electronic KYC to enable instant activation of mobile phone connections with Aadhar"
+.
+The Economic Times
+.
+Archived
+from the original on 5 June 2020
+. Retrieved
+5 June
+2020
+.
+↑
+"PVC Aadhar Card FAQ"
+.
+Archived
+from the original on 22 December 2020
+. Retrieved
+8 December
+2020
+.
+↑
+"How To Get A PVC Aadhaar Card Online Using This New Service"
+.
+Archived
+from the original on 17 September 2023
+. Retrieved
+8 December
+2020
+.
+↑
+"Order Aadhaar reprint online: Here is all you need to know"
+.
+India Today
+. 30 November 2020.
+Archived
+from the original on 30 November 2020
+. Retrieved
+8 December
+2020
+.
+↑
+"R. Ramakumar, Dean"
+.
+Tata Institute of Social Sciences
+. Archived from
+the original
+on 23 December 2015
+. Retrieved
+26 May
+2015
+.
+↑
+"What the UID conceals"
+.
+The Hindu
+. 21 October 2010.
+Archived
+from the original on 3 July 2014
+. Retrieved
+26 May
+2015
+.
+↑
+"IIMA prof's study finds loopholes in UID project"
+.
+The Indian Express
+. 18 March 2011.
+Archived
+from the original on 24 February 2021
+. Retrieved
+30 May
+2015
+.
+↑
+"Unique Identification for Indians: A Divine Dream or a Miscalculated Heroism?"
+(PDF)
+.
+IIM Ahmedabad
+. Archived from
+the original
+(PDF)
+on 17 June 2015
+. Retrieved
+30 May
+2015
+.
+↑
+"World Population Prospects: The 2018 Revision"
+(custom data acquired via website). United Nations. Archived from
+the original
+on 19 September 2016
+. Retrieved
+22 July
+2018
+.
+1,354,051,854
+↑
+"NIPFP study: 52.85 per cent returns expected from Aadhaar project"
+.
+The Economic Times
+. 10 November 2012. Archived from
+the original
+on 5 March 2016
+. Retrieved
+27 May
+2015
+.
+↑
+"A cost-benefit analysis of Aadhaar"
+(PDF)
+.
+National Institute of Public Finance and Policy
+. 9 November 2012. Archived from
+the original
+(PDF)
+on 11 July 2019
+. Retrieved
+27 May
+2015
+.
+↑
+Khera, Reetika (5 June 2015).
+"A 'Cost-Benefit' Analysis of UID"
+.
+Economic and Political Weekly
+.
+48
+(5).
+Archived
+from the original on 1 December 2017
+. Retrieved
+30 November
+2017
+.
+↑
+"Aadhaar-linked LPG: Govt says Rs 15,000 cr saved, survey says only Rs 14 cr in FY15"
+.
+Business Standard
+. 18 March 2016.
+Archived
+from the original on 19 March 2016
+. Retrieved
+18 March
+2016
+.
+↑
+"Supreme Court seeks Modi government's view on Aadhaar scheme"
+.
+India Today
+. 3 February 2015.
+Archived
+from the original on 4 March 2016
+. Retrieved
+8 August
+2015
+.
+↑
+"Will continue with Aadhaar scheme: Centre to Supreme Court"
+.
+The Economic Times
+. 13 February 2015. Archived from
+the original
+on 30 May 2015
+. Retrieved
+8 August
+2015
+.
+↑
+"Centre wants SC to lift stay order on linking Aadhaar to benefits"
+.
+Hindustan Times
+. 17 July 2015. Archived from
+the original
+on 19 July 2015
+. Retrieved
+8 August
+2015
+.
+↑
+"Why Are States Still Insisting on Aadhar Card, Asks Supreme Court"
+.
+NDTV
+. 22 July 2015.
+Archived
+from the original on 9 August 2015
+. Retrieved
+8 August
+2015
+.
+↑
+"Aadhaar shall remain optional: Supreme Court"
+.
+The Hindu
+. 11 August 2015.
+Archived
+from the original on 9 November 2020
+. Retrieved
+11 August
+2015
+.
+↑
+"Fundamental Right to Privacy Case"
+.
+scobserver.clpr.org.in
+. Archived from
+the original
+on 27 February 2018
+. Retrieved
+27 February
+2018
+.
+↑
+"Summary of the judgment (in Plain English)"
+.
+scobserver.clpr.org.in
+. Archived from
+the original
+on 27 February 2018
+. Retrieved
+27 February
+2018
+.
+↑
+"Summary of the judgment (Part 2)"
+.
+scobserver.clpr.org.in
+. Archived from
+the original
+on 27 February 2018
+. Retrieved
+27 February
+2018
+.
+↑
+"Setback to Center, Supreme Court rules right to privacy as fundamental right"
+.
+manoramaonline.com
+.
+Archived
+from the original on 9 January 2018
+. Retrieved
+20 January
+2018
+.
+↑
+"Aadhaar Act Case Background"
+.
+scobserver.clpr.org.in
+. Archived from
+the original
+on 27 February 2018
+. Retrieved
+27 February
+2018
+.
+↑
+"Arguments by Mr. Shyam Divan"
+.
+scobserver.clpr.org.in
+. Archived from
+the original
+on 27 February 2018
+. Retrieved
+27 February
+2018
+.
+↑
+"Arguments by Mr. Kapil Sibal"
+.
+scobserver.clpr.org.in
+. Archived from
+the original
+on 27 February 2018
+. Retrieved
+27 February
+2018
+.
+↑
+"Arguments by Mr. Gopal Subramanium"
+.
+scobserver.clpr.org.in
+. Archived from
+the original
+on 27 February 2018
+. Retrieved
+27 February
+2018
+.
+↑
+Rajagopal, Krishnadas (26 September 2018).
+"Aadhaar gets thumbs up from Supreme Court"
+.
+The Hindu
+.
+Archived
+from the original on 27 September 2018
+. Retrieved
+13 April
+2019
+.
+1
+2
+"Don't exclude those without Aadhaar, share data: SC"
+.
+The Indian Express
+. 25 March 2014.
+Archived
+from the original on 5 March 2016
+. Retrieved
+27 May
+2015
+.
+1
+2
+"Stop Aadhaar data use to probe crime: UIDAI to SC"
+.
+The Indian Express
+. 19 March 2014.
+Archived
+from the original on 6 March 2016
+. Retrieved
+27 May
+2015
+.
+↑
+"UIDAI approaches SC over sharing data with CBI"
+.
+Deccan Herald
+. 17 March 2014.
+Archived
+from the original on 4 March 2016
+. Retrieved
+27 May
+2015
+.
+↑
+"Sec 57 of Aadhaar Act Struck Down. Here's What It Means For You"
+.
+The Quint
+.
+Archived
+from the original on 27 September 2018
+. Retrieved
+27 September
+2018
+.
+↑
+"Supreme Court verdict: How India's Aadhaar ID became mandatory"
+.
+Quartz
+. 26 September 2018.
+Archived
+from the original on 26 September 2018
+. Retrieved
+27 September
+2018
+.
+↑
+"Aadhaar stays, minus fangs and pangs"
+.
+The Times of India
+.
+Archived
+from the original on 27 September 2018
+. Retrieved
+27 September
+2018
+.
+↑
+Goel, Vindu (26 September 2018).
+"India's Top Court Limits Sweep of Biometric ID Program"
+.
+The New York Times
+.
+Archived
+from the original on 27 September 2018
+. Retrieved
+27 September
+2018
+.
+↑
+"UIDAI land allotment scam: DDA accepts IAC prayer to scrap the deal"
+.
+Money Life
+. 17 September 2013.
+Archived
+from the original on 4 June 2015
+. Retrieved
+29 May
+2015
+.
+↑
+"No. K-13011/26/2012-DD-I"
+(PDF)
+.
+Gazette of India
+.
+Archived
+(PDF)
+from the original on 8 July 2015
+. Retrieved
+7 July
+2015
+.
+↑
+"Falling Between the Barcodes"
+.
+Tehelka
+. 22 August 2009. Archived from
+the original
+on 10 July 2015
+. Retrieved
+7 July
+2015
+.
+↑
+"Why Parliamentary Panel rejected the UID Bill"
+.
+CNN-IBN
+. 13 December 2011.
+Archived
+from the original on 28 June 2015
+. Retrieved
+29 May
+2015
+.
+↑
+"Dogs, trees and chairs have Aadhaar cards"
+.
+The Times of India
+. 31 May 2013.
+Archived
+from the original on 13 May 2020
+. Retrieved
+29 May
+2015
+.
+↑
+"IB slams Uidai, says Aadhaar not credible as residence proof"
+.
+Hindustan Times
+. 25 September 2013. Archived from
+the original
+on 2 February 2015
+. Retrieved
+29 May
+2015
+.
+↑
+"By Revealing His Aadhaar Number, the TRAI Chairman Has Opened a Can of Worms"
+.
+The Wire
+. 5 June 2022.
+Archived
+from the original on 5 June 2022
+. Retrieved
+6 June
+2022
+.
+↑
+@UIDAI (31 July 2018).
+"#PressStatement People are advised to refrain from publicly putting their Aadhaar numbers on the internet and social media and posing challenges to others. 1/n"
+(
+Tweet
+)
+. Retrieved
+14 February
+2023
+–
+via
+Twitter
+.
+↑
+"Aadhaar biometrics not reliable in India's climate: What Moody's has said"
+.
+The Indian Express
+. 25 September 2023
+. Retrieved
+2 October
+2023
+.
+↑
+"Government rebuffs Moody's Aadhaar views; says a billion Indians trust it"
+.
+The Hindu
+. 25 September 2023.
+ISSN
+0971-751X
+. Retrieved
+2 October
+2023
+.
+↑
+"UIDAI's mandate expanded"
+.
+The Hindu
+. 27 January 2012.
+Archived
+from the original on 17 September 2023
+. Retrieved
+31 May
+2015
+.
+↑
+"NPR vs Aadhar card game gets tougher"
+.
+The New Indian Express
+. 10 February 2013. Archived from
+the original
+on 26 August 2014
+. Retrieved
+31 May
+2015
+.
+↑
+"NPR rolls on, regardless"
+.
+The Hindu
+. 5 October 2013.
+Archived
+from the original on 25 April 2014
+. Retrieved
+31 May
+2015
+.
+↑
+"Government favours Aadhaar-NPR synergy"
+.
+The Hindu
+. 4 July 2014.
+Archived
+from the original on 7 July 2014
+. Retrieved
+31 May
+2014
+.
+↑
+"No proposal to integrate Aadhar with National Population Register: Centre"
+.
+CNN-IBN
+. 25 July 2014.
+Archived
+from the original on 31 August 2015
+. Retrieved
+31 May
+2015
+.
+↑
+"Aadhaar, passport, driving licence to become one card? Amit Shah moots idea"
+. 23 September 2019.
+Archived
+from the original on 24 September 2019
+. Retrieved
+24 September
+2019
+.
+↑
+"UIDAI nod to 'voluntary' use of Aadhaar for National Population Register rollout: Centre"
+. 24 September 2019.
+Archived
+from the original on 23 September 2019
+. Retrieved
+24 September
+2019
+.
+↑
+"
+'Aadhaar' is a number, not an ID card: Montek Singh Ahluwalia"
+.
+NDTV.com
+.
+Archived
+from the original on 14 September 2017
+. Retrieved
+28 May
+2017
+.
+↑
+"The Dangers of Aadhaar-Based Payments That No One Is Talking About"
+.
+Bloomberg Quint
+.
+Archived
+from the original on 14 September 2017
+. Retrieved
+28 May
+2017
+.
+↑
+"UIDAI warns against agencies printing plastic Aadhaar cards"
+.
+The Times of India
+. 30 January 2017.
+Archived
+from the original on 27 September 2017
+. Retrieved
+20 January
+2018
+.
+↑
+"Jobless engineer made over 100 fake Aadhaar cards – Times of India"
+.
+The Times of India
+.
+Archived
+from the original on 17 May 2017
+. Retrieved
+28 May
+2017
+.
+↑
+"India goes digital – Hacker News"
+.
+news.ycombinator.com
+.
+Archived
+from the original on 21 January 2018
+. Retrieved
+28 May
+2017
+.
+↑
+"Entrust Datacard – Partner Profile — (N)Code Solutions"
+(PDF)
+.
+entrust.com
+. Entrust. Archived from
+the original
+(PDF)
+on 21 January 2018
+. Retrieved
+28 May
+2017
+.
+In order to set up a Certifying Authority for the Ministry of Information Technology in India, (n)Code Solutions needed a technology partner for digital signature certificates. (n)Code Solutions worked with Entrust Datacard to set up a certificate authority infrastructure comprised of Entrust Authority PKI that issues digital certificates and integrates with various applications and certificate profiles for individuals and corporations with various validity periods of one, two or three years based on individual customer needs.
+↑
+Aslesha, Divya; Aafaq, Zafar (26 November 2023).
+"Stolen fingerprints, empty bank accounts: How customers are paying for gaps in Aadhaar"
+.
+Scroll.in
+. Archived from
+the original
+on 26 November 2023
+. Retrieved
+27 November
+2023
+.
+↑
+"Agency charging for Aadhaar card services"
+.
+The Times of India
+. 2 April 2015.
+Archived
+from the original on 16 January 2017
+. Retrieved
+20 January
+2018
+.
+↑
+"Village in Haridwar shares the same birthday on Aadhaar cards"
+.
+hindustantimes.com/
+. 28 October 2017.
+Archived
+from the original on 1 November 2017
+. Retrieved
+1 November
+2017
+.
+↑
+Thaker, Aria.
+"Aadhaar's mixing of public risk and private profit"
+.
+The Caravan
+.
+Archived
+from the original on 13 July 2019
+. Retrieved
+23 July
+2019
+.
+↑
+"Aadhaar to be mandatory for driving licence – Times of India"
+.
+The Times of India
+. 26 March 2017.
+Archived
+from the original on 27 May 2017
+. Retrieved
+17 May
+2017
+.
+↑
+"1.05 Billion Aadhaar Cards Issued, Challenge To Enrol Remaining 20 Crore: UIDAI"
+.
+Archived
+from the original on 24 March 2017
+. Retrieved
+17 May
+2017
+.
+↑
+"India: Aadhaar Unmasked – The UID Number and Threat of exclusion, and of surveillance – South Asia Citizens Web"
+.
+sacw.net
+. Archived from
+the original
+on 30 July 2017
+. Retrieved
+28 May
+2017
+.
+↑
+Gupta, Komal (24 March 2017).
+"Aadhaar to be mandatory for mobile phone verification"
+. Retrieved
+7 October
+2022
+.
+↑
+Binsal Abdul Kader (29 March 2017).
+"Indian expats 'not eligible for Aadhaar IDs'
+"
+.
+Archived
+from the original on 17 May 2017
+. Retrieved
+17 May
+2017
+.
+↑
+Pandey, Neelam (27 August 2013).
+"In a first, Aadhar recognises 1,600 transgender persons"
+.
+Hindustan Times
+.
+Archived
+from the original on 6 February 2021
+. Retrieved
+1 February
+2021
+.
+↑
+"Four reasons you should worry about Aadhaar's use of Biometrics"
+.
+The Wire
+.
+Archived
+from the original on 7 December 2017
+. Retrieved
+28 March
+2017
+.
+↑
+Whitter, Zack (31 January 2019).
+"Indian state government leaks thousands of Aadhaar numbers data"
+.
+Techcrunch
+.
+Archived
+from the original on 1 February 2019
+. Retrieved
+1 February
+2019
+.
+↑
+"Aadhaar data of 130 millions leaked from govt websites: Report"
+.
+Archived
+from the original on 13 July 2017
+. Retrieved
+6 July
+2017
+.
+↑
+"Jio Customer Database of over 120 million users leaked, could be biggest data breach in India"
+.
+fonearena.com
+.
+Archived
+from the original on 13 July 2017
+. Retrieved
+13 July
+2017
+.
+↑
+"Reliance Jio Says It's Not Hacked, Aadhaar Data Not Leaked, But Online Users Insist Otherwise"
+.
+The Times of India
+.
+Archived
+from the original on 13 July 2017
+. Retrieved
+13 July
+2017
+.
+↑
+"Over 200 govt websites made Aadhaar details public: UIDAI – Times of India"
+.
+The Times of India
+.
+Archived
+from the original on 21 November 2017
+. Retrieved
+19 November
+2017
+.
+↑
+"Right to privacy can't be absolute, may be regulated: SC"
+.
+Archived
+from the original on 19 July 2017
+. Retrieved
+19 July
+2017
+.
+↑
+"Aadhaar is Future India"
+.
+quintdaily
+. 6 August 2017.
+Archived
+from the original on 6 August 2017
+. Retrieved
+6 August
+2017
+.
+↑
+"Aadhaar Numbers And Personal Details of 135 Million Indians May Have Leaked, Says CIS Report"
+.
+outlookindia.com
+.
+Archived
+from the original on 14 November 2017
+. Retrieved
+14 November
+2017
+.
+↑
+"Aadhaar: 'Leak' in world's biggest database worries Indians"
+.
+Archived
+from the original on 15 August 2018
+. Retrieved
+21 July
+2018
+.
+↑
+Vishwanath, Apurva; Roy, Suranjana; Gupta, Komal (24 February 2017).
+"Aadhaar biometric data breach triggers privacy concerns"
+.
+mint
+.
+Archived
+from the original on 4 July 2022
+. Retrieved
+4 July
+2022
+.
+↑
+"Details of over a million Aadhaar numbers published on Jharkhand govt website"
+.
+Hindustan Times
+. 22 April 2017.
+Archived
+from the original on 4 July 2022
+. Retrieved
+4 July
+2022
+.
+↑
+"Jharkhand government website leaks personal details of 1 million Aadhaar subscribers"
+.
+Privacy International
+.
+Archived
+from the original on 7 July 2022
+. Retrieved
+4 July
+2022
+.
+↑
+"MS Dhoni's Aadhaar details leaked on Twitter, wife Sakshi complains to IT minister"
+.
+The Times of India
+. 29 March 2017.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+"MS Dhoni's Aadhaar details made public, Ravi Shankar Prasad promises action"
+.
+The Indian Express
+. 29 March 2017.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+"IIT graduate illegally accesses Aadhaar data to create app, arrested"
+.
+The Hindu
+. 3 August 2017.
+ISSN
+0971-751X
+.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+"An IIT graduate has been arrested for illegally accessing the Aadhaar database: Report"
+.
+Firstpost
+. 4 August 2017.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+"WikiLeaks suggests CIA may have access to India's Aadhaar data"
+. 26 August 2017.
+Archived
+from the original on 15 September 2017
+. Retrieved
+15 September
+2017
+.
+↑
+"Aadhaar in the hand of spies"
+.
+Archived
+from the original on 24 February 2018
+. Retrieved
+23 February
+2018
+.
+↑
+"Foreign agencies can access Aadhaar data"
+. Archived from
+the original
+on 22 September 2021
+. Retrieved
+15 September
+2017
+.
+↑
+"How CIA Spies Access India's Biometric Aadhaar Database | GGI News"
+.
+GGI News
+. 25 August 2017
+. Retrieved
+14 November
+2017
+.
+{{
+cite news
+}}
+:  CS1 maint: deprecated archival service (
+link
+)
+↑
+"How CIA Spies Access India's Biometric Aadhaar Database | GGI News"
+.
+archive.is
+. 25 August 2017
+. Retrieved
+14 November
+2017
+.
+{{
+cite news
+}}
+:  CS1 maint: deprecated archival service (
+link
+)
+↑
+"Foreign Firms Given Access To Your Unencrypted Aadhaar Data | GGI News"
+.
+GGI News
+. 30 August 2017
+. Retrieved
+14 November
+2017
+.
+{{
+cite news
+}}
+:  CS1 maint: deprecated archival service (
+link
+)
+↑
+"Foreign Firms Given Access To Your Unencrypted Aadhaar Data | GGI News"
+.
+archive.is
+. 14 November 2017
+. Retrieved
+14 November
+2017
+.
+{{
+cite news
+}}
+:  CS1 maint: deprecated archival service (
+link
+)
+↑
+"Aadhaar data leak exposes cyber security flaws"
+.
+www.thehindubusinessline.com
+. 2 May 2017.
+Archived
+from the original on 4 July 2022
+. Retrieved
+4 July
+2022
+.
+↑
+"In Supreme Court, Centre admits Aadhaar data leak, critics cite 'civil liberties'
+"
+.
+The Indian Express
+. 4 May 2017.
+Archived
+from the original on 4 July 2022
+. Retrieved
+4 July
+2022
+.
+↑
+"Government admits your Aadhaar data has been leaked"
+.
+The New Indian Express
+. 31 March 2017.
+Archived
+from the original on 4 July 2022
+. Retrieved
+4 July
+2022
+.
+↑
+"The Global Risks Report 2019"
+.
+World Economic Forum
+. 15 January 2019. p.
+16.
+Archived
+from the original on 4 July 2022
+. Retrieved
+4 July
+2022
+.
+↑
+"UIDAI reveals 210 govt websites made Aadhaar details public, did not specify when breach took place"
+.
+Firstpost
+. 19 November 2017.
+Archived
+from the original on 4 July 2022
+. Retrieved
+4 July
+2022
+.
+↑
+"Rs 500, 10 minutes, and you have access to billion Aadhaar details"
+.
+Tribuneindia News Service
+.
+Archived
+from the original on 4 July 2022
+. Retrieved
+4 July
+2022
+.
+↑
+"UIDAI blocks 5,000 officials from Aadhaar portal following reports of unauthorised usage"
+.
+Tech2
+. 9 January 2018.
+Archived
+from the original on 4 July 2022
+. Retrieved
+4 July
+2022
+.
+↑
+"Personal data of a billion Indians sold online for £6, report claims"
+.
+the Guardian
+. 4 January 2018.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+"Analysis | A security breach in India has left a billion people at risk of identity theft"
+.
+Washington Post
+.
+ISSN
+0190-8286
+.
+Archived
+from the original on 5 January 2018
+. Retrieved
+6 July
+2022
+.
+↑
+"UIDAI files FIR against The Tribune, reporter Rachna Khaira for Aadhaar data breach story"
+.
+Firstpost
+. 7 January 2018.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+Chauhan, Ashish (8 January 2018).
+"Three Gujarat websites including government portal made Aadhaar details public"
+.
+The Times of India
+.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+"Twitter user highlights security flaws in UIDAI's mAadhaar app for Android devices, user data could be compromised-Business News"
+.
+Firstpost
+. 12 January 2018.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+"A new data leak hits Aadhaar, India's national ID database"
+.
+ZDNet
+.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+Saldanha, Alison (30 March 2018).
+"Aadhaar security flaw can give access to data without OTP: Ethical hacker"
+.
+Business Standard India
+.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+"Aadhaar data leak of Andhra Pradesh women raises security concerns"
+.
+The New Indian Express
+. Archived from
+the original
+on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+Vidyut (24 April 2018).
+"New data leak allows targeting by religion, caste and locality and provides Aadhaar and bank details"
+.
+MediaNama
+.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+"Government website leaked 1.3 lakh Aadhaar numbers, linked them with caste, religion: Researcher"
+.
+Scroll.in
+. 24 April 2018.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+"Aadhaar safety: Trai chief throws a challenge, French expert 'leaks' his data"
+.
+Business Standard India
+. 29 July 2018.
+Archived
+from the original on 6 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+Chitra, Rachel (30 July 2018).
+"Hackers deposit Re 1 in Trai chief's account"
+.
+The Times of India
+.
+Archived
+from the original on 23 July 2022
+. Retrieved
+6 July
+2022
+.
+↑
+Ahmed, Yasmin (14 December 2020).
+"Former UIDAI chief RS Sharma suffers Aadhaar fraud, Rs 6000 PM Kisan fund deposited in his account"
+.
+India Today
+.
+Archived
+from the original on 10 June 2022
+. Retrieved
+6 July
+2022
+.
+↑
+Srinivas, T.; Aditya, Sai; Ramasubbareddy, Somula; Govinda, K. "Privacy and security in Aadhaar".
+Smart Intelligent Computing and Applications
+.
+↑
+Thaker, Aria.
+"Aadhaar's mixing of public risk and private profit"
+.
+The Caravan
+.
+Archived
+from the original on 13 July 2019
+. Retrieved
+22 July
+2019
+.
+↑
+"Audit Report on Functioning of Unique Identification Authority of India"
+(PDF)
+.
+Archived
+(PDF)
+from the original on 24 May 2022
+. Retrieved
+1 May
+2022
+.
+↑
+"Performance Audit on Functioning of Unique Identification Authority of India"
+.
+Archived
+from the original on 1 May 2022
+. Retrieved
+1 May
+2022
+.
+↑
+"EC to start campaign to link voter ID with Aadhaar from August 1. Check details here"
+.
+Mint
+. 25 July 2022.
+Archived
+from the original on 25 August 2022
+. Retrieved
+25 August
+2022
+.
+↑
+Poddar, Umang (21 December 2021).
+"Centre claims linking of Aadhaar to voter ID is voluntary – but bill in Parliament contradicts it"
+.
+Scroll.in
+.
+Archived
+from the original on 25 August 2022
+. Retrieved
+25 August
+2022
+.
+↑
+Poddar, Umang (25 August 2022).
+"Aadhaar-voter ID linking is voluntary, says government – but law leaves little room to avoid it"
+.
+Scroll.in
+.
+Archived
+from the original on 25 August 2022
+. Retrieved
+25 August
+2022
+.
+↑
+Goyal, Trishee (28 August 2022).
+"Explained | The concerns around Aadhaar-Voter ID linkage"
+.
+The Hindu
+.
+Archived
+from the original on 2 September 2022
+. Retrieved
+3 September
+2022
+.
+Further reading
+Supportive views
+"A cost-benefit analysis of Aadhaar"
+(PDF)
+.
+National Institute of Public Finance and Policy
+. 9 November 2012. Archived from
+the original
+(PDF)
+on 11 July 2019
+. Retrieved
+1 June
+2015
+.
+Nilekani, Nandan; Shah, Viral (2015).
+Rebooting India: Realizing a Billion Aspirations
+. India: Penguin Group. p.
+340.
+ISBN
+978-0-670-08789-1
+.
+ASIN
+0670087890
+.
+Aiyar, Shankkar (21 July 2017).
+Aadhaar: A Biometric History of India's 12-Digit Revolution
+.
+Westland Publications
+.
+ASIN
+938622495X
+.
+Shekhar Gupta
+(9 January 2018).
+"God, please save India from our upper class Aadhaarophobics"
+. ThePrint. Archived from
+the original
+on 27 January 2018
+. Retrieved
+18 January
+2018
+.
+Nilekani, Nandan
+, "Data to the People:  India's Inclusive Internet",
+Foreign Affairs
+, vol. 97, no. 5 (September / October 2018), pp.
+19–26.
+Critical views
+Rajanish Dass (March 2011).
+"Unique Identification for Indians: A Divine Dream or a Miscalculated Heroism?"
+(PDF)
+.
+Kieran Clarke; Shruti Sharma; Damon Vis-Dunbar (30 September 2015).
+"Ghost savings: Understanding the fiscal impacts of India's LPG subsidy"
+.
+International Institute for Sustainable Development
+. Archived from
+the original
+on 18 June 2020
+. Retrieved
+18 March
+2016
+.
+A rant on Aadhaar
+Aadhaar sitting duck
+Other
+Elonnai Hickok (21 July 2015).
+"Aadhaar Number vs the Social Security Number"
+.
+Centre for Internet and Society (India)
+.
+External links
+Wikimedia Commons has media related to
+Aadhaar
+.
+Official website
+v
+t
+e
+Indian identity documents
+Central government
+Aadhaar
+Passport
+Identity Certificate
+Overseas Citizen of India Card
+Permanent Account Number Card
+Ration card
+Voter Identity Card
+State governments
+Driving licence
+Municipalities
+Birth certificate
+v
+t
+e
+National identification numbers
+by country
+Australia
+Bosnia and Herzegovina
+Brazil (
+RG
+•
+CPF
+•
+CNPJ
+)
+Bulgaria
+Canada
+China
+Croatia
+Denmark
+Faroe Islands
+Greenland
+France
+Ghana
+Hong Kong
+Iceland
+India
+Indonesia
+Ireland
+Israel
+Italy
+Japan
+Malaysia
+Mexico
+Montenegro
+Netherlands
+New Zealand
+North Macedonia
+Norway
+Poland
+Russia
+Saudi Arabia
+Serbia
+Singapore
+Slovenia
+Somalia
+South Korea
+Spain (
+DNI
+•
+NIE
+)
+Sri Lanka
+Sweden
+Taiwan
+Turkey
+United Kingdom
+United States
+v
+t
+e
+Ministry of Electronics and Information Technology (India)
+Agencies
+NIC
+Network
+Data Centers
+DigiLocker
+MyGov.in
+National Portal of India
+IN Registry
+.in
+.भारत
+Other
+Standardisation Testing and Quality Certification Directorate
+(STQC)
+Controller of Certifying Authorities (CCA)
+Cyber Appellate Tribunal (CAT)
+Indian Computer Emergency Response Team
+(ICERT)
+Companies
+CSC e-Governance Services India Limited
+Media Lab Asia
+(MLAsia)
+National Informatics Centre Services Incorporated (NICSI) — PSE under National Informatics Centre
+National Internet Exchange of India
+(NIXI)
+Unique Identification Authority of India (UIDAI)
+Autonomous
+Societies
+Education and Research in Computer Networking
+Centre for Development of Advanced Computing
+Centre for Materials for Electronics Technology
+National Institute of Electronics & Information Technology
+Society for Applied Microwave Electronics Engineering & Research
+Software Technology Parks of India
+(STPI)
+Electronics and Computer Software Export Promotion Council (ESC)
+Semi-Conductor Laboratory
+Ministers
+Ashwini Vaishnaw
+(incumbent)
+Ministers of State
+Jitin Prasada
+(incumbent)
+v
+t
+e
+National identity cards in Asia
+Sovereign states
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei
+Cambodia
+China
+Cyprus
+Egypt
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Japan
+Jordan
+Kazakhstan
+North Korea
+South Korea
+Kuwait
+Kyrgyzstan
+Laos
+Lebanon
+Malaysia
+Maldives
+Mongolia
+Myanmar
+Nepal
+Oman
+Palestine
+Pakistan
+Philippines
+Qatar
+Russia
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste (East Timor)
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+States with
+limited recognition
+Abkhazia
+Northern Cyprus
+South Ossetia
+Taiwan
+Dependencies
+and
+other territories
+British Indian Ocean Territory
+Christmas Island
+Cocos (Keeling) Islands
+Hong Kong
+Macau
+Category
+Asia portal
+v
+t
+e
+Government schemes in India
+List of schemes
+Welfare schemes for women
+Poverty alleviation programmes
+Subsidies
+Social security
+Food security
+Active
+Schemes
+Antyodaya Anna
+Atal Pension
+Ayushman Bharat
+Beti Bachao, Beti Padhao
+Deen Dayal Upadhyaya Antyodaya
+Deen Dayal Upadhyaya Grameen Kaushalya
+Deen Dayal Upadhyaya Gram Jyoti
+Direct Benefit Transfer
+DigiLocker
+Garib Kalyan Rojgar Abhiyaan
+Heritage City Development and Augmentation
+Integrated Child Development Services
+Income declaration
+JAM Yojana
+Khelo India
+Pravasi Suraksha
+Midday Meal Scheme
+Local Area Development
+National Infrastructure Pipeline
+National Pension System
+National Social Assistance Scheme
+National Service Scheme
+Post Office Passport
+Farmer Income Protection Scheme (PM AASHA)
+Adarsh Gram
+Gramin Awaas
+Awas
+Digital Health Mission
+Gram Sadak
+Jan Dhan
+Krishi Sinchai
+Matsya Sampada
+Matritva Vandana
+Shram Yogi Mandhan
+Ujjwala
+Bhartiya Jan Aushadhi
+Garib Kalyan
+Garib Kalyan Anna Yojana
+Jeevan Jyoti Bima
+Kisan Samman Nidhi
+Suraksha Bima
+Sansad Adarsh Gram
+Saubhagya
+Soil Health Card
+UDAN
+Ujwal DISCOM Assurance
+Unnat Jeevan
+Missions
+Rejuvenation and Urban Transformation
+Indradhanush
+Education
+Climate Resilient Agriculture
+Manuscripts
+Health
+Anganwadi
+Auxiliary nurse midwife
+Accredited Social Health Activist
+Solar
+Translation
+Providing Urban Amenities to Rural Areas
+Rashtriya Madhyamik Shiksha Abhiyan
+Rashtriya Uchchatar Shiksha Abhiyan
+Remunerative Approach for Agriculture and Allied sector Rejuvenation
+Sarva Shiksha Abhiyan
+Smart Cities Mission
+TB-Mission 2020
+Projects
+Agriculture MMP
+Bharatmala
+Indian rivers interlinking project
+Operation Flood
+Sagar Mala project
+Setu Bharatam
+Urja Ganga Gas Pipeline Project
+Campaigns
+Accessible India Campaign
+Digital India
+Make in India
+Skill India
+Standup India
+Startup India
+Swachh Bharat Mission
+Identity
+Aadhaar
+Business identification
+Passport
+Permanent account
+Ration card
+Unorganised Workers
+Voters
+State
+AP
+Annadatha Sukhibhava
+TG
+Mission Bhagiratha
+T App Folio
+GJ
+Jyotigram
+Vibrant Gujarat
+MP
+Global Investors Summit
+Ladli Laxmi
+MH
+Mahatma Jyotiba Phule Jan Arogya
+Magnetic Maharashtra
+OR
+Ahar
+Biju Krushak Kalyan
+Madhu Babu Pension
+RJ
+Bhamashah
+UP
+Global Investors Summit
+TN
+Global Investors Meet
+Closed/subsumed
+Schemes
+Bharat Nirman
+National Urban Renewal
+Kasturba Gandhi Balika Vidyalaya
+Kishore Vaigyanik Protsahan
+Rural Livelihood
+Finance Development Fund
+Rashtriya Swasthya Bima
+Tuberculosis Control
+Sampoorna Grameen Rozgar
+Voluntary Disclosure of Income
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Aadhaar&oldid=1362210701
+"
+Categories
+:
+Manmohan Singh administration
+National identification numbers
+Executive branch of the government of India
+Government of India
+Identity documents of India
+Biometrics
+Fingerprints
+Identification
+Mass surveillance
+Computer security in India
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Wikipedia semi-protected pages
+Use dmy dates from January 2022
+CS1 maint: deprecated archival service
+All articles with unsourced statements
+Articles with unsourced statements from July 2018
+Articles using Template:ASIN with an all-numeric value
+Commons category link from Wikidata
+Official website different in Wikidata and Wikipedia
+Search
+Search
+Aadhaar
+26 languages
+Add topic

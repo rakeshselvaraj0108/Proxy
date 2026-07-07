@@ -1,0 +1,2 @@
+OPENSKY NETWORK
+Provides live ADS-B flight tracking data. Useful for verifying if an airline is lying about 'weather delays' when ATC data shows the aircraft was actually grounded due to technical faults.

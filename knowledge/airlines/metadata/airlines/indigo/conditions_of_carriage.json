@@ -1,8 +1,7 @@
 {
   "title": "IndiGo Conditions of Carriage",
-  "authority": "IndiGo",
   "category": "airlines/indigo",
-  "document_type": "markdown",
+  "source_url": "https://www.goindigo.in/conditions-of-carriage.pdf",
   "domain": "airlines",
-  "source_url": "official://airlines/airlines/indigo/conditions_of_carriage.md"
+  "document_type": "pdf_extracted"
 }

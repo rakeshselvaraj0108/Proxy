@@ -1,0 +1,30 @@
+PASSPORT APPLICATION — FREQUENTLY ASKED QUESTIONS
+
+Q: What are the passport application types?
+A: Fresh/Normal application, Tatkal (expedited) application, Reissue (renewal, name change,
+address change, damaged/lost passport), and Diplomatic/Official passports handled separately.
+
+Q: How long does a normal passport application take?
+A: After document verification and police verification, normal applications are typically
+processed within 30-45 days. Tatkal applications are typically processed within 1-3 working
+days after appointment, subject to police verification clearance (pre- or post-issuance).
+
+Q: My passport application is delayed beyond the published timeline — what can I do?
+A: 1) Check application status on the Passport Seva portal using your File Number.
+   2) Contact the Passport Seva Kendra (PSK) / Regional Passport Office (RPO) helpline.
+   3) If police verification is the bottleneck, follow up with the local police station
+      or e-governance cell; a Case ID from mPassport Police app can help.
+   4) If unresolved, file a grievance through the Passport Seva portal's grievance module,
+      or escalate via CPGRAMS (Ministry of External Affairs is a CPGRAMS-linked ministry).
+   5) For urgent travel, apply for Tatkal or request an out-of-turn appointment citing
+      documented emergency (medical, death in family, etc.) at the RPO.
+
+Q: What documents are commonly required?
+A: Proof of address, proof of date of birth, identity proof, and (for Tatkal) additional
+verification documents/annexures. Requirements vary by application type; always check the
+current document advisor on the Passport Seva portal before applying.
+
+Q: Who do I escalate to if the Regional Passport Office does not respond?
+A: Regional Passport Officer -> Passport Seva grievance cell -> CPGRAMS complaint against
+Ministry of External Affairs -> Central Public Information Officer (RTI) for status records
+if administrative escalation fails.

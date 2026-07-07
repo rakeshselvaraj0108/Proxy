@@ -1,0 +1,37 @@
+STATE GOVERNMENT CITIZEN SERVICE PORTALS — OVERVIEW
+
+Most Indian states run their own single-window e-Governance portal (often called an
+"e-District" implementation) bundling certificates, licences, and utility services
+alongside the central portals (UIDAI, Passport Seva, Parivahan, RTI Online) already
+covered in this knowledge base. Because these are state-subject services, exact workflows,
+fees, and turnaround times vary by state; the pattern below generalizes across the major
+implementations so a case can be routed correctly even without a state-specific scrape:
+
+- Tamil Nadu: e-Sevai centres / TNeGA portal — certificates, revenue services, and
+  utility bill services bundled under one CSC-style front end.
+- Andhra Pradesh / Telangana: MeeSeva — one of the earliest and most widely cited
+  e-District implementations, covering certificates, licences, and welfare scheme
+  applications.
+- Maharashtra: Aaple Sarkar (RTS Act-backed) — publishes explicit service-level
+  timelines per service with a designated first/second appellate authority for delay.
+- Karnataka: Seva Sindhu — integrated citizen services portal.
+- Delhi: e-District Delhi — certificates and Delhi-specific welfare/utility services.
+- Most other states run an equivalent "e-District" or "Seva Kendra" branded portal under
+  the central Digital India / e-District Mission Mode Project framework.
+
+Common structural pattern across all state portals:
+1. Application filed online (or via a Common Service Centre / CSC for citizens without
+   internet access), generating a tracked application/token number.
+2. Field verification (where required) by a local revenue/municipal officer.
+3. A published service-level timeline exists under most states' Right to Public
+   Services Act (RTS Act) or equivalent — commonly ranging from a few days for simple
+   certificates to a few weeks for verification-heavy services.
+4. A statutory appellate mechanism exists for delay/refusal: a First Appellate Authority
+   at the district level, and often a Second Appellate Authority / RTS Commission with
+   powers to penalize the responsible official for unjustified delay.
+
+Recommended routing when the user's state is known: identify whether the state has an
+RTS/Sakala-type law (most do), cite the specific service-level guarantee and appellate
+authority, and treat CPGRAMS as the fallback national-level escalation channel for any
+centrally-linked component of the service (e.g. Aadhaar-based e-KYC failures, DigiLocker
+issuance) even when the underlying service itself is a state subject.

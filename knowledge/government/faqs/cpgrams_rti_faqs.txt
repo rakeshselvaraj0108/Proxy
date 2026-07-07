@@ -1,0 +1,46 @@
+PUBLIC GRIEVANCE (CPGRAMS) & RTI — FREQUENTLY ASKED QUESTIONS
+
+Q: What is CPGRAMS?
+A: The Centralized Public Grievance Redress and Monitoring System (CPGRAMS) is the
+online platform, run by the Department of Administrative Reforms and Public Grievances
+(DARPG), through which citizens can lodge grievances against any central government
+ministry, department, or linked public authority — including UIDAI, Income Tax, Passport
+Seva/MEA, Parivahan-linked transport departments, and pension bodies like EPFO.
+
+Q: How does CPGRAMS escalation work?
+A: 1) File the grievance on pgportal.gov.in with the relevant department/ministry and a
+      clear factual description, attaching supporting documents.
+   2) The grievance is forwarded to the concerned department's Nodal Grievance Officer.
+   3) Departments are expected to redress within a defined window (commonly cited as
+      around 21 working days under DARPG guidelines); status can be tracked with the
+      registration number.
+   4) If unsatisfied with the resolution, the citizen can request an "Appeal" within
+      CPGRAMS, which routes the grievance to the next-higher appellate authority.
+   5) Persistent or systemic issues can also be raised with the Central/State
+      Information Commission (via RTI) or the relevant Ombudsman/regulator.
+
+Q: What is RTI and how do I file an RTI request?
+A: The Right to Information Act, 2005 lets any citizen request information held by a
+   public authority. File online at rtionline.gov.in (for central government bodies) or
+   the applicable state RTI portal, addressed to the Public Information Officer (PIO) of
+   the concerned department, with the prescribed fee (commonly INR 10 for central
+   applications; fee-exempt for BPL applicants).
+
+Q: How long does a public authority have to respond to an RTI request?
+A: The statutory response window under the RTI Act is 30 days from receipt (reduced to
+   48 hours for information concerning life or liberty). If the request is transferred to
+   another public authority, the clock effectively restarts from the transfer, and total
+   time can extend, though authorities are expected to inform the applicant promptly.
+
+Q: The PIO did not respond or gave an unsatisfactory reply — what next?
+A: File a First Appeal with the department's Appellate Authority within 30 days of the
+   deadline/response. If still unresolved, file a Second Appeal with the Central/State
+   Information Commission, which can also impose penalties on the PIO for unreasonable
+   delay or refusal without valid grounds.
+
+Q: When should I use CPGRAMS vs RTI?
+A: Use CPGRAMS to get a pending service/application actually resolved (e.g. delayed
+   certificate, stuck application). Use RTI when you specifically need official
+   information/records (e.g. the exact status noting, the reason for rejection in
+   writing, processing timelines) — the two can be used together, RTI often being the
+   stronger tool when a department stays silent on a CPGRAMS grievance.

@@ -80,7 +80,22 @@ class Settings(BaseModel):
     gemini_ocr_model: str = "gemini-2.5-flash"
     response_agent_llm_enabled: bool = False
     disable_external_llm: bool = False
-    embedding_model: str = "text-embedding-004"
+    embedding_model: str = "gemini-embedding-001"
+
+    llm_provider: str = "gemini"
+    llm_model: str | None = None
+    nvidia_api_key: str | None = None
+    nvidia_base_url: str = "https://integrate.api.nvidia.com/v1"
+    nvidia_reasoning_model: str = "meta/llama-3.3-70b-instruct"
+    nvidia_router_model: str = "meta/llama-3.1-8b-instruct"
+    nvidia_planner_model: str = "meta/llama-3.1-8b-instruct"
+    nvidia_response_model: str = "meta/llama-3.3-70b-instruct"
+    nvidia_summarization_model: str = "meta/llama-3.1-8b-instruct"
+    nvidia_ocr_model: str = "meta/llama-3.3-70b-instruct"
+    nvidia_embedding_model: str = "nvidia/nv-embedqa-e5-v5"
+    nvidia_request_timeout_seconds: int = 90
+    nvidia_max_retries: int = 3
+    nvidia_rate_limit_per_minute: int = 40
     jwt_audience: str = "authenticated"
     jwt_issuer: str | None = None
     supabase_jwt_secret: str | None = None
@@ -121,7 +136,26 @@ def get_settings() -> Settings:
         gemini_ocr_model=_env("GEMINI_OCR_MODEL", gemini_model),
         response_agent_llm_enabled=_bool_env("RESPONSE_AGENT_LLM_ENABLED", False),
         disable_external_llm=_bool_env("DISABLE_EXTERNAL_LLM", False),
-        embedding_model=_env("EMBEDDING_MODEL", "text-embedding-004"),
+        embedding_model=_env(
+            "EMBEDDING_MODEL",
+            "nvidia/nv-embedqa-e5-v5" if _env("LLM_PROVIDER", "gemini") == "nvidia" else "gemini-embedding-001",
+        ),
+        llm_provider=_env("LLM_PROVIDER", "gemini"),
+        llm_model=_optional_env("LLM_MODEL"),
+        nvidia_api_key=_optional_env("NVIDIA_API_KEY"),
+        nvidia_base_url=_env("NVIDIA_BASE_URL", "https://integrate.api.nvidia.com/v1"),
+        nvidia_reasoning_model=_env("NVIDIA_REASONING_MODEL", _optional_env("LLM_MODEL") or "meta/llama-3.3-70b-instruct"),
+        nvidia_router_model=_env("NVIDIA_ROUTER_MODEL", "meta/llama-3.1-8b-instruct"),
+        nvidia_planner_model=_env("NVIDIA_PLANNER_MODEL", "meta/llama-3.1-8b-instruct"),
+        nvidia_response_model=_env("NVIDIA_RESPONSE_MODEL", _optional_env("LLM_MODEL") or "meta/llama-3.3-70b-instruct"),
+        nvidia_summarization_model=_env("NVIDIA_SUMMARIZATION_MODEL", "meta/llama-3.1-8b-instruct"),
+        nvidia_ocr_model=_env("NVIDIA_OCR_MODEL", _optional_env("LLM_MODEL") or "meta/llama-3.3-70b-instruct"),
+        nvidia_embedding_model=_env(
+            "EMBEDDING_MODEL", "nvidia/nv-embedqa-e5-v5"
+        ) if _env("LLM_PROVIDER", "gemini") == "nvidia" else "nvidia/nv-embedqa-e5-v5",
+        nvidia_request_timeout_seconds=int(_env("NVIDIA_REQUEST_TIMEOUT_SECONDS", "90")),
+        nvidia_max_retries=int(_env("NVIDIA_MAX_RETRIES", "3")),
+        nvidia_rate_limit_per_minute=int(_env("NVIDIA_RATE_LIMIT_PER_MINUTE", "40")),
         jwt_audience=_env("JWT_AUDIENCE", "authenticated"),
         jwt_issuer=_optional_env("JWT_ISSUER"),
         supabase_jwt_secret=_optional_env("SUPABASE_JWT_SECRET"),
@@ -129,3 +163,4 @@ def get_settings() -> Settings:
         web_search_cache_ttl_seconds=int(_env("WEB_SEARCH_CACHE_TTL_SECONDS", "86400")),
         web_search_rate_limit_per_minute=int(_env("WEB_SEARCH_RATE_LIMIT_PER_MINUTE", "10")),
     )
+

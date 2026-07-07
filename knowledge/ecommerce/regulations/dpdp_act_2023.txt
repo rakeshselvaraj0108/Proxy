@@ -1,0 +1,1057 @@
+Digital Personal Data Protection Act, 2023 - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Act of the Parliament of India
+Digital Personal Data Protection Act, 2023
+Parliament of India
+Long title
+An Act to provide for the processing of digital personal data in a manner that recognises both the right of individuals to protect their personal data and the need to process such personal data for lawful purposes and for matters connected therewith or incidental thereto.
+Citation
+Act No. 22 of 2023
+Territorial extent
+India
+Passed
+by
+Lok Sabha
+Passed
+7 August 2023
+Passed
+by
+Rajya Sabha
+Passed
+9 August 2023
+Assented
+to
+by
+President of India
+Assented
+to
+11 August 2023
+Commenced
+13 November 2025 (Sub-section (2) of section 1, section 2, sections 18 to 26 sections 35, 38, 39, 40, 41, 42, 43, and subsections (1) and (3) of section 44 of the  Act)
+13 November 2026 (sub-section (9) of section 6 and clause (d) of sub-section (1) of section 27 of the Act)
+13 May 2027 (Remaining provisions)
+Legislative history
+Initiating chamber: Lok Sabha
+Bill citation
+Bill No. 113 of 2023
+Introduced by
+Ashwini Vaishnaw
+Minister of Electronics and Information Technology, Minister of Communications, Minister of Railways
+First reading
+3 August 2023
+Keywords
+Consent, Data privacy, Data breach
+Status:
+In force
+The
+Digital Personal Data Protection Act, 2023
+(also known as
+DPDP Act
+or
+DPDPA-2023
+) is an act of the
+Parliament of India
+to provide for the processing of digital personal data in a manner that recognises both the right of individuals to protect their personal data and the need to process such personal data for lawful purposes.
+[
+1
+]
+This is the first Act of the Parliament of India where "she/her" pronouns were used unlike the usual "he/him" pronouns.
+[
+2
+]
+[
+3
+]
+Timeline
+[
+edit
+]
+18 November 2022: The
+Ministry of Electronics and Information Technology
+released the
+Digital Personal Data Protection Bill, 2022
+for public consultation.
+[
+4
+]
+[
+5
+]
+5 July 2023: The cabinet approved the
+Digital Personal Data Protection Bill, 2023
+which was the revised version of the 2022 bill.
+[
+6
+]
+3 August 2023:
+Digital Personal Data Protection Bill, 2023
+was introduced in
+Lok Sabha
+, the lower house of the
+Parliament of India
+.
+[
+7
+]
+7 August 2023:
+Digital Personal Data Protection Bill, 2023
+was passed by
+Lok Sabha
+.
+[
+8
+]
+9 August 2023:
+Digital Personal Data Protection Bill, 2023
+was introduced and passed by
+Rajya Sabha
+, the upper house of the Parliament of India.
+[
+9
+]
+11 August 2023:
+President of India
+gave assent to the
+Digital Personal Data Protection Bill, 2023
+which made it the
+Digital Personal Data Protection Act, 2023
+.
+[
+10
+]
+[
+11
+]
+13 November 2025: Provisions in respect of establishment of the
+Data Protection Board of India
+bought into force.
+[
+12
+]
+Background
+[
+edit
+]
+On 24 August 2017, the
+Supreme Court of India
+gave the
+Right to Privacy verdict
+. In the case of
+Justice K. S. Puttaswamy (Retd.) and Anr. vs Union Of India And Ors.
+,
+the Supreme court held that the Right to Privacy is a
+fundamental right
+protected under Article 21 and Part III of the
+Indian Constitution
+.
+[
+13
+]
+After the verdict the
+Government of India
+has set up a data protection framework which started taking steps towards the creation of the data protection legislation after the
+Supreme Court of India
+'s privacy verdict.
+[
+4
+]
+On 22 December 2018, the constitution of committee of experts to deliberate on a data protection framework for India takes place by the chairmanship of Justice B.N. Srikrishna.
+[
+14
+]
+After the Government of India has constituted an expert committee under, the committee has sought public consultation on various white papers on data protection framework for India.
+[
+15
+]
+[
+16
+]
+The Personal Data Protection Bill, 2018 draft was released.
+[
+17
+]
+[
+4
+]
+The committee of experts under chairmanship of Justice B.N. Srikrishna has released their Data Protection Committee report.
+[
+18
+]
+[
+4
+]
+On 14 August 2018, the Ministry of Electronics and Information Technology sought feedback on the Draft Personal Data Protection Bill.
+[
+19
+]
+On 4 December 2019, after further deliberations the Bill was approved by the cabinet ministry of
+India
+.
+On 11 December 2019, the
+Personal Data Protection Bill, 2019
+was tabled in
+Lok Sabha
+.
+On 11 December 2019, the Personal Data Protection Bill, 2019 was referred to the
+Joint Parliamentary Committee
+.
+[
+20
+]
+On 16 December 2021, the standing committee has submitted its report on the bill.
+[
+20
+]
+On 3 August 2022, the Personal Data Protection Bill, 2019 was withdrawn.
+[
+21
+]
+On 18 November 2022, the
+Ministry of Electronics and Information Technology
+released the draft legislation of the data protection framework for public consultation.
+[
+4
+]
+[
+5
+]
+On 3 August 2023, the Digital Personal Data Protection Bill, 2023 was introduced in the Lok Sabha
+[
+7
+]
+Personal Data Protection Bill, 2019
+[
+edit
+]
+Main article:
+Personal Data Protection Bill, 2019
+The
+Ministry of Electronics and Information Technology
+set up a committee to study issues related to data protection. The committee was chaired by retired
+Supreme Court
+judge Justice
+B. N. Srikrishna
+. The committee submitted the draft version of
+Personal Data Protection
+in July 2018.
+[
+22
+]
+The report was later modified several times by the
+Government of India
+and, after receiving the approval of central cabinet, the draft legislation was tabled in the Parliament of India on 11 December 2019.
+[
+23
+]
+As bill
+[
+edit
+]
+The Bill aims to:
+[
+24
+]
+to provide for protection of the privacy of individuals relating to their personal data, specify the flow and usage of personal data, create a relationship of trust between persons and entities processing the personal data, protect the fundamental rights of individuals whose personal data are processed, to create a framework for organisational and technical measures in processing of data, laying down norms for social media intermediary, cross-border transfer, accountability of entities processing personal data, remedies for unauthorised and harmful processing, and to establish a Data Protection Authority of India for the said purposes and for matters connected there with or incidental thereto.
+It provided for extensive provisions around collection of consent, assessment of datasets, data flows and transfers of personal data, including to third countries and other aspects around anonymized and non-personal data.
+[
+25
+]
+Criticism and withdrawal
+[
+edit
+]
+The revised 2019 Bill was criticized by Justice
+B. N. Srikrishna
+, the drafter of the original Bill, as having the ability to turn India into an "
+Orwellian State
+".
+[
+26
+]
+In an interview with Economic Times, Srikrishna said that, "The government can at any time access private data or government agency data on grounds of sovereignty or public order. This has dangerous implications.”
+[
+26
+]
+[
+27
+]
+The role of social media intermediaries is being regulated more tightly on several fronts. The
+Wikimedia Foundation
+is hoping that the PDP bill will prove the lesser evil compared with the
+Draft Information Technology [Intermediary Guidelines (Amendment) Rules] 2018
+.
+[
+28
+]
+[
+29
+]
+Forbes India
+reports that "there are concerns that the Bill gives the government blanket powers to access citizens' data."
+[
+30
+]
+The bill after being tabled was referred to the JPC which was chaired by
+Meenakshi Lekhi
+. After it received criticism from stakeholders, opposition and experts the bill was withdrawn from the
+Parliament of India
+on 3 August 2022.
+[
+31
+]
+Digital Personal Data Protection Bill, 2023
+[
+edit
+]
+Aim
+[
+edit
+]
+Source:
+[
+32
+]
+The Bill provides for the processing of digital personal data in a manner that recognizes both the rights of the individuals to protect their personal data and the need to process such personal data for lawful purposes and for matters connected therewith or incidental thereto.
+The Digital Personal Data Protection Bill, 2023 is the draft version of the Digital Personal Data Protection Act, 2023, initially the government has released its the Digital Personal Data Protection Bill, 2022 on 18 November 2022 for public consultation till 2 January 2023 and approved the revised version of the earlier draft which was released for public consultation making it the Digital Personal Data Protection Bill, 2023.
+[
+33
+]
+[
+34
+]
+Timeline, introduction and passage
+[
+edit
+]
+On 18 November 2022, the Digital Personal Data Protection Bill, 2022 was released for public consultation, the deadline for receiving comments was 17 December 2022
+On 17 December 2022, the
+Ministry of Electronics and Information Technology
+has extended the deadline for receiving public comments till 2 January 2023
+On 5 July 2023, the cabinet has approved the Digital Personal Data Protection Bill, 2023 which is the revised version of the bill which was put up for public consultation earlier.
+[
+6
+]
+On 3 August 2023, the revised version of the Digital Personal Data Protection Bill, 2022 which is the
+Digital Personal Data Protection Bill, 2023
+was introduced by
+Ashwini Vaishnaw
+, Minister of Electronics and Information Technology in
+Lok Sabha
+.
+On 7 August 2023, the bill was passed by
+Lok Sabha
+.
+[
+35
+]
+The bill was then introduced and passed in the upper house of the Indian Parliament Rajya Sabha on 9 August 2023.
+[
+36
+]
+On 11 August 2023,
+Draupadi Murmu
+,
+President of India
+has given assent to the Digital Personal Data Protection Bill, 2023 which made it the Digital Personal Data Protection Act, 2023.
+[
+10
+]
+[
+11
+]
+Overview
+[
+edit
+]
+The Act protects digital personal data (that is, the data by which a person may be identified) by providing for the following
+[
+1
+]
+The obligations of Data Fiduciaries (that is, persons, companies and government entities who process data) for data processing (that is, collection, storage or any other operation on personal data)
+The rights and duties of Data Principals (that is, the person to whom the data relates)
+Financial penalties for breach of rights, duties and obligations
+Establishment of
+Data Protection Board of India
+Comparison with GDPR
+[
+edit
+]
+The Digital Personal Data Protection Act, 2023 (DPDP Act) and the
+European Union's
+General Data Protection Regulation (GDPR)
+share similar principles but differ in key aspects. The DPDP Act-2023 applies only to digital personal data, while GDPR covers all forms of personal data.
+[
+37
+]
+Unlike GDPR, DPDP Act-2023 does not distinguish between personal and sensitive personal data.
+[
+38
+]
+Both laws grant similar rights to individuals but differ in their approach to legal bases for data processing.
+[
+37
+]
+Comparison of Digital Personal Data Protection Act, 2023 (DPDP Act-2023) and General Data Protection Regulation (GDPR)
+Feature
+Digital Personal Data Protection Act, 2023 (DPDP Act-2023)
+General Data Protection Regulation (GDPR)
+Scope
+Regulates digital personal data processing; includes extraterritorial application for offering goods/services in India.
+Covers all personal data, digital or otherwise; applies to any organization processing data of individuals within the EU, irrespective of location.
+Type of Data
+Limited to digital personal data.
+Covers all personal data, including non-digital.
+Legal Basis for Processing
+Consent required with some legitimate use cases (e.g., employment, legal obligations, emergencies). Does not include contractual necessity or legitimate interests.
+Consent if alternative bases do not apply e.g. legitimate interests, contractual necessity, legal obligations, emergencies ("vital interests") etc.
+Data Principal Rights
+Right to access, correction, erasure, grievance redressal. Unique rights: appoint another to exercise rights on data principal’s behalf in event of death/incapacity.
+Rights to be informed, access, rectification, erasure, restriction of processing, data portability, objection, not to be subject to automated decisions.
+Cross-Border Data Transfers
+Permitted unless to jurisdictions restricted by Indian Government.
+Permitted based on adequacy decisions.
+Data Protection Board of India
+[
+edit
+]
+Main article:
+Data Protection Board of India
+Under section 18 of the Digital Personal Data Protection Act, 2023, the Data Protection Board of India is a body that adjudicates the dispute(s) between those whose personal data has been given to a platform and the platform which has in turn breached the obligations under the law.
+[
+39
+]
+[
+40
+]
+[
+41
+]
+[
+42
+]
+[
+43
+]
+Rights and provisions
+[
+edit
+]
+Right to access personal data
+[
+44
+]
+[
+45
+]
+Right to correction and erasure of data
+[
+44
+]
+[
+45
+]
+Right to revoke consent
+[
+44
+]
+[
+45
+]
+Special provisions for the protection of data related minors (under 18 children)
+[
+44
+]
+[
+45
+]
+Minimum penalty for breach is 50
+crore
+INR
+[
+44
+]
+[
+45
+]
+The terms and conditions and information related to collection of data should be made available in all the 22 languages in the 8th schedule of the Indian constitution
+[
+44
+]
+[
+45
+]
+Right to grievance redressal
+[
+44
+]
+[
+45
+]
+Right to nominate a consent manager to manage their data related requests on behalf of a data principal (The right to nominate a person to exercise rights in case of death or incapacity)
+[
+44
+]
+[
+45
+]
+The Act does not permit processing which is detrimental to well-being of children or involves their tracking, behavioral monitoring or
+targeted advertising
+[
+44
+]
+[
+45
+]
+Exemptions
+[
+edit
+]
+The Act has made exemptions
+[
+46
+]
+from the regulations related to the Act, they are:
+The processing of personal data is necessary for enforcing any legal right or claim
+[
+46
+]
+The processing of personal data by any court or tribunal or any other body in India which is entrusted by law with the performance of any judicial or quasi-judicial or regulatory or supervisory function, where such processing is necessary for the performance of such function
+[
+46
+]
+Personal data is processed in the interest of prevention, detection, investigation or prosecution of any offence or contravention of any law for the time being in force in India
+[
+46
+]
+Personal data of Data Principals not within the territory of India is processed pursuant to any contract entered into with any person outside the territory of India by any person based in India
+[
+46
+]
+The processing is necessary for a scheme of compromise or arrangement or merger or amalgamation of two or more companies or a reconstruction by way of demerger or otherwise of a company, or transfer of undertaking of one or more company to another company, or involving division of one or more companies, approved by a court or tribunal or other authority competent to do so by any law for the time being in force
+[
+46
+]
+The processing is for the purpose of ascertaining the financial information and assets and liabilities of any person who has defaulted in payment due on account of a loan or advance taken from a financial institution, subject to such processing being in accordance with the provisions regarding disclosure of information or data in any other law for the time being in force.
+[
+46
+]
+Criticism
+[
+edit
+]
+Non-applicability to offline personal data
+[
+edit
+]
+The Act is only applicable to the data collected digitally and when offline data gets digitized. Not having the applicability on offline personal data was criticized as there is no framework on how such data is handled.
+[
+47
+]
+See also
+[
+edit
+]
+General Data Protection Regulation
+Digital Personal Data Protection Rules, 2025
+Information privacy law
+Data Protection Act 2018
+Data security
+References
+[
+edit
+]
+1
+2
+"The Digital Personal Data Protection Bill 2023, Bill No. 113 of 2023"
+(PDF)
+.
+Archived
+(PDF)
+from the original on 18 July 2024.
+↑
+Bhargava, Yuthika (18 November 2022).
+"Draft data protection Bill uses 'she' and 'her' to refer to all individuals"
+.
+The Hindu
+.
+ISSN
+0971-751X
+.
+Archived
+from the original on 8 July 2024
+. Retrieved
+9 August
+2023
+.
+↑
+"The Digital Personal Data Protection Act, 2023, No. 22 of 2023"
+(PDF)
+.
+The Gazette of India
+. 11 August 2023.
+Archived
+(PDF)
+from the original on 3 November 2023.
+1
+2
+3
+4
+5
+"Data Protection Framework | Ministry of Electronics and Information Technology, Government of India"
+.
+www.meity.gov.in
+.
+Archived
+from the original on 24 June 2024
+. Retrieved
+28 August
+2023
+.
+1
+2
+"Notice - Public Consultation on DPDP 2022_1"
+(PDF)
+.
+www.meity.gov.in
+.
+Archived
+(PDF)
+from the original on 3 November 2023
+. Retrieved
+5 October
+2024
+.
+1
+2
+"Cabinet clears Data Protection Bill"
+.
+The Hindu
+. 5 July 2023.
+ISSN
+0971-751X
+.
+Archived
+from the original on 28 August 2023
+. Retrieved
+28 August
+2023
+.
+1
+2
+"Digital Personal Data Protection Bill, 2023 introduced in Lok Sabha"
+.
+The Hindu
+. 3 August 2023.
+ISSN
+0971-751X
+.
+Archived
+from the original on 17 August 2023
+. Retrieved
+28 August
+2023
+.
+↑
+"Data protection bill passed by Lok Sabha, next stop Rajya Sabha"
+.
+Moneycontrol
+. 7 August 2023.
+Archived
+from the original on 7 August 2023
+. Retrieved
+7 August
+2023
+.
+↑
+Chishti, Aiman J. (9 August 2023).
+"Parliament Passes Digital Personal Data Protection Bill"
+.
+www.livelaw.in
+.
+Archived
+from the original on 11 August 2023
+. Retrieved
+9 August
+2023
+.
+1
+2
+"India gets a data protection law"
+.
+Moneycontrol
+. 11 August 2023.
+Archived
+from the original on 20 September 2023
+. Retrieved
+11 August
+2023
+.
+1
+2
+"Digital Personal Data Protection Bill gets nod from President"
+.
+The Economic Times
+. 12 August 2023.
+ISSN
+0013-0389
+.
+Archived
+from the original on 15 June 2024
+. Retrieved
+11 August
+2023
+.
+↑
+"NOTIFICATION"
+(PDF)
+.
+Ministry of Electronics and Information Technology
+. New Dehli, India: The Gazette of India. 13 November 2025
+. Retrieved
+13 November
+2025
+.
+↑
+"Court Case for right to Privacy"
+(PDF)
+. Archived from
+the original
+(PDF)
+on 28 August 2017
+. Retrieved
+9 August
+2023
+.
+↑
+"MeitY OM nomination of JS(GS) in Expert Committee221217"
+(PDF)
+.
+www.meity.gov.in
+. 22 December 2017
+. Retrieved
+5 October
+2024
+.
+↑
+"Public consulation on White Paper - Data Protection Framework for India"
+(PDF)
+.
+[
+dead link
+]
+↑
+"Data Protection Framework - Public consultation meeting at Mumbai"
+(PDF)
+.
+↑
+"The Personal Data Protection Bill, 2018"
+(PDF)
+.
+↑
+"Data Protection Committee - Report"
+(PDF)
+.
+↑
+"Feedback on Draft Personal Data Protection Bill"
+.
+1
+2
+"The Personal Data Protection Bill, 2019"
+.
+PRS Legislative Research
+. Retrieved
+28 August
+2023
+.
+↑
+"Withdrawal of PDPB"
+.
+↑
+"Draft Personal Data Protection Bill"
+(PDF)
+.
+↑
+"The Personal Data Protection Bill, 2019"
+.
+PRS Legislative Research
+. Retrieved
+28 August
+2023
+.
+↑
+"The Personal Data Protection Bill, 2019"
+(PDF)
+.
+Archived
+(PDF)
+from the original on 21 December 2019
+. Retrieved
+21 December
+2019
+.
+↑
+"An Emergent Data Regime on the cards: Relooking at data practices, Sameer Avasarala, Anirban Mohapatra and Arun Prabhu"
+.
+Archived
+from the original on 28 September 2022
+. Retrieved
+22 August
+2022
+.
+1
+2
+Mandavia, Megha (12 December 2019).
+"Personal Data Protection Bill can turn India into 'Orwellian State': Justice BN Srikrishna"
+.
+The Economic Times
+.
+Archived
+from the original on 31 January 2020
+. Retrieved
+21 December
+2019
+.
+↑
+"Our initial comments on the Personal Data Protection Bill 2019"
+.
+Dvara Research
+. 17 January 2020.
+Archived
+from the original on 11 April 2020
+. Retrieved
+20 January
+2020
+.
+↑
+Agarwal, Surabhi (27 December 2019).
+"Wikimedia flags worries on data law"
+.
+The Economic Times
+.
+Archived
+from the original on 30 March 2020
+. Retrieved
+28 December
+2019
+.
+↑
+"Draft Information Technology
+[
+Intermediaries Guidelines (Amendment) Rules
+]
+2018"
+.
+PRSIndia
+. 30 January 2019.
+Archived
+from the original on 2 January 2020
+. Retrieved
+2 January
+2020
+.
+↑
+"The Personal Data Protection Bill could be a serious threat to Indians' privacy"
+.
+Forbes India
+.
+Archived
+from the original on 17 December 2019
+. Retrieved
+21 December
+2019
+.
+↑
+"Data Protection Bill withdrawn: Roadblocks towards a comprehensive data protection framework"
+.
+lakshmisri.com
+. Retrieved
+28 August
+2023
+.
+↑
+"The Digital Personal Data Protection Bill, 2023"
+.
+PRS Legislative Research
+. Retrieved
+8 January
+2024
+.
+↑
+"The Digital Personal Data Protection Bill, 2023"
+.
+PRS Legislative Research
+. Retrieved
+28 August
+2023
+.
+↑
+"Deadline for comments on digital data protection Bill extended"
+.
+The Hindu
+. 17 December 2022.
+ISSN
+0971-751X
+. Retrieved
+28 August
+2023
+.
+↑
+"Lok Sabha passes Digital Personal Data Protection Bill, 2023"
+.
+The Economic Times
+. 7 August 2023.
+ISSN
+0013-0389
+. Retrieved
+28 August
+2023
+.
+↑
+"Digital Personal Data Protection Bill 2023 passed in Rajya Sabha: Key points"
+.
+The Times of India
+. 11 August 2023.
+ISSN
+0971-8257
+. Retrieved
+28 August
+2023
+.
+1
+2
+"India's Digital Personal Data Protection Act 2023 vs. the GDPR: A Comparison"
+(PDF)
+. Latham & Watkins LLP. December 2023
+. Retrieved
+11 July
+2024
+.
+↑
+"India's new data protection law: How does it differ from GDPR and what does that mean for international businesses?"
+. Herbert Smith Freehills. 10 October 2023
+. Retrieved
+11 July
+2024
+.
+↑
+Ganguly, Shirsha (30 August 2023).
+"Data Protection Board To Function As Adjudicator, Not Regulator, Clarifies MoS IT"
+.
+thelogicalindian.com
+. Retrieved
+6 September
+2023
+.
+↑
+PTI (9 August 2023).
+"Government Expects To Implement New Data Protection Law Within 10 Months"
+.
+BQ Prime
+. Retrieved
+28 August
+2023
+.
+↑
+"Exclusive: New law on digital competition likely to regulate Big Tech; IT Minister Ashwini Vaishnaw on Data Protection Bill"
+.
+The Economic Times
+. Retrieved
+28 August
+2023
+.
+↑
+Ganesan, Aarathi (2 November 2023).
+"Data Protection Board of India: Composition and its Impact"
+.
+MediaNama
+. Retrieved
+8 January
+2024
+.
+↑
+Ganesan, Aarathi (19 November 2022).
+"Role of Data Protection Board under draft data protection law 2022"
+.
+MediaNama
+. Retrieved
+8 January
+2024
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+G, Sandeep (4 January 2024).
+"Privacy Notice under the Digital Personal Data Protection Act, 2023"
+.
+Bar and Bench - Indian Legal news
+. Retrieved
+8 January
+2024
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+"Decoding the Digital Personal Data Protection Act, 2023"
+.
+www.ey.com
+. Retrieved
+8 January
+2024
+.
+1
+2
+3
+4
+5
+6
+7
+"Decoding the Digital Personal Data Protection Act 2023"
+.
+Moneylife NEWS & VIEWS
+. Retrieved
+8 January
+2024
+.
+↑
+"Data Protection Law: Focus on accountability & consent, but offline data must be treated at par"
+.
+Financialexpress
+. 8 October 2023
+. Retrieved
+8 January
+2024
+.
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Digital_Personal_Data_Protection_Act,_2023&oldid=1356295536
+"
+Categories
+:
+Data laws of Asia
+Privacy legislation
+Acts of the Parliament of India 2023
+Hidden categories:
+Articles with short description
+Short description matches Wikidata
+Use dmy dates from July 2024
+Use Indian English from July 2024
+All Wikipedia articles written in Indian English
+All articles with dead external links
+Articles with dead external links from May 2025
+Search
+Search
+Digital Personal Data Protection Act, 2023
+3 languages
+Add topic

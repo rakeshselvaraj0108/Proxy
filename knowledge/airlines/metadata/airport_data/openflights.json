@@ -1,0 +1,7 @@
+{
+  "title": "OpenFlights Airport Data Schema",
+  "category": "airport_data",
+  "source_url": "https://openflights.org/data.html",
+  "domain": "airlines",
+  "document_type": "web_text"
+}

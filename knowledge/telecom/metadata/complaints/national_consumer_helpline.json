@@ -1,0 +1,15 @@
+{
+  "domain": "telecom",
+  "authority": "NCH",
+  "title": "National Consumer Helpline",
+  "category": "complaint_guidance",
+  "source_url": "https://consumerhelpline.gov.in/public/",
+  "final_url": "https://consumerhelpline.gov.in/public/",
+  "type": "html_text",
+  "official_source": true,
+  "raw_chars": 2013,
+  "stored_path": "knowledge/telecom/complaints/national_consumer_helpline.txt",
+  "sha256": "52e5eccc1e80490925a3e9f35637676e624875b54a6fe6775f9b82965bad9b00",
+  "bytes": 2018,
+  "fetched_at": "2026-07-06T13:59:27.631888+00:00"
+}

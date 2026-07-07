@@ -58,7 +58,9 @@ def semantic_chunking(text: str, chunk_size: int = 800, overlap: int = 150) -> l
                             end = break_point + 1
                     
                     chunks.append(block[start:end].strip())
-                    start = max(0, end - char_overlap)
+                    if end >= len(block):
+                        break
+                    start = max(start + 1, end - char_overlap)
                 current_chunk = ""
             else:
                 current_chunk = block

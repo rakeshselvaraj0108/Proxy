@@ -1,0 +1,29 @@
+PENSION GRIEVANCES — EPFO & NPS RESOLUTION GUIDE
+
+EPS-95 / EPFO pension and PF:
+1. Pension not credited: verify the Pension Payment Order (PPO) number and bank account
+   seeding on the EPFO member portal; a common cause is a bank account/KYC mismatch after
+   a bank merger or account closure.
+2. PF withdrawal or transfer claim delayed/rejected: check claim status on the EPFO
+   Unified Portal using the UAN; rejections are frequently due to KYC (Aadhaar/PAN/bank)
+   not being verified/seeded, or employer not approving the digital signature on the exit
+   date.
+3. Escalation path: Employer's HR/PF section (to confirm KYC/exit approval) -> EPFO
+   Regional Office grievance cell / EPFiGMS (EPF i-Grievance Management System) -> CPGRAMS
+   against EPFO/Ministry of Labour & Employment -> Central Provident Fund Commissioner
+   for unresolved systemic issues.
+
+NPS (National Pension System), regulated by PFRDA:
+1. Withdrawal/annuity not started: NPS exit requires online submission plus, above a
+   threshold corpus, mandatory annuity purchase from an empanelled insurer — delays are
+   often at the annuity service provider stage, not the CRA (Central Recordkeeping
+   Agency) stage.
+2. Contribution/statement discrepancy: verify contributions were correctly uploaded by
+   the nodal office/employer or POP (Point of Presence, typically a bank) handling the
+   NPS account; mismatches are frequently a POP-side upload error.
+3. Escalation path: POP/bank NPS desk -> CRA grievance portal -> PFRDA grievance
+   redressal system directly, or via CPGRAMS if the POP is a government-linked entity.
+
+General tip: For any pension grievance, always retain the acknowledgement/reference
+number for every step (claim ID, PPO number, UAN, PRAN) — resolution timelines are
+tracked against these reference numbers, and CPGRAMS/EPFiGMS escalations require them.

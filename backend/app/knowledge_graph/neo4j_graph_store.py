@@ -1,6 +1,7 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import json
+import re
 from typing import Any
 
 from app.core.config import get_settings
@@ -30,6 +31,10 @@ class Neo4jGraphStore(GraphStore):
     async def add_event(self, event_type: str, payload: dict[str, Any]) -> dict[str, Any]:
         if event_type == "case_graph":
             return await self.upsert_case_graph(payload.get("case", {}), payload.get("evidence"))
+        if event_type == "knowledge_entity":
+            return await self.upsert_knowledge_entity(payload)
+        if event_type == "knowledge_relationship":
+            return await self.upsert_knowledge_relationship(payload)
         if event_type == "knowledge_document":
             return await self.upsert_knowledge_document(
                 Domain(payload["domain"]),
@@ -40,6 +45,43 @@ class Neo4jGraphStore(GraphStore):
             )
         return {"event_type": event_type, "mode": "neo4j"}
 
+    async def upsert_knowledge_entity(self, payload: dict[str, Any]) -> dict[str, Any]:
+        driver = self._get_driver()
+        domain = payload.get("domain", "unknown")
+        label = payload.get("label") or "Knowledge Entity"
+        name = payload.get("name") or label
+        safe_label = re.sub(r"[^a-zA-Z0-9]", "", label) or "KnowledgeEntity"
+        query = f"""
+        MERGE (n:KnowledgeEntity:{safe_label} {{domain: $domain, name: $name}})
+          SET n.label = $label,
+              n.updatedAt = datetime()
+        RETURN n.name AS name
+        """
+        with driver.session() as session:
+            session.run(query, domain=domain, name=name, label=label)
+        return {"event_type": "knowledge_entity", "name": name, "mode": "neo4j"}
+
+    async def upsert_knowledge_relationship(self, payload: dict[str, Any]) -> dict[str, Any]:
+        driver = self._get_driver()
+        domain = payload.get("domain", "unknown")
+        source = payload.get("source")
+        target = payload.get("target")
+        relation = re.sub(r"[^a-zA-Z0-9_]", "_", str(payload.get("relation") or "RELATED_TO").upper())
+        if not source or not target:
+            return {"event_type": "knowledge_relationship", "mode": "neo4j", "skipped": True}
+        query = f"""
+        MERGE (a:KnowledgeEntity {{domain: $domain, name: $source}})
+          SET a.updatedAt = datetime()
+        MERGE (b:KnowledgeEntity {{domain: $domain, name: $target}})
+          SET b.updatedAt = datetime()
+        MERGE (a)-[r:{relation}]->(b)
+          SET r.domain = $domain,
+              r.updatedAt = datetime()
+        RETURN type(r) AS relation
+        """
+        with driver.session() as session:
+            session.run(query, domain=domain, source=source, target=target)
+        return {"event_type": "knowledge_relationship", "source": source, "target": target, "relation": relation, "mode": "neo4j"}
     async def upsert_case_graph(self, case: dict, evidence: dict | None = None) -> dict[str, Any]:
         driver = self._get_driver()
         query = """
@@ -177,3 +219,5 @@ class Neo4jGraphStore(GraphStore):
             return {"status": "ready" if result else "degraded", "backend": "neo4j", "uri": self.settings.neo4j_uri}
         except Exception as exc:
             return {"status": "unreachable", "backend": "neo4j", "uri": self.settings.neo4j_uri, "error": str(exc)}
+
+

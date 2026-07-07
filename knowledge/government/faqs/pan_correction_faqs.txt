@@ -1,0 +1,32 @@
+PAN CARD APPLICATION & CORRECTION — FREQUENTLY ASKED QUESTIONS
+
+Q: How do I apply for a new PAN or correct an existing PAN?
+A: Apply online via the Protean (formerly NSDL) e-Gov portal or UTIITSL, or via the Income
+Tax Department's e-filing portal for Instant e-PAN (Aadhaar-based, for those without an
+existing PAN). Corrections (name, date of birth, address, photo, signature) use Form
+"Request for New PAN Card or/and Changes or Correction in PAN Data".
+
+Q: My PAN correction has been pending for a long time — what should I do?
+A: 1) Track status using the 15-digit acknowledgement number on the Protean/UTIITSL portal.
+   2) If stuck at "under process" beyond the normal processing window, raise a service
+      request/grievance on the Protean portal or Income Tax e-filing helpdesk.
+   3) If a document was rejected, resubmit with a clear, current, name-matching document
+      (PAN correction is one of the most common rejections due to name-format mismatches
+      between supporting documents).
+   4) Escalate unresolved cases via CPGRAMS against the Income Tax Department / CBDT.
+
+Q: I have two PAN numbers by mistake — is that a problem?
+A: Yes — holding more than one PAN is against Section 139A of the Income Tax Act, 1961,
+and can attract a penalty. Surrender the duplicate/incorrect PAN using the correction
+form, clearly stating the PAN to be retained and the PAN(s) to be deactivated.
+
+Q: My PAN is not linked to Aadhaar / my PAN has become inoperative — what next?
+A: PAN-Aadhaar linking is mandatory for most taxpayers; an unlinked PAN becomes
+inoperative, which blocks TDS credit, refunds, and some banking/KYC processes. Link PAN
+and Aadhaar via the Income Tax e-filing portal (fee applies where linking is delayed) and
+allow processing time before retrying the blocked transaction.
+
+Q: Where do I escalate if a bank or employer refuses a valid PAN?
+A: First request the specific rejection reason in writing; most refusals are name-format
+mismatches with the PAN database. If the PAN is correct and still refused, escalate to the
+Income Tax Department's grievance cell or CPGRAMS with supporting proof.

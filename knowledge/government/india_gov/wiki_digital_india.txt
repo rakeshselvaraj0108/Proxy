@@ -1,0 +1,1400 @@
+Digital India - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Online infrastructure in India
+This article has multiple issues.
+Please help
+improve it
+or discuss these issues on the
+talk page
+.
+(
+Learn how and when to remove these messages
+)
+This article's
+tone or style may not reflect the
+encyclopedic tone
+used on Wikipedia
+.
+See Wikipedia's
+guide to writing better articles
+for suggestions.
+(
+February 2023
+)
+(
+Learn how and when to remove this message
+)
+This article
+contains
+promotional content
+.
+Please help
+improve it
+by removing
+promotional language
+and inappropriate
+external links
+, and by adding encyclopedic text written from a
+neutral point of view
+.
+See our
+advice if the article is about you
+and read our
+scam warning
+in case someone asks for money to edit this article.
+(
+November 2024
+)
+(
+Learn how and when to remove this message
+)
+This article
+contains an excessive amount of intricate
+detail
+.
+Please help
+improve it
+by
+spinning off
+or
+relocating
+relevant information and removing excessive detail that goes against
+Wikipedia's inclusion policy
+.
+(
+November 2024
+)
+(
+Learn how and when to remove this message
+)
+The
+neutrality
+of this article is
+disputed
+.
+Relevant discussion may be found on the
+talk page
+. Please do not remove this message until
+conditions to do so are met
+.
+(
+November 2024
+)
+(
+Learn how and when to remove this message
+)
+(
+Learn how and when to remove this message
+)
+Digital India
+Motto
+Power To Empower
+Country
+India
+Ministry
+Ministry of Electronics and Information Technology
+Ministry of Finance
+Key people
+Ashwini Vaishnaw
+Rajeev Chandrasekhar
+Launched
+1
+July 2015
+;
+11 years ago
+(
+2015-07-01
+)
+Status
+Active
+Website
+digitalindia
+.gov
+.in
+Digital India
+is an initiative by the
+government of India
+to provide digital government services.
+[
+1
+]
+[
+2
+]
+The initiative includes plans to connect
+rural
+areas with
+broadband
+networks.
+Indian
+Prime Minister
+Narendra Modi
+launched the program on 1 July 2015. The campaign supports other government projects, including
+BharatNet
+,
+Make in India
+,
+Standup India
+,
+industrial corridors
+,
+Bharatmala
+Sagarmala
+and
+Amrit Bharat Station Scheme
+,
+Atmanirbhar Bharat
+.
+History
+[
+edit
+]
+Digital India was launched by the Prime Minister of India,
+Narendra Modi
+, on 1 July 2015, to connect rural areas with high-speed Internet networks and improve
+digital literacy
+.
+[
+3
+]
+[
+4
+]
+[
+5
+]
+The Digital India program aimed to promote inclusive growth of electronic services, products, manufacturing and job opportunities across the rural areas of India. The campaign primarily focuses on three key areas: digital infrastructure as a utility for every citizen, governance and services on demand, and digital empowerment of citizens.
+[
+6
+]
+Initiatives
+[
+edit
+]
+The Government of India's entity
+Bharat Broadband Network Limited
+(BBNL) which executes the
+BharatNet
+project is the custodian of Digital India
+[
+7
+]
+(DI) project.
+[
+8
+]
+[
+9
+]
+New digital services
+[
+edit
+]
+Some of the facilities which are provided through this initiative are Bharat, digital locker, e-education, e-health, e-sign, e-shopping, and the
+National Scholarship Portal
+.
+[
+10
+]
+As part of Digital India, Indian Government planned to launch Botnet cleaning centers.
+[
+11
+]
+[
+12
+]
+National e-Governance Plan
+aimed at bringing all the front-end government services online.
+MyGov.in
+is a platform to share inputs and ideas on matters of policy and governance.
+[
+13
+]
+It is mainly built for citizen engagement in governance, through a "Discuss", "Do" and "Disseminate" approach.
+[
+5
+]
+UMANG (Unified Mobile Application for New-age Governance)
+of Indian Government, is an all-in-one single unified secure multi-channel, multi-platform, multi-lingual, multi-service,
+freeware
+mobile app
+, for accessing over 1,200 central and state government services in
+multiple Indian languages
+over
+Android
+,
+iOS
+,
+Windows
+and
+USSD
+(feature phone) devices, including services such as
+AADHAAR
+,
+DigiLocker
+,
+Bharat Bill Payment System
+,
+PAN
+EPFO
+services,
+PMKVY
+services,
+AICTE
+,
+CBSE
+, tax and fee or utilities bills payments, education, job search, tax, business, health, agriculture, travel, Indian railway tickets bookings, birth certificates, e-District, e-Panchayat, police clearance, passport, other utility services from private companies and much more.
+[
+14
+]
+eSign framework allows citizens to digitally sign a document online using Aadhaar authentication.
+[
+5
+]
+Swachh Bharat Mission (SBM) Mobile app
+is being used by people and Government organizations for achieving the goals of Swachh Bharat Mission.
+[
+5
+]
+e-Hospital application provides important services such as online registration, payment of fees and appointment, online diagnostic reports, enquiring availability of blood online, etc.
+[
+15
+]
+[
+16
+]
+Digital attendance: attendance.gov.in
+[
+17
+]
+was launched by
+PM
+Narendra Modi
+on 1 July 2015,
+[
+3
+]
+to keep a record of the attendance of Government employees on a real-time basis.
+[
+18
+]
+This initiative started with implementation of a common Biometric Attendance System (BAS) in the central Government offices located in
+Delhi
+.
+[
+19
+]
+Back-end digitization
+Black money eradication: The
+2016 Union budget of India
+announced eleven technology initiatives including the use of data analytics to prevent
+tax evasion
+.
+[
+20
+]
+Digital Literacy mission will cover six crore rural households.
+[
+20
+]
+It was planned to connect 550 farmer markets nationwide through the use of technology.
+[
+21
+]
+Facilities to digitally empower citizens
+Digital Locker
+facility aims to help citizens to digitally store their important documents like PAN card, Passport, mark sheets, driving licence, Aadhaar card, and degree certificates. Digital Locker will provide secure access to Government-issued documents. It uses authentication services provided by
+Aadhaar
+, and is designed to eliminate the use of physical documents and enable the sharing of verified electronic documents across Government agencies. Three key stakeholders of DigiLocker are Citizen, Issuer, and requester.
+[
+5
+]
+[
+22
+]
+[
+23
+]
+BPO and job growth: The government planned to create 28,000 seats of BPOs in various states and set up at least one Common Service Centre in each of the gram panchayats in the state.
+[
+24
+]
+e-Sampark
+Vernacular email service: Out of 10% English-speaking Indians, only 2% reside in rural areas. The rest of everyone depends on their vernacular language for all living their lives. However, as of now, email addresses can only be created in the English language. To connect rural India with Digital India, the Government of India impelled email service providers, including
+Google
+,
+Microsoft
+, and
+Rediff
+, to provide email addresses in regional languages.
+[
+25
+]
+An Indian-based company, Data Xgen Technologies Pvt Ltd, has launched world's first free linguistic email address under the name ‘DATAMAIL’
+[
+26
+]
+which allows creating email ids in 8 Indian languages, English; and three foreign languages – Arabic, Russian and Chinese. Over the period, the email service in 22 languages will be offered by Data XGen Technologies.
+[
+27
+]
+The India Business Promotion Scheme (IBPS), was designed to stimulate the growth of the
+Business Process Outsourcing
+(BPO) and
+Information Technology
+Enabled Services (ITES) sector nationally, with a budget of Rs. 493 Crore.
+[
+28
+]
+[
+29
+]
+[
+30
+]
+DigiLocker Expansion
+: As of June 2025, DigiLocker has over 53.84 Crore registered users and has issued more than 949.24 Crore documents digitally.
+[
+31
+]
+It is widely used for Aadhaar, driving licenses, CBSE mark sheets, and COVID-19 certificates. The platform has been integrated into multiple state government services and private apps.
+Training
+[
+edit
+]
+Pradhan Mantri Gramin Digital Saksharta Abhiyan was executed by PMGDisha with an outlay of Rs 2,351.38 crore with the objective of making 6 crore rural households digitally literate by March 2020.
+[
+32
+]
+[
+33
+]
+[
+34
+]
+Pradhan Mantri Gramin Digital Saksharta Abhiyan (abbreviated as PMGDisha
+[
+35
+]
+) is an initiative under Digital India program, approved by The Union Cabinet chaired by the PM
+Narendra Modi
+.
+[
+36
+]
+[
+37
+]
+The main objective of the Pradhan Mantri Gramin Digital Saksharta Abhiyan was to make 6 crore people in rural areas across India digitally literate, reaching around 40% of rural households by covering one member from every eligible household.
+[
+38
+]
+[
+39
+]
+[
+40
+]
+Annual Digital India Summit & Awards were held in 2016.
+[
+41
+]
+E-Cabinet
+[
+edit
+]
+In 2014, the
+Andhra Pradesh government
+was led by Chief Minister
+N. Chandrababu Naidu
+and his Council of Ministers held the first paperless e-Cabinet meeting in the country using the app e-Cabinet.
+[
+42
+]
+The ministers accessed the agenda of the Cabinet meeting in electronic form by logging into the app on their laptops or Tabs.
+[
+43
+]
+E-Pragati
+[
+edit
+]
+E-Pragati, the
+Andhra Pradesh
+State
+Enterprise Architecture
+, is a framework designed to provide 750 services to over 30 million citizens by integrating 34 departments on a single platform.
+[
+44
+]
+Bhudhaar
+[
+edit
+]
+Bhudhaar
+is a 2018 E-Governance project that is intended to assign an 11-digit unique number
+[
+45
+]
+to every land parcel in the state of
+Andhra Pradesh
+,
+[
+46
+]
+as part of the "land hub in
+E-Pragati programme
+".
+[
+47
+]
+Bhuseva Authority, an inter-departmental committee was formed to implement and monitor its progress.
+[
+48
+]
+Eventually, land-related transactions are planned to use Bhudhaar as a
+single source of truth
+to reduce land-related disputes. On 20 February 2019,
+Andhra Pradesh Assembly
+gave its consent to the legal usage of Bhudhaar Number in land documents.
+e-Panta (crop booking)
+[
+edit
+]
+Electronic crop booking (e- Crop booking) is an
+Android
+application launched with an Andhra Pradesh company e-Panta,
+[
+49
+]
+to collect crop information and analyze cropping trends across the state of Andhra Pradesh and to capture the standing crop in the state.
+[
+50
+]
+Photographs as evidence in the case of crop damage and insurance are also available, as the arable land in the state has been captured in latitude and longitude along with subdivision and occupancy. Field officers are trained to capture the crop details in the existing agricultural fields using tabs and to upload the crop details to the server for every crop season.
+[
+51
+]
+The features include an online transfer of crop details to Webland (land record management website), evidence in the case of crop damage for insurance, evidence for crop loans by banks, crop pattern and water tax demand analysis, and GPS location of each land parcel across the state. The mobile app covers land use and the entire Pattadar's history of land cover.
+[
+52
+]
+Loan charge
+[
+edit
+]
+The loan charge creation project of
+Government of Andhra Pradesh
+was initially developed in India to curtail bogus and multiple loans issued to farmers.
+[
+53
+]
+By using this module, bankers can verify the land details in
+adangal
+and ROR‐1B copies and also know whether any loan is taken on the same land. The financial institutions like banks, Primary Agricultural Cooperative Societies (PACS), and Sub Registrar offices of the Registration Department in Andhra Pradesh are covered under the application. Nearly 78 lakhs of farmers, 2.25 crore residents of the state are covered under the project, along with 61 Major Banks, PACS, and District Cooperative Central Bank (DCCBs) having 6000 branches, are using this application to deliver the loans and to create charges on the land.
+[
+54
+]
+Impacts
+[
+edit
+]
+Reception
+[
+edit
+]
+The tableau of
+Ministry of Communications
+and
+Electronics and Information Technology
+passes through the
+Rajpath
+at the 72nd
+Republic Day
+Celebrations, in
+New Delhi
+on January 26, 2021.
+In 2017, the
+government of Vietnam
+opened discussions with the government of India on emulating its use of cybersecurity and e-governance.
+[
+55
+]
+At the launch ceremony of Digital India Week by Prime Minister Modi in Delhi on 1 July 2015, CEOs from India and abroad committed to invest
+₹
+224.5 lakh crore
+(US$2.4
+trillion)
+towards the initiative.
+[
+citation needed
+]
+The CEOs said the investments would be utilized towards making smartphones and internet devices at an affordable price in India, which would help generate jobs in India as well as reduce the cost of importing them from abroad.
+[
+56
+]
+Leaders from
+Silicon Valley
+,
+San Jose
+,
+California
+expressed their support for Digital India during Modi's visit in September 2015.
+Facebook
+'s CEO
+Mark Zuckerberg
+changed his profile picture in support of Digital India and started a chain on Facebook and promised to work on WiFi Hotspots in rural areas of India.
+[
+57
+]
+Google
+committed to providing broadband connectivity on 500 railway stations in India.
+[
+58
+]
+Microsoft
+agreed to provide broadband connectivity to five hundred thousand villages in India and make India its cloud hub through Indian data centres.
+[
+59
+]
+Qualcomm
+announced an investment of
+US$150 million
+in Indian startups.
+[
+60
+]
+Oracle plans to invest in 20 states and will work on payments and
+Smart city
+initiatives.
+[
+61
+]
+However, back in India, cyber experts expressed their concern over internet.org and viewed the Prime Minister's bonhomie with Zuckerberg as the government's indirect approval of the controversial initiative.
+[
+62
+]
+The Statesman
+reported, "Prime Minister Narendra Modi's chemistry with Facebook CEO Mark Zuckerberg at the social media giant's headquarters in California may have been greeted enthusiastically in Silicon Valley but back home several social media enthusiasts and cyber activists are disappointed."
+[
+63
+]
+Later, the Prime Minister's office clarified that net neutrality will be maintained at all costs and vetoed the Basic Internet plans.
+[
+62
+]
+Digital India has also been influential in promoting the interests of the Indian Railways.
+[
+64
+]
+As of March 2024, India had approximately 954.40 million internet subscribers, a substantial increase from 251.59 million in March 2014. The growth has been largely driven by increased adoption in rural areas, which accounted for 398.35 million subscribers.
+[
+65
+]
+On 28 December 2015,
+Panchkula district
+of
+Haryana
+was awarded for being the top-performing district in the state under the Digital India campaign.
+[
+66
+]
+As of 2018, India was adding 10 million daily internet users a month, which at the time was the highest rate of rate of internet-adoption recorded anywhere in the world.
+[
+67
+]
+Criticisms
+[
+edit
+]
+Several academic scholars have critiqued ICTs in development. Some take issue with
+technological determinism
+, the notion that ICTs are a sure-fire antidote to the world's problems.
+[
+68
+]
+Instead, governments must adjust solutions to the specific political and social context of their nation.
+[
+68
+]
+Others note that technology amplifies underlying institutional forces, so technology must be accompanied by significant changes in policy and institutions to have a meaningful impact.
+[
+69
+]
+[
+70
+]
+It is thought that there needs to be more research on the actual worth of these multimillion-dollar government and ICT for development projects. For the most part, the technological revolution in India has benefited the already privileged sectors of Indians.
+[
+68
+]
+It is also difficult to scale up initiatives to affect all Indians, and fundamental attitudinal and institutional change is still an issue.
+[
+71
+]
+While much ICT research has been conducted in Kerala, Andhra Pradesh, and Gujarat, poorer states such as Bihar and Odisha are rarely mentioned.
+[
+71
+]
+Digital India as a programme has been considered by some as a continuation of the long history of bias towards
+RIL
+, which has previously manifested in the form of altering
+TRAI
+regulations in favour of the company. Reliance
+Jio
+has cited the Digital India initiative numerous times for its marketing purposes.
+[
+72
+]
+The government has faced criticism over frequent data breaches.
+[
+73
+]
+[
+74
+]
+The Aadhaar biometrics have been criticised for being an easy target for hackers.
+[
+75
+]
+See also
+[
+edit
+]
+Common Service Centres
+Internet in India
+Telecommunications in India
+Mobile telephone numbering in India
+List of mobile phone brands by country
+List of countries by Internet connection speeds
+List of countries by smartphone penetration
+Electronics and semiconductor manufacturing industry in India
+Flexible electronics
+India.gov.in
+National e-Governance Plan
+Standup India
+Make in India
+Smart Cities Mission
+Digital Literacy
+References
+[
+edit
+]
+↑
+Prakash, Amit.
+"Digital India needs to go local"
+.
+The Hindu
+. Retrieved
+26 February
+2017
+.
+↑
+Mannathukkaren, Nissim.
+"The grand delusion of Digital India"
+.
+The Hindu
+. Retrieved
+26 February
+2017
+.
+1
+2
+"Here's what you need to know about the Digital India initiative"
+,
+Daily News and Analysis
+,
+Mumbai
+, 28 September 2015
+↑
+"Government School in Remote Bandahalli Village Gets Inspired by make in India"
+,
+The New Indian Express
+, 15 March 2016, archived from
+the original
+on 15 March 2016
+1
+2
+3
+4
+5
+"Digital India Week"
+,
+Press Information Bureau
+, 1 July 2015
+↑
+"Introduction to Digital India"
+,
+Vikaspedia
+↑
+"Digital India For Atmanirbhar Bharat – Transforming The Rural Areas"
+.
+Aatmnirbhar Sena
+. 20 November 2020.
+↑
+"About Bharat Broadband Network Limited"
+,
+Bharat Broadband Network Limited
+↑
+Subramaniam, Nikhil (22 March 2013),
+"India's 'fantastic' broadband project that you should know about"
+,
+Tech2
+↑
+Singh, Dr. Vinod (27 May 2016).
+"Digital India Initiative: An excellent opportunity for IT Companies"
+.
+LinkedIn
+. Retrieved
+4 April
+2025
+.
+↑
+Krishna, KP (25 May 2014),
+"Government to set up botnet cleaning centres"
+,
+Preview Tech
+↑
+Jones, Claire (16 December 2019).
+"India's payments revolution"
+.
+Financial Times
+. Retrieved
+16 December
+2019
+.
+↑
+"Modi's website gets new, mobile-friendly look"
+,
+Business Standard
+,
+New Delhi
+, BS Reporter, 16 January 2016
+↑
+"Government unveils Umang app for citizen services."
+, Economic Times, 23 Nov 2017.
+↑
+"Digital India Health Summit recognises the role of healthtech"
+.
+ETHealthworld.com
+. Retrieved
+16 December
+2019
+.
+↑
+"All govt hospitals will have e-hospital management system"
+.
+Business Standard India
+. Press Trust of India. 10 June 2019
+. Retrieved
+16 December
+2019
+.
+↑
+"Attendance | Dashboard"
+.
+attendance.gov.in
+. Archived from
+the original
+on 6 September 2022
+. Retrieved
+4 April
+2025
+.
+↑
+"Attendance.gov.in: Modi government launches website to track attendance of government employees"
+,
+The Economic Times
+, 7 October 2014, archived from
+the original
+on 9 October 2014
+↑
+"Attendance.gov.in - Government offices will no longer be the same, courtesy Narendra Modi"
+,
+Daily News and Analysis
+, 7 October 2014
+1
+2
+Mendonca, Jochelle (29 February 2016),
+"Budget 2016: Technology initiatives to boost Digital India drive"
+,
+The Economic Times
+↑
+"Government aims to give 'Digital India' benefits to farmers: PM Modi"
+,
+The Times of India
+, 18 February 2016
+↑
+"Can DigiLocker Catalyze Digital India? – Maximum Governance"
+.
+maximumgovernance.com
+. 4 September 2016
+. Retrieved
+8 September
+2016
+.
+↑
+"DigiLocker - Online document storage facility National Portal of India"
+,
+india.gov.in
+, archived from
+the original
+on 15 May 2015
+↑
+"Under the Digital India initiative: Software Technology Park of India"
+,
+The Indian Express
+, 28 February 2016
+↑
+"Vernacular Push: Govt. Wants Email Providers To Support Regional Email Addresses"
+.
+Trak.in - Indian Business of Tech, Mobile & Startups
+. 1 August 2016
+. Retrieved
+28 October
+2016
+.
+↑
+"DataMail: World's first free linguistic email service supports eight India languages - The Economic Times"
+.
+The Economic Times
+. Retrieved
+28 October
+2016
+.
+↑
+"Data Xgen Technologies launches email address in Indian languages"
+.
+Deccan Chronicle
+. 18 October 2016
+. Retrieved
+28 October
+2016
+.
+↑
+"Govt BPO promotion scheme provides employment to over 40,000 local youths in tier cities"
+,
+The Economic Times
+, 19 June 2021
+, retrieved
+20 September
+2023
+↑
+"Software body organises event to honour women"
+,
+The Hindu
+, 12 March 2021
+, retrieved
+20 September
+2023
+↑
+"Software body organises event to honour women"
+,
+www.meity.gov.in
+, retrieved
+20 September
+2023
+↑
+"DigiLocker: An Initiative Towards Paperless Governance"
+.
+DigiLocker
+. Retrieved
+26 June
+2025
+.
+↑
+"One of world's largest digital literacy programmes in world, 'Pradhan Mantri Gramin Digital Saksharta Abhiyan' cleared by Cabinet"
+.
+Financial Express
+. 8 February 2017.
+↑
+"Pradhan Mantri Gramin Digital Saksharta Abhiyan"
+.
+Vikaspedia
+. Retrieved
+22 May
+2017
+.
+↑
+"2,351 करोड़ से गांवों को डिजिटल साक्षर बनाएगी सरकार, PMGDISHA को मंजूरी"
+(in Hindi). Live Hindustan. 9 February 2017.
+↑
+"Cabinet approves PMGDISHA under Digital India Programme"
+. New Delhi:
+Business Standard
+. 8 February 2017.
+↑
+"Cabinet nod for rural digital literacy programme"
+.
+The Hindu
+. 9 February 2017.
+↑
+"abinet approves 'Pradhan Mantri Gramin Digital Saksharta Abhiyan' for covering 6 crore rural households"
+.
+Press Information Bureau
+. 8 February 2017.
+↑
+"Pradhan Mantri Gramin Digital Saksharta Abhiyan (PMGDISHA)"
+.
+MyGov.in
+. Retrieved
+22 May
+2017
+.
+↑
+"Digital literacy classes for unemployed"
+.
+The Hans India
+. 2 May 2017.
+↑
+Shrivastava, Shilpika (9 February 2017).
+"Union Cabinet approves Pradhan Mantri Gramin Digital Saksharta Abhiyan"
+. Jagran Josh.
+↑
+"Times Now and ET Now announce 2nd edition of Digital India Summit & Awards; on 22 March"
+,
+The Economic Times
+, 19 February 2016
+↑
+"India's first ever eCabinet in Andhra Pradesh"
+.
+News18
+. 15 September 2014
+. Retrieved
+20 March
+2019
+.
+↑
+"Chandrababu Naidu holds e-Cabinet meeting"
+.
+The Hindu
+. PTI. 15 September 2014.
+ISSN
+0971-751X
+. Retrieved
+20 March
+2019
+.
+↑
+Staff Reporter (20 July 2018).
+"Naidu launches e-Pragati core platform"
+.
+The Hindu
+.
+ISSN
+0971-751X
+. Retrieved
+20 March
+2019
+.
+↑
+"Launching of Bhudhaar"
+.
+The Hindu
+. 20 November 2018.
+↑
+"Land parcels in Andhra to get unique code under Bhudhaar programme"
+.
+The Times of India
+. 23 August 2018.
+↑
+"Land Hub"
+.
+↑
+"ప్రగతి సూచిక - భూసేవ"
+.
+bhuseva.ap.gov.in
+(in Telugu)
+. Retrieved
+4 February
+2014
+.
+↑
+"e-Panta"
+.
+karshak.ap.gov.in
+. Retrieved
+4 April
+2025
+.
+↑
+"Geo-tagging to ensure better land management"
+.
+www.thehansindia.com
+. 19 September 2016
+. Retrieved
+20 March
+2019
+.
+↑
+"Agri and allied sectors register growth rate of 25.6% in first 6 months"
+.
+The New Indian Express
+. 15 December 2017
+. Retrieved
+20 March
+2019
+.
+↑
+e-Crop Booking: A Geo-tagging To Ensure Better Land Management Launched In AP
+, 2 October 2015,
+archived
+from the original on 18 November 2021
+, retrieved
+20 March
+2019
+↑
+"Loan Charge:: Login"
+.
+loancharge.ap.gov.in
+. Retrieved
+20 March
+2019
+.
+↑
+"Bankers asked to advance crop loans based on webland details"
+.
+The Hindu
+. 14 July 2017.
+ISSN
+0971-751X
+. Retrieved
+20 March
+2019
+.
+↑
+"Vietnam may emulate Digital India, seeks cooperation on e-governance"
+,
+Hindustan Times
+, 28 March 2017
+↑
+"Digital India: Top CEOs commit to invest Rs 4.5 trillion"
+.
+↑
+"Mark Zuckerberg changes his profile picture to support 'Digital India'
+"
+,
+The Times of India
+, TNN, 27 September 2014
+↑
+"Google to give Wi-Fi access in 500 railway stations"
+.
+Business Standard
+. 28 September 2015.
+↑
+Jha.K, Lalit.
+"Microsoft to take technology to 5 lakh villages: Nadella"
+.
+mint
+.
+↑
+Thomas, K (27 September 2015),
+Modi effect: Silicon Valley giants commit to Digital India
+,
+Business Line
+The Hindu
+↑
+"Digital India to propel economy to its best era: Oracle"
+,
+Moneycontrol.com
+, 8 October 2015
+1
+2
+"The Statesman: Digital India at the expense of Net neutrality?"
+,
+The Statesman
+, 8 October 2015
+↑
+"Clipping of The Statesman - Delhi"
+.
+The Statesman
+. 29 September 2015.
+↑
+Dipankan Bandopadhyay (14 April 2017).
+"Digital India and Indian Railways"
+.
+Politics Now
+.
+↑
+"Universal connectivity and Digital India initiatives reaching to all areas"
+,
+Press Information Bureau
+, 2 August 2024
+↑
+"Digital India campaign; Panchkula comes out on top among all districts of Haryana"
+.
+The Indian Express
+. The Express Group. 26 December 2015
+. Retrieved
+27 December
+2017
+.
+↑
+"India is adding 10 million active internet users per month: Google"
+.
+Business Standard India
+. 27 June 2018
+. Retrieved
+26 October
+2018
+.
+1
+2
+3
+Thomas, Pradip Ninan (11 July 2012).
+Digital India: Understanding Information, Communication and Social Change
+. SAGE Publications India.
+ISBN
+9788132116851
+.
+↑
+Nagarajan, Rema (20 September 2015).
+"To fix social problems, invest in human beings, not tech magic: Kentaro Toyama"
+.
+Times of India
+.
+↑
+Toyama, Kentaro (2015),
+"Geek Heresy: Rescuing Social Change from the Cult of Technology"
+,
+PublicAffairs
+1
+2
+Walsham, Geoff (2010).
+"ICTS for the Broader Development of India: An Analysis of the Literature"
+(PDF)
+.
+The Electronic Journal of Information Systems in Developing Countries
+.
+41
+:
+1–
+20.
+doi
+:
+10.1002/j.1681-4835.2010.tb00293.x
+.
+S2CID
+153714812
+.
+↑
+Block, Daniel.
+"How Reliance Jio is monopolising the telecom sector"
+.
+The Caravan
+. Retrieved
+22 May
+2019
+.
+↑
+"Data Breach: Unveiling the Cracks in Digital India"
+.
+CivilsDaily
+. 14 June 2023
+. Retrieved
+15 October
+2024
+.
+↑
+"3.94 Lakhs And Counting: How Cyberattacks Are A Worry For Digital India"
+.
+CyberPeace
+. 9 June 2022
+. Retrieved
+15 October
+2024
+.
+↑
+"Aadhaar: Watch out, Aadhaar biometrics are an easy target for hackers"
+.
+The Economic Times
+. 23 October 2017
+. Retrieved
+15 October
+2024
+.
+External links
+[
+edit
+]
+Official website
+Ministry of Electronics & IT
+v
+t
+e
+Government schemes in India
+List of schemes
+Welfare schemes for women
+Poverty alleviation programmes
+Subsidies
+Social security
+Food security
+Active
+Schemes
+Antyodaya Anna
+Atal Pension
+Ayushman Bharat
+Beti Bachao, Beti Padhao
+Deen Dayal Upadhyaya Antyodaya
+Deen Dayal Upadhyaya Grameen Kaushalya
+Deen Dayal Upadhyaya Gram Jyoti
+Direct Benefit Transfer
+DigiLocker
+Garib Kalyan Rojgar Abhiyaan
+Heritage City Development and Augmentation
+Integrated Child Development Services
+Income declaration
+JAM Yojana
+Khelo India
+Pravasi Suraksha
+Midday Meal Scheme
+Local Area Development
+National Infrastructure Pipeline
+National Pension System
+National Social Assistance Scheme
+National Service Scheme
+Post Office Passport
+Farmer Income Protection Scheme (PM AASHA)
+Adarsh Gram
+Gramin Awaas
+Awas
+Digital Health Mission
+Gram Sadak
+Jan Dhan
+Krishi Sinchai
+Matsya Sampada
+Matritva Vandana
+Shram Yogi Mandhan
+Ujjwala
+Bhartiya Jan Aushadhi
+Garib Kalyan
+Garib Kalyan Anna Yojana
+Jeevan Jyoti Bima
+Kisan Samman Nidhi
+Suraksha Bima
+Sansad Adarsh Gram
+Saubhagya
+Soil Health Card
+UDAN
+Ujwal DISCOM Assurance
+Unnat Jeevan
+Missions
+Rejuvenation and Urban Transformation
+Indradhanush
+Education
+Climate Resilient Agriculture
+Manuscripts
+Health
+Anganwadi
+Auxiliary nurse midwife
+Accredited Social Health Activist
+Solar
+Translation
+Providing Urban Amenities to Rural Areas
+Rashtriya Madhyamik Shiksha Abhiyan
+Rashtriya Uchchatar Shiksha Abhiyan
+Remunerative Approach for Agriculture and Allied sector Rejuvenation
+Sarva Shiksha Abhiyan
+Smart Cities Mission
+TB-Mission 2020
+Projects
+Agriculture MMP
+Bharatmala
+Indian rivers interlinking project
+Operation Flood
+Sagar Mala project
+Setu Bharatam
+Urja Ganga Gas Pipeline Project
+Campaigns
+Accessible India Campaign
+Digital India
+Make in India
+Skill India
+Standup India
+Startup India
+Swachh Bharat Mission
+Identity
+Aadhaar
+Business identification
+Passport
+Permanent account
+Ration card
+Unorganised Workers
+Voters
+State
+AP
+Annadatha Sukhibhava
+TG
+Mission Bhagiratha
+T App Folio
+GJ
+Jyotigram
+Vibrant Gujarat
+MP
+Global Investors Summit
+Ladli Laxmi
+MH
+Mahatma Jyotiba Phule Jan Arogya
+Magnetic Maharashtra
+OR
+Ahar
+Biju Krushak Kalyan
+Madhu Babu Pension
+RJ
+Bhamashah
+UP
+Global Investors Summit
+TN
+Global Investors Meet
+Closed/subsumed
+Schemes
+Bharat Nirman
+National Urban Renewal
+Kasturba Gandhi Balika Vidyalaya
+Kishore Vaigyanik Protsahan
+Rural Livelihood
+Finance Development Fund
+Rashtriya Swasthya Bima
+Tuberculosis Control
+Sampoorna Grameen Rozgar
+Voluntary Disclosure of Income
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Digital_India&oldid=1361578864
+"
+Categories
+:
+2014 establishments in India
+Digital India initiatives
+Administration of Andhra Pradesh
+Internet in India
+Ministry of Communications and Information Technology (India)
+Modi administration initiatives
+Government schemes in India
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Wikipedia articles with style issues from February 2023
+All articles with style issues
+Articles with a promotional tone from November 2024
+All articles with a promotional tone
+Wikipedia articles that are excessively detailed from November 2024
+All articles that are excessively detailed
+Wikipedia articles with style issues from November 2024
+Wikipedia neutral point of view disputes from November 2024
+All Wikipedia neutral point of view disputes
+Articles with multiple maintenance issues
+Use dmy dates from December 2015
+Use Indian English from December 2015
+All Wikipedia articles written in Indian English
+CS1 Hindi-language sources (hi)
+CS1 Telugu-language sources (te)
+All articles with unsourced statements
+Articles with unsourced statements from April 2025
+Pages with non-numeric formatnum arguments
+Official website different in Wikidata and Wikipedia
+Search
+Search
+Digital India
+15 languages
+Add topic

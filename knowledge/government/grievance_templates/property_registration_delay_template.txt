@@ -1,0 +1,23 @@
+PROPERTY REGISTRATION DELAY COMPLAINT TEMPLATE
+
+To,
+The Sub-Registrar, [office/jurisdiction],
+
+Subject: Delay in registration of [Sale Deed / Gift Deed / Mortgage / Lease] — Document
+No. [xxxx] / Token No. [xxxx]
+
+"I submitted a document for registration on [date], token/document number [xxxx], at your
+office under the Registration Act, 1908. [Describe the issue: registration slot
+repeatedly unavailable / document held for verification beyond the normal window /
+mutation/encumbrance certificate not updated after registration]. I request that this be
+processed and, if there is a specific defect requiring correction, that I be informed in
+writing so I can rectify it promptly."
+
+Escalation path if unresolved:
+1. Written follow-up to the Sub-Registrar with the token/document number.
+2. Escalate to the District Registrar / Inspector General of Registration for the state.
+3. State grievance portal or CPGRAMS (for centrally-linked digital registration/e-Stamp
+   issues) or the state's own e-service grievance module if property registration is
+   handled through a state e-governance platform.
+4. For mutation (Record of Rights) delays after registration, escalate separately to the
+   Tahsildar/local revenue authority responsible for updating land records.

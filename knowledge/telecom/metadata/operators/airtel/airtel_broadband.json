@@ -1,0 +1,15 @@
+{
+  "domain": "telecom",
+  "authority": "Airtel",
+  "title": "Airtel Broadband",
+  "category": "broadband",
+  "source_url": "https://www.airtel.in/airtel-broadband",
+  "final_url": "https://www.airtel.in/airtel-broadband",
+  "type": "html_text",
+  "official_source": true,
+  "raw_chars": 140,
+  "stored_path": "knowledge/telecom/operators/airtel/airtel_broadband.txt",
+  "sha256": "3b807229e9192463fbd2dbffd8512a5b5f397e45cf985c7964a738c6f9412047",
+  "bytes": 142,
+  "fetched_at": "2026-07-06T13:59:30.243190+00:00"
+}

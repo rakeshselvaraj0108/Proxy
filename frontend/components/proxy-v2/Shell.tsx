@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Bell, Bot, ClipboardList, Command, FileSearch, FileText, Gauge, Home, Network, Search, Settings, Sparkles, Upload, Workflow, X, ChevronRight } from "lucide-react";
 import { domainRegistry, findDomainAnalysis } from "@/lib/proxy-analysis-data";
+import { SceneBackground } from "@/components/3d/SceneBackground";
 
 const nav = [
   ["Dashboard", "/dashboard", Home], ["New Analysis", "/dashboard/new", Upload], ["My Analyses", "/dashboard/analyses", FileSearch], ["AI Assistant", "/dashboard/assistant", Bot], ["Knowledge Graph", "/dashboard/knowledge-graph", Network], ["Documents", "/dashboard/documents", FileText], ["Appeals", "/dashboard/appeals", ClipboardList], ["Reports", "/dashboard/reports", Gauge], ["Notifications", "/dashboard/notifications", Bell], ["Settings", "/dashboard/settings", Settings],
@@ -24,6 +25,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <main className="min-h-screen bg-proxy-black text-proxy-text">
+      <SceneBackground />
       <Aurora />
       <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-proxy-cyan focus:px-3 focus:py-2 focus:text-black">Skip to content</a>
       <aside className="fixed left-0 top-0 z-30 hidden h-screen w-72 border-r border-white/10 bg-black/45 p-4 backdrop-blur-2xl lg:block">

@@ -1,0 +1,38 @@
+{
+  "domain": "government",
+  "generated_at": "2026-07-07T14:33:50.602912+00:00",
+  "local_corpus": {
+    "files_total": 34,
+    "chunks_total": 72,
+    "bytes_total": 166887,
+    "extension_counts": {
+      ".txt": 34
+    },
+    "authority_counts": {
+      "DARPG": 2,
+      "DARPG / RTI Online": 1,
+      "EPFO / PFRDA": 2,
+      "GoI": 5,
+      "Income Tax Dept": 3,
+      "Income Tax Dept / Protean (NSDL)": 1,
+      "MEA": 1,
+      "MEA / Passport Seva": 1,
+      "MoRTH / Parivahan": 1,
+      "MoRTH / State Transport Dept": 1,
+      "Municipal/Panchayat Registrar (RBD Act, 1969)": 1,
+      "Parivahan": 1,
+      "Protean (NSDL)": 1,
+      "RTI Online": 3,
+      "State Registration/Revenue Department": 1,
+      "State Registration/Stamps Dept": 1,
+      "State Revenue Department": 1,
+      "State Revenue/Municipal Dept": 1,
+      "State Revenue/Social Welfare Department": 1,
+      "UIDAI": 3,
+      "Various Ministries": 1,
+      "Various State Governments": 1
+    },
+    "chunk_file": "knowledge/government/chunks/government_chunks.jsonl",
+    "manifest_file": "knowledge/government/government_corpus_manifest.json"
+  }
+}

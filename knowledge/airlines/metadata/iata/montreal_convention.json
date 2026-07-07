@@ -1,8 +1,7 @@
 {
-  "title": "Montreal Convention 1999 - Liability Rules",
-  "authority": "IATA",
+  "title": "Montreal Convention 1999",
   "category": "iata",
-  "document_type": "markdown",
+  "source_url": "https://www.iata.org/contentassets/fb1137ff561a4819a2d38f3db7308758/mc99-full-text.pdf",
   "domain": "airlines",
-  "source_url": "official://airlines/iata/montreal_convention.md"
+  "document_type": "pdf"
 }

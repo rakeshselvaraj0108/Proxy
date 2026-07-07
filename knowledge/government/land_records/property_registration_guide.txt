@@ -1,0 +1,31 @@
+PROPERTY REGISTRATION & LAND RECORDS — PROCESS & DELAY RESOLUTION GUIDE
+
+Legal basis: Property transactions (sale, gift, mortgage, lease above a threshold term)
+are registered under the Registration Act, 1908 at the jurisdictional Sub-Registrar
+Office (SRO), with stamp duty governed by the applicable state Stamp Act. Land ownership
+records (Record of Rights / 7/12 extract / Khatauni / Patta, depending on the state) are
+separately maintained by the Revenue Department and updated via "mutation" after a
+registered transaction.
+
+Typical process:
+1. Compute and pay stamp duty (often via e-Stamping) and registration fee.
+2. Book a registration slot/token at the SRO (many states now do this online).
+3. Both parties (and witnesses) appear at the SRO for biometric verification and document
+   execution; the registered document is returned digitally signed/scanned.
+4. Separately, apply for "mutation" with the Revenue Department/Tahsildar so the Record of
+   Rights reflects the new owner — registration alone does NOT automatically update land
+   records in every state.
+
+Common delay points and what to do:
+1. Registration slot backlog: check the SRO's online booking system for the next
+   available slot; escalate to the District Registrar if slots are unavailable for an
+   unreasonably long period.
+2. Document held for verification (title doubt, encumbrance flag, valuation mismatch):
+   request the specific defect in writing so it can be rectified; unresolved valuation
+   disputes can be escalated to the Collector (stamp duty valuation appeal process).
+3. Mutation delay after registration: follow up directly with the Tahsildar/Revenue
+   Inspector responsible for updating the Record of Rights — this is a distinct process
+   from registration and is a very common point of citizen complaint.
+4. Escalation path: Sub-Registrar -> District Registrar / Inspector General of
+   Registration -> state grievance portal / CPGRAMS (for centrally-linked digital/e-Stamp
+   platforms) -> RTI request for the file status if the reason for delay is unclear.

@@ -1,0 +1,29 @@
+BIRTH & DEATH CERTIFICATE — PROCESS & DELAY RESOLUTION GUIDE
+
+Legal basis: Registration of Births and Deaths (RBD) Act, 1969 requires every birth and
+death to be registered with the local Registrar (municipal corporation, municipality, or
+gram panchayat) within 21 days of occurrence, most commonly via intimation from the
+hospital or institution where the event occurred.
+
+Typical process:
+1. Hospitals/institutions typically forward birth/death intimation to the local Registrar
+   directly; the certificate can then be obtained online (via the state's Civil
+   Registration System / CRS portal, and often DigiLocker) or at the municipal office.
+2. Registration after 21 days but within 30 days requires a late fee; registration after
+   1 year requires a magistrate/designated officer's order and an affidavit — this is the
+   most common cause of long delays.
+3. Corrections to a certificate (name, spelling, date, gender) require a separate
+   correction application with supporting documents (often including an affidavit and, in
+   some states, a Gazette publication for name changes).
+
+If delayed or a correction request is stuck:
+1. Check status via the CRS portal (crsorgi.gov.in / state equivalent) using the
+   registration/application number.
+2. If the delay is because the original hospital/institution never filed intimation,
+   contact the hospital's medical records department and the Registrar together — this is
+   the most common root cause for "birth not registered" cases.
+3. For registrations delayed beyond 1 year, prepare the required affidavit and approach
+   the designated officer (often the local Executive Magistrate/Tahsildar) for the
+   condonation order needed to register late.
+4. Escalate unresolved delays to the Municipal Commissioner's office or the state's Chief
+   Registrar (Births & Deaths), and via CPGRAMS/state grievance portal if still unresolved.

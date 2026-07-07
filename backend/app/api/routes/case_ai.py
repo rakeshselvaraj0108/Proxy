@@ -5,7 +5,7 @@ from app.auth.dependencies import CurrentUser, get_current_user
 from app.core.errors import ProxyError
 from app.database.postgres.repositories import case_repository
 from app.knowledge_graph.neo4j.service import knowledge_graph
-from app.llm.gemini.service import gemini_service
+from app.llm.service import llm_service
 from app.models.domain import ACTIVE_DOMAINS
 from app.prompts.consumer_advocacy import build_agent_prompt
 from app.schemas.case_ai import (
@@ -39,7 +39,7 @@ def _analysis_response(case_id: str, state: dict) -> dict:
         "agent_trace": state.get("agent_trace", []),
         "llm_call_count": state.get("llm_call_count", 0),
         "workflow_engine": state.get("workflow_engine", ""),
-        "embedding_mode": gemini_service.embedding_mode(),
+        "embedding_mode": llm_service.embedding_mode(),
         "research_output": state.get("research_output"),
         "evidence_output": state.get("evidence_output"),
         "strategy_output": state.get("strategy_output"),
@@ -132,7 +132,7 @@ async def chat_about_case(payload: ChatCaseRequest, user: CurrentUser = Depends(
         build_case_summary(case, documents),
         f"{latest.get('research_summary', '')}\n{context}"[:12000],
     )
-    answer = await gemini_service.generate(prompt, temperature=0.2, purpose="response")
+    answer = await llm_service.generate(prompt, temperature=0.2, purpose="response")
     await case_repository.add_event(
         case["id"],
         {"actor": "user", "event_type": "chat", "title": "Case chat", "body": payload.message},

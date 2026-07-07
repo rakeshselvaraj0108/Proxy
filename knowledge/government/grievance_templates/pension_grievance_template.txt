@@ -1,0 +1,26 @@
+PENSION GRIEVANCE TEMPLATE (EPFO / NPS)
+
+For EPFO (EPS-95 pension / PF withdrawal / transfer delays):
+Subject: Grievance regarding [pension not credited / PF withdrawal delayed / transfer
+claim pending] — UAN/PPO No. [xxxx]
+
+"My [pension / PF withdrawal / transfer claim] under UAN/PPO number [xxxx] was submitted
+on [date] and remains unresolved. [Describe: pension stopped without notice / withdrawal
+claim rejected without clear reason / transfer claim pending beyond normal processing
+time]. I request immediate review and resolution, and a written explanation if a rejection
+is being upheld."
+
+File via: EPFO Grievance Management System (EPFiGMS) or CPGRAMS against EPFO/Ministry of
+Labour & Employment. Escalation: Regional PF Commissioner -> EPFO grievance cell ->
+CPGRAMS appeal -> Central Provident Fund Commissioner.
+
+For NPS (National Pension System, regulated by PFRDA):
+Subject: Grievance regarding [NPS withdrawal delay / annuity not started / account
+statement discrepancy] — PRAN [xxxx]
+
+"My NPS account (PRAN [xxxx]) has an unresolved issue: [describe]. I request review and
+resolution as per PFRDA's grievance redressal timelines."
+
+File via: CRA (Central Recordkeeping Agency) grievance portal or PFRDA's grievance system;
+escalate to PFRDA directly, or via CPGRAMS, if unresolved by the CRA/POP (Point of
+Presence, e.g. the bank handling the NPS account).

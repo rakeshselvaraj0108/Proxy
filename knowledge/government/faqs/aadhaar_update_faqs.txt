@@ -1,0 +1,32 @@
+AADHAAR UPDATE / CORRECTION — FREQUENTLY ASKED QUESTIONS
+
+Q: What Aadhaar details can be updated?
+A: Name, address, date of birth, gender, mobile number, email, and biometrics (photo,
+fingerprints, iris) can be updated at an Aadhaar Enrolment/Update Centre, and demographic
+details (like address) can also be updated online via the UIDAI Self-Service Update Portal
+(SSUP) with supporting documents.
+
+Q: My update request was rejected — what now?
+A: 1) Check the rejection reason in the update history on the UIDAI portal (usually a
+      document mismatch, poor scan quality, or field-format issue).
+   2) Resubmit with a clearer, currently-valid supporting document that matches UIDAI's
+      accepted Proof of Identity / Proof of Address / Proof of Date of Birth lists.
+   3) If the rejection appears to be an error, raise a complaint via UIDAI's contact centre
+      (1947) or the UIDAI grievance portal, quoting the Update Request Number (URN).
+   4) Escalate to CPGRAMS against UIDAI if unresolved after the standard turnaround time.
+
+Q: How long does an update normally take?
+A: Online demographic updates are typically processed within a few days to a few weeks
+after document verification; biometric updates done at a centre can take longer if flagged
+for manual quality review. Track status using the URN on the UIDAI website.
+
+Q: What if my Aadhaar is locked, or biometric authentication keeps failing?
+A: Use the UIDAI portal or mAadhaar app to unlock/lock biometrics, or visit an Aadhaar
+Seva Kendra to update biometrics if repeated authentication failures affect a benefit
+(e.g. bank KYC, PDS ration, EPFO withdrawal) — carry proof of the failed transaction.
+
+Q: Where do I escalate persistent Aadhaar-linked benefit denial (e.g. ration, bank KYC)?
+A: First raise it with the service provider (bank/ration dealer) referencing UIDAI's
+Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act,
+2016 provision that exact biometric match is not the sole ground for denial of a service —
+alternate means of identification must be offered. If refused, escalate via CPGRAMS.

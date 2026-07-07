@@ -39,7 +39,52 @@ async def run_domain_specialists(state: AgentState) -> AgentState:
         
         state["specialist_results"] = all_results
         return state
-        
+    elif domain == Domain.TELECOM:
+        from app.agents.domain_agents.telecom.specialists import get_telecom_specialists
+        state.setdefault("agent_trace", []).append("telecom_orchestrator:start")
+        plan = state.get("plan", {})
+        routes = plan.get("specialists", ["general_telecom"])
+        specialists = get_telecom_specialists()
+        all_results = []
+        for route in routes:
+            agent = specialists.get(route)
+            if agent:
+                res = await agent.process(state)
+                all_results.append(res)
+                state["agent_trace"].append(f"specialist_executed:{agent.name}")
+        state["specialist_results"] = all_results
+        return state
+    elif domain == Domain.ECOMMERCE:
+        from app.agents.domain_agents.ecommerce.specialists import get_ecommerce_specialists
+        state.setdefault("agent_trace", []).append("ecommerce_orchestrator:start")
+        plan = state.get("plan", {})
+        routes = plan.get("specialists", ["consumer_protection"])
+        specialists = get_ecommerce_specialists()
+        all_results = []
+        for route in routes:
+            agent = specialists.get(route)
+            if agent:
+                res = await agent.process(state)
+                all_results.append(res)
+                state["agent_trace"].append(f"specialist_executed:{agent.name}")
+        state["specialist_results"] = all_results
+        return state
+    elif domain == Domain.GOVERNMENT:
+        from app.agents.domain_agents.government.specialists import get_government_specialists
+        state.setdefault("agent_trace", []).append("government_orchestrator:start")
+        plan = state.get("plan", {})
+        routes = plan.get("specialists", ["general_government"])
+        specialists = get_government_specialists()
+        all_results = []
+        for route in routes:
+            agent = specialists.get(route)
+            if agent:
+                res = await agent.process(state)
+                all_results.append(res)
+                state["agent_trace"].append(f"specialist_executed:{agent.name}")
+        state["specialist_results"] = all_results
+        return state
+
     return await run_health_specialists(state)
 
 

@@ -1,0 +1,26 @@
+INCOME CERTIFICATE — PROCESS & DELAY RESOLUTION GUIDE
+
+What it is: An Income Certificate is issued by the state Revenue Department (via
+Tahsildar/Revenue Officer or an e-District/CSC portal) certifying a person's or family's
+annual income, commonly required for scholarships, fee concessions, reservation-linked
+benefits, and welfare scheme eligibility.
+
+Typical process:
+1. Apply online via the state's e-District/Seva portal (or offline at the Tahsil office)
+   with supporting documents: identity proof, residence proof, salary slips / Form 16 /
+   self-employment income declaration, and often a local enquiry/verification by a
+   Revenue Inspector or Village Administrative Officer.
+2. Field verification is the most common source of delay.
+3. Certificate is digitally signed and issued; most states also make it available/
+   verifiable via DigiLocker.
+
+If delayed beyond the state's published service-level timeline (commonly a few days to
+2-3 weeks depending on the state's Right to Public Services / Sakala-type law):
+1. Check status online using the application/acknowledgement number.
+2. Follow up in writing with the Tahsildar/Revenue Officer citing the service-level
+   guarantee and the number of days elapsed.
+3. File a First Appeal with the designated Appellate Authority under the state's
+   service-delivery law.
+4. If the delay is due to field verification being stuck, directly contact the assigned
+   Village Administrative Officer / Revenue Inspector for the enquiry status.
+5. Escalate via the state grievance portal, or CPGRAMS if the service is centrally linked.

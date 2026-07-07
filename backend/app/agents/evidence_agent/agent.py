@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from app.agents.json_parser import parse_agent_json
 from app.agents.state import AgentState, EvidenceOutput
-from app.llm.gemini.service import gemini_service
+from app.llm.service import llm_service
 from app.prompts.health_insurance_agents import evidence_prompt
 
 EVIDENCE_FALLBACK_FIELDS: dict = {
@@ -35,7 +35,7 @@ async def run_evidence_agent(state: AgentState) -> AgentState:
     evidence = state.get("evidence_bundle") or case_summary
 
     prompt = evidence_prompt(domain, case_summary, context, evidence)
-    raw = await gemini_service.generate(prompt, temperature=0.1, purpose="reasoning")
+    raw = await llm_service.generate(prompt, temperature=0.1, purpose="reasoning")
 
     # Parse structured output
     parsed = parse_agent_json(raw, EVIDENCE_FALLBACK_FIELDS)

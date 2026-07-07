@@ -1,0 +1,7 @@
+{
+  "title": "OpenSky Network Tracking",
+  "category": "airport_data",
+  "source_url": "https://opensky-network.org",
+  "domain": "airlines",
+  "document_type": "web_text"
+}

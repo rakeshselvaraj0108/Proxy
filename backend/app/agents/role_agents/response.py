@@ -1,6 +1,6 @@
 from app.agents.state import AgentState
 from app.core.config import get_settings
-from app.llm.gemini.service import gemini_service
+from app.llm.service import llm_service
 
 
 def _default_appeal(state: AgentState) -> str:
@@ -21,7 +21,7 @@ async def _optional_polish(state: AgentState, answer: str) -> str:
     )
     state["llm_call_count"] = int(state.get("llm_call_count", 0)) + 1
     state.setdefault("agent_trace", []).append("response:gemini_response")
-    return await gemini_service.generate(prompt, temperature=0.15, purpose="response")
+    return await llm_service.generate(prompt, temperature=0.15, purpose="response")
 
 
 async def run_response_agent(state: AgentState) -> AgentState:

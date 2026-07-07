@@ -8,8 +8,12 @@ def run_startup_checks() -> None:
     settings = get_settings()
     if settings.environment == "test":
         return
-    if not settings.gemini_api_key:
-        raise RuntimeError("GEMINI_API_KEY must be configured in environment or .env file.")
+    if not settings.disable_external_llm:
+        provider = (settings.llm_provider or "gemini").strip().lower()
+        if provider == "nvidia" and not settings.nvidia_api_key:
+            raise RuntimeError("NVIDIA_API_KEY must be configured in environment or .env file when LLM_PROVIDER=nvidia.")
+        if provider == "gemini" and not settings.gemini_api_key:
+            raise RuntimeError("GEMINI_API_KEY must be configured in environment or .env file.")
     validate_vector_store_startup()
     from app.knowledge_graph.factory import validate_graph_store_startup
 
@@ -25,6 +29,9 @@ async def collect_health_status() -> dict:
 
     graph = get_graph_store().health_check()
     redis_status = _redis_health(settings.redis_url)
+    from app.llm.service import get_llm_provider
+
+    llm_health = get_llm_provider().health_check()
     return {
         "vector_store": vector,
         "graph_store": graph,
@@ -35,6 +42,7 @@ async def collect_health_status() -> dict:
         "gemini": {
             "status": "disabled" if settings.disable_external_llm else ("configured" if settings.gemini_api_key else "missing_key"),
         },
+        "llm": llm_health,
         "redis": redis_status,
         "web_search": {
             "status": "configured" if settings.tavily_api_key else "not_configured",

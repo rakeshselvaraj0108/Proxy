@@ -1,0 +1,34 @@
+DRIVING LICENCE & VEHICLE SERVICES — FREQUENTLY ASKED QUESTIONS
+
+Q: What is the process to get a driving licence?
+A: 1) Apply for and pass the Learner's Licence (LL) test (online theory test in most
+      states) — LL is valid for 6 months.
+   2) After a minimum gap (commonly 30 days) and before LL expiry, apply for the
+      Permanent Driving Licence (DL) and pass the practical driving test at the RTO,
+      or via a certified driving training school under the voluntary exemption scheme.
+   3) The DL is issued/dispatched, and status can be tracked on the Parivahan portal
+      using the application number.
+
+Q: My driving licence application/test has been stalled or repeatedly rescheduled — what
+   can I do?
+A: 1) Check application status on the Parivahan Sewa portal (parivahan.gov.in).
+   2) Contact the specific RTO's grievance cell or helpline for the reason (common causes:
+      slot backlog, Aadhaar e-KYC mismatch, document verification pending).
+   3) If unresolved beyond a reasonable period, file a grievance via CPGRAMS against the
+      state Transport Department / Ministry of Road Transport and Highways (MoRTH).
+
+Q: My learner's licence expired before I could book the permanent DL test — now what?
+A: A fresh LL application is generally required once the 6-month validity lapses; check
+   your state RTO's current policy on whether a grace-period re-test or fresh LL fee
+   applies, since this varies by state.
+
+Q: How do I dispute an incorrect entry on my DL (wrong vehicle class, wrong address, wrong
+   DOB) or an incorrectly imposed penalty/blacklist flag?
+A: File a correction request at the issuing RTO with supporting documents; if the RTO
+   does not act, escalate to the Regional Transport Commissioner and then to CPGRAMS
+   against the state Transport Department.
+
+Q: What about vehicle registration (RC) delays or transfer-of-ownership disputes?
+A: Vehicle registration and RC transfer are also handled through Parivahan/Vahan; track
+   status by application number, follow up with the registering RTO, and escalate
+   unresolved delays the same way (RTO -> Transport Commissioner -> CPGRAMS).

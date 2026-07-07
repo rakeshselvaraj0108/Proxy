@@ -1,4 +1,4 @@
-import argparse
+﻿import argparse
 import json
 import sys
 from pathlib import Path
@@ -13,12 +13,14 @@ from app.rag.retrieval.jsonl_vector_store import JsonlVectorStore
 from app.rag.retrieval.qdrant_vector_store import QdrantVectorStore
 
 
-def migrate(batch_size: int = 100) -> dict:
+def migrate(batch_size: int = 100, collection_filter: str | None = None) -> dict:
     settings = get_settings()
     jsonl = JsonlVectorStore()
     qdrant = QdrantVectorStore()
 
     files = jsonl.iter_collection_files()
+    if collection_filter:
+        files = [path for path in files if path.stem == collection_filter]
     read_total = 0
     upserted_total = 0
     per_collection: dict[str, dict] = {}
@@ -41,6 +43,7 @@ def migrate(batch_size: int = 100) -> dict:
     confirmed_total = sum(item["confirmed_in_qdrant"] for item in per_collection.values())
     return {
         "qdrant_url": settings.qdrant_url,
+        "collection_filter": collection_filter,
         "collections": len(files),
         "records_read": read_total,
         "records_upserted": upserted_total,
@@ -53,12 +56,13 @@ def migrate(batch_size: int = 100) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Migrate JSONL vector embeddings to Qdrant.")
     parser.add_argument("--batch-size", type=int, default=100)
+    parser.add_argument("--collection", help="Optional collection name, for example proxy_ecommerce")
     args = parser.parse_args()
-    result = migrate(batch_size=args.batch_size)
+    result = migrate(batch_size=args.batch_size, collection_filter=args.collection)
     print(json.dumps(result, indent=2))
     if not result["match"]:
         print(
-            f"WARNING: count mismatch — read {result['records_read']}, "
+            f"WARNING: count mismatch - read {result['records_read']}, "
             f"confirmed {result['records_confirmed_in_qdrant']}",
             file=sys.stderr,
         )

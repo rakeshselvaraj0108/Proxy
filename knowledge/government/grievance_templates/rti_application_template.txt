@@ -1,0 +1,33 @@
+RTI APPLICATION (Right to Information Act, 2005) — TEMPLATE
+
+To,
+The Public Information Officer (PIO),
+[Name of Public Authority/Department]
+
+Subject: Request for information under Section 6(1) of the RTI Act, 2005
+
+I would like to request the following information regarding [application/service, e.g.
+passport application file no. XXXX / Aadhaar update request URN XXXX / PAN correction
+acknowledgement no. XXXX]:
+
+1. Current status of the above-referenced application, and the date on which it is
+   expected to be resolved.
+2. If the application has been rejected or is on hold, the specific reason(s) for
+   rejection/hold and the officer/section responsible for the decision.
+3. Copies of any internal notings, communications, or verification reports (e.g. police
+   verification report status) related to this application, to the extent disclosable
+   under the RTI Act.
+4. The name and designation of the officer currently handling this file.
+
+I am enclosing the prescribed RTI application fee of INR 10 (or proof of BPL exemption).
+Please provide the requested information within 30 days as mandated under Section 7(1) of
+the RTI Act, 2005.
+
+Applicant Name:
+Address:
+Contact Number / Email:
+Date:
+
+Note: If the PIO does not respond within 30 days, or the response is unsatisfactory, file
+a First Appeal with the Appellate Authority of the same department within 30 days, and if
+still unresolved, a Second Appeal with the Central/State Information Commission.

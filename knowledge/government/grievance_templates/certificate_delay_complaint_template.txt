@@ -1,0 +1,34 @@
+CERTIFICATE DELAY COMPLAINT TEMPLATE
+(Income Certificate / Caste Certificate / Birth Certificate / Death Certificate)
+
+To,
+The [Tahsildar / Revenue Officer / Municipal Registrar / e-District Officer],
+[Office name and jurisdiction]
+
+Subject: Delay in issuance of [Income/Caste/Birth/Death] Certificate — Application No. [xxxx]
+
+I applied for a [certificate type] on [date] through [CSC / e-District portal / Tahsil
+office], application/reference number [xxxx]. The published service level for this
+certificate under the [state] Right to Public Services / Sakala / e-District service
+guarantee is [X] working days; more than [X] days have now elapsed.
+
+I request that this application be processed immediately, or that I be given the specific
+reason for the delay (e.g. field verification pending, document discrepancy) so that I
+can address it promptly, as this certificate is required for [purpose, e.g. scholarship
+application, court proceeding, welfare scheme enrolment].
+
+Documents attached:
+- Application acknowledgement / receipt
+- Supporting documents originally submitted (proof of identity, residence, income/caste
+  evidence, hospital/municipal birth-death intimation, as applicable)
+
+Escalation path if unresolved:
+1. Written follow-up to the issuing officer (Tahsildar/Registrar) referencing the
+   applicable Right to Public Services Act service-level guarantee for the state, which
+   in most states provides for a designated appellate authority and a penalty on the
+   responsible official for unjustified delay.
+2. First Appeal to the designated Appellate Authority under the state's service-delivery
+   law (name varies by state: e.g. Right to Public Services Act, Sakala Act, e-District
+   guarantee).
+3. CPGRAMS grievance if the service is linked to a centrally monitored scheme, or the
+   state's own online grievance portal for state-subject matters.

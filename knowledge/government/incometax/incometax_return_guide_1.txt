@@ -1,0 +1,752 @@
+Salaried Individuals for AY 2026-27 | Income Tax Department
+Skip to main content
+Call Us
+e-filing and Centralized Processing Center
+e-Filing of Income Tax Return or Forms and other value added services & Intimation, Rectification, Refund and other Income Tax Processing Related Queries
+1800 103 0025 (or)
+1800 419 0025
++91-80-46122000
++91-80-61464700
+08:00 hrs - 20:00 hrs
+(Monday to Friday)
+Tax Information Network - NSDL
+Queries related to PAN & TAN application for Issuance / Update through NSDL
++91-20-27218080
+07:00 hrs - 23:00 hrs
+(All Days)
+AIS and Reporting Portal
+Queries related to AIS, TIS, SFT Preliminary response, Response to e-campaigns or e-Verification
+1800 103 4215
+09:30 hrs - 18:00 hrs
+(Monday to Friday)
+View All
+Select your language
+English
+हिंदी
+.cls-1 { fill: none; } .cls-2 { fill: rgba(0, 0, 0, 0.6); }
+tspan { white-space: pre } .shp0 { fill: none } .shp1 { fill: #6e6e6e }
+.prefix__cls-2 { fill: rgba(0, 0, 0, .6) }
+Login
+Register
+‌
+Home
+Individual/HUF
+Salaried Employees
+Guidance to file Tax Return
+Return / Forms applicable to me
+Tax slabs
+Deductions on which I can get tax benefit
+Assisted filing
+Downloads
+Business/Profession
+Guidance to file Tax Return
+Return / Forms applicable to me
+Tax slabs
+Deductions on which I can get tax benefit
+Assisted filing
+Downloads
+Senior / Super Senior Citizen
+Guidance to file Tax Return
+Return / Forms applicable to me
+Tax slabs
+Deductions on which I can get tax benefit
+Assisted filing
+Downloads
+Non Resident
+Guidance to file Tax Return
+Return / Forms applicable to me
+Tax slabs
+Deductions on which I can get tax benefit
+Assisted filing
+Downloads
+Hindu Undivided Family (HUF)
+Guidance to file Tax Return
+Return / Forms applicable to me
+Tax slabs
+Deductions on which I can get tax benefit
+Assisted filing
+Downloads
+Company
+Domestic Company
+Return / Forms applicable to me
+Tax slabs
+Deductions on which I can get tax benefit
+Downloads
+Foreign Company
+Return / Forms applicable to me
+Tax slabs
+Deductions on which I can get tax benefit
+Downloads
+Non-Company
+AOP/BOI/Trust/AJP
+Return / Forms applicable to me
+Tax slabs
+Deductions on which I can get tax benefit
+Downloads
+Firm/LLP
+Guidance to file Tax Return
+Return / Forms applicable to me
+Tax slabs
+Deductions on which I can get tax benefit
+Downloads
+Local Authority
+Return / Forms applicable to me
+Tax slabs
+Deductions on which I can get tax benefit
+Downloads
+Tax Professionals & Others
+Chartered Accountants
+Registration
+Service Available
+e-Return Intermediaries
+API Specifications
+ERI List
+External Agency
+Central & State Government Department/Approved Undertaking Agency
+RBI Approved Banks
+Tax Deductor & Collector
+Registration
+Service Available
+Downloads
+Help
+Do not have an account?
+Register
+Already have an account?
+Login
+test
+Search
+Help
+Tax payer
+Salaried Individuals for AY 2026-27
+Salaried Individuals for AY 2026-27
+Returns and Forms Applicable for Salaried Individuals for AY 2026-27
+Disclaimer:
+The content on this page is only to give an overview and general guidance and is not exhaustive. For complete details and guidelines please refer to the Income Tax Act, 1961 Forms, Rules and Notifications.
+ITR-1 (SAHAJ) – Applicable only for Individual
+This return is applicable for a Resident (other than Not Ordinarily Resident) Individual having Total Income from any of the following sources up to ₹ 50 lakh
+Salary / Pension
+One House Property
+Other sources (Interest, Family Pension, Dividend etc.)
+Agricultural Income up to ₹ 5,000
+Capital Gain income u/s 112 A (Income Tax Act,1961) up to ₹ 1,25,000
+Note: ITR-1 cannot be used by a person who:
+a)
+is a Director in a company
+b) has short term capital gain
+c) has Long-term capital gain u/s 112A of Income Tax Act,1961 exceeding
+₹
+1,25,000
+d) has held any unlisted equity shares at any time during the previous year
+e) has any asset (including financial interest in any entity) located outside India
+f) has signing authority in any account located outside India
+g) has income from any source outside India
+h) is a person in whose case tax has been deducted u/s 194N of Income Tax Act,1961
+i) is a person in whose case payment or deduction of tax has been deferred on ESOP
+j) has any brought forward loss or loss to be carried forward under any head of income
+k) has total income exceeding
+₹
+50 lakhs  (excluding LTCG u/s 112A upto
+₹
+1,25,000)
+2. ITR-2 - Applicable for Individual (Not eligible for ITR 1) and HUF
+This return is applicable for Individual and Hindu Undivided Family (HUF)
+Having Income under any head other than Profits and Gains of Business or Profession.
+Who is not eligible to file ITR-1
+​​
+3. ITR-3- Applicable for Individual and HUF
+This return is applicable for Individual and Hindu Undivided Family (HUF)
+Having Income under the heads Salary/Pension, House Property, Profits or Gains of Business or Profession, Capital Gains or Income from Other Sources.
+Who is not eligible to file ITR-1, ITR-2 or ITR-4
+4. ITR-4 (SUGAM) – Applicable for Individual, HUF and Firm (other than LLP)
+This return is applicable for an Individual or Hindu Undivided Family (HUF), who is Resident other than Not Ordinarily Resident or a Firm (other than LLP) which is a Resident having Total Income under Business or Profession which is computed on a presumptive basis (u/s 44AD / 44ADA / 44AE of Income Tax Act,1961) and income from any of the following sources:
+Salary / Pension
+One House Property
+Other sources (Interest, Family Pension, Dividend etc.)
+Agricultural Income up to ₹ 5,000
+Capital Gain income u/s 112 A (Income Tax Act,1961) up to ₹ 1,25,000
+Note 1:
+ITR-4 cannot be used by a person who:
+is a Director in a company
+has short term capital gains
+has Long-term capital gain u/s 112A of Income Tax Act,1961 exceeding ₹1,25,000
+has held any unlisted equity shares at any time during the previous year
+has any asset (including financial interest in any entity) located outside India
+has signing authority in any account located outside India
+has income from any source outside India
+is a person in whose case payment or deduction of tax has been deferred on ESOP
+who has any brought forward loss or loss to be carried forward under any head of income
+has total income exceeding ₹50 lakhs (excluding LTCG u/s 112A upto ₹1,25,000)
+Note 2:
+ITR-4 (Sugam) is not mandatory. It is a simplified return form to be used by an Assessee, at his option, if he is eligible to declare Profits and Gains from Business or Profession on presumptive basis u/s 44AD, 44ADA or 44AE of Income Tax Act,1961.
+Forms Applicable (As per Income Tax Act,1961):
+1. Form 12BB - Particulars of claims by an employee for deduction of tax (u/s 192 of Income Tax Act,1961)
+Provided by
+Details provided in the form
+An Employee to his Employer(s)
+Evidence or particulars of HRA, LTC, Deduction of Interest on home loan, Tax Saving Claims / Deductions on eligible payments or investments for the purpose of calculating Tax to be Deducted at Source (TDS)
+2. Form 16 - Certificate of Tax Deducted at Source on Salary (u/s 203 of the Income Tax Act, 1961)
+Provided by
+Details provided in the form
+An Employer(s) to his Employee at the end of the financial year
+Income of employee, Deductions / Exemptions and Tax Deducted at Source for the purpose of Computing Tax Payable / Refundable
+3. Form 16A – Certificate u/s 203 of the Income Tax Act, 1961 for TDS on Income other than Salary
+Provided by
+Details provided in the form
+Deductor to Deductee
+Form 16A is a Tax Deducted at Source (TDS) Certificate issued quarterly that captures the amount of TDS, Nature of Payments and the TDS Payments deposited with the Income Tax Department
+4. Form 67- Statement of Income from a country or specified territory outside India and Foreign Tax Credit
+Submitted by
+Details provided in the form
+Taxpayer on or before the due date specified for furnishing the ITRs u/s 139(1) of Income Tax Act,1961.
+Income from a country or specified territory outside India and Foreign Tax Credit claimed
+5. Form 26 AS
+AIS (Annual information Statement)
+Provided by:
+Income Tax Department (It is available on e-Filing Portal:
+Login > e-File > Income Tax Return > View Form 26AS)
+Provided by:
+Income Tax Department (It can be accessed after logging on to Income Tax e-Filing portal)
+Login to e-filing portal > AIS
+Details provided in the form:
+Tax Deducted / Collected at Source.
+Details provided in the form:
+Tax Deducted / Collected at Source
+SFT Information
+Payment of taxes
+Demand / Refund
+Other information (like Pending/Completed proceedings, GST Information, Information received from foreign government etc.)
+6. Form 15G - Declaration by resident taxpayer (not being a Company or Firm) claiming certain receipts without deduction of tax
+Submitted by
+Details provided in the form
+A Resident Individual less than 60 years or HUF or any other Person (other than Company / Firm) to Bank for not deducting TDS on Interest Income, if the income is below basic exemption limit
+Estimated Income for the FY
+7. Form 15H - Declaration to be made by a resident individual (who is 60 years age or more) claiming certain receipts without deduction of tax
+Submitted by
+Details provided in the form
+A Resident Individual, 60 years or more to Bank for not deducting TDS on Interest Income
+Estimated Income for the FY
+8. Form 10E - Form for furnishing particulars of Income for claiming relief u/s 89(1) of Income Tax Act,1961
+when Salary is paid in arrears or advance
+Submitted by Individual for claiming relief in ITR u/s 89(1)
+Details provided in the form
+An Employee in the Income Tax Department
+1.Arrears / Advance Salary
+2.Gratuity
+3.Compensation for Termination
+4.Commutation of Pension
+Tax Slabs for AY 2026-27***
+New Tax Regime Vs Old Tax Regime:
+The Finance Act 2023 has amended the provisions of Section 115BAC w.e.f AY 2024-25 to make new tax regime the default tax regime for the assessee being an Individual, HUF, AOP (not being co-operative societies), BOI and or Artificial Juridical Person. However, the eligible taxpayers have the option to opt out of default tax regime and choose to be taxed under old tax regime. The old tax regime refers to the system of income tax calculation and slabs that existed before the introduction of the new tax regime. In the old tax regime, taxpayers have the option to claim various tax deductions and exemptions. However, in default tax regime, tax rates are lower with very few deductions compared to old tax regime.
+Non-business case:
+In "Non-business cases", option to change the default tax regime can be exercised every year directly in the ITR and such ITR is required to be filed on or before the due date specified under section 139(1)
+of the Income Tax Act,1961.
+Business case:
+In case of eligible taxpayers having income from business and profession, if assessee wants to opt out of default tax regime, (New Tax regime),they have to furnish Form-10-IEA on or before the due date u/s 139(1)
+of the Income Tax Act,1961
+for furnishing the return of income. Also, for the purpose of withdrawal of such option i.e. re-entering into default tax regime (New Tax regime) shall also be done by way of furnishing Form No.10-IEA on or before the due date specified u/s 139(1)
+of the Income Tax Act,1961
+for furnishing return of income. However, option to withdraw
+from the
+old tax regime and re-enter into default tax regime (New Tax regime) ,is available only in subsequent AY and is available only once in lifetime for eligible taxpayers having income from business and profession.
+1.Tax rates for Individual (resident or non-resident) less than 60 years of age anytime during the previous year are as below:
+Old Tax Regime
+New Tax Regime u/s 115BAC of Income Tax Act,1961
+Income Tax Slab
+Income Tax Rate
+Income Tax Slab
+Income Tax Rate
+Up to ₹ 2,50,000
+Nil
+Up to ₹ 4,00,000
+Nil
+₹ 2,50,001
+–
+₹ 5,00,000
+5% above ₹ 2,50,000
+₹ 4,00,001
+–
+₹ 8,00,000
+5% above ₹ 4,00,000
+₹ 5,00,001
+–
+₹ 10,00,000
+₹ 12,500 + 20% above
+₹ 5,00,000
+₹ 8,00,001
+–
+₹ 12,00,000
+₹ 20,000 + 10% above ₹ 8,00,000
+Above
+₹ 10,00,000
+₹ 1,12,500 + 30% above
+₹ 10,00,000
+₹ 12,00,001
+–
+₹ 16,00,000
+₹ 60,000 + 15% above ₹ 12,00,000
+₹ 16,00,001 - ₹ 20,00,000
+₹ 1,20,000 + 20% above ₹ 16,00,000
+₹ 20,00,001 - ₹ 24,00,000
+₹ 2,00,000 + 25% above ₹ 20,00,000
+Above ₹ 24,00,000
+₹ 3,00,000 + 30% above ₹ 24,00,000
+2. Tax rates for Individual (resident or non-resident), 60 years or more but less than 80 years of age anytime during the previous year are as under:
+Old Tax Regime
+New Tax Regime u/s 115BAC of Income Tax Act,1961
+Income Tax Slab
+Income Tax Rate
+Income Tax Slab
+Income Tax Rate
+Up to
+₹ 3,00,000
+Nil
+Up to
+₹ 4,00,000
+Nil
+₹ 3,00,001
+–
+₹ 5,00,000
+5% above ₹ 3,00,000
+₹ 4,00,001 –
+₹ 8,00,000
+5% above ₹ 4,00,000
+₹ 5,00,001 –
+₹ 10,00,000
+₹ 10,000 + 20% above ₹ 5,00,000
+₹ 8,00,001 –
+₹ 12,00,000
+₹ 20,000 + 10% above
+₹ 8,00,000
+Above
+₹ 10,00,000
+₹ 1,10,000 + 30% above ₹ 10,00,000
+₹ 12,00,001 –
+₹ 16,00,000
+₹ 60,000 + 15% above
+₹ 12,00,000
+₹ 16,00,001 –
+₹ 20,00,000
+₹ 1,20,000 + 20% above
+₹ 16,00,000
+₹ 20,00,001 –
+₹ 24,00,000
+₹ 2,00,000 + 25% above
+₹ 20,00,000
+Above
+₹ 24,00,000
+₹ 3,00,000 + 30% above
+₹ 24,00,000
+3.Tax rates for Individual (resident or non-resident) 80 years of age or more anytime during the previous year are as under:
+Old Tax Regime
+New Tax Regime u/s 115BAC of Income Tax Act,1961
+Income Tax Slab
+Income Tax Rate
+Income Tax Slab
+Income Tax Rate
+Up to
+₹ 5,00,000
+Nil
+Up to ₹ 4,00,000
+Nil
+₹ 5,00,001 –
+₹ 10,00,000**
+20% above ₹ 5,00,000
+₹ 4,00,001 –
+₹ 8,00,000**
+5% above
+₹ 4,00,000
+above ₹ 10,00,000
+₹ 1,00,000 + 30% above
+₹ 10,00,000
+₹ 8,00,001 –
+₹ 12,00,000
+₹ 20,000 + 10% above
+₹ 8,00,000
+₹ 12,00,001 –
+₹ 16,00,000
+₹ 60,000 + 15% above
+₹ 12,00,000
+₹ 16,00,001 –
+₹ 20,00,000
+₹ 1,20,000 + 20% above
+₹ 16,00,000
+₹ 20,00,001 –
+₹ 24,00,000
+₹ 2,00,000 + 25% above
+₹ 20,00,000
+Above
+₹ 24,00,000
+₹ 3,00,000 + 30% above
+₹ 24,00,000
+Applicable Surcharge Rates:
+Income Limit
+Surcharge Rate on the amount of Income Tax
+(New Tax Regime)
+Surcharge Rate on the amount of Income Tax
+(Old Tax Regime)
+Up to Rs. 50 lakhs
+Nil
+Nil
+Rs. 50 lakhs to Rs. 1 Crore
+10%
+10%
+Rs. 1 Crore to Rs. 2 Crores
+15%
+15%
+Rs. 2 Crores to Rs. 5 Crores
+25%
+25%
+Above Rs. 5 Crores
+25%
+37%
+*Note:
+The enhanced surcharge of 25% & 37%, as the case may be, is not levied, from income chargeable to tax under sections 111A, 112, 112A and Dividend Income. Hence, the maximum rate of surcharge on tax payable on such incomes shall be 15%, except when the income is taxable under section 115A, 115AB, 115AC, 115ACA and 115E.
+**
+Applicable
+Rebate u/s 87A
+of Income Tax Act,1961
+: Resident Individuals are also eligible for a Rebate of up to 100% of income tax subject to a maximum limit depending on tax regimes as under:
+Tax Regime
+Rebate Limit
+Rebate condition
+New Tax Regime
+₹ 60,000
+Taxable income shall not exceed 12,00,000
+Old Tax Regime
+₹ 12,500
+Taxable income shall not exceed 5,00,000
+***
+Note
+: Health & Education cess @ 4% to be paid on the amount of income tax plus Surcharge (if any) in both the regimes.
+Marginal relief can be claimed from surcharge if the amount of income earned
+exceeds
+₹50 lakhs, ₹ 1 crore, ₹ 2 crores or ₹ 5 crores respectively under old tax regime and the amount of income earned exceeding ₹ 50 lakhs, ₹ 1 crore, ₹ 2 crores respectively under new tax regime as under:
+Net Income Range
+Marginal Relief
+Exceeds (
+₹
+)
+Does not exceed (
+₹
+)
+50 Lakhs
+1 Crore
+Amount payable as income tax and surcharge shall not exceed the total amount payable as income tax on total income of
+₹
+50 Lakhs by more than the amount of income that exceeds
+₹
+50 Lakhs
+1 Crore
+2 Crores
+Amount payable as income tax and surcharge shall not exceed the total amount payable as income tax on total income of
+₹
+1 crore by more than the amount of income that exceeds
+₹
+1 crore
+2 Crores
+5 Crores
+Amount payable as income tax and surcharge shall not exceed the total amount payable as income tax on total income of
+₹
+2 crores by more than the amount of income that exceeds
+₹
+2 crores
+5 Crores
+-
+Amount payable as income tax and surcharge shall not exceed the total amount payable as income tax on total income of
+₹
+5 crores by more than the amount of income that exceeds
+₹
+5 crores.
+Investments / Payments / Incomes on which I can get tax benefit
+A.Deductions will be available to a taxpayer opting for the New Tax Regime u/s 115BAC
+of Income tax Act,1961
+1.
+Section 24(b) – Deduction from Income from House Property on interest paid on housing loan:
+Section 24(b) – Deduction from Income from House Property on interest paid on housing loan
+Nature of Property
+Purpose of loan
+Allowable (Maximum limit)
+Details Required to fill in ITR
+Let Out
+Construction or purchase of house property
+Actual value without any limit (But loss if any under the head “Income from house property” cannot be set off against any other heads in schedule CYLA and cannot be carry forward to further years)
+Loan taken from bank / Other than bank
+Name of the bank / institution / person from whom the loan is taken
+Loan Account Number of the bank / institution.
+Date of sanction of loan
+Total Amount of loans
+Loan outstanding as on last date of financial year
+Interest on borrowed capital u/s 24(b)
+2. Tax deductions specified under Chapter VIA of the Income Tax Act,1961
+Section 80CCD (2)
+Deduction towards contribution made by an employer to the Pension Scheme of Central Government
+For all categories of employers
+Deduction limit of 14% of salary
+Section 80CCH
+Deduction in respect of contribution to Agnipath Scheme
+Where an assessee, being an individual enrolled in the Agnipath Scheme and subscribing to the Agniveer Corpus Fund on or after the 1st day of November 2022, has in the previous year paid or deposited any amount in his account in the said fund
+Allowed a deduction in the computation of total income, of the whole of the amount so paid or deposited
+Where the Central Government makes any contribution to the account of an assessee in the Agniveer Corpus Fund
+Allowed a deduction in the computation of total income of the whole of the amount so contributed
+B.Tax deductions available to a taxpayer opting for the Old Tax Regime
+Section 24(b) of Income Tax Act, 1961 – Deduction from Income from House Property on interest paid on housing loan
+& housing improvement loan. In case of self- occupied property, the upper limit for deduction of interest paid on housing loan is ₹ 2 lakh. Interest on loan u/s 24(b) allowable is tabulated below:
+Nature of Property
+When loan was taken
+Purpose of loan
+Allowable (Maximum limit)
+Details Required
+Self-Occupied
+On or after 1/04/1999
+Construction or purchase of house property
+₹ 2,00,000
+Loan taken from bank / Other than bank
+Name of the bank / institution / person from whom the loan is taken
+Loan Account Number of the bank / institution .
+Date of sanction of loan
+Total Amount of loan
+Loan outstanding as on last date of financial year
+Interest on borrowed capital u/s 24(b)
+On or after 1/04/1999
+For Repairs of house property
+₹ 30,000
+Before 1/04/1999
+Construction or purchase of house property
+₹ 30,000
+Before 1/04/1999
+For Repairs of house property
+₹ 30,000
+Let Out
+Any time
+Construction or purchase of house property
+Actual value without any limit.
+Maximum loss allowed to set off during the AY is Rs.2,00,000 against other heads of income and balance can be carry forward to future years up to 8 Assessment years.
+2.Tax deductions specified under Chapter VIA of the Income Tax Act, 1961
+Section 80C, 80CCC, 80CCD (1)
+Deduction towards payments made to
+80C
+Life Insurance Premium
+Provident Fund
+Subscription to certain equity shares
+Tuition Fees
+National Savings Certificate
+Housing Loan Principal
+Other various items
+Combined deduction limit of
+₹ 1,50,000
+Details to be filled in ITR for each eligible payment:
+Policy number or document identification number
+Amount eligible for deduction u/s 80C
+80CCC
+Annuity plan of LIC or another insurer towards Pension Scheme
+80CCD (1)
+Pension Scheme of Central Government
+Section 80CCD(1B)
+Deduction towards payments made to Pension Scheme of Central Government, excluding deduction claimed under 80CCD (1)
+Deduction limit of
+₹ 50,000
+Please Note:
+1. Taxpayers claiming deduction u/s 80C, must provide the details as below:
+Amount eligible for deduction u/s 80C
+Policy number or document identification number
+2. Taxpayers claiming deduction u/s 80CCD (1),80CCD (1B) must provide the details as below:
+Amount of contribution
+PRAN of taxpayer
+Section 80CCD (2)
+Deduction towards contribution made by an employer to the Pension Scheme of Central Government
+If the Employer is a PSU or Others
+Deduction limit of
+10%
+of salary
+If the Employer is Central or State Government
+Deduction limit of
+14%
+of salary
+Section 80CCH
+Deduction in respect of contribution to Agnipath Scheme
+Where an assessee, being an individual enrolled in the Agnipath Scheme and subscribing to the Agniveer Corpus Fund on or after the 1st day of November 2022, has in the previous year paid or deposited any amount in his account in the said fund
+Allowed a deduction in the computation of total income, of the whole of the amount so paid or deposited
+Where the Central Government makes any contribution to the account of an assessee in the Agniveer Corpus Fund
+Allowed a deduction in the computation of total income of the whole of the amount so contributed
+Section 80D
+Deduction towards payments made to Health Insurance Premium & Preventive Health check up
+For Self / Spouse or Dependent Children
+₹ 25,000
+(₹ 50,000 if any person is a Senior Citizen)
+₹ 5,000
+for preventive health checkup, included in above limit
+For Parents
+₹ 25,000
+(₹50,000 if any person is a Senior Citizen)
+₹ 5,000
+for preventive health checkup, included in above limit
+Deduction towards Medical Expenditure incurred on a Senior Citizen, if no premium is paid on health insurance coverage
+For Self/    Spouse or Dependent Children
+Deduction limit of
+₹ 50,000
+For Parents
+Deduction limit of
+₹ 50,000
+Note:
+Taxpayers claiming deduction u/s 80 D, must provide the details as below:
+Name of the Insurer (Insurance Company)
+Policy Number
+Health Insurance amount
+Section 80DD
+Deduction towards payments made towards maintenance or medical treatment of a Disabled Dependent or Paid / Deposited any amount under relevant approved scheme
+Flat deduction of
+₹ 75,000
+available for a person with Disability, irrespective of expense incurred.
+The deduction is
+₹ 1,25,000
+if the person has Severe Disability (80% or more).
+Please note: For claiming deduction u/s 80DD, below details need to be provided in ITR:
+Nature Of Disability
+Type of Disability
+Amount of Deduction
+Type of dependent
+PAN of the Dependent
+Aadhaar of the Dependent
+Acknowledgement no. of form 10 IA filed in case of autism, cerebral palsy, or multiple disabilities.
+UDID number (if available)
+Section 80DDB
+Deduction towards payments made towards Medical treatment of Self or Dependent for specified diseases
+Deduction limit of
+₹ 40,000
+(₹ 1,00,000 if Senior Citizen)
+Section 80E
+Deduction towards interest payments made on loan for higher education of Self or relative
+Total amount paid towards interest on loan taken
+Note:
+For claiming deduction under section 80E, details below need to be provided in ITR:
+Loan taken from bank / institution
+Name of the institution / bank from which the loan is taken
+Loan Account Number of the bank / institution
+Date of sanction of loan
+Total Amount of loans
+Loan outstanding as on last date of financial year
+Interest u/s 80E
+Section
+80EE
+Deduction towards interest payments made on loan taken for acquisition of residential house property where the loan is sanctioned between 1st April 2016 to 31st March 2017
+Deduction limit of
+₹ 50,000
+on the interest paid on loan taken
+Note:
+For claiming deduction under section 80EE, details below need to be provided in ITR:
+Loan taken from bank / institution
+Name of the institution / bank from which the loan is taken
+Loan Account Number of the bank / institution
+Date of sanction of loan
+Total Amount of loans
+Loan outstanding as on last date of financial year
+Interest u/s
+80EE
+Section 80EEA
+Deduction available only to individuals towards interest payments made on loan taken for acquisition of residential house property for the first time where the loan is sanctioned between 1st April 2019 to 31st March 2022 & deduction should not have been claimed u/s 80EE
+Deduction limit of
+₹ 1,50,000
+on the interest paid on loan take
+Note:
+For claiming deduction under section 80EEA, details below need to be provided in ITR:
+Stamp value of residential house property
+Loan taken from bank / institution
+Name of the institution / bank from which the loan is taken
+Loan Account Number of the bank / institution
+Date of sanction of loan
+Total Amount of loans
+Loan outstanding as on last date of financial year
+Interest u/s
+80EEA
+Please note that the deduction u/s 80EEA can be claimed only if the limit in section 24(b) is exhausted. Also, either 80EE or 80EEA can be claimed by taxpayers based on loan sanction date and other eligible conditions.
+Section 80EEB
+Deduction towards interest payments made on loan for purchase of Electric Vehicle where the loan is sanctioned between 1st April 2019 to 31st March 2023
+Deduction limit of
+₹ 1,50,000
+on the interest paid on loan taken
+Note:
+For claiming deduction under section 80EEB, details below need to be provided in ITR:
+Loan taken from bank / institution
+Name of the institution / bank from which the loan is taken
+Loan Account Number of the bank / institution
+Date of sanction of loan
+Total Amount of loans
+Loan outstanding as on last date of financial year
+Interest u/s
+80EEB
+Vehicle Registration number
+Section 80G
+Deduction towards Donations made to prescribed Funds, Charitable Institutions, etc.
+Donations are eligible for deduction under the below categories
+Without any limit
+100%
+deduction
+50%
+deduction
+Subject to qualifying limit
+100%
+deduction
+50%
+deduction
+Note:
+No deduction shall be allowed under this section in respect of donations made in cash exceeding ₹ 2000/-
+Section 80GG
+Deduction towards rent paid for house & applicable to only those who are self-employed or for whom HRA is not part of Salary Least of the following shall be allowed as deduction
+Rent paid reduced by 10% of Total Income before this deduction
+₹ 5,000 per month
+25% of Total Income (excluding long term capital gains, short term capital gains under section 111A or income under section 115A or 115D)
+Note:
+For claiming deduction u/s 80GG, it is mandatory to file mandatorily Form 10BA and enter the acknowledgement number of Form 10BA in Schedule 80GG while filing the return of Income.
+Section 80GGA
+Deduction towards Donations made for Scientific Research or Rural Development
+Donations are eligible for deduction under the below categories
+Research Association or University, College or other Institution for
+Scientific Research
+Social Science or Statistical Research
+Association or Institution for
+Rural Development
+Conservation of Natural Resources or for Afforestation
+PSU or Local Authority or an association or institution approved by the National Committee for carrying out any eligible project
+Funds notified by Central Government for
+Afforestation
+Rural Development
+National Urban Poverty Eradication Fund as setup and notified by Central Government
+Note:
+No deduction shall be allowed under this Section in respect of donation made in cash exceeding ₹ 2000/- or if Gross Total Income includes income from Profit / Gains of Business / Profession
+Section 80GGC
+Deduction towards contribution made to Political Party or Electoral Trust
+No deduction will be allowed if any contribution is made in cash.
+Section 80TTA
+Deduction on interest received on saving bank accounts by Non-Senior Citizens
+Deduction limit of
+₹ 10,000/-
+Section 80TTB
+Deduction on interest received on deposits by Resident Senior Citizens
+Deduction limit of
+₹ 50,000/-
+Section 80U
+Deductions for a resident individual taxpayer with Disability
+Flat
+₹ 75,000
+deduction for a person with Disability, irrespective of expense incurred
+Flat
+₹ 1,25,000
+deduction for a person with Severe Disability (80% or more), irrespective of expense incurred
+Note:
+For claiming deduction u/s 80U, below details need to be provided:
+Nature Of Disability
+Type of Disability
+Amount of Deduction
+Acknowledgement no. of Form 10IA filed in case of autism, cerebral palsy, or multiple disabilities.
+UDID number (if available)
+Page Last Reviewed or Updated:
+19-May-2026
+Share
+Print
+Print
+back
+Follow us on
+Last reviewed and updated on:
+current time
+This site is best viewed in 1024 * 768 resolution with latest version of Chrome, Firefox, Safari and Microsoft Edge.
+Copyright @ Income Tax Department, Ministry of Finance, Government of India. All Rights Reserved.

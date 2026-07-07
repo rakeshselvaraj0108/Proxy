@@ -1,0 +1,26 @@
+COMMON GOVERNMENT WELFARE SCHEMES — GRIEVANCE-RELEVANT OVERVIEW
+
+This is a short reference for the welfare-scheme disputes citizens most commonly bring to
+a grievance/consumer-rights assistant, alongside the identity/certificate/pension topics
+already covered:
+
+- Public Distribution System (PDS) / Ration Card: disputes usually involve ration card
+  not linked to Aadhaar, entitlement denied at the Fair Price Shop despite a valid card,
+  or a name wrongly deleted during a de-duplication drive. Escalate to the local Food &
+  Civil Supplies office, then the district Food Controller, then the state consumer/
+  grievance portal or CPGRAMS for centrally-linked components (e.g. One Nation One Ration
+  Card portability failures).
+- Atal Pension Yojana (APY) / other PFRDA-linked schemes: see pensions/
+  pension_grievance_guide.txt for the NPS/PFRDA escalation path, which also applies to APY
+  contribution and payout disputes.
+- Ayushman Bharat / state health schemes: hospital empanelment or claim-denial disputes
+  should be escalated to the scheme's State Health Agency grievance cell, with CPGRAMS as
+  the fallback for the central National Health Authority component.
+- Direct Benefit Transfer (DBT) failures: most DBT failures trace back to an Aadhaar
+  seeding/bank-linking mismatch — see faqs/aadhaar_update_faqs.txt for the standard
+  resolution path before escalating to the specific scheme's nodal ministry.
+
+For any scheme not explicitly covered here, the same general escalation pattern applies:
+implementing department/agency -> scheme's own grievance cell (if one exists) ->
+CPGRAMS against the nodal ministry -> RTI request for the specific rejection/eligibility
+reasoning if the department stays silent.

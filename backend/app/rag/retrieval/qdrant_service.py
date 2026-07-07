@@ -1,7 +1,7 @@
 ﻿from uuid import NAMESPACE_URL, uuid5
 
 from app.core.config import get_settings
-from app.llm.gemini.service import gemini_service
+from app.llm.service import llm_service
 from app.models.domain import Domain
 from app.rag.retrieval.factory import get_vector_store
 
@@ -17,7 +17,7 @@ class QdrantService:
         if not chunks:
             return 0
 
-        vectors = [await gemini_service.embed_document(chunk) for chunk in chunks]
+        vectors = await llm_service.embed_documents(chunks)
         collection_name = self.collection_name(domain)
         store = get_vector_store()
         points = [
@@ -41,7 +41,7 @@ class QdrantService:
     async def search(self, domain: Domain, query: str, limit: int = 5, filters: dict | None = None) -> list[dict]:
         collection_name = self.collection_name(domain)
         store = get_vector_store()
-        query_vector = await gemini_service.embed_query(query)
+        query_vector = await llm_service.embed_query(query)
         hits = store.query(collection_name, query_vector, top_k=limit, filters=filters)
         if hits:
             return [
@@ -66,8 +66,12 @@ class QdrantService:
             }
         ][:limit]
 
+    async def search_chunks(self, domain: Domain, query: str, top_k: int = 5, filters: dict | None = None) -> list[dict]:
+        return await self.search(domain, query, limit=top_k, filters=filters)
+
     def count(self, domain: Domain) -> int:
         return get_vector_store().count(self.collection_name(domain))
 
 
 qdrant_service = QdrantService()
+

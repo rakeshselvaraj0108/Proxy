@@ -11,7 +11,7 @@ from __future__ import annotations
 from app.agents.json_parser import parse_agent_json
 from app.agents.state import AgentState, ResearchOutput
 from app.knowledge_graph.neo4j.service import knowledge_graph
-from app.llm.gemini.service import gemini_service
+from app.llm.service import llm_service
 from app.prompts.health_insurance_agents import research_prompt
 from app.rag.retrieval.qdrant_service import qdrant_service
 from app.services.web_search import web_search_service
@@ -108,7 +108,7 @@ async def run_research_agent(state: AgentState) -> AgentState:
         state.get("retrieved_context", ""),
         state.get("graph_context", ""),
     )
-    raw = await gemini_service.generate(prompt, temperature=0.15, purpose="reasoning")
+    raw = await llm_service.generate(prompt, temperature=0.15, purpose="reasoning")
 
     # --- 6. Parse structured output ---
     parsed = parse_agent_json(raw, RESEARCH_FALLBACK_FIELDS)

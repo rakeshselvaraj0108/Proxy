@@ -100,6 +100,8 @@ function buildDomainUniverse(config: DomainConfig): IntelNode[] {
   });
 }
 
+import { SceneBackground } from "@/components/3d/SceneBackground";
+
 export function IntelligenceCenter() {
   const [domain, setDomain] = useState<DomainKey>("health_insurance");
   const [selectedId, setSelectedId] = useState("claim");
@@ -117,7 +119,7 @@ export function IntelligenceCenter() {
   const visibleEdges = intelEdges.filter((edge) => visibleIds.has(edge.from) && visibleIds.has(edge.to) && enabledLayers[edge.layer] && edge.confidence >= minConfidence);
   const selected = visibleNodes.find((node) => node.id === selectedId) ?? visibleNodes[0] ?? domainNodes[0];
 
-  return <AppShell><div className="mx-auto flex min-h-screen max-w-[1800px] flex-col px-4 py-5 sm:px-6 lg:px-8"><Header domainLabel={config.label} confidence={analysis.confidence} /><div className="grid min-h-[720px] flex-1 gap-4 xl:grid-cols-[300px_minmax(0,1fr)_360px]"><LeftPanel domain={domain} setDomain={setDomain} enabledLayers={enabledLayers} setEnabledLayers={setEnabledLayers} minConfidence={minConfidence} setMinConfidence={setMinConfidence} /><KnowledgeUniverse nodes={visibleNodes} edges={visibleEdges} selectedId={selected.id} hoveredId={hoveredId} setSelectedId={setSelectedId} setHoveredId={setHoveredId} /><RightPanel node={selected} domainLabel={config.label} /></div><BottomTimeline timeIndex={timeIndex} setTimeIndex={setTimeIndex} playing={playing} setPlaying={setPlaying} /></div></AppShell>;
+  return <AppShell><SceneBackground /><div className="relative z-10 mx-auto flex min-h-screen max-w-[1800px] flex-col px-4 py-5 sm:px-6 lg:px-8"><Header domainLabel={config.label} confidence={analysis.confidence} /><div className="grid min-h-[720px] flex-1 gap-4 xl:grid-cols-[300px_minmax(0,1fr)_360px]"><LeftPanel domain={domain} setDomain={setDomain} enabledLayers={enabledLayers} setEnabledLayers={setEnabledLayers} minConfidence={minConfidence} setMinConfidence={setMinConfidence} /><KnowledgeUniverse nodes={visibleNodes} edges={visibleEdges} selectedId={selected.id} hoveredId={hoveredId} setSelectedId={setSelectedId} setHoveredId={setHoveredId} /><RightPanel node={selected} domainLabel={config.label} /></div><BottomTimeline timeIndex={timeIndex} setTimeIndex={setTimeIndex} playing={playing} setPlaying={setPlaying} /></div></AppShell>;
 }
 
 function Header({ domainLabel, confidence }: { domainLabel: string; confidence: number }) {

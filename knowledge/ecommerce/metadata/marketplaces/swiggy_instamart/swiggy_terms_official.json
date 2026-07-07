@@ -1,0 +1,15 @@
+{
+  "domain": "ecommerce",
+  "authority": "Swiggy",
+  "title": "Swiggy Terms and Conditions",
+  "category": "terms",
+  "source_url": "https://www.swiggy.com/terms-and-conditions",
+  "final_url": "https://www.swiggy.com/terms-and-conditions",
+  "type": "html_text",
+  "raw_chars": 206,
+  "stored_path": "knowledge/ecommerce/marketplaces/swiggy_instamart/swiggy_terms_official.txt",
+  "sha256": "c9ad064edf0df75ca7597342ba40f8e94043f4a4daa608aacc5765b1f8eac63b",
+  "bytes": 206,
+  "fetched_at": "2026-07-07T12:47:28.690189+00:00",
+  "official_source": true
+}

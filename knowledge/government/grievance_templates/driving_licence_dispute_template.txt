@@ -1,0 +1,22 @@
+DRIVING LICENCE DISPUTE / DELAY COMPLAINT TEMPLATE
+
+To,
+The Regional Transport Officer (RTO), [office/jurisdiction],
+
+Subject: [Delay in Learner's/Permanent Driving Licence issuance / Incorrect DL record] —
+Application No. [xxxx]
+
+"I applied for [Learner's Licence / Permanent Driving Licence / DL correction / RC
+transfer] on [date], application number [xxxx]. [Describe the issue: test repeatedly
+rescheduled beyond LL validity / documents verified but licence not dispatched / DL issued
+with incorrect [name/DOB/vehicle class]/ vehicle transfer pending beyond normal
+timeline]. I request immediate correction/completion of this application."
+
+Escalation path if unresolved:
+1. RTO grievance cell / helpline (in person or via the state transport department portal).
+2. Regional Transport Commissioner (write formally, reference the application number and
+   prior follow-ups).
+3. CPGRAMS grievance against the state Transport Department / Ministry of Road Transport
+   and Highways (MoRTH) for centrally-linked services (e.g. Parivahan/Sarathi portal
+   issues).
+4. RTI request to the RTO for the file status if the delay reason is unclear.

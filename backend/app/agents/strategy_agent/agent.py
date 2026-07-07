@@ -10,7 +10,7 @@ from __future__ import annotations
 
 from app.agents.json_parser import parse_agent_json
 from app.agents.state import AgentState, StrategyOutput
-from app.llm.gemini.service import gemini_service
+from app.llm.service import llm_service
 from app.prompts.health_insurance_agents import strategy_prompt
 
 STRATEGY_FALLBACK_FIELDS: dict = {
@@ -31,7 +31,7 @@ async def run_strategy_agent(state: AgentState) -> AgentState:
     research_summary = state.get("research_summary", "")
 
     prompt = strategy_prompt(domain, case_summary, context, evidence_summary, research_summary)
-    raw = await gemini_service.generate(prompt, temperature=0.2, purpose="reasoning")
+    raw = await llm_service.generate(prompt, temperature=0.2, purpose="reasoning")
 
     # Parse structured output
     parsed = parse_agent_json(raw, STRATEGY_FALLBACK_FIELDS)

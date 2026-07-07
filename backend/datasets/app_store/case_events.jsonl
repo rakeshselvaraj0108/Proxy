@@ -85,3 +85,9 @@
 {"id": "4618fe0e-4642-450f-9279-efb825593c40", "case_id": "e823dbfd-0e30-45f6-abff-4af1b5251f8b", "actor": "user", "event_type": "case_created", "title": "Case created", "body": "MRI denied as not medically necessary."}
 {"id": "6e43ed58-5e0b-4945-a895-be2ad0fe1be0", "case_id": "e823dbfd-0e30-45f6-abff-4af1b5251f8b", "actor": "agent", "event_type": "agent_run", "title": "healthcare_case_workflow finished", "body": "completed"}
 {"id": "3cac87c6-396d-46f7-a294-4cfbc7bd193f", "case_id": "e823dbfd-0e30-45f6-abff-4af1b5251f8b", "actor": "agent", "event_type": "appeal_drafted", "title": "Appeal draft v1 created", "body": "Appeal draft"}
+{"id": "6abcde1b-cf54-4d0e-8018-61f548463521", "case_id": "bac91280-2d98-4d3d-94e4-a38302d4ed63", "actor": "user", "event_type": "case_created", "title": "Case created", "body": "My MRI was denied as not medically necessary even though my doctor ordered it."}
+{"id": "c804b2ab-ba16-4b28-9305-c8604e2e2e64", "case_id": "case-upload-1", "actor": "system", "event_type": "document_uploaded", "title": "Document uploaded: denial.md", "body": "Indexed: True"}
+{"id": "af4d62d7-2ff5-4fec-93a2-cf3c5ff204c5", "case_id": "b50cc184-9cae-4978-81f7-109ec2220343", "actor": "user", "event_type": "case_created", "title": "Case created", "body": "MRI denied as not medically necessary."}
+{"id": "72871be5-c596-4430-a3df-df9a61067b23", "case_id": "b50cc184-9cae-4978-81f7-109ec2220343", "actor": "agent", "event_type": "agent_run", "title": "healthcare_case_workflow finished", "body": "completed"}
+{"id": "8d5cbe6c-2dbb-49fc-ac12-35ef1e3d42f4", "case_id": "b50cc184-9cae-4978-81f7-109ec2220343", "actor": "agent", "event_type": "appeal_drafted", "title": "Appeal draft v1 created", "body": "Appeal draft"}
+{"id": "dfd8ff1a-4e9e-4d09-806d-ea6175ed0dea", "case_id": "b9a21452-f391-49a6-9539-4d6693a78c0b", "actor": "user", "event_type": "case_created", "title": "Case created", "body": "MRI denied."}

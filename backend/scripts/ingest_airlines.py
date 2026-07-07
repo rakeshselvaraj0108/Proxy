@@ -207,7 +207,7 @@ async def run_pipeline():
         if category.name == "metadata" or category.is_file(): continue
         
         for file in category.iterdir():
-            if not file.is_file() or file.suffix.lower() not in [".md", ".pdf", ".txt"]: continue
+            if not file.is_file() or file.suffix.lower() not in [".md", ".pdf", ".txt", ".html"]: continue
             
             if file.suffix.lower() == ".pdf":
                 try:
@@ -217,6 +217,17 @@ async def run_pipeline():
                     text = "\n\n".join(page for page in pages if page.strip())
                 except Exception as e:
                     print(f"Failed to read PDF {file.name}: {e}")
+                    continue
+            elif file.suffix.lower() == ".html":
+                try:
+                    from bs4 import BeautifulSoup
+                    html_content = file.read_bytes()
+                    soup = BeautifulSoup(html_content, 'html.parser')
+                    for script in soup(["script", "style"]):
+                        script.extract()
+                    text = soup.get_text(separator=' ', strip=True)
+                except Exception as e:
+                    print(f"Failed to read HTML {file.name}: {e}")
                     continue
             else:
                 text = file.read_text(encoding="utf-8", errors="ignore")

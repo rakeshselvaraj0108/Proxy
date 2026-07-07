@@ -1,0 +1,1898 @@
+Vehicle registration plates of India - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+India
+High Security Registration Plate (HSRP) for a private LMV
+Country
+India
+Country code
+IND
+Current series
+Name
+HSRP
+Size
+34 cm x 20 cm
+Medium & Heavy Commercial Vehicles (MCV, HCV)
+50 cm x 12 cm
+Light Motor Vehicle (LMV)
+20 cm x 10 cm
+Two-wheeler (Rear)
+Tractor (Rear)
+Three-wheeler
+28.5 cm x 4.5 cm
+Two-wheeler (Front)
+Tractor (Front)
+Material
+Aluminium
+with
+Chromium
+hologram
+Serial format
+Refer section
+Private and commercial vehicles
+Special formats:
+VA (Vintage) series
+BH (Bharat) series
+Front plate
+Mandatory
+Rear plate
+Mandatory
+Colour (front)
+Refer section
+Colour coding
+Colour (rear)
+Refer section
+Colour coding
+Introduced
+2005
+(21
+years ago)
+(
+2005
+)
+Designer
+Ministry of Road Transport and Highways
+Availability
+Issued by
+Regional Transport Office
+of relevant district
+Manufactured by
+Vendors authorised by
+Ministry of Road Transport and Highways
+History
+First issued
+August
+1947
+(78
+years ago)
+(
+1947-08
+)
+All motorised vehicles (and trailers) plying on public roads in
+India
+are tagged with a unique registration or licence number. The
+vehicle registration plate
+(known colloquially as
+number plate
+) is issued by a
+Regional Transport Office
+(RTO), the district-level authority on vehicular matters in the respective state or
+Union Territory
+. Registration plates are also issued by Indian
+Ministry of Defence
+and
+Ministry of External Affairs
+where applicable. The number plates are mandatory on both front and rear of the vehicle and are required to be in modern
+Hindu-Arabic numerals
+with
+latin letters
+.
+[
+1
+]
+Complete specification of registration plates are specified under the
+HSRP: High security registration plate
+rules.
+The
+international vehicle registration code
+for India is
+IND
+.
+Colour coding
+[
+edit
+]
+Registration plates are specified in multiple combinations of text colour and background colour to distinctively identify different categories of vehicles.
+[
+2
+]
+Following combinations have been specified:
+Vehicle Category
+Sub-category
+(if any)
+Text
+Colour
+Background
+Colour
+Example
+Permanent Registration
+Private
+-
+Black
+White
+AN 01 Z 0123
+Electric
+White
+Green
+AN 01 Z 0123
+Commercial
+(Transport)
+-
+Black
+Yellow
+AN 01 Z 0123
+Electric
+Yellow
+Green
+AN 01 Z 0123
+Commercial
+(Rental)
+-
+Yellow
+Black
+AN 01 Z 0123
+Electric
+Yellow
+Green
+AN 01 Z 0123
+Indian Armed Forces
+-
+White
+Black
+↑24B 123456Z
+Electric
+[
+3
+]
+Green
+↑24B 123456Z
+Military Police
+Red
+White
+↑24B 123456Z
+Diplomatic mission
+Embassy,
+United Nations
+, or
+international organisation
+White
+Blue
+199 CD 99
+99 UN 99
+99 IOD 99
+Consulate
+Yellow
+199 CC 0123
+Non-permanent Registration
+Temporary
+(awaiting permanent)
+-
+Red
+Yellow
+T0124AN0123A
+Trade
+(Manufacturers, dealers etc.)
+-
+White
+Red
+AN01C0123TC0123
+For colour coding no longer in use, refer section
+Historical colour coding
+.
+Permanent registration format
+[
+edit
+]
+Private and commercial vehicles
+[
+edit
+]
+Default registration format for private and commercial vehicles as per Motor Vehicles Act, 1988.
+The current format for the registration of private and commercial came into force on 1 July 1989 as part of
+Motor Vehicles Act, 1988
+. The format consists of four parts:
+Part 1: Two-letter state code
+; two letters which indicates the State or Union Territory in which the vehicle is registered.
+Part 2: RTO number
+; a two-digit number allocated to a district RTO within the respective state or Union Territory. Due to heavy volume of vehicle registration, unique numbers may be allocated to multiple
+RTOs
+within a single district.
+Part 3: Single or multiple letters
+; consists of one, two or three letters or may not exist at all. These show the ongoing registration
+series
+of respective RTO and can indirectly indicate the number of registered vehicles (in some cases, also indicate vehicle type). The letters 'I' and 'O' are not used here to avoid confusion with digits 1 or 0.
+Part 4: Unique number between 1 and 9999
+; issued sequentially and unique to each registration.
+The advantage with this format is that the state and district of a particular vehicle is immediately identifiable. This can be useful in e.g. a police investigation as witnesses usually remember the initial few characters.
+Vintage series (VA) and Bharat series (BH) registration have their own unique format. For formats prior to 1 July 1989, refer section
+Historical registration formats
+.
+VA (Vintage) series
+[
+edit
+]
+Sample VA-series vehicle registration plate, for a vehicle registered in Maharashtra.
+On 15 July 2021, the Ministry of Road Transport issued a notification
+[
+4
+]
+regarding a special registration process for vintage vehicles. It was introduced to provide exemption from various pollution and scrappage norms and thus, facilitate promotion of heritage of vintage vehicles. A vehicle is eligible for this registration process if it fulfils following criteria:
+Two-wheeler or car (specifically,
+categories
+L1, L2 and M1)
+More than 50 years have passed since first registration
+Vehicle is maintained in its original form
+Vintage series registration however restricts free usage of the vehicle. Vehicle may only be used for specific purposes on public roads (e.g. vintage car rally) and not for generic private or commercial use. VA-series registration has a unique format:
+Vintage Registration Format
+AB VA XX 1234
+Characters are representative of following:
+'
+AB'
+:
+Part 1: Two-letter state code
+; two letters which indicates the State or Union Territory in which the vehicle is registered
+'
+VA'
+: Short for ‘Vintage’
+'
+XX'
+: Two letter sequence, starting from ‘AA’, followed by ‘AB’ and so on. 'O' and 'I' are not used here to avoid confusion with the digits 0 or 1
+'
+1234'
+:
+Part 4: Unique number between 1 and 9999
+BH (Bharat) series
+[
+edit
+]
+Sample BH-series vehicle registration plate, for a vehicle registered in 2021.
+On 26 August 2021, the Ministry of Road Transport issued a notification
+[
+5
+]
+regarding a unified pan-India registration of private vehicles. This special registration process was introduced to ease inter-state mobility by eliminating the hassles of re-registering a vehicle when its owner relocates to a new state or Union Territory.
+BH-series registration can be issued to public sector employees of central and state governments, and also to private sector employees of firms with offices in four or more states or union territories.
+[
+6
+]
+BH-series registration follows a unique format:
+Bharat Registration Format
+12 BH 3456 XX
+Characters are representative of following:
+'
+12'
+: Represents the last two digits of the year in which the vehicle was registered, e.g. '22' for a vehicle registered in 2022
+'
+BH'
+:  Short for
+Bharat
+(
+Hindi
+:
+भारत
+)
+'
+3456'
+: Unique number between 1 and 9999, issued randomly
+'
+XX'
+:  One or two letters. Sequence starting from ‘A’, followed by ‘B’ and so on. 'O' and 'I' are not used here to avoid confusion with the digits 0 or 1
+Vehicles of Indian Armed Forces
+[
+edit
+]
+Registration plate of an Indian military vehicle procured in 2002
+Registration of vehicles belonging to
+Indian Armed Forces
+(Army, Navy and Air Force) is administered by Indian
+Ministry of Defence
+. Following registration format is used:
+Armed Forces Registration Format
+↑ 01Z 012345A
+Characters are representative of following:
+'
+↑'
+: The first character is an upward-pointing
+Broad Arrow
+, whose origins lie in the UK Office of Ordnance.
+'
+01'
+: Represents the last two digits of the year in which the armed forces procured the vehicle, e.g. '22' for a vehicle procured in 2022.
+'
+Z'
+: Represents the type or class of vehicle:
+A - Motorised two-wheelers (e.g. motorcycles)
+B - LMV i.e. Light Motor Vehicle (e.g. passenger cars)
+C - Truck (<3 tonnes) or pick-up truck
+D - Truck (>3 tonnes)
+E - High Mobility vehicle (i.e. Multi-axle driven trucks: 4x4, 6x6 and so on)
+F - Light specialist vehicle (e.g. ATVs,
+Mahindra Armado
+,
+ATOR N1200
+)
+G - Trailer
+H - Truck with material handling capability (e.g. Tata LPTA 2038C)
+J - Snow removal vehicle
+K - Ambulance
+P - Generic support vehicles (e.g. Bus, Fire Truck, Tanker, Recovery Vehicle etc.)
+Q - Construction vehicles (e.g. Backhoe loader)
+R - Customised Vehicles for niche application (e.g.
+Mine Protected Vehicle
+, missile launchers, tactical communication equipment etc.)
+X - Active Combat Vehicle (e.g. tank, armoured personnel carrier)
+'
+012345'
+: Six digit unique serial number
+'
+A'
+: Last character is a
+check letter
+.
+Vehicles of diplomatic missions
+[
+edit
+]
+Registration plate of a vehicle belonging to diplomatic mission of The Netherlands
+Registration of vehicles belonging to a diplomatic mission is carried out by Indian
+Ministry of External Affairs
+. Following registration format is used:
+Diplomatic Mission Registration Format
+123 XX 4567
+Characters are representative of following:
+'
+123'
+: Unique number of at most 3 digits allocated to the diplomatic mission by the Ministry of External Affairs (see list below).
+Leading zero
+is not used.
+'
+XX'
+: Represents the type of mission to which the vehicle is registered:
+'CD' which is short for
+corps diplomatique
+, for vehicles registered to an
+embassy
+'CC' which is short for
+corps consulaire
+, for vehicles registered to a
+consulate
+'UN' which is short for
+United Nations
+, for vehicles registered to one of the UN missions
+'IOD' which is short for 'International Organisation Diplomat', for vehicles registered to international organisations (apart from the UN) which are recognised by Ministry of External Affairs. List of these organisations is available
+here
+'
+4567'
+: Unique number of atmost 4 digits issued sequentially (leading zeroes are not used)
+Number '1' is reserved for vehicle(s) used by the head of respective diplomatic mission e.g. an ambassador. To distinguish multiple vehicles of the head of mission, a suffix is added e.g. '1A', '1B' and so on.
+Vehicles belonging to diplomatic missions are granted the level of
+diplomatic immunity
+or
+consular immunity
+corresponding to whom the vehicle has been attributed to by the Ministry of External Affairs. Immunity is void if a
+UN
+,
+CD
+or
+CC
+vehicle is driven in absence of an accredited member of the diplomatic or consular corps.
+Unique numbers allocated to different diplomatic missions for the
+CD
+and
+CC
+registrations:
+Number
+Country
+1
+Afghanistan
+2
+Algeria
+3
+Egypt
+4
+Argentina
+5
+Australia
+6
+Austria
+7
+Bangladesh
+8
+Belgium
+9
+Bhutan
+10
+Brazil
+11
+Britain (
+United Kingdom
+)
+12
+Bulgaria
+13
+Cameroon
+14
+Cyprus
+15
+Canada
+16
+Chile
+17
+China
+18
+Colombia
+19
+Cuba
+20
+Czech Republic
+21
+Denmark
+22
+Brunei
+23
+Ethiopia
+24
+Finland
+25
+France
+26
+Angola
+27
+Germany
+28
+Ghana
+29
+Greece
+30
+Kyrgyzstan
+31
+Holy See (
+Vatican City
+)
+32
+Hungary
+33
+Indonesia
+34
+Iran
+35
+Iraq
+36
+Ireland
+37
+Italy
+38
+Japan
+39
+Jordan
+40
+Kenya
+41
+North Korea
+42
+South Korea
+43
+Kuwait
+44
+Laos
+45
+Gabon
+46
+Malaysia
+47
+Mauritius
+48
+Mexico
+49
+Mongolia
+50
+Morocco
+51
+Nepal
+52
+Netherlands
+53
+New Zealand
+54
+Nicaragua
+55
+Nigeria
+56
+Poland
+57
+Portugal
+58
+Romania
+59
+Saudi Arabia
+60
+Serbia
+61
+Sierra Leone
+62
+Singapore
+63
+Slovenia
+64
+Somalia
+65
+Spain
+66
+Sudan
+67
+Sweden
+68
+Switzerland
+69
+Syria
+70
+Tanzania
+71
+Thailand
+72
+Trinidad and Tobago
+73
+Turkey
+74
+Uganda
+75
+Russia
+76
+United Arab Emirates
+77
+United States
+78
+Uruguay
+79
+Venezuela
+80
+Vietnam
+84
+Democratic Republic of the Congo
+85
+Slovakia
+87
+Zambia
+89
+Pakistan
+93
+Belarus
+94
+Ukraine
+95
+South Africa
+97
+Senegal
+98
+Uzbekistan
+99
+Kazakhstan
+102
+Iceland
+105
+Cambodia
+104
+Tunisia
+106
+Yemen
+109
+Israel
+111
+Rwanda
+112
+Bosnia and Herzegovina
+113
+Suriname
+117
+Luxembourg
+119
+Eritrea
+120
+Azerbaijan
+121
+Maldives
+122
+Fiji
+123
+Ivory Coast
+125
+Ecuador
+126
+Djibouti
+128
+Tajikistan
+133
+Botswana
+134
+Dominican Republic
+135
+Malawi
+137
+Malta
+141
+Burkina Faso
+145
+Burundi
+147
+Georgia
+149
+Mali
+152
+Niger
+153
+Guinea
+155
+South Sudan
+156
+Estonia
+157
+Bolivia
+159
+Latvia
+160
+Equatorial Guinea
+Format for private and commercial vehicles
+[
+edit
+]
+Here is a detailed overview of the format for permanent registration of private and commercial vehicles.
+Part 1: Two-letter state code
+[
+edit
+]
+Two-letter state codes of India as used on vehicles
+All Indian states and
+Union Territories
+have a designated two-letter code. This code referencing came into force on 1 July 1989 as part of
+Motor Vehicles Act, 1988
+. Before that, each district or
+RTO
+had three-letter code(s) at their disposal which did not clearly identify the state. This led to a fair degree of confusion
+— for example,
+MMC 0123
+could fit in anywhere in the country. To avoid this ambiguity, a unique state code was included in format.
+A specific state or union territory maybe chosen to register a vehicle due to differences in the amount of taxes involved in registration process. One such example is of Puducherry, where many luxury cars have been known to be registered by residents of other states, sometimes fraudulently, leading to crackdowns by those states.
+[
+7
+]
+Current codes
+[
+edit
+]
+Two-letter codes currently in use for different states and union territories are as follows:
+Code
+State or Union Territory
+AN
+Andaman and Nicobar Islands
+AP
+Andhra Pradesh
+AR
+Arunachal Pradesh
+AS
+Assam
+BR
+Bihar
+CG
+Chhattisgarh
+CH
+Chandigarh
+DD
+Dadra and Nagar Haveli and Daman and Diu
+DL
+Delhi
+GA
+Goa
+GJ
+Gujarat
+HP
+Himachal Pradesh
+HR
+Haryana
+JH
+Jharkhand
+JK
+Jammu and Kashmir
+KA
+Karnataka
+KL
+Kerala
+LA
+[
+8
+]
+[
+9
+]
+Ladakh
+LD
+Lakshadweep
+MH
+Maharashtra
+ML
+Meghalaya
+MN
+Manipur
+MP
+Madhya Pradesh
+MZ
+Mizoram
+NL
+Nagaland
+OD
+Odisha
+PB
+Punjab
+PY
+Puducherry
+RJ
+Rajasthan
+SK
+Sikkim
+TG
+Telangana
+TN
+Tamil Nadu
+TR
+Tripura
+UK
+Uttarakhand
+UP
+Uttar Pradesh
+WB
+West Bengal
+Former codes
+[
+edit
+]
+Codes no longer in use for new registrations but still the valid code for already registered vehicles:
+In Active Use
+Code
+State or Union Territory
+Reason for change
+22 November 2000 - 31 October 2007
+UA
+Uttaranchal
+State renamed from 'Uttaranchal' to Uttarakhand [UK]
+1 July 1989 - 30 August 2012
+[
+10
+]
+OR
+Orissa
+State renamed from 'Orissa' to Odisha [OD]
+1 July 1989 - 25 January 2020
+[
+11
+]
+DN
+Dadra and Nagar Haveli
+Erstwhile UT merged to create new UT of
+Dadra and Nagar Haveli and Daman and Diu
+[DD]
+18 June 2014 - 14 March 2024
+[
+12
+]
+TS
+Telangana
+State code reverted to original proposal [TG]
+Part 2: RTO number
+[
+edit
+]
+Main article:
+List of RTO districts in India
+As all states have at least two districts, the district's RTO is the authority for registering vehicles. A vehicle can be registered in a particular district if the owner has a registered residence or business entity in that district. Each RTO is allotted unique
+two digit number(s)
+and vehicles registered with a specific RTO have the corresponding RTO number as part of their registration number. Thus, in most cases, district of registration can be uniquely identified from the registration number.
+Andhra Pradesh
+follows a separate format and a common district number (
+AP 39
+as of 2023) is used across all districts/RTOs in the state.
+Due to heavy volume of vehicle registration in highly populated districts, multiple RTOs may operate within that district, with each RTO being allotted a unique number. As an example,
+Chennai
+(
+Madras
+) uses 15 RTOs in different parts of district, each with distinct numbers:
+TN 01, TN 02, TN 03, TN 04, TN 05, TN 07, TN 08, TN 09, TN 10, TN 11, TN 12, TN 13, TN 14, and TN 22.
+In such cases, each number corresponds to a specific region within a single district.
+In some cases, a number is reserved for certain category of vehicles, and a single RTO thus uses multiple numbers. As an example,
+Rohtak
+RTO (in Haryana) uses number
+HR 12
+for private vehicles and
+HR 46
+for commercial vehicles, thus both '12' and '46' correspond to Rohtak district. In some states/UTs, numbers can be reserved for even more specific categories, for example in
+Meghalaya
+,
+ML 01
+is reserved for government vehicles,
+ML 02
+for police department and
+ML 03
+for state transport department. In such cases, RTO number no longer corresponds to a specific district.
+Union territory and capital,
+Delhi
+has the exception of not using
+leading zero
+in the RTO numbers, and vehicle registration number can therefore start as ‘DL 1’ (instead of ‘DL 01’).
+Overview of special usage of numbers in states/UTs:
+State/UT
+Remarks
+Andhra Pradesh
+A common district number (
+AP 40
+as of 2023) is used across all districts in the state.
+Assam
+AS 20
+is reserved for state transport department and
+AS 30
+and
+AS 31
+is reserved for police department
+Chhattisgarh
+CG 01
+is reserved for vehicles of office of governor,
+CG 02
+for all state government vehicles and
+CG 03
+for police department
+Haryana
+Different numbers are used for commercial and private vehicles in some districts
+Himachal Pradesh
+HP 01
+and
+HP 02
+are reserved for tourist vehicles (buses and taxis)
+Kerala
+KL 15
+is reserved for the
+Kerala State Road Transport Corporation
+buses
+Madhya Pradesh
+MP 01
+is reserved for vehicles of office of governor,
+MP 02
+for all state government vehicles and
+MP 03
+for police department
+Meghalaya
+ML 01
+is reserved for government vehicles,
+ML 02
+for police department and
+ML 03
+for state transport department
+Nagaland
+NL 10
+and
+NL 11
+is reserved for government vehicles, for non-transport and transport vehicle respectively
+Punjab
+PB 01
+is reserved for taxis
+West Bengal
+Different numbers were used earlier for commercial and private vehicles by districts
+Part 3: Single or multiple letters
+[
+edit
+]
+The default use of letter(s) is as registration series of an RTO i.e. when initial 9999 registrations have been done and all unique 4-digit numbers used up, a prefix
+A
+is added and the number sequence reset to 1. Thus, letter(s) can indirectly indicate the number of registered vehicles (in some cases, also indicate vehicle class).
+In
+Tamil Nadu
+, the letter G is reserved for Government (both the Union Government of India and State Governments) vehicles and the letter N is reserved for State Transport Buses, while A to F, H to M and P to Z are for passenger vehicles of all kinds, including commercial vehicles.
+For e.g.
+TN 60 AG 3333
+could be a government vehicle registered in
+Theni
+, whereas a
+TN 58 N 4006
+could be a government Bus registered in
+Madurai District
+.
+In
+Andhra Pradesh
+and
+Telangana
+, the letter Z is reserved for the State Road Transport (APSRTC and TSRTC) buses (AP**Z, TS**Z, and so on). The letter P is reserved for the states' police vehicles. The letters T, U, V, W, X, and Y are reserved for commercial ones, continuing as TA, TB..., UA, UB... and so on, whereas the rest of the letters are reserved for private passenger vehicles of all kinds.
+In
+Assam
+, the letter C is used to register commercial vehicles, continuing as AC, BC, etc.
+In
+Jammu and Kashmir
+, the letter
+Y
+is used for all government buses. Other letters and their combinations are used to register all kinds of private and commercial vehicles.
+In
+Bihar
+, all RTOs assign the letter P to passenger vehicles (Commercial vehicles and private MUVs/SUVs) and G for goods vehicles. For example,
+BR 01 PC 2433'
+is a
+BSRTC
+bus in Patna. However, all registrations are common for private vehicles.
+In
+Maharashtra
+, the two letters in each RTO is classified for a different kind of vehicle, e.g.
+MH 14 BT
+is assigned for MSRTC buses built in the bus building facility Pimpri,
+MH 02 CR
+is for commercial vehicles in Mumbai,
+MH 10 CJ
+is for two wheelers in Sangli,
+MH 04 GM
+is for cars in Thane,
+MH 12 JK
+is for special purpose vehicles in Pune and
+MH 47 D
+is for autorickshaws in North Mumbai.
+In
+Karnataka
+, blank, A, B, C, D is used for commercial vehicles; T for tractors and trailers; E, H, J, K, L, Q, R, S, U, V, W, X, Y for two-wheelers; M, N, P, Z for private passenger vehicles. G is used for Government Vehicles (including police vehicles and ambulances), and F is used for KSRTC/NWKRTC/NEKRTC/BMTC buses and smaller vehicles owned by the corporation, like flying squad MUVs. Additional letters are added as each series is exhausted, e.g., M, MA, F, FA, etc.
+In
+Goa
+, the letter X is reserved for the State Road Transport (Kadamba Transport Corporation) buses (e.g.
+GA 03 X 0109
+). The letters T, U, V, W, Y, Z are reserved for commercial vehicles, whereas the letter G is reserved for government vehicles. Again, the two letter in each RTO is classified for a different kind of vehicle, e.g.
+GA 07 C
+is for cars in Panaji and
+GA 03 AB
+is for two wheelers in Mapusa.
+In
+Uttar Pradesh
+, districts use G for government vehicles and any letter for commercial. Currently most districts use T, AT, BT, etc.; some use N, AN, BN, etc., and a few use B, H, etc.
+In
+Uttarakhand
+, the letter C is reserved for goods vehicles, T for Taxis, P for public transport vehicles and G for government vehicles and A, B, D to O, Q to S, and U to Z for private passenger vehicles of all kinds, with an additional letter added later such as TA, CA, GA, PA and so on.
+Sikkim
+issues the letter P as prefix for all types of private vehicles and T for taxis, J for commercial jeeps, B for buses, and Z, D for other commercial vehicles. For state transport buses, the
+SK 04 XXXX
+series of Jorethang was used and have now gone back to register them under B series.
+In
+Gujarat
+, government vehicles have number plate with letter G and GJ, which is reserved for government firm vehicles. (e.g.
+:
+GJ 18 G 5123
+and
+GJ 18 GJ 6521
+). All other letters except G are used by passenger vehicles. The letters T, U, V, W, X, Y, Z are reserved for commercial vehicles and goes on in the series AT, AU, ..., BT, BU, ..., and so on.
+Also, the number series
+GJ 18 Y
+is reserved for the
+Gujarat State Road Transport Corporation
+(GSRTC) buses.
+GJ 18 V
+was used earlier. After the completion of this series
+GJ 18 Y
+was used. Currently,
+GJ 18 Z
+is in use. All other letters used for passengers. Also a letter is prefixed for usage in all classes of vehicles, e.g.
+GJ 01 J
+to
+JS
+are for two wheelers in Ahmedabad, and
+GJ 01 R
+to
+RZ
+are reserved for private four wheelers in Ahmedabad. However, after the exhaustion of private series in Ahmedabad, vehicles are being registered with the
+T
+to
+Z
+suffix pattern to meet the demand.
+In
+Delhi
+, the following letters are used for registration-
+A for ambulances, B for mini buses, C for cars, F for numbers on demand for private vehicles, G for trucks, K for school vehicles, L for trucks, N for self-drive vehicles, P is for buses, Q for commercial three-wheelers, R for autorickshaws and radio taxis, S for two-wheelers, T for city taxis, Y for private taxis, V, W, E, U, M, Z for other commercial vehicles.
+DL 1
+at Mall Road registers only A, E, G, K, L, M, P, Q, R, T, U, V, W, Y and Z.
+In
+Chandigarh
+, the following letters are used for registration: T is for trucks, and G is for government vehicles.
+In
+Rajasthan
+, the following letters are used for registration: M, S, B for two wheelers, C for cars, P for buses, G for trucks, T for taxis and tourist passenger vehicles. Earlier, numbers between 1 and 50 were used, e.g.
+RJ 14 2M
+and
+RJ 14 6C
+were used for vehicles but now this system has been stopped.
+Part 4: Unique number between 1 and 9999
+[
+edit
+]
+The last four numbers are unique to the vehicle. Usually, the lower 100 numbers are government registered numbers, but it may not always be the case. Special "lucky" numbers (also called fancy numbers) such as 3333, 0001 or 6666 fetch a premium and may touch above
+₹
+1,000,000.
+Prior to 2005,
+Karnataka
+used to charge
+₹
+1000 for obtaining a unique last four digit number. These numbers used to be issued either from the current running series or from one or two future series. When the numbering system was computerized, numbers could be issued from any future series. However the Karnataka RTO steeply hiked these charges to
+₹
+6,000 if the number to be obtained is in the current series, and
+₹
+25,000 if it was to be issued from a future series. It was increased again in 2010 from
+₹
+6,000 to
+₹
+20,000, and from
+₹
+25,000 to
+₹
+75,000.
+[
+13
+]
+As of 2007, Maharashtra has increased the price of unique numbers to the range of
+₹
+25,000 to
+₹
+1,25,000. In 2012,
+Maharashtra
+increased the price from
+₹
+1,25,000 to
+₹
+2,00,000.
+In
+Uttarakhand
+, number 0001 and 0786 has the highest charge of
+₹
+50,000.
+In
+Gujarat
+, RTO is charging
+₹
+500 for 2-wheeler vehicles and
+₹
+1,000 for 4-wheeler vehicles for chosen number plate, but the chosen number plate not be unique, Ex 4521, 6523, etc. For VIP number
+1
+(4-wheeler vehicle), RTO distribute an application form to bid for unique number plate which will be attached with amount of money. The highest payer of the amount will get the unique number like
+1
+. Sometimes it takes
+₹
+2,00,000 to
+₹
+5,00,000 (maximum) for this type of number. Currently, Gujarat RTO has revised the amount for chosen number (not unique numbers like single, double digit), which is
+₹
+1000 for 2-wheeler vehicles and
+₹
+5000 for 4-wheeler vehicles.
+In Andhra Pradesh the RTO Follows the Auction system for unique numbers. The highest bidder gets the number. Numbers like
+0909 0999 0099 0009
+are in high demand always and have a high premium and maximum bidders for the auction.
+Non-permanent registration format
+[
+edit
+]
+Temporary registration format
+[
+edit
+]
+After a new vehicle is purchased and while the permanent registration number is pending, a temporary registration number is issued by
+RTO
+of the district from where the vehicle was purchased.
+Vehicle registration plate with temporary number, for a vehicle purchased in November 2023 in Kerala.
+On 31 March 2021, the Ministry of Road Transport issued a notification
+[
+14
+]
+regarding amendment to
+Motor Vehicles Act
+. Rule 53C in the amendment introduced a homogenised alphanumeric format for temporary registration:
+Temporary Registration Format
+T MMYY AA 0123 ZZ
+Characters are representative of following:
+'
+T'
+: Registration number always starts with character 'T' to represent 'Temporary'
+'
+MMYY'
+: Reperesents the month and year in which vehicle was purchased e.g. '1223' for vehicle purchase in December 2023
+'
+AA'
+: Represents the state in which vehicle is purchased, same code as specified in
+Part 1: Two-letter State Codes
+is used
+'
+0123'
+: Four digit number issued sequentially
+'
+ZZ'
+: One or two letters, sequence starting from ‘A’, followed by ‘B’ and so on. 'O' and 'I' are not used here to avoid confusion with the digits 0 or 1.
+Example
+:
+T1123LA0123A
+for a vehicle purchased in Ladakh in November 2023
+Temporary registration has a validity of up to six months, states however may use a stricter validity time. During this period owner must obtain a permanent registration from the RTO of their choosing. Some states may only allow limited use of vehicles with temporary registration.
+To register a vehicle, it may need to be presented to the RTO, where a Motor Vehicle Inspector will verify the applicant's address and other details, confirm that the engine and chassis numbers are identical to what is written in the application and issues a permanent registration certificate which is usually valid for 20 years.
+Trade registration format
+[
+edit
+]
+Government issues trade certificate to businesses which deal with unregistered vehicles and therefore, need to be exempted from the legal requirement of plying vehicles on road with a (permanent or temporary) registration number. Business or agency which may use trade certificate can be a vehicle manufacturer, dealer, vehicle testing agency or a vehicle importer.
+Registration authority allots a group of trade registration numbers to the holder of a trade certificate. Trade number is not assigned to a specific vehicle directly by the registration authority (like permanent or temporary number), the holder of trade certificate instead assigns a number to a vehicle themselves from their available allotment. Trade number can only be used on vehicles of category for which it has been issued and should not be assigned to more than one vehicle at once. Trade registration number can be valid for up to five years.
+Vehicle registration plate with trade number, for a test car registered in Chengalpattu in Tamil Nadu.
+On 14 September 2022, the Ministry of Road Transport issued a notification
+[
+15
+]
+regarding amendments to trade certificate and trade registration number. A homogenised alphanumeric format for trade registration number was also introduced:
+Trade Registration Format
+AB 12 Z 0123 TC 0001
+Characters are representative of following:
+'
+AB'
+: Represents the state in which institute is located, same code as specified in
+Part 1: Two-letter State Codes
+'
+12'
+: Represents the district or RTO which issues the trade registration number, same number as defined in
+Part 2: District Number
+'
+Z'
+: Represents the category of vehicle for which the trade registration number has been issued. Character used for different categories are:
+A – Two-wheel vehicle (e.g. motorcycle, scooter)
+B – Invalid carriage (vehicle designed specifically for disabled person)
+C – Light motor vehicle (e.g. car)
+D – Medium passenger motor vehicle (e.g. minibus)
+E – Medium goods vehicle (e.g. truck)
+F – Heavy passenger motor vehicle (e.g. bus)
+G – Heavy goods vehicle (e.g. truck)
+H –
+E-rickshaw
+I – E-cart (cargo variant of E-rickshaw)
+J – any other category not covered above
+'
+0123'
+: Four digit unique number assigned to the holder of trade certificate e.g. vehicle dealer or manufacturer
+'
+TC'
+: Short for ‘Trade Certificate’
+'
+0001'
+: Number of up to four digits to be assigned to one specific vehicle by holder of trade certificate, as allowed by registration authority
+Example
+:
+LA01C0001TC0001
+for a light motor vehicle (e.g. car) registered for trade in Kargil in Ladakh.
+For old format, refer section
+Pre-2022 Trade Registration
+.
+HSRP: High security registration plate
+[
+edit
+]
+On 1 June 2005, the
+Government of India
+had amended rule 50 of the Central Motor Vehicles Rules, 1989, mandating introduction of new tamper proof High Security Registration (HSRP) number plates.
+[
+16
+]
+[
+17
+]
+All new motorised road vehicles that came into the market after that needed to adhere to the new plates, while existing vehicles had been given two years to comply. Features incorporated include the number plate having a patented
+chromium
+hologram
+,
+[
+16
+]
+a
+laser
+numbering containing the alpha-numeric identification of both the testing agency and manufacturers and a retro-reflective film bearing a verification inscription "India" at a 45-degree inclination. The characters are
+embossed
+on the plate for better visibility. The letters "IND" were printed in a light shade of
+blue
+on the observers left side under the hologram.
+[
+16
+]
+However it has yet to be implemented since the various state Governments has not yet appointed an official source for manufacture of these plates,
+[
+18
+]
+due to disputes which are currently in various Indian courts.
+[
+17
+]
+[
+18
+]
+On 8 April 2011 the
+Supreme Court of India
+summoned the transport secretaries of Delhi, Punjab and Uttar Pradesh for
+contempt of court
+proceedings regarding nonenforcement of the high-security registration plates.
+[
+19
+]
+The Supreme Court on 30 November 2004, had clarified that all states had to comply with the scheme.
+[
+19
+]
+Currently all of North East including Assam, Gujarat, Rajasthan, Jammu and Kashmir, West Bengal, Karnataka, Andaman & Nicobar Islands (UT) and Goa are the only states which have complied in full. The states of Bihar, Jharkhand, Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha and Maharashtra have not proceeded after having called tenders.
+[
+19
+]
+Besides these states some of the other states have also taken action to implement the new scheme.
+[
+19
+]
+Haryana and Punjab has launched the High Security Registration Plates Scheme in the state. High Security Registration Plates have been made mandatory in for all new and old vehicles.
+[
+20
+]
+Maharashtra has announced to implement new number plates and deadline set on 31 March 2025.
+[
+21
+]
+Historical registration plates
+[
+edit
+]
+Historical colour coding
+[
+edit
+]
+Following colour coding have been discontinued for different reasons:
+Vehicle
+Category
+Old colour scheme
+Example
+Officially Inactive
+since
+Remarks
+Commercial
+(except rental)
+Black text
+White background
+AN 01 A 0123
+1 February 2002
+[
+22
+]
+Discontinued to better align with international standard
+Private
+White text
+Black background
+AN 01 A 0123
+1 July 2002
+Registered with
+Consulate
+Black text
+Yellow background
+199 CC 0123
+23 June 2017
+[
+23
+]
+Discontinued to differentiate from new colour coding of commercial vehicles
+In case of changes in 2002, due to large number of vehicles and therefore slow enforcement, old colour coding was in use well after the official discontinuation date.
+Historical registration formats
+[
+edit
+]
+Pre-1940
+[
+edit
+]
+Vehicle with Bombay registration, circa 1928 with prefix 'Y'.
+Before the introduction of
+Motor Vehicles Act, 1939
+(enforced during 1940), a nationwide format did not exist. Initial vehicle registration format in country was simply a number of up to five digits. Gradually, a prefix of single or two letter(s) was introduced which was representative of province/city, and was followed by a number of (up to) four digits, e.g.
+K 1234
+[
+24
+]
+or
+FP 1234
+.
+There were some exceptions as few places had already started to use three-letter prefix codes before 1940.
+From 1940 till independence
+[
+edit
+]
+Vehicle registration plate with 1939 format. 'U' and 'SJ' corresponded to
+United Provinces
+and
+Lucknow
+respectively.
+After the introduction of Motor Vehicles Act (1939), many three-letter codes were introduced and this format gradually became the most common.
+Old Registration Format
+XAA 1234
+Characters are representative of following:
+'
+X'
+: Represents the province, e.g. 'B' for
+Bombay Presidency
+, 'C' for
+Central Provinces
+, 'M' for
+Madras Presidency
+'
+AA'
+: Two letter code allotted to registration authority of a specific district.
+[
+25
+]
+'
+1234'
+: Unique number between 1 and 9999
+In the case of Central Provinces, three-letter codes used for vehicle registration were:
+CPZ
+— For government vehicles
+CPP
+— Central Province Police vehicles
+CP
+X
+— where 'X' represents the district code (e.g. CPJ for Jabalpur)
+Format of using single letter prefix was also phased out.
+Post-independence
+[
+edit
+]
+By 1947 i.e. India's independence, format of using three-letter codes was almost standard throughout the country, with the exception of the colonies which were not yet incorporated into India. Certain states/UTs in India also remained exceptions as they continued to use two-letter codes for some more years: Chandigarh (CH), Pondicherry (PY), Andaman & Nicobar islands (AN) and Jammu & Kashmir (JK).
+Other colonies in India
+[
+edit
+]
+Colonies in India
+(other than British) had different registration formats until they were incorporated into independent India.
+French Colonies
+: Pondicherry used the following formats:
+Until the
+de facto
+incorporation into India in 1954: Letter 'P' as prefix followed by a number of (up to) four digits, e.g. P 1234.
+Post-incorporation: At some point prefix was changed to 'PY'.
+Portuguese Colonies
+: Goa used the following formats:
+Until around 1957: Letter 'G' as prefix followed by a number of (up to) four digits, e.g. G 1234.
+From 1957 until annexation by India in 1961: Three-letter prefix followed by a four digit number in style 'IGx–12–34', 'x' being the sequence letter  i.e. A, B and so on.
+Post-annexation: Vehicles were re-registered with new format as per Motor Vehicles Act (1939), with 'GDA' as the three-letter prefix.
+Princely states
+[
+edit
+]
+Vehicle registration plate from Udaipur State (aka
+Kingdom of Mewar
+)
+Princely states
+had a different registration format compared to rest of the country until they acceded to independent India. Colour scheme used was white text on red background and the format was state's name followed by a number.
+Princely State registration format
+X 1234
+'X' represents the name of state.
+Example
+: MYSORE 1, JODHPUR 5
+Top constitutional authorities
+[
+edit
+]
+Emblem of India used on an old official car of Indian president
+It used to be a general practice for offices of top constitutional authorities in India (i.e.
+President
+,
+Vice-president
+,
+Governors and lieutenant governors
+and the protocol division of the
+Ministry of External Affairs
+) to not register their official vehicles. Instead of registration plates, an embossed
+Emblem of India
+was used (sometimes in combination with a red plate). In 2018, above offices were instructed to get all their official vehicles registered as per applicable laws.
+[
+26
+]
+[
+27
+]
+Pre-2022 trade registration
+[
+edit
+]
+Vehicle registration plate with old trade number format of Uttar Pradesh, for a car registered in Noida.
+Before the introduction of 2022 notification,
+[
+15
+]
+the defined format for trade registration was more generic and only specified following:
+Old trade registration format
+AB 12 TC XXXX
+AB
+,
+12
+and
+TC
+: Same representation as in current format, detailed in
+Trade Registration Format
+XXXX
+: Format consisting of alphanumeric characters, as decided by respective state or Union Territory. Most states/UTs (at the time of introduction of new format in 2022)  used the following scheme:
+123 456
+where '123' is a number (of up to 3 digits) allocated to holder of trade certificate and '456' is a unique number (of up to 3 digits) assigned to a specific vehicle.
+Example
+:
+UP 16 TC 020 007
+Trade numbers with old format can continue to be used as per validity period.
+See also
+[
+edit
+]
+Wikimedia Commons has media related to
+License plates of India
+.
+Portals
+:
+India
+Transport
+References
+[
+edit
+]
+↑
+"Central Motor Vehicle Rules 1989, Rule-50(2)(d)"
+(PDF)
+.
+Government of India
+- Ministry of Road Transport & Highways. 1989
+. Retrieved
+19 January
+2019
+.
+↑
+"Notification GSR 512 (E) regarding HSRP"
+(PDF)
+.
+Government of India
+- Ministry of Road Transport & Highways. 18 July 2019
+. Retrieved
+8 April
+2024
+.
+↑
+"Indian Air Force Inducts Tata Nexon EV"
+. Mobility Outlook Bureau. 21 November 2022
+. Retrieved
+20 March
+2024
+.
+↑
+"Vintage Motor Vehicle Rules"
+(PDF)
+.
+Government of India
+- Ministry of Road Transport & Highways. 2021
+. Retrieved
+19 January
+2019
+.
+↑
+"Central Motor Vehicles (Twentieth Amendment) Rules, 2021"
+(PDF)
+. 21 September 2021.
+↑
+"Bharat series vehicle registration: Here's how to get a BH plate and its benefits"
+.
+Firstpost
+. 3 March 2022
+. Retrieved
+23 August
+2022
+.
+↑
+Prakash, Asha (15 November 2017).
+"The rise and fall of the Pondicherry (Puducherry) number plate"
+.
+The Times of India
+. Retrieved
+29 January
+2023
+.
+↑
+"Archived copy"
+(PDF)
+. Archived from
+the original
+(PDF)
+on 30 November 2020
+. Retrieved
+16 January
+2020
+.
+{{
+cite web
+}}
+:  CS1 maint: archived copy as title (
+link
+)
+↑
+"Ladakh vehicles to have new initials post bifurcation"
+. 27 November 2019
+. Retrieved
+21 November
+2020
+.
+↑
+"Number plates to sport OD"
+.
+Times of India
+. 1 September 2012
+. Retrieved
+29 April
+2024
+.
+↑
+"DD Vehicle Registration Mark, Amendment in the Notification No. S.O. 295(E)"
+(PDF)
+. eGazette of India
+. Retrieved
+8 September
+2025
+.
+↑
+"TG Plates for new vehicle for Telangana from today"
+. Times of India
+. Retrieved
+8 September
+2025
+.
+↑
+"To Obtain Advance Registration Mark (Fancy Registration Number)"
+. Transport Dept, Karnataka. Archived from
+the original
+on 15 February 2012
+. Retrieved
+13 March
+2012
+.
+↑
+"Notification GSR 240 (E) Central Motor Vehicles (Sixth Amendment) Rules"
+(PDF)
+.
+Government of India
+- Ministry of Road Transport & Highways. 31 March 2021
+. Retrieved
+18 April
+2024
+.
+1
+2
+"Notification GSR 703 (E) Central Motor Vehicles (Fifteenth Amendment) Rules"
+(PDF)
+.
+Government of India
+- Ministry of Road Transport & Highways. 14 September 2022
+. Retrieved
+3 May
+2024
+.
+1
+2
+3
+"HIGH SECURITY REGISTRATION PLATES"
+. Ministry of Road Transport and Highways
+. Retrieved
+29 June
+2010
+.
+1
+2
+"M J Antony: Number plate logjam"
+.
+Sify Finance
+. 9 June 2010. Archived from
+the original
+on 11 August 2011
+. Retrieved
+29 June
+2010
+.
+1
+2
+"Don't buy high-security number plates, it's illegal'
+"
+. Hindustan Times. 20 June 2010. Archived from
+the original
+on 27 September 2015
+. Retrieved
+29 June
+2010
+.
+1
+2
+3
+4
+"Number plate scheme: SC notices to UP, Delhi, Haryana"
+. Indian Express. 8 April 2011
+. Retrieved
+11 April
+2011
+.
+↑
+High Security Registration Plates
+http://iharnews.com/index.php/government/274-high-security-registration-plates
+Archived
+2017-10-24 at the
+Wayback Machine
+↑
+"
+https://www.news18.com/auto/maharashtra-govt-hikes-charges-for-high-security-number-plates-check-new-rates-here-ws-ab-9168617.html
+".
+{{
+cite news
+}}
+:
+External link in
+|
+title=
+(
+help
+)
+↑
+"Switch to new colour scheme"
+.
+The Times of India
+. 7 March 2002.
+↑
+"GSR 633 (E) regarding registration mark"
+(PDF)
+.
+The Ministry of Road Transport and Highways
+. 23 June 2017.
+↑
+"License Plates of India"
+.
+www.worldlicenseplates.com
+. Retrieved
+21 November
+2020
+.
+↑
+"MVDKerala - Registration Numbers"
+. Keralamvd.gov.in. Archived from
+the original
+on 10 July 2013
+. Retrieved
+6 July
+2013
+.
+↑
+"Vehicles of President, vice president to soon have number plates: Delhi HC told"
+.
+The Times of India
+. 4 March 2018
+. Retrieved
+21 November
+2020
+.
+↑
+"Vehicles Of President, Vice President To Have Number Plates, Court Told"
+.
+NDTV.com
+. Retrieved
+21 November
+2020
+.
+v
+t
+e
+Transport in India
+Road
+Ministry of Road Transport and Highways
+National Highways Authority of India
+(NHAI)
+National Highways Development Project
+(NHDP)
+National Highways and Infrastructure Development Corporation Limited
+(NHIDCL)
+Expressways
+National highways
+list
+State highways
+Bus rapid transit
+Motor Vehicles Act
+1988
+Traffic collisions
+Land Ports Authority of India
+Rail
+Ministry of Railways
+Indian Railways
+Dedicated Freight Corridor Corporation of India
+High Speed Rail Corporation of India Limited
+National High Speed Rail Corporation Limited
+High-speed rail
+Suburban rail
+Rapid transit
+Light rail
+Monorail
+Tram
+List of railway lines
+List of railway stations
+Railways Act, 1989
+Rail accidents and incidents
+Air
+Ministry of Civil Aviation
+Directorate General of Civil Aviation
+Airports Authority of India
+List of airlines
+List of airports
+Water
+Ministry of Ports, Shipping and Waterways
+Shipping Corporation of India
+Inland Waterways Authority of India
+List of national waterways in India
+List of ports
+National Waterways Act, 2016
+Places
+States
+Andhra Pradesh
+Eluru
+Vijayawada
+Visakhapatnam
+Karnataka
+Bengaluru
+Mangaluru
+Kerala
+Kochi
+Kollam
+Thiruvananthapuram
+Thrissur
+Maharashtra
+Mumbai
+Nagpur
+Pune
+Tamil Nadu
+Chennai
+Coimbatore
+Madurai
+Tiruchirappalli
+Telangana
+Hyderabad
+West Bengal
+Darjeeling
+Kolkata
+Other
+AR
+AS
+BR
+CT
+GA
+GJ
+HR
+HP
+JK
+JH
+MP
+MN
+ML
+MZ
+NL
+OD
+PB
+RJ
+SK
+TR
+UP
+UT
+Union territories
+AN
+CH
+DN
+DD
+DL
+LD
+PY
+Related
+Regional Transport Office
+(RTO)
+List of RTOs
+Licence plates
+Driving licence
+Road signs
+Speed limits
+v
+t
+e
+Vehicle registration plates of Asia
+Sovereign states
+Afghanistan
+Armenia
+Azerbaijan
+Bahrain
+Bangladesh
+Bhutan
+Brunei
+Cambodia
+China
+Cyprus
+Egypt
+Georgia
+India
+Indonesia
+Iran
+Iraq
+Israel
+Japan
+Jordan
+Kazakhstan
+North Korea
+South Korea
+Kuwait
+Kyrgyzstan
+Laos
+Lebanon
+Malaysia
+Maldives
+Mongolia
+Myanmar
+Nepal
+Oman
+Palestine
+Pakistan
+Philippines
+Qatar
+Russia
+Saudi Arabia
+Singapore
+Sri Lanka
+Syria
+Tajikistan
+Thailand
+Timor-Leste (East Timor)
+Turkey
+Turkmenistan
+United Arab Emirates
+Uzbekistan
+Vietnam
+Yemen
+States with
+limited recognition
+Abkhazia
+Northern Cyprus
+South Ossetia
+Taiwan
+Dependencies
+and
+other territories
+British Indian Ocean Territory
+Christmas Island
+Cocos (Keeling) Islands
+Hong Kong
+Macau
+Category
+Asia portal
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Vehicle_registration_plates_of_India&oldid=1359870446
+"
+Categories
+:
+Vehicle registration plates by country
+Road transport in India
+India transport-related lists
+Vehicles of India
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Use Indian English from June 2024
+All Wikipedia articles written in Indian English
+Use dmy dates from June 2024
+Articles containing Hindi-language text
+CS1 maint: archived copy as title
+Webarchive template wayback links
+CS1 errors: external links
+Commons category link from Wikidata
+Search
+Search
+Vehicle registration plates of India
+14 languages
+Add topic

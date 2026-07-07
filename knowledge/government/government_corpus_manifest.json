@@ -1,0 +1,401 @@
+{
+  "domain": "government",
+  "generated_at": "2026-07-07T14:33:50.602912+00:00",
+  "root": "knowledge/government",
+  "files_total": 34,
+  "chunks_total": 72,
+  "bytes_total": 166887,
+  "extension_counts": {
+    ".txt": 34
+  },
+  "authority_counts": {
+    "DARPG": 2,
+    "DARPG / RTI Online": 1,
+    "EPFO / PFRDA": 2,
+    "GoI": 5,
+    "Income Tax Dept": 3,
+    "Income Tax Dept / Protean (NSDL)": 1,
+    "MEA": 1,
+    "MEA / Passport Seva": 1,
+    "MoRTH / Parivahan": 1,
+    "MoRTH / State Transport Dept": 1,
+    "Municipal/Panchayat Registrar (RBD Act, 1969)": 1,
+    "Parivahan": 1,
+    "Protean (NSDL)": 1,
+    "RTI Online": 3,
+    "State Registration/Revenue Department": 1,
+    "State Registration/Stamps Dept": 1,
+    "State Revenue Department": 1,
+    "State Revenue/Municipal Dept": 1,
+    "State Revenue/Social Welfare Department": 1,
+    "UIDAI": 3,
+    "Various Ministries": 1,
+    "Various State Governments": 1
+  },
+  "folder_counts": {
+    "certificates": 3,
+    "consumer": 2,
+    "cpgrams": 1,
+    "digilocker": 1,
+    "faqs": 5,
+    "grievance_templates": 6,
+    "incometax": 3,
+    "india_gov": 2,
+    "land_records": 1,
+    "nsdl_pan": 1,
+    "parivahan": 1,
+    "passport": 1,
+    "pensions": 1,
+    "rti": 2,
+    "schemes": 1,
+    "state_services": 1,
+    "uidai": 2
+  },
+  "chunk_file": "knowledge/government/chunks/government_chunks.jsonl",
+  "graph_seed_files": [
+    "knowledge/government/knowledge_graph/government_entities.jsonl",
+    "knowledge/government/knowledge_graph/government_relationships.jsonl"
+  ],
+  "files": [
+    {
+      "path": "certificates/birth_death_certificate_guide.txt",
+      "bytes": 1929,
+      "sha256": "ec5b85ae6a4daec5445609ca247f74722dcfc458b9858b73bbc157b6f1a8727a",
+      "chunks": 1,
+      "title": "Birth & Death Certificate — Process & Delay Guide",
+      "authority": "Municipal/Panchayat Registrar (RBD Act, 1969)",
+      "category": "guide",
+      "source_url": null
+    },
+    {
+      "path": "certificates/caste_certificate_guide.txt",
+      "bytes": 1912,
+      "sha256": "a4436cff3e38bd2fffccc59106cae13c12ba20c9396e7b14465a1ab6b094e980",
+      "chunks": 1,
+      "title": "Caste Certificate — Process & Delay Guide",
+      "authority": "State Revenue/Social Welfare Department",
+      "category": "guide",
+      "source_url": null
+    },
+    {
+      "path": "certificates/income_certificate_guide.txt",
+      "bytes": 1616,
+      "sha256": "a85d1f5657d9849d16019f39b2f70eb2280141483aefaadef2e97b7e92a16c96",
+      "chunks": 1,
+      "title": "Income Certificate — Process & Delay Guide",
+      "authority": "State Revenue Department",
+      "category": "guide",
+      "source_url": null
+    },
+    {
+      "path": "consumer/consumer_helpline_home.txt",
+      "bytes": 1279,
+      "sha256": "7e8d2a20c14d616af0bd825f7168c59f8d3708bc16220d7fdc096013c5611aeb",
+      "chunks": 1,
+      "title": "National Consumer Helpline",
+      "authority": "GoI",
+      "category": "overview",
+      "source_url": "https://consumerhelpline.gov.in/"
+    },
+    {
+      "path": "consumer/consumer_helpline_public.txt",
+      "bytes": 1248,
+      "sha256": "dbbe17fec500caed2aba5620a677231d7101613068d8ea01d2f6fa41949bfbae",
+      "chunks": 1,
+      "title": "National Consumer Helpline Portal",
+      "authority": "GoI",
+      "category": "overview",
+      "source_url": "https://consumerhelpline.gov.in/public/index.php"
+    },
+    {
+      "path": "cpgrams/cpgrams_home.txt",
+      "bytes": 2702,
+      "sha256": "a103e4a0ec642d8cb43e35a85200dc7a4824f482679f9e2700a63a18c7e090b6",
+      "chunks": 1,
+      "title": "CPGRAMS Home",
+      "authority": "DARPG",
+      "category": "grievance_portal",
+      "source_url": "https://pgportal.gov.in/"
+    },
+    {
+      "path": "digilocker/digilocker_home.txt",
+      "bytes": 1497,
+      "sha256": "35a1905367f33065304cee3218dc385d2acd02dcae1c161a5796129ec0b516ee",
+      "chunks": 1,
+      "title": "DigiLocker Home",
+      "authority": "GoI",
+      "category": "overview",
+      "source_url": "https://www.digilocker.gov.in/"
+    },
+    {
+      "path": "faqs/aadhaar_update_faqs.txt",
+      "bytes": 2152,
+      "sha256": "7cd787ca80bdeb8529a91ff1f453c2820e59344cc6cec02d4822ee07f5b907aa",
+      "chunks": 1,
+      "title": "Aadhaar Update & Correction FAQs",
+      "authority": "UIDAI",
+      "category": "faq",
+      "source_url": null
+    },
+    {
+      "path": "faqs/cpgrams_rti_faqs.txt",
+      "bytes": 3043,
+      "sha256": "a3a43902c47a265c0f527de3c42198363c0c6e09c524500eaa9b3cd05fdeab23",
+      "chunks": 1,
+      "title": "CPGRAMS Escalation & RTI Filing FAQs",
+      "authority": "DARPG / RTI Online",
+      "category": "faq",
+      "source_url": null
+    },
+    {
+      "path": "faqs/driving_licence_faqs.txt",
+      "bytes": 2175,
+      "sha256": "27000dfd8e0936fb979ac59fc53f5a9b3f9873c4e7ce28b70dbe3e1823e10e93",
+      "chunks": 1,
+      "title": "Driving Licence & Vehicle Services FAQs",
+      "authority": "MoRTH / Parivahan",
+      "category": "faq",
+      "source_url": null
+    },
+    {
+      "path": "faqs/pan_correction_faqs.txt",
+      "bytes": 2167,
+      "sha256": "f3b3059c3d1d1a6cc9ba45d280e8b67e8aefde928196251d1e458bbe3ec295b7",
+      "chunks": 1,
+      "title": "PAN Application & Correction FAQs",
+      "authority": "Income Tax Dept / Protean (NSDL)",
+      "category": "faq",
+      "source_url": null
+    },
+    {
+      "path": "faqs/passport_faqs.txt",
+      "bytes": 1985,
+      "sha256": "d10e8fc6c7d92f7f001610d384d8f8a619a4d287a8e12f4898916015849955ab",
+      "chunks": 1,
+      "title": "Passport Application FAQs",
+      "authority": "MEA / Passport Seva",
+      "category": "faq",
+      "source_url": null
+    },
+    {
+      "path": "grievance_templates/certificate_delay_complaint_template.txt",
+      "bytes": 1908,
+      "sha256": "6a9c799dd81d310d9e232453b4c777a1ffac6c066552a4ad0da3cb4fa91d902e",
+      "chunks": 1,
+      "title": "Certificate Delay Complaint Template (Income/Caste/Birth/Death)",
+      "authority": "State Revenue/Municipal Dept",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "grievance_templates/cpgrams_grievance_template.txt",
+      "bytes": 1616,
+      "sha256": "1f5e47d70c2f35d8828253e5510d20d61419f6ab30e9df0f644dd77311680414",
+      "chunks": 1,
+      "title": "CPGRAMS Public Grievance Filing Template",
+      "authority": "DARPG",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "grievance_templates/driving_licence_dispute_template.txt",
+      "bytes": 1167,
+      "sha256": "a983724dd8096f9405f370cd3dc27db06c730ab50d9866ea57dc7dc6f55229f4",
+      "chunks": 1,
+      "title": "Driving Licence Dispute / Delay Template",
+      "authority": "MoRTH / State Transport Dept",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "grievance_templates/pension_grievance_template.txt",
+      "bytes": 1406,
+      "sha256": "4876e8df8a74e61aa6dd311f95b46df62c1fb72a9fb0551d288a9cf9f0fb475c",
+      "chunks": 1,
+      "title": "Pension Grievance Template (EPFO / NPS)",
+      "authority": "EPFO / PFRDA",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "grievance_templates/property_registration_delay_template.txt",
+      "bytes": 1292,
+      "sha256": "e942f92cfd61379dc313da43328073017de14b3a12404fee1950bed3f2ad6012",
+      "chunks": 1,
+      "title": "Property Registration Delay Complaint Template",
+      "authority": "State Registration/Stamps Dept",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "grievance_templates/rti_application_template.txt",
+      "bytes": 1503,
+      "sha256": "3c6dce711347a418a74541692abd96cbf75be62b032889b9b0eb973f5ae509ac",
+      "chunks": 1,
+      "title": "RTI Application Template",
+      "authority": "RTI Online",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "incometax/incometax_home.txt",
+      "bytes": 7960,
+      "sha256": "b3e3565e11444c10fcecc5053d3d55d696c80aa83edec517452e4a600ae75e62",
+      "chunks": 3,
+      "title": "Income Tax e-Filing Portal",
+      "authority": "Income Tax Dept",
+      "category": "overview",
+      "source_url": "https://www.incometax.gov.in/iec/foportal/"
+    },
+    {
+      "path": "incometax/incometax_return_guide_1.txt",
+      "bytes": 29050,
+      "sha256": "017450ca51775b8723ee0da28d054191e81c71f816844904af28bbc33447b129",
+      "chunks": 11,
+      "title": "Return Applicability Guide 1",
+      "authority": "Income Tax Dept",
+      "category": "guide",
+      "source_url": "https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1"
+    },
+    {
+      "path": "incometax/incometax_return_guide_2.txt",
+      "bytes": 31196,
+      "sha256": "0f8cd1956b12791da9dcad0b8b4cb701254179602668c59837fa0a0212197727",
+      "chunks": 12,
+      "title": "Return Applicability Guide 2",
+      "authority": "Income Tax Dept",
+      "category": "guide",
+      "source_url": "https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-2"
+    },
+    {
+      "path": "india_gov/data_gov_in_home.txt",
+      "bytes": 565,
+      "sha256": "b4af90ee8e2f2b45536d9ecb4a73133b7838837838f871c764042bb0cf8bfcf1",
+      "chunks": 1,
+      "title": "Open Government Data Platform India",
+      "authority": "GoI",
+      "category": "open_data",
+      "source_url": "https://data.gov.in/"
+    },
+    {
+      "path": "india_gov/india_gov_home.txt",
+      "bytes": 3802,
+      "sha256": "c8b76b6e8469735dd2156044237a11f2a2a6994edfa0087da40365696cbd7ff0",
+      "chunks": 2,
+      "title": "National Portal of India",
+      "authority": "GoI",
+      "category": "overview",
+      "source_url": "https://www.india.gov.in/"
+    },
+    {
+      "path": "land_records/property_registration_guide.txt",
+      "bytes": 2100,
+      "sha256": "9bc332533e112ca1c4ca2dca2f34995504900bc8a3621d766e25697e9a2fc30d",
+      "chunks": 1,
+      "title": "Property Registration & Land Records — Process & Delay Guide",
+      "authority": "State Registration/Revenue Department",
+      "category": "guide",
+      "source_url": null
+    },
+    {
+      "path": "nsdl_pan/protean_pan_index.txt",
+      "bytes": 5687,
+      "sha256": "1ea95626c63c82e2a10340852caeae3078a5e55cfab984d746d4d29250383574",
+      "chunks": 2,
+      "title": "PAN Services Index (archived)",
+      "authority": "Protean (NSDL)",
+      "category": "guide",
+      "source_url": "https://web.archive.org/web/2024/https://www.protean-tinpan.com/services/pan/pan-index.html"
+    },
+    {
+      "path": "parivahan/parivahan_home.txt",
+      "bytes": 4424,
+      "sha256": "a54186c61cdb85749f78efdc0107b0c3369fb01548d5fc92c02852c98282d53b",
+      "chunks": 2,
+      "title": "Parivahan Sewa Portal (archived)",
+      "authority": "Parivahan",
+      "category": "overview",
+      "source_url": "https://web.archive.org/web/2024/https://parivahan.gov.in/parivahan/en"
+    },
+    {
+      "path": "passport/mea_home.txt",
+      "bytes": 3593,
+      "sha256": "22961ee9867458dc7c1be9cb875ae455473b026fc7c49aea1a1d1f583d1ecec2",
+      "chunks": 2,
+      "title": "Ministry of External Affairs Home",
+      "authority": "MEA",
+      "category": "overview",
+      "source_url": "https://www.mea.gov.in/"
+    },
+    {
+      "path": "pensions/pension_grievance_guide.txt",
+      "bytes": 1889,
+      "sha256": "a506af386d098375ad196ef797e1ae635686b873cf327a581ef4491c0f303c7d",
+      "chunks": 1,
+      "title": "Pension Grievance — EPFO & NPS Guide",
+      "authority": "EPFO / PFRDA",
+      "category": "guide",
+      "source_url": null
+    },
+    {
+      "path": "rti/rti_online_home.txt",
+      "bytes": 2215,
+      "sha256": "d32449204913d7dd5f9fe6aeec908bbeb459a119f31b8c7923e9df1530867984",
+      "chunks": 1,
+      "title": "RTI Online Home",
+      "authority": "RTI Online",
+      "category": "overview",
+      "source_url": "https://rtionline.gov.in/"
+    },
+    {
+      "path": "rti/rti_online_index.txt",
+      "bytes": 2215,
+      "sha256": "d32449204913d7dd5f9fe6aeec908bbeb459a119f31b8c7923e9df1530867984",
+      "chunks": 1,
+      "title": "RTI Online Index",
+      "authority": "RTI Online",
+      "category": "guide",
+      "source_url": "https://rtionline.gov.in/index.php"
+    },
+    {
+      "path": "schemes/government_schemes_overview.txt",
+      "bytes": 1754,
+      "sha256": "60ced8c44aa5e494da25a12f6ce0e3eeb656185f8a5ee57ca3f188ad0dfc7bc2",
+      "chunks": 1,
+      "title": "Common Government Welfare Schemes — Grievance-Relevant Overview",
+      "authority": "Various Ministries",
+      "category": "reference",
+      "source_url": null
+    },
+    {
+      "path": "state_services/state_citizen_service_portals.txt",
+      "bytes": 2608,
+      "sha256": "3e2975816330356b5d29cb4b7abfa8cfe16eb469269c5537ef49332c82247b07",
+      "chunks": 1,
+      "title": "State Government Citizen Service Portals — Overview",
+      "authority": "Various State Governments",
+      "category": "reference",
+      "source_url": null
+    },
+    {
+      "path": "uidai/uidai_about_aadhaar.txt",
+      "bytes": 23628,
+      "sha256": "287e50025e20720af214a2bf6d0b70aaad82ca44bee5ba3302fc70666eeaae47",
+      "chunks": 9,
+      "title": "About Your Aadhaar",
+      "authority": "UIDAI",
+      "category": "aadhaar_guide",
+      "source_url": "https://uidai.gov.in/en/my-aadhaar/about-your-aadhaar.html"
+    },
+    {
+      "path": "uidai/uidai_legal_framework.txt",
+      "bytes": 11604,
+      "sha256": "7e2db5afec70670527015de4a9246da33102af75ebb4fbc690c90e1bbb91f52a",
+      "chunks": 4,
+      "title": "UIDAI Legal Framework",
+      "authority": "UIDAI",
+      "category": "regulations",
+      "source_url": "https://uidai.gov.in/en/about-uidai/legal-framework.html"
+    }
+  ]
+}
