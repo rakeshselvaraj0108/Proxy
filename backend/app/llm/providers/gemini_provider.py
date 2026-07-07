@@ -14,6 +14,10 @@ class GeminiProvider(LLMProvider):
         self.settings = settings
         self._configured = False
 
+    @property
+    def embedding_dimension(self) -> int:
+        return self.settings.gemini_embedding_dimension
+
     def _configure(self) -> bool:
         if self._configured:
             return True
@@ -50,7 +54,7 @@ class GeminiProvider(LLMProvider):
             return self.settings.gemini_summarization_model
         if purpose == "ocr":
             return self.settings.gemini_ocr_model
-        return self.settings.gemini_reasoning_model
+        return self.settings.gemini_reasoning_model  # covers reasoning + kg_extraction (no dedicated Gemini KG model)
 
     async def generate(
         self,

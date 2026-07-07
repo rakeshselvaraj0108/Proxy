@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 import math
+import os
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -37,13 +39,27 @@ class JsonlVectorStore(VectorStore):
         return len(points)
 
     def flush(self, collection: str | None = None) -> None:
+        """Write-to-temp-then-rename so a crash/kill mid-write can never
+        truncate or corrupt the previously-durable file — os.replace is
+        atomic, so readers always see either the old complete file or the
+        new complete file, never a partial one."""
         targets = [collection] if collection else list(self._dirty)
         for name in targets:
             if name not in self._cache:
                 continue
-            with self._path(name).open("w", encoding="utf-8") as handle:
-                for record in self._cache[name].values():
-                    handle.write(json.dumps(record, ensure_ascii=True) + "\n")
+            target_path = self._path(name)
+            fd, tmp_path = tempfile.mkstemp(dir=target_path.parent, prefix=f".{target_path.stem}.", suffix=".tmp")
+            try:
+                with os.fdopen(fd, "w", encoding="utf-8") as handle:
+                    for record in self._cache[name].values():
+                        handle.write(json.dumps(record, ensure_ascii=True) + "\n")
+                os.replace(tmp_path, target_path)
+            except BaseException:
+                try:
+                    os.unlink(tmp_path)
+                except OSError:
+                    pass
+                raise
             self._dirty.discard(name)
 
     def query(
@@ -74,6 +90,13 @@ class JsonlVectorStore(VectorStore):
 
     def count(self, collection: str) -> int:
         return len(self._load(collection))
+
+    def get_dimension(self, collection: str) -> int | None:
+        for record in self._load(collection).values():
+            vector = record.get("vector")
+            if vector:
+                return len(vector)
+        return None
 
     def health_check(self) -> dict[str, Any]:
         collections = list(self.root.glob("*.jsonl"))

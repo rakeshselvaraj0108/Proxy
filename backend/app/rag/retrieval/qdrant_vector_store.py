@@ -91,6 +91,18 @@ class QdrantVectorStore(VectorStore):
         info = self._get_client().get_collection(collection)
         return int(info.points_count)
 
+    def get_dimension(self, collection: str) -> int | None:
+        if not self.collection_exists(collection):
+            return None
+        info = self._get_client().get_collection(collection)
+        vectors_config = info.config.params.vectors
+        if hasattr(vectors_config, "size"):
+            return int(vectors_config.size)
+        if isinstance(vectors_config, dict) and vectors_config:
+            first = next(iter(vectors_config.values()))
+            return int(first.size)
+        return None
+
     def health_check(self) -> dict[str, Any]:
         client = self._get_client()
         collections = client.get_collections().collections

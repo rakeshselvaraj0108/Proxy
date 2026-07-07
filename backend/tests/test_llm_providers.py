@@ -18,7 +18,7 @@ from app.llm.gemini.service import gemini_service as gemini_alias
 from app.llm.observability import RateLimiter, build_retrying, is_retryable
 from app.llm.providers.gemini_provider import GeminiProvider
 from app.llm.providers.nvidia_provider import NvidiaProvider
-from app.llm.service import _build_provider, get_llm_provider, llm_service
+from app.llm.service import _build_provider, get_llm_provider, get_raw_provider, llm_service
 
 
 def _settings(**overrides) -> Settings:
@@ -65,7 +65,11 @@ def test_factory_rejects_unknown_provider() -> None:
 def test_gemini_alias_matches_configured_provider() -> None:
     # conftest pins LLM_PROVIDER=gemini for the whole suite.
     assert gemini_alias is llm_service
-    assert isinstance(get_llm_provider(), GeminiProvider)
+    # get_llm_provider() returns the wrapped chain (cache + router); the
+    # concrete provider is reachable underneath, or directly via get_raw_provider().
+    wrapped = get_llm_provider()
+    assert isinstance(wrapped.inner.provider, GeminiProvider)
+    assert isinstance(get_raw_provider(), GeminiProvider)
 
 
 # ---- Model routing ------------------------------------------------------

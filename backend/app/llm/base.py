@@ -3,7 +3,7 @@ from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import AsyncIterator, Literal
 
-LLMPurpose = Literal["reasoning", "router", "planner", "response", "summarization", "ocr"]
+LLMPurpose = Literal["reasoning", "router", "planner", "response", "summarization", "ocr", "kg_extraction"]
 EmbeddingPurpose = Literal["document", "query"]
 
 
@@ -15,6 +15,11 @@ class LLMProvider(ABC):
     """
 
     name: str
+
+    @property
+    @abstractmethod
+    def embedding_dimension(self) -> int:
+        """Vector size this provider's configured embedding model produces."""
 
     @abstractmethod
     def model_for(self, purpose: LLMPurpose | None = None, model_name: str | None = None) -> str:

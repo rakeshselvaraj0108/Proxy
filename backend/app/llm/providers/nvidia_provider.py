@@ -9,6 +9,12 @@ from app.llm.base import LLMProvider, LLMPurpose
 from app.llm.observability import RateLimiter, build_retrying, log_llm_call
 
 
+class _TokenLimitExceeded(Exception):
+    """The embedding model rejected a text as longer than its max token
+    window. Not retryable as-is (retrying the same text won't help) — the
+    caller shrinks the text and retries with a smaller version instead."""
+
+
 class NvidiaProvider(LLMProvider):
     """NVIDIA NIM provider using the OpenAI-compatible /chat/completions and
     /embeddings endpoints at integrate.api.nvidia.com (or a self-hosted NIM)."""
@@ -18,6 +24,10 @@ class NvidiaProvider(LLMProvider):
     def __init__(self, settings: Settings) -> None:
         self.settings = settings
         self._rate_limiter = RateLimiter(settings.nvidia_rate_limit_per_minute)
+
+    @property
+    def embedding_dimension(self) -> int:
+        return self.settings.nvidia_embedding_dimension
 
     def _configured(self) -> bool:
         return bool(self.settings.nvidia_api_key) and not self.settings.disable_external_llm
@@ -48,6 +58,8 @@ class NvidiaProvider(LLMProvider):
             return self.settings.nvidia_summarization_model
         if purpose == "ocr":
             return self.settings.nvidia_ocr_model
+        if purpose == "kg_extraction":
+            return self.settings.nvidia_kg_model
         return self.settings.nvidia_reasoning_model
 
     async def generate(
@@ -169,6 +181,37 @@ class NvidiaProvider(LLMProvider):
                 return [self._hash_embedding(text) for text in texts]
             raise RuntimeError("NVIDIA API is not configured. Please set NVIDIA_API_KEY in your environment/dotenv file.")
 
+        try:
+            return await self._embed_call(texts, input_type)
+        except _TokenLimitExceeded:
+            # The chunker's char->token estimate is approximate and occasionally
+            # underestimates dense/technical text. Rather than drop the offending
+            # chunks (orphan vectors), fall back to embedding one text at a time,
+            # shrinking any text that still exceeds the limit until it fits — every
+            # input text is guaranteed a vector back.
+            return [await self._embed_one_with_shrink(text, input_type) for text in texts]
+        except Exception as exc:
+            if self.settings.environment == "test" or self.settings.disable_external_llm:
+                return [self._hash_embedding(text) for text in texts]
+            raise RuntimeError(f"NVIDIA embedding API call failed: {exc}") from exc
+
+    async def _embed_one_with_shrink(self, text: str, input_type: str, max_attempts: int = 5) -> list[float]:
+        current = text
+        for attempt in range(max_attempts):
+            try:
+                vectors = await self._embed_call([current], input_type)
+                return vectors[0]
+            except _TokenLimitExceeded:
+                current = current[: max(200, int(len(current) * 0.65))]
+            except Exception as exc:
+                if self.settings.environment == "test" or self.settings.disable_external_llm:
+                    return self._hash_embedding(text)
+                raise RuntimeError(f"NVIDIA embedding API call failed: {exc}") from exc
+        # Final aggressive truncation — guarantees a vector rather than an orphan chunk.
+        vectors = await self._embed_call([current[:400]], input_type)
+        return vectors[0]
+
+    async def _embed_call(self, texts: list[str], input_type: str) -> list[list[float]]:
         payload = {
             "model": self.settings.nvidia_embedding_model,
             "input": texts,
@@ -178,29 +221,24 @@ class NvidiaProvider(LLMProvider):
 
         async def _call() -> httpx.Response:
             await self._rate_limiter.acquire()
-            async with httpx.AsyncClient(timeout=self.settings.nvidia_request_timeout_seconds) as client:
+            async with httpx.AsyncClient(timeout=self.settings.nvidia_embedding_timeout_seconds) as client:
                 resp = await client.post(
                     f"{self.settings.nvidia_base_url}/embeddings",
                     headers=self._headers(),
                     json=payload,
                 )
+                if resp.status_code == 400 and "exceeds maximum allowed token size" in resp.text:
+                    raise _TokenLimitExceeded(resp.text)
                 resp.raise_for_status()
                 return resp
 
         async with log_llm_call(self.name, "embed", input_type, self.settings.nvidia_embedding_model):
-            try:
-                retryer = build_retrying(self.settings.nvidia_max_retries)
-                response = None
-                async for attempt in retryer:
-                    with attempt:
-                        response = await _call()
-                data = response.json()
-            except Exception as exc:
-                # Local fallback embedding for development only — never used when a
-                # real key is configured and the service call actually succeeds.
-                if self.settings.environment == "test" or self.settings.disable_external_llm:
-                    return [self._hash_embedding(text) for text in texts]
-                raise RuntimeError(f"NVIDIA embedding API call failed: {exc}") from exc
+            retryer = build_retrying(self.settings.nvidia_max_retries)
+            response = None
+            async for attempt in retryer:
+                with attempt:
+                    response = await _call()
+            data = response.json()
 
         items = sorted(data.get("data", []), key=lambda item: item.get("index", 0))
         vectors = [[float(v) for v in item["embedding"]] for item in items]

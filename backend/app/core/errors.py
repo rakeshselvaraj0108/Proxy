@@ -10,6 +10,16 @@ class ProxyError(Exception):
         super().__init__(message)
 
 
+class LLMUnavailableError(ProxyError):
+    """Raised after the ModelRouter exhausts the primary model and its
+    fallback. Carries a generic, user-safe message — never the underlying
+    provider error text (which may contain endpoint URLs, model ids, or
+    other internal detail that shouldn't reach the frontend)."""
+
+    def __init__(self, message: str = "The assistant is temporarily unavailable. Please try again shortly.") -> None:
+        super().__init__(message, status_code=503, code="llm_unavailable")
+
+
 def register_exception_handlers(app: FastAPI) -> None:
     @app.exception_handler(ProxyError)
     async def proxy_error_handler(_: Request, exc: ProxyError) -> JSONResponse:

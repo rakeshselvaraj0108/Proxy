@@ -1,6 +1,8 @@
-﻿from app.knowledge_graph.factory import get_graph_store
+﻿from app.core.config import get_settings
+from app.knowledge_graph.factory import get_graph_store
 from app.knowledge_graph.graph_store import GraphStore
 from app.models.domain import Domain
+from app.services.cache import graph_cache_key, redis_cache
 
 
 class Neo4jKnowledgeGraph:
@@ -16,13 +18,25 @@ class Neo4jKnowledgeGraph:
         return self._store
 
     async def upsert_case_graph(self, case: dict, evidence: dict | None = None) -> dict:
-        return await self.store.upsert_case_graph(case, evidence)
+        result = await self.store.upsert_case_graph(case, evidence)
+        domain = case.get("domain")
+        domain_value = domain.value if hasattr(domain, "value") else domain
+        institution = case.get("institution_name")
+        if domain_value and institution:
+            await redis_cache.delete(graph_cache_key(domain_value, institution))
+        return result
 
     async def upsert_knowledge_document(self, domain: Domain, document_id: str, title: str, source_path: str, metadata: dict) -> dict:
         return await self.store.upsert_knowledge_document(domain, document_id, title, source_path, metadata)
 
     async def find_institution_patterns(self, domain: Domain, institution_name: str) -> list[dict]:
-        return await self.store.query_institution_pattern(domain, institution_name)
+        key = graph_cache_key(domain.value, institution_name)
+        cached = await redis_cache.get_json(key)
+        if cached is not None:
+            return cached
+        result = await self.store.query_institution_pattern(domain, institution_name)
+        await redis_cache.set_json(key, result, get_settings().cache_graph_ttl_seconds)
+        return result
 
     async def find_similar_cases(self, domain: Domain, institution_name: str, limit: int = 5) -> list[dict]:
         return await self.store.find_similar_cases(domain, institution_name, limit)

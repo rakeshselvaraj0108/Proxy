@@ -41,3 +41,7 @@ class VectorStore(ABC):
 
     def flush(self, collection: str | None = None) -> None:
         return None
+
+    def get_dimension(self, collection: str) -> int | None:
+        """Vector size actually stored in `collection`, or None if empty/missing."""
+        return None

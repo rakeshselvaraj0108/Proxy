@@ -1,17 +1,37 @@
-﻿from uuid import NAMESPACE_URL, uuid5
+from __future__ import annotations
+
+import logging
+from uuid import NAMESPACE_URL, uuid5
 
 from app.core.config import get_settings
 from app.llm.service import llm_service
 from app.models.domain import Domain
+from app.rag.retrieval.collection_registry import get_collection_registry
 from app.rag.retrieval.factory import get_vector_store
+from app.services.cache import chunks_cache_key, redis_cache
+
+logger = logging.getLogger("app.rag.qdrant_service")
 
 
 class QdrantService:
     def __init__(self) -> None:
         self.settings = get_settings()
 
-    def collection_name(self, domain: Domain) -> str:
+    def _legacy_collection_name(self, domain: Domain) -> str:
         return f"{self.settings.qdrant_collection_prefix}_{domain.value}"
+
+    def collection_name(self, domain: Domain) -> str:
+        """Active, versioned collection name for a domain. Bootstraps a v1
+        registry entry pointing at the pre-existing unversioned collection
+        the first time a domain is touched, so no data is renamed/moved."""
+        registry = get_collection_registry()
+        store = get_vector_store()
+        legacy_name = self._legacy_collection_name(domain)
+        entry = registry.ensure_bootstrapped(
+            domain.value, legacy_name, lambda: store.get_dimension(legacy_name)
+        )
+        active = registry.get_active(domain.value)
+        return active["collection_name"] if active else legacy_name
 
     async def upsert_chunks(self, domain: Domain, document_id: str, chunks: list[str], metadata: dict) -> int:
         if not chunks:
@@ -38,13 +58,52 @@ class QdrantService:
         store.flush(collection_name)
         return count
 
-    async def search(self, domain: Domain, query: str, limit: int = 5, filters: dict | None = None) -> list[dict]:
+    def dimension_status(self, domain: Domain) -> dict:
+        """Compare the active collection's stored vector dimension against
+        the currently configured provider's embedding dimension."""
         collection_name = self.collection_name(domain)
+        registry = get_collection_registry()
+        active = registry.get_active(domain.value)
+        target_dimension = llm_service.embedding_dimension
+        current_dimension = active.get("dimension") if active else None
+        if current_dimension is None:
+            store = get_vector_store()
+            current_dimension = store.get_dimension(collection_name)
+            if active and current_dimension is not None:
+                registry.update_version(domain.value, active["version"], dimension=current_dimension)
+        needs_reindex = current_dimension is not None and current_dimension != target_dimension
+        if needs_reindex and active and active.get("status") != "needs_reindex":
+            registry.mark_needs_reindex(domain.value, active["version"])
+        return {
+            "collection_name": collection_name,
+            "current_dimension": current_dimension,
+            "target_dimension": target_dimension,
+            "needs_reindex": needs_reindex,
+            "provider": active.get("provider") if active else "legacy",
+            "embedding_model": active.get("embedding_model") if active else "unknown",
+            "last_indexed": active.get("last_indexed") if active else None,
+        }
+
+    async def search(self, domain: Domain, query: str, limit: int = 5, filters: dict | None = None) -> list[dict]:
+        status = self.dimension_status(domain)
+        if status["needs_reindex"]:
+            logger.warning(
+                "vector_search_skipped_dimension_mismatch domain=%s current_dim=%s target_dim=%s",
+                domain.value, status["current_dimension"], status["target_dimension"],
+            )
+            return []
+
+        cache_key = chunks_cache_key(domain.value, query, limit, filters)
+        cached = await redis_cache.get_json(cache_key)
+        if cached is not None:
+            return cached
+
+        collection_name = status["collection_name"]
         store = get_vector_store()
         query_vector = await llm_service.embed_query(query)
         hits = store.query(collection_name, query_vector, top_k=limit, filters=filters)
         if hits:
-            return [
+            results = [
                 {
                     "id": str(hit["id"]),
                     "score": float(hit["score"]),
@@ -53,6 +112,8 @@ class QdrantService:
                 }
                 for hit in hits
             ]
+            await redis_cache.set_json(cache_key, results, self.settings.cache_chunks_ttl_seconds)
+            return results
 
         if self.settings.environment != "development":
             return []
@@ -74,4 +135,3 @@ class QdrantService:
 
 
 qdrant_service = QdrantService()
-
