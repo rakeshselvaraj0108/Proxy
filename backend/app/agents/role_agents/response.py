@@ -38,10 +38,13 @@ def _render_specialist_results(results: list[dict]) -> str | None:
         if not isinstance(strategy, dict):
             continue
         name = result.get("specialist_name", "Specialist")
-        # "analysis" is the common first field across every domain's output
-        # schema (housing/airlines/healthcare/etc. all define one), so lead
-        # with it; append every other field as supporting detail.
-        lines = [f"## {name}"]
+        # "###" (not "##") because the caller nests this under a domain-level
+        # "##" heading -- and "analysis" is the common first field across
+        # every domain's output schema (housing/airlines/healthcare/etc. all
+        # define one), so lead with it as plain prose, then render every
+        # other field as a proper markdown list/line, not a comma-joined
+        # run-on sentence.
+        lines = [f"### {name}"]
         analysis = strategy.get("analysis")
         if analysis:
             lines.append(str(analysis))
@@ -49,8 +52,11 @@ def _render_specialist_results(results: list[dict]) -> str | None:
             if key == "analysis" or not value:
                 continue
             label = key.replace("_", " ").title()
-            rendered = ", ".join(str(v) for v in value) if isinstance(value, list) else str(value)
-            lines.append(f"**{label}:** {rendered}")
+            if isinstance(value, list):
+                lines.append(f"\n**{label}:**")
+                lines.extend(f"- {item}" for item in value)
+            else:
+                lines.append(f"\n**{label}:** {value}")
         sections.append("\n".join(lines))
     return "\n\n".join(sections) if sections else None
 
