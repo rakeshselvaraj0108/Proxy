@@ -1,0 +1,9 @@
+{
+  "title": "RBI Notifications",
+  "authority": "RBI",
+  "source_url": "https://www.rbi.org.in/Scripts/NotificationUser.aspx",
+  "domain": "banking",
+  "type": "html_text",
+  "category": "notifications",
+  "raw_chars": 9857
+}

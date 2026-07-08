@@ -1,0 +1,979 @@
+Real-time gross settlement - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+(Redirected from
+Real Time Gross Settlement
+)
+Electronic fund transfer system
+For other uses, see
+RTGS
+.
+Real-time gross settlement
+(
+RTGS
+) systems are specialist
+funds transfer systems
+where the transfer of
+money
+or
+securities
+[
+1
+]
+takes place from one
+bank
+to any other bank on a "real-time" and on a "
+gross
+" basis to avoid
+settlement risk
+.
+Settlement
+in "real time" means a payment
+transaction
+is not subjected to any waiting period, with transactions being settled as soon as they are processed. However, real time does not necessarily mean immediately or
+instantly
+and can be subject to processing (e.g., wire transfers via FedWire are real time but can take hours in some cases while the issuing or reviewing bank’s wire room reviews or processes it, if necessary). "Gross settlement" means the transaction is settled on a one-to-one basis, without bundling or
+netting
+with any other transaction. "Settlement" means that once processed, payments are final and irrevocable.
+History
+[
+edit
+]
+As of 1985, three central banks implemented RTGS systems, while by the end of 2005, RTGS systems had been implemented by 90 central banks.
+[
+2
+]
+The first system that had the attributes of an RTGS system was the US
+Fedwire
+system which was launched in 1970.  This was based on a previous method of transferring funds electronically between US federal reserve banks via
+telegraph
+.  The United Kingdom and France both independently developed RTGS type systems in 1984.  The UK system was developed by the
+Bankers' Clearing House
+in February 1984 and was called
+CHAPS
+.  The French system was called SAGITTAIRE.  A number of other developed countries launched systems over the next few years.  These systems were diverse in operation and technology, being country-specific as they were usually based upon previous processes and procedures used in each country.
+In the 1990s international finance organizations emphasized the importance of large-value funds transfer systems which banks use to settle interbank transfers for their own account as well as for their customers as a key part of a country's
+financial market infrastructure
+.  By 1997 a number of countries, inside as well as outside the
+Group of Ten
+, had introduced real-time gross settlement systems for large-value funds transfers. Nearly all G-10 countries had plans to have RTGS systems in operation in the course of 1997 and many other countries were also considering introducing such systems.
+[
+3
+]
+Operation
+[
+edit
+]
+RTGS systems are usually operated by a country's
+central bank
+as it is seen as critical infrastructure for a country's economy. Economists believe that an efficient national payment system reduces the cost of exchanging
+goods and services
+, and is indispensable to the functioning of the interbank, money, and capital markets. A weak payment system may severely drag on the stability and developmental capacity of a national economy; its failures can result in inefficient use of financial resources, inequitable risk-sharing among agents, actual losses for participants, and loss of confidence in the financial system and in the very use of money.
+[
+4
+]
+RTGS system does not require any physical exchange of money; the central bank makes adjustments in the electronic accounts of Bank A and Bank B, reducing the balance in Bank A’s account by the amount in question and increasing the balance of Bank B’s account by the same amount. The RTGS system is suited for low-volume, high-value transactions. It lowers settlement risk, besides giving an accurate picture of an institution’s account at any point in time. The objective of RTGS systems by central banks throughout the world is to minimize risk in high-value electronic payment settlement systems. In an RTGS system, transactions are settled across accounts held at a central bank on a continuous gross basis. The settlement is immediate, final, and irrevocable. Credit risks due to settlement lags are eliminated. The best RTGS national payment systems cover up to 95% of high-value transactions within the national monetary market.
+RTGS systems are an alternative to systems of settling transactions at the end of the day, also known as the net settlement system, such as the
+BACS
+system in the United Kingdom. In a net settlement system, all the inter-institution transactions during the day are accumulated, and at the end of the day, the central bank adjusts the accounts of the institutions by the net amounts of these transactions.
+[
+5
+]
+The
+World Bank
+has been paying increasing attention to payment system development as a key component of the financial infrastructure of a country and has provided various forms of assistance to over 100 countries. Most of the RTGS systems in place are secure and have been designed around international standards and best practices.
+[
+6
+]
+There are several reasons for central banks to adopt RTGS. First, a decision to adopt is influenced by competitive pressure from the global financial markets. Second, it is more beneficial to adopt an RTGS system for the central bank when this allows access to a broad system of other countries' RTGS systems. Third, it is very likely that the knowledge acquired through experiences with RTGS systems spills over to other central banks and helps them make their adoption decision. Fourth, central banks do not necessarily have to install and develop RTGS themselves. The possibility of sharing development with providers that have built RTGS systems in more than one country (
+CGI
+of UK holding the IP, CMA Small System of Sweden, JV Perago of South Africa,
+SIA S.p.A.
+of Italy and Montran of USA) has presumably lowered the cost and hence made it feasible for many countries to adopt.
+[
+7
+]
+Existing systems
+[
+edit
+]
+World map with main systems used for large-value payments
+Below is a listing of countries and their RTGS systems:
+Country
+System
+African Union
+PAPSS
+(Pan-African Payment and Settlement System)
+[
+8
+]
+Angola
+SPTR (
+Portuguese
+:
+Sistema de pagamentos em tempo real
+; Real-time Payment System)
+Argentina
+MEP (
+Spanish
+:
+Medio electrónico de pagos
+; Electronic Means of Payment)
+[
+9
+]
+Azerbaijan
+AZIPS (Azerbaijan Interbank Payment System)
+[
+10
+]
+Australia
+RITS (
+Reserve Bank
+Information and Transfer System)
+Bahrain
+RTGS (Real Time Gross Settlement System)
+[
+11
+]
+Bangladesh
+BD-RTGS (
+Bangladesh Bank
+Payment Service Division)
+Barbados
+CBRTGS (Central Bank Real Time Gross Settlement System)
+[
+12
+]
+Bosnia and Herzegovina
+RTGS
+Belarus
+BISS (Belarus Interbank Settlement System)
+[
+13
+]
+Bulgaria
+RINGS (Real-time Interbank Gross Settlement)
+Brazil
+STR (
+Portuguese
+:
+Sistema de Transferência de Reservas
+; Reserves Transfer System)
+Canada
+Lynx
+[
+14
+]
+China
+CIPS (
+Cross-Border Interbank Payment System
+)
+[
+15
+]
+Chile
+LBTR/CAS (
+Spanish
+:
+Liquidación Bruta en Tiempo Real
+; Real-time Gross Settlement)
+Costa Rica
+TEF (
+Spanish
+:
+Transferencia Electrónica de Fondos
+; Electronic Funds Transfer)
+[
+16
+]
+Czech Republic
+CERTIS (Czech Express Real Time Interbank Gross Settlement System)
+Denmark
+KRONOS2
+Dominican Republic
+LBTR (
+Spanish
+:
+Liquidación Bruta en Tiempo Real
+; Gross Settlement in Real Time)
+[
+17
+]
+Egypt
+RTGS
+[
+18
+]
+Ethiopia
+EATS (Ethiopian Automated Transfer System)
+[
+19
+]
+Eurozone
+T2
+[
+20
+]
+Fiji
+FIJICLEAR
+[
+21
+]
+Hong Kong
+CHATS
+(Clearing House Automated Transfer System)
+Hungary
+VIBER (
+Hungarian
+:
+Valós Idejű Bruttó Elszámolási Rendszer
+; Real-time Gross Settlement System)
+Georgia
+GPSS (Georgian Payment and Securities System)
+[
+22
+]
+India
+RTGS
+[
+23
+]
+Indonesia
+BI-RTGS (Bank Indonesia Real Time Gross Settlement Sistem)
+Iran
+SATNA (سامانه تسویه ناخالص آنی, Real-Time Gross Settlement System)
+Iraq
+RTGS (Real Time Gross Settlement System)
+[
+24
+]
+Israel
+Zahav (
+Hebrew
+:
+זה"ב זיכויים והעברות בזמן אמת
+; Zahav Real-time Credits and Transfers)
+[
+25
+]
+Japan
+BOJ-NET
+(Bank of Japan Financial Network System)
+[
+26
+]
+Jordan
+RTGS-J
+[
+27
+]
+Kenya
+KEPSS (Kenya Electronic Payment and Settlement System)
+[
+28
+]
+Korea
+BOK-WIRE+ (The Bank of Korea Financial Wire Network, 한은금융망)
+Kuwait
+KASSIP (Kuwait's Automated Settlement System for Inter-Participant Payments)
+Lebanon
+BDL-RTGS (Banque Du Liban – Real Time Gross Settlement)
+[
+29
+]
+Macao
+RTGS
+[
+30
+]
+Malawi
+MITASS (Malawi Interbank Settlement System)
+Malaysia
+RENTAS (Real Time Electronic Transfer of Funds and Securities)
+Mauritius
+MACSS (Mauritius Automated Clearing and Settlement System)
+[
+31
+]
+Mexico
+SPEI (
+Spanish
+:
+Sistema de Pagos Electrónicos Interbancarios
+; Interbank Electronic Payment System)
+[
+32
+]
+Morocco
+SRBM (Système de règlement brut du Maroc; Moroccan Gross Settlement System)
+[
+33
+]
+Namibia
+NISS (Namibia Interbank Settlement System)
+[
+34
+]
+New Zealand
+ESAS (Exchange Settlement Account System)
+Nigeria
+CIFTS (CBN Inter-Bank Funds Transfer System)
+North Macedonia
+MIPS (Macedonian Interbank Payment System)
+[
+35
+]
+Pakistan
+RTGS (Real Time Gross Settlement System)
+[
+36
+]
+Paraguay
+LBTR (
+Spanish
+:
+Liquidación Bruta en Tiempo Real
+; Gross Settlement in Real Time)
+Peru
+LBTR (
+Spanish
+:
+Liquidación Bruta en Tiempo Real
+; Gross Settlement in Real Time)
+Philippines
+RTGS PS (Peso Real-Time Gross Settlement Payment System), also known as PhilPaSS
+plus
+[
+37
+]
+Poland
+SORBNET3
+[
+38
+]
+Qatar
+QPS (Qatar Payment System)
+[
+39
+]
+Russia
+BESP System (Banking Electronic Speed Payment System)
+[
+40
+]
+Romania
+ReGIS
+[
+41
+]
+Saudi Arabia
+SARIE (Saudi Arabian Riyal Interbank Express)
+[
+42
+]
+Singapore
+MEPS+ (MAS Electronic Payment System Plus)
+[
+43
+]
+South Africa
+SAMOS (The South African Multiple Option Settlement)
+[
+44
+]
+Sri Lanka
+LankaSettle (RTGS/SSSS)
+[
+45
+]
+Sweden
+RIX (
+Swedish
+:
+Riksbankens system för överföring av kontoförda pengar
+)
+[
+46
+]
+Switzerland
+SIC (
+Swiss Interbank Clearing
+)
+[
+47
+]
+Taiwan
+CIFS (CBC Interbank Funds Transfer System)
+[
+48
+]
+Tunisia
+Système de Virements de Gros Montant Tunisien (SGMT)
+[
+49
+]
+Tanzania
+TISS (Tanzania Interbank Settlement System)
+[
+50
+]
+Thailand
+BAHTNET (Bank of Thailand Automated High Value Transfer Network)
+[
+51
+]
+Turkey
+EFT (Electronic Fund Transfer)
+[
+52
+]
+Ukraine
+SEP (System of Electronic Payments of the National Bank of Ukraine)
+[
+53
+]
+United Arab Emirates
+UAEFTS (UAE Funds Transfer System)
+[
+54
+]
+United Kingdom
+FPS
+(Faster Payments System)
+[
+55
+]
+and
+CHAPS
+(Clearing House Automated Payment System)
+[
+56
+]
+United States
+Fedwire
+Uganda
+UNIS
+(Uganda National Interbank Settlement)
+[
+57
+]
+Vietnam
+IBPS
+[
+58
+]
+Zambia
+ZIPSS (Zambian Interbank Payment and Settlement System)
+[
+59
+]
+Zimbabwe
+ZETSS (Zimbabwe Electronic Transfer and Settlement System)
+[
+60
+]
+In 2010, the World Bank published a report on payment systems worldwide, which investigated these countries' usage of real-time gross settlement systems for large-value payments.
+[
+61
+]
+[
+62
+]
+See also
+[
+edit
+]
+Net settlement
+Automated clearing house
+Payment system
+SWIFT
+References
+[
+edit
+]
+↑
+Committee on Payment and Settlement Systems of the central banks of the Group of Ten countries (March 1997).
+"Real-Time Gross Settlement Systems"
+(PDF)
+.
+Bank for International Settlements
+: 14.
+Archived
+(PDF)
+from the original on 2010-10-20.
+{{
+cite journal
+}}
+:
+Cite journal requires
+|
+journal=
+(
+help
+)
+↑
+Morten Bech, Bart Hobijn, "Technology Diffusion within Central Banking: The Case of Real-Time Gross Settlement", Staff Report NJ. 260, Federal Reserve Bank of New York, Working Paper, September 2007, p. 2
+↑
+Committee on Payment and Settlement Systems of the central banks of the Group of Ten countries (March 5, 1997).
+"Real-time gross settlement systems"
+(PDF)
+. BIS.
+↑
+Biago Bossone and Massimo Casino, "The Oversight of the Payment Systems: A Framework for the Development and Governance of Payment Systems in Emerging Economies"The World Bank, July 2001, p.7
+↑
+Swiss National Bank (November 2019).
+"The Swiss Interbank Clearing (SIC) payment system"
+(PDF)
+.
+Swiss National Bank
+. p.
+3
+. Retrieved
+10 January
+2021
+.
+↑
+Massimo Casino and Jose Antonio Garcia, "Measuring Payment System Development", The World Bank, 2008
+↑
+Morten Bech, Bart Hobijn, " Technology Diffusion within Central Banking: The Case of Real-Time Gross Settlement", Staff Report NJ. 260, Federal Reserve Bank of New York, Working Paper, September 2006, p. 16–17
+↑
+"PAPSS - Make instant and secure cross-border payments in local currencies across Africa"
+.
+PAPSS
+.
+↑
+"Medio electrónico de pagos"
+.
+www.bcra.gob.ar
+.
+↑
+Central Bank of the Republic of Azerbaijan.
+"Azərbaycan Respublikasının Mərkəzi Bankı - Ana səhifə"
+. En.cbar.az
+. Retrieved
+2020-04-18
+.
+↑
+"Payment & Settlement
+|
+CBB"
+.
+www.cbb.gov.bh
+.
+↑
+"Central Bank of Barbados Real Time Gross Settlement"
+.
+Central Bank of Barbados
+.
+↑
+"Платежная система Республики Беларусь - Национальный банк Республики Беларусь"
+.
+www.nbrb.by
+.
+Archived
+from the original on 10 October 2017
+. Retrieved
+6 May
+2018
+.
+↑
+"High-value payment system - Lynx"
+.
+www.payments.ca
+. 26 August 2021
+. Retrieved
+30 May
+2022
+.
+↑
+"IMF - Financial Sector Assessment Program - PRC"
+. Retrieved
+2023-10-11
+.
+↑
+"Costa Rica: Financial System Stability Assessment"
+.
+Imf Staff Country Reports
+.
+2003
+(103). 17 April 2003
+. Retrieved
+30 May
+2022
+.
+↑
+"Central Bank of the Dominican Republic"
+.
+www.bancentral.gov.do
+. Retrieved
+2021-09-09
+.
+↑
+"Central Bank of Egypt"
+.
+www.cbe.org.eg
+.
+↑
+"National Bank of Ethiopia"
+.
+nbe.gov.et
+.
+↑
+"What is T2?"
+.
+European Central Bank
+. Retrieved
+24 December
+2024
+.
+↑
+"Payment system"
+(PDF)
+. www.rbf.gov.fj. Archived from
+the original
+(PDF)
+on 2019-08-19
+. Retrieved
+2020-04-18
+.
+↑
+"National Bank Of Georgia"
+.
+www.nbg.gov.ge
+. Archived from
+the original
+on 2021-04-15
+. Retrieved
+2019-04-28
+.
+↑
+"The RTGS System"
+.
+Reserve Bank of India
+. Archived from
+the original
+on 2017-02-23.
+↑
+"Central Bank of Iraq website"
+.
+Archived
+from the original on 2016-03-04
+. Retrieved
+2017-05-03
+.
+↑
+"Central Bank of Israel website"
+.
+Archived
+from the original on 2017-09-19
+. Retrieved
+2017-10-26
+.
+↑
+Bank of Japan (2003).
+"Payment systems in Japan"
+. Bank of Japan.
+Archived
+from the original on 2017-05-06
+. Retrieved
+2017-05-03
+.
+↑
+http://www.cbj.gov.jo/pages.php?menu_id=128/
+[
+permanent dead link
+]
+↑
+"KEPSS/RTGS
+|
+CBK"
+.
+www.centralbank.go.ke
+.
+↑
+"Central Bank of Lebanon website"
+.
+Archived
+from the original on 2017-04-27
+. Retrieved
+2017-05-03
+.
+↑
+"Financial Infrastructure Series 2 - Real-time Gross Settlement System (金融基建系列二—即時支付結算系統)"
+.
+Archived
+from the original on 2020-03-13
+. Retrieved
+2020-03-13
+.
+↑
+"Mauritius Automated Clearing and Settlement System"
+. Bank of Mauritius. 18 May 2016
+. Retrieved
+August 18,
+2018
+.
+↑
+"Banxico's SPEI"
+. Banco de Mexico.
+Archived
+from the original on 2012-12-17
+. Retrieved
+2017-05-03
+.
+↑
+"Système de règlement brut du Maroc"
+(PDF)
+. 2016-03-04. Archived from
+the original
+(PDF)
+on 2016-03-04
+. Retrieved
+2020-04-18
+.
+↑
+"Bank of Namibia - Namibia Inter-bank Settlement System (NISS)"
+.
+www.bon.com.na
+.
+↑
+"National Bank of Macedonia website"
+.
+Archived
+from the original on 2017-12-01
+. Retrieved
+2017-12-01
+.
+↑
+"State Bank of Pakistan"
+.
+sbp.org.pk
+. Archived from
+the original
+on 2017-11-01
+. Retrieved
+2017-10-21
+.
+↑
+"RTGS Rules"
+(PDF)
+.
+Bangko Sentral ng Pilipinas
+. Retrieved
+September 16,
+2025
+.
+↑
+"SORBNET3 – informacja ogólna"
+.
+Narodowy Bank Polski - Internetowy Serwis Informacyjny
+(in Polish)
+. Retrieved
+2025-11-09
+.
+↑
+"Qatar Central Bank - Electronic payments and settlements systems 1"
+.
+www.qcb.gov.qa
+.
+↑
+"Bank of Russia Payment System
+|
+Bank of Russia"
+.
+www.cbr.ru
+.
+↑
+"Banca Naţională a României - Sistemul ReGIS"
+. Bnro.ro
+. Retrieved
+2020-04-18
+.
+↑
+"SARIE"
+.
+www.sama.gov.sa
+. Archived from
+the original
+on 2020-08-11
+. Retrieved
+2017-05-03
+.
+↑
+"MEPS"
+.
+www.mas.gov.sg
+. Archived from
+the original
+on 22 May 2013
+. Retrieved
+13 January
+2022
+.
+↑
+"SAMOS System (South African's Real Time Gross Settlement (RTGS) System) - South African Reserve Bank"
+.
+www.resbank.co.za
+. Archived from
+the original
+on 2020-09-21
+. Retrieved
+2017-05-03
+.
+↑
+"Central Bank of Sri Lanka"
+.
+www.cbsl.gov.lk
+. Archived from
+the original
+on 12 July 2010
+. Retrieved
+13 January
+2022
+.
+↑
+"The RIX payment system
+|
+Sveriges Riksbank"
+. March 31, 2013. Archived from
+the original
+on 2013-03-31.
+↑
+"Zahlungssystem SIC"
+.
+SIX
+.
+↑
+"中央銀行-中文版"
+. Cbc.gov.tw
+. Retrieved
+2020-04-18
+.
+↑
+"Central Bank of Tunisia - Interest Rates"
+.
+Central Bank of Tunisia
+. Retrieved
+29 May
+2024
+.
+↑
+"Bank of Tanzania: Payment System - Overview of the National Payment System"
+. Bot.go.tz
+. Retrieved
+2020-04-18
+.
+↑
+"BAHTNET System"
+.
+www.bot.or.th
+. Archived from
+the original
+on 2020-09-22
+. Retrieved
+2020-04-18
+.
+↑
+"Internet Begriffe/İnternet Terimleri - EN/DE/TR"
+.
+↑
+"System of Electronic Payments (SEP)"
+.
+bank.gov.ua
+. Archived from
+the original
+on 30 August 2018
+. Retrieved
+13 January
+2022
+.
+↑
+"Payment and Settlement Systems"
+.
+www.centralbank.ae
+. Archived from
+the original
+on 15 August 2011
+. Retrieved
+13 January
+2022
+.
+↑
+"Faster Payments System"
+.
+www.wearepay.co.uk
+.
+↑
+"CHAPS"
+.
+www.bankofengland.co.uk
+.
+↑
+"Bank of Uganda"
+.
+www.bou.or.ug
+.
+Archived
+from the original on 10 October 2017
+. Retrieved
+6 May
+2018
+.
+↑
+"NHNN - Hệ thống thanh toán điện tử liên ngân hàng"
+.
+sbv.gov.vn
+.
+↑
+"ZIPSS"
+.
+www.boz.zm
+.
+↑
+"Funcitional Units"
+.
+www.rbz.co.zw
+. Archived from
+the original
+on 31 August 2015
+. Retrieved
+13 January
+2022
+.
+↑
+"Payment Systems Worldwide: A Snapshot - Outcomes of the Global Payment Systems Survey 2010"
+(PDF)
+.
+www.worldbank.org
+.
+↑
+"Payment Systems Worldwide: A Snapshot - Outcomes of the Global Payment Systems Survey 2010"
+(PDF)
+.
+rtgs.in/
+.
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Real-time_gross_settlement&oldid=1344787744
+"
+Category
+:
+Real-time gross settlement
+Hidden categories:
+Articles with short description
+Short description matches Wikidata
+CS1 errors: missing periodical
+Articles containing Portuguese-language text
+Articles containing Spanish-language text
+Articles containing Hungarian-language text
+Articles containing Hebrew-language text
+All articles with dead external links
+Articles with dead external links from April 2018
+Articles with permanently dead external links
+CS1 Polish-language sources (pl)
+Articles containing Swedish-language text
+Search
+Search
+Real-time gross settlement
+20 languages
+Add topic

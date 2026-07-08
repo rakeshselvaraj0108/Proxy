@@ -1,0 +1,45 @@
+UNAUTHORIZED / FRAUDULENT TRANSACTION COMPLAINT TEMPLATE
+
+Legal basis: RBI's "Limited Liability of Customers in Unauthorised Electronic
+Banking Transactions" framework (incorporated into the Master Direction on
+Digital Payment Security Controls and related KYC/card directions) gives a
+customer ZERO liability if the unauthorized transaction resulted from a
+bank-side breach or a third-party breach where the customer notifies the
+bank within 3 working days of receiving communication about the transaction.
+Liability is limited (capped) if reported within 4-7 working days, and
+determined by the bank's Board-approved policy beyond that.
+
+To,
+The Branch Manager / Nodal Grievance Officer,
+[Bank Name], [Branch/Account details]
+
+Subject: Unauthorized transaction of INR [amount] on [date] — Account/Card
+No. [xxxx] — Immediate reversal requested under RBI's zero/limited liability
+framework
+
+"I noticed an unauthorized transaction of INR [amount] on [date] on my
+[account/credit card/debit card] ending [xxxx], which I did not authorize.
+I am reporting this within [X] hours/days of receiving the transaction
+alert. I request that this be treated under the RBI's zero/limited
+liability framework, that the transaction be reversed (shadow reversal)
+within 10 working days as mandated, and that you confirm receipt of this
+complaint in writing with a complaint reference number."
+
+Immediate steps before/with filing:
+1. Block the card/freeze the account immediately via app, net banking, or
+   the 24x7 helpline — get a blocking confirmation reference number.
+2. File this written complaint the same day; banks are required to
+   acknowledge and resolve within 90 days, crediting the disputed amount
+   (shadow reversal) within 10 working days pending investigation.
+3. File a cyber crime complaint at cybercrime.gov.in or dial 1930
+   (national cyber fraud helpline) — this reference number strengthens the
+   bank complaint and is often required for reversal above a threshold.
+
+Escalation path if unresolved:
+1. Bank's internal Nodal/Grievance Redressal Officer (first 30 days).
+2. Bank's Internal Ombudsman (mandatory for most complaints not resolved
+   in the customer's favor before final rejection, per the Internal
+   Ombudsman Directions) — the bank itself must route it here before
+   rejecting.
+3. RBI Integrated Ombudsman Scheme (cms.rbi.org.in) if unresolved after 30
+   days or the response is unsatisfactory — free, online, no lawyer needed.

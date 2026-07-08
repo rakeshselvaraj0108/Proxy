@@ -1,0 +1,42 @@
+CREDIT CARD BILLING DISPUTE TEMPLATE
+
+Legal basis: RBI's Master Direction on Credit Card and Debit Card —
+Issuance and Conduct requires card issuers to provide a clear billing
+dispute mechanism; a disputed transaction must not accrue interest/charges
+while under investigation, and the issuer must respond to a dispute within
+a defined window (commonly cited as 30 days) before the amount can be
+re-billed if the dispute is rejected, with the reason for rejection
+disclosed to the customer.
+
+To,
+The Card Division / Nodal Officer,
+[Bank Name]
+
+Subject: Dispute of transaction dated [date], amount INR [amount], on card
+ending [xxxx] — Reference [statement/transaction ID]
+
+"I am disputing the above transaction on my credit card statement dated
+[date]. [Describe: transaction not recognized / duplicate billing /
+merchant did not deliver goods or services / amount charged does not match
+what was authorized / subscription not cancelled despite request]. I
+request that this be investigated, that no interest or late fee be levied
+on the disputed amount while investigation is pending, and that I receive
+a written explanation of the outcome, including the specific evidence
+relied upon if the dispute is rejected."
+
+Documents to attach:
+- Statement excerpt showing the disputed line item
+- Any merchant correspondence (cancellation confirmation, refund promise,
+  non-delivery proof)
+- Screenshot of the transaction alert/SMS if amount mismatches
+
+Escalation path if unresolved or rejected without adequate reason:
+1. Card issuer's Nodal Officer -> Internal Ombudsman (mandatory pass-through
+   before final rejection on eligible complaints).
+2. RBI Integrated Ombudsman Scheme (cms.rbi.org.in) — free, binding on the
+   bank up to the award amount, no lawyer required.
+3. For card-network-level chargebacks (Visa/Mastercard/RuPay dispute
+   rules), the bank internally raises the chargeback with the merchant's
+   acquiring bank; the customer's role is providing evidence to their own
+   issuing bank promptly (chargeback windows are typically 120 days from
+   the transaction, so report early).

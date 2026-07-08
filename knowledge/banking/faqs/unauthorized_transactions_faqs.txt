@@ -1,0 +1,32 @@
+UNAUTHORIZED TRANSACTIONS & CUSTOMER LIABILITY — FAQs
+
+Q: Money was debited from my account without my knowledge — am I liable?
+A: Depends on how fast you report it after the bank's alert:
+   - Reported within 3 working days: zero liability if the breach was on
+     the bank's side or a third-party breach not attributable to you.
+   - Reported within 4-7 working days: limited liability (a capped amount
+     depending on your account/card type).
+   - Reported after 7 working days: liability determined per the bank's
+     Board-approved policy — can be higher.
+   Report immediately regardless — the clock starts from when the bank's
+   communication (SMS/email) reaches you, not from when you notice it.
+
+Q: The bank says the amount will be "shadow reversed" — what does that mean?
+A: Pending investigation, the disputed amount is provisionally credited
+   back to your account within 10 working days of your complaint — this is
+   not the final outcome, just a protective interim credit while the bank
+   investigates.
+
+Q: The bank rejected my complaint outright — what next?
+A: Every eligible complaint that the bank proposes to reject (or resolve
+   not fully in your favor) must first go through the bank's own Internal
+   Ombudsman before a final rejection letter is issued — ask explicitly
+   whether your complaint was routed to the Internal Ombudsman. If it
+   wasn't and you weren't told why, that's itself a valid ground to escalate
+   to the RBI Ombudsman.
+
+Q: Do I need a police complaint / cyber crime report for the bank to act?
+A: Not strictly required for the bank's own zero/limited-liability process,
+   but strongly recommended — file at cybercrime.gov.in or call 1930. Many
+   banks ask for it above a certain amount, and it strengthens your case
+   if the dispute proceeds to the Ombudsman.

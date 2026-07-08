@@ -1,0 +1,37 @@
+RBI INTEGRATED OMBUDSMAN SCHEME — COMPLAINT TEMPLATE
+
+Legal basis: Reserve Bank - Integrated Ombudsman Scheme, 2021 covers
+complaints against banks, NBFCs, and payment system participants. The
+Scheme is "One Nation One Ombudsman" — a single point of reference,
+free of cost, and does not require a lawyer.
+
+Pre-condition: You must have FIRST filed a written complaint with the
+regulated entity (bank/NBFC) and either received no response within 30
+days, or an unsatisfactory response/rejection.
+
+File online at: cms.rbi.org.in
+
+Fields typically required:
+1. Your complaint filed earlier with the bank (date, reference number,
+   copy of correspondence).
+2. The bank's response (if any) and why it is unsatisfactory.
+3. Ground of complaint — select the closest match: deficiency in service,
+   non-adherence to Fair Practices Code / interest rate directions, failure
+   to reverse an unauthorized electronic transaction within the RBI
+   timeline, non-observance of RBI directions on para-banking, credit
+   card/loan mis-selling, ATM/UPI/digital payment failure, etc.
+4. Relief sought — specific amount, or a specific action (e.g. correction
+   of credit report, reversal of charge, apology, compensation for loss).
+
+What happens next:
+- The Ombudsman facilitates a resolution; if not resolved by agreement, the
+  Ombudsman can pass an Award, binding on the bank (subject to the bank's
+  right to represent to the Appellate Authority, currently a Deputy
+  Governor of RBI, within 30 days).
+- There is no complaint fee, and complaints below a certain simplicity
+  threshold are typically resolved faster than a full Award process.
+
+If the Ombudsman rejects the complaint or you're dissatisfied with the
+Award: an appeal lies to the RBI Ombudsman's Appellate Authority within 30
+days; beyond that, civil remedies (consumer forum / civil court) remain
+available since the Ombudsman Scheme does not bar other legal remedies.

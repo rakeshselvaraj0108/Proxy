@@ -1,0 +1,973 @@
+Immediate Payment Service - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Electronic funds transfer system in India
+This article
+needs
+more citations
+.
+Please help
+improve this article
+by
+adding citations to reliable sources
+. Unsourced material may be challenged and removed.
+Find sources:
+"Immediate Payment Service"
+–
+news
+·
+newspapers
+·
+books
+·
+scholar
+·
+JSTOR
+(
+May 2017
+)
+(
+Learn how and when to remove this message
+)
+Immediate Payment Service
+Operating area
+India
+Founded
+22 November 2010
+; 15 years ago
+(
+2010-11-22
+)
+Owner
+National Payments Corporation of India
+Website
+www
+.npci
+.org
+.in
+/what-we-do
+/imps
+/product-overview
+Immediate Payment Service
+(
+IMPS
+) is an
+instant payment
+inter-bank
+electronic funds transfer
+system in
+India
+.
+National Electronic Funds Transfer
+(NEFT) was also made available 24/7 from December 2019.
+[
+1
+]
+Real-time gross settlement
+(RTGS) was also made available 24/7 from 14 December 2020.
+[
+2
+]
+Unified Payments Interface
+is built on top of IMPS, with the key architectural work done by the
+Mobile Payments Forum of India
+,
+IIT Madras
+and
+Institute for Development and Research in Banking Technology
+(IDRBT).
+[
+3
+]
+[
+4
+]
+[
+5
+]
+[
+6
+]
+History
+[
+edit
+]
+Immediate Payment Service is managed by the
+National Payments Corporation of India
+(NPCI) and is built upon the existing
+National Financial Switch
+network. In 2010, the NPCI initially carried out a pilot for the mobile payment system with 4 member banks (
+State Bank of India
+,
+Bank of India
+,
+Union Bank of India
+and
+ICICI Bank
+), and expanded it to include
+Yes Bank
+,
+Axis Bank
+and
+HDFC Bank
+later that year. IMPS was publicly launched on 22 November 2010. As of April 2023, there are 722 member banks which signed up for the IMPS service.
+[
+7
+]
+Around 200 million IMPS transactions amounting to roughly
+US$20 billion
+of transaction amount happen every month in India.
+[
+8
+]
+IPMS Statistics
+[1]
+Year
+Member banks
+INR value (in mn)
+USD value (in bn)
+2024*
+919
+7070902.52
+818.87
+2023
+827
+61908887.5
+744.01
+2022
+684
+49346951.5
+608.02
+2021
+663
+29324894.9
+384.28
+2020
+620
+26838329.3
+363.76
+2019
+559
+21819802.3
+307.98
+2018
+394
+13926164.8
+188.21
+2017
+303
+7660254.3
+117.96
+2016
+190
+3114447.1
+46.11
+2015
+124
+1328077.9
+19.89
+2014
+73
+390365.9
+6.41
+2013
+59
+33363.4
+0.54
+Interoperability
+[
+edit
+]
+On March 4, 2024, the
+Reserve Bank of India
+(RBI) declared its intention to introduce an interoperable payment system for online banking transactions. The implementation of such an interoperable system has been approved for
+NPCI Bharat BillPay Limited
+(NBBL), and it would be introduced in 2024, according to RBI Governor
+Shaktikanta Das
+.
+[
+9
+]
+[
+10
+]
+It was included in the Payments Vision 2025 document, which was published in June 2022 by the Reserve Bank of India's Department of Payment and Settlement Systems.
+[
+11
+]
+After RBI approved the project in March 2024, NBBL, banks, and
+fintech
+companies are negotiating to adopt internet banking or net-banking interoperability. The three biggest players in the net-banking industry, HDFC Bank, State Bank of India, and ICICI Bank, are now negotiating to join the initiative. It will allow for data visibility, appropriate consumer grievance procedures, standardization of merchant settlement cycles, and will expand the payment market potential due to increased merchant integration and competition from payment aggregators. The primary use cases of net-banking include payments to vendors,
+insurance premiums
+,
+mutual funds
+, and
+income taxes
+. Currently, each bank must collaborate with a different payment aggregator in order to allow consumers to conduct net-banking transactions. Interoperability makes it possible for any aggregator to let a bank's customers pay online via net-banking.
+[
+12
+]
+[
+13
+]
+In order for net-banking and mobile banking payments to be interoperable, NPCI has started the integration process for five to six banks. In the last quarter of 2024 or the first quarter of 2025, the system will be put online. The integration between HDFC Bank and ICICI Bank is already well progressed. Customers can opt to use net-banking to pay online when they check out of e-commerce sites because banks won't need to partner with payment aggregators to onboard merchants for net-banking payments because all banks would be accepted by merchant sites. The interoperability process is being spearheaded by
+Bharat Connect
+.
+[
+14
+]
+See also
+[
+edit
+]
+India portal
+Banks portal
+Money portal
+Payment and settlement systems in India
+National Electronic Fund Transfer
+Real Time Gross Settlement
+Unified Payments Interface
+References
+[
+edit
+]
+^
+Livemint (8 December 2019).
+"NEFT money transfer facility to be available 24×7 soon: 5 things to know"
+.
+Livemint
+. Retrieved
+16 April
+2020
+.
+^
+"RTGS is now available 24x7: Here are its advantages"
+.
+The Economic Times
+. Retrieved
+29 December
+2020
+.
+^
+"Mobile Payment Forum to come out with user-friendly features"
+.
+mint
+. 29 October 2017
+. Retrieved
+3 December
+2024
+.
+^
+UPI: Product Booklet
+(PDF)
+(Report). NPCI.
+^
+Das, Neelanjit (4 June 2022).
+"What Makes India's Unified Payments Interface (UPI) A Global Test Case?"
+.
+Outlook Money
+. Retrieved
+3 December
+2024
+.
+^
+VK, Anirudh (3 July 2019).
+"Multilingual Support Will Help Increase Adoption Of Mobile Payments In India, Says Gaurav Raina Of MPFI"
+.
+Analytics India Magazine
+. Retrieved
+10 April
+2023
+.
+^
+"ProdIMPS Volumes | NPCI - National Payments Corporation of Indiauct Statistics"
+.
+www.npci.org.in
+. Retrieved
+10 April
+2023
+.
+^
+"IMPS Volumes"
+.
+www.npci.org.in
+. Retrieved
+5 October
+2019
+.
+^
+"Address by Governor, Reserve Bank of India at the Digital Payments Awareness Week celebrations, March 4, 2024, RBI, Mumbai"
+.
+Reserve Bank of India
+. 4 March 2024
+. Retrieved
+3 December
+2024
+.
+^
+Parasnis, Sharveya (5 March 2024).
+"RBI to Launch Interoperable Payment System For Net Banking"
+.
+MEDIANAMA
+. Retrieved
+3 December
+2024
+.
+^
+"Payments Vision 2025"
+(PDF)
+.
+Reserve Bank of India
+. June 2022
+. Retrieved
+3 December
+2024
+.
+^
+Bhakta, Pratik (25 March 2024).
+"NPCI arm, banks and fintechs in talks for net banking synergies"
+.
+The Economic Times
+.
+ISSN
+0013-0389
+. Retrieved
+3 December
+2024
+.
+^
+Kumar, Abhijeet (27 March 2024).
+"NBBL to begin work on net banking interoperability from April: Report"
+.
+Business Standard
+. Retrieved
+3 December
+2024
+.
+^
+Bhakta, Pratik (28 November 2024).
+"Interoperability in net banking payments soon"
+.
+The Economic Times
+.
+ISSN
+0013-0389
+. Retrieved
+3 December
+2024
+.
+External links
+[
+edit
+]
+Official website
+v
+t
+e
+Banking in India
+Institutes
+Central bank
+v
+t
+e
+Reserve Bank of India
+Regulation
+Reserve Bank of India Act, 1934
+Monetary Policy Committee
+People
+Governor of the Reserve Bank of India
+Deputy governor of the Reserve Bank of India
+Buildings
+Reserve Bank of India Staff College
+RBI Monetary Museum
+Subsidiaries
+Bharatiya Reserve Bank Note Mudran
+Security Printing and Minting Corporation of India
+Think tanks
+BBB
+BCSBI
+NPCI
+IBA
+IDRBT
+Speciality banks
+IFCI
+All India Financial Institutions
+:
+Exim Bank of India
+NABARD
+NHB
+SIDBI
+Other
+BIFR
+IBBI
+IBPS
+Deposit Insurance (DICGC)
+Public-sector
+banks (PSB)
+Bank of Baroda
+Bank of India
+Bank of Maharashtra
+Canara Bank
+Central Bank of India
+Indian Bank
+Indian Overseas Bank
+Jammu & Kashmir Bank
+Punjab & Sind Bank
+Punjab National Bank
+State Bank of India
+UCO Bank
+Union Bank of India
+State-sector bank:
+Jammu & Kashmir Bank
+Private-sector
+banks
+Bandhan Bank
+CSB
+City Union Bank
+DCB
+Dhanlaxmi Bank
+Federal Bank
+IndusInd Bank
+Karnataka Bank
+Karur Vysya Bank
+Kotak Mahindra Bank
+Nainital Bank
+RBL
+South Indian Bank
+Tamilnad Mercantile Bank
+Yes Bank
+Previous development banks:
+HDFC Bank
+ICICI Bank
+Privatised banks:
+Axis Bank
+IDBI
+IDFC First Bank
+Foreign banks
+Foreign bank branches
+Abu Dhabi Commercial Bank
+ANZ Bank
+Bank of America
+BBK
+Bank of Ceylon
+Barclays
+Credit Suisse
+CTBC Bank
+Hana Bank
+HSBC
+Maybank
+MUFJ
+Rabobank
+Scotiabank
+SMBC
+Standard Chartered
+Wholly owned subsidiary (WOS)
+DBS
+Emirates NBD
+State Bank of Mauritius
+SMBC
+UBS
+Wound / closed / sold (or in process)
+Antwerp Diamond Bank
+Citibank
+Deutsche Bank
+Royal Bank of Scotland
+Small finance
+banks
+Capital
+ESAF
+Equitas
+Jana
+Slice
+Suryoday
+Ujjivan
+Unity
+In-principle approval to become universal bank
+AU
+Fincare
+Payments banks
+Airtel
+India Post
+Fino
+Jio
+NSDL
+Quasi Public Sector Units
+National Securities Depository
+India Post
+Surrendered licencees or wound up
+Aditya Birla
+Vodafone M-Pesa
+Tech Mahindra
+Cooperative
+banks
+Abhyudaya Co-operative Bank
+.
+Buldana Urban Cooperative Credit Society
+Cosmos Co-operative Bank
+Dombivli Nagari Sahakari Bank
+Kerala Bank
+Mizoram Co-operative Apex Bank
+Punjab and Maharashtra Co-operative Bank
+Repco Bank
+Saraswat Bank
+Shamrao Vithal Co-operative Bank
+TNSC Bank
+Thane Janata Sahakari Bank
+Regional rural
+bank
+Assam Gramin Vikash Bank
+Bangiya Gramin Vikash Bank
+Karnataka Gramin Bank
+Mizoram Rural Bank
+Paschim Banga Gramin Bank
+Puduvai Bharathiar Grama Bank
+Tamil Nadu Grama Bank
+Rajasthan Gramin Bank
+Uttar Bihar Gramin Bank
+Uttarakhand Gramin Bank
+Vananchal Gramin Bank
+Andhra
+Andhra Pradesh Grameena Vikas Bank
+Kerala
+Kerala Gramin Bank
+Amalgamated:
+North Malabar Gramin Bank
+South Malabar Gramin Bank
+Uttar Pradesh
+Allahabad UP Gramin Bank
+Gramin Bank of Aryavart
+Sarva UP Gramin Bank
+Defunct banks
+Merged
+PSB
+New Bank of India
+Dena Bank
+Vijaya Bank
+Allahabad Bank
+Andhra Bank
+Corporation Bank
+Oriental Bank of Commerce
+United Bank of India
+Syndicate Bank
+SBI
+Bank of Bombay
+Bank of Calcutta
+Bank of Madras
+Imperial Bank of India
+State Bank of Bikaner & Jaipur
+State Bank of Hyderabad
+State Bank of Indore
+State Bank of Mysore
+State Bank of Patiala
+State Bank of Saurashtra
+State Bank of Travancore
+Bharatiya Mahila Bank
+Krishnaram Baldeo Bank
+Kashinath Seth Bank
+Rescued
+Global Trust Bank
+(OBC)
+Lakshmi Vilas Bank
+(DBS)
+Nedungadi Bank
+(PNB)
+United Western Bank
+(IDBI)
+United Industrial Bank
+(Allahabad Bank)
+Punjab and Maharashtra Co-operative Bank
+(Unity SFB)
+Acquired
+Bank of Madura
+Bank of Rajasthan
+Bengal Central Bank
+Centurion Bank of Punjab
+Chartered Bank of India, Australia and China
+Grindlays Bank
+National Bank of India
+ING Vysya Bank
+Mercantile Bank of India, London and China
+Lord Krishna Bank
+Suvarna Sahakari Bank
+Times Bank
+Vysya Bank
+PSB
+Bharat Overseas Bank
+Pandyan Bank
+Wound up
+Bank of Chettinad
+Dass Bank
+Failed
+Alliance Bank of Simla
+Arbuthnot & Co
+Commercial Bank of India
+Exchange Bank of India & Africa
+(New) Oriental Bank Corporation
+Oudh Commercial Bank
+Madhavpura Mercantile Cooperative Bank
+Liquidated
+Bengal Bank (1784)
+Bank of Bombay (1720)
+Bank of Hindostan
+General Bank of India
+General Bank of Bengal and Bihar
+Nath Bank
+Palai Central Bank
+The Commercial Bank (1819)
+The Calcutta Bank (1824)
+The Union Bank (1828)
+The Government Savings Bank (1833)
+The Bank of Mirzapore (1835)
+Travancore National and Quilon Bank
+Networks
+Interbank networks
+Cirrus
+NFS
+PLUS
+ATM networks
+BANCS
+Cashnet
+CashTree
+MITR
+Cards
+Mastercard
+Debit Mastercard
+Maestro
+RuPay
+Visa
+Visa Debit
+Visa Electron
+Online transfers
+AEPS
+BBPS
+BHIM
+IMPS
+NEFT
+RTGS
+UPI
+Payment service
+providers
+Atom
+BHIM
+BillDesk
+CCAvenue
+Juspay
+Paytm
+Wibmo
+Sarvatra Technologies
+Zeta India
+Digital wallets
+Amazon Pay
+BharatPe
+Freecharge
+Google Pay
+Mobikwik
+Oxigen Services
+Payoneer
+PayU
+PhonePe
+Related topics
+ATM usage fees
+Bank run
+Black money
+Counterfeit money
+De-materialisation (de-mat)
+Demonetisation
+2016
+Low denomination coins
+Foreign exchange (ForEx)
+Lists:
+List of banks
+List of oldest banks in India
+Protocol
+and codes
+Bharat Bill Payment System (BBPS)
+Indian Financial System Code (IFSC)
+National Unified USSD Platform (NUUP)
+Prepaid Payment Instruments
+Structured Financial Messaging System (SFMS)
+Rates &
+ratios
+Rates
+Bank rate
+Mumbai Inter-Bank Bid Rate - MIBID/Mumbai Inter-Bank Offer Rate - MIBOR
+Mumbai Interbank Forward Offer Rate - MIFOR
+Ratios
+Capital Adequacy Ratio - CAR
+Statutory Liquidity Ratio - SLR
+Cash Reserve Ratio - CRR
+Regulators
+Insurance - IRDAI
+Banking - RBI
+Securities - SEBI
+Bankruptcy - IBBI
+Insolvency,
+bankruptcy and
+reconstruction
+Boards
+BIFR
+IBBI
+CERSAI
+Legislation
+IBC
+SARFESI Act
+Companies
+Asset Reconstruction Company of India Limited
+Edelweiss Asset Reconstruction Company
+IIFCL Asset Management Company Limited
+Legislation
+Banking Regulation Act, 1949
+Government Securities Act, 2006
+IBC, 2016
+National Bank for Financing Infrastructure and Development Bill, 2021
+RBI Act, 1934
+SARFESI Act, 2002
+Income-tax Act, 1961
+Companies Act, 2013
+Insurance Act, 1938
+FEMA, 1999
+Recovery of Debts Due to Banks and Financial Institutions (RDDBFI) Act, 1993
+Tribunals
+Company Law - NCLT
+Appellate - NCLAT
+Debt Recovery - DRT/Appellate - DRAT
+Measures
+Prompt Corrective Action
+Other
+Institute of Banking Personnel Selection
+Mumbai Consensus
+v
+t
+e
+Digital payment providers
+Active
+2C2P
+Adyen
+Airtel Payments Bank
+Alipay
+Amazon Pay
+Ant Group
+Apple
+Card
+Pay
+Wallet
+Atlantic Money
+Bancomat Pay
+bKash
+BillDesk
+bit
+Bizum
+Blik
+Block
+Afterpay
+Square
+Cash App
+Boku, Inc.
+BPAY
+Bunq
+Carta Worldwide
+CDS Global
+Chase Paymentech
+WePay
+Circle
+Cred
+Dwolla
+Easypaisa
+Elavon
+EnStream
+Ensygnia
+EServGlobal
+Freecharge
+GCash
+Global Payments
+Google Pay
+Google Pay app
+Google Wallet
+iDEAL
+Ingenico
+Interac e-Transfer
+JazzCash
+Jumio
+KakaoPay
+Klarna
+Line Pay
+Maya
+Mir
+Mir Pay
+MobiKwik
+NTT Data Payment Services
+Mobile Suica
+MobilePay
+M-Pesa
+Mi-Pay
+MintChip
+MMQR
+Nagad
+RBI
+RTGS
+NPCI
+IMPS
+UPI
+BBPS
+BHIM
+IDRBT
+NEFT
+Naver Pay
+Nexi
+Nexgo
+Novalnet
+Nuvei
+Orange Money
+Osaifu-Keitai
+Passport
+PAX Technology
+Paya
+Payanywhere
+PayBox
+PayMate
+PayMe
+Paymentwall
+PayNow
+Payoneer
+PayPal
+Braintree
+Zettle
+Venmo
+Xoom
+PayPay
+PayPoint
+Paysafe
+Neteller
+Openbucks
+PaysafeCard
+Skrill
+Payzone
+Paytm
+PayU
+Paze
+Pepper
+PhonePe
+Pine Labs
+Pix
+POLi Payments
+QRIS
+Red Dot Payment
+Remita
+Revolut
+Samsung Pay
+Samsung Wallet
+Sarvatra Technologies
+SberPay
+SBPay
+Sezzle
+Shift4
+Shop Pay
+Skaleet
+Spice Money
+Stripe
+Swish
+Tata Neu
+Tencent
+Touch 'n Go eWallet
+TWINT
+UnionPay app
+Veem
+Verifi
+Verifone
+Versapay
+Vipps
+VugaPay
+Wave Money
+WebMoney
+WeChat Pay
+Wero
+WiPay
+Wizzit
+Worldline SA
+Worldpay, Inc.
+Yandex Pay
+Yape
+YooMoney
+Zelle
+Zeta
+Ziina
+Defunct
+AirTag
+Bell ID
+Billpoint
+C2it
+Clinkle
+Flattr
+Fortumo
+Google Wallet (2011–2018)
+Kuapay
+Lemon Wallet
+LG Pay
+Merchant Customer Exchange
+Microsoft Pay
+Mozido
+PayDirect
+Paym
+Pingit
+Powa Technologies
+Qiwi
+Quahl
+Sage Pay
+Simpay
+Softcard
+Tez
+vcash
+Paydiant
+Ukash
+Wirecard
+Worldpay Group
+Zong
+Remittance
+CurrencyFair
+MoneyGram
+Nium
+OFX
+Remitly
+Rewire
+Ria Money Transfer
+Transfast
+TransferMate
+Travelex
+Western Union
+Wise
+WorldRemit
+XE
+Related
+Digital currency
+Digital wallet
+Mobile payment
+Payment service provider
+List of online payment service providers
+European Mobile Payment Systems Association
+European Payments Initiative
+Category
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Immediate_Payment_Service&oldid=1304669732
+"
+Categories
+:
+Payment networks
+Interbank networks in India
+Banking in India
+Mobile payments in India
+Payment and settlement systems in India
+Hidden categories:
+Pages with non-numeric formatnum arguments
+Articles with short description
+Short description is different from Wikidata
+Articles needing additional references from May 2017
+All articles needing additional references
+Use dmy dates from October 2015
+Use Indian English from October 2015
+All Wikipedia articles written in Indian English
+Official website different in Wikidata and Wikipedia
+Search
+Search
+Immediate Payment Service
+5 languages
+Add topic

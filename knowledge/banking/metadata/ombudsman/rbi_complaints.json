@@ -1,0 +1,9 @@
+{
+  "title": "RBI Complaint Management System",
+  "authority": "RBI",
+  "source_url": "https://www.rbi.org.in/Scripts/Complaints.aspx",
+  "domain": "banking",
+  "type": "html_text",
+  "category": "complaints",
+  "raw_chars": 799
+}

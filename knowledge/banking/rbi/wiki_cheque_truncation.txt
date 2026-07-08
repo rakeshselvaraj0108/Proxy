@@ -1,0 +1,179 @@
+Cheque Truncation System - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+(Redirected from
+Cheque truncation system
+)
+Indian digital cheque clearing system
+Cheque Truncation System
+(
+CTS
+) or
+Image-based Clearing System
+(
+ICS
+), in India, is a project of the
+Reserve Bank of India
+(RBI), commenced in 2010, for faster clearing of cheques.
+[
+1
+]
+CTS is based on a
+cheque truncation
+or online image-based cheque clearing system where cheque images and
+magnetic ink character recognition
+(MICR) data are captured at the collecting bank branch and transmitted electronically.
+Cheque truncation
+means stopping the flow of the physical cheques issued by a drawer to the drawee branch. The physical instrument is truncated at some point in route to the drawee branch and an electronic image of the cheque is sent to the drawee branch along with the relevant information like the
+MICR
+fields, date of presentation, presenting banks etc.  This would eliminate the need to move the physical instruments across branches, except in exceptional circumstances, resulting in an effective reduction in the time required for payment of cheques, the associated cost of transit and delays in processing, etc., thus speeding up the process of collection or realization of cheques.
+History
+[
+edit
+]
+The Reserve Bank of India first implemented CTS in
+National Capital Region
+,
+New Delhi
+from 1 February 2008 with ten pilot banks and the deadline was set as 30 April 2008 for all the banks. This was followed by launch of CTS in
+Chennai
+on 24 September 2011. After migration from
+MICR
+to CTS the traditional
+MICR
+based cheque processing was discontinued in
+NCR
+and
+Chennai
+.
+[
+2
+]
+Based on the experience gained and the benefits that would accrue to the customers and banks, it was decided to bring CTS into operation across the country. Starting 1 August 2013 only CTS-2010 compliant cheques would be accepted for clearing.
+[
+3
+]
+On 17 July 2013 the RBI extended the deadline to 31 December 2013.
+[
+4
+]
+In October 2025, the Reserve Bank of India announced that, all cheques presented between 10 AM and 4 PM would be cleared or returned within three hours, as part of the “Continuous Clearing and Settlement on Realization” framework, an enhancement of the Cheque Truncation System.
+[
+5
+]
+The first phase began on 4 October 2025, and the second phase commenced on 3 January 2026.
+[
+6
+]
+Expected benefits
+[
+edit
+]
+For banks
+[
+edit
+]
+Banks derive multiple benefits through the implementation of CTS, like a faster clearing cycle meaning technically possible realization of proceeds of a cheque within the same day. It offers better reconciliation/ verification, better
+customer service
+and enhanced customer window. Operational efficiency provides a direct boost to bottom lines of banks as clearing of local cheques is a high cost low revenue activity. Besides, it reduces
+operational risk
+by securing the transmission route. Centralized image archival systems ensure that data storage and retrieval is easy. Reduction of manual tasks leads to reduction of errors. Real-time tracking and visibility of the cheques, less frauds with secured transfer of images to the RBI are other benefits that banks derive from this solution.
+[
+7
+]
+For customers
+[
+edit
+]
+Customer satisfaction
+is enhanced, due to the reduced turn around time (TAT).  It also offers better reconciliation and fraud prevention.
+See also
+[
+edit
+]
+India portal
+Banks portal
+Money portal
+Cheque truncation
+Cheque fraud
+Reserve Bank of India
+References
+[
+edit
+]
+↑
+Frequently asked questions (FAQ) on cheque truncation project in the National Capital Region
+Archived
+3 March 2011 at the
+Wayback Machine
+↑
+RBI Frequently asked questions (FAQ) on cheque truncation system
+Archived
+17 December 2012 at the
+Wayback Machine
+↑
+RBI Notification on CTS-2010 issued in March 2013
+Archived
+22 March 2013 at the
+Wayback Machine
+↑
+"Non-CTS-2010 cheques to be cleared till Dec 31: RBI"
+.
+↑
+"Banks to clear cheques within few hours from Oct 4: RBI"
+.
+The Economic Times
+. 13 August 2025.
+ISSN
+0013-0389
+. Retrieved
+15 October
+2025
+.
+↑
+"RBI Enable 3-Hour Cheque Clearing from January 3, 2026 in India"
+.
+Easemoney
+. Retrieved
+15 October
+2025
+.
+↑
+Cheque Truncation System (CTS) in India- An Introduction & FAQs, banknetindia.com
+Archived
+29 May 2011 at the
+Wayback Machine
+External links
+[
+edit
+]
+A pan-India cheque truncation system five years away
+press release, dnaindia.com
+RBI says new norms applicable to cheque truncation system only
+press release, moneylife.in
+RBI regulation on cheque truncation system starts
+news release, oneindia.in
+more articles on cheque truncation system
+More articles on cheque truncation system, ChequeMan
+moving to CTS-2010 compliant cheques
+Checklist for moving to CTS - 2010 Compliant cheques, ChequeMan
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Cheque_Truncation_System&oldid=1336623249
+"
+Categories
+:
+Reserve Bank of India
+Cheques
+Payment and settlement systems in India
+Hidden categories:
+Articles with short description
+Short description matches Wikidata
+Use Indian English from October 2013
+All Wikipedia articles written in Indian English
+Use dmy dates from May 2024
+Webarchive template wayback links
+Search
+Search
+Cheque Truncation System
+4 languages
+Add topic

@@ -1,0 +1,32 @@
+LOAN FORECLOSURE / INTEREST RATE DISPUTE TEMPLATE
+
+Legal basis: RBI's Master Directions on Interest Rate on Advances require
+banks to have a Board-approved interest rate model, disclose the
+benchmark and spread applied to a floating-rate loan, and process
+foreclosure/prepayment requests without arbitrary delay; RBI has also
+directed that floating-rate loans to individual borrowers (for non-business
+purposes) generally cannot carry a foreclosure/prepayment penalty.
+
+To,
+The Loans Department / Nodal Officer,
+[Bank Name]
+
+Subject: [Foreclosure not processed / Foreclosure charge wrongly levied /
+Interest rate reset not applied correctly] — Loan A/c No. [xxxx]
+
+"I request foreclosure of my loan account [xxxx] / dispute the following
+charge: [describe — e.g. a foreclosure penalty was levied despite this
+being a floating-rate individual loan, or my interest rate was not reset
+per the disclosed benchmark reset periodicity]. Please process this
+[foreclosure / correction] and provide a written statement of the exact
+benchmark, spread, and reset dates applied to this loan since disbursement."
+
+Escalation path if unresolved:
+1. Bank's Nodal Officer -> Internal Ombudsman.
+2. RBI Integrated Ombudsman Scheme (cms.rbi.org.in).
+3. For disputes about wrongful reporting to Credit Information Companies
+   (CIBIL/Experian/Equifax/CRIF) arising from the same loan (e.g. marked
+   as defaulter after a foreclosure dispute), separately raise a credit
+   report correction request with the bureau under the Credit Information
+   Companies (Regulation) Act — the bank must respond to bureau correction
+   requests routed through it within 30 days.

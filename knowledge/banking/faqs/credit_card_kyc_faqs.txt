@@ -1,0 +1,29 @@
+CREDIT CARD ISSUANCE & KYC UPDATE — FAQs
+
+Q: Can a bank issue me a credit card or increase my limit without consent?
+A: No. RBI's Credit Card and Debit Card Directions require express
+   consent (not a pre-ticked box or a passive "opt-out") for card
+   issuance, credit limit enhancement, and converting a loan into EMIs
+   on a card. An unsolicited card/limit-increase can be reported as a
+   direct violation.
+
+Q: My card was closed/blocked and I still see charges — what now?
+A: Once a card is surrendered/closed (with a closure confirmation
+   reference), no further charges should be levied. Dispute any
+   post-closure charge in writing citing the closure reference and date.
+
+Q: My periodic KYC update was rejected or my account got frozen for
+   "KYC non-compliance" — what should I do?
+A: RBI's KYC Directions require banks to give advance notice and a
+   reasonable time to complete periodic KYC before restricting an account,
+   and full freezing (debit + credit) is a last resort after intermediate
+   steps (e.g. debit freeze only) and further notice. If your account was
+   frozen without the required notice sequence, that is a valid complaint
+   ground citing the KYC Directions directly.
+
+Q: Where do I actually update KYC?
+A: At your home branch, via the bank's net-banking/app "Re-KYC" flow if
+   offered, or in some cases via a video-KYC option — low-risk customers
+   often qualify for simplified self-declaration based re-KYC without an
+   in-branch visit; ask your bank whether you qualify before assuming a
+   branch visit is required.

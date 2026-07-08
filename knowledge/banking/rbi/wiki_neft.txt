@@ -1,0 +1,465 @@
+National Electronic Funds Transfer - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Indian electronic funds transfer system
+National Electronic Funds Transfer
+(
+NEFT
+) is an
+electronic funds transfer
+system maintained by the
+Reserve Bank of India
+(RBI). Started in November 2005, the setup was established and maintained by
+Institute for Development and Research in Banking Technology
+.
+[
+1
+]
+NEFT enables bank customers in India to transfer funds between any two NEFT-enabled bank accounts on a one-to-one basis. It is done via electronic messages.
+Unlike
+real-time gross settlement
+, fund transfers through the NEFT system do not occur in real-time basis. Previously, NEFT system settled fund transfers in hourly batches with 23 settlements occurring between 00:30 hrs. to 00:00 hrs.
+From 16 December 2019, there would be 48 half-hourly batches occurring between 00.30 am to 00:00 am every day regardless of a holiday or otherwise.
+[
+2
+]
+As of 30 November 2019, NEFT facilities were available at 1,48,477 branches/offices of 216 banks across the country and online through the website of NEFT-enabled banks. NEFT has gained popularity due to the ease and efficiency with which the transactions can be concluded.
+[
+citation needed
+]
+There is no limit – either minimum or maximum – on the amount of funds that can be transferred using NEFT.
+[
+3
+]
+Process
+[
+edit
+]
+Detailed process of NEFT is as follows:
+[
+4
+]
+[
+5
+]
+The customer fills up an application form providing details of the beneficiary (like name, bank, branch name,
+IFSC
+, account type and account number) and the amount to be remitted. The remitter authorizes his/her bank branch to debit his account and remit the specified amount to the beneficiary. This facility is also available through online banking, and some banks also offer the NEFT facility through
+ATMs
+.
+The originating bank branch prepares a message and sends the message to its pooling centre (also called the NEFT Service Centre).
+The pooling centre forwards the message to the NEFT Clearing Centre (operated by National Clearing Cell, Reserve Bank of India, Mumbai) to be included for the next available batch.
+The Clearing Centre sorts the funds transfer transactions destination bank-wise and prepares accounting entries to receive funds from the originating banks (debit) and give the funds to the destination banks (credit). Thereafter, bank-wise remittance messages are forwarded to the destination banks through their pooling centre (NEFT Service Centre).
+The destination banks receive the inward remittance messages from the Clearing Centre and pass on the credit to the beneficiary customers’ accounts.
+Settlement timings
+[
+edit
+]
+NEFT transfers are settled in half-hourly batches every day between 00:30 am and 00:00 am all through the year.
+NEFT originally settled fund transfers in hourly batches.
+[
+6
+]
+The RBI reduced clearance times to half-hourly batches in April 2016.
+[
+7
+]
+In August 2019, the RBI announced that it would enable round-the-clock settlements from 16 December 2019.
+[
+8
+]
+[
+9
+]
+Service charges
+[
+edit
+]
+The structure of charges is as follows:
+Inward transactions at destination bank branches (for credit to beneficiary accounts):
+Free, no charges to be collected from beneficiaries
+Outward transactions at originating bank branches (charges for the remitter):
+With effect from 1 January 2020, banks have been advised to not levy any charges from their
+savings bank
+account holders for NEFT funds transfers initiated
+online
+.
+Maximum charges which can be levied for outward transactions at originating bank for other transactions, i.e. offline transactions (at bank branch through NEFT form), transactions done through current/other accounts –
+For transactions up to ₹ 10,000: not exceeding ₹ 2.50 (+ Applicable GST)
+For transactions above ₹ 10,000 up to ₹ 1 lakh: not exceeding ₹ 5 (+ Applicable GST)
+For transactions above ₹ 1 lakh and up to ₹ 2 lakhs: not exceeding ₹ 15 (+ Applicable GST)
+For transactions above ₹ 2 lakhs: not exceeding ₹ 25 (+ Applicable GST)
+The scenario varies from bank to bank, whether they levy this charge or not immatter of the transaction done online or offline for the accounts other than a savings bank account.
+The
+RBI
+announced on 11 June 2019 that all charges for NEFT and
+real-time gross settlement
+transactions collected from banks would be waived from 1 July 2019, and asked banks to pass on the benefits to customers (so RBI charges nothing for these transactions to its member banks and the only charge that is levied is by the bank through which the outward transaction is initiated).
+[
+10
+]
+Statistics
+[
+edit
+]
+216.71 million National Electronic Funds Transfers transactions worth
+₹
+1,811,780.90 crore
+(equivalent to
+₹
+23
+trillion
+or
+US$235.77
+billion in 2023)
+[
+11
+]
+were made in September 2019, as against 661 million transactions worth
+₹
+44 trillion
+(US$460
+billion)
+the entire year 2013–15.
+[
+12
+]
+References
+[
+edit
+]
+↑
+"Overview of Payment Systems in India"
+. Reserve Bank of India. Archived from
+the original
+on 20 January 2015
+. Retrieved
+24 January
+2015
+.
+↑
+"Reserve Bank of India - Notifications"
+.
+www.rbi.org.in
+. Retrieved
+11 December
+2019
+.
+↑
+"Reserve Bank of India"
+.
+www.rbi.org.in
+. Retrieved
+11 December
+2019
+.
+↑
+"FAQ- NEFT System"
+. Reserve Bank of India. 28 April 2020
+. Retrieved
+8 May
+2021
+.
+↑
+"National Electronic Funds Transfer System - Procedural Guidelines"
+. Reserve Bank of India
+. Retrieved
+24 January
+2015
+.
+↑
+"NEFT Fund Transfer To Get Faster - NDTV"
+.
+NDTV
+. Retrieved
+6 April
+2017
+.
+↑
+"NEFT transfer to get quicker as RBI cuts clearance time"
+.
+The Indian Express
+. 6 April 2016
+. Retrieved
+6 April
+2017
+.
+↑
+Manikandan, Ashwin (7 August 2019).
+"Transact round the clock: NEFT timings to change from December, RBI announces"
+.
+The Economic Times
+. Retrieved
+7 August
+2019
+.
+↑
+"RBI allows round-the-clock fund transfers under NEFT from December"
+.
+The Hindu
+. 7 August 2019
+. Retrieved
+7 August
+2019
+.
+↑
+"Fund transfers via RTGS, NEFT to cost less from July 1".
+The Times of India
+.
+↑
+"ECS - All Centres' Transaction Details for the month of August 2019"
+(PDF)
+.
+rbidocs.rbi.org.in
+. RBI. Archived from the original on 11 December 2019
+. Retrieved
+12 December
+2019
+.
+{{
+cite web
+}}
+:  CS1 maint: bot: original URL status unknown (
+link
+)
+↑
+"Digital India: Beyond an aspiration to an imperative"
+,
+Business Today
+, 26 February 2016
+External links
+[
+edit
+]
+List of NEFT enabled bank Branches in India (Bank-wise IFS Codes)
+v
+t
+e
+Digital payment providers
+Active
+2C2P
+Adyen
+Airtel Payments Bank
+Alipay
+Amazon Pay
+Ant Group
+Apple
+Card
+Pay
+Wallet
+Atlantic Money
+Bancomat Pay
+bKash
+BillDesk
+bit
+Bizum
+Blik
+Block
+Afterpay
+Square
+Cash App
+Boku, Inc.
+BPAY
+Bunq
+Carta Worldwide
+CDS Global
+Chase Paymentech
+WePay
+Circle
+Cred
+Dwolla
+Easypaisa
+Elavon
+EnStream
+Ensygnia
+EServGlobal
+Freecharge
+GCash
+Global Payments
+Google Pay
+Google Pay app
+Google Wallet
+iDEAL
+Ingenico
+Interac e-Transfer
+JazzCash
+Jumio
+KakaoPay
+Klarna
+Line Pay
+Maya
+Mir
+Mir Pay
+MobiKwik
+NTT Data Payment Services
+Mobile Suica
+MobilePay
+M-Pesa
+Mi-Pay
+MintChip
+MMQR
+Nagad
+RBI
+RTGS
+NPCI
+IMPS
+UPI
+BBPS
+BHIM
+IDRBT
+NEFT
+Naver Pay
+Nexi
+Nexgo
+Novalnet
+Nuvei
+Orange Money
+Osaifu-Keitai
+Passport
+PAX Technology
+Paya
+Payanywhere
+PayBox
+PayMate
+PayMe
+Paymentwall
+PayNow
+Payoneer
+PayPal
+Braintree
+Zettle
+Venmo
+Xoom
+PayPay
+PayPoint
+Paysafe
+Neteller
+Openbucks
+PaysafeCard
+Skrill
+Payzone
+Paytm
+PayU
+Paze
+Pepper
+PhonePe
+Pine Labs
+Pix
+POLi Payments
+QRIS
+Red Dot Payment
+Remita
+Revolut
+Samsung Pay
+Samsung Wallet
+Sarvatra Technologies
+SberPay
+SBPay
+Sezzle
+Shift4
+Shop Pay
+Skaleet
+Spice Money
+Stripe
+Swish
+Tata Neu
+Tencent
+Touch 'n Go eWallet
+TWINT
+UnionPay app
+Veem
+Verifi
+Verifone
+Versapay
+Vipps
+VugaPay
+Wave Money
+WebMoney
+WeChat Pay
+Wero
+WiPay
+Wizzit
+Worldline SA
+Worldpay, Inc.
+Yandex Pay
+Yape
+YooMoney
+Zelle
+Zeta
+Ziina
+Defunct
+AirTag
+Bell ID
+Billpoint
+C2it
+Clinkle
+Flattr
+Fortumo
+Google Wallet (2011–2018)
+Kuapay
+Lemon Wallet
+LG Pay
+Merchant Customer Exchange
+Microsoft Pay
+Mozido
+PayDirect
+Paym
+Pingit
+Powa Technologies
+Qiwi
+Quahl
+Sage Pay
+Simpay
+Softcard
+Tez
+vcash
+Paydiant
+Ukash
+Wirecard
+Worldpay Group
+Zong
+Remittance
+CurrencyFair
+MoneyGram
+Nium
+OFX
+Remitly
+Rewire
+Ria Money Transfer
+Transfast
+TransferMate
+Travelex
+Western Union
+Wise
+WorldRemit
+XE
+Related
+Digital currency
+Digital wallet
+Mobile payment
+Payment service provider
+List of online payment service providers
+European Mobile Payment Systems Association
+European Payments Initiative
+Category
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=National_Electronic_Funds_Transfer&oldid=1353606673
+"
+Categories
+:
+Payment and settlement systems in India
+Reserve Bank of India
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Use dmy dates from March 2016
+Use Indian English from March 2016
+All Wikipedia articles written in Indian English
+All articles with unsourced statements
+Articles with unsourced statements from March 2021
+CS1 maint: bot: original URL status unknown
+Search
+Search
+National Electronic Funds Transfer
+3 languages
+Add topic

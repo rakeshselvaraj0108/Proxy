@@ -1,9 +1,0 @@
-# Personal Loan Agreement
-
-## Clause 4: Interest Rate and EMI
-The Loan HAS Interest Rate which is floating as per the Repo rate.
-The EMI shall be payable on the 5th of every month.
-
-## Clause 5: Foreclosure
-The Customer may foreclose the loan after 12 months.
-A foreclosure Fee of 4% on the principal outstanding applies.

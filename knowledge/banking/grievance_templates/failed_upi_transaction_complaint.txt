@@ -1,0 +1,37 @@
+FAILED / STUCK UPI TRANSACTION COMPLAINT TEMPLATE
+
+Background: Most UPI failures (money debited but not credited to the
+payee, or stuck "pending" status) are auto-reversed by the banks'/NPCI's
+switch within T+1 working day. When auto-reversal doesn't happen, the
+Turn Around Time (TAT) for a formal complaint-driven reversal is commonly
+cited as within a defined window from the complaint date, after which a
+per-day penalty may be payable to the customer under NPCI's dispute
+guidelines.
+
+Steps:
+1. Raise the complaint FIRST in your UPI app (Bank app / PhonePe / Google
+   Pay / Paytm etc.) using the "Raise Dispute" / "Report Issue" option
+   against the specific transaction — this creates a complaint reference
+   number (CRN) in NPCI's dispute system, which is the fastest path.
+2. If not resolved within the app's stated TAT, escalate in writing:
+
+To,
+The Nodal Officer, [Remitting Bank Name]
+
+Subject: Failed UPI transaction not reversed — UTR/RRN [xxxxxxxxxx],
+amount INR [amount], date [date]
+
+"On [date], I attempted a UPI payment of INR [amount] to [payee UPI ID /
+name], UTR/RRN [xxxxxxxxxx]. The amount was debited from my account but
+[not credited to the payee / transaction shows failed but amount not
+reversed]. I have already raised this in-app (reference [CRN]) without
+resolution within the stated TAT. I request immediate reversal of the
+debited amount."
+
+Escalation path if unresolved:
+1. Remitting bank's Nodal Officer (with the app-generated CRN).
+2. NPCI's own dispute redressal mechanism (via the PSP app, since NPCI
+   does not take complaints directly from customers outside the app/bank
+   channel).
+3. RBI Integrated Ombudsman Scheme (cms.rbi.org.in) — UPI/digital payment
+   complaints against a bank are squarely within its scope.
