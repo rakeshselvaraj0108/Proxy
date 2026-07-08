@@ -95,6 +95,36 @@ class SupervisorAgent:
                     state.setdefault("agent_trace", []).append(f"specialist_executed:{agent.name}")
             state["specialist_results"] = all_results
             return state
+        elif domain == Domain.HOUSING:
+            from app.agents.domain_agents.housing.specialists import get_housing_specialists
+            state.setdefault("agent_trace", []).append("housing_orchestrator:start")
+            plan = state.get("plan", {})
+            routes = plan.get("specialists", ["general_housing"])
+            specialists = get_housing_specialists()
+            all_results = []
+            for route in routes:
+                agent = specialists.get(route)
+                if agent:
+                    res = await agent.process(state)
+                    all_results.append(res)
+                    state.setdefault("agent_trace", []).append(f"specialist_executed:{agent.name}")
+            state["specialist_results"] = all_results
+            return state
+        elif domain == Domain.HEALTHCARE:
+            from app.agents.domain_agents.healthcare.specialists import get_healthcare_specialists
+            state.setdefault("agent_trace", []).append("healthcare_orchestrator:start")
+            plan = state.get("plan", {})
+            routes = plan.get("specialists", ["general_healthcare"])
+            specialists = get_healthcare_specialists()
+            all_results = []
+            for route in routes:
+                agent = specialists.get(route)
+                if agent:
+                    res = await agent.process(state)
+                    all_results.append(res)
+                    state.setdefault("agent_trace", []).append(f"specialist_executed:{agent.name}")
+            state["specialist_results"] = all_results
+            return state
         state.setdefault("specialist_outputs", []).append(
             {
                 "agent": "FAQ/General Agent",

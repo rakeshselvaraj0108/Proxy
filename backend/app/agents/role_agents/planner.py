@@ -36,6 +36,27 @@ GOVT_PENSION_TERMS = {"pension", "epfo", "epf", "pf withdrawal", "nps", "pfrda",
 GOVT_GRIEVANCE_TERMS = {"cpgrams", "rti", "grievance", "appeal", "pio", "public information officer", "ombudsman", "escalate", "escalation"}
 GOVT_GENERAL_TERMS = {"government", "govt", "ministry", "department", "scheme", "e-sevai", "meeseva", "seva kendra", "national consumer helpline"}
 
+# Housing terms
+HOUSING_RENTAL_TERMS = {"rent", "rental", "lease", "tenant", "landlord", "deposit", "eviction", "lock-out", "vacate", "tenancy"}
+HOUSING_RERA_TERMS = {"rera", "builder", "promoter", "possession", "delay", "construction", "occupancy certificate", "completion certificate", "defect", "seepage", "crack"}
+HOUSING_REGISTRATION_TERMS = {"registration", "sub-registrar", "sale deed", "stamp duty", "encumbrance", "mutation", "survey number"}
+HOUSING_TAX_TERMS = {"property tax", "assessment", "municipal", "tax classification"}
+HOUSING_SOCIETY_TERMS = {"society", "maintenance", "rwa", "managing committee", "noc", "corpus fund", "cooperative"}
+HOUSING_LOAN_TERMS = {"home loan", "foreclosure", "emi", "mortgage", "disbursement", "loan documents"}
+HOUSING_CONSUMER_TERMS = {"ncdrc", "consumer court", "consumer forum", "national consumer helpline"}
+HOUSING_GENERAL_TERMS = {"housing", "mohua", "pmay", "apartment", "villa", "plot", "flat"}
+
+# Healthcare terms (public health education domain)
+HEALTHCARE_DISEASE_TERMS = {"symptom", "symptoms", "disease", "fever", "dengue", "malaria", "tuberculosis", "tb", "diabetes", "hypertension", "flu", "influenza", "covid", "diarrhea", "diarrhoea", "infection", "illness", "cough", "cold"}
+HEALTHCARE_PREVENTIVE_TERMS = {"vaccine", "vaccination", "immunization", "immunisation", "booster", "screening", "preventive", "prevention"}
+HEALTHCARE_GUIDELINE_TERMS = {"guideline", "guidelines", "standard treatment", "treatment protocol", "clinical practice", "evidence-based", "treatment approach"}
+HEALTHCARE_DRUG_TERMS = {"medicine", "medication", "drug", "dosage", "dose", "interaction", "side effect", "adverse reaction", "generic", "cdsco", "pharmacovigilance", "prescription"}
+HEALTHCARE_LAB_TERMS = {"lab test", "lab report", "blood test", "hba1c", "cholesterol", "lft", "kft", "egfr", "cbc", "reference range", "test result", "tsh"}
+HEALTHCARE_PATIENT_RIGHTS_TERMS = {"patient rights", "informed consent", "medical records", "discharge summary", "second opinion", "confidentiality", "itemized bill", "grievance"}
+HEALTHCARE_PUBLIC_HEALTH_TERMS = {"outbreak", "advisory", "epidemic", "surveillance", "public health", "ncdc", "idsp"}
+HEALTHCARE_HOSPITAL_QUALITY_TERMS = {"nabh", "accreditation", "hospital quality", "infection control"}
+HEALTHCARE_GENERAL_TERMS = {"health", "healthcare", "medical", "hospital", "doctor", "ayushman bharat", "pmjay", "who", "mohfw", "icmr"}
+
 
 def _contains(text: str, terms: set[str]) -> bool:
     return any(term in text for term in terms)
@@ -108,6 +129,46 @@ def build_plan(state: AgentState) -> dict:
             specialists.append("general_government")
         if not specialists:
             specialists.append("general_government")
+    elif domain == Domain.HOUSING:
+        if _contains(query, HOUSING_RENTAL_TERMS):
+            specialists.append("rental_tenancy")
+        if _contains(query, HOUSING_RERA_TERMS):
+            specialists.append("rera_builder")
+        if _contains(query, HOUSING_REGISTRATION_TERMS):
+            specialists.append("property_registration")
+        if _contains(query, HOUSING_TAX_TERMS):
+            specialists.append("property_tax")
+        if _contains(query, HOUSING_SOCIETY_TERMS):
+            specialists.append("apartment_society")
+        if _contains(query, HOUSING_LOAN_TERMS):
+            specialists.append("home_loan")
+        if _contains(query, HOUSING_CONSUMER_TERMS):
+            specialists.append("consumer_escalation")
+        if _contains(query, HOUSING_GENERAL_TERMS):
+            specialists.append("general_housing")
+        if not specialists:
+            specialists.append("general_housing")
+    elif domain == Domain.HEALTHCARE:
+        if _contains(query, HEALTHCARE_DISEASE_TERMS):
+            specialists.append("disease_symptom_info")
+        if _contains(query, HEALTHCARE_PREVENTIVE_TERMS):
+            specialists.append("preventive_care_vaccination")
+        if _contains(query, HEALTHCARE_GUIDELINE_TERMS):
+            specialists.append("clinical_guidelines")
+        if _contains(query, HEALTHCARE_DRUG_TERMS):
+            specialists.append("drug_safety")
+        if _contains(query, HEALTHCARE_LAB_TERMS):
+            specialists.append("lab_diagnostics")
+        if _contains(query, HEALTHCARE_PATIENT_RIGHTS_TERMS):
+            specialists.append("patient_rights")
+        if _contains(query, HEALTHCARE_PUBLIC_HEALTH_TERMS):
+            specialists.append("public_health_advisory")
+        if _contains(query, HEALTHCARE_HOSPITAL_QUALITY_TERMS):
+            specialists.append("hospital_quality")
+        if _contains(query, HEALTHCARE_GENERAL_TERMS):
+            specialists.append("general_healthcare")
+        if not specialists:
+            specialists.append("general_healthcare")
     else:
         # Default/Health Insurance
         if _contains(query, CLAIM_TERMS):
