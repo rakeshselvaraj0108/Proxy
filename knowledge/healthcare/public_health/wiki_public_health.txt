@@ -1,0 +1,6147 @@
+Public health - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Promoting health through informed choices
+This article is about public health. For public health care, see
+publicly funded health care
+.
+Various aspects of public health: From top to bottom:
+Community health worker
+in Mali,
+vaccination
+example (
+COVID-19 vaccination
+in Germany), historical
+sewer
+installation photo from the United States,
+anti-smoking campaign
+in India.
+Part of a
+series
+on
+Public health
+Outline
+Subfields
+Community health
+Dental public health
+Environmental health
+Epidemiology
+Health economics
+Health education
+Health promotion
+Health policy
+Health politics
+Mental health
+Occupational safety
+Rehabilitation (penology)
+Sanitation
+Sexual and reproductive health
+Social medicine
+World health (
+Global health
+-
+International health
+)
+Disease prevention
+Disease surveillance
+Harm reduction
+Health promotion
+(
+Behavior change
+)
+Health indicators
+Human right to water and sanitation
+Right to health
+Supervised injection site
+Universal health care
+Lists
+and
+categories
+Terminology
+Journals
+National public health agencies
+Medicine
+portal
+Society
+portal
+v
+t
+e
+Public health
+is "the science of preventing disease, prolonging life and promoting health through the organized efforts and informed choices of society, organizations, public and private, communities and individuals".
+[
+1
+]
+[
+2
+]
+Analyzing the determinants of
+health
+of a
+population
+and the threats it faces is the basis for public health.
+[
+3
+]
+The
+public
+can be as small as a handful of people or as large as a village or an entire city; in the case of a
+pandemic
+it may encompass several continents. The concept of
+health
+takes into account physical,
+psychological
+, and
+social well-being
+, among other factors.
+[
+4
+]
+Public health is an
+interdisciplinary
+field. For example,
+epidemiology
+,
+biostatistics
+,
+social sciences
+and
+management
+of
+health services
+are all relevant. Other important sub-fields include
+environmental health
+,
+community health
+,
+behavioral health
+,
+health economics
+,
+public policy
+,
+mental health
+,
+health education
+,
+health politics
+,
+occupational safety
+,
+disability
+,
+oral health
+,
+gender issues
+in health, and
+sexual and reproductive health
+.
+[
+5
+]
+Public health, together with
+primary care
+, secondary care, and
+tertiary care
+, is part of a country's overall
+healthcare
+system. Public health is implemented through the
+surveillance
+of cases and
+health indicators
+, and through the
+promotion of healthy behaviors
+. Common public health initiatives include promotion of
+hand-washing
+and
+breastfeeding
+, delivery of
+vaccinations
+, promoting ventilation and improved air quality both
+indoors
+and
+outdoors
+,
+suicide prevention
+,
+smoking cessation
+,
+obesity education
+, increasing
+healthcare
+accessibility and distribution of
+condoms
+to control the spread of
+sexually transmitted diseases
+.
+There is a significant disparity in access to health care and public health initiatives between
+developed countries
+and
+developing countries
+, as well as within developing countries. In developing countries, public health infrastructures are still forming. There may not be enough trained
+healthcare workers
+, monetary resources, or, in some cases, sufficient knowledge to provide even a basic level of medical care and disease prevention.
+[
+6
+]
+[
+7
+]
+A major public health concern in developing countries is poor
+maternal
+and
+child health
+, exacerbated by
+malnutrition
+and poverty and limited implementation of comprehensive public health policies. Developed nations are at greater risk of certain public health crises, including childhood obesity, although overweight populations in low- and middle-income countries are catching up.
+[
+8
+]
+From the beginnings of
+human civilization
+, communities promoted
+health
+and fought
+disease
+at the population level.
+[
+9
+]
+[
+10
+]
+In
+complex
+,
+pre-industrialized societies
+, interventions designed to reduce health risks could be the initiative of different stakeholders, such as army generals, the clergy or rulers. Great Britain became a leader in the development of public health initiatives, beginning in the 19th century, due to the fact that it was the first modern
+urban nation
+worldwide.
+[
+11
+]
+The public health initiatives that began to emerge initially focused on
+sanitation
+(for example, the Liverpool and
+London sewerage systems
+), control of
+infectious diseases
+(including vaccination and
+quarantine
+) and an evolving infrastructure of various sciences, e.g. statistics,
+microbiology
+, epidemiology, sciences of engineering.
+[
+11
+]
+Definition
+[
+edit
+]
+A community health worker in Korail Basti, a slum in
+Dhaka
+, Bangladesh
+Public health has been defined as "the science and art of
+preventing disease
+", prolonging life and improving
+quality of life
+through organized efforts and informed choices of
+society
+,
+organizations
+(public and private),
+communities
+and
+individuals
+.
+[
+2
+]
+The
+public
+can be as small as a handful of people or as large as a village or an entire city. The concept of
+health
+takes into account physical,
+psychological
+, and
+social well-being
+. As such, according to the
+World Health Organization
+, "health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity".
+[
+4
+]
+Related terms
+[
+edit
+]
+The
+WHO
+is the predominant agency associated with
+global health
+.
+Public health is related to
+global health
+which is the health of populations in the worldwide context.
+[
+12
+]
+It has been defined as "the area of study,
+research
+and practice that places a priority on improving health and achieving equity in "
+Health for all
+" people worldwide".
+[
+13
+]
+International health is a field of
+health
+care, usually with a public health emphasis, dealing with health across regional or national boundaries.
+[
+14
+]
+Public health is not the same as public healthcare (
+publicly funded health care
+).
+The term
+preventive medicine
+is related to public health. The American Board of Preventive Medicine separates three categories of preventive medicine: aerospace health,
+occupational health
+, and public health and general preventative medicine. Jung, Boris and Lushniak argue that preventive medicine should be considered the medical specialty for public health but note that the American College of Preventive Medicine and American Board of Preventive Medicine do not prominently use the term "public health".
+[
+15
+]
+:
+1
+Preventive medicine specialists are trained as
+clinicians
+and address complex health needs of a population such as by assessing the need for
+disease prevention
+programs, using the best methods to implement them, and assessing their effectiveness.
+[
+15
+]
+:
+1,
+3
+Since the 1990s many scholars in public health have been using the term
+population health
+.
+[
+16
+]
+:
+3
+There are no medical specialties directly related to population health.
+[
+15
+]
+:
+4
+Valles argues that consideration of
+health equity
+is a fundamental part of population health. Scholars such as Coggon and Pielke express concerns about bringing general issues of wealth distribution into
+population health
+. Pielke worries about "stealth issue advocacy" in population health.
+[
+16
+]
+:
+163
+Jung, Boris and Lushniak consider population health to be a concept that is the goal of an activity called public health practiced through the specialty preventive medicine.
+[
+15
+]
+:
+4
+Lifestyle medicine
+uses individual lifestyle modification to prevent or revert disease and can be considered a component of preventive medicine and public health. It is implemented as part of
+primary care
+rather than a specialty in its own right.
+[
+15
+]
+:
+3
+Valles argues that the term
+social medicine
+has a narrower and more
+biomedical
+focus than the term population health.
+[
+16
+]
+:
+7
+Purpose
+[
+edit
+]
+The purpose of a
+public health intervention
+is to prevent and
+mitigate
+diseases,
+injuries
+, and other health conditions. The overall goal is to improve the health of individuals and populations, and to increase
+life expectancy
+.
+[
+17
+]
+[
+18
+]
+Components
+[
+edit
+]
+Public health is a complex term, composed of many elements and different practices. It is a multi-faceted,
+interdisciplinary
+field.
+[
+11
+]
+For example,
+epidemiology
+,
+biostatistics
+,
+social sciences
+and
+management
+of health services are all relevant. Other important sub-fields include
+environmental health
+,
+community health
+,
+behavioral health
+,
+health economics
+,
+public policy
+,
+mental health
+,
+health education
+,
+health politics
+,
+occupational safety
+,
+disability
+,
+gender issues
+in health, and
+sexual and reproductive health
+.
+[
+5
+]
+Modern public health practice requires
+multidisciplinary
+teams of public health workers and professionals. Teams might include
+epidemiologists
+,
+biostatisticians
+,
+physician assistants
+,
+public health nurses
+,
+midwives
+,
+medical microbiologists
+,
+pharmacists
+,
+economists
+,
+sociologists
+,
+geneticists
+,
+data managers
+,
+environmental health officers
+(
+public health inspectors
+),
+bioethicists
+, gender experts, sexual and reproductive health specialists,
+physicians
+, and
+veterinarians
+.
+[
+19
+]
+The elements and priorities of public health have evolved over time, and are continuing to evolve.
+[
+11
+]
+Common public health initiatives include promotion of
+hand-washing
+and
+breastfeeding
+, delivery of
+vaccinations
+,
+suicide prevention
+,
+smoking cessation
+,
+obesity education
+, increasing
+healthcare
+accessibility and distribution of
+condoms
+to control the spread of
+sexually transmitted diseases
+.
+[
+20
+]
+Methods
+[
+edit
+]
+Newspaper headlines from around the world about
+polio vaccine
+tests (13 April 1955)
+Public health aims are achieved through surveillance of cases and the
+promotion of healthy behaviors
+,
+communities
+and
+environments
+. Analyzing the determinants of
+health
+of a
+population
+and the threats it faces is the basis for public health.
+[
+3
+]
+Many diseases are
+preventable
+through simple, nonmedical methods. For example, research has shown that the simple act of
+handwashing
+with soap can prevent the spread of many
+contagious diseases
+.
+[
+21
+]
+In other cases, treating a disease or controlling a
+pathogen
+can be vital to preventing its spread to others, either during an outbreak of
+infectious disease
+or through
+contamination of food
+or
+water
+supplies.
+Public health, together with
+primary care
+, secondary care, and
+tertiary care
+, is part of a country's overall
+health care
+system. Many interventions of public health interest are delivered outside of
+health facilities
+, such as
+food safety
+surveillance, distribution of
+condoms
+and
+needle-exchange programs
+for the prevention of transmissible diseases.
+Public health requires
+Geographic Information Systems
+(GIS) because risk, vulnerability and exposure involve geographic aspects.
+[
+22
+]
+Ethics
+[
+edit
+]
+A Public Health Prayer - Dr Edmond Fernandes
+A dilemma in public health ethics is dealing with the conflict between
+individual rights
+and maximizing
+right to health
+.
+[
+23
+]
+:
+28
+Public health is justified by
+consequentialist
+utilitarian
+ideas,
+[
+23
+]
+:
+153
+but is constrained and critiqued by
+liberal
+,
+[
+23
+]
+deontological
+,
+principlist
+and
+libertarian
+philosophies
+[
+23
+]
+:
+99,
+95,
+74,
+123
+Stephen Holland argues that it can be easy to find a particular framework to justify any viewpoint on public health issues, but that the correct approach is to find a framework that best describes a situation and see what it implies about public health policy.
+[
+23
+]
+:
+154
+The definition of
+health
+is vague and there are many conceptualizations. Public health practitioners definition of health can different markedly from members of the public or
+clinicians
+. This can mean that members of the public view the values behind public health interventions as alien which can cause resentment amongst the public towards certain interventions.
+[
+23
+]
+:
+230
+Such vagueness can be a problem for
+health promotion
+.
+[
+23
+]
+:
+241
+Critics have argued that public health tends to place more focus on individual factors associated with health at the expense of factors operating at the population level.
+[
+16
+]
+:
+9
+Historically, public health campaigns have been criticized as a form of "
+healthism
+",
+as moralistic in nature rather than being focused on health. Medical doctors, Petr Shkrabanek and James McCormick wrote a series of publications on this topic in the late 1980s and early 1990s criticizing the UK's
+the Health of The Nation
+campaign. These publications exposed abuse of epidemiology and statistics by the public health movement to support lifestyle interventions and screening programs.
+[
+24
+]
+:
+85
+[
+25
+]
+A combination of inculcating a fear of ill-health and a strong notion of individual responsibility has been criticized as a form of "health fascism" by a number of scholars, objectifying the individual with no considerations of emotional or social factors.
+[
+26
+]
+:
+8
+[
+25
+]
+:
+7
+[
+27
+]
+:
+81
+Priority areas
+[
+edit
+]
+Original focal areas
+[
+edit
+]
+A
+Somali
+boy is injected with inactivated poliovirus vaccine (
+Mogadishu
+, 1993).
+When public health initiatives began to emerge in England in modern times (18th century onwards) there were three core strands of public health which were all related to statecraft: Supply of clean water and
+sanitation
+(for example
+London sewerage system
+); control of
+infectious diseases
+(including
+vaccination
+and
+quarantine
+); an evolving infrastructure of various sciences, e.g. statistics, microbiology, epidemiology, sciences of engineering.
+[
+11
+]
+Great Britain was a leader in the development of public health during that time period out of necessity: Great Britain was the first modern
+urban nation
+(by 1851 more than half of the population lived in settlements of more than 2000 people).
+[
+11
+]
+This led to a certain type of distress which then led to public health initiatives.
+[
+11
+]
+Later that particular concern faded away.
+Changing focal areas and expanding scope
+[
+edit
+]
+Cigarette packet warnings as part of
+anti-smoking campaigns
+With the onset of the
+epidemiological transition
+and as the prevalence of
+infectious diseases decreased through the 20th century
+, public health began to put more focus on
+chronic diseases
+such as
+cancer
+and
+heart disease
+. Previous efforts in many developed countries had already led to dramatic reductions in the
+infant mortality rate
+using preventive methods. In Britain, the infant mortality rate fell from over 15% in 1870 to 7% by 1930.
+[
+28
+]
+A major public health concern in
+developing countries
+is poor
+maternal
+and child health, exacerbated by
+malnutrition
+and poverty. The
+WHO
+reports that a lack of
+exclusive breastfeeding
+during the first six months of life contributes to over a million avoidable child deaths each year.
+[
+29
+]
+Public health surveillance has led to the identification and prioritization of many public health issues facing the world today, including
+HIV/AIDS
+,
+diabetes
+,
+waterborne diseases
+,
+zoonotic diseases
+, and
+antibiotic resistance
+leading to the reemergence of infectious diseases such as
+tuberculosis
+.
+Antibiotic resistance
+, also known as drug resistance, was the theme of
+World Health Day 2011
+.
+For example, the WHO reports that at least 220 million people worldwide have diabetes. Its incidence is increasing rapidly, and it is projected that the number of diabetes deaths will double by 2030.
+[
+30
+]
+In a June 2010 editorial in the medical journal
+The Lancet
+, the authors opined that "The fact that type 2 diabetes, a largely preventable disorder, has reached epidemic proportion is a public health humiliation."
+[
+31
+]
+The risk of
+type 2 diabetes
+is closely linked with the growing problem of
+obesity
+. The WHO's latest estimates
+as of June
+2016
+[
+update
+]
+highlighted that globally approximately 1.9 billion adults were
+overweight
+in 2014, and 41 million children under the age of five were overweight in 2014.
+[
+32
+]
+Once considered a problem in high-income countries, it is now on the rise in low-income countries, especially in urban settings.
+[
+33
+]
+Many public health programs are increasingly dedicating attention and resources to the issue of obesity, with objectives to address the underlying causes including
+healthy diet
+and
+physical exercise
+. The
+National Institute for Health and Care Research
+(NIHR) has published a review of research on what
+local authorities
+can do to tackle obesity.
+[
+34
+]
+The review covers interventions in the food environment (what people buy and eat), the
+built
+and
+natural environments
+, schools, and the community, as well as those focussing on
+active travel
+,
+leisure services
+and public sports,
+weight management programmes
+, and
+system-wide approaches
+.
+[
+34
+]
+Health inequalities, driven by the social determinants of health, are also a growing area of concern in public health.  A central challenge to securing health equity is that the same social structures that contribute to health inequities also operate and are reproduced by public health organizations.
+[
+35
+]
+In other words, public health organizations have evolved to better meet the needs of some groups more than others. The result is often that those most in need of preventative interventions are least likely to receive them
+[
+36
+]
+and interventions can actually aggravate inequities
+[
+37
+]
+as they are often inadvertently tailored to the needs of the normative group.
+[
+38
+]
+Identifying bias within public health research and practice is essential to ensuring public health efforts mitigate and don't aggravate health inequities.
+Organizations
+[
+edit
+]
+World Health Organization (WHO)
+[
+edit
+]
+The
+World Health Organization
+(WHO) is a
+specialized agency of the United Nations
+responsible for international public health.
+[
+39
+]
+The WHO Constitution, which establishes the agency's governing structure and principles, states its main objective as "the attainment by all peoples of the highest possible level of health".
+[
+40
+]
+The WHO's broad mandate includes advocating for universal healthcare, monitoring public health risks, coordinating responses to health emergencies, and promoting human health and well-being.
+[
+41
+]
+The WHO has played a leading role in several public health achievements, most notably the
+eradication
+of
+smallpox
+, the near-
+eradication of polio
+, and the development of an
+Ebola vaccine
+. Its current priorities include
+communicable diseases
+, particularly
+HIV/AIDS
+,
+Ebola
+,
+COVID-19
+,
+malaria
+and
+tuberculosis
+;
+non-communicable diseases
+such as heart disease and cancer;
+healthy diet
+, nutrition, and
+food security
+;
+occupational health
+; and
+substance abuse
+.
+[
+42
+]
+[
+43
+]
+Others
+[
+edit
+]
+A local health department in the United States
+Most countries have their own governmental public health agency, often called the ministry of health, with responsibility for domestic health issues.
+For example, in the
+United States
+, state and local
+health departments
+are on the front line of public health initiatives. In addition to their national duties, the
+United States Public Health Service
+(PHS), led by the
+Surgeon General of the United States Public Health Service
+, and the
+Centers for Disease Control and Prevention
+, headquartered in
+Atlanta
+, are also involved with international health activities.
+[
+44
+]
+Public health programs
+[
+edit
+]
+Most governments recognize the importance of public health programs in reducing the incidence of disease, disability, and the effects of
+aging
+and other physical and mental health conditions. However, public health generally receives significantly less government funding compared with medicine.
+[
+45
+]
+Although the collaboration of local health and government agencies is considered best practice to improve public health, the pieces of evidence available to support this is limited.
+[
+46
+]
+Public health programs providing
+vaccinations
+have made major progress in promoting health, including substantially reducing the occurrence of
+cholera
+and
+polio
+and eradicating
+smallpox
+, diseases that have plagued humanity for thousands of years.
+[
+47
+]
+Three former directors of the
+Global Smallpox Eradication Program
+reading the news that smallpox had been globally eradicated, 1980
+The World Health Organization (WHO) identifies core functions of public health programs including:
+[
+48
+]
+providing leadership on matters critical to health and engaging in partnerships where joint action is needed;
+shaping a
+research
+agenda and stimulating the generation, translation and
+dissemination
+of valuable knowledge;
+setting  a norms
+and standards and promoting and monitoring their implementation;
+articulating ethical and
+evidence-based policy
+options;
+monitoring the health situation and assessing health trends.
+In particular, public health surveillance programs can:
+[
+49
+]
+serve as an
+early warning system
+for impending public health emergencies;
+document the impact of an intervention, or track progress towards specified goals; and
+monitor and clarify the epidemiology of health problems, allow priorities to be set, and inform
+health policy
+and strategies.
+diagnose, investigate, and monitor health problems and health hazards of the community
+Behavior change
+[
+edit
+]
+The 2010
+ISCD
+study "Drug Harms in the UK: a
+multi-criteria decision analysis
+" found that
+alcohol
+scored highest overall and in
+Economic cost
+,
+Injury
+,
+Family adversities
+,
+Environmental damage
+, and
+Community harm
+.
+Main article:
+Behavior change (public health)
+Many health problems are due to maladaptive personal behaviors. From an
+evolutionary psychology
+perspective, over consumption of novel substances that are harmful is due to the activation of an evolved
+reward system
+for substances such as drugs, tobacco,
+alcohol
+,
+refined salt
+,
+fat
+, and
+carbohydrates
+. New technologies such as modern transportation also cause reduced
+physical activity
+. Research has found that
+behavior is more effectively changed
+by taking evolutionary motivations into consideration instead of only presenting information about health effects. The marketing industry has long known the importance of associating products with high status and attractiveness to others. Films are increasingly being recognized as a public health tool, with the
+Harvard University
+'s
+T.H. Chan School of Public Health
+categorizing such films as "impact filmmaking."
+[
+50
+]
+In fact,
+film festivals
+and
+competitions
+have been established to specifically promote films about health.
+[
+51
+]
+Conversely, it has been argued that emphasizing the harmful and undesirable effects of tobacco smoking on other persons and imposing smoking bans in public places have been particularly effective in reducing tobacco smoking.
+[
+52
+]
+Public libraries can also be beneficial tools for public health changes. They provide access to healthcare information, link people to healthcare services, and even can provide direct care in certain situations.
+[
+53
+]
+Applications in health care
+[
+edit
+]
+As well as seeking to improve population health through the implementation of specific population-level interventions, public health contributes to medical care by identifying and assessing population needs for health care services, including:
+[
+54
+]
+[
+55
+]
+[
+56
+]
+[
+57
+]
+Assessing current services and evaluating whether they are meeting the objectives of the
+health care system
+Ascertaining requirements as expressed by
+health professionals
+, the public and other stakeholders
+Identifying the most appropriate interventions
+Considering the effect on resources for proposed interventions and assessing their cost-effectiveness
+Supporting decision making in health care and planning health services including any necessary changes.
+Informing, educating, and empowering people about health issues
+Conflicting aims
+[
+edit
+]
+Some programs and policies associated with public
+health promotion
+and prevention can be controversial. One such example is programs focusing on the prevention of
+HIV
+transmission through
+safe sex
+campaigns and
+needle-exchange programs
+. Another is the control of
+tobacco smoking
+. Many nations have implemented
+major initiatives
+to cut smoking, such as increased taxation and bans on smoking in some or all public places. Supporters argue by presenting evidence that smoking is one of the major killers, and that therefore governments have a duty to reduce the death rate, both through limiting
+passive (second-hand) smoking
+and by providing fewer opportunities for people to smoke. Opponents say that this undermines individual freedom and personal responsibility, and worry that the state may be encouraged to remove more and more choice in the name of better population health overall.
+[
+58
+]
+Psychological research confirms this tension between concerns about public health and concerns about personal liberty: (i) the best predictor of complying with public health recommendations such as hand-washing, mask-wearing, and staying at home (except for essential activity) during the
+COVID-19 pandemic
+was people's perceived duties to prevent harm but (ii) the best predictor of flouting such public health recommendations was valuing liberty more than equality.
+[
+59
+]
+Simultaneously, while communicable diseases have historically ranged uppermost as a
+global health
+priority,
+non-communicable diseases
+and the underlying behavior-related risk factors have been at the bottom. This is changing, however, as illustrated by the
+United Nations
+hosting its first General Assembly Special Summit on the issue of non-communicable diseases in September 2011.
+[
+60
+]
+Global perspectives
+[
+edit
+]
+A village health worker in
+Zimbabwe
+conducting a pediatric examination
+Disparities in service and access
+[
+edit
+]
+There is a significant disparity in access to health care and public health initiatives between
+developed countries
+and
+developing countries
+, as well as within developing countries. In developing countries, public health infrastructures are still forming. There may not be enough trained
+health workers
+, monetary resources or, in some cases, sufficient knowledge to provide even a basic level of medical care and disease prevention.
+[
+6
+]
+[
+7
+]
+As a result, a large majority of disease and mortality in developing countries results from and contributes to extreme
+poverty
+. For example, many African governments spend less than
+$
+100 USD per person per year on health care, while, in the United States, the
+federal government
+spent approximately $10,600 USD per capita in 2019.
+[
+61
+]
+However, expenditures on health care should not be confused with spending on public health. Public health measures may not generally be considered "health care" in the strictest sense. For example, mandating the use of seat belts in cars can save countless lives and contribute to the health of a population, but typically money spent enforcing this rule would not count as money spent on health care.
+A
+malaria
+test in
+Kenya
+. Despite being preventable and curable, malaria is a leading cause of death in many developing nations.
+[
+62
+]
+[
+63
+]
+Large parts of the world remained plagued by largely preventable or treatable infectious diseases. In addition to this however, many developing countries are also experiencing an
+epidemiological shift
+and
+polarization
+in which populations are now experiencing more of the effects of chronic diseases as life expectancy increases, the poorer communities being heavily affected by both chronic and infectious diseases.
+[
+7
+]
+Another major public health concern in the developing world is poor
+maternal
+and child health, exacerbated by
+malnutrition
+and poverty. The
+WHO
+reports that a lack of
+exclusive breastfeeding
+during the first six months of life contributes to over a million avoidable child deaths each year.
+[
+29
+]
+Intermittent preventive therapy
+aimed at treating and preventing
+malaria
+episodes among pregnant women and young children is one public health measure in
+endemic
+countries.
+Since the 1980s, the growing field of
+population health
+has broadened the focus of public health from individual behaviors and
+risk factors
+to population-level issues such as
+inequality
+, poverty, and education. Modern public health is often concerned with addressing determinants of health across a population. There is a recognition that health is affected by many factors including class, race, income, educational status, region of residence, and
+social relationships
+; these are known as "
+social determinants of health
+". The upstream drivers such as environment, education, employment, income, food security, housing,
+social inclusion
+and many others effect the distribution of health between and within populations and are often shaped by policy.
+[
+64
+]
+A social gradient in health runs through society. The poorest generally have the worst health, but even the middle classes will generally have worse health outcomes than those of a higher social level.
+[
+65
+]
+The new public health advocates for population-based policies that improve health in an equitable manner.
+The health sector is one of Europe's most labor-intensive industries. In late 2020, it accounted for more than 21 million employment in the
+European Union
+when combined with social work.
+[
+66
+]
+According to the
+WHO
+, several countries began the
+COVID-19 pandemic
+with insufficient health and care professionals, inappropriate skill mixtures, and unequal geographical distributions. These issues were worsened by the pandemic, reiterating the importance of public health.
+[
+67
+]
+In the United States, a history of underinvestment in public health undermined the public health workforce and support for population health, long before the pandemic added to stress, mental distress, job dissatisfaction, and accelerated departures among public health workers.
+[
+68
+]
+Health aid in developing countries
+[
+edit
+]
+Further information:
+Aid
+and
+Global Health Initiatives
+A Cuban doctor performs an open air operation in
+Guinea-Bissau
+. Cuba
+sends more medical personnel
+to the developing world than all
+G8
+countries combined.
+[
+69
+]
+Health aid
+to developing countries is an important source of public health funding for many developing countries.
+[
+70
+]
+Health aid to developing countries has shown a significant increase after World War II as concerns over the spread of disease as a result of
+globalization
+increased and the HIV/AIDS epidemic in sub-Saharan Africa surfaced.
+[
+71
+]
+[
+72
+]
+From 1990 to 2010, total health aid from developed countries increased from 5.5 billion to 26.87 billion with wealthy countries continuously donating billions of dollars every year with the goal of improving population health.
+[
+72
+]
+Some efforts, however, receive a significantly larger proportion of funds such as HIV which received an increase in funds of over $6 billion between 2000 and 2010 which was more than twice the increase seen in any other sector during those years.
+[
+70
+]
+Health aid has seen an expansion through multiple channels including private philanthropy,
+non-governmental organizations
+, private foundations such as the
+Rockefeller Foundation
+or the
+Bill & Melinda Gates Foundation
+, bilateral donors, and multilateral donors such as the
+World Bank
+or
+UNICEF
+.
+[
+72
+]
+The result has been a sharp rise in uncoordinated and fragmented funding of an ever-increasing number of initiatives and projects. To promote better strategic cooperation and coordination between partners, particularly among bilateral development agencies and funding organizations, the
+Swedish International Development Cooperation Agency
+(Sida) spearheaded the establishment of ESSENCE,
+[
+73
+]
+an initiative to facilitate dialogue between donors/funders, allowing them to identify synergies. ESSENCE brings together a wide range of funding agencies to coordinate funding efforts.
+In 2009 health aid from the
+OECD
+amounted to $12.47 billion which amounted to 11.4% of its total bilateral aid.
+[
+74
+]
+In 2009, Multilateral donors were found to spend 15.3% of their total aid on bettering public healthcare.
+[
+74
+]
+International health aid debates
+[
+edit
+]
+Debates exist questioning the efficacy of international health aid. Supporters of aid claim that health aid from wealthy countries is necessary in order for developing countries to escape the
+poverty trap
+. Opponents of health aid claim that international health aid actually disrupts developing countries' course of development, causes dependence on aid, and in many cases the aid fails to reach its recipients.
+[
+70
+]
+For example, recently, health aid was funneled towards initiatives such as financing new technologies like
+antiretroviral medication
+,
+insecticide-treated mosquito nets
+, and new vaccines. The positive impacts of these initiatives can be seen in the eradication of smallpox and
+polio
+; however, critics claim that misuse or misplacement of funds may cause many of these efforts to never come into achievement.
+[
+70
+]
+Economic modeling based on the
+Institute for Health Metrics and Evaluation
+and the
+World Health Organization
+has shown a link between international health aid in developing countries and a reduction in adult mortality rates.
+[
+72
+]
+However, a 2014–2016 study suggests that a potential confounding variable for this outcome is the possibility that aid was directed at countries once they were already on track for improvement.
+[
+70
+]
+That same study, however, also suggests that 1 billion dollars in health aid was associated with 364,000 fewer deaths occurring between ages 0 and 5 in 2011.
+[
+70
+]
+Sustainable development goals for 2030
+[
+edit
+]
+Further information:
+Sustainable Development Goals §
+Health
+To address current and future challenges in addressing health issues in the world, the
+United Nations
+have developed the
+Sustainable Development Goals
+to be completed by 2030.
+[
+75
+]
+These goals in their entirety encompass the entire spectrum of development across nations, however Goals 1–6 directly address
+health disparities
+, primarily in developing countries.
+[
+76
+]
+These six goals address key issues in
+global public health
+,
+poverty
+, hunger and
+food security
+, health, education,
+gender equality
+and
+women's empowerment
+, and
+water
+and
+sanitation
+.
+[
+76
+]
+Public health officials can use these goals to set their own agenda and plan for smaller scale initiatives for their organizations. These goals are designed to lessen the burden of disease and inequality faced by developing countries and lead to a healthier future. The links between the various sustainable development goals and public health are numerous and well established.
+[
+77
+]
+[
+78
+]
+History
+[
+edit
+]
+Further information:
+History of water supply and sanitation
+Until the 18th century
+[
+edit
+]
+Mass burials during the second plague pandemic (a.k.a.
+the Black Death
+; 1346–1353) intensified urban responses to disaster on the basis of earlier practices. Miniature from "The Chronicles of Gilles Li Muisis" (1272–1352). Bibliothèque royale de Belgique, MS 13076–77, f. 24v.
+From the beginnings of
+human civilization
+, communities promoted
+health
+and fought
+disease
+at the population level.
+[
+9
+]
+[
+10
+]
+Definitions of health as well as methods to pursue it differed according to the medical, religious and natural-
+philosophical
+ideas groups held, the resources they had, and the changing circumstances in which they lived. Yet few early societies displayed the hygienic stagnation or even apathy often attributed to them.
+[
+79
+]
+[
+80
+]
+[
+81
+]
+The latter reputation is mainly based on the absence of present-day
+bioindicators
+, especially
+immunological
+and
+statistical
+tools developed in light of the
+germ theory of disease
+transmission.
+[
+82
+]
+[
+83
+]
+Public health was born neither in
+Europe
+nor as a response to the
+Industrial Revolution
+. Preventive health interventions are attested almost anywhere historical communities have left their mark. In
+Southeast Asia
+, for instance,
+Ayurvedic
+medicine and subsequently
+Buddhism
+fostered occupational, dietary and sexual regimens that promised balanced bodies, lives and communities, a notion strongly present in
+Traditional Chinese Medicine
+as well.
+[
+84
+]
+[
+85
+]
+Among the
+Mayans
+,
+Aztecs
+and other early civilizations in the
+Americas
+, population centers pursued hygienic programs, including by holding
+medicinal herbal
+markets.
+[
+86
+]
+And among
+Aboriginal Australians
+, techniques for preserving and protecting water and food sources, micro-zoning to reduce pollution and fire risks, and screens to protect people against
+flies
+were common, even in temporary camps.
+[
+87
+]
+[
+88
+]
+A depiction of Aztec
+smallpox
+victims
+Western European,
+Byzantine
+and
+Islamicate
+civilizations, which generally adopted a
+Hippocratic
+,
+Galenic
+or
+humoral
+medical system, fostered preventive programs as well.
+[
+89
+]
+[
+90
+]
+[
+91
+]
+[
+92
+]
+These were developed on the basis of evaluating the quality of local
+climates
+, including
+topography
+, wind conditions and exposure to the sun, and the properties and availability of water and food, for both
+humans
+and nonhuman
+animals
+. Diverse authors of
+medical
+,
+architectural
+,
+engineering
+and
+military manuals
+explained how to apply such theories to groups of different origins and under different circumstances.
+[
+93
+]
+[
+94
+]
+[
+95
+]
+This was crucial, since under Galenism bodily constitutions were thought to be heavily shaped by their material
+environments
+, so their balance required specific regimens as they traveled during different
+seasons
+and between climate zones.
+[
+96
+]
+[
+97
+]
+[
+98
+]
+In
+complex
+,
+pre-industrialized societies
+, interventions designed to reduce health risks could be the initiative of different stakeholders. For instance, in
+Greek
+and
+Roman antiquity
+, army generals learned to provide for soldiers' wellbeing, including off the
+battlefield
+, where most combatants died prior to the twentieth century.
+[
+99
+]
+[
+100
+]
+In
+Christian
+monasteries
+across the
+Eastern Mediterranean
+and western Europe since at least the fifth century
+CE
+,
+monks
+and
+nuns
+pursued strict but balanced regimens, including nutritious
+diets
+, developed explicitly to extend their lives.
+[
+101
+]
+And
+royal
+, princely and
+papal courts
+, which were often mobile as well, likewise adapted their behavior to suit environmental conditions in the sites they occupied. They could also choose sites they considered salubrious for their members and sometimes had them modified.
+[
+102
+]
+In
+cities
+, residents and rulers developed measures to benefit the general
+population
+, which faced a broad array of recognized
+health risks
+. These provide some of the most sustained evidence for preventive measures in earlier civilizations. In numerous sites the upkeep of
+infrastructures
+, including roads, canals and marketplaces, as well as
+zoning
+policies, were introduced explicitly to preserve residents' health.
+[
+103
+]
+Officials such as the
+muhtasib
+in the Middle East and the
+Road master
+in Italy, fought the combined threats of
+pollution
+through
+sin
+,
+ocular intromission
+and
+miasma
+.
+[
+104
+]
+[
+105
+]
+[
+106
+]
+[
+107
+]
+Craft
+guilds
+were important agents of waste disposal and promoted
+harm reduction
+through honesty and
+labor safety
+among their members. Medical practitioners, including public physicians,
+[
+108
+]
+collaborated with urban governments in predicting and preparing for calamities and identifying and isolating people perceived as
+lepers
+, a disease with strong moral connotations.
+[
+109
+]
+[
+110
+]
+Neighborhoods
+were also active in safeguarding local people's health, by monitoring at-risk sites near them and taking appropriate social and legal action against artisanal polluters and neglectful owners of animals. Religious institutions, individuals and charitable organizations in both
+Islam
+and Christianity likewise promoted moral and physical wellbeing by endowing urban amenities such as wells, fountains, schools and bridges, also in the service of
+pilgrims
+.
+[
+111
+]
+[
+112
+]
+In western Europe and Byzantium, religious
+processions
+commonly took place, which purported to act as both preventive and curative measures for the entire community.
+[
+113
+]
+Urban residents and other groups also developed preventive measures in response to calamities such as
+war
+,
+famine
+,
+floods
+and
+widespread disease
+.
+[
+114
+]
+[
+115
+]
+[
+116
+]
+[
+117
+]
+During and after the
+Black Death
+(1346–53), for instance, inhabitants of the
+Eastern Mediterranean
+and
+Western Europe
+reacted to massive population decline in part on the basis of existing medical theories and protocols, for instance concerning meat consumption and burial, and in part by developing new ones.
+[
+118
+]
+[
+119
+]
+[
+120
+]
+The latter included the establishment of
+quarantine
+facilities and health boards, some of which eventually became regular urban (and later national) offices.
+[
+121
+]
+[
+122
+]
+Subsequent measures for protecting cities and their regions included issuing health
+passports
+for travelers, deploying guards to create
+sanitary cordons
+for protecting local inhabitants, and gathering morbidity and mortality statistics.
+[
+123
+]
+[
+124
+]
+[
+125
+]
+Such measures relied in turn on better transportation and communication networks, through which news on human and animal disease was efficiently spread.
+After the 18th century
+[
+edit
+]
+With the onset of the
+Industrial Revolution
+, living standards amongst the working population began to worsen, with cramped and unsanitary urban conditions. In the first four decades of the 19th century alone,
+London
+'s population doubled and even greater growth rates were recorded in the new industrial towns, such as
+Leeds
+and
+Manchester
+. This rapid
+urbanization
+exacerbated the spread of disease in the large
+conurbations
+that built up around the
+workhouses
+and
+factories
+. These settlements were cramped and primitive with no organized
+sanitation
+. Disease was inevitable and its incubation in these areas was encouraged by the poor lifestyle of the inhabitants. Unavailable housing led to the rapid growth of
+slums
+and the
+per capita
+death rate
+began to rise alarmingly, almost doubling in
+Birmingham
+and
+Liverpool
+.
+Thomas Malthus
+warned of the dangers of overpopulation in 1798. His ideas, as well as those of
+Jeremy Bentham
+, became very influential in government circles in the early years of the 19th century.
+[
+126
+]
+The latter part of the century brought the establishment of the basic pattern of improvements in public health over the next two centuries: a social evil was identified, private philanthropists brought attention to it, and changing public opinion led to government action.
+[
+126
+]
+The 18th century saw rapid growth in voluntary hospitals in
+England
+.
+[
+127
+]
+The practice of
+vaccination
+began in the 1800s, following the pioneering work of
+Edward Jenner
+in treating
+smallpox
+.
+James Lind
+'s discovery of the causes of
+scurvy
+amongst sailors and its mitigation via the introduction of
+fruit
+on lengthy voyages was published in 1754 and led to the adoption of this idea by the
+Royal Navy
+.
+[
+128
+]
+Efforts were also made to promulgate health matters to the broader public; in 1752 the British physician Sir
+John Pringle
+published
+Observations on the Diseases of the Army in Camp and Garrison
+, in which he advocated for the importance of adequate ventilation in the
+military
+barracks
+and the provision of
+latrines
+for the soldiers.
+[
+129
+]
+Public health legislation in England
+[
+edit
+]
+Sir
+Edwin Chadwick
+was a pivotal influence on the early public health campaign.
+The first attempts at sanitary reform and the establishment of public health institutions were made in the 1840s.
+Thomas Southwood Smith
+, physician at the
+London Fever Hospital
+, began to write papers on the importance of public health, and was one of the first physicians brought in to give evidence before the
+Poor Law Commission
+in the 1830s, along with
+Neil Arnott
+and
+James Phillips Kay
+.
+[
+130
+]
+Smith advised the government on the importance of
+quarantine
+and sanitary improvement for limiting the spread of infectious diseases such as
+cholera
+and
+yellow fever
+.
+[
+131
+]
+[
+132
+]
+The Poor Law Commission reported in 1838 that "the expenditures necessary to the adoption and maintenance of measures of prevention would ultimately amount to less than the cost of the disease now constantly engendered". It recommended the implementation of large scale government
+engineering
+projects to alleviate the conditions that allowed for the propagation of disease.
+[
+126
+]
+The
+Health of Towns Association
+was formed at Exeter Hall London on 11 December 1844, and vigorously campaigned for the development of public health in the
+United Kingdom
+.
+[
+133
+]
+Its formation followed the 1843 establishment of the Health of Towns Commission, chaired by Sir
+Edwin Chadwick
+, which produced a series of reports on poor and insanitary conditions in British cities.
+[
+133
+]
+Public Health Office, Bristol, 1900
+These national and local movements led to the
+Public Health Act
+, finally passed in 1848. It aimed to improve the sanitary condition of towns and populous places in England and Wales by placing the supply of water, sewerage, drainage, cleansing and paving under a single local body with the General Board of Health as a central authority. The Act was passed by the
+Liberal
+government
+of
+Lord John Russell
+, in response to the urging of Edwin Chadwick. Chadwick's seminal report on
+The Sanitary Condition of the Labouring Population
+was published in 1842
+[
+134
+]
+and was followed up with a supplementary report a year later.
+[
+135
+]
+During this time,
+James Newlands
+(appointed following the passing of the 1846 Liverpool Sanatory Act championed by the Borough of Liverpool Health of Towns Committee) designed the world's first integrated sewerage system, in Liverpool (1848–1869), with
+Joseph Bazalgette
+later creating
+London's sewerage system
+(1858–1875).
+The Vaccination Act 1853 introduced compulsory
+smallpox vaccination
+in England and Wales.
+[
+136
+]
+By 1871 legislation required a comprehensive system of registration run by appointed vaccination officers.
+[
+137
+]
+Further interventions were made by a series of subsequent
+Public Health Acts
+, notably the
+1875 Act
+. Reforms included the building of
+sewers
+, the regular
+collection of garbage
+followed by
+incineration
+or disposal in a
+landfill
+, the
+provision of clean water
+and the draining of standing water to prevent the breeding of mosquitoes.
+The
+Infectious Disease (Notification) Act 1889
+(
+52 & 53 Vict.
+c. 72) mandated the reporting of infectious diseases to the local sanitary authority, which could then pursue measures such as the removal of the patient to hospital and the disinfection of homes and properties.
+[
+138
+]
+Public health legislation in other countries
+[
+edit
+]
+Example of historical public health recommendations during the
+1918 flu pandemic
+in
+New Haven
+, Connecticut, United States
+In the United States, the first public health organization based on a state health department and local boards of health was founded in
+New York City
+in 1866.
+[
+139
+]
+During
+The Weimar Republic
+, Germany faced many public health catastrophes.
+[
+140
+]
+The
+Nazi Party
+had a goal of modernizing health care with
+Volksgesundheit
+, German for
+people's public health
+; this modernization was based on the growing field of
+eugenics
+and measures prioritizing group health over any care for the health of individuals.
+[
+141
+]
+The end of World War 2 led to the
+Nuremberg Code
+, a set of research ethics concerning human experimentation.
+[
+142
+]
+Epidemiology
+[
+edit
+]
+Early
+epidemiologist
+John Snow mapped
+clusters
+of cholera cases in London.
+The science of
+epidemiology
+was founded by
+John Snow
+'s identification of a polluted public water well as the source of an 1854
+cholera
+outbreak in London. Snow believed in the
+germ theory
+of disease as opposed to the prevailing
+miasma theory
+. By talking to local residents (with the help of
+Reverend Henry Whitehead
+), he identified the source of the outbreak as the public water pump on Broad Street (now
+Broadwick Street
+). Although Snow's chemical and microscope examination of a water sample from the
+Broad Street pump
+did not conclusively prove its danger, his studies of the pattern of the disease were convincing enough to persuade the local council to close the well pump by removing its handle.
+[
+143
+]
+Snow later used a
+dot map
+to illustrate the cluster of cholera cases around the pump. He also used statistics to illustrate the connection between the quality of the water source and cholera cases. He showed that the
+Southwark and Vauxhall Waterworks Company
+was taking water from sewage-polluted sections of the
+Thames
+and delivering the water to homes, leading to an increased incidence of cholera. Snow's study was a major event in the history of public health and geography. It is regarded as the founding event of the science of
+epidemiology
+.
+[
+144
+]
+[
+145
+]
+Control of infectious diseases
+[
+edit
+]
+Paul-Louis Simond
+injecting a plague vaccine in Karachi, 1898
+With the pioneering work in
+bacteriology
+of French chemist
+Louis Pasteur
+and German scientist
+Robert Koch
+, methods for isolating the
+bacteria
+responsible for a given disease and vaccines for remedy were developed at the turn of the 20th century. British physician
+Ronald Ross
+identified the
+mosquito
+as the carrier of
+malaria
+and laid the foundations for combating the disease.
+[
+146
+]
+Joseph Lister
+revolutionized
+surgery
+by the introduction of
+antiseptic
+surgery
+to eliminate
+infection
+. French epidemiologist
+Paul-Louis Simond
+proved that
+plague
+was carried by
+fleas
+on the back of
+rats
+,
+[
+147
+]
+and Cuban scientist
+Carlos J. Finlay
+and U.S. Americans
+Walter Reed
+and
+James Carroll
+demonstrated that mosquitoes carry the virus responsible for
+yellow fever
+.
+[
+148
+]
+:
+481
+[
+149
+]
+Brazilian scientist
+Carlos Chagas
+identified a
+tropical disease
+and its vector.
+[
+148
+]
+:
+481
+Society and culture
+[
+edit
+]
+Education and training
+[
+edit
+]
+Education and training of public health professionals is available throughout the world in Schools of Public Health, Medical Schools, Veterinary Schools, Schools of Nursing, and Schools of Public Affairs. The training typically requires a
+university degree
+with a focus on core disciplines of
+biostatistics
+,
+epidemiology
+,
+health services administration
+,
+health policy
+,
+health education
+,
+behavioral science
+, gender issues, sexual and reproductive health, public health nutrition, and
+occupational
+and
+environmental health
+.
+[
+150
+]
+[
+151
+]
+In the global context, the field of public health education has evolved enormously in recent decades, supported by institutions such as the
+World Health Organization
+and the
+World Bank
+, among others. Operational structures are formulated by strategic principles, with educational and career pathways guided by competency frameworks, all requiring modulation according to local, national and global realities. Moreover, integrating technology or digital platforms to connect to low health literacy LHL groups could be a way to increase health literacy.
+[
+152
+]
+It is critically important for the health of populations that nations assess their public health human resource needs and develop their ability to deliver this capacity, and not depend on other countries to supply it.
+[
+153
+]
+Schools of public health: a US perspective
+[
+edit
+]
+In the
+United States
+, the Welch-Rose Report of 1915
+[
+154
+]
+has been viewed as the basis for the critical movement in the history of the institutional schism between public health and medicine because it led to the establishment of schools of public health supported by the
+Rockefeller Foundation
+.
+[
+155
+]
+The report was authored by
+William Welch
+, founding dean of the
+Johns Hopkins Bloomberg School of Public Health
+, and
+Wickliffe Rose
+of the Rockefeller Foundation. The report focused more on research than practical education.
+[
+155
+]
+[
+156
+]
+Some have blamed the Rockefeller Foundation's 1916 decision to support the establishment of schools of public health for creating the schism between public health and medicine and legitimizing the rift between medicine's laboratory investigation of the mechanisms of disease and public health's nonclinical concern with environmental and social influences on health and wellness.
+[
+155
+]
+[
+157
+]
+Even though schools of public health had already been established in
+Canada
+,
+Europe
+and
+North Africa
+, the United States had still maintained the traditional system of housing faculties of public health within their medical institutions.  A $25,000 donation from businessman
+Samuel Zemurray
+instituted the
+School of Public Health and Tropical Medicine at Tulane University
+in 1912 conferring its first doctor of public health degree in 1914.
+[
+158
+]
+[
+159
+]
+The
+Yale School of Public Health
+was founded by
+Charles-Edward Amory Winslow
+in 1915.
+[
+160
+]
+The
+Johns Hopkins School of Hygiene and Public Health
+was founded in 1916 and became an independent, degree-granting institution for research and training in public health, and the largest public health training facility in the United States.
+[
+161
+]
+[
+162
+]
+[
+163
+]
+By 1922, schools of public health were established at
+Columbia
+and
+Harvard
+on the Hopkins model. By 1999 there were twenty nine schools of public health in the US, enrolling around fifteen thousand students.
+[
+150
+]
+[
+155
+]
+Over the years, the types of students and training provided have also changed. In the beginning, students who enrolled in public health schools typically had already obtained a medical degree; public health school training was largely a second degree for
+medical professionals
+. However, in 1978, 69% of American students enrolled in public health schools had only a
+bachelor's degree
+.
+[
+150
+]
+Degrees in public health
+[
+edit
+]
+Main article:
+Professional degrees of public health
+The
+London School of Hygiene & Tropical Medicine
+is the oldest school of public health in the
+Anglosphere
+.
+[
+164
+]
+Schools of public health offer a variety of degrees generally fall into two categories: professional or academic.
+[
+165
+]
+The two major postgraduate degrees are the
+Master of Public Health
+(MPH) or the
+Master of Science
+in Public Health (MSPH). Doctoral studies in this field include
+Doctor of Public Health
+(DrPH) and
+Doctor of Philosophy
+(PhD) in a subspecialty of greater Public Health disciplines. DrPH is regarded as a professional degree and PhD as more of an academic degree.
+Professional degrees are oriented towards practice in public health settings. The
+Master of Public Health
+,
+Doctor of Public Health
+,
+Doctor of Health Science
+(DHSc/DHS) and the
+Master of Health Care Administration
+are examples of degrees which are geared towards people who want careers as practitioners of public health in health departments, managed care and community-based organizations, hospitals and consulting firms, among others. Master of Public Health degrees broadly fall into two categories, those that put more emphasis on an understanding of epidemiology and statistics as the scientific basis of public health practice and those that include a more wide range of methodologies.  A Master of Science of Public Health is similar to an MPH but is considered an academic degree (as opposed to a professional degree) and places more emphasis on scientific methods and research. The same distinction can be made between the DrPH and the DHSc: The DrPH is considered a professional degree and the DHSc is an academic degree.
+[
+166
+]
+[
+167
+]
+[
+168
+]
+Academic degrees are more oriented towards those with interests in the scientific basis of public health and
+preventive medicine
+who wish to pursue careers in research, university teaching in graduate programs, policy analysis and development, and other high-level public health positions. Examples of academic degrees are the
+Master of Science
+,
+Doctor of Philosophy
+,
+Doctor of Science
+(ScD), and Doctor of Health Science (DHSc). The doctoral programs are distinct from the MPH and other professional programs by the addition of advanced coursework and the nature and scope of a
+dissertation
+research project.
+Notable people
+[
+edit
+]
+John Graunt
+(1620–1674)  was a British citizen scientist who laid the foundations for epidemiology.
+[
+169
+]
+Edward Jenner
+(1749–1823) created the
+smallpox vaccine
+, the first vaccine in the world. He is often known as "the father of
+immunology
+".
+Benjamin Waterhouse
+(1753–1846) introduced the
+smallpox vaccine
+in the United States.
+Lemuel Shattuck
+(1793–1859) has been described as an "architect" and "prophet" of American public health
+[
+170
+]
+John Snow
+(1813–1858) was 'the father of modern epidemiology'.
+[
+171
+]
+Sir Joseph William Bazalgette
+(1819–1891) created a
+sewer network for central London
+in response to the
+Great Stink
+of 1858. This proved instrumental in relieving the city from
+cholera
+epidemics.
+[
+172
+]
+Louis Pasteur
+(1822–1895) conducted research that laid the foundation for our understanding of the causes and preventions of diseases.
+Robert Koch
+(1843–1910) used his discoveries to establish that germs "could cause a specific disease"
+[
+173
+]
+and directly provided proofs for that
+germ theory of diseases
+, therefore creating the scientific basis of public health,
+[
+174
+]
+saving millions of lives.
+[
+175
+]
+Charles V. Chapin
+(1856–1941) public health advocate and researcher credited with planting "the roots of quality in public health" in the United States
+[
+176
+]
+Sara Josephine Baker
+(1873–1945) was an "instrumental force in child and maternal health"
+[
+177
+]
+Nora Wattie
+(1900–1994) led the development of public health services and sanitation, and education in improving women and child health in the poorest
+slums
+of
+Glasgow
+, for which she received the
+OBE
+.
+[
+178
+]
+Jonas Salk
+(1914–1995) developed one of the first
+polio vaccines
+and campaigned vigorously for mandatory vaccinations.
+Ruth Huenemann
+(1910–2005) She became a pioneer in the study of
+childhood obesity
+in the 1960s studying the diet and exercise habits of Berkeley teenagers.
+[
+179
+]
+Dilip Mahalanabis
+- Credited to have evolved and utilized
+ORS
+to save thousands of lives during the
+liberation war
+.
+Country examples
+[
+edit
+]
+v
+t
+e
+Public health by country
+Brazil
+China
+Cuba
+India
+Mexico
+United States
+Canada
+[
+edit
+]
+In Canada, the
+Public Health Agency of Canada
+is the national agency responsible for public health, emergency preparedness and response, and infectious and
+chronic disease
+control and prevention.
+[
+180
+]
+Cuba
+[
+edit
+]
+Since the 1959
+Cuban Revolution
+, the
+Cuban government
+has devoted extensive resources to the improvement of
+health conditions
+for its entire population via universal access to health care. Infant mortality has plummeted.
+[
+148
+]
+:
+483
+Cuban medical internationalism
+as a policy has seen the Cuban government sent doctors as a form of aid and export to countries in need in Latin America, especially
+Venezuela
+, as well as Oceania and Africa countries.
+Colombia and Bolivia
+[
+edit
+]
+Public health was important elsewhere in Latin America in consolidating state power and integrating marginalized populations into the nation-state.  In Colombia, public health was a means for creating and implementing ideas of citizenship.
+[
+181
+]
+In Bolivia, a similar push came after their 1952 revolution.
+[
+182
+]
+Ghana
+[
+edit
+]
+Ghanaian children receive insecticide-treated bed nets to prevent exposure to
+malaria
+transmitting mosquitos.
+Though curable and preventive, malaria remains a major public health issue and is the third leading cause of death in Ghana.
+[
+183
+]
+In the absence of a vaccine,
+mosquito control
+, or access to
+anti-malaria medication
+, public health methods become the main strategy for reducing the prevalence and severity of malaria.
+[
+184
+]
+These methods include reducing breeding sites, screening doors and windows, insecticide sprays, prompt treatment following infection, and usage of insecticide treated mosquito nets.
+[
+184
+]
+Distribution and sale of insecticide-treated mosquito nets is a common, cost-effective anti-malaria public health intervention; however, barriers to use exist including cost, household and family organization, access to resources, and social and behavioral determinants which have not only been shown to affect malaria prevalence rates but also mosquito net use.
+[
+185
+]
+[
+184
+]
+Modern surveillance now integrates spatial statistics to address inequities.
+[
+186
+]
+France
+[
+edit
+]
+This section is an excerpt from
+Health care in France § Public health initiatives (1871–1914)
+.
+[
+edit
+]
+The
+French Third Republic
+followed well behind Bismarckian Germany, as well as Great Britain, in developing the welfare state including public health.  Tuberculosis was the most dreaded disease of the day, especially striking young people in their 20s.  Germany set up vigorous measures of public hygiene and public sanatoria, but France let private physicians handle the problem, which left it with a much higher death rate.
+[
+187
+]
+The French medical profession jealously guarded its prerogatives, and public health activists were not as well organized or as influential as in Germany, Britain or the United States.
+[
+188
+]
+[
+189
+]
+For example, there was a long battle over a
+public health law
+which began in the 1880s as a campaign to reorganize the nation's health services, to require the registration of infectious diseases, to mandate quarantines, and to improve the deficient health and housing legislation of 1850. However the reformers met opposition from bureaucrats, politicians, and physicians. Because it was so threatening to so many interests, the proposal was debated and postponed for 20 years before becoming law in 1902. Success finally came when the government realized that contagious diseases had a national security impact in weakening military recruits, and keeping the population growth rate well below Germany's.
+[
+190
+]
+Mexico
+[
+edit
+]
+This section is an excerpt from
+Healthcare in Mexico § Public health
+.
+[
+edit
+]
+Public health issues were important for the
+Spanish Empire
+during the colonial era. Epidemic disease was the main factor in the decline of indigenous populations in the era immediately following the sixteenth-century conquest era and was a problem during the colonial era. The Spanish crown took steps in eighteenth-century Mexico to bring in regulations to make populations healthier.
+[
+191
+]
+In the late nineteenth century, Mexico was in the process of modernization, and public health issues were again tackled from a scientific point of view.
+[
+192
+]
+[
+193
+]
+[
+194
+]
+As in the U.S., food safety became a public health issue, particularly focusing on meat slaughterhouses and meatpacking.
+[
+195
+]
+Even during the
+Mexican Revolution
+(1910–20), public health was an important concern, with a text on hygiene published in 1916.
+[
+196
+]
+During the Mexican Revolution, feminist and trained nurse
+Elena Arizmendi Mejia
+founded the
+Neutral White Cross
+, treating wounded soldiers no matter for what faction they fought. In the post-revolutionary period after 1920, improved public health was a revolutionary goal of the Mexican government.
+[
+197
+]
+[
+198
+]
+The Mexican state promoted the health of the Mexican population, with most resources going to cities.
+[
+199
+]
+[
+200
+]
+United States
+[
+edit
+]
+Further information:
+Public health in American history
+Led by Massachusetts, the states developed public health programs in the late 19th century.
+[
+201
+]
+[
+202
+]
+[
+203
+]
+[
+204
+]
+This section is an excerpt from
+United States Public Health Service
+.
+[
+edit
+]
+Logo of the United States
+Public Health Service
+The
+United States Public Health Service
+(USPHS or PHS) is a collection of agencies of the
+United States Department of Health and Human Services
+which manages public health, containing nine out of the department's twelve operating divisions. The
+assistant secretary for health
+oversees the PHS. The
+United States Public Health Service Commissioned Corps
+(PHSCC) is the federal uniformed service of the PHS, and is one of the eight
+uniformed services of the United States
+.
+PHS had its origins in
+the system of marine hospitals
+that originated in 1798. In 1871, these were consolidated into the
+Marine Hospital Service
+, and shortly afterwards the position of
+Surgeon General
+and the PHSCC were established.  As the system's scope grew to include quarantine authority and research, it was renamed the Public Health Service in 1912.
+The United States lacks a coherent system for the governmental funding of public health, relying on a variety of agencies and programs at the federal, state and local levels.
+[
+205
+]
+Between 1960 and 2001, public health spending in the United States tended to grow,
+based on increasing expenditures by state and local government, which made up 80–90% of
+total public health spending.  Spending in support of public health in the United States peaked in 2002 and declined in the following decade.
+[
+206
+]
+State cuts to public health funding during the
+Great Recession
+of 2007–2008 were not restored in subsequent years.
+[
+207
+]
+As of 2012, a panel for the
+U.S. Institute of Medicine
+panel warned that the United States spends disproportionately far more on clinical care than it does on public health, neglecting "population-based activities that offer efficient and effective approaches to improving the nation's health."
+[
+208
+]
+[
+206
+]
+As of 2018
+[
+update
+]
+, about 3% of government health spending was directed to public health and prevention.
+[
+47
+]
+[
+209
+]
+[
+210
+]
+This situation has been described as an "uneven patchwork"
+[
+211
+]
+and "chronic underfunding".
+[
+212
+]
+[
+213
+]
+[
+214
+]
+[
+215
+]
+The
+COVID-19 pandemic
+has been seen as drawing attention to problems in the public health system in the United States and to a lack of understanding of public health and its important role as a
+common good
+.
+[
+47
+]
+Taiwan
+[
+edit
+]
+Further information:
+Healthcare in Taiwan
+Emblem of Taiwan's National Health Insurance
+Taiwan
+has a well-established public health infrastructure anchored by the
+National Health Insurance
+(NHI) system that was introduced in 1995 and provides nearly universal coverage, reaching an estimated 99.9% of residents.
+[
+216
+]
+Health expenditure is traditionally moderate; public and private funding combined accounted for 6.1–6.5% of GDP in recent years, below the OECD average of over 9%. The NHI is financed through a balanced mix of income-based premiums—shared roughly equally among individuals, employers, and government—and supplementary levies on savings and lottery winnings.
+[
+217
+]
+Despite high utilization, administrative costs are exceedingly low, at around 1–1.6%, allowing for efficient resource allocation and system-wide effectiveness.
+[
+218
+]
+Taiwan's public health system is supported by strong institutions like the
+Taiwan Centers for Disease Control
+(CDC) and the
+Central Epidemic Command Center
+(CECC), created after the
+2002–2004 SARS outbreak
+. During the
+COVID-19 pandemic
+, these agencies quickly enacted travel screenings, contact tracing, mask rationing, digital quarantine systems, and daily transparent communications via text alerts and social media.
+[
+219
+]
+Taiwan was recognized in 2020 as one of the most effective pandemic responses globally, with minimal lockdowns and exceptionally low infection and death rates according to assessments by Wired, Time, the Commonwealth Fund, and other international observers.
+[
+220
+]
+Beyond epidemics, public health priorities have included ongoing vaccine campaigns—reaching over 90% first-dose COVID coverage by 2022 — immunization against infectious diseases, and chronic disease management.
+[
+221
+]
+However, Taiwan faces pressing challenges such as an aging demographic, with projections indicating nearly 37% of the population will be over 65 by 2050. Additionally, the health system grapples with issues like hospital overcrowding due to patient preference for large medical centers, and growing fiscal pressures on NHI sustainability amid rising utilization and medical costs. These challenges are driving a shift toward bolstering primary care, refining referral systems, and balancing revenue mechanisms to preserve Taiwan's high-performing public health framework.
+See also
+[
+edit
+]
+Wikipedia's health care articles can be viewed offline with the
+Medical Wikipedia app
+.
+Basic needs
+Effects of climate change on human health
+European Public Health Association
+Global health
+Harm reduction
+Health care
+Health equity
+Health law
+Health policy
+Health system
+History of public health in the United Kingdom
+History of public health in the United States
+History of water supply and sanitation
+Human right to water and sanitation
+List of national public health agencies
+Planetary health
+Public service
+Public toilet
+Right to food
+Right to health
+Social medicine
+Supervised injection site
+Universal basic services
+Universal health care
+References
+[
+edit
+]
+↑
+Gatseva PD, Argirova M (June 2011).
+"Public health: the science of promoting health"
+.
+Journal of Public Health
+.
+19
+(3):
+205–
+206.
+doi
+:
+10.1007/s10389-011-0412-8
+.
+ISSN
+1613-2238
+.
+S2CID
+1126351
+.
+1
+2
+Winslow CE
+(January 1920).
+"The untilled fields of public health"
+.
+Science
+.
+51
+(1306):
+23–
+33.
+Bibcode
+:
+1920Sci....51...23W
+.
+doi
+:
+10.1126/science.51.1306.23
+.
+PMID
+17838891
+.
+1
+2
+"What is Public Health"
+.
+Centers for Disease Control Foundation
+. Atlanta, GA: Centers for Disease Control
+. Retrieved
+27 January
+2017
+.
+1
+2
+What is the WHO definition of health?
+from the Preamble to the Constitution of WHO as adopted by the International Health Conference, New York, 19 June – 22 July 1946; signed on 22 July 1946 by the representatives of 61 States (Official Records of WHO, no. 2, p. 100) and entered into force on 7 April 1948. The definition has not been amended since 1948.
+1
+2
+Perdiguero E (1 July 2001).
+"Anthropology in public health. Bridging differences in culture and society"
+.
+Journal of Epidemiology & Community Health
+.
+55
+(7): 528b–528.
+doi
+:
+10.1136/jech.55.7.528b
+.
+ISSN
+0143-005X
+.
+PMC
+1731924
+.
+1
+2
+Chen LC, Evans D, Evans T, Sadana R,
+Stilwell B
+, Travis P, et
+al. (2006).
+World Health Report 2006: working together for health
+. Geneva: WHO.
+OCLC
+71199185
+.
+1
+2
+3
+Jamison DT, Mosley WH (January 1991).
+"Disease control priorities in developing countries: health policy responses to epidemiological change"
+.
+American Journal of Public Health
+.
+81
+(1):
+15–
+22.
+doi
+:
+10.2105/ajph.81.1.15
+.
+PMC
+1404931
+.
+PMID
+1983911
+.
+↑
+"Obesity catches up with low- and middle-income countries"
+. 25 July 2023
+. Retrieved
+21 August
+2024
+.
+1
+2
+Rosen G (2015).
+A history of public health (Revised expanded)
+. Baltimore: Johns Hopkins University Press.
+ISBN
+978-1-4214-1601-4
+.
+OCLC
+878915301
+.
+1
+2
+Porter D (1999).
+Health, Civilization and the State: A History of Public Health from Ancient to Modern Times
+. London and New York: Routledge.
+ISBN
+978-0-415-20036-3
+.
+1
+2
+3
+4
+5
+6
+7
+Crook T (2016).
+Governing systems: modernity and the making of public health in England, 1830–1910
+. Oakland, California: University of California Press.
+ISBN
+978-0-520-96454-9
+.
+OCLC
+930786561
+.
+↑
+Brown TM, Cueto M, Fee E (January 2006).
+"The World Health Organization and the transition from "international" to "global" public health"
+.
+American Journal of Public Health
+.
+96
+(1):
+62–
+72.
+doi
+:
+10.2105/AJPH.2004.050831
+.
+PMC
+1470434
+.
+PMID
+16322464
+.
+↑
+Koplan JP, Bond TC, Merson MH, Reddy KS, Rodriguez MH, Sewankambo NK, et
+al. (June 2009).
+"Towards a common definition of global health"
+.
+Lancet
+.
+373
+(9679):
+1993–
+1995.
+Bibcode
+:
+2009Lanc..373.1993K
+.
+CiteSeerX
+10.1.1.610.7968
+.
+doi
+:
+10.1016/S0140-6736(09)60332-9
+.
+PMC
+9905260
+.
+PMID
+19493564
+.
+S2CID
+6919716
+.
+↑
+"International Health | Johns Hopkins | Bloomberg School of Public Health"
+.
+publichealth.jhu.edu
+. 30 July 2024
+. Retrieved
+21 August
+2024
+.
+1
+2
+3
+4
+5
+Jung P, Lushniak BD (March 2017).
+"Preventive Medicine's Identity Crisis"
+.
+American Journal of Preventive Medicine
+.
+52
+(3):
+e85–
+e89.
+doi
+:
+10.1016/j.amepre.2016.10.037
+.
+PMID
+28012813
+.
+1
+2
+3
+4
+Valles SA (2018).
+Philosophy of population health: philosophy for a new public health era
+. London: Routledge, Taylor & Francis Group.
+ISBN
+978-1-351-67078-4
+.
+OCLC
+1035763221
+.
+↑
+Smith PG, Morrow RH, Ross DA (1 June 2015),
+"Types of intervention and their development"
+,
+Field Trials of Health Interventions: A Toolbox. 3rd edition
+, OUP Oxford
+, retrieved
+21 August
+2024
+↑
+"A Look At Public Health Interventions"
+.
+Kent
+. Retrieved
+21 August
+2024
+.
+↑
+Joint Task Group on Public Health Human Resources, Advisory Committee on Health Delivery & Human Resources, Advisory Committee on Population Health & Health Security (2005).
+Building the public health workforce for the 21st century
+. Ottawa: Public Health Agency of Canada.
+OCLC
+144167975
+.
+↑
+CDC (12 June 2024).
+"National Health Initiatives, Strategies & Action Plans"
+.
+Public Health Professionals Gateway
+. Retrieved
+21 August
+2024
+.
+↑
+Global Public-Private Partnership for Handwashing with Soap.
+Handwashing research
+Archived
+16 December 2010 at the
+Wayback Machine
+, accessed 19 April 2011.
+↑
+Wang F (2 January 2020).
+"Why Public Health Needs GIS: A Methodological Overview"
+.
+Annals of GIS
+.
+26
+(1):
+1–
+12.
+Bibcode
+:
+2020AnGIS..26....1W
+.
+doi
+:
+10.1080/19475683.2019.1702099
+.
+PMC
+7297184
+.
+PMID
+32547679
+.
+1
+2
+3
+4
+5
+6
+7
+Holland S (2015).
+Public health ethics
+(Second
+ed.). Cambridge: Polity Press.
+ISBN
+978-0-7456-6218-3
+.
+OCLC
+871536632
+.
+↑
+Fitzpatrick M (4 January 2002).
+The Tyranny of Health: Doctors and the Regulation of Lifestyle
+. Routledge.
+ISBN
+978-1-134-56346-3
+.
+1
+2
+Sim F, McKee M (1 September 2011).
+Issues In Public Health
+. McGraw-Hill Education (UK).
+ISBN
+978-0-335-24422-5
+.
+↑
+Fitzpatrick K, Tinning R (5 February 2014).
+Health Education: Critical perspectives
+. Routledge.
+ISBN
+978-1-135-07214-8
+.
+↑
+Zembylas M (6 May 2021).
+Affect and the Rise of Right-Wing Populism: Pedagogies for the Renewal of Democratic Education
+. Cambridge University Press.
+ISBN
+978-1-108-83840-5
+.
+↑
+Newell AT, Gazeley I (2012).
+The Declines in Infant Mortality and Fertility: Evidence from British Cities in Demographic Transition
+.
+IZA Discussion Paper No. 6855
+(Report).
+doi
+:
+10.2139/ssrn.2157997
+.
+hdl
+:
+10419/67297
+. Retrieved
+17 December
+2012
+.
+1
+2
+"10 facts on breastfeeding"
+. World Health Organization
+. Retrieved
+20 April
+2011
+.
+↑
+World Health Organization.
+Diabetes Fact Sheet N°312
+, January 2011
+. Accessed 19 April 2011.
+↑
+The Lancet (June 2010). "Type 2 diabetes--time to change our approach".
+Lancet
+.
+375
+(9733): 2193.
+doi
+:
+10.1016/S0140-6736(10)61011-2
+.
+PMID
+20609952
+.
+S2CID
+31166680
+.
+↑
+World Health Organization.
+Obesity and overweight Fact sheet N°311
+, Updated June 2016.
+Accessed 19 April 2011.
+↑
+"Obesity and overweight"
+.
+www.who.int
+. Retrieved
+21 August
+2024
+.
+1
+2
+"How can local authorities reduce obesity? Insights from NIHR research"
+.
+NIHR Evidence
+. 19 May 2022.
+↑
+Flynn MA (November 2018).
+"Im/migration, Work, and Health: Anthropology and the Occupational Health of Labor Im/migrants"
+.
+Anthropology of Work Review
+.
+39
+(2):
+116–
+123.
+doi
+:
+10.1111/awr.12151
+.
+PMC
+6503519
+.
+PMID
+31080311
+.
+↑
+Victora CG, Vaughan JP, Barros FC, Silva AC, Tomasi E (September 2000). "Explaining trends in inequities: evidence from Brazilian child health studies".
+Lancet
+.
+356
+(9235):
+1093–
+1098.
+doi
+:
+10.1016/s0140-6736(00)02741-0
+.
+PMID
+11009159
+.
+S2CID
+32450895
+.
+↑
+Martin White, Jean Adams, Peter Heywood (2009). "How and why do interventions that increase health overall widen inequalities within populations?". In Salvatore J. Babones (ed.).
+Social inequality and public health
+. Bristol University Press.
+doi
+:
+10.51952/9781847423221.ch005
+.
+↑
+Flynn MA, Check P, Steege AL, Sivén JM, Syron LN (December 2021).
+"Health Equity and a Paradigm Shift in Occupational Safety and Health"
+.
+International Journal of Environmental Research and Public Health
+.
+19
+(1): 349.
+doi
+:
+10.3390/ijerph19010349
+.
+PMC
+8744812
+.
+PMID
+35010608
+.
+↑
+"The U.S. Government and the World Health Organization"
+.
+The Henry J. Kaiser Family Foundation
+. 24 January 2019.
+Archived
+from the original on 18 March 2020
+. Retrieved
+18 March
+2020
+.
+↑
+"WHO Constitution, Basic Documents, Forty-ninth edition"
+(PDF)
+.
+WHO
+. 2020.
+Archived
+(PDF)
+from the original on 1 April 2020.
+↑
+"What we do"
+.
+World Health Organization
+.
+Archived
+from the original on 17 March 2020
+. Retrieved
+17 March
+2020
+.
+↑
+"Core priorities"
+.
+www.who.int
+. Retrieved
+21 August
+2024
+.
+↑
+Magazine HP, Ghebreyesus TA (5 April 2023).
+"75 years of WHO: Tedros' 5 priorities for a healthier world"
+.
+Harvard Public Health Magazine
+. Retrieved
+21 August
+2024
+.
+↑
+Alkhuli MA.
+English for Nursing and Medicine
+. دار الفلاح للنشر والتوزيع.
+ISBN
+978-9957-552-36-7
+.
+↑
+"Public health principles and neurological disorders"
+. Neurological Disorders: Public Health Challenges (Report). Geneva: World Health Organization. 2006.
+↑
+Hayes SL, Mann MK, Morgan FM, Kelly MJ, Weightman AL (October 2012).
+"Collaboration between local health and local government agencies for health improvement"
+.
+The Cochrane Database of Systematic Reviews
+.
+2012
+(10) CD007825.
+doi
+:
+10.1002/14651858.CD007825.pub6
+.
+PMC
+9936257
+.
+PMID
+23076937
+.
+1
+2
+3
+Butcher L (17 November 2020).
+"Pandemic puts all eyes on public health"
+.
+Knowable Magazine
+.
+doi
+:
+10.1146/knowable-111720-1
+. Retrieved
+2 March
+2022
+.
+↑
+World Health Organization.
+The role of WHO in public health
+, accessed 19 April 2011.
+↑
+World Health Organization.
+Public health surveillance
+, accessed 19 April 2011.
+↑
+"Impact Filmmaking As A Tool For Public Health Change"
+.
+Harvard T.H. Chan School of Public Health
+. 30 August 2023
+. Retrieved
+21 August
+2024
+.
+↑
+Botchway S, Hoang U (January 2016). "Reflections on the United Kingdom's first public health film festival".
+Perspectives in Public Health
+.
+136
+(1):
+23–
+24.
+doi
+:
+10.1177/1757913915619120
+.
+PMID
+26702114
+.
+S2CID
+21969020
+.
+↑
+Curtis V, Aunger R (November 2011). "Motivational mismatch: Evolved motives as the source of–and solution to–global public health problems. Applied evolutionary psychology". In Roberts SC (ed.).
+Applied Evolutionary Psychology
+. Oxford University Press. pp.
+259–
+275.
+doi
+:
+10.1093/acprof:oso/9780199586073.001.0001
+.
+ISBN
+978-0-19-958607-3
+.
+↑
+Philbin MM, Parker CM, Flaherty MG, Hirsch JS (February 2019).
+"Public Libraries: A Community-Level Resource to Advance Population Health"
+.
+Journal of Community Health
+.
+44
+(1):
+192–
+199.
+doi
+:
+10.1007/s10900-018-0547-4
+.
+PMC
+6329675
+.
+PMID
+29995303
+.
+↑
+Gillam S, Yates J, Badrinath P, eds. (2007).
+Essential Public Health: theory and practice
+. Cambridge University Press.
+OCLC
+144228591
+.
+↑
+Pencheon D, Melzer D, Gray M, Guest C, eds. (2006).
+Oxford Handbook of Public Health Practice
+. Oxford: Oxford University Press.
+ISBN
+978-0-19-158541-8
+.
+OCLC
+663666786
+.
+↑
+Smith S, Sinclair D, Raine R, Reeves B (2005).
+Health Care Evaluation
+. Understanding Public Health. Open University Press.
+OCLC
+228171855
+.
+↑
+Sanderson CJ, Gruen, Reinhold R (2006).
+Analytical Models for Decision Making
+. Understanding Public Health. Open University Press.
+OCLC
+182531015
+.
+↑
+"The pros and cons of a total smoking ban"
+.
+The Week
+. 10 June 2022
+. Retrieved
+21 August
+2024
+.
+↑
+Byrd N, Białek M (July 2021).
+"Your health vs. my liberty: Philosophical beliefs dominated reflection and identifiable victim effects when predicting public health recommendation compliance during the COVID-19 pandemic"
+.
+Cognition
+.
+212
+104649.
+doi
+:
+10.1016/j.cognition.2021.104649
+.
+PMC
+8599940
+.
+PMID
+33756152
+.
+↑
+United Nations.
+Press Conference on General Assembly Decision to Convene Summit in September 2011 on Non-Communicable Diseases
+.
+New York, 13 May 2010.
+↑
+"World Bank Open Data"
+.
+World Bank Open Data
+. Retrieved
+18 May
+2024
+.
+↑
+"Malaria – Malaria Worldwide – Impact of Malaria"
+.
+CDC
+. 26 January 2021
+. Retrieved
+19 October
+2021
+.
+↑
+"Fact sheet about Malaria"
+.
+World Health Organization
+. Retrieved
+19 October
+2021
+.
+↑
+Equity, Social Determinants and Public Health Programmes
+. World Health Organization. 2010.
+ISBN
+978-92-4-156397-0
+.
+↑
+Wilkinson RG, Marmot MG, eds. (2003).
+The Solid Facts: Social Determinants of Health
+. WHO.
+OCLC
+54966941
+.
+↑
+"Health and social care employees in Europe in 2021"
+.
+Statista
+. Retrieved
+18 May
+2024
+.
+↑
+European Investment Bank (2 February 2023).
+"Health Overview 2023"
+.
+European Investment Bank
+.
+↑
+Leider JP, Yeager VA, Kirkland C, Krasna H, Hare Bork R, Resnick B (April 2023).
+"The State of the US Public Health Workforce: Ongoing Challenges and Future Directions"
+.
+Annual Review of Public Health
+.
+44
+(1):
+323–
+341.
+doi
+:
+10.1146/annurev-publhealth-071421-032830
+.
+PMID
+36692395
+.
+S2CID
+256192725
+.
+↑
+Huish R, Kirk JM (2007). "Cuban Medical Internationalism and the Development of the Latin American School of Medicine".
+Latin American Perspectives
+.
+34
+(6):
+77–
+92.
+doi
+:
+10.1177/0094582X07308119
+.
+1
+2
+3
+4
+5
+6
+Bendavid E, Bhattacharya J (June 2014).
+"The relationship of health aid to population health improvements"
+.
+JAMA Internal Medicine
+.
+174
+(6):
+881–
+887.
+doi
+:
+10.1001/jamainternmed.2014.292
+.
+PMC
+4777302
+.
+PMID
+24756557
+.
+↑
+Twumasi PA (April 1981). "Colonialism and international health: a study in social change in Ghana".
+Social Science & Medicine. Medical Anthropology
+.
+15B
+(2):
+147–
+151.
+doi
+:
+10.1016/0160-7987(81)90037-5
+.
+PMID
+7244686
+.
+1
+2
+3
+4
+Afridi MA, Ventelou B (1 March 2013). "Impact of health aid in developing countries: The public vs. the private channels".
+Economic Modelling
+.
+31
+:
+759–
+765.
+doi
+:
+10.1016/j.econmod.2013.01.009
+.
+ISSN
+0264-9993
+.
+↑
+"ESSENCE on Health Research"
+.
+Special Programme for Research and Training in Tropical Diseases
+. World Health Organization. Archived from
+the original
+on 3 December 2016.
+1
+2
+Shwank O.
+"Global Health Initiatives and Aid Effectiveness in the Health Sector"
+(PDF)
+.
+UN
+.
+↑
+"2015 – United Nations sustainable development agenda"
+.
+United Nations Sustainable Development
+.
+Archived
+from the original on 27 November 2015
+. Retrieved
+25 November
+2015
+.
+1
+2
+"Sustainable development goals"
+.
+United Nations Sustainable Development
+.
+Archived
+from the original on 26 November 2015
+. Retrieved
+25 November
+2015
+.
+↑
+"Health"
+.
+United Nations Sustainable Development
+.
+Archived
+from the original on 2 December 2015
+. Retrieved
+25 November
+2015
+.
+↑
+"World Development Report"
+.
+Open Knowledge Repository
+. Archived from
+the original
+on 13 January 2016
+. Retrieved
+25 November
+2015
+.
+↑
+Cosmacini G (2005).
+Storia della medicina e della sanità in Italia: dalla peste nera ai giorni nostri
+. Bari: Laterza.
+↑
+Shephard RJ (2015).
+An illustrated history of health and fitness, from pre-history to our post-modern world
+. Cham: Springer.
+ISBN
+978-3-319-11671-6
+.
+OCLC
+897376985
+.
+↑
+Berridge V (2016).
+Public Health: A Very Short Introduction
+(First
+ed.). Oxford, United Kingdom; New York, NY, United States of America: Oxford University Press.
+ISBN
+978-0-19-968846-3
+.
+↑
+"Public Health During the Industrial Revolution Facts, Worksheets & Issues"
+.
+School History
+. 25 May 2020
+. Retrieved
+21 August
+2024
+.
+↑
+"National Center for Biotechnology Information"
+,
+Science, Medicine, and Animals
+, National Academies Press (US), 2004
+, retrieved
+21 August
+2024
+↑
+Chattopadhyay A (1968). "Hygienic Principles in the Regulations of Food Habits in the Dharma Sūtras".
+Nagarjun
+.
+11
+:
+194–
+99.
+↑
+Leung AK (2001). "Hygiène et santé publique dans la Chine pré-moderne"
+[
+Hygiene and public health in pre-modern China
+]
+. In Bourdelais P (ed.).
+Les hygienists. Enjeux, modèles et practiques
+[
+The hygienists. Issues, models and practices
+]
+(in French). Paris: Belin. pp.
+343–
+371.
+↑
+Harvey HR (March 1981).
+"Public health in Aztec society"
+.
+Bulletin of the New York Academy of Medicine
+.
+57
+(2):
+157–
+165.
+PMC
+1805201
+.
+PMID
+7011458
+.
+↑
+Memmott P (September 2008).
+Gunyah, Goondie + Wurley: the Aboriginal architecture of Australia
+. University of Queensland Press.
+ISBN
+978-0-7022-3245-9
+.
+↑
+Gammage B (2014).
+Biggest Estate on Earth: How Aborigines made Australia
+. Allen & Unwin.
+ISBN
+978-1-74269-352-1
+.
+OCLC
+956710111
+.
+↑
+Stearns JK (2011).
+Infectious ideas: contagion in premodern Islamic and Christian thought in the Western Mediterranean
+. Johns Hopkins Univ. Press.
+ISBN
+978-0-8018-9873-0
+.
+OCLC
+729944227
+.
+↑
+Rawcliffe C (2019).
+Urban Bodies - Communal Health in Late Medieval English Towns and Cities
+. Boydell & Brewer, Limited.
+ISBN
+978-1-78327-381-2
+.
+OCLC
+1121393294
+.
+↑
+Geltner G (2019).
+Roads to Health: Infrastructure and Urban Wellbeing in Later Medieval Italy
+. University of Pennsylvania Press.
+ISBN
+978-0-8122-5135-7
+.
+OCLC
+1076422219
+.
+↑
+Varlik M (22 July 2015).
+Plague and Empire in the Early Modern Mediterranean World
+. Cambridge University Press.
+doi
+:
+10.1017/cbo9781139004046
+.
+ISBN
+978-1-139-00404-6
+.
+S2CID
+197967256
+.
+↑
+McVaugh MR (1992). "Arnald of Villanova's
+Regimen Almarie (Regimen Castra Sequentium
+) and Medieval Military Medicine".
+Viator
+.
+23
+:
+201–
+214.
+doi
+:
+10.1484/J.VIATOR.2.301280
+.
+↑
+Nicoud M (2013).
+Les régimes de santé au Moyen Âge Naissance et diffusion d'une écriture médicale en Italie et en France (XIIIe- XVe siècle)
+. Publications de l'École française de Rome.
+ISBN
+978-2-7283-1006-7
+.
+OCLC
+960812022
+.
+↑
+Ibn Riḍwān 'A
+(1984) [11th century]. Gamal AS (ed.).
+Medieval Islamic medicine: Ibn Riḍwān's treatise "On the prevention of bodily ills in Egypt
+. Translated by Dols MW. University of California Press.
+OCLC
+469624320
+.
+↑
+Rather LJ (1968).
+The
+Six Things Non-Natural
+: A Note on the Origins and Fate of a Doctrine and a Phrase
+. Clio Medica. Vol.
+3. pp.
+337–
+347.
+↑
+García-Ballester L (1993). Kollesch J, Nickel D (eds.).
+On the Origins of
+the Six Non-Natural Things
+in Galen
+.
+Galen und das hellenistische Erbe:
+Verhandlungen des IV. Internationalen Galen-Symposiums veranstaltet vom Institut für Geschichte der Medizin am Bereich Medizin (Charité) der Humboldt-Universität zu Berlin 18.-20. September 1989. Stuttgart.
+↑
+Geltner G, Coomans J (2013). "On the Street and in the Bath-House: Medieval Galenism in Action?=".
+Anuario de Estudios Medievales
+.
+43
+:
+53–
+82.
+↑
+Israelovich I (2016). "Medical Care in the Roman Army during the High Empire". In Harris MV (ed.).
+Popular Medicine in Graeco-Roman Antiquity: Explorations
+. Leiden: Brill. pp.
+126–
+146.
+↑
+Geltner G (January 2019).
+"In the Camp and on the March: Military Manuals as Sources for Studying Premodern Public Health"
+.
+Medical History
+.
+63
+(1):
+44–
+60.
+doi
+:
+10.1017/mdh.2018.62
+.
+PMC
+8670759
+.
+PMID
+30556517
+.
+↑
+Harvey BF (2002).
+Living and dying in England, 1100–1540: the monastic experience
+. Clarendon Press.
+ISBN
+0-19-820431-0
+.
+OCLC
+612358999
+.
+↑
+Bagliani AP (1988). "La Mobilità della Curia romana nel Secolo XIII: Riflessi locali"
+[
+The Mobility of the Roman Curia in the 13th Century: Local Reflections
+]
+.
+Società e Istituzioni dell'Italia comunale: l'Esempio di Perugia (Secoli XII-XIV)
+[
+Society and Institutions of Municipal Italy: the Example of Perugia (12th-14th Centuries)
+]
+. Quaderni Storici (in Italian). Vol.
+1–
+2. Perugia: Società editrice Il Mulino S.p.A. pp.
+313–
+316.
+JSTOR
+43777964
+.
+↑
+Coomans J (February 2019).
+"The king of dirt: public health and sanitation in late medieval Ghent"
+.
+Urban History
+.
+46
+(1):
+82–
+105.
+doi
+:
+10.1017/S096392681800024X
+.
+ISSN
+0963-9268
+.
+↑
+Glick TF (1992). "New Perspectives on the Hisba and its Hispanic Derivatives".
+Al-Qantara
+.
+13
+(2):
+475–
+489.
+↑
+Kinzelbach A (July 2006). "Infection, contagion, and public health in late medieval and early modern German imperial towns".
+Journal of the History of Medicine and Allied Sciences
+.
+61
+(3):
+369–
+89.
+doi
+:
+10.1093/jhmas/jrj046
+.
+PMID
+16540700
+.
+↑
+Jørgensen D (July 2008).
+"Cooperative sanitation: Managing streets and gutters in late Medieval England and Scandinavia"
+.
+Technology and Culture
+.
+49
+(3):
+547–
+567.
+doi
+:
+10.1353/tech.0.0047
+.
+PMID
+18831288
+.
+↑
+Henderson J (2010). "Public Health, Pollution and the Problem of Waste Disposal in Early Modern Tuscany". In Cavaciocchi S (ed.).
+Le interazioni fra economia e ambiente biologico nell'Europa preindustriale. Secc. XIII-XVIII
+. Florence: Firenze University Press. pp.
+373–
+382.
+↑
+Nutton V (1981). "Continuity or Rediscovery? The City Physician in Classical Antiquity and Mediaeval Italy". In Russell AW (ed.).
+The Town and State Physician in Europe
+. Wolfenbüttel: Herzog August Bibliothek. pp.
+9–
+46.
+↑
+Rawcliffe C (2009).
+Leprosy in medieval England
+. The Boydell Press.
+ISBN
+978-1-84383-454-0
+.
+OCLC
+884314023
+.
+↑
+Demaitre LE (2007).
+Leprosy in premodern medicine: a malady of the whole body
+. Johns Hopkins University Press.
+ISBN
+978-0-8018-8613-3
+.
+OCLC
+799983230
+.
+↑
+Adam S (2006).
+Poverty and charity in medieval islam: mamluk egypt, 1250–1517
+. Cambridge University Press.
+ISBN
+0-521-03474-4
+.
+OCLC
+712129032
+.
+↑
+Cascoigne AL (2007). "The Water Supply of Tinnīs: Public Amenities and Private Investments". In Bennison AK, Gascoigne AL (eds.).
+Cities in the Pre-Modern Islamic World: The Urban Impact of Religion, State and Society
+. London: Routledge. pp.
+161–
+176.
+↑
+Horden P (2000). "Ritual and Public Health in the Early Medieval City".". In Sheard S, Power H (eds.).
+Body and City: Histories of Urban Public Health
+. Aldershot, UK: Ashgate. pp.
+17–
+40.
+↑
+Falcón I (1998).
+"Aprovisionamiento y sanidad en Zaragoza en el siglo XV"
+[
+Provisioning and health in Zaragoza in the 15th century
+]
+.
+Acta Historica et Archaeologica Mediaeval
+(in Spanish).
+19
+:
+127–
+144.
+↑
+Balestracci D (1998). Hundsbichler H, Jaritz G, Kühtreiber T (eds.).
+The Regulation of Public Health in Italian Medieval Towns
+. Die Vielfalt der Dinge: Neue Wege zur Analyse mittelaltericher Sachkultur. Vienna.
+↑
+Ewert UC (2007). "Water, Public Hygiene and Fire Control in Medieval Towns: Facing Collective Goods Problems while Ensuring the Quality of Life".
+Historical Social Research/Historische Sozialforschung
+.
+32
+:
+222–
+252.
+↑
+Petaros A, Skrobonja A, Culina T, Bosnar A, Frkovic V, Azman J (June 2013). "Public health problems in the medieval statutes of Croatian Adriatic coastal towns: from public morality to public health".
+Journal of Religion and Health
+.
+52
+(2):
+531–
+7.
+doi
+:
+10.1007/s10943-011-9503-7
+.
+PMID
+21674275
+.
+↑
+Skelton LJ (2016).
+Sanitation in urban Britain, 1560–1700
+. Routledge.
+ISBN
+978-1-317-21789-3
+.
+OCLC
+933433427
+.
+↑
+Carmichael AG (1983). "Plague legislation in the Italian Renaissance".
+Bulletin of the History of Medicine
+.
+57
+(4):
+508–
+25.
+PMID
+6365216
+.
+↑
+Geltner G (2019).
+"The Path to Pistoia: Urban Hygiene Before the Black Death"
+.
+Past & Present
+(246):
+3–
+33.
+doi
+:
+10.1093/pastj/gtz028
+.
+hdl
+:
+11245.1/3cff1e5a-78b1-4f40-a754-a28ffbb456cf
+.
+↑
+Blažina-Tomić Z, Blažina V (2015).
+Expelling the plague: the health office and the implementation of quarantine in Dubrovnik, 1377–1533
+. McGill-Queen's University Press.
+ISBN
+978-0-7735-4539-7
+.
+OCLC
+937888436
+.
+↑
+Gall GE, Lautenschlager S, Bagheri HC (2016).
+"Quarantine as a public health measure against an emerging infectious disease: syphilis in Zurich at the dawn of the modern era (1496-1585)"
+.
+GMS Hygiene and Infection Control
+.
+11
+: Doc13.
+doi
+:
+10.3205/dgkh000273
+.
+PMC
+4899769
+.
+PMID
+27303653
+.
+↑
+Cipolla CM (1973).
+Cristofano and the plague: a study in the history of public health in the age of Galileo
+. University of California Press.
+ISBN
+0-520-02341-2
+.
+OCLC
+802505260
+.
+↑
+Carmichael AG (2014) [1986].
+Plague and the poor in Renaissance Florence
+. Cambridge University Press.
+ISBN
+978-1-107-63436-7
+.
+OCLC
+906714501
+.
+↑
+Cohn S (2012).
+Cultures of plague: medical thinking at the end of the Renaissance
+. Oxford University Press.
+ISBN
+978-0-19-957402-5
+.
+OCLC
+825731416
+.
+1
+2
+3
+Rhodes P, Bryant JH (20 May 2019).
+"Public Health"
+. Encyclopædia Britannica.
+↑
+Carruthers GB, Carruthers LA (2005).
+A History of Britain's Hospitals
+. Book Guild Publishers.
+ISBN
+978-1-85776-905-0
+.
+↑
+Vale B (May 2008). "The Conquest of Scurvy in the Royal Navy 1793–1800: A Challenge to Current Orthodoxy".
+The Mariner's Mirror
+.
+94
+(2):
+160–
+175.
+doi
+:
+10.1080/00253359.2008.10657052
+.
+↑
+Selwyn S (July 1966).
+"Sir John Pringle: hospital reformer, moral philosopher and pioneer of antiseptics"
+.
+Medical History
+.
+10
+(3):
+266–
+274.
+doi
+:
+10.1017/s0025727300011133
+.
+PMC
+1033606
+.
+PMID
+5330009
+.
+↑
+Thomas AJ (2010).
+The Lambeth cholera outbreak of 1848–1849: the setting, causes, course and aftermath of an epidemic in London
+. McFarland. pp.
+55–
+6.
+ISBN
+978-0-7864-3989-8
+.
+↑
+Stacey M (1 June 2004).
+The Sociology of Health and Healing
+. Taylor and Francis. p.
+69.
+ISBN
+978-0-203-38004-8
+.
+↑
+Finer SE
+(1980) [1952].
+The Life and Times of Sir Edwin Chadwick
+. Methuen. pp.
+424–
+5.
+ISBN
+978-0-416-17350-5
+.
+1
+2
+Ashton J, Ubido J (April 1991).
+"The healthy city and the ecological idea"
+(PDF)
+.
+Social History of Medicine
+.
+4
+(1):
+173–
+180.
+doi
+:
+10.1093/shm/4.1.173
+.
+PMID
+11622856
+. Archived from
+the original
+(PDF)
+on 24 December 2013
+. Retrieved
+8 July
+2013
+.
+↑
+Chadwick E (1842).
+"Chadwick's Report on Sanitary Conditions"
+.
+excerpt from
+Report...from the Poor Law Commissioners on an Inquiry into the Sanitary Conditions of the Labouring Population of Great Britain
+(pp. 369–372) (online source)
+. added by Laura Del Col: to The Victorian Web
+. Retrieved
+8 November
+2009
+.
+↑
+Chadwick E (1843).
+Report on the Sanitary Condition of the Labouring Population of Great Britain. A Supplementary Report on the results of a Special Inquiry into The Practice of Interment in Towns
+. London: Printed by R. Clowes & Sons, for Her Majesty's Stationery Office.
+Full text at Internet Archive (archive.org)
+↑
+Brunton D (2008).
+The Politics of Vaccination: Practice and Policy in England, Wales, Ireland, and Scotland, 1800–1874
+. University Rochester Press. p.
+39.
+ISBN
+978-1-58046-036-1
+.
+↑
+"Decline of Infant Mortality in England and Wales, 1871–1948: a Medical Conundrum"
+. Retrieved
+17 December
+2012
+.
+↑
+Mooney G (2015).
+Intrusive Interventions: Public Health, Domestic Space, and Infectious Disease Surveillance in England, 1840–1914
+. Rochester, NY: University of Rochester Press.
+ISBN
+978-1-58046-527-4
+.
+↑
+United States Public Health Service,
+Municipal Health Department Practice for the Year 1923
+(Public Health Bulletin # 164, July 1926), pp. 348, 357, 364
+↑
+"Public Health under the Third Reich"
+.
+perspectives.ushmm.org
+. Retrieved
+21 August
+2024
+.
+↑
+Eckart WU (May 1989). "[Public health service in the Weimar Republic and in the early history of West Germany]".
+Das Offentliche Gesundheitswesen
+.
+51
+(5):
+213–
+221.
+ISSN
+0029-8573
+.
+PMID
+2525688
+.
+↑
+Bachrach S (July 2004).
+"In the name of public health--Nazi racial hygiene"
+(PDF)
+.
+The New England Journal of Medicine
+.
+351
+(5):
+417–
+420.
+doi
+:
+10.1056/NEJMp048136
+.
+PMID
+15282346
+.
+Archived
+(PDF)
+from the original on 14 January 2024.
+↑
+Vinten-Johansen P, Brody H, Paneth N, Rachman S, Rip M, Zuck D (2003).
+Cholera, Chloroform, and the Science of Medicine: A Life of John Snow
+.
+Oxford University Press
+.
+ISBN
+0-19-513544-X
+.
+↑
+Johnson S
+(2006).
+The Ghost Map
+: The Story of London's Most Terrifying Epidemic – and How it Changed Science, Cities and the Modern World
+.
+Riverhead Books
+.
+ISBN
+1-59448-925-4
+.
+↑
+Porta M (2014).
+A Dictionary of Epidemiology
+(6th
+ed.). New York: Oxford University Press.
+ISBN
+978-0-19-997673-7
+.
+↑
+Chowdhury JL.
+"Laboc Hospital – A Noble Prize Winner's Workplace"
+. India: Eastern Panorama. Archived from
+the original
+on 5 November 2013
+. Retrieved
+11 July
+2013
+.
+↑
+Marriott E (1966).
+Plague. A Story of Science, Rivalry and the Scourge That Won't Go Away
+.
+ISBN
+978-1-4223-5652-4
+.
+1
+2
+3
+Pineo RF (1996). "Public Health".
+m Encyclopedia of Latin American History and Culture
+. Vol.
+4. New York: Charles Scribner's Sons.
+↑
+Pierce JR, Writer J (2005).
+Yellow Jack: How Yellow Fever Ravaged America and Walter Reed Discovered its Deadly Secrets
+. Hoboken, NJ: J. Wiley.
+ISBN
+978-0-471-47261-2
+.
+1
+2
+3
+"Achievements in Public Health, 1900–1999"
+(PDF)
+.
+Morbidity and Mortality Weekly Report
+. Vol.
+48, no.
+50. U.S. Department of Health & Human Services. 24 December 1999.
+↑
+Public Health Agency of Canada.
+Canadian Public Health Workforce Core Competencies
+, accessed 19 April 2011.
+↑
+Murugesu L, Heijmans M, Rademakers J, Fransen MP (4 May 2022). Nayyar A (ed.).
+"Challenges and solutions in communication with patients with low health literacy: Perspectives of healthcare providers"
+.
+PLOS ONE
+.
+17
+(5) e0267782.
+Bibcode
+:
+2022PLoSO..1767782M
+.
+doi
+:
+10.1371/journal.pone.0267782
+.
+PMC
+9067671
+.
+PMID
+35507632
+.
+↑
+White F (2013).
+"The Imperative of Public Health Education: A Global Perspective"
+.
+Medical Principles and Practice
+.
+22
+(6):
+515–
+529.
+doi
+:
+10.1159/000354198
+.
+PMC
+5586806
+.
+PMID
+23969636
+.
+↑
+Welch WH, Rose W (1915). Institute of Hygiene: Being a report by Dr. William H. Welch and Wickliffe Rose to the General Education Board, Rockefeller Foundation (Report). pp.
+660–
+668.
+reprinted in
+Fee E (1992).
+The Welch-Rose Report: Blueprint for Public Health Education in America
+(PDF)
+. Washington, DC: Delta Omega Honorary Public Health Society. Archived from
+the original
+(PDF)
+on 7 May 2012.
+1
+2
+3
+4
+Patel K, Rushefsky ME, McFarlane DR (2005).
+The Politics of Public Health in the United States
+. M.E. Sharpe. p.
+91.
+ISBN
+978-0-7656-1135-2
+.
+↑
+Brandt AM, Gardner M (May 2000).
+"Antagonism and accommodation: interpreting the relationship between public health and medicine in the United States during the 20th century"
+.
+American Journal of Public Health
+.
+90
+(5):
+707–
+715.
+doi
+:
+10.2105/AJPH.90.5.707
+.
+PMC
+1446218
+.
+PMID
+10800418
+.
+↑
+White KL (1991).
+Healing the schism: Epidemiology, medicine, and the public's health
+. New York: Springer-Verlag.
+ISBN
+978-0-387-97574-0
+.
+↑
+Darnell R (2008).
+Histories of anthropology annual
+. University of Nebraska Press. p.
+36.
+ISBN
+978-0-8032-6664-3
+.
+↑
+Dyer JP (1966).
+Tulane: the biography of a university, 1834-1965
+. Harper & Row. p.
+136.
+↑
+Burrow GN (2002).
+A history of Yale's School of Medicine: passing torches to others
+. New Haven: Yale University Press.
+ISBN
+978-0-300-13288-5
+.
+OCLC
+182530966
+.
+↑
+Education of the Physician: International Dimensions.
+Education Commission for Foreign Medical Graduates
+., Association of American Medical Colleges. Meeting. (1984
+: Chicago, Ill), p. v.
+↑
+Terris M (March 1987). "The Profession of Public Health".
+Conference on Education, Training, and the Future of Public Health
+. Washington, DC: Board on Health Care Services, National Academy Press. p.
+53.
+↑
+Sheps CG (1973). "Schools of Public Health in Transition".
+The Milbank Memorial Fund Quarterly. Health and Society
+.
+51
+(4):
+462–
+468.
+doi
+:
+10.2307/3349628
+.
+JSTOR
+3349628
+.
+↑
+Kar SB (18 May 2018).
+Empowerment of Women for Promoting Health and Quality of Life
+. Oxford University Press. p.
+69.
+ISBN
+978-0-19-938467-9
+.
+↑
+"Schools of Public Health and Public Health Programs"
+(PDF)
+.
+Council on Education for Public Health
+. 11 March 2011. Archived from
+the original
+(PDF)
+on 11 June 2012
+. Retrieved
+30 March
+2011
+.
+↑
+Communications B (4 June 2023).
+"Doctor of Health Science vs. Medical Science: Which Is Better?"
+.
+Bouvé College of Health Sciences
+. Retrieved
+21 August
+2024
+.
+↑
+Bridgeport Uo (25 August 2021).
+"Ph.D. vs. Doctor of Health Science | University of Bridgeport"
+.
+University of Bridgeport News
+. Retrieved
+21 August
+2024
+.
+↑
+"DrPH vs. PhD: What's the Difference?"
+.
+publichealth.tulane.edu
+. 1 December 2022
+. Retrieved
+21 August
+2024
+.
+↑
+Berke O, Sobkowich K, Bernardo TM (November 2020).
+"Celebration day: 400th birthday of John Graunt, citizen scientist of London"
+.
+Environmental Health Review
+.
+63
+(3):
+67–
+69.
+doi
+:
+10.5864/d2020-018
+.
+ISSN
+0319-6771
+.
+S2CID
+228938397
+.
+↑
+Winkelstein W (July 2008).
+"Lemuel Shattuck: architect of American public health"
+.
+Epidemiology
+.
+19
+(4): 634.
+doi
+:
+10.1097/EDE.0b013e31817307f2
+.
+PMID
+18552594
+.
+↑
+The Commonwealth Fund (1936). "Snow on cholera: A reprint of two paper: John Snow, M.D".
+The Health Officer
+.
+1
+(8): 306.
+↑
+Halliday S (2013).
+The Great Stink of London: Sir Joseph Bazalgette and the Cleansing of the Victorian Metropolis
+. The History Press.
+ISBN
+978-0-7524-9378-7
+.
+↑
+"A Theory of Germs"
+.
+Science, Medicine, and Animals
+. National Academies Press (US). 4 January 2024.
+↑
+Lakhtakia R (February 2014).
+"The Legacy of Robert Koch: Surmise, search, substantiate"
+.
+Sultan Qaboos University Medical Journal
+.
+14
+(1):
+e37–
+e41.
+doi
+:
+10.12816/0003334
+.
+PMC
+3916274
+.
+PMID
+24516751
+.
+↑
+"On this day (11.12.1843): Robert Koch: The Man who Saved Millions of Lives"
+.
+history.info
+. 10 December 2019.
+↑
+Beitsch LM, Yeager VA, Moran J (March 2015).
+"Deciphering the imperative: translating public health quality improvement into organizational performance management gains"
+.
+Annual Review of Public Health
+.
+36
+(1):
+273–
+287.
+doi
+:
+10.1146/annurev-publhealth-031914-122810
+.
+PMID
+25494050
+.
+↑
+Hansen B (January 2002).
+"Public careers and private sexuality: some gay and lesbian lives in the history of medicine and public health"
+.
+American Journal of Public Health
+.
+92
+(1):
+36–
+44.
+doi
+:
+10.2105/AJPH.2005.079145
+.
+PMC
+1470556
+.
+PMID
+11772756
+.
+↑
+Mackie EM, Wilson TS (12 November 1994). "Obituary N.I.Wattie".
+British Medical Journal
+.
+309
+: 1297.
+↑
+Asimov N (1 September 2005).
+"Ruth Huenemann – pioneer in study of childhood obesity"
+. Hearts Newspapers. SF Gate
+. Retrieved
+7 September
+2022
+.
+↑
+"Canada: International Health Care System Profiles"
+.
+international.commonwealthfund.org
+. Retrieved
+25 May
+2020
+.
+↑
+Jalil H (2015).
+Curing a Sick Nation: Public Health and Citizenship in Colombia, 1930–1940
+(PhD thesis). University of California, Santa Barbara.
+↑
+Pacino N (2013).
+Prescription for a Nation: Public Health in Post-Revolutionary Bolivia, 1952–1964
+(PhD dissertation thesis). University of California, Santa Barbara.
+↑
+"Ghana"
+.
+CDC Global Health
+. Retrieved
+9 April
+2018
+.
+1
+2
+3
+Agyepong IA, Manderson L (January 1999). "Mosquito avoidance and bed net use in the Greater Accra Region, Ghana".
+Journal of Biosocial Science
+.
+31
+(1):
+79–
+92.
+doi
+:
+10.1017/S0021932099000796
+.
+PMID
+10081239
+.
+S2CID
+42129995
+.
+↑
+"Ghana Demographic and Health Survey 2014"
+(PDF)
+. Retrieved
+18 May
+2020
+.
+↑
+Ghanem VG (2026).
+"Spatial and Machine Learning Analysis of District-Level Health Insurance Inequities in Ghana"
+.
+Cureus
+.
+18
+(1) e101984.
+doi
+:
+10.7759/cureus.101984
+.
+↑
+Mitchell A (1991).
+The Divided Path: The German Influence on Social Reform in France After 1870
+. University of North Carolina Press. pp.
+252–
+275.
+ISBN
+0807857432
+.
+↑
+Hildreth ML (1987).
+Doctors, Bureaucrats & Public Health in France, 1888–1902
+.
+↑
+Klaus A (1993).
+Every Child a Lion: The Origins of Maternal & Infant Health Policy in the United States & France, 1890–1920
+.
+↑
+Shapiro AL (1980). "Private rights, public interest, and professional jurisdiction: the French Public Health Law of 1902".
+Bulletin of the History of Medicine
+.
+54
+(1):
+4–
+22.
+PMID
+6991034
+.
+↑
+Donald Cooper,
+Epidemic Disease in Mexico City, 1761–1813: An Administrative, Social, and Medical History
+. Austin: University of Texas Press 1965.
+↑
+Agostoni C (2003).
+Monuments of Progress: Modernization and Public Health in Mexico City, 1876–1910
+. Calgary, Boulder, Mexico City: University of Calgary Press; University of Colorado Press; Instituto de Investigaciones Históricos.
+↑
+Soto Laveaga G, Agostoni C (March 2011). "Science and public health in the century of Revolution.". In Beezley WH (ed.).
+A companion to Mexican history and culture
+. Oxford, UK: Wiley-Blackwell. pp.
+561–
+574.
+doi
+:
+10.1002/9781444340600.ch33
+.
+ISBN
+978-1-4443-4060-0
+.
+↑
+Alexander AR (2016).
+City on Fire: Technology, Social Change, and the Hazards of Progress in Mexico City, 1860–1910
+. Pittsburgh: University of Pittsburgh Press.
+↑
+Pilcher JM (2006).
+The Sausage Rebellion: Public Health, Private Enterprise, and Meat in Mexico City, 1890–1917
+. Albuquerque: University of New Mexico Press.
+↑
+Pani AJ (1916).
+La higiene en México
+(in Spanish). Mexico: Imprenta de J. Ballescá.
+↑
+Bliss K (1 February 1999). "The science of redemption: syphilis, sexual promiscuity, and reformism in revolutionary Mexico City".
+The Hispanic American Historical Review
+.
+79
+(1):
+1–
+40.
+doi
+:
+10.1215/00182168-79.1.1
+.
+PMID
+21162337
+.
+↑
+Aréchiga Córdoba E (2005). "Educación, propaganda o 'Dictadura sanitaria'. Estrategias discursivas de higiene y salubridad pública en el México posrevolucionario, 1917–1934".
+Dynamis
+.
+25
+:
+117–
+143.
+↑
+Mazzaferri AJ (1968).
+Public Health and Social Revolution in Mexico
+(PhD thesis). Kent State University.
+↑
+Sowell D (2015).
+Medicine on the Periphery: Public Health in Yucatán, 1870–1960
+. Lanham: Lexington Books.
+↑
+John B. Blake, "The origins of public health in the United States."
+American Journal of Public Health and the Nations Health
+38.11 (1948): 1539-1550.
+online
+↑
+Barbara Gutmann Rosenkrantz,
+Public health and the State; changing views in Massachusetts, 1842-1936
+(1972)
+online
+↑
+George Rosen,
+A history of public health
+(1958)
+online
+↑
+David A.  Loving, "The development of American public health, 1850–1925" (PhD dissertation, University of Oklahoma; ProQuest Dissertations & Theses,  2008. 3303520).
+↑
+Leider JP, Resnick B, Bishai D, Scutchfield FD (April 2018).
+"How Much Do We Spend? Creating Historical Estimates of Public Health Expenditures in the United States at the Federal, State, and Local Levels"
+.
+Annual Review of Public Health
+.
+39
+(1):
+471–
+487.
+doi
+:
+10.1146/annurev-publhealth-040617-013455
+.
+PMID
+29346058
+.
+1
+2
+Himmelstein DU, Woolhandler S (January 2016).
+"Public Health's Falling Share of US Health Spending"
+.
+American Journal of Public Health
+.
+106
+(1):
+56–
+57.
+doi
+:
+10.2105/AJPH.2015.302908
+.
+PMC
+4695931
+.
+PMID
+26562115
+.
+↑
+Alfonso YN, Leider JP, Resnick B, McCullough JM, Bishai D (April 2021).
+"US Public Health Neglected: Flat Or Declining Spending Left States Ill Equipped To Respond To COVID-19"
+.
+Health Affairs
+.
+40
+(4):
+664–
+671.
+doi
+:
+10.1377/hlthaff.2020.01084
+.
+PMC
+9890672
+.
+PMID
+33764801
+.
+S2CID
+232367227
+.
+↑
+Institute of Medicine (2012).
+For the Public's Health: Investing in a Healthier Future
+. Washington, DC: The National Academies Press. p.
+2.
+Bibcode
+:
+2012nap..book13268I
+.
+doi
+:
+10.17226/13268
+.
+ISBN
+978-0-309-22107-8
+.
+PMID
+24830052
+.
+↑
+"Health Care Costs Accounted for 17.7 Percent of GDP in 2018"
+.
+California Health Care Foundation
+. 2 June 2020
+. Retrieved
+2 March
+2022
+.
+↑
+Nunn R, Parsons J, Shambaugh J (10 March 2020).
+"A dozen facts about the economics of the US health-care system"
+.
+Brookings Institution
+. Retrieved
+2 March
+2022
+.
+↑
+Wallace M, Sharfstein JM (January 2022). "The Patchwork U.S. Public Health System".
+The New England Journal of Medicine
+.
+386
+(1):
+1–
+4.
+doi
+:
+10.1056/NEJMp2104881
+.
+PMID
+34979071
+.
+S2CID
+245640052
+.
+↑
+"Explore Public Health Funding in the United States | 2021 Annual Report"
+.
+America's Health Rankings
+. Retrieved
+2 March
+2022
+.
+↑
+"GHJP Report Calls for Reinvestment to Revive Public Health in the U.S."
+Yale Law School
+. 7 June 2021
+. Retrieved
+2 March
+2022
+.
+↑
+Eager W, Herman D, House M, Robinson L, Williams C (2021).
+Confronting a legacy of scarcity: a plan for America's reinvestment in U.S. public health
+(PDF)
+. Yale School of Public Health.
+↑
+"The Impact of Chronic Underfunding on America's Public Health System: Trends, Risks, and Recommendations, 2021"
+.
+Trust for America's Health
+. 7 May 2021
+. Retrieved
+2 March
+2022
+.
+↑
+Lee TL, Lee YL (13 May 2025).
+"Maintaining the Right to Health: A Democratic Process in Taiwan"
+.
+Health and Human Rights
+.
+27
+(1):
+125–
+128.
+PMC
+12282878
+.
+PMID
+40703588
+.
+↑
+Cheng TM (5 June 2020).
+"International Health Care System Profiles – Taiwan"
+.
+commonwealthfund.org
+. Retrieved
+15 July
+2025
+.
+↑
+"Important Statistics"
+.
+nhi.gov.tw
+. Retrieved
+15 July
+2025
+.
+↑
+O'Flaherty K (14 November 2020).
+"How Taiwan beat Covid-19"
+.
+WIRED
+. Retrieved
+15 July
+2025
+.
+↑
+Bremmer I (23 February 2021).
+"The Best Global Responses to the COVID-19 Pandemic, 1 Year Later"
+.
+Time
+. Retrieved
+15 July
+2025
+.
+↑
+Davidson H, Lin Ch (9 May 2022).
+"Once a zero-Covid poster child, Taiwan learns to live with the virus"
+.
+The Guardian)
+. Retrieved
+15 July
+2025
+.
+Further reading
+[
+edit
+]
+Berridge, Virginia.
+Public Health: A Very Short Introduction
+(Oxford UP, 2016)
+Breslow, L., ed.
+Encyclopedia of Public Health
+(MacMillan, 2002).
+Carney, Jan Kirk.
+A History of Public Health: From Past to Present
+(Jones & Bartlett, 2022)
+Hollingsworth, J. Rogers, Jerald Hage, and Robert Hanneman.
+State intervention in medical care: consequences for Britain, France, Sweden, and the United States, 1890-1970
+(Cornell University Press, 2019).
+United Kingdom
+[
+edit
+]
+Further information:
+Health in the United Kingdom §
+Further reading
+Eyler, John M. Eyler.
+Sir Arthur Newsholme and State Medicine, 1885-1935
+(Cambridge University Press, 1997).
+Harris, James Jeffrey. "Body Politics: A History of Public Health and Politics in Britain, 1885-1922" (PhD dissertation, . The Ohio State University, 2017)
+online
+.
+Rosen, George
+A History of Public Health
+(1958).
+online
+, a standard scholarly history.
+Schneider, Dona, and David E. Lilienfeld, eds.
+Public Health: The Development of a Discipline, From the Age of Hippocrates to the Progressive Era
+(2008), Long excerpts from. 24 major documents. before 1920, from the United States and United Kingdom.
+excerpts
+Public health: the development of a discipline. Vol. 2 Twentieth century challenges
+(2011), covers 1920 to 2010.
+Sigsworth, Michael, and Michael Worboys. "The public's view of public health in mid-Victorian Britain."
+Urban History
+21.2 (1994): 237–250.
+online
+Wohl, Anthony S.
+Endangered lives: public health in Victorian Britain
+(1983)
+online
+.
+United States
+[
+edit
+]
+Further information:
+History of public health in the United States §
+Further reading
+Duffy, John.
+The sanitarians
+: a history of American public health
+(1992)
+online
+Schneider, Dona, and David E. Lilienfeld, eds.
+Public Health: The Development of a Discipline, From the Age of Hippocrates to the Progressive Era
+(2008), Long excerpts from. 24 major documents. before 1920, from the United States and United Kingdom.
+excerpts
+Public health: the development of a discipline. Vol. 2 Twentieth century challenges
+(2011), covers 1920 to 2010.
+v
+t
+e
+Public health
+General
+Auxology
+Biological hazard
+Chief medical officer
+Climate change
+Cultural competence
+Deviance
+Environmental health
+Eugenics
+History of
+Liberal
+Euthenics
+Genomics
+Globalization and disease
+Harm reduction
+Health economics
+Health literacy
+Health policy
+Health system
+Health care reform
+Housing First
+Human right to water and sanitation
+Management of depression
+Public health law
+National public health institute
+Health politics
+Labor rights
+Maternal health
+Medical anthropology
+Medical sociology
+Mental health
+(
+Ministers
+)
+Occupational safety and health
+Pharmaceutical policy
+Pollution
+Air
+Water
+Soil
+Radiation
+Light
+Prisoners' rights
+Public health intervention
+Public health laboratory
+Right to food
+Right to health
+Right to a healthy environment
+Right to housing
+Right to rest and leisure
+Right to sit
+Security of person
+Sexual and reproductive health
+Social psychology
+Sociology of health and illness
+Unisex changing rooms
+Unisex public toilets
+Workers' right to access the toilet
+Preventive healthcare
+Behavior change
+Theories
+Drug checking
+Family planning
+Harm reduction
+Health promotion
+Human nutrition
+Healthy diet
+Preventive nutrition
+Hygiene
+Food safety
+Hand washing
+Infection control
+Oral hygiene
+Needle and syringe programmes
+Occupational safety and health
+Human factors and ergonomics
+Hygiene
+Controlled Drugs
+Injury prevention
+Medicine
+Nursing
+Patient safety
+Organization
+Pharmacovigilance
+Reagent testing
+Safe sex
+Sanitation
+Emergency
+Fecal–oral transmission
+Open defecation
+Sanitary sewer
+Waterborne diseases
+Worker
+School hygiene
+Smoking cessation
+Supervised injection site
+Vaccination
+Vector control
+Population health
+Adult mortality
+Biostatistics
+Child mortality
+Community health
+Epidemiology
+Global health
+Health impact assessment
+Health system
+Infant mortality
+Open-source healthcare software
+Multimorbidity
+Public health informatics
+Social determinants of health
+Commercial determinants of health
+Health equity
+Race and health
+Social medicine
+Biological and
+epidemiological statistics
+Case–control study
+Randomized controlled trial
+Relative risk
+Statistical hypothesis testing
+Analysis of variance (ANOVA)
+Regression analysis
+ROC curve
+Student's
+t
+-test
+Z
+-test
+Statistical software
+Infectious and epidemic
+disease prevention
+Asymptomatic carrier
+Epidemics
+List
+Notifiable diseases
+List
+Public health surveillance
+Disease surveillance
+Quarantine
+Sexually transmitted infection
+Social distancing
+Tropical disease
+Vaccine trial
+WASH
+Food hygiene and
+safety management
+Food
+Additive
+Chemistry
+Engineering
+Microbiology
+Processing
+Safety
+Safety scandals
+Good agricultural practice
+Good manufacturing practice
+HACCP
+ISO 22000
+Health behavioral
+sciences
+Diffusion of innovations
+Health belief model
+Health communication
+Health psychology
+Positive deviance
+PRECEDE–PROCEED model
+Social cognitive theory
+Social norms approach
+Theory of planned behavior
+Transtheoretical model
+Organizations,
+education
+and history
+Organizations
+Caribbean
+Caribbean Public Health Agency
+China
+Center for Disease Control and Prevention
+Europe
+Centre for Disease Prevention and Control
+Committee on the Environment, Public Health and Food Safety
+Russia
+Rospotrebnadzor
+India
+Ministry of Health and Family Welfare
+Canada
+Health Canada
+Public Health Agency
+U.S.
+Centers for Disease Control and Prevention
+Health departments in the United States
+Council on Education for Public Health
+Public Health Service
+World Health Organization
+World Toilet Organization
+(
+Full list
+)
+Education
+Health education
+Higher education
+Bachelor of Science in Public Health
+Doctor of Public Health
+Professional degrees of public health
+Schools of public health
+History
+History of public health in the United Kingdom
+History of public health in the United States
+History of public health in Australia
+Sara Josephine Baker
+Samuel Jay Crumbine
+Carl Rogers Darnall
+Joseph Lister
+Margaret Sanger
+John Snow
+Typhoid Mary
+Radium Girls
+Germ theory of disease
+Social hygiene movement
+Category
+Commons
+WikiProject
+v
+t
+e
+Public services
+Municipalization
+Nationalization
+Progressive tax
+Concepts
+Common good
+Free-culture movement
+Free newspaper
+Government budget
+Product sample
+Public administration
+Public bad
+Public domain
+Public good (economics)
+Public health
+Public interest
+Public land
+Public ownership
+Public policy
+Public rights
+Public sphere
+Public procurement
+Public trust
+Public value
+Universal access to education
+Universal basic services
+Basic services
+Civil service
+Fire department
+Housing First
+Law enforcement
+Postal service
+Savings system
+Public broadcasting
+Public transport
+Universal basic services
+Public utility
+Electric utility
+Oil & gas
+Telecommunication
+Municipal broadband
+Public infrastructure
+Public water system
+Waste management
+Public works
+Drinking fountain
+Drug checking
+Free clinic
+Free education
+Infrastructure
+Needle and syringe programmes
+Public art
+Public bank
+Public bookcase
+Public computer
+Public hospital
+Public library
+Public open space
+Public school
+Public space
+Public toilet
+Public university
+Reagent testing
+Supervised injection site
+Urban park
+Social services
+Publicly funded health care
+Public housing
+Job creation
+Job guarantee
+Single-payer health care
+National health insurance
+Social insurance
+Social pension
+Social security
+Youth services
+See also
+Commons
+Free public transport
+Government auction
+Public float
+Public holiday
+Public offering
+Public sector
+Public security
+Public use
+Public viewing area
+Category
+Commons
+v
+t
+e
+Concepts in
+infectious disease
+(
+Outline
+)
+Determinants
+Agent
+Biofilm
+Germ theory of disease
+Infectivity
+Infectious dose
+Pathogenesis
+Pathogenicity
+Attack rate
+Quorum sensing
+Virulence
+Endotoxin
+Exotoxin
+Case fatality rate
+factors
+Antimicrobial resistance
+Drug resistance
+Horizontal gene transfer
+Multidrug-resistant bacteria
+Host tropism
+Host
+Burn
+Comorbidity
+Diabetes
+Host–pathogen interaction
+Immune response
+Immunodeficiency
+Immunosuppression
+Immunopathology
+Cytokine storm
+Microbiome health
+Opportunistic infection
+Risk of infection
+Susceptible individual
+Age
+Gender
+Nutrition status
+Vaccination status
+Genetic predisposition
+Behavioral/lifestyle factors
+Smoking
+Pregnancy
+Stress levels
+Environment
+Access to water, sanitation, and hygiene
+Air quality
+Biodiversity loss
+Climate change
+Climate zones
+El Niño
+Tropical diseases
+Commerce
+Deforestation
+Ecology
+Humidity
+Injection drug use
+Natural disaster
+Flood
+Poultry and livestock
+Poverty
+Travel
+Urbanization
+Vector control
+War and conflict
+Transmission
+Basic
+concepts
+Asymptomatic carrier
+Chain of infection
+Focus of infection
+Fomite
+Host
+Incubation period
+Index case
+Infectious period
+Latent period
+Natural reservoir
+Opportunistic infection
+Silent/Subclinical infection
+Superinfection
+Transmission heterogeneity
+Super-spreader
+Viral load
+Window period
+Modes
+Endogenous
+Endogenous overgrowth
+Normal flora overgrowth
+Endogenous reactivation
+Endogenization
+Microbial translocation
+Endogenous seeding
+Biofilm
+formation
+Exogenous
+Cross-species
+Spillover infection
+Vector
+Zoonosis
+Reverse zoonosis
+Human-to-human
+/Cross-infection
+Contagious disease
+Source
+Nosocomial/Hospital
+Iatrogenic/Medical care
+Generational difference
+Vertical/Congenital
+Prenatal
+Perinatal
+Neonatal
+Horizontal
+Breakthrough infection
+Environment-
+to-human
+Sapronosis
+Routes
+Respiratory
+Air
+Bioaerosol
+Aerosol-generating procedure
+Dental aerosol
+Respiratory droplet
+Linked to
+Vascular system
+Blood-borne disease
+Percutaneous inoculation
+Injection site
+Intravenous line
+Insect bite
+Animal bite
+Surgical intervention
+Postoperative wound
+Surgical site infection
+Vector-borne
+Mosquito
+Tick
+Gastrointestinal
+Food
+Contamination
+Breastmilk
+Water
+Feces
+Cutaneous
+Burn
+Fomite
+Soil
+Open
+wound
+Genitourinary
+Sex
+Trans-placental
+Prenatal
+Cervico-vaginal
+Perinatal
+Other
+Ocular (Eye) mucosal membrane
+Modelling
+Agent-based model
+Animal disease model
+Attack rate
+Basic reproduction number
+Compartmental models in epidemiology
+Critical community size
+Force of infection
+Generation time
+Herd immunity
+Infection rate
+Machine learning
+Multiplicity of infection
+Secondary attack rate
+Serial interval
+WAIFW matrix
+Occurrence
+in population
+Cluster
+Endemic
+Epidemic
+Curve
+Farr's laws
+Geographic distribution
+Holoendemic
+Hyperendemic
+Incidence
+Inequality
+Mesoendemic
+Outbreak
+Pandemic
+Prevalence
+Seasonality
+Social factors
+Sporadic
+Syndemic
+Twindemic
+Anatomical
+location
+Respiratory
+Ear-Nose-Throat/Upper respiratory tract
+Chest/Lower respiratory tract
+Gastrointestinal
+Intestinal
+Genitourinary
+Nervous system
+Skin
+Soft tissue
+Bone
+Joint
+Cardiovascular
+Systemic/Generalized
+Blood
+Tooth
+Mouth
+Fetus
+Eye
+Outcome
+Carrier state
+Chronic infection
+Convalescence
+Disability-adjusted life years
+Late effect
+Post-acute infection syndrome
+Post-viral fatigue syndrome
+Recovery
+Sequela
+Prevention
+and Control
+measures
+Pharmaceutical
+Antibiotic
+prophylactic
+Antifungal
+Anthelmintic
+Ascaricide
+Antimicrobial
+Antimicrobial stewardship
+Antiseptic
+Antiviral
+Asepsis
+Combination
+Drug safety
+Immunization
+Immunotherapy
+Monoclonal antibody therapy
+Inoculation
+Phage therapy
+Pre-exposure prophylaxis
+Post-exposure prophylaxis
+Repurposed drugs
+Vaccination
+efficacy/effectiveness
+booster
+hesitancy
+resistance
+Vaccine-preventable disease
+Ring vaccination
+Non-
+pharmaceutical
+Contact tracing
+Cordon sanitaire
+Disease surveillance
+Disinfection
+Flattening the curve
+Hygiene
+Food hygiene
+Hand washing
+Gloves
+Isolation
+Barrier nursing
+Lockdown
+Notification
+list
+Protective sequestration
+Public health
+Community health
+services
+Health communication
+Health education
+Outbreak response
+Quarantine
+Respiratory source control
+N95 respirator
+Surgical mask
+PPE
+Safe sex
+Sanitation
+Screening
+Social distancing
+Sterilization
+Transmission-based precautions
+Travel restrictions
+Universal precautions
+Vector control
+Wastewater surveillance
+Zoning
+Emerging
+infections
+Antigenic drift
+Antigenic shift
+Antimicrobial resistance surveillance
+EARS-Net
+Biosecurity
+CRISPR
+Disease X
+Emergent virus
+Evolutionary epidemiology
+Genetic epidemiology
+Global Health Initiatives
+Microbial phylogenetics
+One Health Model
+Genomic reassortment
+Re-emerging disease
+Reverse zoonosis
+Selection pressure
+Synthetic biology
+Viral phylodynamics
+Other
+Discovery
+Disease ecology
+Eradication
+Economics of Infectious Diseases
+Infectious disease (medical specialty)
+Infectious disease informatics
+Microbial bioterrorism
+Pandemic prevention
+Tropical disease
+Tropical medicine
+v
+t
+e
+Occupational safety and health
+Occupational
+diseases
+and
+injuries
+Acrodynia
+Asbestosis
+Asthma
+Barotrauma
+Berylliosis
+Brucellosis
+Burnout
+Byssinosis ("brown lung")
+Cardiovascular
+Chalicosis
+Chronic solvent-induced encephalopathy
+Chronic stress
+Chimney sweeps' carcinoma
+Coalworker's pneumoconiosis ("black lung")
+Concussions in sport
+Decompression sickness
+De Quervain syndrome
+Erethism
+Exposure to human nail dust
+Farmer's lung
+Fiddler's neck
+Flock worker's lung
+Glassblower's cataract
+Golfer's elbow
+Hearing loss
+Hospital-acquired infection
+Indium lung
+Laboratory animal allergy
+Lead poisoning
+Low back pain
+Mesothelioma
+Metal fume fever
+Mule spinners' cancer
+Noise-induced hearing loss
+Phossy jaw
+Pneumoconiosis
+Radium jaw
+Repetitive strain injury
+Silicosis
+Silo-filler's disease
+Sports injury
+Surfer's ear
+Tennis elbow
+Tinnitus
+Writer's cramp
+Occupational
+hygiene
+Occupational hazard
+Biological hazard
+Chemical hazard
+Physical hazard
+Psychosocial hazard
+Occupational stress
+Hierarchy of hazard controls
+Prevention through design
+Exposure assessment
+Occupational exposure limit
+Occupational epidemiology
+Workplace health surveillance
+Professions
+Environmental health
+Industrial engineering
+Occupational health nursing
+Occupational health psychology
+Occupational medicine
+Occupational therapist
+Safety engineering
+Agencies
+and
+organizations
+International
+European Agency for Safety and Health at Work
+International Labour Organization
+World Health Organization
+National
+Canadian Centre for Occupational Health and Safety
+(Canada)
+Federal Institute for Occupational Safety and Health
+(Germany)
+Istituto nazionale per l'assicurazione contro gli infortuni sul lavoro
+(Italy)
+National Institute for Safety and Health at Work
+(Spain)
+Health and Safety Executive
+(UK)
+Occupational Safety and Health Administration
+National Institute for Occupational Safety and Health
+(US)
+Safe Work Australia
+(Australia)
+Standards
+Bangladesh Accord
+OHSAS 18001
+ISO 45001
+Occupational Safety and Health Convention, 1981
+Worker Protection Standard
+(US)
+Working Environment Convention, 1977
+Safety
+Checklist
+Code of practice
+Contingency plan
+Diving safety
+Emergency procedure
+Emergency evacuation
+Hazard
+Hierarchy of hazard controls
+Hazard elimination
+Administrative controls
+Engineering controls
+Hazard substitution
+Personal protective equipment
+Job safety analysis
+Lockout-tagout
+Permit To Work
+Operations manual
+Redundancy (engineering)
+Risk assessment
+Safety culture
+Standard operating procedure
+Immediately dangerous to life or health
+Legislation
+Diving regulations
+Occupational Safety and Health Act (United States)
+Potty parity
+(
+United States
+)
+Right to sit
+(
+United States
+)
+Workers' right to access the toilet
+See also
+Aerosol
+Break
+Break room
+Drug policy
+Effects of overtime
+Environment, health and safety
+Environmental toxicology
+Ergonomics
+Fire Fighter Fatality Investigation and Prevention Program
+Hawks Nest Tunnel disaster
+Health physics
+Hostile work environment
+Indoor air quality
+International Chemical Safety Card
+Job strain
+National Day of Mourning (Canada)
+NIOSH air filtration rating
+Overwork
+Process safety
+Public health
+Quality of working life
+Risk management
+Safety data sheet
+Source control
+Toxic tort
+Toxic workplace
+Workers' compensation
+Workplace hazard controls for COVID-19
+Workplace health promotion
+Category
+Occupational diseases
+Journals
+Organizations
+Commons
+v
+t
+e
+Social sciences
+Outline
+History
+Index
+Primary
+Anthropology
+archaeology
+Biological
+cultural
+social
+Economics
+microeconomics
+macroeconomics
+econometrics
+mathematical
+Geography
+physical
+human
+technical
+integrated
+History
+cultural
+auxiliary sciences
+economic
+human
+military
+political
+social
+Law
+jurisprudence
+legal history
+legal systems
+public law
+private law
+Linguistics
+semiotics
+Political science
+international relations
+comparative
+philosophy
+public policy
+public administration
+Psychology
+abnormal
+cognitive
+developmental
+personality
+social
+Sociology
+criminology
+demography
+internet
+rural
+urban
+Interdisciplinary
+Administration
+business
+public
+Anthrozoology
+Area studies
+Business studies
+Cognitive science
+Communication studies
+Community studies
+Criminology
+Critical animal studies
+Cultural studies
+Development studies
+Education
+Environmental
+social science
+studies
+Food studies
+Gender studies
+Global studies
+Historical sociology
+History of technology
+Human ecology
+Information science
+International studies
+Linguistics
+Management
+Media studies
+Philosophies
+science
+economics
+history
+psychology
+social science
+Planning
+land use
+regional
+urban
+Political ecology
+Political economy
+Political sociology
+Public health
+Regional science
+Science and technology studies
+Science studies
+historical
+Quantum social science
+Social work
+Vegan studies
+List
+List of social science journals
+Other categorizations
+Behavioural sciences
+Geisteswissenschaft
+Human science
+Humanities
+Category
+Portals
+:
+Medicine
+Society
+Psychiatry
+Psychology
+Human sexuality
+Cannabis
+COVID-19
+Public health
+at Wikipedia's
+sister projects
+:
+Definitions
+from Wiktionary
+Media
+from Commons
+Quotations
+from Wikiquote
+Texts
+from Wikisource
+Textbooks
+from Wikibooks
+Resources
+from Wikiversity
+Data
+from Wikidata
+Authority control databases
+International
+GND
+FAST
+National
+United States
+France
+BnF data
+Japan
+Czech Republic
+Spain
+Latvia
+Israel
+Other
+NARA
+Yale LUX
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Public_health&oldid=1361616319
+"
+Categories
+:
+Public health
+Euthenics
+Health economics
+Health policy
+Medical humanities
+Health education
+Primary care
+Health sciences
+Health law
+Global health
+Health standards
+Public health education
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Use dmy dates from October 2019
+Pages using multiple image with auto scaled images
+Webarchive template wayback links
+Articles containing potentially dated statements from June 2016
+All articles containing potentially dated statements
+CS1 French-language sources (fr)
+CS1 Italian-language sources (it)
+CS1 Spanish-language sources (es)
+Articles with excerpts
+Articles containing potentially dated statements from 2018
+Articles with medical app sidebar
+Pages using Sister project links with hidden wikidata
+Search
+Search
+Public health
+74 languages
+Add topic

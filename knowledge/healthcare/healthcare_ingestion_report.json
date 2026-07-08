@@ -1,0 +1,31 @@
+{
+  "domain": "healthcare",
+  "generated_at": "2026-07-08T03:28:50.758953+00:00",
+  "local_corpus": {
+    "files_total": 46,
+    "chunks_total": 127,
+    "bytes_total": 310829,
+    "extension_counts": {
+      ".txt": 46
+    },
+    "authority_counts": {
+      "AIIMS": 1,
+      "CDC": 5,
+      "CDSCO": 1,
+      "CDSCO / Pharmacovigilance Programme of India (PvPI)": 1,
+      "General Public Health Education": 6,
+      "General Public Health Education (WHO/UNICEF ORS-Zinc protocol)": 1,
+      "ICMR": 1,
+      "MedlinePlus": 8,
+      "MoHFW / NHRC-linked Charter of Patients' Rights": 1,
+      "MoHFW / National Health Mission": 1,
+      "NCDC": 1,
+      "NCDC / Integrated Disease Surveillance Programme (IDSP)": 1,
+      "NIH": 2,
+      "National Accreditation Board for Hospitals & Healthcare Providers (NABH)": 1,
+      "WHO": 15
+    },
+    "chunk_file": "knowledge/healthcare/chunks/healthcare_chunks.jsonl",
+    "manifest_file": "knowledge/healthcare/healthcare_corpus_manifest.json"
+  }
+}

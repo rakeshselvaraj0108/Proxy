@@ -1,0 +1,8002 @@
+Medical terminology - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Language used to describe the human body
+Medical terminology
+Details
+Part of
+Scientific terminology
+Anatomical terminology
+[
+edit on Wikidata
+]
+Medical terminology
+is
+language
+used to describe the
+components
+,
+processes
+,
+conditions
+,
+medical procedures
+and
+treatments
+of the human body.
+In the English language, medical terminology generally has a regular
+morphology
+; the same
+prefixes
+and
+suffixes
+are used to add meanings to different
+roots
+. The root of a term often refers to an
+organ
+,
+tissue
+, or
+condition
+, and
+medical roots and affixes
+are often derived from
+Ancient Greek
+or
+Latin
+(particularly
+Neo-Latin
+). Many medical terms are examples of
+neoclassical compounds
+. Historically, all European
+universities
+used Latin as the dominant language of instruction and research, as
+Neo-Latin
+was the
+lingua franca
+of science, medicine, and education in Europe during the
+early modern period
+.
+Medical terminology includes a large part of
+anatomical terminology
+, which includes the
+anatomical terms of location
+,
+motion
+,
+muscle
+,
+bone
+, and
+histology
+. It also includes language from
+biology
+,
+chemistry
+,
+physics
+, and
+physiology
+, as well as vocabulary unique to the field of medicine, such as
+medical abbreviations
+. Each
+branch of medicine
+has its own clinical and scientific terminology.
+Medical dictionaries
+are specialised dictionaries for medical terminology and may be organised alphabetically or according to
+medical classification
+systems such as the
+Systematized Nomenclature of Medicine
+,
+International Classification of Diseases
+, or
+Unified Medical Language System
+.
+Examples of modern medical dictionaries include
+Mosby's Dictionary of Medicine, Nursing & Health Professions
+,
+Stedman's
+,
+Taber's
+, and
+Dorland's
+.
+Linguistics
+[
+edit
+]
+Main article:
+List of medical roots and affixes
+In the English language, medical terms generally have a regular morphology, often being
+compound words
+that comprise three kinds of
+morphemes
+:
+[
+citation needed
+]
+roots
+,
+prefixes
+, and
+suffixes
+.
+[
+1
+]
+[
+2
+]
+The
+etymology
+of medical terms often originates from
+Latin
+(particularly
+Neo-Latin
+)
+[
+3
+]
+[
+4
+]
+and
+Ancient Greek
+,
+[
+5
+]
+with such medical terms being examples of
+neoclassical compounds
+. Each language may supply relevant morphemes for medical terms. For example, there are two primary roots for medical terminology relating to kidneys
+–
+one from Greek (νεφρός
+nephr(os)
+) and one from Latin (
+ren(es)
+).
+[
+citation needed
+]
+Lexical items
+of medical terminology, which forms part of
+international scientific vocabulary
+(ISV), are
+translingual
+(that is, being used across multiple languages).
+[
+6
+]
+The use of ISV was a driving force in the development of the
+constructed language
+known as
+Interlingua
+.
+[
+7
+]
+From the 1950s to late 1970s, a number of medical journals were published, or used, Interlingua.
+[
+8
+]
+[
+9
+]
+[
+10
+]
+[
+11
+]
+Morphology
+[
+edit
+]
+Medical roots and affixes
+are often derived from
+Greek
+or
+Latin
+.
+[
+12
+]
+Roots
+[
+edit
+]
+The word root is developed to include a vowel sound following the term to add a smoothing action to the sound of the word when applying a suffix. The result is the formation of a new term with a vowel attached (word root + vowel) called a
+combining form
+. In English, the most common vowel used in the formation of the combining form is the letter
+-o-
+, added to the word root. For example, if there is an inflammation of the stomach and intestines, this would be written as
+gastro-
+and
+enter-
+plus
+-itis
+,
+gastroenteritis
+.
+[
+citation needed
+]
+The formation of plurals should usually be done using the rules of the source language. Greek and Latin each have differing rules to be applied when forming the plural form of the word root.
+[
+citation needed
+]
+Affixes
+[
+edit
+]
+Prefixes and suffixes, primarily in Greek—but also in Latin, have a droppable
+-o-
+. As a general rule, this vowel almost always acts as a joint-stem to connect two consonantal roots (e.g.
+arthr-
++
+-o-
++
+-logy
+=
+arthrology
+), but generally, the
+-o-
+is dropped when connecting to a vowel-stem (e.g.
+arthr-
++
+-itis
+=
+arthritis
+, instead of
+arthr-o-itis
+). Generally, Greek prefixes go with Greek suffixes and Latin prefixes with Latin suffixes. Although it is technically considered acceptable to create
+hybrid words
+, it is strongly preferred in coining new terms not to mix different lingual roots. Examples of accepted medical words that do mix lingual roots are
+neonatology
+and
+quadriplegia
+.
+[
+citation needed
+]
+Prefixes do not normally require further modification to be added to a word root because the prefix normally ends in a vowel or vowel sound, although in some cases they may assimilate slightly and an
+in-
+may change to
+im-
+or
+syn-
+to
+sym-
+.
+[
+citation needed
+]
+Suffixes are attached to the end of a word root to add meaning such as condition, disease process, or procedure.
+[
+citation needed
+]
+Suffixes are categorized as either (1) needing the combining form, or (2) not needing the combining form since they start with a vowel.
+[
+citation needed
+]
+Gross anatomy
+[
+edit
+]
+Main article:
+Anatomical terminology
+See also:
+List of human anatomical regions
+,
+List of human anatomical features
+, and
+List of organs of the human body
+Descriptive
+human anatomy
+often uses terminology that is fairly correct descriptive Latin. For example,
+musculus gluteus maximus
+simply means the "largest rump muscle", where
+musculus
+was Latin for "little mouse" and applied to muscles;
+[
+13
+]
+a
+frenum
+,
+a structure for keeping something in place, is Latin for
+bridle
+; and a
+foramen
+is Latin for a passage or perforation.
+[
+14
+]
+Location and motion
+[
+edit
+]
+Main article:
+List of movements of the human body
+A standardised set of terminology is used in anatomy to describe relative and absolute location and movement of anatomical parts.
+[
+15
+]
+The
+standard anatomical position
+is the orientation that
+anatomical terms of location
+and
+motion
+are typically used in reference to.
+[
+15
+]
+In humans, this refers to the body in a standing position with arms at the side and palms facing forward.
+[
+15
+]
+Other positions referenced in medicine include
+prone
+(lying facing down) and
+supine
+(lying facing up).
+[
+16
+]
+Planes and axes
+[
+edit
+]
+The three anatomical planes of the body: the sagittal, transverse (or horizontal), frontal planes
+Relative to the standard anatomical position, three
+anatomical planes
+are widely used in medicine:
+The parasagittal (Greek
+πᾰρᾰ́
+(
+pará
+), beside) or paramedian or
+sagittal planes
+(Latin
+sagitta
+, arrow), which include the
+median or midsagittal plane
+and divide the body into left and right (in reference to the subject and not the observer).
+[
+16
+]
+[
+17
+]
+[
+18
+]
+[
+19
+]
+The frontal or
+coronal plane
+(Latin
+corona
+, crown), which divide the body into front and back.
+[
+20
+]
+[
+21
+]
+The axial or horizontal or
+transverse plane
+(Latin
+trans
+, across;
+vetere
+, to turn), which is perpendicular to the other two planes.
+[
+22
+]
+The
+transpyloric plane
+, the
+subcostal plane
+, and the
+transumbilical plane
+planes are also considered in the division of the
+torso
+into the
+quadrants and regions of the abdomen
+.
+[
+23
+]
+The three main axes of a human are the left-right (or horizontal or frontal), the craniocaudal (or rostrocaudal, longitudinal, or cephalocaudal),
+[
+a
+]
+and the anteroposterior (or dorsoventral or sagittal) axes.
+[
+24
+]
+[
+25
+]
+[
+26
+]
+[
+b
+]
+Other
+anatomical lines
+include the
+axillary lines
+,
+parasternal line
+, and
+scapular line
+.
+Location
+[
+edit
+]
+Anatomical terms of location
+Terms
+Location
+Definition
+Etymology
+Related terms
+Ref
+Afferent and efferent
+Afferent
+Conducting towards something
+Afferent nerve
+[
+27
+]
+[
+28
+]
+[
+29
+]
+[
+30
+]
+[
+31
+]
+[
+32
+]
+[
+33
+]
+[
+34
+]
+[
+35
+]
+Efferent
+Conducting away from something
+Efferent nerve
+Anterior, posterior, superior, and inferior
+Anterior
+Front
+Latin
+āntē
+, before, in front of
+Posterior
+Back
+Latin
+post
+, after, behind
+Superior
+Above
+Latin
+super
+, above, excessive
+Superior vena cava
+,
+supraorbital vein
+Inferior
+Below
+Proximal and distal
+Proximal
+Closer to the trunk
+Distal
+Farther from the trunk
+Medial and lateral
+Medial
+Closer to the midline
+Lateral
+Farther from the midline
+Latin
+laterālis
+, lateral, of or belonging to the side
+Lateral pectoral nerve
+Superficial and deep
+Superficial
+Closer to the surface
+Deep
+Farther from the surface
+Dorsal and ventral
+Dorsal
+Back (used mainly in
+neuroanatomy
+,
+embryology
+, and veterinary anatomy)
+Latin
+dorsum
+, back
+Ventral
+Front (used mainly in
+neuroanatomy
+,
+embryology
+, and veterinary anatomy)
+Radial and ulnar
+Radial
+Closer to the midline, used only for structures at or distal to the elbow
+Ulnar
+Farther from the midline, used only for structures at or distal to the elbow
+Anteversion and retroversion
+Anteversion
+Titled further forward than normal, whether pathologically or incidentally.
+Latin
+versiō
+, turning
+Pelvic anteversion
+Retroversion
+Tilted back away from something.
+Latin
+retro
+, backward, behind
+Retroverted uterus
+Many anatomical terms can be combined to indicate a position in two axes simultaneously or the direction of a movement relative to the body: Anterolateral indicates a position that is both anterior and lateral to the standard anatomical position (such as the bulk of the
+pectoralis major
+muscle) or a named organ such as the
+anterolateral tibial tubercle
+;
+[
+36
+]
+[
+37
+]
+anteromedial is used, for example, in the
+anteromedial central arteries
+;
+[
+38
+]
+proximodistal describes the axis of an
+appendage
+such as an arm or a leg, taken from its tip at the distal part to where it joins the body at the proximal part.
+[
+39
+]
+Combined terms were once generally hyphenated, but typically the hyphen is omitted.
+[
+40
+]
+In
+radiology
+, various X-ray views use
+terminology
+based on where the X-ray beam enters and leaves the body, including the front to back view (anteroposterior), the back to front view (posteroanterior), and the side view (lateral).
+[
+41
+]
+The human body is shown in anatomical position in an anterior view and a posterior view. The regions of the body are labeled in boldface.
+The anatomical position, with terms of relative location noted
+Motion
+[
+edit
+]
+Terms of general motion
+Terms
+Movement
+Definition
+Etymology
+Related terms
+Ref
+Abduction and adduction
+Abduction
+Pulls a structure
+away from
+a sagittal plane, carried out by one or more
+abductor
+muscles
+.
+Latin
+ab
+, 'away';
+ducere
+, 'to draw or pull'.
+Latin
+:
+adductere
+"to bring in"
+Abdomen
+[
+42
+]
+[
+28
+]
+[
+43
+]
+[
+44
+]
+[
+45
+]
+Adduction
+Pulls a structure
+towards
+a sagittal plane, carried out by one or more
+adductor
+muscles
+.
+Latin
+ad
+, 'toward'
+Latin
+:
+abducere
+"to lead away"
+[
+42
+]
+[
+28
+]
+[
+43
+]
+[
+44
+]
+[
+45
+]
+Elevation and depression
+Elevation
+Pulls a structure in a direction
+superior
+to a horizontal plane, carried out by
+elevator muscles
+.
+Latin
+:
+elevare
+, "to raise"
+[
+46
+]
+[
+47
+]
+[
+48
+]
+Depression
+Pulls a structure in a direction inferior to a horizontal plane, carried out by
+depressor muscles
+.
+Latin
+:
+deprimere
+, "press down"
+[
+46
+]
+[
+47
+]
+[
+48
+]
+Flexion and extension
+Flexion
+Decreases the angle between two parts of the body, carried out by
+flexor muscles
+.
+Latin
+:
+flectere
+, "to bend"
+[
+49
+]
+[
+50
+]
+[
+51
+]
+Extension
+Increases the angle between two parts of the body, carried out by
+extensor muscles
+.
+Latin
+ex-
+, out of, away from, to remove
+Latin
+:
+extendere
+, "to stretch out"
+[
+49
+]
+[
+50
+]
+[
+51
+]
+Rotation
+Internal rotation
+Medial rotation, carried out by
+internal rotators
+.
+[
+52
+]
+External rotation
+Lateral rotation, carried out by
+external rotators
+.
+[
+52
+]
+Circumduction
+is a conical movement of a body part, such as a
+ball and socket joint
+or the
+eye
+. Circumduction is a combination of flexion, extension, adduction and abduction. Circumduction may be performed at ball and socket joints, such as the
+hip
+and
+shoulder
+, as well as other parts of the body such as fingers, hands, feet, and head.
+[
+53
+]
+For example, circumduction occurs when spinning the arm when performing a serve in
+tennis
+or bowling a
+cricket ball
+.
+[
+54
+]
+Terms of special motion
+Anatomical region
+Movement
+Definition
+Etymology
+Related terms
+Source
+Carpal
+(wrist)
+Palmarflexion
+Flexion of the wrist joint, towards the palm and ventral side of
+forearm
+. (In
+anatomical position
+, the front and back of the arm are, respectively, considered ventral and dorsal.)
+Latin
+carpus
+Greek
+καρπός
+(
+karpós
+), wrist
+[
+55
+]
+[
+56
+]
+Dorsiflexion
+Extension of the wrist joint, towards the dorsal side of forearm.
+[
+55
+]
+Radial deviation
+Adduction of the wrist, which moves the hand towards the
+ulnar styloid
+, or, towards the
+little finger
+.
+[
+43
+]
+Ulnar deviation
+Abduction of the wrist, which moves the hand towards the
+radial styloid
+, or, towards the
+thumb
+.
+[
+43
+]
+Plantar (sole)/pedal (foot)
+Plantarflexion
+Flexion in the direction of the sole.
+[
+57
+]
+Dorsiflexion
+Flexion in the direction of the back of the foot. (The direction of terms are opposite to those in the hand because of embryological rotation of the limbs in opposite directions.)
+[
+58
+]
+[
+59
+]
+Inversion
+Rotation that tilts the sole of the foot
+away from
+the midline.
+Sprained ankle
+[
+60
+]
+Eversion
+Rotation that tilts the sole of the foot
+towards
+the midline.
+[
+61
+]
+Upper/lower limbs
+Pronation
+Rotation of an appendage (e.g. foot) so that the corresponding extremity (e.g. sole) is facing anteriorly.
+Greek
+πρό-
+(
+pró-
+), before, in front of
+Pronation of the foot
+[
+62
+]
+[
+63
+]
+Supination
+Rotation of an appendage (e.g. forearm) so that the corresponding extremity (e.g. palm) is facing posteriorly.
+[
+62
+]
+[
+64
+]
+Sacral
+(end of spine)
+Nutation
+Rotation of promontory downwards and anteriorly, as with
+lumbar
+extension.
+Latin
+lumbus
+or
+lumbaris
+, loin
+Lumbar
+[
+65
+]
+Counternutation
+Rotation of promontory upwards and posteriorly, as with lumbar flexion.
+[
+65
+]
+Integumentary
+[
+edit
+]
+The
+integumentary system
+is the set of organs forming the outermost layer of the human body, comprising the
+skin
+,
+hair
+, and
+nails
+. It acts as a protective physical barrier between the external environment and the internal environment, while maintaining water balance, protecting deeper tissue, excreting waste, and regulating
+body temperature
+.
+[
+66
+]
+The skin (or, integument) is a composite organ, made up of the outermost
+epidermis
+and the inner
+dermis
+.
+[
+67
+]
+The epidermis comprises five layers: the
+stratum corneum
+,
+stratum granulosum
+,
+stratum spinosum
+and
+stratum basale
+. Where the skin is thicker, such as in the palms and soles, there is an extra layer of skin between the stratum corneum and the stratum granulosum known as the
+stratum lucidum
+. The dermis comprises two sections, the papillary and reticular layers, and contains
+connective tissues
+, blood vessels, glands, follicles,
+hair roots
+, sensory nerve endings, and muscular tissue.
+[
+68
+]
+Between the integument and the deep body musculature there is a transitional subcutaneous zone, the
+hypodermis
+.
+[
+69
+]
+Musculoskeletal
+[
+edit
+]
+Main articles:
+List of bones of the human skeleton
+,
+List of skeletal muscles of the human body
+, and
+List of foramina of the human body
+Front and back views of the major skeletal muscles of the human body
+Front view of major skeletal muscles
+Back view of major skeletal muscles
+The
+musculoskeletal system
+the
+organ system
+that gives
+humans
+the ability to move using their
+muscular
+and
+skeletal systems
+, and is described by the
+anatomical terms of bone
+and
+muscle
+. It is made up of the
+bones
+of the
+skeleton
+,
+muscles
+,
+cartilage
+,
+tendons
+,
+ligaments
+,
+joints
+, and other
+connective tissue
+that supports and binds tissues and organs together:
+[
+70
+]
+Bones are surrounded by a membrane known as the
+periosteum
+(Greek
+περῐ́
+(
+perí
+), around; Greek
+ὀστέον
+(
+ostéon
+), bone), and comprise multiple layers, depending on the type of bone, including
+yellow
+and red
+bone marrow
+, spongy bone, and the
+endosteum
+. There are five general classifications of
+bones
+:
+Long bones
+are characterized by a shaft known as the
+diaphysis
+, which is much longer than its width, and an
+epiphysis
+(Greek
+ἐπι-
+(
+epi-
+) upon, outside, over), a rounded head at each end of the shaft, connected to the diaphysis by the
+epiphyseal plate
+. They are made up mostly of
+compact bone
+, with lesser amounts of
+marrow
+, located within the
+medullary cavity
+, and areas of spongy, cancellous bone at the ends of the bones.
+[
+71
+]
+Short bones
+are roughly
+cube
+-shaped, and have only a thin layer of compact bone surrounding a spongy interior. Short bones provide stability and support as well as some limited motion.
+[
+72
+]
+Flat bones
+are thin and generally curved, with two parallel layers of compact bone sandwiching a layer of spongy bone.
+[
+73
+]
+Sesamoid bones
+are bones embedded in tendons. Since they act to hold the tendon further away from the joint, the angle of the tendon is increased and thus the leverage of the muscle is increased.
+[
+74
+]
+Irregular bones
+do not fit into the above categories. They consist of thin layers of compact bone surrounding a spongy interior. As implied by the name, their shapes are irregular and complicated. Often this irregular shape is due to their many centers of ossification or because they contain bony sinuses.
+[
+75
+]
+A
+tendon
+is a tough, flexible band of
+fibrous connective tissue
+that connects muscles to bones. The extra-cellular connective tissue between muscle fibers binds to tendons at the distal and proximal ends, and the tendon binds to the
+periosteum
+of individual bones at the muscle's origin and insertion. As
+muscles contract
+, tendons transmit the forces to the relatively rigid bones, pulling on them and causing movement. Tendons can stretch substantially, allowing them to function as springs during movement.
+Cartilage is a resilient and smooth type of
+connective tissue
+that covers and protects the
+ends
+of
+long bones
+,
+[
+76
+]
+and forms a structural component of many body parts including the
+rib cage
+, the neck and the bronchial tubes, and the
+intervertebral discs
+. It is classified into three types
+—
+elastic cartilage
+,
+hyaline cartilage
+, and
+fibrocartilage
+.
+Joints
+, also known as articulations, are structures that connect individual bones and may allow bones to move against each other to cause movement. Joints can be classified by structure and by function. Structurally,
+synovial joints
+are joints that are not directly joined, which are lubricated by a solution called
+synovial fluid
+;
+[
+77
+]
+fibrous
+, bony, and
+cartilaginous joints
+are characterised by the presence of their respective connective tissues. There are three functional divisions of joints:
+Diarthroses
+, which allow extensive mobility between two or more articular heads.
+Amphiarthroses
+, which allow
+some
+movement.
+False joints or
+synarthroses
+, which allow little or no movement and are predominantly
+fibrous
+.
+A
+ligament
+is a small band of dense, white,
+fibrous
+elastic tissue
+.
+[
+78
+]
+Ligaments connect the ends of bones together in order to form a joint. Most ligaments limit
+dislocation
+, and prevent certain movements, such as hyperextension and hyperflexion, which may lead to breaks.
+[
+79
+]
+An
+enthesis
+is the connective tissue that attaches tendons and ligaments to bones.
+[
+80
+]
+Fascia
+(
+from
+Latin
+fascia
+'
+band
+'
+) is a generic term for
+macroscopic
+membranous
+bodily structures.
+[
+81
+]
+:
+42
+The human skeleton may be divided into two distinct divisions: the
+axial skeleton
+, which includes the
+vertebral column
+, and the
+appendicular skeleton
+.
+[
+82
+]
+Action
+[
+edit
+]
+The action of muscles often involve antagonistic pairs of agonist muscles and antagonist muscles, which, respectively, cause and inhibit a movement.
+[
+83
+]
+Through the activation of agonist muscle, which produces most of the force and control of an action, movement occurs.
+[
+84
+]
+Antagonist muscles are the muscles that produce an opposing joint torque to the agonist muscles.
+[
+85
+]
+Synergist muscles, also called
+fixators
+or
+neutralisers
+, act around a joint to help, counter, or neutralise the action of an agonist muscle.
+[
+86
+]
+Generally, as one muscle contracts, the other muscle relaxes in a process known as
+reciprocal inhibition
+.
+[
+87
+]
+Muscle contraction
+may be concentric (i.e. shortening), eccentric (i.e. lengthening), or isometric (i.e. involving no change in length).
+[
+88
+]
+[
+89
+]
+[
+90
+]
+[
+91
+]
+[
+92
+]
+Muscle groups (e.g. elbow flexors) are sometimes named based on the joint action they produce during concentric contraction.
+[
+93
+]
+During muscle contraction, the insertion of a muscle is the structure that is moved and is typically a bone that is distal and lighter than the origin; the origin is the bone, typically proximal, that remains more stable during contraction; the head of a muscle is the end part of the muscle that attaches to its origin.
+[
+94
+]
+Vascular
+[
+edit
+]
+See also:
+List of arteries of the human body
+,
+List of veins of the human body
+, and
+List of lymph nodes of the human body
+Blood flow in the pulmonary (Latin
+pulmō
+, lung) and systemic circulations showing capillary networks in the torso sections
+The
+circulatory system
+is a
+system of organs
+that includes the
+heart
+,
+blood vessels
+, and
+blood
+which is circulated throughout the body.
+[
+95
+]
+[
+96
+]
+It includes the
+cardiovascular system
+, which consists of the heart and blood vessels. Some sources use the terms
+cardiovascular system,
+vascular system
+and
+circulatory system
+interchangeably.
+[
+97
+]
+The
+lymphatic system
+(comprising
+lymphatic vessels
+,
+lymph nodes
+, lymphoid organs, lymphatic tissue and
+lymph
+) is complementary to the circulatory system and forms part of the
+immune system
+.
+[
+98
+]
+Circulatory system
+[
+edit
+]
+The network of blood vessels include the
+great vessels
+(comprising large
+elastic arteries
+and large
+veins
+),
+[
+99
+]
+other
+arteries
+(which carry blood away from the heart) and veins (which carry blood to the heart), smaller
+arterioles
+, and
+capillaries
+, which join with
+venules
+. Blood is a
+fluid
+consisting of
+plasma
+(comprising
+serum
+and
+clotting factors
+),
+red blood cells
+,
+white blood cells
+, and
+platelets
+. Components of the blood include nutrients (such as
+proteins
+and
+minerals
+),
+hemoglobin
+,
+hormones
+, and
+gases
+such as oxygen and
+carbon dioxide
+.
+[
+100
+]
+These substances provide nourishment, help the
+immune system
+to fight
+diseases
+, and help maintain
+homeostasis
+through mechanisms such as
+thermoregulation
+,
+osmoregulation
+, and
+acid-base regulation
+.
+[
+100
+]
+The circulatory system has two divisions, a systemic circuit (i.e. the left heart pumping oxygenated blood to the rest of the body (via the
+aorta
+) and into the right heart (via the
+venae cava
+)) and a
+pulmonary circuit
+(i.e. the right heart pumping deoxygenated blood to the lungs (via the
+pulmonary artery
+) and into the left heart (via the
+pulmonary vein
+)).
+[
+101
+]
+[
+102
+]
+[
+100
+]
+In the
+human heart
+:
+There is one
+atrium
+(which receives blood) and one
+ventricle
+(which expels blood) for each circulation, with a total of four chambers:
+left atrium
+,
+left ventricle
+,
+right atrium
+and
+right ventricle
+.
+[
+100
+]
+Chambers of the heart are separated by the
+atrioventricular valves
+, which include the tricuspid valve on the right and the mitral valve on the left.
+[
+100
+]
+The ventricles are separated from the large arteries via the
+semilunar valves
+.
+[
+103
+]
+The heart is lined by a double-layered sac known as the
+pericardium
+. Further circulatory routes include the
+coronary circulation
+to the heart itself, the
+cerebral circulation
+to the
+brain
+,
+renal circulation
+to the
+kidneys
+, and
+bronchial circulation
+to the
+bronchi
+in the lungs.
+Lymphatic system
+[
+edit
+]
+The circulatory system processes an average of 20 litres of blood per day through
+capillary filtration
+, which removes plasma from the blood. Roughly 17 litres of the filtered blood are reabsorbed directly into the
+blood vessels
+. The lymphatic system provides an accessory return route to the blood for the remaining three litres of
+interstitial fluid
+.
+[
+104
+]
+Lymph
+is circulated in the body via muscle contraction and drains into the
+lymphatic ducts
+,
+[
+105
+]
+which empty into the
+subclavian veins
+, returning fluid into blood circulation.
+[
+106
+]
+A
+lymph node
+is an organised collection of lymphoid tissue through which the lymph passes on its way back to the blood.
+[
+107
+]
+Lymph nodes are particularly numerous in the
+mediastinum
+, neck, pelvis,
+axilla
+, and
+inguinal region
+.
+[
+108
+]
+Gut-associated lymphoid tissue
+, including
+Peyer's patch
+, plays a major role in the immune system.
+The
+spleen
+produces
+immune cells
+to fight
+antigens
+in its
+white pulp
+, removes
+particulate matter
+and aged blood cells, mainly
+red blood cells
+in its
+red pulp
+, and produces blood cells during fetal life.
+Neuroendocrine
+[
+edit
+]
+See also:
+List of glands of the human body
+,
+List of nerves of the human body
+, and
+List of human endocrine organs and actions
+The
+nervous system
+coordinates the
+actions
+and
+sensory
+information of a person by transmitting
+signals
+to and from different parts of the body, working in tandem with the
+endocrine system
+to respond to environmental events.
+[
+109
+]
+The endocrine system comprises
+feedback
+loops of
+hormones
+that are released by
+glands
+directly into the
+circulatory system
+, which target and regulate distant
+organs
+.
+[
+110
+]
+In
+vertebrates
+, the
+hypothalamus
+is the neural control center for all endocrine systems, being adjacent to the pituatary gland, and linking the two systems together as the
+neuroendocrine system
+.
+Endocrine glands
+in the human head and neck and their hormones
+Nervous system
+[
+edit
+]
+The connections between
+neurons
+, the primary cell of the nervous system, forms
+neural pathways
+,
+neural circuits
+, and
+large-scale brain networks
+.
+Subsystems of the human nervous system include:
+The
+central nervous system
+(CNS), comprising the
+brain
+and
+spinal cord
+. Nerves that transmit signals from the CNS are called
+motor nerves
+. Nerves that exit from the brain are called
+cranial nerves
+while those exiting from the spinal cord are called
+spinal nerves
+.
+The
+peripheral nervous system
+(PNS), comprising mainly
+nerves
+, enclosed bundles of axons. The PNS is divided into:
+The
+somatic nervous system
+, which links the brain and spinal cord to sensory receptors and skeletal muscle.
+The
+autonomic nervous system
+, which is subdivided into:
+The
+sympathetic nervous system
+.
+The
+parasympathetic nervous system
+.
+The
+enteric nervous system
+, which controls the
+gastrointestinal system
+.
+The
+neurovascular unit
+comprises the cells and vasculature channels within the nervous system that regulate cerebral blood flow.
+[
+111
+]
+Endocrine system
+[
+edit
+]
+The major
+endocrine glands
+are the
+thyroid
+,
+parathyroid
+,
+pituitary
+,
+pineal
+, and
+adrenal glands
+(Latin
+rēn, rēnes
+, kidney), and the
+testis
+and
+ovaries
+. The
+thyroid
+secretes
+thyroxine
+, the
+pituitary
+secretes
+growth hormone
+, the
+pineal
+secretes
+melatonin
+, the testis secretes
+testosterone
+, and the
+ovaries
+secrete
+estrogen
+and
+progesterone
+.
+[
+112
+]
+The
+hypothalamus
+,
+pancreas
+, and
+thymus
+also function as endocrine glands. The bones,
+kidneys
+, liver, heart, and
+gonads
+have secondary endocrine functions.
+[
+113
+]
+Glands
+that signal each other in sequence are often referred to as an axis, such as the
+hypothalamic–pituitary–adrenal axis
+.
+Endocrinology
+also comprises the study of the
+exocrine glands
+(such as
+salivary glands
+,
+mammary glands
+, and
+submucosal glands
+within the
+gastrointestinal tract
+), which secrete hormones to the outside of the body, and of
+paracrine signalling
+between cells over a relatively short distance.
+[
+113
+]
+Ventral
+[
+edit
+]
+The
+ventral body cavity
+is a
+cavity
+in the anterior aspect of the
+human body
+, comprising the
+thoracic cavity
+and
+abdominopelvic cavity
+.
+[
+114
+]
+The
+thoracic cavity
+is protected by the
+thoracic wall
+(comprising the
+rib cage
+and associated skin, muscle, and
+fascia
+), comprising the
+mediastinum
+, heart and great vessels, and the bulk of the
+respiratory tract
+.
+[
+115
+]
+The
+abdominal cavity
+, lined by the
+peritoneum
+, contains the bulk of the
+gastrointestinal tract
+, the spleen and the
+kidneys
+. Abdominal organs may be classified as solid organs or hollow organs.
+The solid organs are the
+liver
+,
+pancreas
+, spleen, kidneys, and
+adrenal glands
+.
+The hollow organs of the abdomen are the
+stomach
+,
+intestines
+,
+gallbladder
+,
+bladder
+, and
+rectum
+.
+[
+116
+]
+The
+pelvic cavity
+contains the
+urinary bladder
+,
+internal reproductive organs
+, and
+rectum
+.
+Viscera
+are the internal organs of the ventral cavity.
+[
+117
+]
+The term "visceral" is contrasted with the term "
+parietal
+", meaning "of or relating to the wall of a body part,
+organ or cavity
+".
+[
+118
+]
+The two terms are often used in describing a membrane or piece of connective tissue, referring to the opposing sides.
+[
+119
+]
+Respiratory system
+[
+edit
+]
+The
+respiratory system
+allows for
+gas exchange
+, particularly of
+carbon dioxide
+and
+oxygen
+, in human beings. In the process of
+breathing
+or ventilation, the
+muscles of respiration
+pump air into the lungs, bringing it into close contact with the blood via millions of microscopic air sacs known as
+alveoli
+.
+[
+120
+]
+The upper respiratory tract includes the
+nose
+,
+nasal cavities
+,
+sinuses
+,
+pharynx
+and the part of the
+larynx
+above the
+vocal folds
+; the lower tract includes the lower part of the
+larynx
+and the following aiways: the
+trachea
+,
+bronchi
+,
+bronchioles
+and
+alveoli
+. The lungs are surrounded by flattened closed sacs known as
+pleura
+.
+Contraction of the
+diaphragm
+(an upwardly domed sheet of muscle that separates the thoracic cavity from the abdominal cavity) and of the
+intercostal muscles
+(which lift up the ribs) increases the volume of the thoracic cavity.
+[
+121
+]
+Because of this increased volume, the lungs (which comprise elastic connective tissue) begin to inflate.
+[
+122
+]
+[
+123
+]
+[
+124
+]
+Air, usually, enters from the nose.
+[
+125
+]
+From the nose, air travels into the trachea (the largest of airways) into the two main bronchi,
+[
+126
+]
+which branch into progressively narrower secondary and tertiary bronchi, which in turn branch into numerous smaller tubes known as the bronchioles,
+[
+126
+]
+which in turn open into the alveoli.
+[
+127
+]
+The process of "respiration" is used to describe three distinct but related processes in the human body:
+cellular respiration
+,
+physiological respiration
+, and ventilation (or, breathing).
+[
+128
+]
+Gastrointestinal system
+[
+edit
+]
+The
+human digestive system
+, also known as the gastrointestinal system, comprises the
+gastrointestinal tract
+and the accessory organs of digestion: the
+tongue
+,
+salivary glands
+,
+pancreas
+,
+liver
+, and
+gallbladder
+.
+Digestion
+involves the breakdown of food into smaller and smaller components, until they can be absorbed and assimilated into the body. The process of digestion has three stages: the
+cephalic phase
+, the
+gastric phase
+, and the
+intestinal phase
+.
+Gallbladder
+: a hollow part of the
+biliary tract
+that sits just beneath the liver, with the gallbladder body resting in a small depression.
+[
+129
+]
+Commonly associated with
+gallstones
+, or cholelithiasis.
+[
+130
+]
+Reproductive system
+[
+edit
+]
+The
+reproductive system
+in humans is typically classified into the
+male
+and
+female reproductive systems
+.
+Urinary system
+[
+edit
+]
+The
+urinary system
+is the part of the
+excretory system
+that removes waste in the form of
+urine
+, comprising the
+kidneys
+,
+ureters
+,
+bladder
+, and the
+urethra
+. Other purposes of the urinary system include the regulation of blood volume and blood pressure; the control of
+electrolyte
+and
+metabolite
+levels; and the regulation of
+blood pH
+.
+[
+131
+]
+Each kidney consists of functional units called
+nephrons
+. Following
+filtration
+of blood and further processing, the
+ureters
+carry
+urine
+from the kidneys into the
+urinary bladder
+. During
+urination
+, the
+urethra
+carries urine out of the bladder through the
+penis
+or
+vulva
+. The female and male urinary system are very similar, differing only in the length of the urethra.
+[
+132
+]
+Histology
+[
+edit
+]
+See also:
+Anatomical terms of microanatomy
+Histology (also known as microanatomy or histoanatomy)
+[
+133
+]
+[
+134
+]
+[
+135
+]
+is the branch of medicine that studies the microscopic
+anatomy
+of biological
+tissues
+.
+[
+136
+]
+[
+137
+]
+[
+138
+]
+[
+139
+]
+Histology is the microscopic counterpart to
+gross anatomy
+, which looks at larger structures visible without a
+microscope
+.
+[
+139
+]
+[
+140
+]
+Histopathology
+is the branch of histology that includes the microscopic identification and study of diseased tissue.
+[
+141
+]
+[
+142
+]
+Tissue
+[
+edit
+]
+See also:
+Table of epithelia of human organs
+There are four basic types of tissue,
+[
+143
+]
+[
+144
+]
+of which all other tissues are considered to be subtypes.
+[
+144
+]
+Muscle tissue
+comprises
+cardiac
+,
+skeletal
+, and
+smooth muscle
+.
+[
+145
+]
+Smooth muscles control the flow of substances within the
+lumens
+of hollow
+organs
+, and are not consciously controlled. In the small intestine, smooth muscle contraction is characterised by
+peristalsis
+.
+Skeletal muscles are attached to bones and arranged in opposing groups around
+joints
+. Skeletal muscles and cardiac muscles have
+striations
+, unlike smooth muscle. Only skeletal and smooth muscles are part of the musculoskeletal system and can move the body.
+[
+145
+]
+Cardiac muscles are found in the
+heart
+and are used only to circulate
+blood
+; like the smooth muscles, these muscles are not under conscious control.
+Nervous tissue
+comprises
+neuroglia
+, which provide structural and metabolic support, and
+neurons
+, which send signals in the form of electrochemical impulses traveling along
+axons
+. Bundles of axons are known as
+nerve tracts
+and
+neural pathways
+. Impulses can be directly transmitted to neighbouring cells through
+electrical synapses
+or cause chemicals called
+neurotransmitters
+to be released at
+chemical synapses
+.
+The CNS includes
+astrocytes
+(-cyte, 'cell'; Greek
+κύτος
+(
+kútos
+), a hollow, vessel),
+[
+146
+]
+oligodendrocytes
+,
+[
+147
+]
+ependyma
+,
+[
+148
+]
+and
+radial glia
+;
+[
+149
+]
+the PNS includes
+Schwann cells
+,
+[
+150
+]
+satellite glia
+,
+[
+151
+]
+and
+enteric glia
+.
+[
+152
+]
+Astrocytes
+are star-shaped
+glial cells
+that have been observed to turn into neurons by virtue of their
+pluripotency
+.
+[
+153
+]
+Microglia
+are specialized
+macrophages
+capable of
+phagocytosis
+that protect neurons of the
+central nervous system
+.
+[
+154
+]
+Pituicytes
+from the
+posterior pituitary
+are glial cells with characteristics in common to astrocytes.
+[
+155
+]
+Tanycytes
+in the
+median eminence
+of the
+hypothalamus
+are a type of
+ependymal cell
+that descend from radial glia and line the base of the
+third ventricle
+.
+[
+156
+]
+Connective tissue
+is found in between other tissues and comprises connective tissue proper and special connective tissue.
+[
+157
+]
+Most types of connective tissue consists of three main components:
+elastic
+and
+collagen fibers
+,
+ground substance
+, and
+cells
+.
+[
+158
+]
+Connective
+tissue membranes
+include the
+synovial membrane
+, which lines the inner surface of
+capsules
+of
+synovial joints
+,
+tendon sheaths
+, and
+synovial bursas
+.
+[
+159
+]
+[
+160
+]
+Connective tissue proper includes
+loose
+(or areolar) and
+dense
+(
+regular
+and
+irregular
+) connective tissue.
+Adipose
+(Latin
+adeps
+,
+adip-
+, fat) and
+reticular connective tissue
+are regarded by older sources as forms of loose connective tissue alongside areolar tissue, while some newer sources have termed them as forms of special connective tissue.
+[
+161
+]
+Special connective tissue includes supportive connective tissue (bone and cartilage) and fluid connective tissue (blood and lymph).
+[
+162
+]
+[
+163
+]
+Epithelial tissue
+are protective tissue that form the
+glands
+and outermost layer of many organs, including the skin (
+epidermis
+), internal organs (
+mesothelium
+), blood and lymphatic vessels (
+endothelium
+), as well as specialised organs (e.g.
+olfactory
+,
+respiratory
+,
+intestinal
+,
+transitional
+,
+vaginal
+,
+germinal (female)
+, and
+germinal (male) epithelia
+).
+[
+164
+]
+Epithelia control the secretion of hormones into the
+circulatory system
+, as well as the secretion of sweat, mucus, enzymes, and other products that are delivered by
+ducts
+[
+165
+]
+:
+91
+Epithelial membranes include the
+serous membrane
+(which lines body cavities), cutaneous membrane (i.e. the
+skin
+), and
+mucous membrane
+(which lines the interior of hollow organs). Other functions of epithelial cells include
+diffusion
+, filtration,
+secretion
+, selective
+absorption
+, and
+transcellular transport
+.
+Fibres
+[
+edit
+]
+Fibres found in the
+extracellular matrix
+are
+collagen fibers
+,
+elastic fibers
+, and
+reticular fibers
+.
+[
+166
+]
+Collagen fibres are fixated in intercellular spaces via
+ground substance
+, a clear, colorless, and viscous fluid containing
+glycosaminoglycans
+and
+proteoglycans
+.
+[
+167
+]
+[
+168
+]
+Tissue
+Purpose
+Components
+Location
+Collagen fibers
+Bind bones and other tissues to each other
+Alpha polypeptide chains
+Tendon, ligament, skin, cornea, cartilage, bone, blood vessels, gut, intervertebral disc;
+loose
+and
+dense-irregular connective tissue
+[
+169
+]
+Elastic fibers
+Allow organs to recoil; provide resistance to stretch forces
+[
+169
+]
+Elastic
+microfibril
+,
+elastin
+,
+fibrillin
+Extracellular matrix
+, walls of large blood vessels, certain ligaments (e.g.
+ligamenta flava
+)
+[
+169
+]
+Reticular fibers
+Form a scaffolding for other cells; provides the
+stroma
+for the
+parenchyma
+of an organ
+[
+169
+]
+Type III collagen
+Liver, bone marrow, and lymphatic organs;
+hematopoietic
+and
+lymphatic
+tissue
+[
+169
+]
+Secretion
+[
+edit
+]
+Types of secretion include:
+Apocrine
+Merocrine
+Holocrine
+Endocrine
+Exocrine
+Paracrine
+Cellular
+[
+edit
+]
+See also:
+List of human cell types
+Nervous
+[
+edit
+]
+Diagram of a neuron
+The
+neuron
+is the primary cell of the nervous system, supported structurally and metabolically by the
+glia
+.
+[
+170
+]
+Neurons comprise the following specialised
+organelles
+:
+Soma
+, the body of the neuron. Containing the
+nucleus
+, most
+protein synthesis
+occurs here.
+Dendrites
+, cellular extensions with many branches. The branches form
+fractal patterns
+that repeat at multiple size scales.
+[
+171
+]
+The majority of input to the neuron occurs via the
+dendritic spine
+.
+Axon
+, a finer and longer cable-like projection. The axon primarily carries
+nerve signals
+away from the soma and carries some types of information back to it. Many neurons have only one axon, but this axon will usually undergo extensive branching, enabling communication with many target cells.
+Axon hillock
+, the part of the axon that emerges from the soma. The axon hillock also has the greatest density of
+voltage-dependent sodium channels
+and the most negative
+threshold potential
+, making it the most easily-excited part of the neuron and the
+spike initiation zone
+for the axon.
+Axon terminal
+, found at the end of the axon farthest from the soma. Contains
+synapses
+.
+Neurons communicate with other cells via
+synapses
+, specialised structures that connect neurons and facilitate the transmission of electrical and chemical signals.
+[
+172
+]
+[
+173
+]
+In
+electrical synapses
+, the presynaptic and postsynaptic cell membranes are connected by special channels called
+gap junctions
+that are capable of facilitating the direct flow of electrical current without the need for
+neurotransmitters
+, causing voltage changes in the presynaptic cell to induce voltage changes in the postsynaptic cell.
+[
+174
+]
+[
+175
+]
+[
+176
+]
+In
+chemical synapses
+, the activation of
+voltage-gated calcium channels
+in the presynaptic neuron results in the release of neurotransmitters into the synaptic cleft, which thereafter bind to
+receptors
+located in the plasma membrane of the postsynaptic cell.
+The neurotransmitter may initiate an electrical response or a secondary messenger pathway that may either excite or inhibit the postsynaptic neuron. Chemical synapses can be classified according to the neurotransmitter released:
+glutamatergic
+(often excitatory),
+GABAergic
+(often inhibitory),
+cholinergic
+(e.g. vertebrate
+neuromuscular junction
+), and
+adrenergic
+(releasing
+norepinephrine
+). Depending on their release location, the receptors they bind to, and the ionic circumstances they encounter, various transmitters can be either excitatory or inhibitory. For instance,
+acetylcholine
+can either excite or inhibit depending on the type of receptors it binds to.
+[
+177
+]
+In
+excitatory synapses
+, an influx of Na+ driven by excitatory neurotransmitters opens cation channels, enhancing the probability of
+depolarization
+in postsynaptic neurons and the initiation of an action potential.
+In
+inhibitory synapses
+, the opening of either Cl- or K+ channels diminish the probability of depolarization in postsynaptic neurons and the initiation of an action potential.
+Astrocytes
+also exchange information with the synaptic neurons, responding to synaptic activity and, in turn, regulating
+neurotransmission
+.
+[
+172
+]
+Connective tissue proper
+[
+edit
+]
+Types of connective tissue cells include:
+Fibrocyte
+Mesenchyme
+Adipocyte
+Fibroblast
+(Greek
+βλαστός
+(
+blastós
+), germinate or bud)
+Epithelial
+[
+edit
+]
+Summary showing different epithelial cells/tissues and their characteristics.
+The basal surface of epithelial tissue rests on a
+basement membrane
+and the free, apical, or apex surface faces body fluid or the outside. The basement membrane acts as a scaffolding on which epithelium can grow and regenerate after injuries, and comprises the
+basal lamina
+and
+reticular lamina
+; although, some older sources use basement membrane and basal lamina synonymously.
+[
+178
+]
+The basement membrane acts as a selectively permeable membrane that determines which substances will be able to enter the epithelium, as epithelial tissue has a nerve supply though no blood supply.
+[
+179
+]
+:
+3
+There are three principal shapes of epithelial cell: squamous (scaly), columnar, and cuboidal.
+[
+180
+]
+Transitional epithelium
+has cells that can change from squamous to cuboidal, depending on the amount of tension on the epithelium.
+[
+181
+]
+Epithelial tissue can be further categorised as having a singular layer of cells as simple epithelium; or as layers of two or more cells deep as stratified epithelium—
+stratified squamous epithelium
+,
+stratified cuboidal epithelium
+, and
+stratified columnar epithelium
+.
+[
+182
+]
+:
+94,
+97
+[
+183
+]
+When taller simple columnar epithelial cells are viewed in cross section showing several nuclei appearing at different heights, they can be confused with stratified epithelia, and are thus termed as
+pseudostratified columnar epithelium
+.
+[
+184
+]
+Epithelial cells are often
+ciliated
+.
+[
+185
+]
+Stratified epithelia be further divided into keratinised,
+parakeratinised
+, and
+transitional epithelia
+or urothelia.
+[
+186
+]
+[
+187
+]
+Cell junctions
+, protein complexes that provide contact between cells and neighbouring cells or the
+extracellular matrix
+, are especially abundant in epithelial tissues. They build up the paracellular barrier of epithelia and control the
+paracellular transport
+.
+[
+188
+]
+There are five main types of cell junctions:
+tight junctions
+,
+adherens junctions
+,
+desmosomes
+,
+hemidesmosomes
+, and
+gap junctions
+.
+Molecular
+[
+edit
+]
+Genetics
+[
+edit
+]
+Major processes in
+genetics
+include:
+Translation (biology)
+Transcription (biology)
+Signalling
+[
+edit
+]
+Molecules involved in
+cell signalling
+include:
+Glycoprotein
+Steroid
+Prostaglandin
+Internal medicine
+[
+edit
+]
+Immunology
+[
+edit
+]
+Immunology
+is the branch of medicine that deals with the
+immune system
+, a network of
+biological systems
+that protects humans from
+diseases
+. The immune system detects and responds to
+pathogens
+, such as
+viruses
+,
+bacteria
+, and
+parasites
+, as well as
+cancer cells
+and
+foreign bodies
+. Humans have two major immune subsystems: The
+innate immune system
+, which provides a preconfigured response (e.g.
+defensins
+,
+complement system
+) to broad groups of situations and stimuli; and the
+adaptive immune system
+, which provides a tailored response to each stimulus by developing an
+immunological memory
+of molecules previously encountered.
+[
+189
+]
+[
+190
+]
+Mechanisms common to both subsystems, include
+phagocytosis
+,
+humoural immunity
+,
+cell-mediated immunity
+.
+Innate immunity
+[
+edit
+]
+Cells in the innate immune system use
+pattern recognition receptors
+to recognize molecular structures produced by pathogens,
+[
+191
+]
+[
+192
+]
+[
+193
+]
+identifying two classes of molecules:
+pathogen-associated molecular patterns
+(PAMPs), which are associated with microbial
+pathogens
+, and
+damage-associated molecular patterns
+(DAMPs), which are associated with components of hosts' cells that are released during
+cell damage
+or
+cell death
+.
+[
+194
+]
+A
+scanning electron microscope
+image of normal circulating human
+blood
+. One can see
+red blood cells
+, several knobby
+white blood cells
+, including
+lymphocytes
+, a
+monocyte
+, and a
+neutrophil
+, and many small disc-shaped
+platelets
+.
+Leukocytes
+(commonly known as white blood cells) act like independent, single-celled organisms and are the second arm of the innate immune system. The innate leukocytes include:
+The
+professional phagocytes
+, which generally patrol the body searching for pathogens, but can be called to specific locations by
+cytokines
+.
+[
+195
+]
+Once a pathogen has been engulfed by a phagocyte, it becomes trapped in an intracellular
+vesicle
+called a
+phagosome
+, which subsequently fuses with a
+lysosome
+vesicle to form a
+phagolysosome
+. The pathogen is then killed by the activity of digestive enzymes or following a
+respiratory burst
+that releases
+free radicals
+into the phagolysosome.
+[
+196
+]
+[
+197
+]
+Macrophages
+and
+neutrophils
+, which travel around the body in pursuit of invading pathogens.
+[
+198
+]
+Macrophages are cells that reside within tissues and produce an array of chemicals including enzymes,
+complement proteins
+, and cytokines. They also rid the body of worn-out cells and other debris and act as
+antigen-presenting cells
+that activate the adaptive immune system.
+[
+199
+]
+Neutrophils are normally found in the
+bloodstream
+and are the most abundant type of phagocyte, representing 50% to 60% of total circulating leukocytes.
+[
+200
+]
+During the acute phase of
+inflammation
+, neutrophils migrate toward the site of inflammation in a process called
+chemotaxis
+and are usually the first cells to arrive at the scene of infection.
+Dendritic cells
+are phagocytes in tissues that are in contact with the external environment, located mainly in the skin, nose, lungs, stomach, and intestines.
+[
+201
+]
+Dendritic cells are a link between bodily tissues and the innate and adaptive immune systems, as they
+present antigens
+to
+T cells
+.
+[
+201
+]
+Granulocytes
+(i.e. leukocytes with
+specific granules
+), which include the neutrophils,
+innate lymphoid cells
+,
+mast cells
+,
+eosinophils
+, and
+basophils
+.
+[
+202
+]
+Innate lymphoid cells (ILCs) derived from
+common lymphoid progenitor
+and belong to the
+lymphoid lineage
+.
+[
+203
+]
+Mast cells reside in
+connective tissues
+and
+mucous membranes
+and regulate the inflammatory response.
+[
+204
+]
+They are most often associated with
+allergy
+and
+anaphylaxis
+.
+[
+200
+]
+Basophils and eosinophils are related to neutrophils. They secrete chemical mediators that are involved in defending against
+parasites
+and play a role in allergic reactions, such as
+asthma
+.
+[
+205
+]
+Natural killer cells
+(NK cells) do not directly attack invading microbes but destroy compromised host cells, such as tumor cells or virus-infected cells.
+[
+206
+]
+[
+202
+]
+NK cells recognise such cells by a condition known as "missing self", which involves low levels of a cell-surface marker called MHC I (
+major histocompatibility complex
+)—a situation that can arise in viral infection.
+[
+207
+]
+Normal body cells are not recognized and attacked by NK cells because they express intact self MHC antigens, which inhibit NK cell activity.
+[
+208
+]
+Monocytes
+, upon moving to injured tissue, turn into
+dendritic cells
+and
+macrophages
+while promoting tissue healing.
+[
+209
+]
+[
+210
+]
+[
+211
+]
+The major humoral component of the innate immune response is the complement system, a
+biochemical cascade
+that attacks the surfaces of foreign cells.
+[
+212
+]
+[
+213
+]
+This response is activated by the binding of complement proteins to
+carbohydrates
+on the surfaces of
+microbes
+, or to antibodies that have attached to these microbes, which creates a
+cell signal
+that triggers a rapid killing response,
+[
+214
+]
+whose speed is significantly amplified after sequential
+proteolytic
+activation of complement
+protease
+molecules, controlled by
+positive feedback
+.
+[
+215
+]
+The cascade results in the production of peptides that attract immune cells; increase
+vascular permeability
+; and
+opsonize
+the surface of a pathogen, marking it for destruction. Complement binding can also kill cells directly by disrupting their
+plasma membrane
+via a
+membrane attack complex
+.
+[
+212
+]
+Overview of the processes involved in the primary immune response
+Inflammation
+[
+edit
+]
+Inflammation
+is one of the first responses of the immune system to infection.
+[
+216
+]
+It is produced by
+eicosanoids
+and
+cytokines
+, which are released by injured or infected cells. In response to cytosolic PAMPs and DAMPs, pattern-recognition receptors called
+inflammasomes
+form in order to generate active forms of the inflammatory cytokines IL-1β and IL-18.
+[
+217
+]
+Eicosanoids include
+prostaglandins
+that produce
+fever
+and the
+dilation
+of
+blood vessels
+associated with inflammation and
+leukotrienes
+that attract certain
+white blood cells
+(leukocytes).
+[
+218
+]
+[
+219
+]
+Common cytokines include
+interleukins
+that are responsible for communication between white blood cells;
+chemokines
+that promote
+chemotaxis
+; and
+interferons
+that have
+antiviral
+effects, such as shutting down
+protein synthesis
+in the host cell.
+[
+220
+]
+Growth factors
+and cytotoxic factors may also be released. These chemicals recruit immune cells to the site of infection and promote the healing of any damaged tissue following the removal of pathogens.
+[
+221
+]
+Adaptive immune system
+[
+edit
+]
+The adaptive immune system allows for a stronger immune response as well as
+immunological memory
+, where each pathogen is "remembered" by a signature
+antigen
+.
+[
+222
+]
+The adaptive immune response is antigen-specific, allowing for the generation of tailored immune responses, and requiring the recognition of specific "non-self" antigens during a process called
+antigen presentation
+. The ability to mount these tailored responses is maintained in the body by
+memory T-cells
+and
+memory B-cells
+, which may be employed rapidly should a pathogen infect the body more than once.
+[
+223
+]
+B cells
+and
+T cells
+are the major types of lymphocytes, which form the cells of the adaptive immune system.
+[
+224
+]
+[
+225
+]
+B cells are involved in the
+humoral immune response
+, while T cells are involved in
+cell-mediated immune response
+. When B or T cells encounter their related antigens they multiply, and many "clones" of the cells are produced that target the same antigen. This is called
+clonal selection
+.
+[
+226
+]
+Some of the offspring of these B and T cells become long-lived memory cells, which remember each specific pathogen encountered and can mount a strong response if the pathogen is detected again. T-cells recognize pathogens by antigens that bind directly to T-cell surface receptors.
+[
+227
+]
+B-cells use the protein, immunoglobulin, to recognise pathogens by their antigens.
+[
+228
+]
+Activation of macrophage or B cell by T helper cell
+Killer T cells
+kill cells that are infected with pathogens or otherwise damaged or dysfunctional,
+[
+229
+]
+which contain a complex of a specific antigen coupled to a
+Class I MHC
+receptor. When the receptor of a cytotoxic or "killer" T-cell contacts such cells, it releases
+cytotoxins
+, such as
+perforin
+, which form pores in the target cell's
+plasma membrane
+, allowing
+ions
+, water and toxins to enter. The entry of another toxin called
+granulysin
+induces the target cell to undergo
+apoptosis
+.
+[
+230
+]
+Helper T cells
+and
+regulatory T cells
+only recognize antigens coupled to
+Class II MHC
+molecules.
+Helper T cells
+regulate both the innate and adaptive immune responses and help determine which immune responses the body makes to a particular pathogen.
+[
+231
+]
+[
+232
+]
+These cells have no cytotoxic activity and do not kill infected cells or clear pathogens directly. They instead control the immune response by directing other cells to perform these tasks.
+[
+233
+]
+A third, minor subtype are the
+γδ T cells
+, which recognise intact antigens that are not bound to MHC receptors.
+[
+234
+]
+[
+235
+]
+A
+B cell
+identifies pathogens when antibodies on its surface bind to a specific foreign antigen.
+[
+236
+]
+This antigen/antibody complex is taken up by the B cell and processed by
+proteolysis
+into
+peptides
+. The B cell then displays these antigenic peptides on its surface MHC class II molecules, which attracts a matching helper T cell that releases
+lymphokines
+and activates the B cell.
+[
+237
+]
+As the activated B cell then begins to
+divide
+, its offspring (
+plasma cells
+)
+secrete
+millions of copies of the antibody that recognizes this antigen. These antibodies circulate in
+blood plasma
+and
+lymph
+, bind to pathogens expressing the antigen and mark them for destruction by
+complement activation
+or for uptake and destruction by
+phagocytes
+. Antibodies can also neutralize challenges directly, by binding to bacterial toxins or by interfering with the receptors that viruses and bacteria use to infect cells.
+[
+238
+]
+Lymphatic system
+[
+edit
+]
+Lymph capillaries in the tissue spaces
+Lymph contains cellular debris, bacteria, proteins, and
+lymphocytes
+, the latter of which are generated largely in the
+bone marrow
+and matured or activated in the
+lymph nodes
+,
+spleen
+,
+thymus
+, and
+tonsils
+. Lymph also transports
+antigen-presenting cells
+, such as
+dendritic cells
+, to the lymph nodes where an immune response is stimulated.
+[
+239
+]
+[
+240
+]
+[
+241
+]
+[
+242
+]
+[
+243
+]
+[
+244
+]
+B cells
+and
+T cells
+are the major types of lymphocytes and are derived from
+hematopoietic stem cells
+in the bone marrow.
+[
+224
+]
+From the bone marrow, B cells immediately join the circulatory system and travel to secondary lymphoid organs in search of pathogens. T cells, on the other hand, travel from the bone marrow to the thymus, where they develop further, mature, and become
+immunocompetent
+. In the thymus, T cells are exposed to a wide variety of
+self-antigens
+;
+[
+245
+]
+T cells can only recognize a "non-self" target only after antigens have been processed and presented in combination with the major histocompatibility complex (MHC) self-receptor.
+[
+246
+]
+In contrast, the B cell antigen-specific receptor is an antibody molecule on the B cell surface, recognising unprocessed antigens (e.g. large molecules found on the surfaces of pathogens; small
+haptens
+, such as
+penicillin
+, attached to
+carrier molecules
+) without any need for
+antigen processing
+.
+[
+247
+]
+Each lineage of B cell expresses a different antibody, so the complete set of
+B cell antigen receptors
+represents all the antibodies that the human body can manufacture.
+[
+224
+]
+The secondary (or peripheral) lymphoid organs (e.g. lymph nodes and the
+spleen
+) maintain mature
+naive T cells
+and
+naive B cells
+; initiate the
+adaptive immune response
+;
+[
+248
+]
+and are the sites of lymphocyte activation by
+antigens
+,
+[
+249
+]
+which leads to
+clonal selection
+and
+affinity maturation
+.
+[
+209
+]
+[
+250
+]
+Immunotherapy
+[
+edit
+]
+Dysfunction of the immune system can cause
+autoimmune diseases
+,
+inflammatory diseases
+and
+cancer
+.
+Immunodeficiency
+occurs when the immune system is less active than normal, resulting in recurring and life-threatening infections, and can be the result of a
+genetic disease
+such as
+severe combined immunodeficiency
+, acquired conditions such as
+HIV
+/
+AIDS
+, or the use of
+immunosuppressive medication
+.
+Autoimmunity
+describes a hyperactive immune system attacking normal tissues as if they were foreign organisms; diseases include
+Hashimoto's thyroiditis
+,
+rheumatoid arthritis
+,
+diabetes mellitus type 1
+, and
+systemic lupus erythematosus
+.
+Immunomodulation
+Endocrinology
+[
+edit
+]
+Hormones
+include:
+Calcitonin
+Oncology
+[
+edit
+]
+List of cancer types
+:
+Carcinoma
+: Cancers derived from
+epithelial
+cells. This group includes many of the most common cancers that occur in older adults. Nearly all cancers developing in the
+breast
+,
+prostate
+,
+lung
+,
+pancreas
+, and
+colon
+are carcinomas.
+Sarcoma
+: Cancers arising from
+connective tissue
+(i.e.
+bone
+,
+cartilage
+,
+fat
+,
+nerve
+), each of which develop from cells originating in
+mesenchymal
+cells outside of the bone marrow.
+Lymphoma
+and
+leukemia
+: These two classes of cancer arise from immature cells that originate in the bone marrow, and are intended to fully differentiate and mature into normal components of the
+immune system
+and the
+blood
+, respectively. Acute lymphoblastic leukemia is the most common type of
+cancer in children
+, accounting for ~30% of cases.
+[
+251
+]
+However, far more adults than children develop lymphoma and leukemia.
+Germ cell tumor
+: Cancers derived from
+pluripotent
+cells, most often presenting in the
+testicle
+or the
+ovary
+(
+seminoma
+and
+dysgerminoma
+, respectively).
+Blastoma
+: Cancers derived from immature "precursor" cells or embryonic tissue. Blastomas are
+generally
+more common in children (e.g.
+neuroblastoma
+,
+retinoblastoma
+,
+nephroblastoma
+,
+hepatoblastoma
+,
+medulloblastoma
+, etc.) than in older adults.
+Types of benign tumours
+Cell origin
+Cell type
+Tumor
+Endodermal
+Biliary tree
+Cholangioma
+Colon
+Colonic polyp
+Glandular
+Adenoma
+Papilloma
+Cystadenoma
+Liver
+Liver cell adenoma
+Placental
+Hydatiform mole
+Renal
+Renal tubular adenoma
+Squamous
+Squamous cell papilloma
+Stomach
+Gastric polyp
+Mesenchymal
+Blood vessel
+Hemangioma
+,
+Cardiac myxoma
+Bone
+Osteoma
+Cartilage
+Chondroma
+Fat tissue
+Lipoma
+Fibrous tissue
+Fibroma
+Lymphatic vessel
+Lymphangioma
+Smooth muscle
+Leiomyoma
+Striated muscle
+Rhabdomyoma
+Ectodermal
+Glia
+Astrocytoma
+,
+Schwannoma
+Melanocytes
+Nevus
+Meninges
+Meningioma
+Nerve cells
+Ganglioneuroma
+Reference
+[
+252
+]
+By organ system and medical specialty
+[
+edit
+]
+Ophthalmology
+[
+edit
+]
+Ophthalmology
+is the branch of medicine specialising in the eyes.
+Neurology and psychiatry
+[
+edit
+]
+Neurology
+is the branch of medicine dedicated to the
+nervous system
+Neuroanatomy
+[
+edit
+]
+See also:
+Outline of the human brain
+Neuroanatomy
+is the study of the anatomy of the
+brain
+and rest of the
+nervous system
+and uses a number of specialised
+anatomical terms of neuroanatomy
+:
+[
+35
+]
+A
+gyrus
+is an outward folding of the brain, for example the
+precentral gyrus
+.
+A
+sulcus
+is an inward fold, or valley in the brain's surface, for example the
+central sulcus
+and
+lateral sulcus
+.
+Structural and functional areas of the human brain
+Human brain bisected in the
+sagittal plane
+, showing the white matter of the corpus callosum
+Functional areas of the human brain. Dashed areas shown are commonly left hemisphere dominant.
+The human brain contains
+multiple regions
+, as does the
+spinal cord
+. There are multiple ways to divide the brain, including by the
+embryological development of the brain
+; into three parts: the cerebellum, brainstem, and cerebrum; the
+evolution of the brain
+; and
+cytoarchitecture
+, as in the case of
+Brodmann areas
+. A popular model of the '
+triune brain
+' — comprising the reptilian complex (
+basal ganglia
+), the paleomammalian complex (
+limbic system
+), and the neomammalian complex (
+neocortex
+) — was formerly popular during the 1960s, though is now regarded as a myth.
+[
+253
+]
+[
+254
+]
+[
+255
+]
+[
+256
+]
+'Limbic system' and associated terms, however, remain in neuroanatomical use, although some neuroscientists have argued against such use.
+[
+257
+]
+Early embryological brain
+Later embryological brain
+Structures
+Sub-structures
+Brodmann area
+By parts
+Hindbrain
+, or rhombencephalon
+Metencephalon
+Cerebellum
+Tentorium
+Vermis
+Peduncles
+Nuclei
+Lobes
+Flocculonodular lobe
+Anterior lobe
+Posterior lobe
+Cerebellum
+Fourth ventricle
+(Part of cerebrum)
+Pons
+Brainstem
+Pons
+Myelencephalon
+Medulla oblongata
+Medulla oblongata
+Midbrain
+, or mesencephalon
+Cerebral peduncle
+Cerebral peduncle
+Cerebral aqueduct
+Cerebral aqueduct
+Tectum
+Superior colliculus
+Superior colliculus
+Inferior colliculus
+Inferior colliculus
+Tegmentum
+Tegmentum
+Forebrain
+, or prosencephalon
+Cerebrum
+, or telencephalon
+White matter
+White matter
+Cerebrum
+White matter
+Subcortical cerebrum
+Basal ganglia
+Basal ganglia
+Amygdala
+Amygdala
+Hippocampus
+Hippocampus
+Basal forebrain
+Basal forebrain
+Claustrum
+Claustrum
+Paleocortical cerebrum
+Rhinencephalon
+Piriform cortex
+Rhinencephalon
+Neocortical
+cerebrum
+Cerebral cortex
+Frontal lobe
+Prefrontal cortex
+4 (
+primary motor cortex
+)
+6 (
+premotor cortex
+,
+supplementary motor area
+)
+8, 9, 10, and 46 (
+dorsolateral prefrontal cortex
+)
+11 and 12 (
+orbitofrontal cortex
+)
+24, 32, and 33 (
+anterior cingulate cortex
+)
+25 (
+ventromedial prefrontal cortex
+)
+44 and 45 (
+Broca's area
+)
+47 (
+pars orbitalis
+)
+Frontal lobe
+Parietal lobe
+Postcentral gyrus
+3, 1, and 2 (
+primary somatosensory cortex
+)
+5 and 7 (
+superior parietal lobule
+)
+23 and 31 (
+posterior cingulate cortex
+)
+26
+29 and 30 (
+retrosplenial cortex
+)
+39 (
+angular gyrus
+)
+40 (
+supramarginal gyrus
+)
+Parietal lobe
+Occipital lobe
+17, 18, and 19 (
+visual cortex
+)
+37 (
+fusiform gyrus
+)
+Occipital lobe
+Temporal lobe
+Parahippocampal gyrus
+Wernicke's area
+15
+20 (
+inferior temporal gyrus
+)
+21 (
+middle temporal gyrus
+)
+22 (
+superior temporal gyrus
+)
+27 (
+presubiculum
+)
+28 and 34 (
+entorhinal cortex
+)
+35 and 36 (
+perirhinal cortex
+)
+38
+41 and 42 (
+auditory cortex
+)
+48
+52
+Temporal lobe
+Insular cortex
+13, 14 and 16 (
+insular cortex
+)
+43 (
+gustatory cortex
+)
+Insular cortex
+Diencephalon
+Thalamus
+Thalamus
+Epithalamus
+Pineal gland
+Epithalamus
+Hypothalamus
+Hypothalamus
+Subthalamus
+Subthalamus
+Pituitary gland
+Pituitary gland
+Third ventricle
+Ventricular system
+Cerebral fissure
+Commissural fiber
+Corpus callosum
+Sectional organization of spinal cord
+Various other neuroanatomical systems have been developed according to functions, connections, and systems of the brain.
+Neuroendocrine axes
+Hypothalamic–pituitary–adrenal axis
+Hypothalamic–neurohypophyseal system
+Hypothalamic–pituitary–gonadal axis
+Hypothalamic–pituitary–thyroid axis
+Limbic system
+, corresponding to
+Cortical areas:
+Limbic lobe
+Orbitofrontal cortex
+Piriform cortex
+part of the
+olfactory system
+Entorhinal cortex
+Hippocampus
+and associated structures
+Fornix
+and
+septal nuclei
+Subcortical areas:
+Septal nuclei
+Amygdala
+Nucleus accumbens
+Diencephalic
+structures:
+Hypothalamus
+Mammillary bodies
+Anterior nuclei of thalamus
+Neuropathology
+[
+edit
+]
+In the peripheral nervous system, the most common problem is the failure of
+nerve conduction
+, which can be due to different causes including
+diabetic neuropathy
+and
+demyelinating disorders
+such as
+multiple sclerosis
+and
+amyotrophic lateral sclerosis
+.
+Psychopathology
+[
+edit
+]
+List of mental disorders
+Pathology
+[
+edit
+]
+Lists of diseases
+Pathology
+List of abbreviations for diseases and disorders
+-plasia and -trophy
+[
+edit
+]
+The suffix -plasia refers to the formation and development of cells, tissue, and organs, coming from Greek
+πλᾰ́σῐς
+(
+plásis
+), moulding, conformation.
+Achondroplasia
+(dwarfism)
+Anaplasia
+(structural differentiation loss within a cell or group of cells)
+Aplasia
+(organ or part of organ missing)
+Desmoplasia
+(connective tissue growth)
+Dysplasia
+(change in cell or tissue
+phenotype
+)
+Hyperplasia
+(proliferation of cells)
+Hypoplasia
+(congenital below-average number of cells, especially when inadequate)
+Metaplasia
+(conversion in cell type)
+Neoplasia
+(abnormal proliferation)
+Prosoplasia
+(development of new cell function)
+The suffix trophy refers to the nourishment and development of cells, tissue, and organs, coming from Greek
+τροφή
+(
+trophḗ
+), food, nourishment.
+Abiotrophy
+(loss in vitality of organ or tissue)
+Atrophy
+(reduced functionality of an organ, with decrease in the number or volume of cells)
+Hypertrophy
+(increase in the volume of cells or tissues)
+Hypotrophy
+(decrease in the volume of cells or tissues)
+Dystrophy
+(any degenerative disorder resulting from improper or faulty nutrition)
+Pseudohypertrophy
+(false enlargement of muscle)
+Other pathology suffixes
+[
+edit
+]
+Affix
+Meaning
+Origin language and etymology
+Example(s)
+-aemia
+,
+ema
+,
+hemat
+,
+-emia
+blood
+condition
+Greek
+ἀναιμία
+(
+anaimía
+), without blood
+anaemia
+-asthenia
+weakness
+Greek
+ἀσθένεια
+(
+asthéneia
+), sick, weak
+myasthenia gravis
+ather-
+fatty deposit, soft gruel-like deposit
+ἀθάρη
+(
+athárē
+)
+atherosclerosis
+brady-
+slow
+Greek
+βραδύς
+(
+bradús
+), slow
+bradycardia
+-cele
+pouching,
+hernia
+Greek
+κήλη
+(
+kḗlē
+)
+hydrocele
+,
+varicocele
+-dipsia
+thirst
+Greek
+δίψα
+(
+dípsa
+)
+dipsomania
+,
+polydipsia
+-dynia
+pain
+Greek
+ὀδύνη
+(
+odúnē
+)
+vulvodynia
+dys-
+bad, difficult, defective, abnormal
+Greek
+δυσ-
+(
+dus-
+)
+dysentery
+,
+dysphagia
+,
+dysphasia
+-ectasia
+,
+-ectasis
+expansion,
+dilation
+Greek
+ἔκτασις
+(
+éktasis
+)
+bronchiectasis
+,
+telangiectasia
+-ectomy
+denotes a surgical operation or removal of a body part; resection, excision
+Greek
+ἐκτομή
+(
+ektomḗ
+), excision
+mastectomy
+-edema
+swelling
+Greek
+οἴδημα
+(
+oídēma
+), swelling
+lymphedema
+,
+lipedema
+-emesis
+vomiting
+condition
+Greek
+ἕμεσις
+(
+hémesis
+)
+hematemesis
+-geusia
+taste
+Greek
+γεῦσις
+(
+geûsis
+)
+ageusia
+,
+dysgeusia
+,
+hypergeusia
+,
+hypogeusia
+,
+parageusia
+-iasis
+condition, formation, or presence of
+Latin
+-iasis
+, pathological condition or process; from Greek
+ἴασις
+(
+íasis
+), cure, repair, mend
+mydriasis
+-itis
+inflammation
+Greek
+-ῖτις
+(
+-îtis
+) fem. form of
+-ίτης
+(
+-ítēs
+), pertaining to, because it was used with the feminine noun
+νόσος
+(
+nósos
+, disease), thus
+-îtis nósos
+, disease of the, disease pertaining to
+tonsillitis
+isch-
+restriction
+Greek
+ἴσχω
+(
+ískhō
+), hold back, restrain
+ischemia
+-ismus
+spasm
+, contraction
+Greek
+-ισμός
+hemiballismus
+kal-
+potassium
+New Latin
+kalium
+, potassium
+hyperkalemia
+-malacia
+softening
+Greek
+μαλακία
+(
+malakía
+), soft, weak, self-indulgent
+osteomalacia
+meg(a)-
+,
+megal(o)-
+,
+-megaly
+enlargement, million
+Greek
+μέγᾰς
+(
+mégas
+), big, large, great, mighty
+splenomegaly
+meno-
+month,
+menstrual cycle
+Greek
+μήν
+(
+mḗn
+), month
+menopause
+,
+menorrhagia
+thromb(o)-
+blood clot, clotting of blood
+Greek
+θρόμβος
+(
+thrómbos
+), lump, piece, clot of blood
+thrombus
+,
+thrombocytopenia
+-oma
+(singular),
+-omata
+(plural)
+tumor
+, mass, fluid collection
+Greek
+-μα
+(
+-ma
+), suffix added to verbs to form nouns indicating the result of a process or action; cf. English
+-tion
+sarcoma
+,
+teratoma
+,
+mesothelioma
+-osis
+a condition,
+disease
+, process or increase
+Greek
+-ωσις
+(
+-ōsis
+), state, abnormal condition, action
+Harlequin type ichthyosis
+,
+psychosis
+,
+osteoporosis
+,
+phagocytosis
+ossi-
+bone
+, bony
+Latin
+os
+, bone
+peripheral ossifying fibroma
+,
+fibrodysplasia ossificans progressiva
+papul(o)-
+small elevation or swelling in the skin, a pimple, swelling
+Latin
+papula
+, pimple, pustle; a small elevation or swelling in the skin
+papulation
+,
+papillitis
+-paresis
+slight
+paralysis
+Greek
+πάρεσις
+(
+páresis
+)
+hemiparesis
+-penia
+deficiency
+Greek
+πενῐ́ᾱ
+, poverty, indigence
+osteopenia
+-pepsia
+digestion or the digestive tract.
+Greek
+πεπτός
+(
+peptós
+), cooked, digested <
+πέσσω
+(
+péssō
+), I boil, cook; digest
+dyspepsia
+-ptosis
+falling, drooping, downward placement, prolapse
+Greek
+πτῶσῐς
+(
+ptôsis
+), falling
+apoptosis
+,
+nephroptosis
+py-
+pus
+Greek
+πύον
+(
+púon
+), pus
+pyometra
+-phagia
+, -phage
+eating or ingestion
+Greek
+φαγία
+(
+phagía
+) eating <
+φᾰγεῖν
+(
+phageîn
+), to eat
+trichophagia
+-rrhage
+,
+-rrhagia
+burst forth, rapid flow (of blood, usually)
+Greek
+-ραγία
+(
+-ragía
+), to break, to burst
+hemorrhage
+,
+menorrhagia
+-rrhea
+(
+AmE
+),
+-rrhoea
+(
+BrE
+)
+flowing, discharge
+Greek
+ῥοίᾱ
+(
+rhoíā
+), flow, flux
+galactorrhea
+,
+diarrhea
+-rrhexis
+rupture
+Greek
+ῥῆξῐς
+(
+rhêxis
+), breaking, bursting, discharge
+karyorrhexis
+sarco-
+muscular, flesh-like
+Greek
+σάρξ
+(
+sárx
+), flesh
+sarcoma
+,
+sarcoidosis
+scler(o)-
+,
+-sclerosis
+hard
+Greek
+σκληρός
+(
+sklērós
+)
+scleroderma
+,
+atherosclerosis
+,
+multiple sclerosis
+tachy-
+fast, irregularly fast
+Greek
+τᾰχῠ́ς
+(
+takhús
+), fast, quickly
+tachycardia
+,
+tachypnea
+-stenosis
+abnormal narrowing of a blood vessel or other tubular organ or structure
+Greek
+στενός
+(
+stenós
+), narrow, short; +
+-σῐς
+(
+-sis
+), added to verb stems to form abstract nouns or nouns of action, result or process
+restenosis
+,
+stenosis
+stom-
+,
+stomat-
+,
+-stomy
+mouth; an artificially created opening
+[
+258
+]
+Greek
+στόμᾰ
+,
+στοματ-
+(
+stóma, stomat-
+), mouth; New Latin
+stoma
+, opening
+stomatognathic system
+,
+colostomy
+-tomy
+, -otomy
+act of cutting; incising, incision
+Greek
+τομία
+(
+-tomía
+)
+gastrotomy
+,
+phlebotomy
+-tony
+tension
+Greek
+-τονία
+(
+-tonía
+)
+Hypotonia
+Pharmacology
+[
+edit
+]
+Anticholinergic
+Alpha blocker
+Beta blocker
+Clinical
+[
+edit
+]
+Abbreviations
+[
+edit
+]
+See also:
+List of abbreviations used in medical prescriptions
+The publication of
+medical abbreviations
+for use in the
+journals published by the American Medical Association
+is dictated by the
+AMA Manual of Style
+is the
+style guide
+of the
+American Medical Association
+.
+[
+259
+]
+[
+260
+]
+Periods are generally not used.
+[
+261
+]
+Plurals for medical acronyms are represented by affixes a lowercase
+s
+with no
+apostrophe
+.
+[
+262
+]
+Arrows may also be used to indicate elevation (↑), diminution (↓), and causation (→, ←).
+[
+263
+]
+Examples
+Abb
+Full name
+ad lib
+as desired
+(from
+Latin
+ad libitum
+)
+bd, bid
+2
+times
+a
+day
+GU
+genitourinary
+OD
+once daily (from
+Latin
+omne in die
+)
+[
+264
+]
+right
+eye
+(from
+Latin
+oculus dexter
+)
+overdose
+occupational disease
+s̅
+without (from
+Latin
+sine
+)
+Medical slang
+[
+edit
+]
+Medical slang
+such as, "TTFO", meaning "told to
+fuck off
+", may be used on a patient's chart in an informal and derogatory manner.
+[
+265
+]
+Diagnosis
+[
+edit
+]
+Medical diagnosis
+Differential diagnosis
+Symptomatology
+[
+edit
+]
+Signs and symptoms
+Transgender anatomy
+[
+edit
+]
+Main article:
+Terminology of transgender anatomy
+Although some medical authorities recommend mirroring the terminology transgender people use to describe their own genitals, such usage may feel uncomfortable and intimate to some transgender people, who prefer to use different terms in medical contexts than they would in personal settings. At the same time, patients may also be uncomfortable with anatomical terms they perceive as gendered.
+[
+266
+]
+Specialists recommend being open to using sex-neutral terms for organs, such as
+external genitals
+or
+lateral folds
+for the labia,
+internal reproductive organs
+for the uterus and ovaries, and
+chest
+for the breasts.
+[
+267
+]
+Style guides such as the
+Publication Manual of the American Psychological Association
+and
+AMA Manual of Style
+recommend using
+gender-neutral language
+and
+distinguishing between gender and biological sex
+, but do not give guidance on specific anatomical terminology.
+[
+268
+]
+Mnemonics
+[
+edit
+]
+Surveys of medical students show that approximately 20% use
+medical mnemonics
+.
+[
+269
+]
+History
+[
+edit
+]
+The earliest known glossaries of medical terms were discovered on Egyptian papyrus authored around 1600 B.C.
+[
+270
+]
+Other precursors to modern
+medical dictionaries
+include lists of terms compiled from the
+Hippocratic Corpus
+in the first century AD.
+[
+271
+]
+[
+272
+]
+The
+Synonyma Simonis Genuensis
+(the
+Synonyms
+of
+Simon of Genoa
+), attributed to the physician to
+Pope Nicholas IV
+in the year 1288, was printed by Antonius Zarotus at Milan in 1473. Referring to a copy held in the library of the
+College of Physicians of Philadelphia
+, Henry wrote in 1905 that "It is the first edition of the first medical dictionary."
+[
+273
+]
+However, this claim is disputed as the composition only included lists of herbs and drugs.
+[
+272
+]
+At the beginning of the
+Renaissance
+, Italian universities began teaching a broader range of courses, such as law and medicine, whilst universities in northern Europe were still dominated by theology and related topics. All European
+universities
+required Latin proficiency for admission. Latin was the dominant language of university education, where rules were enforced against the use of vernacular languages.
+[
+274
+]
+Lectures and debates took place in Latin, and writing was in Latin, across the curriculum.
+Latin dominated topics of international academic and scientific interest, especially at the level of abstract thought addressed to other specialists. To begin with, knowledge was already transmitted through Latin and it maintained specialised vocabularies not found in vernacular languages.
+[
+275
+]
+By the
+early modern period
+,
+Neo-Latin
+had become the
+lingua franca
+of science, medicine, legal discourse, theology, and education in Europe.
+[
+276
+]
+Over time, the use of Latin continued where international communication with specialist audiences was paramount. Later, where some of the discourse moved to French, English or German, translations into Latin would allow texts to cross language boundaries, while authors in countries with much smaller language populations or less known languages would tend to continue to compose in Latin.
+[
+277
+]
+Latin's dominance over medicine began to change in the late seventeenth century, as philosophers and others began to write in their native language first, afterwards translating into Latin for international audiences.
+[
+278
+]
+In the early part of the 1700s, Latin was still making a significant contribution to academic publishing, but was no longer dominant.
+[
+279
+]
+Examples of modern medical dictionaries include
+Mosby's Dictionary of Medicine, Nursing & Health Professions
+,
+Stedman's
+,
+Taber's
+, and
+Dorland's
+.
+See also
+[
+edit
+]
+Glossary of medicine
+Glossary of scientific naming
+List of deprecated terms for diseases
+List of Greek and Latin roots in English
+Notes
+[
+edit
+]
+↑
+Latin:
+wikt:cauda
+meaning 'tail'
+↑
+Latin:
+wikt:dorsum
+meaning 'back',
+wikt:venter
+meaning 'belly'
+References
+[
+edit
+]
+↑
+Betts, J Gordon; Desaix, Peter; Johnson, Eddie; Johnson, Jody E; Korol, Oksana; Kruse, Dean; Poe, Brandon; Wise, James; Womble, Mark D; Young, Kelly A (February 26, 2016).
+Anatomy & Physiology
+. Houston: OpenStax CNX. 1.6. Anatomical Terminology.
+ISBN
+978-1-93-816813-0
+. ID: 14fb4ad7-39a1-4eee-ab6e-3ef2482e3e22@8.24.
+Archived
+from the original on March 16, 2018
+. Retrieved
+March 15,
+2018
+.
+↑
+"Introduction to Medical Terminology - AAPC"
+.
+www.aapc.com
+.
+Archived
+from the original on 2022-05-23
+. Retrieved
+2022-04-06
+.
+↑
+Waquet, Francoise
+The Republic of Letters
+, in
+Knight
+&
+Tilg 2015
+, pp.
+66–79
+↑
+Waquet 2001
+, pp.
+83–84
+↑
+"International scientific vocabulary."
+Webster's Third New International Dictionary, Unabridged. Merriam-Webster, 2002.
+Accessed July 11, 2006.
+↑
+McArthur, Tom,
+"Asian Lexicography: Past, Present, and Prospective",
+Lexicography in Asia
+(Introduction). Password Publishers Limited, 1998.
+Accessed January 17, 2007.
+↑
+Gode, Alexander,
+Interlingua: A Dictionary of the International Language
+. New York: Storm Publishers, 1951.
+↑
+Gopsill
+&
+Sexton 2006
+.
+↑
+Breinstrup, Stenström
+&
+Olsson 2007
+.
+↑
+Breinstrup 2006
+.
+↑
+Gopsill 1990
+, pp.
+104–106.
+↑
+Betts, J Gordon; Desaix, Peter; Johnson, Eddie; Johnson, Jody E; Korol, Oksana; Kruse, Dean; Poe, Brandon; Wise, James; Womble, Mark D; Young, Kelly A (October 3, 2013).
+Anatomy & Physiology
+. Houston: OpenStax CNX. 1.6. Anatomical Terminology.
+ISBN
+978-1-93-816813-0
+. ID: 14fb4ad7-39a1-4eee-ab6e-3ef2482e3e22@6.11.
+Archived
+from the original on January 9, 2014
+. Retrieved
+November 16,
+2013
+.
+↑
+Clemente, Carmine (1987).
+Anatomy, a regional atlas of the human body
+. Baltimore: Urban & Schwarzenberg.
+ISBN
+978-0-8067-0323-7
+.
+↑
+Smith, John Bernhard, Explanation of terms used in entomology Publisher: Brooklyn entomological society 1906 (May be downloaded from:
+https://archive.org/details/explanationofter00smit
+)
+1
+2
+3
+"1.4A: Anatomical Position"
+.
+Medicine LibreTexts
+. 18 July 2018
+. Retrieved
+4 March
+2025
+.
+1
+2
+Drake, Richard L.; Vogl, Wayne; Tibbitts, Adam W.M. Mitchell (2005).
+Gray's anatomy for students
+. illustrations by Richard Richardson, Paul (Pbk.
+ed.). Philadelphia: Elsevier/Churchill Livingstone.
+ISBN
+978-0-443-06612-2
+.
+↑
+Dyce, Keith M.; Sack, Wolfgang O.; Wensing, Cornelis Johannes Gerardus (2010).
+Textbook of veterinary anatomy
+(4th
+ed.). St. Louis, Mo: Saunders Elsevier. pp.
+2–
+3.
+ISBN
+978-1-4160-6607-1
+.
+↑
+Moore, Keith L.; Dalley, Arthur F.; Agur, Anne M. R. (2018).
+Clinically oriented anatomy
+(Eighth
+ed.). Philadelphia Baltimore New York London Buenos Aires Hong Kong Sydney Tokyo: Wolters Kluwer. pp.
+5–
+8.
+ISBN
+978-1-4963-4721-3
+.
+↑
+Hyman, Libbie Henrietta (1979).
+Hyman's comparative vertebrate anatomy
+(3rd
+ed.). Chicago: Univ. of Chicago Pr. pp.
+1–
+6.
+ISBN
+978-0-226-87011-3
+.
+↑
+Nomina Anatomica Veterinaria
+(6
+ed.). World Association of Veterinary Anatomists. 2017. p.
+9
+. Retrieved
+2025-05-08
+.
+↑
+Kardong, Kenneth V. (2019).
+Vertebrates: comparative anatomy, function, evolution
+(Eighth, international student
+ed.). New York, NY: McGraw-Hill Education. p.
+16.
+ISBN
+978-1-260-09204-2
+.
+↑
+"Introduction"
+.
+Collection at Bartleby.com
+. 20 October 2022
+. Retrieved
+1 March
+2025
+.
+↑
+"Regions and Planes of the Abdomen: Overview, Abdominal Skin, Superficial Fascia"
+. 19 February 2025
+. Retrieved
+10 March
+2025
+.
+↑
+Abas R, Masrudin SS, Harun AM, Omar NS (December 2022).
+"Gastrulation and Body Axes Formation: A Molecular Concept and Its Clinical Correlates"
+.
+Malays J Med Sci
+.
+29
+(6):
+6–
+14.
+doi
+:
+10.21315/mjms2022.29.6.2
+.
+PMC
+9910376
+.
+PMID
+36818899
+.
+↑
+Kardong, Kenneth V. (2019).
+Vertebrates: comparative anatomy, function, evolution
+(Eighth, international student
+ed.). New York, NY: McGraw-Hill Education. p.
+16.
+ISBN
+978-1-260-09204-2
+.
+↑
+"AmiGO 2: Term Details for "dorsal/ventral axis specification" (GO:0009950)"
+.
+amigo.geneontology.org
+. Retrieved
+1 March
+2025
+.
+↑
+"1.4B: Directional Terms"
+.
+Medicine LibreTexts
+. 18 July 2018
+. Retrieved
+4 March
+2025
+.
+1
+2
+3
+"medical terms"
+.
+www.ucl.ac.uk
+. Retrieved
+9 March
+2025
+.
+↑
+Purves, Dale; Augustine, George J.; Fitzpatrick, David; Katz, Lawrence C.; LaMantia, Anthony-Samuel; McNamara, James O.; Williams, S. Mark (2001).
+"Some Anatomical Terminology"
+.
+Neuroscience. 2nd edition
+. Sinauer Associates
+. Retrieved
+7 March
+2025
+.
+↑
+Bush G, Luu P, Posner MI (June 2000). "Cognitive and emotional influences in anterior cingulate cortex".
+Trends in Cognitive Sciences
+.
+4
+(6):
+215–
+222.
+doi
+:
+10.1016/S1364-6613(00)01483-2
+.
+PMID
+10827444
+.
+S2CID
+16451230
+.
+↑
+"Anteversion definition and meaning | Collins English Dictionary"
+.
+www.collinsdictionary.com
+. Retrieved
+15 March
+2025
+.
+↑
+Zhou, S; Zhao, Y; Sun, Z; Han, G; Xu, F; Qiu, W; Liu, T; Li, W (September 2024). "Impact of pelvic anteversion on spinopelvic alignment in an asymptomatic population: a dynamic perspective of standing and sitting".
+The Spine Journal
+.
+24
+(9):
+1732–
+1739.
+doi
+:
+10.1016/j.spinee.2024.04.001
+.
+PMID
+38614156
+.
+↑
+"Retroversion definition and meaning | Collins English Dictionary"
+.
+www.collinsdictionary.com
+. Retrieved
+15 March
+2025
+.
+↑
+"Retroversion definition and meaning | Collins English Dictionary"
+.
+www.collinsdictionary.com
+. Retrieved
+15 March
+2025
+.
+1
+2
+Hal., Blumenfeld (2010).
+Neuroanatomy through clinical cases
+(2nd
+ed.). Sunderland, Mass.: Sinauer Associates.
+ISBN
+978-0-87893-058-6
+.
+OCLC
+473478856
+.
+↑
+Moore, Keith L.; Dalley, Arthur F.; Agur, Anne M. R. (2018).
+Clinically oriented anatomy
+(Eighth
+ed.). Philadelphia Baltimore New York London Buenos Aires Hong Kong Sydney Tokyo: Wolters Kluwer. p.
+679.
+ISBN
+978-1-4963-4721-3
+.
+↑
+"Anatonomina"
+.
+terminologia-anatomica.org
+. Retrieved
+2025-02-28
+.
+↑
+"Anatonomina"
+.
+terminologia-anatomica.org
+. Retrieved
+2025-02-28
+.
+↑
+"Developmental Mechanism - Axes Formation - Embryology"
+.
+embryology.med.unsw.edu.au
+. Retrieved
+1 March
+2025
+.
+↑
+"dorsolateral"
+.
+Merriam-Webster
+. 29 September 2023.
+↑
+Hofer, Matthias (2006).
+The Chest X-ray: A Systematic Teaching Atlas
+. Thieme. p.
+24.
+ISBN
+978-3-13-144211-6
+.
+1
+2
+OED 1989
+, "adduction", "abduction", "abduct".
+1
+2
+3
+4
+Swartz 2010
+, pp.
+590–591.
+1
+2
+Kendall 2005
+, p.
+57.
+1
+2
+Cook 2012
+, pp.
+180–193.
+1
+2
+OED 1989
+.
+1
+2
+OED 1989
+, "elevation".
+1
+2
+OED 1989
+, "depression".
+1
+2
+OED 1989
+, "flexion", "extension".
+1
+2
+OED 1989
+, "flexion".
+1
+2
+OED 1989
+, "extension".
+1
+2
+Swartz 2010
+, pp.
+590–1.
+↑
+Saladin 2010
+, p.
+300.
+↑
+Kendall 2005
+, p.
+304.
+1
+2
+Swartz 2010
+, pp.
+591–593.
+↑
+OED 1989
+, "palmarflexion", "dorsiflexion".
+↑
+Kendall 2005
+, p.
+371.
+↑
+Kendall 2005
+, p.
+56.
+↑
+Kasuyama, Tatsuya; Sakamoto, Masaaki; Nakazawa, Rie (2009).
+"Ankle Joint Dorsiflexion Measurement Using the Deep Squatting Posture"
+.
+Journal of Physical Therapy Science
+.
+21
+(2):
+195–
+199.
+doi
+:
+10.1589/jpts.21.195
+.
+Archived
+from the original on 2024-05-23
+. Retrieved
+2024-05-23
+.
+↑
+Swartz 2010
+, p.
+591.
+↑
+Kyung 2005
+, p.
+108.
+1
+2
+Swartz 2010
+, pp.
+591–592.
+↑
+OED 1989
+, "supination".
+↑
+OED 1989
+, "pronation".
+1
+2
+Houglum 2012
+, p.
+333.
+↑
+Martini, Frederic; Nath, Judi L. (2009).
+Fundamentals of anatomy & physiology
+(8th
+ed.). San Francisco: Pearson/Benjamin Cummings. p.
+158.
+ISBN
+978-0-321-50589-7
+.
+↑
+Kardong, Kenneth V. (2019).
+Vertebrates: comparative anatomy, function, evolution
+(Eighth
+ed.). New York, NY. pp.
+212–
+214.
+ISBN
+978-1-259-70091-0
+.
+{{
+cite book
+}}
+:  CS1 maint: location missing publisher (
+link
+)
+↑
+Kim, Joyce Y.; Dao, Harry (2022). "Physiology, Integument".
+StatPearls
+. StatPearls Publishing.
+PMID
+32119273
+.
+↑
+Martini, Frederic; Nath, Judi L. (2009).
+Fundamentals of anatomy & physiology
+(8th
+ed.). San Francisco: Pearson/Benjamin Cummings. p.
+158.
+ISBN
+978-0-321-50589-7
+.
+↑
+Musculoskeletal System
+at the U.S. National Library of Medicine
+Medical Subject Headings
+(MeSH)
+↑
+"DoITPoMS – TLP Library Structure of bone and implant materials – Structure and composition of bone"
+.
+Dissemination of IT for the Promotion of Materials Science (DoITPoMS)
+. Cambridge, UK: University of Cambridge.
+↑
+This article incorporates
+text
+available under the
+CC BY 4.0
+license.
+Betts JG, Desaix P, Johnson E, Johnson JE, Korol O, Kruse D, Poe B, Wise J, Womble MD, Young KA (June 8, 2023).
+Anatomy & Physiology
+. Houston: OpenStax CNX. 6.2 Bone classification.
+ISBN
+978-1-947172-04-3
+.
+↑
+Clarke B (2008), "Normal Bone Anatomy and Physiology",
+Clinical Journal of the American Society of Nephrology
+,
+3
+(Suppl 3):
+S131–
+S139,
+doi
+:
+10.2215/CJN.04151206
+,
+PMC
+3152283
+,
+PMID
+18988698
+↑
+Jerez A, Mangione S, Abdala V (2010), "Occurrence and distribution of sesamoid bones in squamates: a comparative approach",
+Acta Zoologica
+,
+91
+(3):
+295–
+305,
+doi
+:
+10.1111/j.1463-6395.2009.00408.x
+,
+hdl
+:
+11336/74304
+↑
+Pratt R.
+"Bone as an Organ"
+.
+AnatomyOne
+. Amirsys, Inc. Archived from
+the original
+on 2019-10-30
+. Retrieved
+2012-09-28
+.
+↑
+Sophia Fox, AJ; Bedi, A; Rodeo, SA (November 2009).
+"The basic science of articular cartilage: structure, composition, and function"
+.
+Sports Health
+.
+1
+(6):
+461–
+8.
+doi
+:
+10.1177/1941738109350438
+.
+PMC
+3445147
+.
+PMID
+23015907
+.
+↑
+Gary, Farr (25 June 2002).
+"The Musculoskeletal System"
+. Archived from
+the original
+on 29 November 2014
+. Retrieved
+18 November
+2008
+.
+↑
+Gary, Farr (25 June 2002).
+"The Musculoskeletal System"
+. Archived from
+the original
+on 29 November 2014
+. Retrieved
+18 November
+2008
+.
+↑
+Bridwell, Keith.
+"Ligaments"
+. Retrieved
+16 March
+2009
+.
+↑
+Thomopoulos S, Birman V, Genin G, eds. (2012).
+Structural Interfaces and Attachments in Biology
+. New York: Springer.
+ISBN
+978-1-4614-3316-3
+.
+↑
+Standring, Susan (2020).
+Gray's Anatomy: The Anatomical Basis of Clinical Practice
+(42nd
+ed.). New York.
+ISBN
+978-0-7020-7707-4
+.
+OCLC
+1201341621
+.
+{{
+cite book
+}}
+:  CS1 maint: location missing publisher (
+link
+)
+↑
+Gary, Farr (25 June 2002).
+"The Musculoskeletal System"
+. Archived from
+the original
+on 29 November 2014
+. Retrieved
+18 November
+2008
+.
+↑
+Interactions of skeletal muscles their fascicle arrangement and their lever-systems
+. OpenStax. 6 March 2013. Archived from
+the original
+on 23 March 2022
+. Retrieved
+10 May
+2021
+.
+↑
+Saladin, Kenneth S. (2011).
+Human anatomy
+(3rd
+ed.). New York: McGraw-Hill. pp.
+236–
+241.
+ISBN
+978-0-07-122207-5
+.
+↑
+Walker, H. Kenneth (1990), Walker, H. Kenneth; Hall, W. Dallas; Hurst, J. Willis (eds.),
+"Deep Tendon Reflexes"
+,
+Clinical Methods: The History, Physical, and Laboratory Examinations
+(3rd
+ed.), Boston: Butterworths,
+ISBN
+978-0-409-90077-4
+,
+PMID
+21250237
+, retrieved
+2024-02-19
+{{
+citation
+}}
+:  CS1 maint: work parameter with ISBN (
+link
+)
+↑
+"9.6C: How Skeletal Muscles Produce Movements"
+.
+Medicine LibreTexts
+. 19 July 2018
+. Retrieved
+8 May
+2021
+.
+↑
+Purves, D; Augustine, GJ (2001).
+"Neural Circuits"
+.
+NCBI
+. Sinauer Association.
+↑
+Widmaier, Eric P.; Raff, Hersel; Strang, Kevin T. (2010). "Muscle".
+Vander's Human Physiology: The Mechanisms of Body Function
+(12th
+ed.). New York, NY: McGraw-Hill. pp.
+250–
+291.
+ISBN
+978-0-321-98122-6
+.
+↑
+Aidley, David J. (1998). "Mechanics and energetics of muscular contraction".
+The Physiology of Excitable Cells
+(4th
+ed.). New York, NY: Cambridge University Press. pp.
+323–335
+.
+ISBN
+978-0-521-57421-1
+.
+↑
+Sircar, Sabyasachi (2008). "Muscle elasticity".
+Principles of Medical Physiology
+(1st
+ed.). New York, NY: Thieme. p.
+113.
+ISBN
+978-1-588-90572-7
+.
+↑
+Bullock, John; Boyle, Joseph; Wang, Michael B. (2001). "Muscle contraction".
+NMS Physiology
+. Vol.
+578 (4th
+ed.). Baltimore, Maryland: Lippincott Williams and Wilkins. pp.
+37–
+56.
+↑
+Faulkner, JA (2003). "Terminology for contractions of muscles during shortening, while isometric, and during lengthening".
+Journal of Applied Physiology
+.
+95
+(2):
+455–
+459.
+doi
+:
+10.1152/japplphysiol.00280.2003
+.
+PMID
+12851415
+.
+S2CID
+28649208
+.
+↑
+Baechle, Thomas (2008).
+Essentials of Strength Training and Conditioning
+. USA: National Strength and Conditioning Association.
+ISBN
+978-0-7360-8465-9
+.
+↑
+Martini, Frederic; William C. Ober; Claire W. Garrison; Kathleen Welch; Ralph T. Hutchings (2001).
+Fundamentals of Anatomy and Physiology, 5th Ed
+. Prentice Hall.
+ISBN
+0-13-017292-8
+.
+↑
+Hall, John E. (2011).
+Guyton and Hall textbook of medical physiology
+(Twelfth
+ed.). Philadelphia, Pennsylvania. p.
+4.
+ISBN
+978-1-4160-4574-8
+.
+{{
+cite book
+}}
+:  CS1 maint: location missing publisher (
+link
+)
+↑
+Saladin, Kenneth S. (2011).
+Human anatomy
+(3rd
+ed.). New York: McGraw-Hill. p.
+520.
+ISBN
+978-0-07-122207-5
+.
+↑
+How does the blood circulatory system work? – InformedHealth.org – NCBI Bookshelf
+. Institute for Quality and Efficiency in Health Care. 31 January 2019.
+Archived
+from the original on 29 January 2022.
+↑
+Standring S (2016).
+Gray's anatomy: the anatomical basis of clinical practice
+(Forty-first
+ed.). Elsevier Limited. pp.
+68–
+73.
+ISBN
+978-0-7020-5230-9
+.
+↑
+Standring, Susan (2016).
+Gray's anatomy: the anatomical basis of clinical practice
+(Forty-first
+ed.). [Philadelphia]: Elsevier Limited. p.
+1024.
+ISBN
+978-0-7020-5230-9
+.
+1
+2
+3
+4
+5
+Guyton, Arthur; Hall, John (2000).
+Guyton Textbook of Medical Physiology
+(10
+ed.). Saunders.
+ISBN
+978-0-7216-8677-6
+.
+↑
+Saladin, Kenneth S. (2011).
+Human anatomy
+(3rd
+ed.). New York: McGraw-Hill. p.
+540.
+ISBN
+978-0-07-122207-5
+.
+↑
+Cardiovascular System
+at the U.S. National Library of Medicine
+Medical Subject Headings
+(MeSH)
+↑
+Iaizzo, Paul A (2015).
+Handbook of Cardiac Anatomy, Physiology, and Devices
+. Springer. p.
+93.
+ISBN
+978-3-31919464-6
+.
+Archived
+from the original on 2017-10-11
+. Retrieved
+2022-01-28
+.
+↑
+Sherwood L (January 1, 2012).
+Human Physiology: From Cells to Systems
+. Cengage Learning.
+ISBN
+978-1-111-57743-8
+–
+via Google Books.
+↑
+Peyrot SM, Martin BL, Harland RM (March 2010).
+"Lymph heart musculature is under distinct developmental control from lymphatic endothelium"
+.
+Developmental Biology
+.
+339
+(2):
+429–
+38.
+doi
+:
+10.1016/j.ydbio.2010.01.002
+.
+PMC
+2845526
+.
+PMID
+20067786
+.
+↑
+Jeltsch M, Tammela T, Alitalo K, Wilting J (October 2003). "Genesis and pathogenesis of lymphatic vessels".
+Cell and Tissue Research
+.
+314
+(1):
+69–
+84.
+doi
+:
+10.1007/s00441-003-0777-2
+.
+PMID
+12942362
+.
+S2CID
+23318096
+.
+↑
+Singh V (2017).
+Textbook of Anatomy Head, Neck, and Brain; Volume III
+(2nd
+ed.). Elsevier India. pp.
+247–
+249.
+ISBN
+978-81-312-3727-4
+.
+↑
+Warwick R, Williams PL. "Angiology (Chapter 6)".
+Gray's anatomy
+(Thirty-fifth
+ed.). London: Longman. pp.
+588–
+785.
+↑
+Tortora, G.J.; Derrickson, B. (2016).
+Principles of Anatomy and Physiology
+(15th
+ed.). J. Wiley.
+ISBN
+978-1-119-34373-8
+.
+↑
+"Anatomy of the Endocrine System"
+.
+www.hopkinsmedicine.org
+. 2019-11-19
+. Retrieved
+2022-06-14
+.
+↑
+Iadecola, Costantino (2017-09-27).
+"The Neurovascular Unit Coming of Age: A Journey through Neurovascular Coupling in Health and Disease"
+.
+Neuron
+.
+96
+(1):
+17–
+42.
+doi
+:
+10.1016/j.neuron.2017.07.030
+.
+ISSN
+1097-4199
+.
+PMC
+5657612
+.
+PMID
+28957666
+.
+↑
+Gardner, Shoback (2017).
+Greenspan's Basic and Clinical Endocrinology
+(10th
+ed.). McGraw Hill / Medical. pp.
+49–
+68.
+ISBN
+978-1-259-58928-7
+.
+1
+2
+Marieb E (2014).
+Anatomy & physiology
+. Glenview, IL: Pearson Education, Inc.
+ISBN
+978-0-321-86158-0
+.
+↑
+I. Edward Alcamo; Barbara Krumhardt (2004).
+Anatomy and Physiology the Easy Way
+. Barron's Educational Series. pp.
+8
+–.
+ISBN
+978-0-7641-1979-8
+. Retrieved
+12 May
+2013
+.
+↑
+"Biology of the Heart – Heart and Blood Vessel Disorders"
+.
+MSD Manual Consumer Version
+. Retrieved
+24 November
+2021
+.
+↑
+Bell, Daniel J. (25 July 2017).
+"Solid and hollow abdominal viscera | Radiology Reference Article"
+.
+Radiopaedia.org
+. Retrieved
+24 November
+2021
+.
+↑
+Bell, Daniel J. (5 April 2021).
+"Viscera | Radiology Reference Article"
+.
+Radiopaedia.org
+.
+↑
+"Parietal – Learning brain structure, function and variability from neuroimaging data"
+.
+team.inria.fr
+.
+Archived
+from the original on 2018-02-10
+. Retrieved
+2018-02-10
+.
+↑
+"Thoracic cavity"
+.
+Amboss
+.
+Archived
+from the original on 21 July 2019
+. Retrieved
+8 September
+2019
+.
+↑
+Hsia, CC; Hyde, DM;
+Weibel, ER
+(15 March 2016).
+"Lung Structure and the Intrinsic Challenges of Gas Exchange"
+.
+Comprehensive Physiology
+.
+6
+(2):
+827–
+95.
+doi
+:
+10.1002/cphy.c150028
+.
+PMC
+5026132
+.
+PMID
+27065169
+.
+↑
+Tortora, Gerard J.; Anagnostakos, Nicholas P. (1987).
+Principles of anatomy and physiology
+(Fifth
+ed.). New York: Harper & Row, Publishers. pp.
+556–582
+.
+ISBN
+978-0-06-350729-6
+.
+↑
+Mithieux, Suzanne M.; Weiss, Anthony S. (2005). "Elastin".
+Fibrous Proteins: Coiled-Coils, Collagen and Elastomers
+. Advances in Protein Chemistry. Vol.
+70. pp.
+437–
+461.
+doi
+:
+10.1016/S0065-3233(05)70013-9
+.
+ISBN
+978-0-12-034270-9
+.
+PMID
+15837523
+.
+↑
+Pocock, Gillian; Richards, Christopher D. (2006).
+Human physiology: the basis of medicine
+(3rd
+ed.). Oxford: Oxford University Press. p.
+316.
+ISBN
+978-0-19-856878-0
+.
+↑
+Levitzky, Michael G. (2013).
+Pulmonary physiology
+(Eighth
+ed.). New York: McGraw-Hill Medical. p.
+Chapter 1. Function and Structure of the Respiratory System.
+ISBN
+978-0-07-179313-1
+.
+↑
+Watso, Joseph C.; Cuba, Jens N.; Boutwell, Savannah L.; Moss, Justine E.; Bowerfind, Allison K.; Fernandez, Isabela M.; Cassette, Jessica M.; May, Allyson M.; Kirk, Katherine F. (2023-11-21).
+"Acute nasal breathing lowers diastolic blood pressure and increases parasympathetic contributions to heart rate variability in young adults"
+.
+American Journal of Physiology. Regulatory, Integrative and Comparative Physiology
+.
+325
+(6):
+R797–
+R808.
+doi
+:
+10.1152/ajpregu.00148.2023
+.
+ISSN
+0363-6119
+.
+PMC
+11178300
+.
+PMID
+37867476
+.
+1
+2
+Gilroy, Anne M.; MacPherson, Brian R.; Ross, Lawrence M. (2008).
+Atlas of Anatomy
+. Stuttgart: Thieme. pp.
+108–
+111.
+ISBN
+978-1-60406-062-1
+.
+↑
+Pocock, Gillian; Richards, Christopher D. (2006).
+Human physiology: the basis of medicine
+(3rd
+ed.). Oxford: Oxford University Press. pp.
+315–
+317.
+ISBN
+978-0-19-856878-0
+.
+↑
+Hinic-Frlog, Sanja (2019).
+Introductory Animal Physiology
+. University of Toronto Mississauga: Pressbooks (CC BY 4.0). pp.
+40–
+59.
+↑
+Drake RL, Vogl W, Mitchell AW, Richardson P (2005).
+Gray's Anatomy for students
+. Philadelphia: Elsevier/Churchill Livingstone. p.
+287.
+ISBN
+978-0-8089-2306-0
+.
+↑
+Gallstone Disease: Diagnosis and Management of Cholelithiasis, Cholecystitis and Choledocholithiasis
+. National Institute for Health and Care Excellence: Guidelines. National Institute for Health and Care Excellence (NICE). October 2014. p.
+101.
+PMID
+25473723
+.
+↑
+"The Urinary Tract & How It Works | NIDDK"
+.
+National Institute of Diabetes and Digestive and Kidney Diseases
+.
+↑
+C. Dugdale, David (16 September 2011).
+"Female urinary tract"
+.
+MedLine Plus Medical Encyclopedia
+.
+↑
+Kiminori Sato (2018).
+Functional Histoanatomy of the Human Larynx
+. Springer.
+ISBN
+978-981-10-5586-7
+.
+↑
+Hamid M. Said (2012).
+Physiology of the Gastrointestinal Tract
+(5
+ed.). Academic Press. p.
+630.
+ISBN
+978-0-12-382027-3
+.
+↑
+"Microanatomy definition and meaning"
+.
+Collins English Dictionary
+.
+↑
+"Histology | physiology"
+.
+Encyclopedia Britannica
+. Retrieved
+2018-10-29
+.
+↑
+"DefinedTerm: Histology"
+.
+Defined Term
+. Archived from
+the original
+on 2018-10-29
+. Retrieved
+2018-10-29
+.
+↑
+Maximow, Alexander A.; Bloom, William (1957).
+A textbook of Histology
+(Seventh
+ed.). Philadelphia: W. B. Saunders Company.
+1
+2
+Leeson, Thomas S.; Leeson, C. Roland (1981).
+Histology
+(Fourth
+ed.). W. B. Saunders Company. p.
+600.
+ISBN
+978-0-7216-5704-2
+.
+↑
+Stedman's medical dictionary
+(27th
+ed.). Lippincott Williams & Wilkins. 2006.
+ISBN
+978-0-683-40007-6
+.
+↑
+Leeson, Thomas S.; Leeson, C. Roland (1981).
+Histology
+(Fourth
+ed.). W. B. Saunders Company. p.
+600.
+ISBN
+978-0-7216-5704-2
+.
+↑
+Stedman's medical dictionary
+(27th
+ed.). Lippincott Williams & Wilkins. 2006.
+ISBN
+978-0-683-40007-6
+.
+↑
+Leeson, Thomas S.; Leeson, C. Roland (1981).
+Histology
+(Fourth
+ed.). W. B. Saunders Company. p.
+600.
+ISBN
+978-0-7216-5704-2
+.
+1
+2
+Ross, Michael H.; Pawlina, Wojciech (2016).
+Histology
+: a text and atlas: with correlated cell and molecular biology
+(7th
+ed.). Wolters Kluwer. pp.
+984p.
+ISBN
+978-1-4511-8742-7
+.
+1
+2
+Mooar, Pekka (2007).
+"Muscles"
+.
+The Merck Manuals Online Medical Library
+. Retrieved
+16 November
+2008
+.
+↑
+Torres A (2012).
+"Extracellular Ca2+ Acts as a Mediator of Communication from Neurons to Glia"
+.
+Science Signaling
+. 5 Jan 24 (208): 208.
+doi
+:
+10.1126/scisignal.2002160
+.
+PMC
+3548660
+.
+PMID
+22275221
+.
+↑
+Baumann N, Pham-Dinh D (April 2001). "Biology of oligodendrocyte and myelin in the mammalian central nervous system".
+Physiological Reviews
+.
+81
+(2):
+871–
+927.
+doi
+:
+10.1152/physrev.2001.81.2.871
+.
+PMID
+11274346
+.
+↑
+Johansson CB, Momma S, Clarke DL, Risling M, Lendahl U, Frisén J (January 1999).
+"Identification of a neural stem cell in the adult mammalian central nervous system"
+.
+Cell
+.
+96
+(1):
+25–
+34.
+doi
+:
+10.1016/S0092-8674(00)80956-3
+.
+PMID
+9989494
+.
+S2CID
+9658786
+.
+↑
+Campbell K, Götz M (May 2002). "Radial glia: multi-purpose cells for vertebrate brain development".
+Trends in Neurosciences
+.
+25
+(5):
+235–
+38.
+doi
+:
+10.1016/s0166-2236(02)02156-2
+.
+PMID
+11972958
+.
+S2CID
+41880731
+.
+↑
+Jessen KR, Mirsky R (September 2005). "The origin and development of glial cells in peripheral nerves".
+Nature Reviews. Neuroscience
+.
+6
+(9):
+671–
+82.
+doi
+:
+10.1038/nrn1746
+.
+PMID
+16136171
+.
+S2CID
+7540462
+.
+↑
+Ohara PT, Vit JP, Bhargava A, Jasmin L (December 2008).
+"Evidence for a role of connexin 43 in trigeminal pain using RNA interference in vivo"
+.
+Journal of Neurophysiology
+.
+100
+(6):
+3064–
+73.
+doi
+:
+10.1152/jn.90722.2008
+.
+PMC
+2604845
+.
+PMID
+18715894
+.
+↑
+Bassotti G, Villanacci V, Antonelli E, Morelli A, Salerni B (July 2007).
+"Enteric glial cells: new players in gastrointestinal motility?"
+.
+Laboratory Investigation
+.
+87
+(7):
+628–
+32.
+doi
+:
+10.1038/labinvest.3700564
+.
+PMID
+17483847
+.
+↑
+Talifu Z, Liu JY, Pan YZ, Ke H, Zhang CJ, Xu X, Gao F, Yu Y, Du LJ, Li JJ (April 2023).
+"In vivo astrocyte-to-neuron reprogramming for central nervous system regeneration: a narrative review"
+.
+Neural Regen Res
+.
+18
+(4):
+750–
+755.
+doi
+:
+10.4103/1673-5374.353482
+.
+PMC
+9700087
+.
+PMID
+36204831
+.
+↑
+Brodal, 2010:
+p. 19
+↑
+Miyata, S; Furuya, K; Nakai, S; Bun, H; Kiyohara, T (April 1999). "Morphological plasticity and rearrangement of cytoskeletons in pituicytes cultured from adult rat neurohypophysis".
+Neuroscience Research
+.
+33
+(4):
+299–
+306.
+doi
+:
+10.1016/s0168-0102(99)00021-8
+.
+PMID
+10401983
+.
+S2CID
+24687965
+.
+↑
+Rodríguez, EM; Blázquez, JL; Pastor, FE; Peláez, B; Peña, P; Peruzzo, B; Amat, P (2005).
+Hypothalamic Tanycytes: A Key Component of Brain–Endocrine Interaction
+(PDF)
+. International Review of Cytology. Vol.
+247. pp.
+89–
+164.
+doi
+:
+10.1016/s0074-7696(05)47003-5
+.
+hdl
+:
+10366/17544
+.
+PMID
+16344112
+.
+↑
+Biga, Lindsay M.; Dawson, Sierra; Harwell, Amy; Hopkins, Robin; Kaufmann, Joel; LeMaster, Mike; Matern, Philip; Morrison-Graham, Katie; Quick, Devon (2019),
+"4.3 Connective Tissue Supports and Protects"
+,
+Anatomy & Physiology
+, OpenStax/Oregon State University
+, retrieved
+2021-04-16
+↑
+Biga, Lindsay M.; Dawson, Sierra; Harwell, Amy; Hopkins, Robin; Kaufmann, Joel; LeMaster, Mike; Matern, Philip; Morrison-Graham, Katie; Quick, Devon (2019),
+"4.3 Connective Tissue Supports and Protects"
+,
+Anatomy & Physiology
+, OpenStax/Oregon State University
+, retrieved
+2021-04-16
+↑
+Young, Barbara; Lowe, James S.; Stevens, Alan; Heath, John W.; Deakin, Philip J. (2006).
+Wheater's Functional Histology: A Text and Colour Atlas
+(5th
+ed.). Churchill Livingstone.
+ISBN
+978-0-443-06850-8
+.
+↑
+Nelson, Fred R T; Blauvelt, Carolyn Taliaferro (2015).
+A Manual of Orthopedic Terminology
+(8th
+ed.). Elsevier. p.
+70.
+ISBN
+978-0-323-22158-0
+.
+↑
+Pawlina, Wojciech; Ross, Michael (2020).
+Histology
+: a text and atlas: with correlated cell and molecular biology
+(Eighth
+ed.). Philadelphia: Wolters Kluwer Health.
+ISBN
+978-1-4963-8342-6
+.
+↑
+Biga, Lindsay M.; Dawson, Sierra; Harwell, Amy; Hopkins, Robin; Kaufmann, Joel; LeMaster, Mike; Matern, Philip; Morrison-Graham, Katie; Quick, Devon (2019),
+"4.3 Connective Tissue Supports and Protects"
+,
+Anatomy & Physiology
+, OpenStax/Oregon State University
+, retrieved
+2021-04-16
+↑
+"5.3.4: Fluid Tissues"
+.
+Biology LibreTexts
+. 21 May 2021
+. Retrieved
+2 August
+2022
+.
+↑
+Marieb E (2011).
+Anatomy & Physiology
+. Boston: Benjamin Cummings. p.
+133.
+ISBN
+978-0-321-61640-1
+.
+↑
+van Lommel AT (2002).
+From cells to organs: a histology textbook and atlas
+. Springer.
+ISBN
+978-1-4020-7257-4
+.
+↑
+Ushiki, T (June 2002).
+"Collagen fibers, reticular fibers and elastic fibers. A comprehensive understanding from a morphological viewpoint"
+.
+Archives of Histology and Cytology
+.
+65
+(2):
+109–
+26.
+doi
+:
+10.1679/aohc.65.109
+.
+PMID
+12164335
+.
+↑
+Xu, H.; et
+al. (2008).
+"Monitoring Tissue Engineering Using Magnetic Resonance Imaging"
+.
+Journal of Bioscience and Bioengineering
+.
+106
+(6):
+515–
+527.
+doi
+:
+10.1263/jbb.106.515
+.
+PMID
+19134545
+.
+S2CID
+3294995
+.
+↑
+Laclaustra, M.; et
+al. (2007).
+"Metabolic syndrome pathophysiology: The role of adiposetissue"
+.
+Nutrition, Metabolism and Cardiovascular Diseases
+.
+17
+(2):
+125–
+139.
+doi
+:
+10.1016/j.numecd.2006.10.005
+.
+PMC
+4426988
+.
+PMID
+17270403
+.
+1
+2
+3
+4
+5
+Ross, Michael H.; Pawlina, Wojciech (2011).
+Histology: a text and atlas
+; with correlated cell and molecular biology
+(6., international
+ed.). Philadelphia, Pa. London: Lippincott Williams & Wilkins. pp.
+158–
+173.
+ISBN
+978-0-7817-7200-6
+.
+↑
+Moore, Keith; Dalley, Arthur (2005).
+Clinically Oriented Anatomy
+(5th
+ed.). LWW. pp.
+47
+.
+ISBN
+0-7817-3639-0
+.
+A bundle of nerve fibers (axons) connecting neighboring or distant nuclei of the CNS is a tract.
+↑
+J.H. Smith, C. Rowland, B. Harland, S. Moslehi, K. Schobert, R.M. Montgomery, W.J. Watterson, J. Dalrymple-Alford, R.P. Taylor, "How Neurons Exploit Fractal Geometry to Maximize Physical Connectivity", Scientific Reports, 11, 2332 (2021)
+1
+2
+Perea G, Navarrete M, Araque A (August 2009). "Tripartite synapses: astrocytes process and control synaptic information".
+Trends in Neurosciences
+.
+32
+(8).
+Cell Press
+:
+421–
+431.
+doi
+:
+10.1016/j.tins.2009.05.001
+.
+PMID
+19615761
+.
+S2CID
+16355401
+.
+↑
+Südhof TC (July 2021).
+"The cell biology of synapse formation"
+.
+The Journal of Cell Biology
+.
+220
+(7) e202103052.
+doi
+:
+10.1083/jcb.202103052
+.
+PMC
+8186004
+.
+PMID
+34086051
+.
+↑
+Silverthorn DU (2007).
+Human Physiology: An Integrated Approach
+(4th
+ed.). San Francisco:
+Pearson/Benjamin Cummings
+. p.
+271.
+ISBN
+978-0-8053-6851-2
+.
+LCCN
+2005056517
+.
+OCLC
+62742632
+.
+↑
+Pereda AE (April 2014).
+"Electrical synapses and their functional interactions with chemical synapses"
+.
+Nature Reviews. Neuroscience
+.
+15
+(4):
+250–
+263.
+doi
+:
+10.1038/nrn3708
+.
+PMC
+4091911
+.
+PMID
+24619342
+.
+↑
+Caire MJ, Reddy V, Varacallo M (2023).
+"Physiology, Synapse"
+.
+StatPearls
+. Treasure Island (FL): StatPearls Publishing.
+PMID
+30252303
+. Retrieved
+2024-01-01
+.
+↑
+Alberts B, Johnson A, Lewis J, Raff M, Roberts K, Walter P (2002).
+"Ion Channels and the Electrical Properties of Membranes"
+.
+Molecular Biology of the Cell
+(4th
+ed.). Garland Science
+. Retrieved
+2024-01-20
+.
+↑
+McConnell TH (2006).
+The nature of disease: pathology for the health professions
+. Lippincott Williams & Wilkins. p.
+55.
+ISBN
+978-0-7817-5317-3
+.
+↑
+Freshney RI (2002). "Introduction". In Freshney RI, Freshney M (eds.).
+Culture of epithelial cells
+. John Wiley & Sons.
+ISBN
+978-0-471-40121-6
+.
+↑
+Kurn, Heidi; Daly, Daniel T. (2025),
+"Histology, Epithelial Cell"
+,
+StatPearls
+, Treasure Island (FL): StatPearls Publishing,
+PMID
+32644489
+, retrieved
+2025-03-17
+↑
+Pratt R.
+"Epithelial Cells"
+.
+AnatomyOne
+. Amirsys, Inc. Archived from
+the original
+on 2012-12-19
+. Retrieved
+2012-09-28
+.
+↑
+van Lommel AT (2002).
+From cells to organs: a histology textbook and atlas
+. Springer.
+ISBN
+978-1-4020-7257-4
+.
+↑
+Marieb EM (1995).
+Human Anatomy and Physiology
+(3rd
+ed.). Benjamin/Cummings. pp.
+103–104
+.
+ISBN
+0-8053-4281-8
+.
+↑
+Melfi RC, Alley KE, eds. (2000).
+Permar's oral embryology and microscopic anatomy: a textbook for students in dental hygiene
+. Lippincott Williams & Wilkins. p.
+9
+.
+ISBN
+978-0-683-30644-6
+.
+↑
+Adams M, Smith UM, Logan CV, Johnson CA (May 2008).
+"Recent advances in the molecular pathology, cell biology and genetics of ciliopathies"
+.
+Journal of Medical Genetics
+.
+45
+(5):
+257–
+267.
+doi
+:
+10.1136/jmg.2007.054999
+.
+PMID
+18178628
+.
+↑
+Jenkins GW, Tortora GJ (2013).
+Anatomy and Physiology from Science to Life
+(3rd
+ed.). John Wiley & Sons. pp.
+110–
+115.
+ISBN
+978-1-118-12920-3
+.
+↑
+Ross MH, Pawlina W (2015).
+Histology: A Text and Atlas: With Correlated Cell and Molecular Biology
+(7th
+ed.). Lippincott Williams & Wilkins. pp.
+528, 604.
+ISBN
+978-1-4511-8742-7
+.
+↑
+Alberts B (2002).
+Molecular biology of the cell
+(4th
+ed.). New York [u.a.]: Garland. p.
+1067.
+ISBN
+0-8153-4072-9
+.
+↑
+Restifo NP, Gattinoni L (October 2013).
+"Lineage relationship of effector and memory T cells"
+.
+Current Opinion in Immunology
+.
+25
+(5):
+556–
+63.
+doi
+:
+10.1016/j.coi.2013.09.003
+.
+PMC
+3858177
+.
+PMID
+24148236
+.
+↑
+Kurosaki T, Kometani K, Ise W (March 2015). "Memory B cells".
+Nature Reviews. Immunology
+.
+15
+(3):
+149–
+59.
+doi
+:
+10.1038/nri3802
+.
+PMID
+25677494
+.
+S2CID
+20825732
+.
+↑
+Kumar H, Kawai T, Akira S (February 2011). "Pathogen recognition by the innate immune system".
+International Reviews of Immunology
+.
+30
+(1):
+16–
+34.
+doi
+:
+10.3109/08830185.2010.529976
+.
+PMID
+21235323
+.
+S2CID
+42000671
+.
+↑
+Alberts et al. 2002
+, Chapter:
+"Innate Immunity"
+.
+↑
+Schroder K, Tschopp J (March 2010).
+"The inflammasomes"
+.
+Cell
+.
+140
+(6):
+821–
+32.
+doi
+:
+10.1016/j.cell.2010.01.040
+.
+PMID
+20303873
+.
+S2CID
+16916572
+.
+↑
+Sompayrac 2019
+, p.
+20.
+↑
+Alberts et al. 2002
+, sec.
+"Phagocytic Cells Seek, Engulf, and Destroy Pathogens"
+.
+↑
+Ryter A (1985). "Relationship between ultrastructure and specific functions of macrophages".
+Comparative Immunology, Microbiology and Infectious Diseases
+.
+8
+(2):
+119–
+33.
+doi
+:
+10.1016/0147-9571(85)90039-6
+.
+PMID
+3910340
+.
+↑
+Langermans JA, Hazenbos WL, van Furth R (Sep 1994). "Antimicrobial functions of mononuclear phagocytes".
+Journal of Immunological Methods
+.
+174
+(
+1–
+2):
+185–
+94.
+doi
+:
+10.1016/0022-1759(94)90021-3
+.
+PMID
+8083520
+.
+↑
+Zen K, Parkos CA (Oct 2003). "Leukocyte-epithelial interactions".
+Current Opinion in Cell Biology
+.
+15
+(5):
+557–
+64.
+doi
+:
+10.1016/S0955-0674(03)00103-0
+.
+PMID
+14519390
+.
+↑
+Rua R, McGavern DB (September 2015).
+"Elucidation of monocyte/macrophage dynamics and function by intravital imaging"
+.
+Journal of Leukocyte Biology
+.
+98
+(3):
+319–
+32.
+doi
+:
+10.1189/jlb.4RI0115-006RR
+.
+PMC
+4763596
+.
+PMID
+26162402
+.
+1
+2
+Stvrtinová, Jakubovský
+&
+Hulín 1995
+, Chapter:
+Inflammation and Fever
+.
+1
+2
+Guermonprez P, Valladeau J, Zitvogel L, Théry C, Amigorena S (2002). "Antigen presentation and T cell stimulation by dendritic cells".
+Annual Review of Immunology
+.
+20
+(1):
+621–
+67.
+doi
+:
+10.1146/annurev.immunol.20.100301.064828
+.
+PMID
+11861614
+.
+1
+2
+Sompayrac 2019
+, pp.
+1–4.
+↑
+Spits H, Cupedo T (2012). "Innate lymphoid cells: emerging insights in development, lineage relationships, and function".
+Annual Review of Immunology
+.
+30
+:
+647–
+75.
+doi
+:
+10.1146/annurev-immunol-020711-075053
+.
+PMID
+22224763
+.
+↑
+Krishnaswamy, Ajitawi
+&
+Chi 2006
+, pp.
+13–34.
+↑
+Kariyawasam HH, Robinson DS (Apr 2006). "The eosinophil: the cell and its weapons, the cytokines, its locations".
+Seminars in Respiratory and Critical Care Medicine
+.
+27
+(2):
+117–
+27.
+doi
+:
+10.1055/s-2006-939514
+.
+PMID
+16612762
+.
+S2CID
+260317790
+.
+↑
+Gabrielli S, Ortolani C, Del Zotto G, Luchetti F, Canonico B, Buccella F, Artico M, Papa S, Zamai L (2016).
+"The Memories of NK Cells: Innate-Adaptive Immune Intrinsic Crosstalk"
+.
+Journal of Immunology Research
+.
+2016
+1376595.
+doi
+:
+10.1155/2016/1376595
+.
+PMC
+5204097
+.
+PMID
+28078307
+.
+↑
+Bertok
+&
+Chow 2005
+, p.
+17
+.
+↑
+Rajalingam 2012
+, Chapter: Overview of the killer cell immunoglobulin-like receptor system.
+1
+2
+Swirski FK, Nahrendorf M, Etzrodt M, Wildgruber M, Cortez-Retamozo V, Panizzi P, et
+al. (July 2009).
+"Identification of splenic reservoir monocytes and their deployment to inflammatory sites"
+.
+Science
+.
+325
+(5940):
+612–
+6.
+Bibcode
+:
+2009Sci...325..612S
+.
+doi
+:
+10.1126/science.1175202
+.
+PMC
+2803111
+.
+PMID
+19644120
+.
+↑
+Jia T, Pamer EG (July 2009).
+"Immunology. Dispensable but not irrelevant"
+.
+Science
+.
+325
+(5940):
+549–
+50.
+Bibcode
+:
+2009Sci...325..549J
+.
+doi
+:
+10.1126/science.1178329
+.
+PMC
+2917045
+.
+PMID
+19644100
+.
+↑
+Angier N (August 3, 2009).
+"Finally, the Spleen Gets Some Respect"
+.
+The New York Times
+.
+Archived
+from the original on 2018-01-27.
+1
+2
+Rus H, Cudrici C, Niculescu F (2005). "The role of the complement system in innate immunity".
+Immunologic Research
+.
+33
+(2):
+103–
+12.
+doi
+:
+10.1385/IR:33:2:103
+.
+PMID
+16234578
+.
+S2CID
+46096567
+.
+↑
+Degn SE, Thiel S (August 2013).
+"Humoral pattern recognition and the complement system"
+.
+Scandinavian Journal of Immunology
+.
+78
+(2):
+181–
+93.
+doi
+:
+10.1111/sji.12070
+.
+PMID
+23672641
+.
+↑
+Liszewski MK, Farries TC, Lublin DM, Rooney IA, Atkinson JP (1996).
+Control of the Complement System
+. Advances in Immunology. Vol.
+61. pp.
+201–
+283.
+doi
+:
+10.1016/S0065-2776(08)60868-8
+.
+ISBN
+978-0-12-022461-6
+.
+PMID
+8834497
+.
+↑
+Sim RB, Tsiftsoglou SA (Feb 2004).
+"Proteases of the complement system"
+(PDF)
+.
+Biochemical Society Transactions
+.
+32
+(Pt 1):
+21–
+27.
+doi
+:
+10.1042/BST0320021
+.
+PMID
+14748705
+.
+S2CID
+24505041
+. Archived from
+the original
+(PDF)
+on 2019-03-02.
+↑
+Kawai T, Akira S (Feb 2006).
+"Innate immune recognition of viral infection"
+.
+Nature Immunology
+.
+7
+(2):
+131–
+37.
+doi
+:
+10.1038/ni1303
+.
+PMID
+16424890
+.
+S2CID
+9567407
+.
+↑
+Platnich JM, Muruve DA (February 2019). "NOD-like receptors and inflammasomes: A review of their canonical and non-canonical signaling pathways".
+Archives of Biochemistry and Biophysics
+.
+670
+:
+4–
+14.
+Bibcode
+:
+2019ArBB..670....4P
+.
+doi
+:
+10.1016/j.abb.2019.02.008
+.
+PMID
+30772258
+.
+S2CID
+73464235
+.
+↑
+Miller SB (Aug 2006). "Prostaglandins in health and disease: an overview".
+Seminars in Arthritis and Rheumatism
+.
+36
+(1):
+37–
+49.
+doi
+:
+10.1016/j.semarthrit.2006.03.005
+.
+PMID
+16887467
+.
+↑
+Ogawa Y, Calhoun WJ (Oct 2006).
+"The role of leukotrienes in airway inflammation"
+.
+The Journal of Allergy and Clinical Immunology
+.
+118
+(4):
+789–
+98, quiz 799–800.
+doi
+:
+10.1016/j.jaci.2006.08.009
+.
+PMID
+17030228
+.
+↑
+Le Y, Zhou Y, Iribarren P, Wang J (Apr 2004).
+"Chemokines and chemokine receptors: their manifold roles in homeostasis and disease"
+(PDF)
+.
+Cellular & Molecular Immunology
+.
+1
+(2):
+95–
+104.
+PMID
+16212895
+.
+↑
+Martin P, Leibovich SJ (Nov 2005). "Inflammatory cells during wound repair: the good, the bad and the ugly".
+Trends in Cell Biology
+.
+15
+(11):
+599–
+607.
+doi
+:
+10.1016/j.tcb.2005.09.002
+.
+PMID
+16202600
+.
+↑
+Pancer Z, Cooper MD (2006). "The evolution of adaptive immunity".
+Annual Review of Immunology
+.
+24
+(1):
+497–
+518.
+doi
+:
+10.1146/annurev.immunol.24.021605.090542
+.
+PMID
+16551257
+.
+↑
+Sompayrac 2019
+, p.
+38.
+1
+2
+3
+Janeway 2005
+.
+↑
+"Lymphocyte - Etymology, Origin & Meaning"
+.
+etymonline
+. Retrieved
+2025-09-02
+.
+↑
+Sompayrac 2019
+, pp.
+5–6.
+↑
+Sauls RS, McCausland C, Taylor BN. Histology, T-Cell Lymphocyte. In: StatPearls. StatPearls Publishing; 2023. Accessed November 15, 2023.
+https://www.ncbi.nlm.nih.gov/books/NBK535433/
+↑
+Althwaiqeb SA, Bordoni B. Histology, B Cell Lymphocyte. In: StatPearls. StatPearls Publishing; 2023. Accessed November 15, 2023.
+https://www.ncbi.nlm.nih.gov/books/NBK560905/
+↑
+Harty JT, Tvinnereim AR, White DW (2000). "CD8+ T cell effector mechanisms in resistance to infection".
+Annual Review of Immunology
+.
+18
+(1):
+275–
+308.
+doi
+:
+10.1146/annurev.immunol.18.1.275
+.
+PMID
+10837060
+.
+↑
+Radoja S, Frey AB, Vukmanovic S (2006). "T-cell receptor signaling events triggering granule exocytosis".
+Critical Reviews in Immunology
+.
+26
+(3):
+265–
+90.
+doi
+:
+10.1615/CritRevImmunol.v26.i3.40
+.
+PMID
+16928189
+.
+↑
+Abbas AK, Murphy KM, Sher A (Oct 1996). "Functional diversity of helper T lymphocytes".
+Nature
+.
+383
+(6603):
+787–
+93.
+Bibcode
+:
+1996Natur.383..787A
+.
+doi
+:
+10.1038/383787a0
+.
+PMID
+8893001
+.
+S2CID
+4319699
+.
+↑
+McHeyzer-Williams LJ, Malherbe LP, McHeyzer-Williams MG (2006). "Helper T cell-regulated B cell immunity".
+From Innate Immunity to Immunological Memory
+. Current Topics in Microbiology and Immunology. Vol.
+311. pp.
+59–
+83.
+doi
+:
+10.1007/3-540-32636-7_3
+.
+ISBN
+978-3-540-32635-9
+.
+PMID
+17048705
+.
+↑
+Sompayrac 2019
+, p.
+8.
+↑
+Holtmeier W, Kabelitz D (2005). "Γδ T Cells Link Innate and Adaptive Immune Responses".
+gammadelta T cells link innate and adaptive immune responses
+. Vol.
+86. pp.
+151–
+83.
+doi
+:
+10.1159/000086659
+.
+ISBN
+3-8055-7862-8
+.
+PMID
+15976493
+.
+{{
+cite book
+}}
+:
+|
+journal=
+ignored (
+help
+)
+↑
+Girardi M (Jan 2006).
+"Immunosurveillance and immunoregulation by gammadelta T cells"
+.
+The Journal of Investigative Dermatology
+.
+126
+(1):
+25–
+31.
+doi
+:
+10.1038/sj.jid.5700003
+.
+PMID
+16417214
+.
+↑
+Sproul TW, Cheng PC, Dykstra ML, Pierce SK (2000). "A role for MHC class II antigen processing in B cell development".
+International Reviews of Immunology
+.
+19
+(
+2–
+3):
+139–
+55.
+doi
+:
+10.3109/08830180009088502
+.
+PMID
+10763706
+.
+S2CID
+6550357
+.
+↑
+Parker DC (1993). "T cell-dependent B cell activation".
+Annual Review of Immunology
+.
+11
+:
+331–
+60.
+doi
+:
+10.1146/annurev.iy.11.040193.001555
+.
+PMID
+8476565
+.
+↑
+Murphy
+&
+Weaver 2016
+, Chapter 10: The Humoral Immune Response.
+↑
+Hu, Dan; Li, Long; Li, Sufang; Wu, Manyan; Ge, Nana; Cui, Yuxia; Lian, Zheng; Song, Junxian; Chen, Hong (2019-08-01). "Lymphatic system identification, pathophysiology and therapy in the cardiovascular diseases".
+Journal of Molecular and Cellular Cardiology
+.
+133
+:
+99–
+111.
+doi
+:
+10.1016/j.yjmcc.2019.06.002
+.
+ISSN
+0022-2828
+.
+PMID
+31181226
+.
+S2CID
+184485255
+.
+↑
+Munn, Lance L.; Padera, Timothy P. (2014-11-01).
+"Imaging the lymphatic system"
+.
+Microvascular Research
+. SI: Lymphatics in Development and Pathology.
+96
+:
+55–
+63.
+doi
+:
+10.1016/j.mvr.2014.06.006
+.
+ISSN
+0026-2862
+.
+PMC
+4268344
+.
+PMID
+24956510
+.
+↑
+Chong, Chloé; Scholkmann, Felix; Bachmann, Samia B.; Luciani, Paola; Leroux, Jean-Christophe; Detmar, Michael; Proulx, Steven T. (2016-03-10).
+"In vivo visualization and quantification of collecting lymphatic vessel contractility using near-infrared imaging"
+.
+Scientific Reports
+.
+6
+(1) 22930.
+Bibcode
+:
+2016NatSR...622930C
+.
+doi
+:
+10.1038/srep22930
+.
+ISSN
+2045-2322
+.
+PMC
+4785392
+.
+PMID
+26960708
+.
+↑
+Zhang, Yufan; Zhang, Juxiang; Li, Xiaowei; Li, Jingru; Lu, Shuting; Li, Yuqiao; Ren, Panting; Zhang, Chunfu; Xiong, Liqin (2022-06-01).
+"Imaging of fluorescent polymer dots in relation to channels and immune cells in the lymphatic system"
+.
+Materials Today Bio
+.
+15
+100317.
+doi
+:
+10.1016/j.mtbio.2022.100317
+.
+ISSN
+2590-0064
+.
+PMC
+9213818
+.
+PMID
+35757035
+.
+↑
+Schineis, Philipp; Runge, Peter; Halin, Cornelia (2019-01-01).
+"Cellular traffic through afferent lymphatic vessels"
+.
+Vascular Pharmacology
+. Pioneering updates in vascular biology.
+112
+:
+31–
+41.
+doi
+:
+10.1016/j.vph.2018.08.001
+.
+ISSN
+1537-1891
+.
+PMID
+30092362
+.
+S2CID
+51955021
+.
+↑
+Chavhan, Govind B.; Lam, Christopher Z.; Greer, Mary-Louise C.; Temple, Michael; Amaral, Joao; Grosse-Wortmann, Lars (2020-07-01). "Magnetic Resonance Lymphangiography".
+Radiologic Clinics of North America
+.
+58
+(4):
+693–
+706.
+doi
+:
+10.1016/j.rcl.2020.02.002
+.
+ISSN
+0033-8389
+.
+PMID
+32471538
+.
+S2CID
+218943574
+.
+↑
+Venturi S, Venturi M (September 2009). "Iodine, thymus, and immunity".
+Nutrition
+.
+25
+(9):
+977–
+79.
+doi
+:
+10.1016/j.nut.2009.06.002
+.
+PMID
+19647627
+.
+↑
+Sompayrac 2019
+, pp.
+51–53.
+↑
+Janeway, Travers
+&
+Walport 2001
+, sec.
+12-10
+.
+↑
+Ruddle NH, Akirav EM (August 2009).
+"Secondary lymphoid organs: responding to genetic and environmental cues in ontogeny and the immune response"
+.
+Journal of Immunology
+.
+183
+(4):
+2205–
+12.
+doi
+:
+10.4049/jimmunol.0804324
+.
+PMC
+2766168
+.
+PMID
+19661265
+.
+↑
+Ruddle, N. H.; Akirav, E. M. (2009).
+"Secondary Lymphoid Organs: Responding to Genetic and Environmental Cues in Ontogeny and the Immune Response1"
+.
+Journal of Immunology
+.
+183
+(4):
+2205–
+2212.
+doi
+:
+10.4049/jimmunol.0804324
+.
+PMC
+2766168
+.
+PMID
+19661265
+.
+↑
+Koppang EO, Fischer U, Moore L, Tranulis MA, Dijkstra JM, Köllner B, Aune L, Jirillo E, Hordvik I (December 2010).
+"Salmonid T cells assemble in the thymus, spleen and in novel interbranchial lymphoid tissue"
+.
+J Anat
+.
+217
+(6):
+728–
+39.
+doi
+:
+10.1111/j.1469-7580.2010.01305.x
+.
+PMC
+3039185
+.
+PMID
+20880086
+.
+↑
+Varricchio, Claudette G. (2004).
+A cancer source book for nurses
+. Boston: Jones and Bartlett Publishers. p.
+229.
+ISBN
+0-7637-3276-1
+.
+↑
+Wujcik D, Yarbro CH, Gobel BH (2011).
+Cancer nursing: principles and practice
+. Boston: Jones and Bartlett Publishers.
+ISBN
+978-0-7637-6357-2
+.
+↑
+Cesario, Joseph; Johnson, David J.; Eisthen, Heather L. (June 2020).
+"Your Brain Is Not an Onion With a Tiny Reptile Inside"
+.
+Current Directions in Psychological Science
+.
+29
+(3):
+255–
+260.
+doi
+:
+10.1177/0963721420917687
+.
+ISSN
+0963-7214
+.
+S2CID
+218960531
+.
+↑
+Panksepp, J. (2003). Foreword to Cory, G. and Gardner, R. (2002)
+The Evolutionary Neuroethology of Paul MacLean: Convergences and Frontiers
+.
+ISBN
+978-0-275-97219-6
+[
+page
+needed
+]
+↑
+Steffen, Patrick R; Hedges, Dawson; Matheson, Rebekka (2022-04-01).
+"The Brain Is Adaptive Not Triune: How the Brain Responds to Threat, Challenge, and Change"
+.
+Frontiers in Psychiatry
+.
+13
+802606.
+doi
+:
+10.3389/fpsyt.2022.802606
+.
+PMC
+9010774
+.
+PMID
+35432041
+.
+↑
+Striedter, Georg F.
+(2005). "A History of Comparative Neurobiology".
+Principles of Brain Evolution
+. Sunderland, MA:
+Sinauer Associates
+. pp.
+19–
+50.
+ISBN
+978-0-87893-820-9
+.
+OCLC
+56532584
+.
+Reviewed in:
+Doty, Robert W. (June 2005). "
+Principles of Brain Evolution
+. By Georg F. Striedter. Sunderland (Massachusetts): Sinauer Associates. $59.95. xii + 436 p; ill.; index. ISBN 0-87893-820-6. 2005".
+The Quarterly Review of Biology
+.
+80
+(2): 264.
+doi
+:
+10.1086/433134
+.
+ISSN
+0033-5770
+.
+↑
+Rolls, Edmund T. (January 2015). "Limbic systems for emotion and for memory, but no single limbic system".
+Cortex
+.
+62
+:
+119–
+157.
+doi
+:
+10.1016/j.cortex.2013.12.005
+.
+PMID
+24439664
+.
+S2CID
+16524733
+.
+↑
+Stanfield, Peggy S.; Hui, Y. H.; Cross, Nanna (30 September 2013).
+Essential Medical Terminology
+. Jones & Bartlett Learning.
+ISBN
+978-1-284-03878-1
+.
+↑
+Christiansen, S.; Iverson, C.; Flanagin, A.; et
+al. (2020).
+AMA Manual of Style: A Guide for Authors and Editors
+(11th
+ed.). Oxford University Press.
+↑
+Iverson, C.; Christiansen, S.; Flanagin, A.; et
+al. (2007).
+AMA Manual of Style
+(10th
+ed.). Oxford University Press.
+ISBN
+978-0-19-517633-9
+.
+↑
+Vera Pyle's Current Medical Terminology, 11th Ed., Health Professions Institute, Modesto, California, 2007, p. 174
+↑
+The AAMT Book of Style for Medical Transcription, 2nd Ed., Peg Hughes, CMT, American Association for Medical Transcription,
+ISBN
+0-935229-38-8
+, copyright 2002
+↑
+"Stedman's Online
+|
+Reference"
+(PDF)
+.
+↑
+"Dosing: BID, TID"
+. Global Antibiotic Research & Development Partnership.
+Depending on the drug class and its pharmacokinetic and pharmacodynamic properties, different dosing regimens may be optimal, including once a day (
+omne in die
+, OD), twice a day (
+bis in die
+, BID) or three times a day (
+ter in die
+, TID).
+↑
+"Doctor slang is a dying art"
+.
+BBC
+. 18 August 2003
+. Retrieved
+2008-02-05
+.
+↑
+Variously:
+Edwards 2021
+, p.
+166
+. "An issue with mirrored language is that if people create names for their genitals, those names are much more likely to be names they use with intimate partners, not medical providers."
+Hill-Meyer
+&
+Scarborough 2014
+, p.
+356
+. "For others, using clinical language is most comfortable because we feel it describes the body part that we have, not the gender we are.
+... Whatever we want to call our body parts is up to us. You might want to use different words in different contexts. Talking to medical providers and talking to lovers may call for different communication styles."
+Ragosta et al. 2021
+, pp.
+712–713
+.
+"[F]ive
+TGE respondents noted that the term 'vagina' was either 'too clinical' or that they would only use 'vagina' in a medical context.
+... For 'period', [one] wrote, 'I use both; "period" to doctors that don't understand transgender, or use "shark week
+"
+'
+."
+↑
+Edwards 2021
+, pp.
+165–167
+.
+Rider et al. 2022
+, p.
+4
+.
+↑
+Dinour 2019
+, pp.
+5–9.
+↑
+Brotle, Charles D. (2011).
+The role of mnemonic acronyms in clinical emergency medicine: A grounded theory study
+(EdD thesis).
+Archived
+from the original on 2023-08-27
+. Retrieved
+2023-07-30
+.
+↑
+Sigerist, HE (1950).
+A History of Medicine. I. Primitive and Archaic Medicine
+. New York: Oxford University Press. pp.
+298–
+318.
+↑
+Craik, Elizabeth (2017).
+"The Lexicographer Erotian as a Guide to the Hippocratic Corpus"
+.
+JASCA (Japan Studies in Classical Antiquity)
+.
+3
+:
+3–
+16.
+1
+2
+Ambrose, Charles (2005-04-01).
+"A Short History of Medical Dictionaries"
+.
+The Pharos of Alpha Omega Alpha-Honor Medical Society
+.
+68
+(2):
+24–
+27.
+↑
+Henry FP (January 1905).
+"A Review of the First Book on the Diseases of the Eye, by Benvenutus Grassus, 1474: Exhibition of Three Other Fifteenth Century Monographs (a) The First Medical Dictionary, Synonyma Simonis Genuensis, 1473; (b) The First Book on Diet, By Isaac, 1487, (c) The Second Edition of The First Book on Diseases of Children, By Paulus Bagellardus, 1487"
+.
+Med Library Hist J
+.
+3
+(1):
+27–
+40.
+PMC
+1692319
+.
+PMID
+18340862
+.
+↑
+Knight, Sarah
+University
+, p. 236, in
+Knight
+&
+Tilg 2015
+↑
+Waquet 2001
+, p.
+91.
+↑
+Waquet 2001
+, pp.
+81–82.
+↑
+See chapters on the Low Countries, Scandinavia and East-Central Europe in
+Knight
+&
+Tilg 2015
+↑
+Guiglioni, Giudo,
+Philosophy
+p. 254–56 in
+Knight
+&
+Tilg 2015
+↑
+Waquet 2001
+, pp.
+83–84
+Works cited
+[
+edit
+]
+Bertok L, Chow D (2005). Bertok L, Chow D (eds.).
+Natural Immunity
+. Vol.
+5 (1st
+ed.). Elsevier Science.
+ISBN
+978-0-44451-755-5
+.
+Breinstrup, Thomas (2006).
+"Un revolution in le mundo scientific"
+[
+A revolution in the scientific world
+]
+.
+Historia de interlingua
+(in Interlingua).
+Archived
+from the original on 2019-04-27
+. Retrieved
+2025-01-14
+.
+Chung, Kyung Won (2005).
+Gross Anatomy (Board Review)
+. Lippincott Williams & Wilkins.
+ISBN
+0-7817-5309-0
+.
+Cook, Chad E. (2012).
+Orthopedic Manual Therapy: An Evidence Based Approach
+(2nd
+ed.). Upper Saddle River, NJ: Pearson Education.
+ISBN
+978-0-13-802173-3
+.
+Breinstrup, Th.; Stenström, Ingvar; Olsson, Jesper, eds. (2007) [2001].
+"Biographias: Ingvar Stenström"
+.
+Interlingua
+(in Interlingua).
+Archived
+from the original on 2019-04-26
+. Retrieved
+2025-01-15
+.
+Dinour, Lauren M. (2019). "Speaking Out on 'Breastfeeding' Terminology: Recommendations for Gender-Inclusive Language in Research and Reporting".
+Breastfeeding Medicine
+.
+14
+(8).
+Mary Ann Liebert
+:
+523–
+532.
+doi
+:
+10.1089/bfm.2019.0110
+.
+PMID
+31364867
+.
+Fielding, Lucie (2021).
+Trans Sex: Clinical Approaches to Trans Sexualities and Erotic Embodiments
+. New York:
+Routledge
+.
+ISBN
+978-0-429-31829-0
+.
+Edwards, Heather. "Anatomy Talk". pp. 165–168.
+Gopsill, Frank Peter (1990).
+International languages: a matter for Interlingua
+.
+Sheffield
+,
+England
+: British Interlingua Society.
+ISBN
+0-9511695-6-4
+.
+OCLC
+27813762
+.
+Gopsill, Frank Peter (1994).
+Interlingua today: A course for beginners
+.
+Sheffield
+,
+England
+: British Interlingua Society.
+ISBN
+978-1-898017-01-1
+.
+Gopsill, Frank Peter; Sexton, Brian (2006) [2001].
+"Le natura, si – un schema, no"
+.
+Historia de interlingua
+(in Interlingua).
+Archived
+from the original on 2022-04-12
+. Retrieved
+2025-01-14
+.
+Hill-Meyer, Tobi; Scarborough, Dean (2014). "Sexuality". In Erickson-Schroth, Laura (ed.).
+Trans Bodies, Trans Selves: A Resource for the Transgender Community
+(1st
+ed.).
+Oxford UP
+.
+ISBN
+978-0-19-932535-1
+.
+OCLC
+944726648
+.
+Houglum, Peggy A.; Bertoli, Dolores B. (2012).
+Brunnstrom's Clinical Kinesiology
+. F. A. Davis Company.
+ISBN
+978-0-8036-2352-1
+.
+Janeway CA, Travers P, Walport M (2001). "Effector mechanisms in allergic reactions".
+Immunobiology
+(5th
+ed.). Garland Science.
+Janeway CA
+(2005).
+Immunobiology
+(6th
+ed.). Garland Science.
+ISBN
+0-443-07310-4
+.
+Kendall, Florence Peterson; et
+al. (2005).
+Muscles
+: testing and function with posture and pain
+(5th
+ed.). Baltimore, MD: Lippincott Williams & Wilkins.
+ISBN
+0-7817-4780-5
+.
+Knight, Sarah; Tilg, Stefan, eds. (2015).
+The Oxford Handbook of Neo-Latin
+. New York: Oxford University Press.
+ISBN
+978-0-19-088699-8
+.
+OL
+28648475M
+.
+Krishnaswamy G, Ajitawi O, Chi DS (2006). "The human mast cell: an overview".
+Mast Cells
+. Methods in Molecular Biology. Vol.
+315. pp.
+13–
+34.
+doi
+:
+10.1385/1-59259-967-2:013
+.
+ISBN
+1-59259-967-2
+.
+PMID
+16110146
+.
+McArthur, Tom (ed.):
+The Oxford Companion to the English Language
+, (Oxford University Press, 1992).
+ISBN
+0-19-214183-X
+Murphy K, Weaver C (2016).
+Immunobiology
+(9
+ed.). Garland Science.
+ISBN
+978-0-8153-4505-3
+.
+Plag, Ingo "Word-Formation in English", Cambridge University Press, 2003, ISBN à0521525632, 9780521525633
+Rider, Nic G.; Caso, Taymy J.; Czech, Spencer; Karasic, Dan H. (2022). "Terminology in Transgender Medicine". In van Trotsenburg, Mick; Luikenaar, Rixt A. C.; Meriggiola, Maria Cristina (eds.).
+Context, Principles and Practice of TransGynecology: Managing Transgender Patients in ObGyn Practice
+.
+Cambridge UP
+.
+doi
+:
+10.1017/9781108899987
+.
+ISBN
+978-1-108-89998-7
+.
+Ragosta, Sachiko; Obedin-Maliver, Juno; Fix, Laura; Stoeffler, Ari; Hastings, Jen; Capriotti, Matthew R.;
+Flentje, Annesa
+; Lubensky, Micah E.; Lunn, Mitchell R.; Moseson, Heidi (1 September 2021).
+"From 'Shark-Week' to 'Mangina': An Analysis of Words Used by People of Marginalized Sexual Orientations and/or Gender Identities to Replace Common Sexual and Reproductive Health Terms"
+.
+Health Equity
+.
+5
+(1).
+Mary Ann Liebert
+:
+707–
+717.
+doi
+:
+10.1089/heq.2021.0022
+.
+PMC
+8665782
+.
+PMID
+34909540
+.
+This article incorporates text from this
+free content
+work.
+Licensed under
+CC-BY 4.0
+.
+Rajalingam R (2012). "Overview of the Killer Cell Immunoglobulin-Like Receptor System".
+Immunogenetics
+. Methods in Molecular Biology. Vol.
+882. pp.
+391–
+414.
+doi
+:
+10.1007/978-1-61779-842-9_23
+.
+ISBN
+978-1-61779-841-2
+.
+PMID
+22665247
+.
+Saladin, Kenneth S. (2010).
+Anatomy & Physiology The Unity of Form and Function
+(5th
+ed.). McGraw Hill.
+ISBN
+978-0077361358
+.
+Simpson, John A.; Weiner, Edmung (1989).
+The Oxford English Dictionary
+. Oxford: Clarendon Press.
+ISBN
+9780198611868
+.
+Sompayrac L (2019).
+How the immune system works
+. Hoboken, NJ: Wiley-Blackwell.
+ISBN
+978-1-119-54212-4
+.
+OCLC
+1083261548
+.
+Stvrtinová V, Jakubovský J, Hulín I (1995).
+Pathophysiology: Principles of Disease
+. Computing Centre, Slovak Academy of Sciences: Academic Electronic Press.
+Swartz, Mark H. (2010).
+Textbook of Physical Diagnosis: History and Examination
+(6th
+ed.). Saunders/Elsevier.
+ISBN
+978-1-4160-6203-5
+.
+Concise Oxford Companion to the English Language 1998
+entries on
+classical compound
+and
+combining form
+Taber, Clarence Wilbur; Thomas, Clayton L.; Venes, Donald (2001).
+Taber's cyclopedic medical dictionary
+(Ed. 19, illustrated in full color
+ed.). Philadelphia: F.A.Davis Co.
+ISBN
+0-8036-0655-9
+.
+ISSN
+1065-1357
+.
+Waquet, Françoise (2001).
+Latin, or the Empire of a Sign: From the Sixteenth to the Twentieth Centuries
+. Translated by John Howe. Verso.
+ISBN
+1859844022
+.
+v
+t
+e
+Medicine
+Specialties
+and
+subspecialties
+Surgery
+Cardiac surgery
+Cardiothoracic surgery
+Endocrine surgery
+Eye surgery
+General surgery
+Colorectal surgery
+Digestive system surgery
+Hand surgery
+Neurosurgery
+Ophthalmology
+Oral and maxillofacial surgery
+Orthopedic surgery
+Otolaryngology
+ENT
+Pediatric surgery
+Plastic surgery
+Reproductive surgery
+Surgical oncology
+Transplant surgery
+Trauma surgery
+Urology
+Andrology
+Vascular surgery
+Internal
+medicine
+Allergy
+/
+Immunology
+Angiology
+Cardiology
+Interventional
+Endocrinology
+Gastroenterology
+Hepatology
+Geriatrics
+Hematology
+Hospital medicine
+Infectious diseases
+Nephrology
+Oncology
+Molecular oncology
+Pulmonology
+Rheumatology
+Obstetrics and
+gynaecology
+Gynaecology
+Gynecologic oncology
+Maternal–fetal medicine
+Obstetrics
+Reproductive endocrinology and infertility
+Urogynecology
+Diagnostic
+Pathology
+Anatomical
+Clinical pathology
+Clinical chemistry
+Cytopathology
+Medical microbiology
+Transfusion medicine
+Radiology
+Interventional radiology
+Neuroradiology
+Nuclear medicine
+Common
+Anesthesiology
+Obstetric anesthesiology
+Neurosurgical anesthesiology
+Dermatology
+Emergency medicine
+Mass gathering medicine
+Family medicine
+/
+General practice
+Hospital medicine
+Intensive care medicine
+Medical genetics
+Neurology
+Clinical neurophysiology
+Oral medicine
+Palliative care
+Pediatrics
+Neonatology
+Physical medicine and rehabilitation
+(PM&R)
+Preventive medicine
+Psychiatry
+Addiction psychiatry
+Neuropsychiatry
+Radiation oncology
+Transplantation medicine
+Other
+Addiction medicine
+Adolescent medicine
+Aviation medicine
+Disaster medicine
+Diving medicine
+Evolutionary medicine
+Expedition medicine
+Narcology
+Occupational medicine
+Pain management
+Phlebology
+Prison healthcare
+Reproductive medicine
+Sexual medicine
+Venereology
+Sleep medicine
+Sports medicine
+Tropical medicine
+Travel medicine
+Medical
+education
+Bachelor of Medicine, Bachelor of Surgery
+Bachelor of Medical Sciences
+Doctor of Medicine
+Doctor of Osteopathic Medicine
+Master of Medicine
+Master of Surgery
+Medical school
+Medical student
+MD–PhD
+Medical Scientist Training Program
+Related topics
+Allied health
+History of medicine
+Medical terminology
+Nanomedicine
+Personalized medicine
+Public health
+Rural health
+Therapy
+Veterinary medicine
+Physician
+Category
+Commons
+Wikiproject
+Portal
+Outline
+v
+t
+e
+Medical abbreviations
+0–9
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+Latin abbreviations
+Prescription abbreviations
+Acronyms in healthcare
+Abbreviations for medical organisations and personnel
+Abbreviations for diseases and disorders
+Medical terminology
+v
+t
+e
+Basic
+medical terms
+used to describe disease conditions
+Signs and symptoms
+Syndrome
+Disease
+Medical diagnosis
+Differential diagnosis
+Prognosis
+Acute
+Chronic
+Cure
+Eponymous disease
+Acronym or abbreviation
+Remission
+Authority control databases
+: National
+Czech Republic
+Latvia
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Medical_terminology&oldid=1351806195
+"
+Categories
+:
+Medical terminology
+Glossaries of medicine
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+All articles with unsourced statements
+Articles with unsourced statements from August 2025
+Articles containing Latin-language text
+CS1 maint: location missing publisher
+Pages using multiple image with auto scaled images
+Pages using multiple image with unknown parameters
+Articles with imported Creative Commons Attribution 4.0 text
+CS1 maint: work parameter with ISBN
+CS1: long volume value
+CS1 errors: periodical ignored
+Pages using multiple image with manual scaled images
+Wikipedia articles needing page number citations from November 2020
+Articles containing Ancient Greek (to 1453)-language text
+CS1 Interlingua-language sources (ia)
+Free-content attribution
+Search
+Search
+Medical terminology
+20 languages
+Add topic

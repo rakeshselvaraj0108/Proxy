@@ -1,0 +1,37 @@
+EVIDENCE-BASED CLINICAL GUIDELINES — HOW THEY WORK (OVERVIEW)
+
+Clinical practice guidelines (sometimes called Standard Treatment
+Guidelines, or STGs) are recommendations developed by expert bodies —
+such as WHO, ICMR, national medical associations, or MoHFW-convened expert
+committees for specific programmes (e.g. tuberculosis, malaria, maternal
+health) — based on a structured review of the available clinical evidence,
+intended to help clinicians (not patients) make consistent, evidence-based
+treatment decisions.
+
+Key things to understand about guidelines as a patient:
+
+- Guidelines describe what generally works best for a typical patient with
+  a given condition, based on population-level evidence (clinical trials,
+  systematic reviews); your doctor still individualizes care based on your
+  specific health profile, other conditions, allergies, pregnancy status,
+  and preferences, which may reasonably lead to a different plan.
+- Guidelines are periodically revised as new evidence emerges — a guideline
+  from several years ago may no longer reflect current best practice, so
+  always check for the most current version from the issuing body (WHO,
+  ICMR, or the relevant national programme) rather than relying on an
+  outdated document.
+- India-specific programmes with published treatment guidelines include,
+  for example, the Revised National TB Control Programme / Ni-kshay
+  framework for tuberculosis, the National Vector Borne Disease Control
+  Programme guidance for malaria/dengue, and ICMR's periodically updated
+  guidance across multiple disease areas.
+- "Evidence-based" does not mean "one-size-fits-all" — it means the
+  recommendation is grounded in the best available research evidence,
+  weighed against clinical expertise and, ideally, patient values/
+  preferences, per the standard definition of evidence-based medicine.
+
+Why this matters here: information in this knowledge base is drawn from
+such publicly published guidance and fact sheets to give you accurate,
+general orientation on a topic — it summarizes what established guidance
+generally says, but it cannot replace an individualized clinical assessment
+by a qualified healthcare professional who knows your specific case.

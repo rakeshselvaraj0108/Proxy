@@ -1,0 +1,39 @@
+UNDERSTANDING YOUR LAB REPORT — FAQs
+
+Q: My result is flagged "H" (high) or "L" (low) — does that mean something
+   is wrong?
+A: A flag means the result falls outside the lab's stated reference range,
+   not that a disease is present. Reference ranges are statistical (often
+   covering the middle ~95% of a healthy reference population), so a small
+   percentage of healthy people will naturally fall just outside them. Your
+   doctor interprets the flagged value together with your symptoms,
+   history, and other tests.
+
+Q: Why do two different labs give different reference ranges for the same
+   test?
+A: Different labs may use different analyzers, reagents, and reference
+   population studies, so their normal ranges can differ slightly even for
+   the same test. This is why it's best to compare results from the same
+   lab over time when tracking a trend, and always read the range printed
+   on that specific report.
+
+Q: What does "fasting" mean for a blood test, and why does it matter?
+A: Fasting typically means no food or caloric drink for a specified window
+   (commonly 8-12 hours, water is usually allowed) before the blood draw —
+   required for tests like fasting glucose and lipid profile because eating
+   can temporarily raise glucose and triglyceride levels and produce a
+   misleading result.
+
+Q: Can medications or supplements affect my lab results?
+A: Yes — many medications, supplements, and even recent strenuous exercise
+   or dehydration can shift lab values. Tell your doctor about everything
+   you're taking (including over-the-counter drugs and supplements) before
+   a test, and mention it again when discussing results if you're unsure
+   whether something might have affected them.
+
+Q: Should I search my results online and self-treat based on what I find?
+A: General information (like this guide) can help you understand what a
+   test measures, but it cannot account for your full medical history, other
+   test results, or physical examination findings. Please discuss any
+   abnormal or concerning result with a qualified healthcare professional
+   rather than self-diagnosing or self-medicating based on an online search.

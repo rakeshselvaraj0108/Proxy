@@ -1,0 +1,6098 @@
+Hypertension - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Long-term high blood pressure in the arteries
+This article is about arterial hypertension. For other forms of hypertension, see
+Hypertension (disambiguation)
+. For low blood pressure, see
+Hypotension
+.
+Medical condition
+Hypertension
+Other names
+Arterial hypertension, high blood pressure
+Automated arm
+blood pressure meter
+showing
+arterial
+hypertension (shown by a
+systolic blood pressure
+158
+mmHg and
+diastolic blood pressure
+99
+mmHg, with a
+heart rate
+of 80 beats per minute)
+Specialty
+Cardiology
+,
+Nephrology
+Symptoms
+None
+[
+1
+]
+Complications
+Coronary artery disease
+,
+stroke
+,
+heart failure
+,
+peripheral arterial disease
+,
+vision loss
+,
+chronic kidney disease
+,
+dementia
+[
+2
+]
+[
+3
+]
+[
+4
+]
+Causes
+Usually lifestyle and genetic factors
+[
+5
+]
+Risk factors
+Lack of sleep
+,
+excess salt
+,
+excess body weight
+,
+smoking
+,
+alcohol
+[
+1
+]
+[
+5
+]
+Diagnostic method
+Resting blood pressure in adults
+≥
+140/90
+mmHg
+[
+6
+]
+Treatment
+Lifestyle changes, medications
+[
+7
+]
+Frequency
+33% (all adults), 16% (diagnosed)
+(globally, 2019)
+[
+8
+]
+[
+9
+]
+Deaths
+10.4 million; 19% of deaths
+(globally, 2019)
+[
+8
+]
+Hypertension
+, also known as
+high blood pressure
+, is a
+long-term
+medical condition
+in which the
+blood pressure
+in the
+arteries
+is persistently elevated.
+[
+10
+]
+High blood pressure usually does not cause symptoms itself.
+[
+1
+]
+It is, however, a major risk factor for
+stroke
+,
+coronary artery disease
+,
+heart failure
+,
+atrial fibrillation
+,
+peripheral arterial disease
+,
+vision loss
+,
+chronic kidney disease
+, and
+dementia
+.
+[
+2
+]
+[
+3
+]
+[
+4
+]
+[
+11
+]
+Hypertension is a major cause of premature death worldwide.
+[
+6
+]
+High blood pressure is classified as
+primary (essential) hypertension
+or
+secondary hypertension
+.
+[
+5
+]
+About 90–95% of cases are primary, defined as high blood pressure due to non-specific lifestyle and
+genetic
+factors.
+[
+5
+]
+Lifestyle factors that increase the risk include excess
+salt
+in the diet,
+excess body weight
+,
+smoking
+,
+physical inactivity
+and
+alcohol
+use.
+[
+1
+]
+[
+5
+]
+The remaining 5–10% of cases are categorized as secondary hypertension, defined as high blood pressure due to a clearly identifiable cause, such as
+chronic kidney disease
+,
+narrowing of the kidney arteries
+, an
+endocrine disorder
+, or the use of
+birth control pills
+.
+[
+5
+]
+Blood pressure is classified by two measurements, the
+systolic
+(first number) and
+diastolic
+(second number) pressures.
+[
+1
+]
+For most adults, normal blood pressure at rest is under 120
+millimeters mercury (mmHg)
+systolic and 80 mmHg diastolic,
+[
+12
+]
+[
+13
+]
+elevated blood pressure is between 120–129 mmHg systolic and under 80 mmHg diastolic and high blood pressure is present if the resting blood pressure is persistently at or above 130/80 (stage 1) or 140/90 (stage 2) mmHg.
+[
+5
+]
+[
+12
+]
+[
+13
+]
+Different numbers apply to children.
+[
+14
+]
+Ambulatory blood pressure monitoring
+over a 24-hour period appears more accurate than office-based
+blood pressure measurement
+.
+[
+5
+]
+[
+10
+]
+Lifestyle changes and medications can lower blood pressure and decrease the risk of health complications.
+[
+7
+]
+Lifestyle changes include
+weight loss
+,
+physical exercise
+, decreased
+salt intake
+, reducing
+alcohol intake
+, and a
+healthy diet
+.
+[
+5
+]
+If lifestyle changes are not sufficient,
+blood pressure medications
+are used.
+[
+7
+]
+Up to three medications taken concurrently can control blood pressure in 90% of people.
+[
+5
+]
+The treatment of moderately high arterial blood pressure (defined as >160/100 mmHg) with medications is associated with an improved
+life expectancy
+.
+[
+15
+]
+The effect of treatment of blood pressure between 130/80
+mmHg and 160/100
+mmHg is less clear, with some reviews finding benefit
+[
+12
+]
+[
+16
+]
+[
+17
+]
+[
+18
+]
+and others finding unclear or no benefit.
+[
+19
+]
+[
+20
+]
+High blood pressure affects 33% of the population globally.
+[
+8
+]
+About half of all people with high blood pressure do not know that they have it.
+[
+8
+]
+In 2019, high blood pressure was believed to have been a factor in 19% of all deaths (10.4 million globally).
+[
+8
+]
+Video summary (
+script
+)
+Signs and symptoms
+[
+edit
+]
+Hypertension is rarely accompanied by
+symptoms
+.
+[
+1
+]
+Half of all people with hypertension are unaware that they have it.
+[
+8
+]
+Hypertension is usually identified as part of health
+screening
+or when seeking healthcare for an unrelated problem.
+Some people with high blood pressure report
+headaches
+, as well as
+lightheadedness
+,
+vertigo
+,
+tinnitus
+(buzzing or hissing in the ears), altered vision or
+fainting episodes
+.
+[
+21
+]
+These symptoms, however, might be related to associated
+anxiety
+rather than the high blood pressure itself.
+[
+22
+]
+Long-standing untreated hypertension can cause organ damage with signs such as changes in the
+optic fundus
+seen by
+ophthalmoscopy
+.
+[
+23
+]
+The severity of
+hypertensive retinopathy
+correlates roughly with the duration or the severity of the hypertension.
+[
+21
+]
+Other hypertension-caused organ damage include
+chronic kidney disease
+and
+thickening of the heart muscle
+.
+[
+8
+]
+Secondary hypertension
+[
+edit
+]
+Main article:
+Secondary hypertension
+Secondary hypertension is hypertension due to an identifiable cause and may result in certain specific additional signs and symptoms. For example, as well as causing high blood pressure,
+Cushing's syndrome
+frequently causes
+truncal obesity
+,
+[
+24
+]
+glucose intolerance
+,
+moon face
+, a hump of fat behind the neck and shoulders (referred to as a buffalo hump), and purple abdominal
+stretch marks
+.
+[
+25
+]
+Hyperthyroidism
+frequently causes weight loss with increased appetite,
+fast heart rate
+,
+bulging eyes
+, and tremor.
+Renal artery stenosis
+may be associated with a localized abdominal
+bruit
+to the left or right of the midline, or in both locations.
+Coarctation of the aorta
+frequently causes a decreased blood pressure in the lower extremities relative to the arms, or delayed or absent
+femoral arterial pulses
+.
+Pheochromocytoma
+may cause abrupt episodes of hypertension accompanied by headache,
+palpitations
+,
+pale appearance
+, and
+excessive sweating
+.
+[
+25
+]
+Hypertensive crisis
+[
+edit
+]
+Main article:
+Hypertensive crisis
+Severely elevated blood pressure (equal to or greater than a systolic pressure of 180 mmHg or a diastolic pressure of 120 mmHg) is referred to as a hypertensive crisis.
+[
+26
+]
+Hypertensive crisis is categorized as either
+hypertensive urgency
+or
+hypertensive emergency
+, according to the absence or presence of end-organ damage, respectively.
+[
+27
+]
+[
+28
+]
+In hypertensive urgency, there is no evidence of end-organ damage resulting from the elevated blood pressure. In these cases, oral medications are used to lower blood pressure over 24 to 48 hours gradually.
+[
+29
+]
+In a hypertensive emergency, there is evidence of direct damage to one or more organs.
+[
+30
+]
+[
+31
+]
+The most affected organs include the brain, kidney, heart, and lungs, producing symptoms that may include
+confusion
+, drowsiness,
+chest pain
+, and breathlessness.
+[
+29
+]
+In a hypertensive emergency, the blood pressure must be reduced more rapidly to stop ongoing organ damage;
+[
+29
+]
+however, there is a lack of
+randomized controlled trial
+evidence for this approach.
+[
+31
+]
+Pregnancy
+[
+edit
+]
+Main articles:
+Gestational hypertension
+and
+Pre-eclampsia
+Hypertension occurs in approximately 8–10% of pregnancies.
+[
+25
+]
+Two blood pressure measurements, taken six hours apart, of greater than 140/90 mmHg are diagnostic of hypertension in pregnancy.
+[
+32
+]
+High blood pressure in pregnancy can be classified as pre-existing hypertension,
+gestational hypertension
+, or
+pre-eclampsia
+.
+[
+33
+]
+Women who have chronic hypertension before their pregnancy are at increased risk of complications such as
+premature birth
+,
+low birthweight
+or
+stillbirth
+.
+[
+34
+]
+Women who have high blood pressure and had complications in their pregnancy have three times the risk of developing
+cardiovascular disease
+compared to women with normal blood pressure who had no complications in pregnancy.
+[
+35
+]
+[
+36
+]
+Pre-eclampsia is a serious condition in the second half of pregnancy characterised by increased blood pressure and the presence of
+protein in the urine
+.
+[
+25
+]
+It occurs in about 5% of pregnancies and is responsible for approximately 16% of all
+maternal deaths
+globally.
+[
+25
+]
+Pre-eclampsia also doubles the risk of
+death of the baby around the time of birth
+.
+[
+25
+]
+Usually, there are no symptoms in pre-eclampsia, and it is detected by routine screening. When symptoms of pre-eclampsia occur, the most common are headache, visual disturbance (often "flashing lights"), vomiting, pain over the stomach, and
+swelling
+. Pre-eclampsia can occasionally progress to a life-threatening condition called
+eclampsia
+, which is a
+hypertensive emergency
+and has several serious complications including
+vision loss
+,
+brain swelling
+,
+seizures
+,
+kidney failure
+,
+pulmonary edema
+, and
+disseminated intravascular coagulation
+(a blood clotting disorder).
+[
+25
+]
+[
+37
+]
+In contrast,
+gestational hypertension
+is defined as new-onset hypertension in the second half of pregnancy without protein in the urine.
+[
+33
+]
+Exercise during pregnancy is generally safe and may improve outcomes in hypertension during pregnancy,
+[
+38
+]
+and may prevent gestational hypertension and related complications.
+[
+39
+]
+[
+40
+]
+[
+41
+]
+Children
+[
+edit
+]
+Failure to thrive
+,
+seizures
+,
+irritability
+,
+lack of energy
+, and
+difficulty in breathing
+[
+42
+]
+can be associated with hypertension in newborns and young infants. In older infants and children, hypertension can cause headache, unexplained irritability,
+fatigue
+, failure to thrive,
+blurred vision
+,
+nosebleeds
+, and
+facial paralysis
+.
+[
+42
+]
+[
+43
+]
+Causes
+[
+edit
+]
+Primary hypertension
+[
+edit
+]
+Main article:
+Essential hypertension
+Primary (also termed essential) hypertension results from a complex interaction of
+genes
+and environmental factors. More than 2000 common genetic variants with small effects on blood pressure have been identified in association with high blood pressure,
+[
+44
+]
+as well as some rare genetic variants with large effects on blood pressure.
+[
+45
+]
+There is also evidence that
+DNA methylation
+at multiple nearby
+CpG sites
+may link some sequence variation to blood pressure, possibly via effects on vascular or renal function.
+[
+46
+]
+Blood pressure rises with
+aging
+in societies with a
+western diet
+and lifestyle,
+[
+47
+]
+and the risk of becoming hypertensive in later life is substantial in most such societies.
+[
+48
+]
+Several environmental or lifestyle factors influence blood pressure. Reducing dietary salt intake lowers blood pressure;
+[
+49
+]
+as does weight loss,
+[
+50
+]
+exercise training,
+[
+51
+]
+vegetarian diets,
+[
+52
+]
+increased dietary potassium intake
+[
+53
+]
+and high dietary calcium supplementation.
+[
+54
+]
+Increasing alcohol intake is associated with higher blood pressure,
+[
+55
+]
+but the possible roles of other factors such as caffeine consumption,
+[
+56
+]
+and
+vitamin D deficiency
+[
+57
+]
+are less clear. Average blood pressure is higher in the winter than in the summer.
+[
+58
+]
+Depression
+is associated with hypertension
+[
+59
+]
+and
+loneliness
+is also a risk factor.
+[
+60
+]
+Periodontal disease
+is also associated with high blood pressure.
+[
+61
+]
+Arsenic
+exposure through drinking water is associated with elevated blood pressure.
+[
+62
+]
+Air pollution
+is associated with hypertension.
+[
+63
+]
+Whether these associations are causal is unknown.
+Gout
+and elevated blood
+uric acid
+are associated with hypertension
+[
+64
+]
+and evidence from genetic (
+Mendelian Randomization
+) studies and clinical trials indicate this relationship is likely to be causal.
+[
+65
+]
+Insulin resistance
+, which is common in obesity and is a component of
+syndrome X
+(or
+metabolic syndrome
+), can cause hyperuricemia and gout
+[
+66
+]
+and is also associated with elevated blood pressure.
+[
+67
+]
+Events in early life, such as
+low birth weight
+,
+maternal smoking
+, and lack of
+breastfeeding
+may be risk factors for adult essential hypertension, although the strength of the relationships is weak and the mechanisms linking these exposures to adult hypertension remain unclear.
+[
+68
+]
+Secondary hypertension
+[
+edit
+]
+Main article:
+Secondary hypertension
+Secondary hypertension results from an identifiable cause. Kidney disease is the most common secondary cause of hypertension.
+[
+25
+]
+Hypertension can also be caused by endocrine conditions, such as
+Cushing's syndrome
+,
+hyperthyroidism
+,
+hypothyroidism
+,
+acromegaly
+,
+Conn's syndrome
+or
+hyperaldosteronism
+,
+renal artery stenosis
+(from
+atherosclerosis
+or
+fibromuscular dysplasia
+),
+hyperparathyroidism
+, and
+pheochromocytoma
+.
+[
+25
+]
+[
+69
+]
+Other causes of secondary hypertension include
+obesity
+,
+sleep apnea
+,
+pregnancy
+,
+coarctation of the aorta
+, excessive eating of
+liquorice
+, excessive drinking of alcohol, certain prescription medicines, herbal remedies, and
+stimulants
+such as
+cocaine
+and
+methamphetamine
+.
+[
+25
+]
+[
+70
+]
+A 2018 review found that any alcohol increased blood pressure in males, while over one or two drinks increased the risk in females.
+[
+71
+]
+Pathophysiology
+[
+edit
+]
+Main article:
+Pathophysiology of hypertension
+Determinants of mean arterial pressure
+Illustration depicting the effects of high blood pressure
+In most people with established
+essential hypertension
+, increased resistance to blood flow (
+total peripheral resistance
+) accounts for the high pressure while
+cardiac output
+remains normal.
+[
+72
+]
+There is evidence that some younger people with
+prehypertension
+or 'borderline hypertension' have high cardiac output, an elevated heart rate and normal peripheral resistance, termed hyperkinetic borderline hypertension.
+[
+73
+]
+These individuals may develop the typical features of established essential hypertension in later life as their cardiac output falls and peripheral resistance rises with age.
+[
+73
+]
+Whether this pattern is typical of all people who ultimately develop hypertension is disputed.
+[
+74
+]
+The increased peripheral resistance in established hypertension is mainly attributable to structural narrowing of small arteries and
+arterioles
+,
+[
+75
+]
+although a reduction in the number or density of capillaries may also contribute.
+[
+76
+]
+It is unclear whether or not
+vasoconstriction
+of arteriolar blood vessels plays a role in hypertension.
+[
+77
+]
+Hypertension is also associated with decreased peripheral
+venous compliance
+,
+[
+78
+]
+which may increase
+venous return
+, increase cardiac
+preload
+and, ultimately, cause
+diastolic dysfunction
+. For patients having hypertension, higher
+heart rate variability
+(HRV) is a risk factor for
+atrial fibrillation
+.
+[
+79
+]
+Pulse pressure
+(the difference between systolic and diastolic blood pressure) is frequently increased in older people with hypertension.
+[
+80
+]
+This can mean that systolic pressure is abnormally high, but diastolic pressure may be normal or low, a condition termed
+isolated systolic hypertension
+.
+[
+81
+]
+The high pulse pressure in elderly people with hypertension or isolated systolic hypertension is explained by increased
+arterial stiffness
+, which typically accompanies aging and may be exacerbated by high blood pressure.
+[
+82
+]
+Many mechanisms have been proposed to account for the rise in peripheral resistance in hypertension. Most evidence implicates either disturbances in the kidneys' salt and water handling (particularly abnormalities in the intrarenal
+renin–angiotensin system
+)
+[
+83
+]
+or abnormalities of the
+sympathetic nervous system
+.
+[
+84
+]
+These mechanisms are not mutually exclusive, and both likely contribute to some extent in most cases of essential hypertension. It has also been suggested that
+endothelial dysfunction
+and vascular
+inflammation
+may also contribute to increased peripheral resistance and vascular damage in hypertension.
+[
+85
+]
+[
+86
+]
+Interleukin 17
+has garnered interest for its role in increasing the production of several other
+immune system chemical signals
+thought to be involved in hypertension such as
+tumor necrosis factor alpha
+,
+interleukin 1
+,
+interleukin 6
+, and
+interleukin 8
+.
+[
+87
+]
+Excessive
+sodium
+or insufficient
+potassium
+in the diet leads to excessive intracellular sodium, which contracts vascular smooth muscle, restricting blood flow and so increases blood pressure.
+[
+88
+]
+[
+89
+]
+Non-modulating essential hypertension is a form of
+salt
+-sensitive hypertension, where
+sodium
+intake does not modulate either
+adrenal
+or
+renal
+vascular
+responses to
+angiotensin II
+.
+[
+90
+]
+They make up 25% of the hypertensive population.
+[
+91
+]
+Diagnosis
+[
+edit
+]
+Hypertension is diagnosed based on persistently high resting blood pressure. Elevated blood pressure measurements on at least two separate occasions are required for a diagnosis of hypertension.
+[
+12
+]
+[
+13
+]
+[
+6
+]
+Measurement technique
+[
+edit
+]
+For an accurate diagnosis of hypertension to be made, proper
+blood pressure measurement
+technique must be used.
+[
+92
+]
+Improper measurement of blood pressure is common and can change the blood pressure reading by up to 10 mmHg, which can lead to misdiagnosis and misclassification of hypertension.
+[
+92
+]
+The correct blood pressure measurement technique involves several steps. Proper blood pressure measurement requires the person whose blood pressure is being measured to sit quietly for at least five minutes, which is then followed by the application of a properly fitted blood pressure cuff to a bare upper arm.
+[
+92
+]
+The person should be seated with their back supported, feet flat on the floor, and with their legs uncrossed.
+[
+92
+]
+The person whose blood pressure is being measured should avoid talking or moving during this process.
+[
+92
+]
+The arm being measured should be supported on a flat surface at the level of the heart.
+[
+92
+]
+Blood pressure measurement should be done in a quiet room so the medical professional checking the blood pressure can hear the
+Korotkoff sounds
+while listening to the
+brachial artery
+with a
+stethoscope
+for accurate blood pressure measurements.
+[
+92
+]
+[
+93
+]
+The blood pressure cuff should be deflated slowly (2–3 mmHg per second) while listening for the Korotkoff sounds.
+[
+93
+]
+The
+bladder
+should be emptied before a person's blood pressure is measured since this can increase blood pressure by up to 15/10 mmHg.
+[
+92
+]
+Multiple blood pressure readings (at least two) spaced 1–2 minutes apart should be obtained to ensure accuracy.
+[
+93
+]
+Ambulatory blood pressure monitoring over 12 to 24 hours is the most accurate method to confirm the diagnosis.
+[
+94
+]
+An exception to this is those with very high blood pressure readings, especially when there is poor
+organ
+function.
+[
+95
+]
+With the availability of 24-hour
+ambulatory blood pressure
+monitors and
+home blood pressure
+machines, the importance of not wrongly diagnosing those who have
+white coat hypertension
+has led to a change in protocols. In the United Kingdom, the current best practice is to follow up a single raised clinic reading with ambulatory measurement, or, less ideally, with home blood pressure monitoring over 7 days.
+[
+95
+]
+The
+United States Preventive Services Task Force
+also recommends getting measurements outside of the healthcare environment.
+[
+94
+]
+Pseudohypertension in the elderly
+or noncompressibility artery syndrome may also require consideration. This condition is believed to be due to
+calcification
+of the arteries, resulting in abnormally high blood pressure readings with a blood pressure cuff, while intra-arterial measurements of blood pressure are normal.
+[
+96
+]
+Orthostatic hypertension
+is when blood pressure increases upon standing.
+[
+97
+]
+Other investigations
+[
+edit
+]
+Once the diagnosis of hypertension has been made, further testing may be performed to find
+secondary hypertension
+, identify comorbidities such as
+diabetes
+, identify hypertension-caused organ damage such as
+chronic kidney disease
+or
+thickening of the heart muscle
+, and for
+cardiovascular disease
+risk stratification.
+[
+98
+]
+Secondary hypertension is more common in preadolescent children, with most cases caused by
+kidney disease
+. Primary or
+essential hypertension
+is more common in adolescents and adults and has multiple risk factors, including obesity and a family history of hypertension.
+[
+99
+]
+Initial assessment upon diagnosis of hypertension should include a complete
+history
+and
+physical examination
+. The
+World Health Organization
+suggests the following initial tests:
+serum electrolytes
+,
+serum creatinine
+,
+lipid panel
+,
+HbA1c
+or
+fasting glucose
+,
+urine dipstick
+and
+electrocardiogram
+(ECG/EKG).
+[
+98
+]
+Serum creatinine is measured to assess for the presence of kidney disease, which can be either the cause or the result of hypertension.
+[
+30
+]
+eGFR can also provide a baseline measurement of kidney function that can be used to monitor for side effects of certain
+anti-hypertensive drugs
+on kidney function. Testing of
+urine samples for protein
+is used as a secondary indicator of kidney disease. Lipid panel and glucose tests are done to identify comorbidities such as diabetes and
+hyperlipidemia
+and for cardiovascular risk stratification. Electrocardiogram testing is done to check for evidence that the heart is under strain from high blood pressure, such as
+thickening of the heart muscle
+or whether the heart has experienced a prior minor disturbance, such as a silent heart attack.
+Classification in adults
+[
+edit
+]
+The circumstances of measurement can influence blood pressure measurements.
+[
+100
+]
+Guidelines use different thresholds for office (also known as clinic), home (when the patient measures their blood pressure at home), and
+ambulatory blood pressure
+(using an automated device over 24 hours).
+[
+100
+]
+Blood pressure classifications
+Categories
+Systolic blood pressure
+,
+mmHg
+and/or
+Diastolic blood pressure
+, mmHg
+Method
+Office
+Home
+24h
+ambulatory
+Office
+Home
+24h ambulatory
+American College of Cardiology
+/
+American Heart Association
+(2017)
+[
+101
+]
+Normal
+<120
+<120
+<115
+and
+<80
+<80
+<75
+Elevated
+120–129
+120–129
+115–124
+and
+<80
+<80
+<75
+Hypertension, stage 1
+130–139
+130–134
+125–129
+or
+80–89
+80–84
+75–79
+Hypertension, stage 2
+≥140
+≥135
+≥130
+or
+≥90
+≥85
+≥80
+European Society of Cardiology
+(2024)
+[
+100
+]
+Non-elevated
+<120
+<120
+<115
+and
+<70
+<70
+<65
+Elevated
+120–139
+120–135
+115–129
+and
+70–89
+70–85
+65–79
+Hypertension
+≥140
+≥135
+≥130
+or
+≥90
+≥85
+≥80
+European Society of Hypertension
+/
+International Society of Hypertension
+(2023)
+[
+13
+]
+Optimal
+<120
+—
+N/a
+—
+N/a
+and
+<80
+—
+N/a
+—
+N/a
+Normal
+120–129
+—
+N/a
+—
+N/a
+and/or
+80–84
+—
+N/a
+—
+N/a
+High normal
+130–139
+—
+N/a
+—
+N/a
+and/or
+85–89
+—
+N/a
+—
+N/a
+Hypertension, grade 1
+140–159
+≥135
+≥130
+and/or
+90–99
+≥85
+≥80
+Hypertension, grade 2
+160–179
+—
+N/a
+—
+N/a
+and/or
+100–109
+—
+N/a
+—
+N/a
+Hypertension, grade 3
+≥180
+—
+N/a
+—
+N/a
+and/or
+≥110
+—
+N/a
+—
+N/a
+Children
+[
+edit
+]
+Hypertension occurs in around 0.2 to 3% of newborns; however, blood pressure is not measured routinely in healthy newborns.
+[
+43
+]
+Hypertension is more common in high risk newborns. A variety of factors, such as
+gestational age
+, postconceptional age, and
+birth weight
+need to be taken into account when deciding if blood pressure is normal in a newborn.
+[
+43
+]
+Hypertension, defined as elevated blood pressure over several visits, affects 1% to 5% of children and adolescents and is associated with long-term risks of ill-health.
+[
+102
+]
+Blood pressure rises with age in childhood, and, in children, hypertension is defined as an average systolic or diastolic blood pressure on three or more occasions equal or higher than the 95th percentile appropriate for the sex, age, and height of the child. High blood pressure must be confirmed on repeated visits, however, before characterizing a child as having hypertension.
+[
+102
+]
+In adolescents, it has been proposed that hypertension is diagnosed and classified using the same criteria as in adults.
+[
+102
+]
+Prevention
+[
+edit
+]
+Much of the disease burden of high blood pressure is experienced by people who are not labeled as hypertensive.
+[
+103
+]
+Consequently,
+population strategies
+are required to reduce the consequences of high blood pressure and reduce the need for antihypertensive medications. Lifestyle changes are recommended to lower blood pressure.
+Recommended lifestyle changes for the prevention of hypertension include:
+maintain normal body weight for adults (e.g.
+body mass index
+below 25
+kg/m
+2
+)
+[
+13
+]
+reduce dietary sodium intake
+to <100
+mmol/day (<6
+g of salt (sodium chloride) or <2.4
+g of sodium per day)
+[
+13
+]
+engage in regular aerobic physical activity with moderate intensity (minimum 150 minutes per week)
+[
+13
+]
+limit alcohol consumption,
+[
+13
+]
+max 1 drink for women and 2 for men per day
+[
+6
+]
+consume a diet rich in whole grains, fruits, and vegetables,
+[
+13
+]
+such as the
+DASH diet
+[
+13
+]
+not smoking
+[
+13
+]
+stress reduction and management,
+[
+13
+]
+e.g. by meditation and
+yoga
+[
+13
+]
+Effective lifestyle modification may lower blood pressure as much as an individual antihypertensive medication. Combinations of two or more lifestyle modifications can achieve even better results.
+[
+103
+]
+There is considerable evidence that
+reducing dietary salt intake lowers blood pressure
+, but whether this translates into a reduction in mortality and cardiovascular disease remains uncertain.
+[
+104
+]
+Estimated sodium intake ≥6 g/day and >3 g/day are both associated with high risk of death or major cardiovascular disease, but the association between high sodium intake and adverse outcomes is only observed in people with hypertension.
+[
+105
+]
+Consequently, in the absence of results from randomized controlled trials, the wisdom of reducing levels of dietary sodium intake below 3 g/day has been questioned.
+[
+104
+]
+ESC guidelines mention
+periodontitis
+is associated with poor cardiovascular health status.
+[
+106
+]
+The value of routine screening for hypertension is debated.
+[
+107
+]
+[
+108
+]
+[
+109
+]
+In 2004, the National High Blood Pressure Education Program recommended that children aged 3 years and older have blood pressure measurement at least once at every health care visit
+[
+102
+]
+and the
+National Heart, Lung, and Blood Institute
+and
+American Academy of Pediatrics
+made a similar recommendation.
+[
+110
+]
+However, the
+American Academy of Family Physicians
+[
+111
+]
+supports the view of the
+U.S. Preventive Services Task Force
+that the available evidence is insufficient to determine the balance of benefits and harms of screening for hypertension in children and adolescents who do not have symptoms.
+[
+112
+]
+[
+113
+]
+The US Preventive Services Task Force recommends screening adults 18 years or older for hypertension with office blood pressure measurement.
+[
+109
+]
+[
+114
+]
+Management
+[
+edit
+]
+Main article:
+Management of hypertension
+According to one review published in 2003, reduction of diastolic
+blood pressure
+by 5 mmHg can decrease the risk of stroke by 34%, of
+ischemic heart disease
+by 21%, and reduce the likelihood of
+dementia
+,
+heart failure
+, and
+mortality
+from
+cardiovascular disease
+.
+[
+115
+]
+Target blood pressure
+[
+edit
+]
+See also:
+Comparison of international blood pressure guidelines
+Various expert groups have produced guidelines regarding how low the blood pressure target should be when a person is treated for hypertension. These groups recommend a target below the range of 140–160 / 90–100 mmHg for the general population.
+[
+13
+]
+[
+14
+]
+[
+116
+]
+[
+117
+]
+Cochrane
+reviews recommend similar targets for subgroups such as people with diabetes
+[
+118
+]
+and people with prior cardiovascular disease.
+[
+119
+]
+Additionally, Cochrane reviews have found that for older individuals with moderate to high cardiovascular risk, the benefits of trying to achieve a lower-than-standard blood pressure target (at or below 140/90 mmHg) are outweighed by the risk associated with the intervention.
+[
+120
+]
+These findings may not be applicable to other populations.
+[
+120
+]
+Many expert groups recommend a slightly higher target of 150/90 mmHg for those somewhere between 60 and 80 years of age.
+[
+116
+]
+[
+117
+]
+[
+121
+]
+The JNC 8 and
+American College of Physicians
+recommend the target of 150/90 mmHg for those over 60 years of age,
+[
+14
+]
+[
+121
+]
+but some experts within these groups disagree with this recommendation.
+[
+122
+]
+Some expert groups have also recommended slightly lower targets in those with
+diabetes
+[
+123
+]
+or
+chronic kidney disease
+,
+[
+124
+]
+but others recommend the same target as the general population.
+[
+14
+]
+[
+118
+]
+The issue of what is the best target and whether targets should differ for high-risk individuals is unresolved,
+[
+125
+]
+although some experts propose more intensive blood pressure lowering than advocated in some guidelines.
+[
+126
+]
+The 2025 American Heart Association guidelines recommend medication for all adults with average blood pressure 140/90 mmHg or higher.
+[
+127
+]
+It also recommends medication for adults with blood pressure 130/80 mmHg or higher with a 10-year risk of cardiovascular disease 7.5% or more, and in those with blood pressure 130/80 mmHg or higher with a 10-year cardiovascular risk of less than 7.5% where blood pressure remains above 130/80 mmHg after 3–6 months of lifestyle modifications.
+[
+127
+]
+Lifestyle modifications
+[
+edit
+]
+The first line of treatment for hypertension is lifestyle changes, including dietary changes, physical activity, and weight loss. Though these have all been recommended in scientific advisories,
+[
+128
+]
+a
+Cochrane
+systematic review found no evidence (due to lack of data) for effects of weight loss diets on death, long-term complications or adverse events in persons with hypertension.
+[
+129
+]
+The review did find a decrease in body weight and blood pressure.
+[
+129
+]
+Their potential effectiveness is similar to and at times exceeds a single medication.
+[
+13
+]
+If hypertension is high enough to justify immediate use of medications, lifestyle changes are still recommended in conjunction with medication.
+Dietary changes shown to reduce blood pressure include diets with low sodium,
+[
+130
+]
+[
+131
+]
+the
+DASH diet
+(Dietary Approaches to Stop Hypertension),
+[
+132
+]
+which was the best against 11 other diets in an umbrella review,
+[
+133
+]
+and plant-based diets.
+[
+134
+]
+A 2024 clinical guideline recommended an increase
+dietary fiber
+intake,
+[
+135
+]
+with a minimum of 28g/day for women and 38g/day for men diagnosed with hypertension.
+[
+136
+]
+Increasing
+dietary potassium
+has a potential benefit for lowering the risk of hypertension.
+[
+137
+]
+[
+138
+]
+The 2015 Dietary Guidelines Advisory Committee (DGAC) stated that potassium is one of the shortfall nutrients which is under-consumed in the United States.
+[
+139
+]
+However, people who take certain antihypertensive medications (such as ACE-inhibitors or ARBs) should not take potassium supplements or potassium-enriched salts due to the risk of high levels of potassium.
+[
+140
+]
+Physical exercise regimens which are shown to reduce blood pressure include
+isometric resistance exercise
+,
+aerobic exercise
+,
+resistance exercise
+, and device-guided breathing.
+[
+141
+]
+A 2020
+Cochrane
+review examined the impact of walking on blood pressure and heart rate in adults. The review found that walking likely reduces
+systolic blood pressure
+, with consistent effects across different age groups and both sexes. There was also some evidence that walking may lower
+diastolic blood pressure
+and
+heart rate
+. Overall, the certainty of evidence ranged from moderate to low, depending on the outcome and subgroup. Walking appears to be a safe, accessible, and potentially effective strategy for supporting cardiovascular health.
+[
+142
+]
+Stress reduction techniques such as
+biofeedback
+or
+transcendental meditation
+may be considered as an add-on to other treatments to reduce hypertension, but do not have evidence for preventing cardiovascular disease on their own.
+[
+141
+]
+[
+143
+]
+[
+144
+]
+Self-monitoring and appointment reminders might support the use of other strategies to improve blood pressure control, but need further evaluation.
+[
+145
+]
+Medications
+[
+edit
+]
+Several classes of medications, collectively referred to as
+antihypertensive medications
+, are available for treating hypertension.
+First-line medications for hypertension include
+thiazide-diuretics
+,
+calcium channel blockers
+,
+angiotensin converting enzyme inhibitors
+(ACE inhibitors), and
+angiotensin receptor blockers
+(ARBs).
+[
+146
+]
+[
+14
+]
+These medications may be used alone or in combination (ACE inhibitors and ARBs are not recommended for use together); the latter option may serve to minimize counter-regulatory mechanisms that act to restore blood pressure values to pre-treatment levels,
+[
+14
+]
+[
+147
+]
+although the evidence for first-line combination therapy is not strong enough.
+[
+148
+]
+Most people require more than one medication to control their hypertension.
+[
+128
+]
+Medications for blood pressure control should be implemented by a stepped care approach when target levels are not reached.
+[
+145
+]
+Withdrawal of such medications in the elderly can be considered by healthcare professionals, because there is no strong evidence of an effect on mortality,
+myocardial infarction
+, or
+stroke
+.
+[
+149
+]
+Previously,
+beta-blockers
+such as
+atenolol
+were thought to have similar beneficial effects when used as first-line therapy for hypertension. However, a Cochrane review that included 13 trials found that the effects of beta-blockers are inferior to those of other antihypertensive medications in preventing cardiovascular disease.
+[
+150
+]
+The prescription of antihypertensive medication for children with hypertension has limited evidence. There is limited evidence that compares it with a placebo and shows a modest effect on blood pressure in the short term. Administration of a higher dose did not reduce blood pressure further.
+[
+151
+]
+Resistant hypertension
+[
+edit
+]
+Resistant hypertension is defined as high blood pressure that remains above a target level, despite being prescribed three or more antihypertensive drugs simultaneously with different
+mechanisms of action
+.
+[
+152
+]
+[
+13
+]
+[
+153
+]
+Failing to take prescribed medications as directed
+is an important cause of resistant hypertension.
+[
+154
+]
+To confirm true resistant hypertension, the drug treatment regimen should consist of optimal or best tolerated doses. Inadequate blood pressure control should be verified by out-of-office measurement methods, such as home blood pressure monitoring or 24-hour ambulatory blood pressure monitoring, to exclude white-coat effect. Adherence to therapy should be confirmed and secondary causes of hypertension excluded. If these factors are not addressed, the terms pseudoresistant or apparent resistant hypertension are proposed.
+[
+13
+]
+Some common secondary causes of resistant hypertension include
+obstructive sleep apnea
+,
+primary aldosteronism
+and
+renal artery stenosis
+,
+[
+127
+]
+and some rare secondary causes are
+pheochromocytoma
+and
+coarctation of the aorta
+.
+[
+155
+]
+As many as one in five people with resistant hypertension have primary aldosteronism, which is a treatable and sometimes curable condition.
+[
+156
+]
+Resistant hypertension may also result from chronically high activity of the
+autonomic nervous system
+, an effect known as neurogenic hypertension.
+[
+157
+]
+Electrical therapies that stimulate the
+baroreflex
+are being studied as an option for lowering blood pressure in people in this situation.
+[
+158
+]
+Refractory hypertension
+is described by one source as elevated
+blood pressure
+unmitigated by five or more concurrent antihypertensive agents of different classes.
+[
+159
+]
+People with refractory hypertension typically have increased sympathetic nervous system activity, and are at high risk for more severe cardiovascular diseases and all-cause mortality.
+[
+159
+]
+[
+160
+]
+Epidemiology
+[
+edit
+]
+Hypertension adults 30 to 79
+Adults
+[
+edit
+]
+In 2024, one in three or 33% of the
+world population
+were estimated to have hypertension.
+[
+6
+]
+Of all people with hypertension, almost half (about 44%) do not know that they have hypertension.
+[
+6
+]
+In 1990, about 650 million people had a diagnosis of hypertension, which increased to 1.4 billion by 2024 mostly due a rise of the number of older adults in low- and middle-income countries.
+[
+6
+]
+Hypertension is slightly more frequent in men.
+[
+9
+]
+In people aged under 50 years, more men than women have hypertension,
+[
+9
+]
+and in ages above 50 years the prevalence of hypertension is the same in men and women.
+[
+9
+]
+In ages above 65 years, more women than men have hypertension.
+[
+13
+]
+Hypertension becomes more common with age.
+[
+5
+]
+Hypertension is common in high, medium, and low-income countries.
+[
+2
+]
+It is more common in people of low
+socioeconomic status
+.
+[
+161
+]
+Hypertension is around twice as common in
+diabetics
+.
+[
+162
+]
+In 2019, rates of diagnosed hypertension were highest in Africa (30% for both sexes), and lowest in the Americas (18% for both sexes).
+[
+9
+]
+Rates also vary markedly within regions with country-level rates as low as 22.8% (men) and 18.4% (women) in Peru and as high as 61.6% (men) and 50.9% (women) in Paraguay.
+[
+9
+]
+In 1995, it was estimated that 24% of the United States population had hypertension or were taking antihypertensive medication.
+[
+163
+]
+By 2004 this had increased to 29%
+[
+164
+]
+[
+165
+]
+and further to 32% (76 million US adults) by 2017.
+[
+12
+]
+In 2017, with the American guidelines' change in definition for hypertension, 46% of people in the United States are affected.
+[
+12
+]
+Some data shows African-American adults in the United States have among the highest rates of hypertension in the world at 44%.
+[
+166
+]
+However, other research argues there has been a "myopic perspective" on American data and notes that other groups, particularly Russians and Eastern Europeans, have markedly higher rates of hypertension than Black Americans.
+[
+167
+]
+Differences in hypertension rates are multifactorial and under study.
+[
+168
+]
+Women high blood pressure
+Male high blood pressure
+Children
+[
+edit
+]
+Rates of high blood pressure in children and adolescents have increased in the last 20 years in the United States.
+[
+169
+]
+Childhood hypertension, particularly in pre-adolescents, is more often secondary to an underlying disorder than in adults. Kidney disease is the most common secondary cause of hypertension in children and adolescents. Nevertheless, primary or essential hypertension accounts for most cases.
+[
+170
+]
+Prognosis
+[
+edit
+]
+Main article:
+Complications of hypertension
+Diagram illustrating the main complications of persistent high blood pressure
+Image of veins from Harvey's
+Exercitatio Anatomica de Motu Cordis et Sanguinis in Animalibus
+Hypertension is the most important
+preventable risk factor for premature death
+worldwide.
+[
+171
+]
+It increases the risk of
+ischemic heart disease
+,
+[
+172
+]
+stroke
+,
+[
+25
+]
+peripheral vascular disease
+,
+[
+173
+]
+and other
+cardiovascular diseases
+, including
+heart failure
+,
+aortic aneurysms
+, diffuse
+atherosclerosis
+,
+chronic kidney disease
+,
+atrial fibrillation
+,
+cancers
+,
+leukemia
+and
+pulmonary embolism
+.
+[
+11
+]
+[
+25
+]
+Hypertension is also a risk factor for
+cognitive impairment
+and
+dementia
+.
+[
+25
+]
+Other complications include
+hypertensive retinopathy
+and
+hypertensive nephropathy
+.
+[
+30
+]
+Deaths due to high blood pressure
+Death rates from high blood pressure
+History
+[
+edit
+]
+Main article:
+History of hypertension
+Measurement
+[
+edit
+]
+Modern understanding of the cardiovascular system began with the work of physician
+William Harvey
+(1578–1657), who described the circulation of blood in his book "
+De motu cordis
+". The English clergyman
+Stephen Hales
+made the first published measurement of blood pressure in 1733.
+[
+174
+]
+[
+175
+]
+However, hypertension as a clinical entity came into its own with the invention of the cuff-based
+sphygmomanometer
+by
+Scipione Riva-Rocci
+in 1896.
+[
+176
+]
+This allowed easy measurement of systolic pressure in the clinic. In 1905,
+Nikolai Korotkoff
+improved the technique by describing the
+Korotkoff sounds
+that are heard when the artery is auscultated with a stethoscope while the sphygmomanometer cuff is deflated.
+[
+175
+]
+This permitted systolic and diastolic pressure to be measured.
+Identification
+[
+edit
+]
+Symptoms similar to those of patients with a hypertensive crisis are discussed in medieval Persian medical texts in the chapter of "fullness disease".
+[
+177
+]
+The symptoms include headache, heaviness in the head, sluggish movements, general redness and warm to touch feel of the body, prominent, distended and tense vessels, a fullness of the pulse, distension of the skin, coloured and dense urine, loss of appetite, weak eyesight, impairment of thinking, yawning, drowsiness, vascular rupture, and hemorrhagic stroke.
+[
+178
+]
+Fullness disease was presumed to be due to an excessive amount of blood within the blood vessels.
+Descriptions of hypertension as a disease came, among others, from
+Thomas Young
+in 1808 and especially
+Richard Bright
+in 1836.
+[
+174
+]
+The first report of elevated blood pressure in a person without evidence of kidney disease was made by
+Frederick Akbar Mahomed
+(1849–1884).
+[
+179
+]
+Until the 1990s, systolic hypertension was defined as systolic blood pressure of 160
+mmHg or greater.
+[
+180
+]
+In 1993, the WHO/ISH guidelines defined 140 mmHg as the threshold for hypertension.
+[
+181
+]
+Treatment
+[
+edit
+]
+Historically, the treatment for what was called the "hard pulse disease" consisted of reducing the quantity of blood by
+bloodletting
+or the application of
+leeches
+.
+[
+174
+]
+This was advocated by The
+Yellow Emperor
+of China,
+Cornelius Celsus
+,
+Galen
+, and
+Hippocrates
+.
+[
+174
+]
+The therapeutic approach for the treatment of hard pulse disease included lifestyle changes (staying away from anger and
+sexual intercourse
+) and dietary program for patients (avoiding the consumption of
+wine
+, meat, and pastries, reducing the volume of food in a meal, maintaining a low-energy diet and the dietary usage of
+spinach
+and
+vinegar
+).
+In the 19th and 20th centuries, before effective pharmacological treatment for hypertension became possible, three treatment modalities were used, all with numerous side effects: strict sodium restriction (for example the
+rice diet
+[
+174
+]
+),
+sympathectomy
+(surgical ablation of parts of the
+sympathetic nervous system
+), and pyrogen therapy (injection of substances that caused a fever, indirectly reducing blood pressure).
+[
+174
+]
+[
+182
+]
+The first chemical for hypertension,
+sodium thiocyanate
+, was used in 1900 but had many side effects and was unpopular.
+[
+174
+]
+Several other agents were developed after the
+Second World War
+, the most popular and reasonably effective of which were
+tetramethylammonium chloride
+,
+hexamethonium
+,
+hydralazine
+, and
+reserpine
+(derived from the medicinal plant
+Rauvolfia serpentina
+). None of these were well tolerated.
+[
+183
+]
+[
+184
+]
+A major breakthrough was achieved with the discovery of the first well-tolerated orally available agents. The first was
+chlorothiazide
+, the first
+thiazide
+diuretic
+and developed from the antibiotic
+sulfanilamide
+, which became available in 1958.
+[
+174
+]
+[
+185
+]
+Subsequently,
+beta blockers
+,
+calcium channel blockers
+,
+angiotensin converting enzyme
+(ACE) inhibitors,
+angiotensin receptor blockers
+, and
+renin inhibitors
+were developed as antihypertensive agents.
+[
+182
+]
+Society and culture
+[
+edit
+]
+Awareness
+[
+edit
+]
+Graph showing the prevalence of awareness, treatment, and control of hypertension compared between the four studies of
+NHANES
+[
+164
+]
+The
+World Health Organization
+has identified hypertension (high blood pressure) as the leading cause of
+cardiovascular
+mortality
+.
+[
+186
+]
+The World Hypertension League
+(WHL), an umbrella organization of 85 national hypertension societies and leagues, recognized that more than 50% of the hypertensive population worldwide are unaware of their condition.
+[
+186
+]
+To address this problem, the WHL initiated a global awareness campaign on hypertension in 2005 and dedicated 17 May of each year as
+World Hypertension Day
+.
+[
+187
+]
+Economics
+[
+edit
+]
+High blood pressure is the most common chronic medical problem prompting visits to primary health care providers in the US. The American Heart Association estimated the direct and indirect costs of high blood pressure in 2010 as $76.6 billion.
+[
+166
+]
+In the US, 80% of people with hypertension are aware of their condition, 71% take some antihypertensive medication, but only 48% of people aware that they have hypertension adequately control it.
+[
+166
+]
+Adequate management of hypertension can be hampered by inadequacies in the diagnosis, treatment, or control of high blood pressure.
+[
+188
+]
+Health care providers
+face many obstacles to achieving blood pressure control, including resistance to taking multiple medications to reach blood pressure goals. People also face the challenges of adhering to medical schedules and making lifestyle changes. Nonetheless, the achievement of blood pressure goals is possible, and most importantly, lowering blood pressure significantly reduces the risk of death due to heart disease and stroke, the development of other debilitating conditions, and the cost associated with advanced medical care.
+[
+189
+]
+[
+190
+]
+The cost of medications discourages many patients from continuing medication.
+[
+191
+]
+Other animals
+[
+edit
+]
+Hypertension in cats is indicated by a systolic blood pressure greater than 150 mmHg, with
+amlodipine
+the usual first-line treatment. A cat with a systolic blood pressure above 170 mmHg is considered hypertensive. If a cat has other problems, such as kidney disease or retina detachment, then a blood pressure below 160 mmHg may also need to be monitored.
+[
+192
+]
+Normal blood pressure in dogs can differ substantially between breeds, but hypertension is often diagnosed if systolic blood pressure is above 160 mmHg, particularly if this is associated with target organ damage.
+[
+193
+]
+Inhibitors of the renin-angiotensin system and calcium channel blockers are often used to treat hypertension in dogs, although other drugs may be indicated for specific conditions causing high blood pressure.
+[
+193
+]
+See also
+[
+edit
+]
+Comparison of international blood pressure guidelines
+References
+[
+edit
+]
+1
+2
+3
+4
+5
+6
+"About High Blood Pressure"
+.
+Centers for Disease Control and Prevention
+(CDC)
+. 15 May 2024.
+Archived
+from the original on 20 May 2024
+. Retrieved
+22 May
+2024
+.
+1
+2
+3
+Lackland DT, Weber MA (May 2015). "Global burden of cardiovascular disease and stroke: hypertension at the core".
+The Canadian Journal of Cardiology
+.
+31
+(5):
+569–
+571.
+doi
+:
+10.1016/j.cjca.2015.01.009
+.
+PMID
+25795106
+.
+1
+2
+Mendis S, Puska P, Norrving B (2011).
+Global atlas on cardiovascular disease prevention and control
+(PDF)
+(1st
+ed.). Geneva: World Health Organization in collaboration with the World Heart Federation and the World Stroke Organization. p.
+38.
+ISBN
+978-92-4-156437-3
+. Archived from
+the original
+(PDF)
+on 17 August 2014.
+1
+2
+Hernandorena I, Duron E, Vidal JS, Hanon O (July 2017). "Treatment options and considerations for hypertensive patients to prevent dementia".
+Expert Opinion on Pharmacotherapy
+(Review).
+18
+(10):
+989–
+1000.
+doi
+:
+10.1080/14656566.2017.1333599
+.
+PMID
+28532183
+.
+S2CID
+46601689
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+Poulter NR, Prabhakaran D, Caulfield M (August 2015). "Hypertension".
+Lancet
+.
+386
+(9995):
+801–
+812.
+Bibcode
+:
+2015Lanc..386..801P
+.
+doi
+:
+10.1016/s0140-6736(14)61468-9
+.
+PMID
+25832858
+.
+S2CID
+208792897
+.
+1
+2
+3
+4
+5
+6
+7
+"Hypertension"
+.
+World Health Organization
+(WHO). 25 September 2025
+. Retrieved
+1 October
+2025
+.
+1
+2
+3
+"How Is High Blood Pressure Treated?"
+.
+National Heart, Lung, and Blood Institute
+. 10 September 2015. Archived from
+the original
+on 6 April 2016
+. Retrieved
+6 March
+2016
+.
+1
+2
+3
+4
+5
+6
+7
+Global report on hypertension: the race against a silent killer
+. Geneva:
+World Health Organization
+(WHO). 19 March 2023.
+ISBN
+978-92-4-008106-2
+.
+1
+2
+3
+4
+5
+6
+Ezzati M, Zhou B, Carrillo-Larco RM, Danaei G, Riley LM, Paciorek CJ, et
+al. (NCD Risk Factor Collaboration) (11 September 2021).
+"Worldwide trends in hypertension prevalence and progress in treatment and control from 1990 to 2019: a pooled analysis of 1201 population-representative studies with 104 million participants"
+.
+The Lancet
+.
+398
+(10304):
+957–
+980.
+Bibcode
+:
+2021Lanc..398..957Z
+.
+doi
+:
+10.1016/S0140-6736(21)01330-1
+.
+ISSN
+0140-6736
+.
+PMC
+8446938
+.
+PMID
+34450083
+.
+S2CID
+237286310
+.
+1
+2
+Naish J, Court DS (2014).
+Medical sciences
+(2
+ed.). Elsevier Health Sciences. p.
+562.
+ISBN
+978-0-7020-5249-1
+.
+1
+2
+Lau DH, Nattel S, Kalman JM, Sanders P (August 2017).
+"Modifiable Risk Factors and Atrial Fibrillation"
+.
+Circulation
+(Review).
+136
+(6):
+583–
+596.
+doi
+:
+10.1161/CIRCULATIONAHA.116.023163
+.
+PMID
+28784826
+.
+1
+2
+3
+4
+5
+6
+Whelton PK, Carey RM, Aronow WS, Casey DE, Collins KJ, Dennison Himmelfarb C, DePalma SM, Gidding S, Jamerson KA, Jones DW, MacLaughlin EJ, Muntner P, Ovbiagele B, Smith SC, Spencer CC, Stafford RS, Taler SJ, Thomas RJ, Williams KA, Williamson JD, Wright JT (June 2018).
+"2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines"
+.
+Hypertension
+.
+71
+(6):
+e13–
+e115.
+doi
+:
+10.1161/HYP.0000000000000065
+.
+PMID
+29133356
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+Mancia G, Kreutz R, Brunström M, Burnier M, Grassi G, Januszewicz A, et
+al. (1 December 2023).
+"2023 ESH Guidelines for the management of arterial hypertension: The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the International Society of Hypertension (ISH) and the European Renal Association (ERA)"
+.
+Journal of Hypertension
+.
+41
+(12):
+1874–
+2071.
+doi
+:
+10.1097/HJH.0000000000003480
+.
+hdl
+:
+11379/603005
+.
+ISSN
+1473-5598
+.
+PMID
+37345492
+.
+1
+2
+3
+4
+5
+6
+James PA, Oparil S, Carter BL, Cushman WC, Dennison-Himmelfarb C, Handler J, Lackland DT, LeFevre ML, MacKenzie TD, Ogedegbe O, Smith SC, Svetkey LP, Taler SJ, Townsend RR, Wright JT, Narva AS, Ortiz E (February 2014).
+"2014 evidence-based guideline for the management of high blood pressure in adults: report from the panel members appointed to the Eighth Joint National Committee (JNC 8)"
+.
+JAMA
+.
+311
+(5):
+507–
+520.
+doi
+:
+10.1001/jama.2013.284427
+.
+PMID
+24352797
+.
+↑
+Musini VM, Tejani AM, Bassett K, Puil L, Thompson W, Wright JM (9 October 2025).
+"Pharmacotherapy for hypertension in adults 60 years or older"
+.
+The Cochrane Database of Systematic Reviews
+.
+10
+(10) CD000028.
+doi
+:
+10.1002/14651858.CD000028.pub4
+.
+ISSN
+1469-493X
+.
+PMC
+12509793
+.
+PMID
+41065416
+.
+↑
+Sundström J, Arima H, Jackson R, Turnbull F, Rahimi K, Chalmers J, Woodward M, Neal B (February 2015). "Effects of blood pressure reduction in mild hypertension: a systematic review and meta-analysis".
+Annals of Internal Medicine
+.
+162
+(3):
+184–
+191.
+doi
+:
+10.7326/M14-0773
+.
+PMID
+25531552
+.
+S2CID
+46553658
+.
+↑
+Xie X, Atkins E, Lv J, Bennett A, Neal B, Ninomiya T, Woodward M, MacMahon S, Turnbull F, Hillis GS, Chalmers J, Mant J, Salam A, Rahimi K, Perkovic V, Rodgers A (January 2016).
+"Effects of intensive blood pressure lowering on cardiovascular and renal outcomes: updated systematic review and meta-analysis"
+.
+Lancet
+.
+387
+(10017):
+435–
+443.
+doi
+:
+10.1016/S0140-6736(15)00805-3
+.
+PMID
+26559744
+.
+S2CID
+36805676
+.
+↑
+Falk JM, Froentjes L, Kirkwood JE, Heran BS, Kolber MR, Allan GM, Korownyk CS, Garrison SR (17 December 2024).
+"Higher blood pressure targets for hypertension in older adults"
+.
+The Cochrane Database of Systematic Reviews
+.
+2024
+(12) CD011575.
+doi
+:
+10.1002/14651858.CD011575.pub3
+.
+ISSN
+1469-493X
+.
+PMC
+11650777
+.
+PMID
+39688187
+.
+↑
+Wang D, Wright JM, Adams SP, Cundiff DK, Gueyffier F, Grenet G, Ambasta A (24 September 2025). "Pharmacotherapy for mild hypertension".
+The Cochrane Database of Systematic Reviews
+.
+2025
+(9) CD006742.
+doi
+:
+10.1002/14651858.CD006742.pub3
+.
+PMC
+12458985.
+PMID
+40990196
+.
+↑
+Musini VM, Gueyffier F, Puil L, Salzwedel DM, Wright JM (August 2017).
+"Pharmacotherapy for hypertension in adults aged 18 to 59 years"
+.
+The Cochrane Database of Systematic Reviews
+.
+2017
+(8) CD008276.
+doi
+:
+10.1002/14651858.CD008276.pub2
+.
+PMC
+6483466
+.
+PMID
+28813123
+.
+1
+2
+Fisher ND, Williams GH (2005). "Hypertensive vascular disease". In Kasper DL, Braunwald E, Fauci AS, et
+al. (eds.).
+Harrison's Principles of Internal Medicine
+(16th
+ed.). New York: McGraw-Hill. pp.
+1463
+–1481.
+ISBN
+978-0-07-139140-5
+.
+↑
+Marshall IJ, Wolfe CD, McKevitt C (July 2012).
+"Lay perspectives on hypertension and drug adherence: systematic review of qualitative research"
+.
+The BMJ
+.
+345
+e3953.
+doi
+:
+10.1136/bmj.e3953
+.
+PMC
+3392078
+.
+PMID
+22777025
+.
+↑
+Wong TY, Wong T, Mitchell P (February 2007). "The eye in hypertension".
+Lancet
+.
+369
+(9559):
+425–
+435.
+doi
+:
+10.1016/S0140-6736(07)60198-6
+.
+PMID
+17276782
+.
+S2CID
+28579025
+.
+↑
+"Truncal obesity (Concept Id: C4551560) – MedGen – NCBI"
+.
+ncbi.nlm.nih.gov
+. Retrieved
+24 April
+2022
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+O'Brien E, Beevers DG, Lip GY (2007).
+ABC of hypertension
+. London: BMJ Books.
+ISBN
+978-1-4051-3061-5
+.
+↑
+"High Blood Pressure – Understanding the Silent Killer"
+.
+Center for Drug Evaluation and Research
+. U.S. Food and Drug Administration. 21 January 2021.
+↑
+Rodriguez MA, Kumar SK, De Caro M (1 April 2010). "Hypertensive crisis".
+Cardiology in Review
+.
+18
+(2):
+102–
+107.
+doi
+:
+10.1097/CRD.0b013e3181c307b7
+.
+PMID
+20160537
+.
+S2CID
+34137590
+.
+↑
+"Hypertensive Crisis"
+.
+heart.org
+.
+Archived
+from the original on 25 July 2015
+. Retrieved
+25 July
+2015
+.
+1
+2
+3
+Marik PE, Varon J (June 2007).
+"Hypertensive crises: challenges and management"
+.
+Chest
+.
+131
+(6):
+1949–
+1962.
+doi
+:
+10.1378/chest.06-2490
+.
+PMID
+17565029
+.
+1
+2
+3
+Chobanian AV, Bakris GL, Black HR, Cushman WC, Green LA, Izzo JL, Jones DW, Materson BJ, Oparil S, Wright JT, Roccella EJ, et
+al. (Joint National Committee on Prevention, National High Blood Pressure Education Program Coordinating Committee) (December 2003).
+"Seventh report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure"
+.
+Hypertension
+.
+42
+(6):
+1206–
+1252.
+doi
+:
+10.1161/01.HYP.0000107251.49515.c2
+.
+PMID
+14656957
+.
+1
+2
+Perez MI, Musini VM (January 2008).
+"Pharmacological interventions for hypertensive emergencies"
+.
+The Cochrane Database of Systematic Reviews
+.
+2008
+(1) CD003653.
+doi
+:
+10.1002/14651858.CD003653.pub3
+.
+PMC
+6991936
+.
+PMID
+18254026
+.
+↑
+Harrison's principles of internal medicine
+(18th
+ed.). New York: McGraw-Hill. 2011. pp.
+55–
+61.
+ISBN
+978-0-07-174889-6
+.
+1
+2
+Garovic VD, Dechend R, Easterling T, Karumanchi SA, McMurtry Baird S, Magee LA, Rana S, Vermunt JV, August P (February 2022).
+"Hypertension in Pregnancy: Diagnosis, Blood Pressure Goals, and Pharmacotherapy: A Scientific Statement From the American Heart Association"
+.
+Hypertension
+.
+79
+(2):
+e21–
+e41.
+doi
+:
+10.1161/HYP.0000000000000208
+.
+ISSN
+1524-4563
+.
+PMC
+9031058
+.
+PMID
+34905954
+.
+↑
+Al Khalaf SY, O'Reilly ÉJ, Barrett PM, B Leite DF, Pawley LC, McCarthy FP, Khashan AS (May 2021).
+"Impact of Chronic Hypertension and Antihypertensive Treatment on Adverse Perinatal Outcomes: Systematic Review and Meta-Analysis"
+.
+Journal of the American Heart Association
+.
+10
+(9) e018494.
+doi
+:
+10.1161/JAHA.120.018494
+.
+PMC
+8200761
+.
+PMID
+33870708
+.
+↑
+"Pregnancy complications increase the risk of heart attacks and stroke in women with high blood pressure"
+.
+NIHR Evidence
+. 21 November 2023.
+doi
+:
+10.3310/nihrevidence_60660
+.
+S2CID
+265356623
+.
+↑
+Al Khalaf S, Chappell LC, Khashan AS, McCarthy FP, O'Reilly ÉJ (July 2023).
+"Association Between Chronic Hypertension and the Risk of 12 Cardiovascular Diseases Among Parous Women: The Role of Adverse Pregnancy Outcomes"
+.
+Hypertension
+.
+80
+(7):
+1427–
+1438.
+doi
+:
+10.1161/HYPERTENSIONAHA.122.20628
+.
+PMID
+37170819
+.
+↑
+Gibson P (30 July 2009).
+"Hypertension and Pregnancy"
+.
+eMedicine Obstetrics and Gynecology
+. Medscape.
+Archived
+from the original on 24 July 2009
+. Retrieved
+16 June
+2009
+.
+↑
+Ribeiro MM, Andrade A, Nunes I (27 January 2022).
+"Physical exercise in pregnancy: benefits, risks and prescription"
+.
+Journal of Perinatal Medicine
+.
+50
+(1):
+4–
+17.
+doi
+:
+10.1515/jpm-2021-0315
+.
+ISSN
+1619-3997
+.
+PMID
+34478617
+.
+↑
+Martínez-Vizcaíno V, Sanabria-Martínez G, Fernández-Rodríguez R, Cavero-Redondo I, Pascual-Morena C, Álvarez-Bueno C, Martínez-Hortelano JA (February 2023).
+"Exercise during pregnancy for preventing gestational diabetes mellitus and hypertensive disorders: An umbrella review of randomised controlled trials and an updated meta-analysis"
+.
+BJOG: An International Journal of Obstetrics and Gynaecology
+.
+130
+(3):
+264–
+275.
+doi
+:
+10.1111/1471-0528.17304
+.
+ISSN
+1471-0528
+.
+PMC
+10092296
+.
+PMID
+36156844
+.
+↑
+Liu YH, Zhang YS, Chen JY, Wang ZJ, Liu YX, Li JQ, Xu XJ, Xie NJ, Lye S (May 2023). "Comparative effectiveness of prophylactic strategies for preeclampsia: a network meta-analysis of randomized controlled trials".
+American Journal of Obstetrics and Gynecology
+.
+228
+(5):
+535–
+546.
+doi
+:
+10.1016/j.ajog.2022.10.014
+.
+ISSN
+1097-6868
+.
+PMID
+36283479
+.
+↑
+Zhang J, Wang HP, Wang XX (July 2023).
+"Effects of aerobic exercise performed during pregnancy on hypertension and gestational diabetes: a systematic review and meta-analysis"
+.
+The Journal of Sports Medicine and Physical Fitness
+.
+63
+(7):
+852–
+863.
+doi
+:
+10.23736/S0022-4707.23.14578-6
+.
+ISSN
+1827-1928
+.
+PMID
+37067246
+.
+1
+2
+Rodriguez-Cruz E, Ettinger LM (6 April 2010).
+"Hypertension"
+.
+eMedicine Pediatrics: Cardiac Disease and Critical Care Medicine
+. Medscape.
+Archived
+from the original on 15 August 2009
+. Retrieved
+16 June
+2009
+.
+1
+2
+3
+Dionne JM, Abitbol CL, Flynn JT (January 2012). "Hypertension in infancy: diagnosis, management and outcome".
+Pediatric Nephrology
+.
+27
+(1):
+17–
+32.
+doi
+:
+10.1007/s00467-010-1755-z
+.
+PMID
+21258818
+.
+S2CID
+10698052
+.
+↑
+Keaton JM, Kamali Z, Xie T, Vaez A, Williams A, Goleva SB, Ani A, Evangelou E, Hellwege JN, Yengo L, Young WJ, Traylor M, Giri A, Zheng Z, Zeng J (May 2024).
+"Genome-wide analysis in over 1 million individuals of European ancestry yields improved polygenic risk scores for blood pressure traits"
+.
+Nature Genetics
+.
+56
+(5):
+778–
+791.
+doi
+:
+10.1038/s41588-024-01714-w
+.
+ISSN
+1061-4036
+.
+PMC
+11096100
+.
+PMID
+38689001
+.
+↑
+Lifton RP, Gharavi AG, Geller DS (February 2001).
+"Molecular mechanisms of human hypertension"
+.
+Cell
+.
+104
+(4):
+545–
+556.
+doi
+:
+10.1016/S0092-8674(01)00241-0
+.
+PMID
+11239411
+.
+↑
+Kato N, Loh M, Takeuchi F, Verweij N, Wang X, Zhang W, et
+al. (November 2015).
+"Trans-ancestry genome-wide association study identifies 12 genetic loci influencing blood pressure and implicates a role for DNA methylation"
+.
+Nature Genetics
+.
+47
+(11):
+1282–
+1293.
+doi
+:
+10.1038/ng.3405
+.
+PMC
+4719169
+.
+PMID
+26390057
+.
+↑
+Carrera-Bastos P, Fontes-Villalba M, O'Keefe JH, Lindeberg S, Cordain L (9 March 2011).
+"The western diet and lifestyle and diseases of civilization"
+.
+Research Reports in Clinical Cardiology
+.
+2
+:
+15–
+35.
+doi
+:
+10.2147/RRCC.S16919
+.
+S2CID
+3231706
+. Retrieved
+9 February
+2021
+.
+↑
+Vasan RS,
+Beiser A
+, Seshadri S, Larson MG, Kannel WB, D'Agostino RB, Levy D (February 2002).
+"Residual lifetime risk for developing hypertension in middle-aged women and men: The Framingham Heart Study"
+.
+JAMA
+.
+287
+(8):
+1003–
+1010.
+doi
+:
+10.1001/jama.287.8.1003
+.
+PMID
+11866648
+.
+↑
+Filippini T, Malavolti M, Whelton PK, Naska A, Orsini N, Vinceti M (20 April 2021).
+"Blood Pressure Effects of Sodium Reduction: Dose–Response Meta-Analysis of Experimental Studies"
+.
+Circulation
+.
+143
+(16):
+1542–
+1567.
+doi
+:
+10.1161/CIRCULATIONAHA.120.050371
+.
+ISSN
+0009-7322
+.
+PMC
+8055199
+.
+PMID
+33586450
+.
+↑
+Hall ME, Cohen JB, Ard JD, Egan BM, Hall JE, Lavie CJ, Ma J, Ndumele CE, Schauer PR, Shimbo D (November 2021).
+"Weight-Loss Strategies for Prevention and Treatment of Hypertension: A Scientific Statement From the American Heart Association"
+.
+Hypertension
+.
+78
+(5):
+e38–
+e50.
+doi
+:
+10.1161/HYP.0000000000000202
+.
+ISSN
+0194-911X
+.
+PMID
+34538096
+.
+↑
+Edwards JJ, Deenmamode AH, Griffiths M, Arnold O, Cooper NJ, Wiles JD, O'Driscoll JM (October 2023). "Exercise training and resting blood pressure: a large-scale pairwise and network meta-analysis of randomised controlled trials".
+British Journal of Sports Medicine
+.
+57
+(20):
+1317–
+1326.
+doi
+:
+10.1136/bjsports-2022-106503
+.
+ISSN
+1473-0480
+.
+PMID
+37491419
+.
+↑
+Lee KW, Loh HC, Ching SM, Devaraj NK, Hoo FK (29 May 2020).
+"Effects of Vegetarian Diets on Blood Pressure Lowering: A Systematic Review with Meta-Analysis and Trial Sequential Analysis"
+.
+Nutrients
+.
+12
+(6): 1604.
+doi
+:
+10.3390/nu12061604
+.
+PMC
+7352826
+.
+PMID
+32486102
+.
+↑
+Sriperumbuduri S, Welling P, Ruzicka M, Hundemer GL, Hiremath S (29 September 2023).
+"Potassium and Hypertension: A State-of-the-Art Review"
+.
+American Journal of Hypertension
+.
+37
+(2):
+91–
+100.
+doi
+:
+10.1093/ajh/hpad094
+.
+ISSN
+0895-7061
+.
+PMID
+37772757
+.
+↑
+Cormick G, Ciapponi A, Cafferata ML, Cormick MS, Belizán JM (11 January 2022). Cochrane Hypertension Group (ed.).
+"Calcium supplementation for prevention of primary hypertension"
+.
+Cochrane Database of Systematic Reviews
+.
+2022
+(1) CD010037.
+doi
+:
+10.1002/14651858.CD010037.pub4
+.
+PMC
+8748265
+.
+PMID
+35014026
+.
+↑
+Di Federico S, Filippini T, Whelton PK, Cecchini M, Iamandii I, Boriani G, Vinceti M (October 2023).
+"Alcohol Intake and Blood Pressure Levels: A Dose-Response Meta-Analysis of Nonexperimental Cohort Studies"
+.
+Hypertension
+.
+80
+(10):
+1961–
+1969.
+doi
+:
+10.1161/HYPERTENSIONAHA.123.21224
+.
+ISSN
+0194-911X
+.
+PMC
+10510850
+.
+PMID
+37522179
+.
+↑
+Mesas AE, Leon-Muñoz LM, Rodriguez-Artalejo F, Lopez-Garcia E (October 2011).
+"The effect of coffee on blood pressure and cardiovascular disease in hypertensive individuals: a systematic review and meta-analysis"
+.
+The American Journal of Clinical Nutrition
+.
+94
+(4):
+1113–
+1126.
+doi
+:
+10.3945/ajcn.111.016667
+.
+PMID
+21880846
+.
+↑
+Vaidya A, Forman JP (November 2010).
+"Vitamin D and hypertension: current evidence and future directions"
+.
+Hypertension
+.
+56
+(5):
+774–
+779.
+doi
+:
+10.1161/HYPERTENSIONAHA.109.140160
+.
+PMID
+20937970
+.
+↑
+Narita K, Hoshide S, Kario K (November 2021).
+"Seasonal variation in blood pressure: current evidence and recommendations for hypertension management"
+.
+Hypertension Research
+.
+44
+(11):
+1363–
+1372.
+doi
+:
+10.1038/s41440-021-00732-z
+.
+ISSN
+1348-4214
+.
+PMID
+34489592
+.
+↑
+Meng L, Chen D, Yang Y, Zheng Y, Hui R (May 2012). "Depression increases the risk of hypertension incidence: a meta-analysis of prospective cohort studies".
+Journal of Hypertension
+.
+30
+(5):
+842–
+851.
+doi
+:
+10.1097/hjh.0b013e32835080b7
+.
+PMID
+22343537
+.
+S2CID
+32187480
+.
+↑
+Hawkley LC, Cacioppo JT (October 2010).
+"Loneliness matters: a theoretical and empirical review of consequences and mechanisms"
+.
+Annals of Behavioral Medicine
+.
+40
+(2):
+218–
+227.
+doi
+:
+10.1007/s12160-010-9210-8
+.
+PMC
+3874845
+.
+PMID
+20652462
+.
+↑
+Muñoz Aguilera E, Suvan J, Buti J, Czesnikiewicz-Guzik M, Barbosa Ribeiro A, Orlandi M, et
+al. (January 2020). Lembo G (ed.).
+"Periodontitis is associated with hypertension: a systematic review and meta-analysis"
+.
+Cardiovascular Research
+.
+116
+(1):
+28–
+39.
+doi
+:
+10.1093/cvr/cvz201
+.
+PMID
+31549149
+.
+↑
+Abhyankar LN, Jones MR, Guallar E, Navas-Acien A (April 2012).
+"Arsenic exposure and hypertension: a systematic review"
+.
+Environmental Health Perspectives
+.
+120
+(4):
+494–
+500.
+Bibcode
+:
+2012EnvHP.120..494A
+.
+doi
+:
+10.1289/ehp.1103988
+.
+PMC
+3339454
+.
+PMID
+22138666
+.
+↑
+Yang BY, Qian Z, Howard SW, Vaughn MG, Fan SJ, Liu KK, Dong GH (April 2018). "Global association between ambient air pollution and blood pressure: A systematic review and meta-analysis".
+Environmental Pollution
+.
+235
+:
+576–
+588.
+Bibcode
+:
+2018EPoll.235..576Y
+.
+doi
+:
+10.1016/j.envpol.2018.01.001
+.
+PMID
+29331891
+.
+↑
+Sandoval-Plata G, Nakafero G, Chakravorty M, Morgan K, Abhishek A (1 July 2021).
+"Association between serum urate, gout and comorbidities: a case–control study using data from the UK Biobank"
+.
+Rheumatology
+.
+60
+(7):
+3243–
+3251.
+doi
+:
+10.1093/rheumatology/keaa773
+.
+ISSN
+1462-0324
+.
+PMID
+33313843
+.
+↑
+Gill D, Cameron AC, Burgess S, Li X, Doherty DJ, Karhunen V, Abdul-Rahim AH, Taylor-Rowan M, Zuber V, Tsao PS, Klarin D, VA Million Veteran Program, Evangelou E, Elliott P, Damrauer SM (February 2021).
+"Urate, Blood Pressure, and Cardiovascular Disease: Evidence From Mendelian Randomization and Meta-Analysis of Clinical Trials"
+.
+Hypertension
+.
+77
+(2):
+383–
+392.
+doi
+:
+10.1161/HYPERTENSIONAHA.120.16547
+.
+ISSN
+0194-911X
+.
+PMC
+7803439
+.
+PMID
+33356394
+.
+↑
+McCormick N, O'Connor MJ, Yokose C, Merriman TR, Mount DB, Leong A, Choi HK (November 2021).
+"Assessing the Causal Relationships Between Insulin Resistance and Hyperuricemia and Gout Using Bidirectional Mendelian Randomization"
+.
+Arthritis & Rheumatology
+.
+73
+(11):
+2096–
+2104.
+doi
+:
+10.1002/art.41779
+.
+ISSN
+2326-5205
+.
+PMC
+8568618
+.
+PMID
+33982892
+.
+↑
+Quesada O, Claggett B, Rodriguez F, Cai J, Moncrieft AE, Garcia K, Del Rios Rivera M, Hanna DB, Daviglus ML, Talavera GA, Bairey Merz CN, Solomon SD, Cheng S, Bello NA (September 2021).
+"Associations of Insulin Resistance With Systolic and Diastolic Blood Pressure: A Study From the HCHS/SOL"
+.
+Hypertension
+.
+78
+(3):
+716–
+725.
+doi
+:
+10.1161/HYPERTENSIONAHA.120.16905
+.
+ISSN
+0194-911X
+.
+PMC
+8650976
+.
+PMID
+34379440
+.
+↑
+Lawlor DA, Smith GD (May 2005). "Early life determinants of adult blood pressure".
+Current Opinion in Nephrology and Hypertension
+.
+14
+(3):
+259–
+264.
+doi
+:
+10.1097/01.mnh.0000165893.13620.2b
+.
+PMID
+15821420
+.
+S2CID
+10646150
+.
+↑
+Dluhy RG, Williams GH (1998).
+"Endocrine hypertension"
+. In Wilson JD, Foster DW, Kronenberg HM (eds.).
+Williams textbook of endocrinology
+(9th
+ed.). Philadelphia; Montreal: W.B. Saunders. pp.
+729–
+749.
+ISBN
+978-0-7216-6152-0
+.
+↑
+Grossman E, Messerli FH (January 2012). "Drug-induced hypertension: an unappreciated cause of secondary hypertension".
+The American Journal of Medicine
+.
+125
+(1):
+14–
+22.
+doi
+:
+10.1016/j.amjmed.2011.05.024
+.
+PMID
+22195528
+.
+↑
+Roerecke M, Tobe SW, Kaczorowski J, Bacon SL, Vafaei A, Hasan OS, Krishnan RJ, Raifu AO, Rehm J (June 2018).
+"Sex-Specific Associations Between Alcohol Consumption and Incidence of Hypertension: A Systematic Review and Meta-Analysis of Cohort Studies"
+.
+Journal of the American Heart Association
+.
+7
+(13) e008202.
+doi
+:
+10.1161/JAHA.117.008202
+.
+PMC
+6064910
+.
+PMID
+29950485
+.
+↑
+Conway J (April 1984). "Hemodynamic aspects of essential hypertension in humans".
+Physiological Reviews
+.
+64
+(2):
+617–
+660.
+doi
+:
+10.1152/physrev.1984.64.2.617
+.
+PMID
+6369352
+.
+1
+2
+Palatini P, Julius S (June 2009). "The role of cardiac autonomic function in hypertension and cardiovascular disease".
+Current Hypertension Reports
+.
+11
+(3):
+199–
+205.
+doi
+:
+10.1007/s11906-009-0035-4
+.
+PMID
+19442329
+.
+S2CID
+11320300
+.
+↑
+Andersson OK, Lingman M, Himmelmann A, Sivertsson R, Widgren BR (2004). "Prediction of future hypertension by casual blood pressure or invasive hemodynamics? A 30-year follow-up study".
+Blood Pressure
+.
+13
+(6):
+350–
+354.
+doi
+:
+10.1080/08037050410004819
+.
+PMID
+15771219
+.
+S2CID
+28992820
+.
+↑
+Folkow B (April 1982). "Physiological aspects of primary hypertension".
+Physiological Reviews
+.
+62
+(2):
+347–
+504.
+doi
+:
+10.1152/physrev.1982.62.2.347
+.
+PMID
+6461865
+.
+↑
+Struijker Boudier HA, le Noble JL, Messing MW, Huijberts MS, le Noble FA, van Essen H (December 1992). "The microcirculation and hypertension".
+Journal of Hypertension Supplement
+.
+10
+(7): S147–156.
+doi
+:
+10.1097/00004872-199212000-00016
+.
+PMID
+1291649
+.
+↑
+Schiffrin EL (February 1992).
+"Reactivity of small blood vessels in hypertension: relation with structural changes. State of the art lecture"
+.
+Hypertension
+.
+19
+(2 Suppl): II1-9.
+doi
+:
+10.1161/01.HYP.19.2_Suppl.II1-a
+.
+PMID
+1735561
+.
+↑
+Safar ME, London GM (August 1987).
+"Arterial and venous compliance in sustained essential hypertension"
+.
+Hypertension
+.
+10
+(2):
+133–
+139.
+doi
+:
+10.1161/01.HYP.10.2.133
+.
+PMID
+3301662
+.
+↑
+Kim SH, Lim KR, Chun KJ (2022).
+"Higher heart rate variability as a predictor of atrial fibrillation in patients with hypertensione"
+.
+Scientific Reports
+.
+12
+(1) 3702.
+Bibcode
+:
+2022NatSR..12.3702K
+.
+doi
+:
+10.1038/s41598-022-07783-3
+.
+PMC
+8904557
+.
+PMID
+35260686
+.
+↑
+Steppan J, Barodka V, Berkowitz DE, Nyhan D (2 August 2011).
+"Vascular stiffness and increased pulse pressure in the aging cardiovascular system"
+.
+Cardiology Research and Practice
+.
+2011
+263585.
+doi
+:
+10.4061/2011/263585
+.
+PMC
+3154449
+.
+PMID
+21845218
+.
+↑
+Chobanian AV (August 2007). "Clinical practice. Isolated systolic hypertension in the elderly".
+The New England Journal of Medicine
+.
+357
+(8):
+789–
+796.
+doi
+:
+10.1056/NEJMcp071137
+.
+PMID
+17715411
+.
+S2CID
+42515260
+.
+↑
+Zieman SJ, Melenovsky V, Kass DA (May 2005).
+"Mechanisms, pathophysiology, and therapy of arterial stiffness"
+.
+Arteriosclerosis, Thrombosis, and Vascular Biology
+.
+25
+(5):
+932–
+943.
+doi
+:
+10.1161/01.ATV.0000160548.78317.29
+.
+PMID
+15731494
+.
+↑
+Navar LG (December 2010).
+"Counterpoint: Activation of the intrarenal renin-angiotensin system is the dominant contributor to systemic hypertension"
+.
+Journal of Applied Physiology
+.
+109
+(6):
+1998–
+2000, discussion 2015.
+doi
+:
+10.1152/japplphysiol.00182.2010a
+.
+PMC
+3006411
+.
+PMID
+21148349
+.
+↑
+Esler M, Lambert E, Schlaich M (December 2010). "Point: Chronic activation of the sympathetic nervous system is the dominant contributor to systemic hypertension".
+Journal of Applied Physiology
+.
+109
+(6):
+1996–
+1998, discussion 2016.
+doi
+:
+10.1152/japplphysiol.00182.2010
+.
+PMID
+20185633
+.
+S2CID
+7685157
+.
+↑
+Versari D, Daghini E, Virdis A, Ghiadoni L, Taddei S (June 2009).
+"Endothelium-dependent contractions and endothelial dysfunction in human hypertension"
+.
+British Journal of Pharmacology
+.
+157
+(4):
+527–
+536.
+doi
+:
+10.1111/j.1476-5381.2009.00240.x
+.
+PMC
+2707964
+.
+PMID
+19630832
+.
+↑
+Marchesi C, Paradis P, Schiffrin EL (July 2008). "Role of the renin-angiotensin system in vascular inflammation".
+Trends in Pharmacological Sciences
+.
+29
+(7):
+367–
+374.
+doi
+:
+10.1016/j.tips.2008.05.003
+.
+PMID
+18579222
+.
+↑
+Gooch JL, Sharma AC (September 2014). "Targeting the immune system to treat hypertension: where are we?".
+Current Opinion in Nephrology and Hypertension
+.
+23
+(5):
+473–
+479.
+doi
+:
+10.1097/MNH.0000000000000052
+.
+PMID
+25036747
+.
+S2CID
+13383731
+.
+↑
+Adrogué HJ, Madias NE (May 2007). "Sodium and potassium in the pathogenesis of hypertension".
+The New England Journal of Medicine
+.
+356
+(19):
+1966–
+1978.
+doi
+:
+10.1056/NEJMra064486
+.
+PMID
+17494929
+.
+S2CID
+22345731
+.
+↑
+Perez V, Chang ET (November 2014).
+"Sodium-to-potassium ratio and blood pressure, hypertension, and related factors"
+.
+Advances in Nutrition
+.
+5
+(6):
+712–
+741.
+doi
+:
+10.3945/an.114.006783
+.
+PMC
+4224208
+.
+PMID
+25398734
+.
+↑
+Williams GH, Hollenberg NK (November 1985). "Non-modulating essential hypertension: a subset particularly responsive to converting enzyme inhibitors".
+Journal of Hypertension Supplement
+.
+3
+(2):
+S81–
+S87.
+PMID
+3003304
+.
+↑
+Harrison TR, Jameson JL, Fauci AS, Kasper DL, Hauser SL, Longo DL, Loscalzo J, eds. (2018).
+Harrison's Principles of Internal Medicine
+(20th
+ed.). McGraw-Hill Education. p.
+1896.
+ISBN
+978-1-259-64404-7
+.
+When plasma renin activity (PRA) is plotted against 24-h sodium excretion, ~10–15% of hypertensive patients have high PRA and 25% have low PRA. High-renin patients may have a vasoconstrictor form of hypertension, whereas low-renin patients may have volume-dependent hypertension.
+1
+2
+3
+4
+5
+6
+7
+8
+Viera AJ (July 2017). "Screening for Hypertension and Lowering Blood Pressure for Prevention of Cardiovascular Disease Events".
+The Medical Clinics of North America
+(Review).
+101
+(4):
+701–
+712.
+doi
+:
+10.1016/j.mcna.2017.03.003
+.
+PMID
+28577621
+.
+1
+2
+3
+Vischer AS, Burkard T (2017). "Principles of Blood Pressure Measurement – Current Techniques, Office vs Ambulatory Blood Pressure Measurement".
+Hypertension: From basic research to clinical practice
+(Review). Advances in Experimental Medicine and Biology. Vol.
+956. pp.
+85–
+96.
+doi
+:
+10.1007/5584_2016_49
+.
+ISBN
+978-3-319-44250-1
+.
+PMID
+27417699
+.
+1
+2
+Siu AL (November 2015).
+"Screening for high blood pressure in adults: U.S. Preventive Services Task Force recommendation statement"
+.
+Annals of Internal Medicine
+.
+163
+(10):
+778–
+786.
+doi
+:
+10.7326/m15-2223
+.
+PMID
+26458123
+.
+1
+2
+National Clinical Guidance Centre (August 2011).
+"7 Diagnosis of Hypertension, 7.5 Link from evidence to recommendations"
+(PDF)
+.
+Hypertension (NICE CG 127)
+.
+National Institute for Health and Clinical Excellence
+. p.
+102. Archived from
+the original
+(PDF)
+on 23 July 2013
+. Retrieved
+22 December
+2011
+.
+↑
+Franklin SS, Wilkinson IB, McEniery CM (February 2012).
+"Unusual hypertensive phenotypes: what is their significance?"
+.
+Hypertension
+.
+59
+(2):
+173–
+178.
+doi
+:
+10.1161/HYPERTENSIONAHA.111.182956
+.
+PMID
+22184330
+.
+↑
+Kario K (June 2009).
+"Orthostatic hypertension: a measure of blood pressure variation for predicting cardiovascular risk"
+.
+Circulation Journal
+.
+73
+(6):
+1002–
+1007.
+doi
+:
+10.1253/circj.cj-09-0286
+.
+PMID
+19430163
+.
+1
+2
+Guideline for the pharmacological treatment of hypertension in adults
+(PDF)
+.
+World Health Organization
+(WHO). 2021.
+ISBN
+978-92-4-003399-3
+. Retrieved
+26 May
+2024
+.
+↑
+Luma GB, Spiotta RT (May 2006). "Hypertension in children and adolescents".
+American Family Physician
+.
+73
+(9):
+1558–
+1568.
+PMID
+16719248
+.
+1
+2
+3
+McEvoy JW, McCarthy CP, Bruno RM, Brouwers S, Canavan MD, et
+al. (30 August 2024).
+"2024 ESC Guidelines for the management of elevated blood pressure and hypertension: Developed by the task force on the management of elevated blood pressure and hypertension of the European Society of Cardiology (ESC) and endorsed by the European Society of Endocrinology (ESE) and the European Stroke Organisation (ESO)"
+.
+European Heart Journal
+.
+45
+(38):
+3912–
+4018.
+doi
+:
+10.1093/eurheartj/ehae178
+.
+ISSN
+0195-668X
+.
+PMID
+39210715
+.
+↑
+Whelton PK, Carey RM, Mancia G, Kreutz R, Bundy JD, Williams B (14 September 2022).
+"Harmonization of the American College of Cardiology/American Heart Association and European Society of Cardiology/European Society of Hypertension Blood Pressure/Hypertension Guidelines"
+.
+European Heart Journal
+.
+43
+(35):
+3302–
+3311.
+doi
+:
+10.1093/eurheartj/ehac432
+.
+ISSN
+0195-668X
+.
+PMC
+9470378
+.
+PMID
+36100239
+.
+1
+2
+3
+4
+National High Blood Pressure Education Program Working Group on High Blood Pressure in Children Adolescents (August 2004). "The fourth report on the diagnosis, evaluation, and treatment of high blood pressure in children and adolescents".
+Pediatrics
+.
+114
+(2 Suppl 4th Report):
+555–
+576.
+doi
+:
+10.1542/peds.114.2.S2.555
+(inactive 3 July 2025).
+hdl
+:
+2027/uc1.c095473177
+.
+PMID
+15286277
+.
+{{
+cite journal
+}}
+:  CS1 maint: DOI inactive as of July 2025 (
+link
+)
+1
+2
+Williams B, Poulter NR, Brown MJ, Davis M, McInnes GT, Potter JF, Sever PS, McG Thom S (March 2004).
+"Guidelines for management of hypertension: report of the fourth working party of the British Hypertension Society, 2004-BHS IV"
+.
+Journal of Human Hypertension
+.
+18
+(3):
+139–
+185.
+doi
+:
+10.1038/sj.jhh.1001683
+.
+PMID
+14973512
+.
+1
+2
+"Evidence-based policy for salt reduction is needed".
+Lancet
+.
+388
+(10043): 438. July 2016.
+doi
+:
+10.1016/S0140-6736(16)31205-3
+.
+PMID
+27507743
+.
+S2CID
+205982690
+.
+↑
+Mente A, O'Donnell M, Rangarajan S, Dagenais G, Lear S, McQueen M, Diaz R, Avezum A, Lopez-Jaramillo P, Lanas F, Li W, Lu Y, Yi S, Rensheng L, Iqbal R, Mony P, Yusuf R, Yusoff K, Szuba A, Oguz A, Rosengren A, Bahonar A, Yusufali A, Schutte AE, Chifamba J, Mann JF, Anand SS, Teo K, Yusuf S (July 2016).
+"Associations of urinary sodium excretion with cardiovascular events in individuals with and without hypertension: a pooled analysis of data from four studies"
+.
+Lancet
+.
+388
+(10043):
+464–
+475.
+doi
+:
+10.1016/S0140-6736(16)30467-6
+.
+hdl
+:
+10379/16625
+.
+PMID
+27216139
+.
+S2CID
+44581906
+.
+The results showed that cardiovascular disease and death are increased with low sodium intake (compared with moderate intake) irrespective of hypertension status, whereas there is a higher risk of cardiovascular disease and death only in individuals with hypertension consuming more than 6 g of sodium per day (representing only 10% of the population studied)
+↑
+Perk J, De Backer G, Gohlke H, Graham I, Reiner Z, Verschuren M, Albus C, Benlian P, Boysen G, Cifkova R, Deaton C, Ebrahim S, Fisher M, Germano G, Hobbs R, Hoes A, Karadeniz S, Mezzani A, Prescott E, Ryden L, Scherer M, Syvänne M, Scholte op Reimer WJ, Vrints C, Wood D, Zamorano JL, Zannad F (July 2012).
+"European Guidelines on cardiovascular disease prevention in clinical practice (version 2012). The Fifth Joint Task Force of the European Society of Cardiology and Other Societies on Cardiovascular Disease Prevention in Clinical Practice (constituted by representatives of nine societies and by invited experts)"
+.
+European Heart Journal
+.
+33
+(13):
+1635–
+1701.
+doi
+:
+10.1093/eurheartj/ehs092
+.
+PMID
+22555213
+.
+↑
+Chiolero A, Bovet P, Paradis G (March 2013).
+"Screening for elevated blood pressure in children and adolescents: a critical appraisal"
+.
+JAMA Pediatrics
+.
+167
+(3):
+266–
+273.
+doi
+:
+10.1001/jamapediatrics.2013.438
+.
+PMID
+23303490
+.
+↑
+Daniels SR, Gidding SS (March 2013). "Blood pressure screening in children and adolescents: is the glass half empty or more than half full?".
+JAMA Pediatrics
+.
+167
+(3):
+302–
+304.
+doi
+:
+10.1001/jamapediatrics.2013.439
+.
+PMID
+23303514
+.
+1
+2
+Schmidt BM, Durao S, Toews I, Bavuma CM, Hohlfeld A, Nury E, et
+al. (Cochrane Hypertension Group) (May 2020).
+"Screening strategies for hypertension"
+.
+The Cochrane Database of Systematic Reviews
+.
+2020
+(5) CD013212.
+doi
+:
+10.1002/14651858.CD013212.pub2
+.
+PMC
+7203601
+.
+PMID
+32378196
+.
+↑
+"Expert panel on integrated guidelines for cardiovascular health and risk reduction in children and adolescents: summary report"
+.
+Pediatrics
+.
+128
+(Suppl 5):
+S213–
+S256. December 2011.
+Bibcode
+:
+2011Pedia.128S.213.
+.
+doi
+:
+10.1542/peds.2009-2107C
+.
+PMC
+4536582
+.
+PMID
+22084329
+.
+↑
+"Hypertension – Clinical Preventive Service Recommendation"
+.
+AAFP
+. Archived from
+the original
+on 1 November 2014
+. Retrieved
+13 October
+2013
+.
+↑
+Moyer VA
+(November 2013).
+"Screening for primary hypertension in children and adolescents: U.S. Preventive Services Task Force recommendation statement"
+.
+Annals of Internal Medicine
+.
+159
+(9):
+613–
+619.
+doi
+:
+10.7326/0003-4819-159-9-201311050-00725
+.
+PMID
+24097285
+.
+S2CID
+20193715
+.
+↑
+"Document | United States Preventive Services Taskforce"
+.
+uspreventiveservicestaskforce.org
+. Archived from
+the original
+on 22 May 2020
+. Retrieved
+22 April
+2020
+.
+↑
+Krist AH, Davidson KW, Mangione CM, Cabana M, Caughey AB, Davis EM, et
+al. (April 2021).
+"Screening for Hypertension in Adults: US Preventive Services Task Force Reaffirmation Recommendation Statement"
+.
+JAMA
+.
+325
+(16):
+1650–
+1656.
+doi
+:
+10.1001/jama.2021.4987
+.
+PMID
+33904861
+.
+S2CID
+233409679
+.
+↑
+Law M, Wald N, Morris J (2003).
+"Lowering blood pressure to prevent myocardial infarction and stroke: a new preventive strategy"
+.
+Health Technology Assessment
+.
+7
+(31):
+1–
+94.
+doi
+:
+10.3310/hta7310
+.
+PMID
+14604498
+.
+1
+2
+Daskalopoulou SS, Rabi DM, Zarnke KB, Dasgupta K, Nerenberg K, Cloutier L, et
+al. (May 2015).
+"The 2015 Canadian Hypertension Education Program recommendations for blood pressure measurement, diagnosis, assessment of risk, prevention, and treatment of hypertension"
+.
+The Canadian Journal of Cardiology
+.
+31
+(5):
+549–
+568.
+doi
+:
+10.1016/j.cjca.2015.02.016
+.
+PMID
+25936483
+.
+1
+2
+"Hypertension: Recommendations, Guidance and guidelines"
+.
+NICE
+. Archived from
+the original
+on 3 October 2006
+. Retrieved
+4 August
+2015
+.
+1
+2
+Arguedas JA, Leiva V, Wright JM (October 2013).
+"Blood pressure targets for hypertension in people with diabetes mellitus"
+.
+The Cochrane Database of Systematic Reviews
+(10) CD008277.
+doi
+:
+10.1002/14651858.cd008277.pub2
+.
+PMC
+11365096
+.
+PMID
+24170669
+.
+↑
+Saiz LC, Gorricho J, Garjón J, Celaya MC, Erviti J, Leache L (November 2022).
+"Blood pressure targets for the treatment of people with hypertension and cardiovascular disease"
+.
+The Cochrane Database of Systematic Reviews
+.
+2022
+(11) CD010315.
+doi
+:
+10.1002/14651858.CD010315.pub5
+.
+PMC
+9673465
+.
+PMID
+36398903
+.
+1
+2
+Arguedas JA, Leiva V, Wright JM (December 2020).
+"Blood pressure targets in adults with hypertension"
+.
+The Cochrane Database of Systematic Reviews
+.
+2020
+(12) CD004349.
+doi
+:
+10.1002/14651858.CD004349.pub3
+.
+PMC
+8094587
+.
+PMID
+33332584
+.
+1
+2
+Qaseem A, Wilt TJ, Rich R, Humphrey LL, Frost J, Forciea MA (March 2017).
+"Pharmacologic Treatment of Hypertension in Adults Aged 60 Years or Older to Higher Versus Lower Blood Pressure Targets: A Clinical Practice Guideline From the American College of Physicians and the American Academy of Family Physicians"
+.
+Annals of Internal Medicine
+.
+166
+(6):
+430–
+437.
+doi
+:
+10.7326/M16-1785
+.
+PMID
+28135725
+.
+↑
+Wright JT, Fine LJ, Lackland DT, Ogedegbe G, Dennison Himmelfarb CR (April 2014).
+"Evidence supporting a systolic blood pressure goal of less than 150 mm Hg in patients aged 60 years or older: the minority view"
+.
+Annals of Internal Medicine
+.
+160
+(7):
+499–
+503.
+doi
+:
+10.7326/m13-2981
+.
+PMID
+24424788
+.
+↑
+Passarella P, Kiseleva TA, Valeeva FV, Gosmanov AR (1 August 2018).
+"Hypertension Management in Diabetes: 2018 Update"
+.
+Diabetes Spectrum
+.
+31
+(3):
+218–
+224.
+doi
+:
+10.2337/ds17-0085
+.
+ISSN
+1040-9165
+.
+PMC
+6092891
+.
+PMID
+30140137
+.
+↑
+Cheung AK, Chang TI, Cushman WC, Furth SL, Hou FF, Ix JH, Knoll GA, Muntner P, Pecoits-Filho R, Sarnak MJ, Tobe SW, Tomson CR, Mann JF (March 2021).
+"KDIGO 2021 Clinical Practice Guideline for the Management of Blood Pressure in Chronic Kidney Disease"
+.
+Kidney International
+.
+99
+(3):
+S1–
+S87.
+doi
+:
+10.1016/j.kint.2020.11.003
+.
+PMID
+33637192
+.
+↑
+Brunström M, Carlberg B (January 2016).
+"Lower blood pressure targets: to whom do they apply?"
+.
+Lancet
+.
+387
+(10017):
+405–
+406.
+doi
+:
+10.1016/S0140-6736(15)00816-8
+.
+PMID
+26559745
+.
+S2CID
+44282689
+.
+↑
+Xie X, Atkins E, Lv J, Rodgers A (June 2016).
+"Intensive blood pressure lowering – Authors' reply"
+.
+Lancet
+.
+387
+(10035): 2291.
+doi
+:
+10.1016/S0140-6736(16)30366-X
+.
+PMID
+27302266
+.
+1
+2
+3
+Jones DW, Ferdinand KC, Taler SJ, Johnson HM, Shimbo D, Abdalla M, et
+al. (16 September 2025).
+"2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM guideline for the prevention, detection, evaluation and management of high blood pressure in adults: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines"
+.
+Circulation
+.
+152
+(11):
+e114–
+e218.
+doi
+:
+10.1161/CIR.0000000000001356
+.
+PMID
+40811497
+.
+1
+2
+Go AS, Bauman MA, Coleman King SM, Fonarow GC, Lawrence W, Williams KA, Sanchez E (April 2014).
+"An effective approach to high blood pressure control: a science advisory from the American Heart Association, the American College of Cardiology, and the Centers for Disease Control and Prevention"
+.
+Hypertension
+.
+63
+(4):
+878–
+885.
+doi
+:
+10.1161/HYP.0000000000000003
+.
+PMC
+10280688
+.
+PMID
+24243703
+.
+1
+2
+Semlitsch T, Krenn C, Jeitler K, Berghold A, Horvath K, Siebenhofer A (February 2021).
+"Long-term effects of weight-reducing diets in people with hypertension"
+.
+The Cochrane Database of Systematic Reviews
+.
+2021
+(2) CD008274.
+doi
+:
+10.1002/14651858.CD008274.pub4
+.
+PMC
+8093137
+.
+PMID
+33555049
+.
+↑
+He FJ, Li J, Macgregor GA (April 2013).
+"Effect of longer-term modest salt reduction on blood pressure"
+.
+The Cochrane Database of Systematic Reviews
+(Systematic Review & Meta-Analysis).
+30
+(4) CD004937.
+doi
+:
+10.1002/14651858.CD004937.pub2
+.
+PMC
+11537250
+.
+PMID
+23633321
+.
+S2CID
+23522004
+.
+↑
+Huang L, Trieu K, Yoshimura S, Neal B, Woodward M, Campbell NR, et
+al. (February 2020).
+"Effect of dose and duration of reduction in dietary sodium on blood pressure levels: systematic review and meta-analysis of randomised trials"
+.
+The BMJ
+.
+368
+: m315.
+doi
+:
+10.1136/bmj.m315
+.
+PMC
+7190039
+.
+PMID
+32094151
+.
+↑
+Sacks FM, Svetkey LP, Vollmer WM, Appel LJ, Bray GA, Harsha D, et
+al. (January 2001).
+"Effects on blood pressure of reduced dietary sodium and the Dietary Approaches to Stop Hypertension (DASH) diet. DASH-Sodium Collaborative Research Group"
+.
+The New England Journal of Medicine
+.
+344
+(1):
+3–
+10.
+doi
+:
+10.1056/NEJM200101043440101
+.
+PMID
+11136953
+.
+↑
+Sukhato K, Akksilp K, Dellow A, Vathesatogkit P, Anothaisintawee T (December 2020).
+"Efficacy of different dietary patterns on lowering of blood pressure level: an umbrella review"
+.
+The American Journal of Clinical Nutrition
+.
+112
+(6):
+1584–
+1598.
+doi
+:
+10.1093/ajcn/nqaa252
+.
+PMID
+33022695
+.
+↑
+Joshi S, Ettinger L, Liebman SE (2020).
+"Plant-Based Diets and Hypertension"
+.
+American Journal of Lifestyle Medicine
+.
+14
+(4):
+397–
+405.
+doi
+:
+10.1177/1559827619875411
+.
+PMC
+7692016
+.
+PMID
+33281520
+.
+↑
+Charchar FJ, Prestes PR, Mills C (2024).
+"Lifestyle management of hypertension: International Society of Hypertension position paper endorsed by the World Hypertension League and European Society of Hypertension"
+.
+Journal of Hypertension
+.
+42
+(1):
+23–
+49.
+doi
+:
+10.1097/HJH.0000000000003563
+.
+PMC
+10713007
+.
+PMID
+37712135
+.
+↑
+Jama, HA, Snelson M, Schutte AE (2024). "Recommendations for the Use of Dietary Fiber to Improve Blood Pressure Control".
+Hypertension
+.
+81
+(7):
+1450–
+1459.
+doi
+:
+10.1161/HYPERTENSIONAHA.123.22575
+.
+PMID
+38586958
+.
+↑
+Aburto NJ, Hanson S, Gutierrez H, Hooper L, Elliott P, Cappuccio FP (April 2013).
+"Effect of increased potassium intake on cardiovascular risk factors and disease: systematic review and meta-analyses"
+.
+The BMJ
+.
+346
+f1378.
+doi
+:
+10.1136/bmj.f1378
+.
+PMC
+4816263
+.
+PMID
+23558164
+.
+↑
+Stone MS, Martyn L, Weaver CM (July 2016).
+"Potassium Intake, Bioavailability, Hypertension, and Glucose Control"
+.
+Nutrients
+.
+8
+(7): 444.
+doi
+:
+10.3390/nu8070444
+.
+PMC
+4963920
+.
+PMID
+27455317
+.
+↑
+"Scientific Report of the 2015 Dietary Guidelines Advisory Committee"
+.
+Archived
+from the original on 26 April 2017
+. Retrieved
+26 April
+2017
+.
+↑
+Raebel MA (June 2012).
+"Hyperkalemia associated with use of angiotensin-converting enzyme inhibitors and angiotensin receptor blockers"
+.
+Cardiovascular Therapeutics
+.
+30
+(3): e156–166.
+doi
+:
+10.1111/j.1755-5922.2010.00258.x
+.
+PMID
+21883995
+.
+1
+2
+Brook RD, Appel LJ, Rubenfire M, Ogedegbe G, Bisognano JD, Elliott WJ, Fuchs FD, Hughes JW, Lackland DT, Staffileno BA, Townsend RR, Rajagopalan S (June 2013).
+"Beyond medications and diet: alternative approaches to lowering blood pressure: a scientific statement from the american heart association"
+.
+Hypertension
+.
+61
+(6):
+1360–
+1383.
+doi
+:
+10.1161/HYP.0b013e318293645f
+.
+PMID
+23608661
+.
+↑
+Lou Y, Ye G, Liu W, Lv Z, Jia Y, Li C, Zhang Y (February 2021).
+"Walking for hypertension"
+.
+The Cochrane Database of Systematic Reviews
+(Systematic Review & Meta-Analysis).
+2013
+(3): CD004937.
+doi
+:
+10.1002/14651858.CD008823.pub2
+.
+PMC
+8128358
+.
+PMID
+33630309
+.
+↑
+Nagele E, Jeitler K, Horvath K, Semlitsch T, Posch N, Herrmann KH, Grouven U, Hermanns T, Hemkens LG, Siebenhofer A (October 2014). "Clinical effectiveness of stress-reduction techniques in patients with hypertension: systematic review and meta-analysis".
+Journal of Hypertension
+.
+32
+(10):
+1936–
+1944, discussion 1944.
+doi
+:
+10.1097/HJH.0000000000000298
+.
+PMID
+25084308
+.
+S2CID
+20098894
+.
+↑
+Dickinson HO, Campbell F, Beyer FR, Nicolson DJ, Cook JV, Ford GA, Mason JM (January 2008). "Relaxation therapies for the management of primary hypertension in adults".
+The Cochrane Database of Systematic Reviews
+(1) CD004935.
+doi
+:
+10.1002/14651858.CD004935.pub2
+.
+PMID
+18254065
+.
+1
+2
+Glynn LG, Murphy AW, Smith SM, Schroeder K, Fahey T (March 2010).
+"Interventions used to improve control of blood pressure in patients with hypertension"
+(PDF)
+.
+The Cochrane Database of Systematic Reviews
+(3) CD005182.
+doi
+:
+10.1002/14651858.cd005182.pub4
+.
+hdl
+:
+10344/9179
+.
+PMID
+20238338
+.
+Archived
+(PDF)
+from the original on 12 April 2019
+. Retrieved
+11 February
+2019
+.
+↑
+Wright JM, Musini VM, Gill R (April 2018).
+"First-line drugs for hypertension"
+.
+The Cochrane Database of Systematic Reviews
+.
+2018
+(4) CD001841.
+doi
+:
+10.1002/14651858.CD001841.pub3
+.
+PMC
+6513559
+.
+PMID
+29667175
+.
+↑
+Chen JM, Heran BS, Wright JM (October 2009).
+"Blood pressure lowering efficacy of diuretics as second-line therapy for primary hypertension"
+.
+The Cochrane Database of Systematic Reviews
+.
+2010
+(4) CD007187.
+doi
+:
+10.1002/14651858.CD007187.pub2
+.
+PMC
+12410055
+.
+PMID
+19821398
+.
+S2CID
+73993182
+.
+↑
+Garjón J, Saiz LC, Azparren A, Gaminde I, Ariz MJ, Erviti J, et
+al. (Cochrane Hypertension Group) (February 2020).
+"First-line combination therapy versus first-line monotherapy for primary hypertension"
+.
+The Cochrane Database of Systematic Reviews
+.
+2
+(2) CD010316.
+doi
+:
+10.1002/14651858.CD010316.pub3
+.
+PMC
+7002970
+.
+PMID
+32026465
+.
+↑
+Gnjidic D, Langford AV, Jordan V, Sawan M, Sheppard JP, Thompson W, Todd A, Hopper I, Hilmer SN, Reeve E (31 March 2025).
+"Withdrawal of antihypertensive drugs in older people"
+.
+The Cochrane Database of Systematic Reviews
+.
+3
+(3) CD012572.
+doi
+:
+10.1002/14651858.CD012572.pub3
+.
+ISSN
+1469-493X
+.
+PMC
+11956142
+.
+PMID
+40162571
+.
+↑
+Wiysonge CS, Bradley HA, Volmink J, Mayosi BM, Opie LH (January 2017).
+"Beta-blockers for hypertension"
+.
+The Cochrane Database of Systematic Reviews
+.
+1
+(1) CD002003.
+doi
+:
+10.1002/14651858.CD002003.pub5
+.
+PMC
+5369873
+.
+PMID
+28107561
+.
+↑
+Chaturvedi S, Lipszyc DH, Licht C, Craig JC, Parekh R, et
+al. (Cochrane Hypertension Group) (February 2014).
+"Pharmacological interventions for hypertension in children"
+.
+The Cochrane Database of Systematic Reviews
+(2) CD008117.
+doi
+:
+10.1002/14651858.CD008117.pub2
+.
+PMC
+11056235
+.
+PMID
+24488616
+.
+↑
+Giacona JM, Kositanurit W, Vongpatanasin W (April 2024). "Management of Resistant Hypertension-An Update".
+JAMA Intern Med
+.
+184
+(4):
+433–
+434.
+doi
+:
+10.1001/jamainternmed.2023.8555
+.
+PMID
+38372970
+.
+↑
+McEvoy JW, McCarthy CP, Bruno RM, Brouwers S, Canavan MD, Ceconi C, Christodorescu RM, Daskalopoulou SS, Ferro CJ, Gerdts E, Hanssen H, Harris J, Lauder L, McManus RJ, Molloy GJ (7 October 2024).
+"2024 ESC Guidelines for the management of elevated blood pressure and hypertension"
+.
+European Heart Journal
+.
+45
+(38):
+3912–
+4018.
+doi
+:
+10.1093/eurheartj/ehae178
+.
+ISSN
+0195-668X
+.
+PMID
+39210715
+.
+↑
+Santschi V, Chiolero A, Burnier M (November 2009). "Electronic monitors of drug adherence: tools to make rational therapeutic decisions".
+Journal of Hypertension
+.
+27
+(11):
+2294–
+2295, author reply 2295.
+doi
+:
+10.1097/hjh.0b013e328332a501
+.
+PMID
+20724871
+.
+↑
+Sarwar MS, Islam MS, Al Baker SM, Hasnat A (May 2013). "Resistant hypertension: underlying causes and treatment".
+Drug Research
+.
+63
+(5):
+217–
+223.
+doi
+:
+10.1055/s-0033-1337930
+.
+PMID
+23526242
+.
+S2CID
+8247941
+.
+↑
+Young WF (February 2019).
+"Diagnosis and treatment of primary aldosteronism: practical clinical perspectives"
+.
+Journal of Internal Medicine
+.
+285
+(2):
+126–
+148.
+doi
+:
+10.1111/joim.12831
+.
+PMID
+30255616
+.
+S2CID
+52824356
+.
+↑
+Zubcevic J, Waki H, Raizada MK, Paton JF (June 2011).
+"Autonomic-immune-vascular interaction: an emerging concept for neurogenic hypertension"
+.
+Hypertension
+.
+57
+(6):
+1026–
+1033.
+doi
+:
+10.1161/HYPERTENSIONAHA.111.169748
+.
+PMC
+3105900
+.
+PMID
+21536990
+.
+↑
+Wallbach M, Koziolek MJ (September 2018).
+"Baroreceptors in the carotid and hypertension-systematic review and meta-analysis of the effects of baroreflex activation therapy on blood pressure"
+.
+Nephrology, Dialysis, Transplantation
+.
+33
+(9):
+1485–
+1493.
+doi
+:
+10.1093/ndt/gfx279
+.
+PMID
+29136223
+.
+1
+2
+Acelajado MC, Hughes ZH, Oparil S, Calhoun DA (March 2019).
+"Treatment of resistant and refractory hypertension"
+.
+Circulation Research
+.
+124
+(7):
+1061–
+1070.
+doi
+:
+10.1161/CIRCRESAHA.118.312156
+.
+PMC
+6469348
+.
+PMID
+30920924
+.
+↑
+Dudenbostel T, Siddiqui M, Oparil S, Calhoun DA (June 2016).
+"Refractory hypertension: A novel phenotype of antihypertensive treatment failure"
+.
+Hypertension
+.
+67
+(6):
+1085–
+1092.
+doi
+:
+10.1161/HYPERTENSIONAHA.116.06587
+.
+PMC
+5425297
+.
+PMID
+27091893
+.
+↑
+Leng B, Jin Y, Li G, Chen L, Jin N (February 2015).
+"Socioeconomic status and hypertension: a meta-analysis"
+.
+Journal of Hypertension
+.
+33
+(2):
+221–
+229.
+doi
+:
+10.1097/HJH.0000000000000428
+.
+ISSN
+0263-6352
+.
+PMID
+25479029
+.
+↑
+Petrie JR, Guzik TJ, Touyz RM (May 2018).
+"Diabetes, Hypertension, and Cardiovascular Disease: Clinical Insights and Vascular Mechanisms"
+.
+The Canadian Journal of Cardiology
+.
+34
+(5):
+575–
+584.
+doi
+:
+10.1016/j.cjca.2017.12.005
+.
+PMC
+5953551
+.
+PMID
+29459239
+.
+↑
+Burt VL, Whelton P, Roccella EJ, Brown C, Cutler JA, Higgins M, Horan MJ, Labarthe D (March 1995). "Prevalence of hypertension in the US adult population. Results from the Third National Health and Nutrition Examination Survey, 1988–1991".
+Hypertension
+.
+25
+(3):
+305–
+313.
+doi
+:
+10.1161/01.HYP.25.3.305
+.
+PMID
+7875754
+.
+S2CID
+23660820
+.
+1
+2
+Burt VL, Cutler JA, Higgins M, Horan MJ, Labarthe D, Whelton P, Brown C, Roccella EJ (July 1995).
+"Trends in the prevalence, awareness, treatment, and control of hypertension in the adult US population. Data from the health examination surveys, 1960 to 1991"
+.
+Hypertension
+.
+26
+(1):
+60–
+69.
+doi
+:
+10.1161/01.HYP.26.1.60
+.
+PMID
+7607734
+.
+↑
+Ostchega Y, Dillon CF, Hughes JP, Carroll M, Yoon S (July 2007).
+"Trends in hypertension prevalence, awareness, treatment, and control in older U.S. adults: data from the National Health and Nutrition Examination Survey 1988 to 2004"
+.
+Journal of the American Geriatrics Society
+.
+55
+(7):
+1056–
+1065.
+doi
+:
+10.1111/j.1532-5415.2007.01215.x
+.
+PMID
+17608879
+.
+S2CID
+27522876
+.
+1
+2
+3
+Lloyd-Jones D, Adams RJ, Brown TM, Carnethon M, Dai S, De Simone G, et
+al. (February 2010).
+"Heart disease and stroke statistics – 2010 update: a report from the American Heart Association"
+.
+Circulation
+.
+121
+(7):
+e46–
+e215.
+doi
+:
+10.1161/CIRCULATIONAHA.109.192667
+.
+PMID
+20019324
+.
+↑
+Cooper RS, Forrester TE, Plange-Rhule J, Bovet P, Lambert EV, Dugas LR, Cargill KE, Durazo-Arvizu RA, Shoham DA, Tong L, Cao G, Luke A (2015).
+"Elevated hypertension risk for African-origin populations in biracial societies: Modeling the Epidemiologic Transition Study"
+.
+Journal of Hypertension
+.
+33
+(3):
+473–
+80, discussion 480-1.
+doi
+:
+10.1097/HJH.0000000000000429
+.
+PMC
+4476314
+.
+PMID
+25426566
+.
+↑
+Frohlich ED (October 2011).
+"Epidemiological issues are not simply black and white"
+.
+Hypertension
+.
+58
+(4):
+546–
+547.
+doi
+:
+10.1161/HYPERTENSIONAHA.111.178541
+.
+PMID
+21911712
+.
+↑
+Falkner B (July 2010).
+"Hypertension in children and adolescents: epidemiology and natural history"
+.
+Pediatric Nephrology
+.
+25
+(7):
+1219–
+1224.
+doi
+:
+10.1007/s00467-009-1200-3
+.
+PMC
+2874036
+.
+PMID
+19421783
+.
+↑
+Luma GB, Spiotta RT (May 2006).
+"Hypertension in children and adolescents"
+.
+American Family Physician
+.
+73
+(9):
+1558–
+1568.
+PMID
+16719248
+.
+Archived
+from the original on 26 September 2007.
+↑
+"Global health risks: mortality and burden of disease attributable to selected major risks"
+(PDF)
+. World Health Organization. 2009.
+Archived
+(PDF)
+from the original on 14 February 2012
+. Retrieved
+10 February
+2012
+.
+↑
+Lewington S, Clarke R, Qizilbash N, Peto R, Collins R (December 2002). "Age-specific relevance of usual blood pressure to vascular mortality: a meta-analysis of individual data for one million adults in 61 prospective studies".
+Lancet
+.
+360
+(9349):
+1903–
+1913.
+Bibcode
+:
+2002Lanc..360.1903.
+.
+doi
+:
+10.1016/S0140-6736(02)11911-8
+.
+PMID
+12493255
+.
+S2CID
+54363452
+.
+↑
+Singer DR, Kite A (June 2008).
+"Management of hypertension in peripheral arterial disease: does the choice of drugs matter?"
+.
+European Journal of Vascular and Endovascular Surgery
+.
+35
+(6):
+701–
+708.
+doi
+:
+10.1016/j.ejvs.2008.01.007
+.
+PMID
+18375152
+.
+1
+2
+3
+4
+5
+6
+7
+8
+Esunge PM (October 1991).
+"From blood pressure to hypertension: the history of research"
+.
+Journal of the Royal Society of Medicine
+.
+84
+(10): 621.
+doi
+:
+10.1177/014107689108401019
+.
+PMC
+1295564
+.
+PMID
+1744849
+.
+1
+2
+Kotchen TA (October 2011).
+"Historical trends and milestones in hypertension research: a model of the process of translational research"
+.
+Hypertension
+.
+58
+(4):
+522–
+38.
+doi
+:
+10.1161/HYPERTENSIONAHA.111.177766
+.
+PMID
+21859967
+.
+↑
+Postel-Vinay N, ed. (1996).
+A century of arterial hypertension 1896–1996
+. Chichester: Wiley. p.
+213.
+ISBN
+978-0-471-96788-0
+.
+↑
+Heydari M, Dalfardi B, Golzari SE, Habibi H, Zarshenas MM (July 2014).
+"The medieval origins of the concept of hypertension"
+.
+Heart Views
+.
+15
+(3):
+96–
+98.
+doi
+:
+10.4103/1995-705X.144807
+.
+PMC
+4268622
+.
+PMID
+25538828
+.
+↑
+Emtiazy M, Choopani R, Khodadoost M, Tansaz M, Dehghan S, Ghahremani Z (2014). "Avicenna's doctrine about arterial hypertension".
+Acta medico-historica Adriatica
+.
+12
+(1):
+157–
+162.
+PMID
+25310615
+.
+↑
+Swales JD, ed. (1995).
+Manual of hypertension
+. Oxford: Blackwell Science. p.
+xiii.
+ISBN
+978-0-86542-861-4
+.
+↑
+Wilking SV (16 December 1988).
+"Determinants of Isolated Systolic Hypertension"
+.
+JAMA: The Journal of the American Medical Association
+.
+260
+(23):
+3451–
+3455.
+doi
+:
+10.1001/jama.1988.03410230069030
+.
+ISSN
+0098-7484
+.
+PMID
+3210285
+.
+↑
+"1993 guidelines for the management of mild hypertension: memorandum from a WHO/ISH meeting"
+.
+Bulletin of the World Health Organization
+.
+71
+(5):
+503–
+517. 1993.
+ISSN
+0042-9686
+.
+PMC
+2393474
+.
+PMID
+8261554
+.
+1
+2
+Dustan HP, Roccella EJ, Garrison HH (September 1996). "Controlling hypertension. A research success story".
+Archives of Internal Medicine
+.
+156
+(17):
+1926–
+1935.
+doi
+:
+10.1001/archinte.156.17.1926
+.
+PMID
+8823146
+.
+↑
+Lyons HH, Hoobler SW (February 1948). "Experiences with tetraethylammonium chloride in hypertension".
+Journal of the American Medical Association
+.
+136
+(9):
+608–
+613.
+doi
+:
+10.1001/jama.1948.02890260016005
+.
+PMID
+18899127
+.
+↑
+Bakris GL, Frohlich ED (December 1989).
+"The evolution of antihypertensive therapy: an overview of four decades of experience"
+.
+Journal of the American College of Cardiology
+.
+14
+(7):
+1595–
+1608.
+doi
+:
+10.1016/0735-1097(89)90002-8
+.
+PMID
+2685075
+.
+↑
+Novello FC, Sprague JM (1957). "Benzothiadiazine dioxides as novel diuretics".
+J. Am. Chem. Soc
+.
+79
+(8):
+2028–
+2029.
+Bibcode
+:
+1957JAChS..79.2028N
+.
+doi
+:
+10.1021/ja01565a079
+.
+1
+2
+Chockalingam A (May 2007).
+"Impact of World Hypertension Day"
+.
+The Canadian Journal of Cardiology
+.
+23
+(7):
+517–
+519.
+doi
+:
+10.1016/S0828-282X(07)70795-X
+.
+PMC
+2650754
+.
+PMID
+17534457
+.
+↑
+Chockalingam A (June 2008).
+"World Hypertension Day and global awareness"
+.
+The Canadian Journal of Cardiology
+.
+24
+(6):
+441–
+444.
+doi
+:
+10.1016/S0828-282X(08)70617-2
+.
+PMC
+2643187
+.
+PMID
+18548140
+.
+↑
+Alcocer L, Cueto L (June 2008). "Hypertension, a health economics perspective".
+Therapeutic Advances in Cardiovascular Disease
+.
+2
+(3):
+147–
+155.
+doi
+:
+10.1177/1753944708090572
+.
+PMID
+19124418
+.
+S2CID
+31053059
+.
+↑
+Elliott WJ (October 2003).
+"The economic impact of hypertension"
+.
+Journal of Clinical Hypertension
+.
+5
+(3 Suppl 2):
+3–
+13.
+doi
+:
+10.1111/j.1524-6175.2003.02463.x
+.
+PMC
+8099256
+.
+PMID
+12826765
+.
+S2CID
+26799038
+.
+↑
+Coca A (2008). "Economic benefits of treating high-risk hypertension with angiotensin II receptor antagonists (blockers)".
+Clinical Drug Investigation
+.
+28
+(4):
+211–
+220.
+doi
+:
+10.2165/00044011-200828040-00002
+.
+PMID
+18345711
+.
+S2CID
+8294060
+.
+↑
+Global report on hypertension 2025: high stakes – turning evidence into action
+. Geneva:
+World Health Organization
+(WHO). 23 September 2025.
+ISBN
+978-92-4-011556-9
+.
+↑
+Taylor SS, Sparkes AH, Briscoe K, Carter J, Sala SC, Jepson RE, Reynolds BS, Scansen BA (March 2017).
+"ISFM Consensus Guidelines on the Diagnosis and Management of Hypertension in Cats"
+.
+Journal of Feline Medicine and Surgery
+.
+19
+(3):
+288–
+303.
+doi
+:
+10.1177/1098612X17693500
+.
+PMC
+11119534
+.
+PMID
+28245741
+.
+1
+2
+Acierno MJ, Brown S, Coleman AE, Jepson RE, Papich M, Stepien RL, Syme HM (November 2018).
+"ACVIM consensus statement: Guidelines for the identification, evaluation, and management of systemic hypertension in dogs and cats"
+.
+Journal of Veterinary Internal Medicine
+.
+32
+(6):
+1803–
+1822.
+doi
+:
+10.1111/jvim.15331
+.
+PMC
+6271319
+.
+PMID
+30353952
+.
+Further reading
+[
+edit
+]
+2025
+AHA
+/
+ACC
+guideline:
+Jones DW, Ferdinand KC, Taler SJ, Johnson HM, Shimbo D, Abdalla M, et
+al. (16 September 2025).
+"2025 AHA/ACC/AANP/AAPA/ABC/ACCP/ACPM/AGS/AMA/ASPC/NMA/PCNA/SGIM guideline for the prevention, detection, evaluation and management of high blood pressure in adults: a report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines"
+.
+Circulation
+.
+152
+(11):
+e114–
+e218.
+doi
+:
+10.1161/CIR.0000000000001356
+.
+PMID
+40811497
+.
+2024
+ESC
+guideline:
+McEvoy JW, McCarthy CP, Bruno RM, Brouwers S, Canavan MD, et
+al. (30 August 2024).
+"2024 ESC Guidelines for the management of elevated blood pressure and hypertension: Developed by the task force on the management of elevated blood pressure and hypertension of the European Society of Cardiology (ESC) and endorsed by the European Society of Endocrinology (ESE) and the European Stroke Organisation (ESO)"
+.
+European Heart Journal
+.
+45
+(38):
+3912–
+4018.
+doi
+:
+10.1093/eurheartj/ehae178
+.
+ISSN
+0195-668X
+.
+PMID
+39210715
+.
+2023
+ESH
+guideline:
+Mancia G, Kreutz R, Brunström M, Burnier M, Grassi G, Januszewicz A, et
+al. (1 December 2023).
+"2023 ESH Guidelines for the management of arterial hypertension The Task Force for the management of arterial hypertension of the European Society of Hypertension: Endorsed by the International Society of Hypertension (ISH) and the European Renal Association (ERA)"
+.
+Journal of Hypertension
+.
+41
+(12):
+1874–
+2071.
+doi
+:
+10.1097/HJH.0000000000003480
+.
+hdl
+:
+11379/603005
+.
+ISSN
+1473-5598
+.
+PMID
+37345492
+.
+2022
+AAFP
+guideline:
+Coles S, Fisher L, Lin KW, Lyon C, Vosooney AA, Bird MD (December 2022). "Blood Pressure Targets in Adults With Hypertension: A Clinical Practice Guideline From the AAFP".
+American Family Physician
+.
+106
+(6): Online.
+ISSN
+1532-0650
+.
+PMID
+36521481
+.
+Key recommendations
+.
+2019
+NICE
+guideline:
+"Hypertension in adults: diagnosis and management"
+.
+National Institute for Health and Clinical Excellence (NICE)
+. 28 August 2019.
+Classification
+D
+ICD
+-
+11
+:
+BA00
+ICD
+-
+10
+:
+I10
+ICD
+-
+9-CM
+:
+401
+OMIM
+:
+145500
+MeSH
+:
+D006973
+DiseasesDB
+:
+6330
+External resources
+MedlinePlus
+:
+000468
+eMedicine
+:
+med/1106
+ped/1097
+emerg/267
+Patient UK
+:
+Hypertension
+v
+t
+e
+Cardiovascular disease
+(vessels)
+Arteries
+,
+arterioles
+and
+capillaries
+Inflammation
+Arteritis
+Aortitis
+Buerger's disease
+Arteriosclerosis
+Atherosclerosis
+Foam cell
+Fatty streak
+Atheroma
+Cholesterol
+LDL
+Oxycholesterol
+Trans fat
+Monckeberg's arteriosclerosis
+Hyaline arteriolosclerosis
+Hyperplastic arteriolosclerosis
+Peripheral artery disease
+Stenosis
+Carotid artery stenosis
+Renal artery stenosis
+Aortoiliac occlusive disease
+Critical limb ischemia
+Degos disease
+Erythromelalgia
+Fibromuscular dysplasia
+Hepatic artery thrombosis
+Intermittent claudication
+Raynaud's phenomenon
+Aneurysm
+/
+dissection
+/
+pseudoaneurysm
+torso
+:
+Aortic aneurysm
+Abdominal aortic aneurysm
+Thoracic aortic aneurysm
+Aneurysm of sinus of Valsalva
+Aortic dissection
+Aortic rupture
+Coronary artery aneurysm
+head / neck
+:
+Intracranial aneurysm
+Intracranial berry aneurysm
+Carotid artery dissection
+Vertebral artery dissection
+Familial aortic dissection
+legs
+:
+Popliteal artery aneurysm
+Vascular malformation
+Arteriovenous fistula
+Arteriovenous malformation
+Telangiectasia
+Hereditary hemorrhagic telangiectasia
+Generalized essential telangiectasia
+Vascular nevus
+Cherry hemangioma
+Halo nevus
+Spider angioma
+Veins
+Inflammation
+Phlebitis
+Venous thrombosis
+/
+Thrombophlebitis
+primarily lower limb
+Deep vein thrombosis
+abdomen
+Hepatic veno-occlusive disease
+Budd–Chiari syndrome
+May–Thurner syndrome
+Portal vein thrombosis
+Renal vein thrombosis
+upper limb / torso
+Mondor's disease
+Paget–Schroetter disease
+Pulmonary embolism
+head
+Cerebral venous sinus thrombosis
+Post-thrombotic syndrome
+Varicose veins
+Gastric varices
+Portacaval anastomosis
+Caput medusae
+Esophageal varices
+Hemorrhoid
+Varicocele
+Other
+Chronic venous insufficiency
+Chronic cerebrospinal venous insufficiency
+Superior vena cava syndrome
+Inferior vena cava syndrome
+Venous ulcer
+Arteries or veins
+Angiopathy
+Macroangiopathy
+Microangiopathy
+Embolism
+Pulmonary embolism
+Cholesterol embolism
+Paradoxical embolism
+Thrombosis
+Vasculitis
+Blood pressure
+Hypertension
+Hypertensive heart disease
+Hypertensive emergency
+Hypertensive nephropathy
+Essential hypertension
+Secondary hypertension
+Renovascular hypertension
+Benign hypertension
+Pulmonary hypertension
+Systolic hypertension
+White coat hypertension
+Hypotension
+Orthostatic hypotension
+Shock (circulatory)
+Portals
+:
+Biology
+Medicine
+Hypertension
+at Wikipedia's
+sister projects
+:
+Media
+from Commons
+Quotations
+from Wikiquote
+Travel guides
+from Wikivoyage
+Data
+from Wikidata
+Authority control databases
+National
+United States
+France
+BnF data
+Japan
+Czech Republic
+Latvia
+Israel
+Other
+Yale LUX
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Hypertension&oldid=1357710118
+"
+Categories
+:
+Hypertension
+Medical conditions related to obesity
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Good articles
+Use dmy dates from April 2023
+CS1 maint: DOI inactive as of July 2025
+Pages using gadget owidslider
+Wikipedia medicine articles ready to translate (full)
+Wikipedia neurology articles ready to translate
+Articles containing video clips
+Search
+Search
+Hypertension
+105 languages
+Add topic

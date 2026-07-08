@@ -1,0 +1,47 @@
+NABH HOSPITAL ACCREDITATION STANDARDS — OVERVIEW
+
+The National Accreditation Board for Hospitals & Healthcare Providers
+(NABH), a constituent board of the Quality Council of India, sets voluntary
+accreditation standards that Indian hospitals can be assessed against.
+NABH accreditation is a marker that a hospital has been independently
+assessed against defined quality and patient-safety standards — it is not
+itself a guarantee of outcome for any individual patient, and not every
+functioning, licensed hospital in India is NABH-accredited (accreditation
+is voluntary, unlike basic state licensing/registration which is generally
+mandatory).
+
+Broad standard chapters commonly used in hospital accreditation frameworks
+like NABH include:
+
+- Access, Assessment and Continuity of Care (AAC): how patients are
+  registered, assessed, and their care coordinated across departments.
+- Care of Patients (COP): standards for how clinical care, including
+  high-risk care (ICU, emergency, obstetric), is planned and delivered.
+- Management of Medication (MOM): safe prescription, storage, dispensing,
+  and administration of medicines, including look-alike/sound-alike drug
+  safeguards.
+- Patient Rights and Education (PRE): the hospital's obligations to
+  inform, involve, and respect patients and their families, aligned with
+  charters like the Charter of Patients' Rights.
+- Hospital Infection Control (HIC): infection prevention practices,
+  surveillance, and outbreak response.
+- Continuous Quality Improvement (CQI): tracking of quality/safety
+  indicators and improvement cycles.
+- Responsibility of Management (ROM): governance, ethics, and
+  organizational accountability for quality and safety.
+- Facility Management and Safety (FMS): physical infrastructure, fire
+  safety, biomedical waste management, and equipment maintenance.
+- Human Resource Management (HRM): staff credentialing, training, and
+  competency assessment.
+- Information Management System (IMS): medical record-keeping and data
+  management standards.
+
+Why this matters to patients: accreditation status is one input (not the
+only one) when choosing a hospital, alongside your doctor's recommendation,
+the facility's experience with your specific condition, distance/
+accessibility, and cost/insurance considerations. You can generally ask a
+hospital directly about its accreditation status, and independently check
+current status via NABH's public accredited-hospital listing.
+
+This is general educational information about how hospital quality
+frameworks work, not an endorsement or rating of any specific facility.

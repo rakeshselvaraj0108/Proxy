@@ -1,0 +1,632 @@
+[
+  {
+    "authority": "WHO",
+    "title": "World Health Organization Home",
+    "url": "https://www.who.int/",
+    "folder": "who",
+    "category": "overview",
+    "slug": "who_home",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheets Index",
+    "url": "https://www.who.int/news-room/fact-sheets",
+    "folder": "who",
+    "category": "overview",
+    "slug": "who_fact_sheets_index",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Diabetes",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+    "folder": "diseases",
+    "category": "diabetes",
+    "slug": "who_fact_sheet_diabetes",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Hypertension",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hypertension",
+    "folder": "diseases",
+    "category": "hypertension",
+    "slug": "who_fact_sheet_hypertension",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Dengue and Severe Dengue",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue",
+    "folder": "diseases",
+    "category": "dengue",
+    "slug": "who_fact_sheet_dengue",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Tuberculosis",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis",
+    "folder": "diseases",
+    "category": "tuberculosis",
+    "slug": "who_fact_sheet_tuberculosis",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Malaria",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+    "folder": "diseases",
+    "category": "malaria",
+    "slug": "who_fact_sheet_malaria",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Cardiovascular Diseases (CVDs)",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+    "folder": "diseases",
+    "category": "cardiovascular",
+    "slug": "who_fact_sheet_cardiovascular",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Cancer",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+    "folder": "diseases",
+    "category": "cancer",
+    "slug": "who_fact_sheet_cancer",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Obesity and Overweight",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+    "folder": "diseases",
+    "category": "obesity",
+    "slug": "who_fact_sheet_obesity",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Hepatitis B",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+    "folder": "diseases",
+    "category": "hepatitis",
+    "slug": "who_fact_sheet_hepatitis_b",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Measles",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+    "folder": "diseases",
+    "category": "measles",
+    "slug": "who_fact_sheet_measles",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Fact Sheet: Mental Disorders",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders",
+    "folder": "diseases",
+    "category": "mental_health",
+    "slug": "who_fact_sheet_mental_disorders",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Health Topic: Vaccines and Immunization",
+    "url": "https://www.who.int/health-topics/vaccines-and-immunization",
+    "folder": "vaccination",
+    "category": "overview",
+    "slug": "who_immunization_topic",
+    "type": "html"
+  },
+  {
+    "authority": "WHO",
+    "title": "WHO Health Topic: Patient Safety",
+    "url": "https://www.who.int/health-topics/patient-safety",
+    "folder": "patient_rights",
+    "category": "patient_safety",
+    "slug": "who_patient_safety_topic",
+    "type": "html"
+  },
+  {
+    "authority": "MoHFW",
+    "title": "Ministry of Health and Family Welfare Home",
+    "url": "https://www.mohfw.gov.in/",
+    "folder": "mohfw",
+    "category": "overview",
+    "slug": "mohfw_home",
+    "type": "html"
+  },
+  {
+    "authority": "National Health Portal",
+    "title": "National Health Portal of India",
+    "url": "https://www.nhp.gov.in/",
+    "folder": "mohfw",
+    "category": "portal",
+    "slug": "nhp_home",
+    "type": "html"
+  },
+  {
+    "authority": "CoWIN",
+    "title": "CoWIN - India COVID Vaccine Intelligence Network",
+    "url": "https://www.cowin.gov.in/",
+    "folder": "vaccination",
+    "category": "vaccination_portal",
+    "slug": "cowin_home",
+    "type": "html"
+  },
+  {
+    "authority": "NCDC",
+    "title": "National Centre for Disease Control",
+    "url": "https://ncdc.mohfw.gov.in/",
+    "folder": "public_health",
+    "category": "disease_control",
+    "slug": "ncdc_home",
+    "type": "html"
+  },
+  {
+    "authority": "ICMR",
+    "title": "Indian Council of Medical Research Home",
+    "url": "https://www.icmr.gov.in/",
+    "folder": "icmr",
+    "category": "overview",
+    "slug": "icmr_home",
+    "type": "html"
+  },
+  {
+    "authority": "National Health Mission",
+    "title": "National Health Mission Home",
+    "url": "https://nhm.gov.in/",
+    "folder": "nhm",
+    "category": "overview",
+    "slug": "nhm_home",
+    "type": "html"
+  },
+  {
+    "authority": "MedlinePlus",
+    "title": "MedlinePlus Home",
+    "url": "https://medlineplus.gov/",
+    "folder": "medlineplus",
+    "category": "overview",
+    "slug": "medlineplus_home",
+    "type": "html"
+  },
+  {
+    "authority": "MedlinePlus",
+    "title": "MedlinePlus Health Topics Index",
+    "url": "https://medlineplus.gov/healthtopics.html",
+    "folder": "medlineplus",
+    "category": "overview",
+    "slug": "medlineplus_health_topics",
+    "type": "html"
+  },
+  {
+    "authority": "MedlinePlus",
+    "title": "MedlinePlus: Diabetes",
+    "url": "https://medlineplus.gov/diabetes.html",
+    "folder": "diseases",
+    "category": "diabetes",
+    "slug": "medlineplus_diabetes",
+    "type": "html"
+  },
+  {
+    "authority": "MedlinePlus",
+    "title": "MedlinePlus: High Blood Pressure",
+    "url": "https://medlineplus.gov/highbloodpressure.html",
+    "folder": "diseases",
+    "category": "hypertension",
+    "slug": "medlineplus_high_blood_pressure",
+    "type": "html"
+  },
+  {
+    "authority": "MedlinePlus",
+    "title": "MedlinePlus: Tuberculosis",
+    "url": "https://medlineplus.gov/tuberculosis.html",
+    "folder": "diseases",
+    "category": "tuberculosis",
+    "slug": "medlineplus_tuberculosis",
+    "type": "html"
+  },
+  {
+    "authority": "MedlinePlus",
+    "title": "MedlinePlus: Immunization",
+    "url": "https://medlineplus.gov/immunization.html",
+    "folder": "vaccination",
+    "category": "overview",
+    "slug": "medlineplus_immunization",
+    "type": "html"
+  },
+  {
+    "authority": "MedlinePlus",
+    "title": "MedlinePlus: Medical Encyclopedia",
+    "url": "https://medlineplus.gov/medicalencyclopedia.html",
+    "folder": "symptoms",
+    "category": "overview",
+    "slug": "medlineplus_medical_encyclopedia",
+    "type": "html"
+  },
+  {
+    "authority": "MedlinePlus",
+    "title": "MedlinePlus: Drug Information",
+    "url": "https://medlineplus.gov/druginformation.html",
+    "folder": "drug_safety",
+    "category": "overview",
+    "slug": "medlineplus_drug_information",
+    "type": "html"
+  },
+  {
+    "authority": "MedlinePlus",
+    "title": "MedlinePlus: Laboratory Tests",
+    "url": "https://medlineplus.gov/laboratorytests.html",
+    "folder": "diagnostics",
+    "category": "overview",
+    "slug": "medlineplus_laboratory_tests",
+    "type": "html"
+  },
+  {
+    "authority": "CDC",
+    "title": "CDC Home",
+    "url": "https://www.cdc.gov/",
+    "folder": "cdc",
+    "category": "overview",
+    "slug": "cdc_home",
+    "type": "html"
+  },
+  {
+    "authority": "CDC",
+    "title": "CDC Vaccines and Immunization Schedules",
+    "url": "https://www.cdc.gov/vaccines/schedules/index.html",
+    "folder": "vaccination",
+    "category": "schedule",
+    "slug": "cdc_vaccine_schedules",
+    "type": "html"
+  },
+  {
+    "authority": "CDC",
+    "title": "CDC Diabetes",
+    "url": "https://www.cdc.gov/diabetes/index.html",
+    "folder": "diseases",
+    "category": "diabetes",
+    "slug": "cdc_diabetes",
+    "type": "html"
+  },
+  {
+    "authority": "CDC",
+    "title": "CDC High Blood Pressure",
+    "url": "https://www.cdc.gov/bloodpressure/index.html",
+    "folder": "diseases",
+    "category": "hypertension",
+    "slug": "cdc_high_blood_pressure",
+    "type": "html"
+  },
+  {
+    "authority": "CDC",
+    "title": "CDC Tuberculosis",
+    "url": "https://www.cdc.gov/tb/index.html",
+    "folder": "diseases",
+    "category": "tuberculosis",
+    "slug": "cdc_tuberculosis",
+    "type": "html"
+  },
+  {
+    "authority": "CDC",
+    "title": "CDC Malaria",
+    "url": "https://www.cdc.gov/malaria/index.html",
+    "folder": "diseases",
+    "category": "malaria",
+    "slug": "cdc_malaria",
+    "type": "html"
+  },
+  {
+    "authority": "CDC",
+    "title": "CDC Healthy Weight",
+    "url": "https://www.cdc.gov/healthyweight/index.html",
+    "folder": "public_health",
+    "category": "preventive_care",
+    "slug": "cdc_healthy_weight",
+    "type": "html"
+  },
+  {
+    "authority": "NIH",
+    "title": "National Institutes of Health Home",
+    "url": "https://www.nih.gov/",
+    "folder": "nih",
+    "category": "overview",
+    "slug": "nih_home",
+    "type": "html"
+  },
+  {
+    "authority": "NIH",
+    "title": "NIH Health Information",
+    "url": "https://www.nih.gov/health-information",
+    "folder": "nih",
+    "category": "overview",
+    "slug": "nih_health_information",
+    "type": "html"
+  },
+  {
+    "authority": "NIH",
+    "title": "National Heart, Lung, and Blood Institute Home",
+    "url": "https://www.nhlbi.nih.gov/",
+    "folder": "diseases",
+    "category": "cardiovascular",
+    "slug": "nih_nhlbi_home",
+    "type": "html"
+  },
+  {
+    "authority": "NIH",
+    "title": "National Institute of Diabetes and Digestive and Kidney Diseases Home",
+    "url": "https://www.niddk.nih.gov/",
+    "folder": "diseases",
+    "category": "diabetes",
+    "slug": "nih_niddk_home",
+    "type": "html"
+  },
+  {
+    "authority": "AIIMS",
+    "title": "AIIMS New Delhi Home",
+    "url": "https://www.aiims.edu/",
+    "folder": "aiims",
+    "category": "overview",
+    "slug": "aiims_home",
+    "type": "html"
+  },
+  {
+    "authority": "National Health Authority",
+    "title": "National Health Authority (India) Home",
+    "url": "https://nha.gov.in/",
+    "folder": "nha",
+    "category": "overview",
+    "slug": "nha_home",
+    "type": "html"
+  },
+  {
+    "authority": "National Health Authority",
+    "title": "Ayushman Bharat Digital Mission",
+    "url": "https://abdm.gov.in/",
+    "folder": "nha",
+    "category": "digital_health",
+    "slug": "abdm_home",
+    "type": "html"
+  },
+  {
+    "authority": "National Health Authority",
+    "title": "Ayushman Bharat PM-JAY",
+    "url": "https://pmjay.gov.in/",
+    "folder": "nha",
+    "category": "scheme",
+    "slug": "pmjay_home",
+    "type": "html"
+  },
+  {
+    "authority": "CDSCO",
+    "title": "Central Drugs Standard Control Organisation Home",
+    "url": "https://cdsco.gov.in/",
+    "folder": "drug_safety",
+    "category": "overview",
+    "slug": "cdsco_home",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Dengue Fever",
+    "url": "https://en.wikipedia.org/wiki/Dengue_fever",
+    "folder": "diseases",
+    "category": "dengue",
+    "slug": "wiki_dengue_fever",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Tuberculosis",
+    "url": "https://en.wikipedia.org/wiki/Tuberculosis",
+    "folder": "diseases",
+    "category": "tuberculosis",
+    "slug": "wiki_tuberculosis",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Malaria",
+    "url": "https://en.wikipedia.org/wiki/Malaria",
+    "folder": "diseases",
+    "category": "malaria",
+    "slug": "wiki_malaria",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Diabetes Mellitus",
+    "url": "https://en.wikipedia.org/wiki/Diabetes_mellitus",
+    "folder": "diseases",
+    "category": "diabetes",
+    "slug": "wiki_diabetes_mellitus",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Hypertension",
+    "url": "https://en.wikipedia.org/wiki/Hypertension",
+    "folder": "diseases",
+    "category": "hypertension",
+    "slug": "wiki_hypertension",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Vaccination",
+    "url": "https://en.wikipedia.org/wiki/Vaccination",
+    "folder": "vaccination",
+    "category": "overview",
+    "slug": "wiki_vaccination",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Vaccination Schedule",
+    "url": "https://en.wikipedia.org/wiki/Vaccination_schedule",
+    "folder": "vaccination",
+    "category": "schedule",
+    "slug": "wiki_vaccination_schedule",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Patients' Rights",
+    "url": "https://en.wikipedia.org/wiki/Patients%27_rights",
+    "folder": "patient_rights",
+    "category": "overview",
+    "slug": "wiki_patient_rights",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Hospital Accreditation",
+    "url": "https://en.wikipedia.org/wiki/Hospital_accreditation",
+    "folder": "hospital_quality",
+    "category": "overview",
+    "slug": "wiki_hospital_accreditation",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "National Accreditation Board for Hospitals & Healthcare Providers",
+    "url": "https://en.wikipedia.org/wiki/National_Accreditation_Board_for_Hospitals_%26_Healthcare_Providers",
+    "folder": "hospital_quality",
+    "category": "nabh",
+    "slug": "wiki_nabh",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Medical Terminology",
+    "url": "https://en.wikipedia.org/wiki/Medical_terminology",
+    "folder": "faqs",
+    "category": "glossary",
+    "slug": "wiki_medical_terminology",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Ayushman Bharat Yojana",
+    "url": "https://en.wikipedia.org/wiki/Ayushman_Bharat_Yojana",
+    "folder": "public_health",
+    "category": "scheme",
+    "slug": "wiki_ayushman_bharat",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Universal Immunization Programme",
+    "url": "https://en.wikipedia.org/wiki/Universal_Immunisation_Programme",
+    "folder": "vaccination",
+    "category": "india_programme",
+    "slug": "wiki_universal_immunization_programme",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Preventive Healthcare",
+    "url": "https://en.wikipedia.org/wiki/Preventive_healthcare",
+    "folder": "public_health",
+    "category": "overview",
+    "slug": "wiki_preventive_healthcare",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Reference Ranges for Blood Tests",
+    "url": "https://en.wikipedia.org/wiki/Reference_ranges_for_blood_tests",
+    "folder": "diagnostics",
+    "category": "overview",
+    "slug": "wiki_reference_ranges",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Pharmacovigilance",
+    "url": "https://en.wikipedia.org/wiki/Pharmacovigilance",
+    "folder": "drug_safety",
+    "category": "overview",
+    "slug": "wiki_pharmacovigilance",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "World Health Organization",
+    "url": "https://en.wikipedia.org/wiki/World_Health_Organization",
+    "folder": "who",
+    "category": "overview",
+    "slug": "wiki_who",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Indian Council of Medical Research",
+    "url": "https://en.wikipedia.org/wiki/Indian_Council_of_Medical_Research",
+    "folder": "icmr",
+    "category": "overview",
+    "slug": "wiki_icmr",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "National Health Mission (India)",
+    "url": "https://en.wikipedia.org/wiki/National_Health_Mission",
+    "folder": "nhm",
+    "category": "overview",
+    "slug": "wiki_nhm",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Public Health",
+    "url": "https://en.wikipedia.org/wiki/Public_health",
+    "folder": "public_health",
+    "category": "overview",
+    "slug": "wiki_public_health",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Epidemiology",
+    "url": "https://en.wikipedia.org/wiki/Epidemiology",
+    "folder": "public_health",
+    "category": "overview",
+    "slug": "wiki_epidemiology",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Ministry of Health and Family Welfare (India)",
+    "url": "https://en.wikipedia.org/wiki/Ministry_of_Health_and_Family_Welfare",
+    "folder": "mohfw",
+    "category": "overview",
+    "slug": "wiki_mohfw",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "National Health Authority (India)",
+    "url": "https://en.wikipedia.org/wiki/National_Health_Authority",
+    "folder": "nha",
+    "category": "overview",
+    "slug": "wiki_nha",
+    "type": "html"
+  },
+  {
+    "authority": "Wikipedia",
+    "title": "Ayushman Bharat Digital Mission",
+    "url": "https://en.wikipedia.org/wiki/Ayushman_Bharat_Digital_Mission",
+    "folder": "nha",
+    "category": "abdm",
+    "slug": "wiki_abdm",
+    "type": "html"
+  }
+]

@@ -1,0 +1,47 @@
+MEDICATION SAFETY — FAQs
+
+Q: Are generic medicines as safe/effective as branded ones?
+A: In India, generic drugs approved by the Central Drugs Standard Control
+   Organisation (CDSCO) are required to meet the same quality, safety, and
+   (for oral solid generics) bioequivalence standards as the reference
+   branded product. Cost differences mainly reflect marketing/branding, not
+   a difference in the regulatory quality bar. If you have a specific
+   concern about switching between a brand and its generic, discuss it with
+   your prescribing doctor or pharmacist rather than switching unilaterally
+   for a narrow-therapeutic-index medicine.
+
+Q: How do I know if two medicines I'm taking might interact?
+A: Always give every doctor and pharmacist a complete list of everything
+   you take, including over-the-counter medicines, supplements, and herbal/
+   ayurvedic products, since interactions aren't limited to prescription
+   drugs. Pharmacists can check for known interactions at the point of
+   dispensing; do not rely solely on informal internet searches to decide
+   whether a combination is safe for you.
+
+Q: What is a CDSCO drug alert, and where can I check for one?
+A: CDSCO periodically issues alerts on substandard/spurious drug batches,
+   safety-related regulatory actions, and Not of Standard Quality (NSQ)
+   findings from testing. If you've been advised a specific medicine has
+   been flagged, check CDSCO's public notices/alerts section (cdsco.gov.in)
+   or ask your pharmacist, rather than stopping a prescribed medicine
+   without medical advice based on an unverified message.
+
+Q: What should I do if I think I've had an adverse drug reaction?
+A: Report it — India's Pharmacovigilance Programme of India (PvPI),
+   coordinated by the Indian Pharmacopoeia Commission under CDSCO, collects
+   Adverse Drug Reaction (ADR) reports from patients and healthcare
+   providers to monitor medicine safety after they reach the market. Tell
+   your treating doctor or pharmacist promptly, and seek urgent care for
+   any severe reaction (difficulty breathing, swelling of face/throat,
+   severe rash, or fainting).
+
+Q: Is it safe to stop a prescribed medicine once I feel better?
+A: Not necessarily — for many conditions (e.g. antibiotics, blood pressure
+   or diabetes medication, tuberculosis treatment), stopping early can
+   allow the underlying condition to worsen or, for antibiotics/TB
+   treatment, contribute to drug resistance. Always confirm the intended
+   duration/stopping plan with your prescriber rather than deciding to stop
+   on your own.
+
+This is general medication-safety education, not a substitute for advice
+from your prescribing doctor or pharmacist about your specific medicines.

@@ -1,0 +1,9 @@
+{
+  "title": "CDC Diabetes",
+  "authority": "CDC",
+  "source_url": "https://www.cdc.gov/diabetes/index.html",
+  "domain": "healthcare",
+  "type": "html_text",
+  "category": "diabetes",
+  "raw_chars": 3268
+}

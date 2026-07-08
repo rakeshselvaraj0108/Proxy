@@ -1,0 +1,2021 @@
+Pharmacovigilance - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Study of pharmaceutical drug safety
+"Drug safety" redirects here. For the peer-reviewed journal, see
+Drug Safety
+.
+This article has multiple issues.
+Please help
+improve it
+or discuss these issues on the
+talk page
+.
+(
+Learn how and when to remove these messages
+)
+This article
+needs
+more citations
+.
+Please help
+improve this article
+by
+adding citations to reliable sources
+. Unsourced material may be challenged and removed.
+Find sources:
+"Pharmacovigilance"
+–
+news
+·
+newspapers
+·
+books
+·
+scholar
+·
+JSTOR
+(
+March 2014
+)
+(
+Learn how and when to remove this message
+)
+This article cites its sources
+but its
+page reference
+ranges are too broad or are incorrect
+.
+Please help
+improve it
+by specifying more precise page ranges.
+(
+March 2014
+)
+(
+Learn how and when to remove this message
+)
+This article
+may contain
+original research
+.
+Please
+improve it
+by
+verifying
+the claims made and adding
+inline citations
+. Statements consisting only of original research should be removed.
+(
+March 2014
+)
+(
+Learn how and when to remove this message
+)
+(
+Learn how and when to remove this message
+)
+Pharmacovigilance
+(
+PV
+, or
+PhV
+), also known as
+drug safety
+, is the discipline within
+pharmaceutical science
+that addresses the identification, evaluation, and mitigation of
+adverse effects
+and other drug-related problems associated with
+pharmaceutical products
+.
+[
+1
+]
+:
+7
+The term ‘pharmacovigilance’ is derived from the Greek
+pharmakon
+(meaning ‘drug’) and the Latin
+vigilare
+(meaning ‘to keep watch’), reflecting the discipline’s focus on monitoring drug safety.” Adverse drug reactions (ADRs), which are harmful and unintended responses to approved medicinal products, are a central focus of pharmacovigilance. That definition includes lack of efficacy: that means that the doses normally used for prevention, diagnosis, or treatment of a disease—or for the modification of physiological disorder function. In 2010, the European Union expanded the definition to include lack of efficacy and
+medication errors
+,
+[
+2
+]
+recognizing that adverse outcomes extend beyond harmful responses to therapeutic failures and misuse.
+[
+3
+]
+The U.S.
+Food and Drug Administration
+(FDA) adopted similar expanded criteria for its pharmacovigilance framework, which includes medication errors, overdose, misuse, abuse, and exposure during pregnancy or breastfeeding. Patient and healthcare provider reports (via pharmacovigilance agreements or national mandated reporting laws), as well as other sources such as cases reported in
+medical literature
+, play a critical role in providing the data necessary for pharmacovigilance to take place. In many regulatory systems, including those of the United States and European Union, marketing authorization holders are required to submit adverse event reports to national drug regulatory authorities as part of post-approval safety monitoring (
+See
+Adverse event reporting
+below.)
+Pharmacovigilance seeks to detect and evaluate patterns of adverse outcomes—known as safety signals—and to support actions that reduce patient risk from marketed medicinal products. Companies must conduct a comprehensive drug safety and pharmacovigilance audit to assess their compliance with local, regional, national, or international laws and regulations. This includes ongoing collection of safety data after a product is approved for marketing.
+[
+4
+]
+Terms commonly used in drug safety
+[
+edit
+]
+Pharmacovigilance uses unique terminology. The terms used in this article are specific to drug safety, although some are used by other disciplines within the pharmaceutical sciences as well.
+The European Medicines Agency defines terms in its Guideline on good pharmacovigilance practices (GVP):
+[
+5
+]
+Adverse drug reaction
+is any unintended, harmful, or unpleasant response to a drug that is reported to have occurred at doses normally used in humans for prevention, diagnosis, or treatment of disease; such reactions may be pharmacologically mediated, immunologically mediated, or idiosyncratic to the individual, and are considered adverse when a causal relationship between the drug and the event is at least suspected or established.
+Adverse event
+(AE)
+is a side effect occurring with a drug. By definition, the causal relationship between the AE and the drug is unknown. An investigator must establish causality and severity and then report it, especially during clinical trials (not necessarily after marketing is approved).
+Benefits
+are the
+therapeutic
+good (positive outcome) of a medicine or device, and benefits also include the patient's subjective response.
+Causal relationship
+is said to exist when a drug causes or contributes to the occurrence of an adverse drug reaction.
+Clinical trial
+(or study) refers to an organised program to determine the safety and/or
+efficacy
+of a drug (or drugs) in patients. The design of a clinical trial will depend on the drug and the phase of its development. Some clinical trials are conducted after a device or drug is approved to follow for safety.
+Control group
+is a group (or cohort) of individual patients that is used as a standard of comparison within a clinical trial. The control group may be taking a placebo (where no active drug is given) or may be given the standard treatment (“standard of care therapy”) as the comparator.
+Dechallenge
+and
+rechallenge
+refer to a drug being stopped and restarted in a patient, respectively. A positive dechallenge has occurred, for example, when an adverse event abates or resolves completely following the drug's discontinuation. A positive rechallenge has occurred when the adverse event re-occurs after the drug is restarted. Dechallenge and rechallenge play an important role in determining whether a causal relationship between an event and a drug exists.
+Effectiveness
+is the extent to which a drug works under real world circumstances, i.e., clinical practice.
+Efficacy
+is the extent to which a drug works under ideal circumstances, i.e., in clinical trials.
+Event
+refers to an adverse event.
+Harm
+is the nature and extent of the actual damage that could be or has been caused.
+Implied causality
+is a regulatory convention in spontaneous reporting systems where adverse events are assumed to be related to the suspect drug unless the reporter explicitly indicates otherwise. This approach prioritizes signal sensitivity (detecting potential drug safety issues) over specificity, recognizing that reporters who select a particular drug as suspect have observed a temporal relationship they deemed noteworthy. Actual causality determination occurs during subsequent pharmacovigilance evaluation.
+Individual Case Safety Report
+is an adverse event report for an individual patient.
+Life-threatening
+refers to an adverse event that places a patient at the
+immediate
+risk of death.
+Phase
+refers to the four
+phases of clinical research
+and development: I – small safety trials early on in a drug's development; II – medium-sized trials for both safety and efficacy; III – large trials, which includes key (or so-called "pivotal") trials; IV – large, post-marketing trials, typically for safety reasons. There are also intermediate phases designated by an "a" or "b", e.g. Phase IIb.
+Risk
+is the probability of harm being caused, usually expressed as a percent or ratio of the treated population.
+Risk factor
+is an attribute of a patient that may predispose, or increase the risk, of that patient developing an event that may or may not be drug-related. For instance, obesity is considered a risk factor for a number of different diseases and, potentially, adverse drug reactions. Others would be high blood pressure, diabetes, possessing a specific mutated gene, for example, mutations in the
+BRCA1
+and BRCA2 genes increase propensity to develop breast cancer.
+Signal
+is a new safety finding within safety data that requires further investigation. There are three categories of signals:
+confirmed signals
+where the data indicate that there is a causal relationship between the drug and the AE;
+refuted
+(or false) signals where after investigation the data indicate that no causal relationship exists; and
+unconfirmed
+signals which require further investigation (more data) such as the conducting of a post-marketing trial to study the issue.
+Temporal relationship
+is said to exist when an adverse event occurs when a patient is taking a given drug. Although a temporal relationship is absolutely necessary in order to establish a causal relationship between the drug and the AE, a temporal relationship does not necessarily in and of itself prove that the event was caused by the drug.
+Triage
+refers to the process of placing a potential adverse event report into one of three categories: 1) non-serious case; 2) serious case; or 3) no case (minimum criteria for an AE case are not fulfilled).
+Adverse event reporting
+[
+edit
+]
+Adverse event (AE) reporting, a core function of pharmacovigilance, involves the collection, assessment, and archiving of data on suspected safety issues and is a major operational component for regulators and pharmaceutical companies. The source of AE reports may include: spontaneous reports from healthcare professionals or patients (or other intermediaries); solicited reports from patient support programs; reports from clinical or post-marketing studies; reports from literature sources; reports from the media (including social media and websites); and reports reported to drug regulatory authorities themselves.  For pharmaceutical companies, AE reporting is a regulatory requirement in most countries. AE reporting also provides data to these companies and drug regulatory authorities that play a key role in assessing the risk-benefit profile of a given drug. The following are several facets of AE reporting:
+Individual Case Safety Report
+[
+edit
+]
+One of the fundamental principles of adverse event reporting is the determination of what constitutes an individual case safety report.  During the triage phase of a potential adverse event report, it is important to determine if the "four elements" of a valid individual case safety report are present: (1) an identifiable patient, (2) an identifiable reporter, (3) a suspect drug, and (4) an adverse event.
+If one or more of these four elements is missing, the case is not a valid individual case safety report.  Although there are no exceptions to this rule there may be circumstances that may require a judgment call.  For example, the term "identifiable" may not always be clear-cut.  For a report to be valid, the patient must be identifiable, meaning the reporter can provide sufficient information (such as initials, date of birth, age, or medical record number) to distinguish this case from others and enable follow-up investigation. A reporter may remain anonymous in some jurisdictions under whistleblower protections, but the organization receiving the report must be able to identify the reporter for verification purposes.
+The concept of identifiability also applies to the other three elements.  Although uncommon, it is not unheard of for fictitious adverse event "cases" to be reported to a company by an anonymous individual (or on behalf of an anonymous patient, disgruntled employee, or former employee) trying to damage the company's reputation or a company's product.  In these and all other situations, the source of the report should be ascertained (if possible).  But anonymous reporting is also important, as whistle blower protection is not granted in all countries. In general, the drug must also be specifically named. Note that in different countries and regions of the world, drugs are sold under various tradenames. In addition, there are a large number of generics which may be mistaken for the trade product. Finally, there is the problem of counterfeit drugs producing adverse events. If at all possible, it is best to try to obtain the sample which induced the adverse event, and send it to either the
+European Medicines Agency
+, FDA or other government agency responsible for investigating AE reports.
+If a reporter can't recall the name of the drug they were taking when they experienced an adverse event, this would not be a valid case.  This concept also applies to adverse events.  If a patient states that they experienced "symptoms", but cannot be more specific, such a report might technically be considered valid, but will be of very limited value to the pharmacovigilance department of the company or to drug regulatory authorities.
+[
+6
+]
+Activities involved in pharmacovigilance
+[
+edit
+]
+1- Case-control study (
+Retrospective study
+)
+2- Prospective study (
+Cohort study
+).
+3- Population statistics. and
+4- Intensive event report.
+5- The spontaneous report in the case is the population of the single case report.
+[
+7
+]
+Coding of adverse events
+[
+edit
+]
+Adverse event coding is the process by which information from an AE reporter, called the "verbatim", is coded using standardized terminology from a medical coding dictionary, such as
+MedDRA
+(the most commonly used medical coding dictionary).  The purpose of medical coding is to convert adverse event information into terminology that can be readily identified and analyzed.  For instance, Patient 1 may report that they had experienced "a very bad headache that felt that like their head was being hit by a hammer" [Verbatim 1] when taking Drug X.  Or, Patient 2 may report that they had experienced a "slight, throbbing headache that occurred daily at about two in the afternoon" [Verbatim 2] while taking Drug Y.  Neither Verbatim 1 nor Verbatim 2 will exactly match a code in the MedDRA coding dictionary.  However, both quotes describe different manifestations of a headache.  As a result, in this example both quotes would be coded as PT Headache (PT = Preferred Term in MedDRA).
+[
+8
+]
+Seriousness determination
+[
+edit
+]
+Although somewhat intuitive, there are a set of criteria within pharmacovigilance that are used to distinguish a serious adverse event from a non-serious one.  An adverse event is considered serious if it meets one or more of the following criteria:
+results in death, or is life-threatening;
+requires inpatient hospitalization or prolongation of existing hospitalization;
+results in persistent or significant disability or incapacity;
+results in a congenital anomaly (birth defect); or
+is otherwise "medically significant" (i.e., that it does not meet preceding criteria, but is considered serious because treatment/intervention would be required to prevent one of the preceding criteria.)
+[
+6
+]
+Aside from death, each of these categories is subject to some interpretation.  Life-threatening refers to an adverse event that places the patient at serious, immediate risk of fatal outcome if not promptly treated. This category includes myocardial infarction, severe anaphylaxis, acute respiratory failure, and status epilepticus. The assessment is based on the severity and acuity of the event itself, not on whether death ultimately occurred.  Defining what constitutes hospitalization can be problematic as well.  Although typically straightforward, it's possible for a hospitalization to occur even if the events being treated are not serious.  By the same token, serious events may be treated without hospitalization, such as the treatment of anaphylaxis may be successfully performed with epinephrine.  Significant disability and incapacity, as a concept, is also subject to debate.  While permanent disability following a stroke would no doubt be serious, would "complete blindness for 30 seconds" be considered "significant disability"?  For birth defects, the seriousness of the event is usually not in dispute so much as the attribution of the event to the drug. Finally, "medically significant events" is a category that includes events that may be always serious, or sometimes serious, but will not fulfill any of the other criteria.  Events such as cancer might always be considered serious, whereas liver disease, depending on its
+Common Terminology Criteria for Adverse Events
+(CTCAE) grade—Grades 1 or 2 are generally considered non-serious and Grades 3-5 may be considered serious.
+[
+9
+]
+Expedited reporting
+[
+edit
+]
+This refers to individual case safety reports that involve a serious and unlisted event (an event not described in the drug's labeling) that is considered related to the use of the drug (US FDA).  (Spontaneous reports are typically considered to have a positive causality, whereas a clinical trial case will typically be assessed for causality by the clinical trial investigator and/or the license holder.) In most countries, the time frame for reporting expedited cases is 7/15 calendar days from the time a drug company receives notification (referred to as "Day 0") of such a case.  Within clinical trials such a case is referred to as a SUSAR (a Suspected Unexpected Serious Adverse Reaction).  If the SUSAR involves an event that is life-threatening or fatal, it may be subject to a 7-day "clock".  Cases that do not involve a serious, unlisted event may be subject to non-expedited or periodic reporting.
+Clinical trial reporting
+[
+edit
+]
+Also known as AE (adverse event) or SAE (serious AE) reporting from clinical trials, safety information from clinical studies is used to establish a drug's safety profile in humans and is a key component that drug regulatory authorities consider in the decision-making as to whether to grant or deny market authorization (market approval) for a drug. AE reporting in clinical trials requires documentation of any health-related unfavorable change, including new signs or symptoms, worsening of pre-existing conditions, laboratory abnormalities, or diagnoses, whether or not considered related to the investigational product. Non-serious adverse events are typically captured separately at a level lower than pharmacovigilance. AE and SAE information, which may also include relevant information from the patient's medical background, are reviewed and assessed for both causality and degree of seriousness by the study investigator. This information is forwarded to a sponsoring entity (typically a pharmaceutical company or academic medical center) that is responsible for the reporting of this information, as appropriate, to drug regulatory authorities.
+Spontaneous reporting
+[
+edit
+]
+Spontaneous reports are termed spontaneous as they take place during the clinician's normal diagnostic appraisal of a patient, when the clinician is drawing the conclusion that the drug may be implicated in the causality of the event.
+Spontaneous reporting system (SRS) relies on vigilant physicians and other healthcare professionals who not only generate a suspicion of an adverse drug reaction, but also report it. It is an important source of regulatory actions such as taking a drug off the market or a label change due to safety problems. Spontaneous reporting is the core data-generating system of international pharmacovigilance, relying on healthcare professionals (and in some countries consumers) to identify and report any adverse events to their national pharmacovigilance center, health authority (such as the European Medicines Agency or FDA), or to the drug manufacturer itself.
+[
+10
+]
+Spontaneous reports are, by definition, submitted voluntarily although under certain circumstances these reports may be encouraged, or "stimulated", by media reports or articles published in medical or scientific publications, or by product lawsuits. In many parts of the world adverse event reports are submitted electronically using a defined message standard.
+[
+11
+]
+[
+12
+]
+A major limitation of spontaneous reporting systems is substantial under-reporting. Empirical studies suggest that spontaneous reports capture approximately 5-10% of adverse events occurring in clinical practice, with reporting rates varying by event severity, drug familiarity, and geographic region. Under-reporting occurs because healthcare providers may lack awareness of the adverse event, question a causal relationship to the drug, perceive the event as expected or inconsequential, or experience administrative burden in reporting. Serious and unexpected events are reported at higher rates (up to 80-90% for severe outcomes) than mild, common events (5-10% or lower). Despite substantial under-reporting, spontaneous reporting systems remain the primary method for signal detection because they capture novel or rare adverse effects that would not emerge in clinical trials. The confirmation of these events by a healthcare professional is typically considered to increase the value of these reports. Hence it is important not only for the patient to report the AE to his health care provider (who may neglect to report the AE), but also report the AE to both the biopharmaceutical company and the FDA, European Medicines Agency, ... This is especially important when one has obtained one's pharmaceutical from a compounding pharmacy.
+As such, spontaneous reports are a crucial element in the worldwide enterprise of pharmacovigilance and form the core of the
+World Health Organization
+Database, which includes around 4.6
+million reports (January 2009),
+[
+13
+]
+growing annually by about 250,000.
+[
+14
+]
+Aggregate reporting
+[
+edit
+]
+Aggregate reporting, also known as periodic reporting, plays a key role in the safety assessment of drugs.  Aggregate reporting involves the compilation of safety data for a drug over a prolonged period of time (months or years), as opposed to single-case reporting which, by definition, involves only individual AE reports.  The advantage of aggregate reporting is that it provides a broader view of the safety profile of a drug.  Worldwide, the most important aggregate report is the Periodic Safety Update Report (PSUR) and Development Safety Update Report (DSUR).  This is a document that is submitted to drug regulatory agencies in Europe, the US and Japan (ICH countries), as well as other countries around the world.  The PSUR was updated in 2012 and is now referred to in many countries as the Periodic Benefit Risk Evaluation report (PBRER).  As the title suggests, the PBRER's focus is on the benefit-risk profile of the drug, which includes a review of relevant safety data compiled for a drug product since its development.
+Other reporting methods
+[
+edit
+]
+Some countries legally oblige spontaneous reporting by physicians. In most countries, manufacturers are required to submit, through its
+Qualified Person for Pharmacovigilance
+(QPPV), all of the reports they receive from healthcare providers to the national authority. Others have intensive, focused programmes concentrating on new drugs, or on controversial drugs, or on the prescribing habits of groups of doctors, or involving pharmacists in reporting. All of these generate potentially useful information. Such intensive schemes, however, tend to be the exception. A number of countries have reporting requirements or reporting systems specific to vaccine-related events.
+[
+15
+]
+Risk management
+[
+edit
+]
+Risk management
+is the discipline within pharmacovigilance that is responsible for signal detection and the monitoring of the risk-benefit profile of drugs.  Other key activities within the area of risk management are that of the compilation of
+risk management plans
+(RMPs) and aggregate reports such as the Periodic Safety Update Report (PSUR), Periodic Benefit-Risk Evaluation Report (PBRER), and the Development Safety Update Report (DSUR).
+Causality assessment
+[
+edit
+]
+One of the most important, and challenging, problems in pharmacovigilance is that of the determination of causality.  Causality refers to the relationship of a given adverse event to a specific drug.  Causality determination (or assessment) is often difficult because of the lack of clear-cut or reliable data.  A temporal relationship between drug administration and an adverse event is necessary but insufficient to establish causality. For example, if a patient develops pneumonia one week after starting an antibiotic, the temporal relationship alone cannot determine whether the antibiotic caused the infection, the patient had underlying immunosuppression, or the infection developed independently. True causality requires excluding alternative explanations through careful evaluation of the patient's medical history, comedications, disease progression, dechallenge-rechallenge outcomes, and relevant literature. If the patient is on a number of medications, it may be the combination of these drugs which causes the AE, and not any one individually. There have been a number of recent high-profile cases where the AE led to the death of an individual. The individuals were not overdosed with any one of the many medications they were taking, but the combination there appeared to cause the AE. Hence it is important to include in your/one's AE report, not only the drug being reported, but also all other drugs the patient was also taking.
+For instance, if a patient were to start Drug X and then three days later were to develop an AE, one might be tempted to attribute blame Drug X.  However, before that can be done, the patient's medical history would need to be reviewed to look for possible risk factors for the AE.  In other words, did the AE occur with the drug or
+because
+of the drug?  This is because a patient on any drug may develop or be diagnosed with a condition that could not have possibly been caused by the drug.  This is especially true for diseases, such as cancer, which develop over an extended period of time, being diagnosed in a patient who has been taken a drug for a relatively short period of time.  On the other hand, certain adverse events, such as blood clots (thrombosis), can occur with certain drugs with only short-term exposure.  Nevertheless, the determination of risk factors is an important step of confirming or ruling-out a causal relationship between an event and a drug.
+Often the only way to confirm the existence of a causal relationship of an event to a drug is to conduct an observational study where the incidence of the event in a patient population taking the drug is compared to a control group.  This may be necessary to determine if the background incidence of an event is less than that found in a group taking a drug.  If the incidence of an event is statistically significantly higher in the "active" group versus the placebo group (or other control group), it is possible that a causal relationship may exist to a drug, unless other confounding factors may exist.
+Signal detection
+[
+edit
+]
+Signal detection
+involves a range of techniques (CIOMS VIII
+[
+16
+]
+). The WHO defines a safety signal as: "Reported information on a possible causal relationship between an adverse event and a drug, the relationship being unknown or incompletely documented previously". Usually more than a single report is required to generate a signal, depending upon the event and quality of the information available.
+Data mining pharmacovigilance databases is one approach that has become increasingly popular with the availability of extensive data sources and inexpensive computing resources. The data sources (databases) may be owned by a pharmaceutical company, a drug regulatory authority, or a large healthcare provider. Individual case safety reports in these databases are retrieved and converted into structured format, and statistical methods (usually a mathematical algorithm) are applied to calculate statistical measures of association. When statistical measures exceed pre-defined thresholds based on established algorithms, a signal is declared for investigation. All signals deemed worthy of investigation require further analysis using all available data to establish or exclude a causal relationship between the drug and the adverse event. If the analysis is inconclusive, additional data may be needed such as a post-marketing observational trial.
+Signal detection is an essential part of drug use and safety surveillance. Ideally, the goal of signal detection is to identify adverse drug reactions that were previously considered unexpected and to be able to provide guidance in the product's labeling as to how to minimize the risk of using the drug in a given patient population.
+Risk management plans
+[
+edit
+]
+A risk management plan is a documented plan that describes the risks (adverse drug reactions and potential adverse reactions) associated with the use of a drug and how they are being handled (warning on drug label or on packet inserts of possible side effects which if observed should cause the patient to inform/see his physician and/or pharmacist and/or the manufacturer of the drug and/or the
+FDA
+, European Medicines Agency.  The overall goal of a risk management plan is to assure a positive risk-benefit profile once the drug is (has been) marketed.  The document is required to be submitted, in a specified format, with all new market authorization requests within the
+European Union
+(EU).  Although not necessarily required, risk management plans may also be submitted in countries outside the EU.  The risks described in a risk management plan  fall into one of three categories: identified risks, potential risks, and unknown risks.  Also described within a risk management plan  are the measures that the Market Authorization Holder, usually a pharmaceutical company, will undertake to minimize the risks associated with the use of the drug.  These measures are usually focused on the product's labeling and healthcare professionals.  Indeed, the risks that are documented in a pre-authorization risk management plan will inevitably become part of the product's post-marketing labeling.  Since a drug, once authorized, may be used in ways not originally studied in clinical trials, this potential "
+off-label use
+", and its associated risks, is also described within the risk management plan.  Risk management plans can be very lengthy documents, running in some cases hundreds of pages and, in rare instances, up to a thousand pages long.
+In the US, under certain circumstances, the FDA may require a company to submit a document called a Risk Evaluation and Mitigation Strategy (REMS) for a drug that has a specific risk that FDA believes requires mitigation.  While not as comprehensive as a risk management plan, a Risk Evaluation and Mitigation Strategy can require a sponsor to perform certain activities or to follow a protocol, referred to as Elements to Assure Safe Use,
+[
+17
+]
+to assure that a positive risk-benefit profile for the drug is maintained for the circumstances under which the product is marketed.
+Risk/benefit profile of drugs
+[
+edit
+]
+Pharmaceutical companies are required by law in most countries to perform
+clinical trials
+, testing new drugs on people before they are made generally available.  This occurs after a drug has been pre-screened for toxicity, sometimes using animals for testing.  The manufacturers or their agents usually select a representative sample of patients for whom the drug is designed – at most a few thousand – along with a comparable control group. The control group may receive a placebo and/or another drug, often a so-called "gold standard" that is "best" drug marketed for the disease.
+The purpose of clinical trials is to determine:
+if a drug works and how well it works
+if it has any harmful effects, and
+if it does more good than harm, and how much more? If it has a potential for harm, how probable and how serious is the harm?
+Clinical trials provide quantitative estimates of drug efficacy and safety in carefully selected, homogeneous populations. However, trial populations typically differ significantly from actual clinical populations in age, comorbidities, concomitant medication use, severity of illness, renal and hepatic function, and ethnic origin. These differences can limit the generalizability of trial findings and may necessitate additional safety monitoring or dosing adjustments in diverse real-world patient populations.
+[
+citation needed
+]
+The variables in a clinical trial are specified and controlled, but a clinical trial can never tell you the whole story of the effects of a drug in all situations. In fact, nothing could tell you the whole story, but a clinical trial must tell you enough; "enough" being determined by legislation and by contemporary judgements about the acceptable balance of benefit and harm.  Ultimately, when a drug is marketed it may be used in patient populations that were not studied during clinical trials (children, the elderly, pregnant women, patients with co-morbidities not found in the clinical trial population, etc.) and a different set of warnings, precautions or contraindications (where the drug should not be used at all) for the product's labeling may be necessary in order to maintain a positive risk/benefit profile in all known populations using the drug.
+Pharmacoepidemiology
+[
+edit
+]
+Pharmacoepidemiology
+is the study of the incidence of adverse drug reactions in patient populations using drug agents.
+[
+18
+]
+Pharmacogenetics and pharmacogenomics
+[
+edit
+]
+Although often used interchangeably, there are subtle differences between the two disciplines.
+Pharmacogenetics
+is generally regarded as the study or clinical testing of genetic variation that gives rise to differing responses to drugs, including adverse drug reactions.  It is hoped that pharmacogenetics will eventually provide information as to which genetic profiles in patients will place those patients at greatest risk, or provide the greatest benefit, for using a particular drug or drugs.
+Pharmacogenomics
+, on the other hand, is the broader application of genomic technologies to new drug discovery and further characterization of older drugs.
+International collaboration
+[
+edit
+]
+The following organizations play a key collaborative role in the global oversight of pharmacovigilance.
+The World Health Organization (WHO)
+[
+edit
+]
+The principle of international collaboration in the field of pharmacovigilance is the basis for the WHO Programme for International Drug Monitoring, through which over 150 member nations have systems in place that encourage healthcare personnel to record and report adverse effects of drugs in their patients.
+[
+19
+]
+These reports are assessed locally and may lead to action within the country. Since 1978, the programme has been managed by the
+Uppsala Monitoring Centre
+to which member countries send their reports to be processed, evaluated and entered into an international database called
+VigiBase
+. Membership in the WHO Programme enables a country to know if similar reports are being made elsewhere.
+[
+20
+]
+When there are several reports of adverse reactions to a particular drug, this process may lead to the detection of a signal, and an alert about a possible hazard communicated to members countries after detailed evaluation and expert review on the biological stasis and homeostasis of the body.
+Clb12/2020001
+The International Council for Harmonisation (ICH)
+[
+edit
+]
+The International Council for Harmonisation is a global organization with members from the European Union, the United States and Japan; its goal is to recommend global standards for drug companies and drug regulatory authorities around the world, with its activities overseen by the Steering Committee overseeing harmonization activities.
+[
+21
+]
+Established in 1990, each of its six co-sponsors—the EU, the European Federation of Pharmaceutical Industries and Associations, Japan's Ministry of Health, Labor and Welfare, the Japanese Pharmaceutical Manufacturers Association, the U.S. Food and Drug Administration (FDA), and the Pharmaceutical Research and Manufacturers of America (PhRMA)—have two seats on the SC. Other parties have a significant interest in the International Council for Harmonisation and have been invited to nominate Observers to the SC; three current observers
+[
+when?
+]
+are the WHO,
+Health Canada
+, and the
+European Free Trade Association
+, with the International Federation of Pharmaceutical Manufacturers Association participating as a non-voting member of the SC.
+[
+22
+]
+[
+23
+]
+The Council for International Organizations of Medical Science (CIOMS)
+[
+edit
+]
+The CIOMS, a part of the WHO, is globally oriented
+think tank
+that provides guidance on drug safety related topics through its Working Groups.
+[
+citation needed
+]
+The CIOMS prepares reports that are used as a reference for developing future drug regulatory policy and procedures, and over the years, many of CIOMS' proposed policies have been adopted.
+[
+citation needed
+]
+Examples of topics these reports have covered include: Current Challenges in Pharmacovigilance: Pragmatic Approaches (CIOMS V); Management of Safety Information from Clinical Trials (CIOMS VI); the Development Safety Update Report (DSUR): Harmonizing the Format and Content for Periodic Safety Reporting During Clinical Trials (CIOMS VII); and Practical Aspects of Signal Detection in Pharmacovigilance: Report of CIOMS Working Group (CIOMS VIII).
+[
+citation needed
+]
+The International Society of Pharmacovigilance
+[
+edit
+]
+The International Society of Pharmacovigilance is an international non-profit scientific organization, which aims to foster pharmacovigilance both scientifically and educationally, and enhance all aspects of the safe and proper use of medicines, in all countries.
+[
+24
+]
+It was established in 1992 as the European Society of Pharmacovigilance.
+[
+25
+]
+Society of Pharmacovigilance, India
+, also established in 1992, is partner member of the International Society of Pharmacovigilance. Other local societies include the Boston Society of Pharmacovigilance Physicians.
+[
+26
+]
+Regulatory authorities
+[
+edit
+]
+This section
+relies largely or entirely on a
+single source
+.
+Please help
+improve this article
+by
+citing more sources
+.
+Find sources:
+"Pharmacovigilance"
+–
+news
+·
+newspapers
+·
+books
+·
+scholar
+·
+JSTOR
+(
+March 2025
+)
+Drug regulatory authorities play a key role in national or regional oversight of pharmacovigilance. Some of the agencies involved are listed below (in order of 2011 spending on pharmaceuticals, from the IMS Institute for Healthcare Informatics).
+[
+27
+]
+[
+why?
+]
+Emerging economies
+[
+edit
+]
+The "pharmerging", or emerging pharmaceutical market economies, which include Brazil, India, Russia, Argentina, Egypt, Indonesia, Mexico, Pakistan, Poland, Romania, South Africa, Thailand, Turkey, Ukraine and Vietnam, accrued one fifth of global 2011 pharmaceutical expenditures; in future, aggregated data for this set will include China as well.
+[
+27
+]
+Africa
+[
+edit
+]
+Egypt
+[
+edit
+]
+In Egypt, pharmacovigilance is regulated by the Egyptian Pharmacovigilance Center of the Egyptian Ministry of Health.
+[
+citation needed
+]
+Kenya
+[
+edit
+]
+In Kenya, pharmacovigilance is regulated by the
+Pharmacy and Poisons Board
+, which provides a Pharmacovigilance Electronic Reporting System which allows for the online reporting of suspected adverse drug reactions as well as suspected poor quality of medicinal products.
+[
+28
+]
+The pharmacovigilance activities in Kenya are supported by the School of Pharmacy,
+University of Nairobi
+through its Master of Pharmacy in Pharmacoepidemiology & Pharmacovigilance program offered by the Department of Pharmacology and Pharmacognosy.
+[
+29
+]
+Uganda
+[
+edit
+]
+In Uganda, pharmacovigilance is regulated by the
+National Drug Authority
+.
+[
+citation needed
+]
+Americas
+[
+edit
+]
+Canada
+[
+edit
+]
+In Canada, with ~2% of all global 2006 and 2011 pharmaceutical expenditures,
+[
+27
+]
+pharmacovigilance is regulated by the
+Marketed Health Products Directorate
+of the
+Health Products and Food Branch
+.
+[
+30
+]
+Canada was second, following the United States, in holding the highest total prescription drug expenditures per capita in 2011 at around 750 US dollars per person. Canada also pays such a large amount
+[
+compared to?
+]
+for pharmaceuticals that it was second, next to Switzerland, for the amount of money spent for a certain amount of prescription drugs (around 130 US dollars).
+[
+clarification needed
+]
+It was also accessed that Canada was one of the top countries that increased its yearly average per capita growth on pharmaceutical expenditures the most from 2000 to 2010 with 4 percent a year (with taking inflation into account)
+[
+31
+]
+The Marketed Health Products Directorate mainly collects adverse drug reaction reports through a network of reporting centers to analyze and issue possible warnings to the public, and currently utilizes newsletters, advisories, adverse reaction centers, as well as electronic mailing lists. However, it does not currently maintain a database or list of drugs removed from Canada as a result of safety concerns.
+[
+32
+]
+In August 2017, there was a government controversy in which a bill, known as "Vanessa's Law", to protect patients from potentially dangerous prescription drugs was not being fully realized by hospitals;
+Health Canada
+only required hospitals to report "unexpected" negative reactions to prescription drugs, rather than any and all adverse reactions, with the justification of managing "administrative overload".
+[
+33
+]
+Latin America
+[
+edit
+]
+According to BioPharm International, as of April 2013 "there is no Latin American equivalent of the European Medicines Agency—no common body with the power to facilitate greater consistency across countries".
+[
+34
+]
+For simplicity, and per sources, 17 smaller economies are discussed alongside the 4 pharmemerging large economies of Argentina, Brazil, Mexico and Venezuela—Bolivia, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Guatemala, Haiti, Honduras, Nicaragua, Panama, Paraguay, Peru, Suriname, and Uruguay.
+[
+35
+]
+As of June 2012, 16 of this total of 21 countries have systems for immediate reporting and 9 have systems for periodic reporting of adverse events for on-market agents, while 10 and 8, respectively, have systems for immediate and periodic reporting of adverse events during clinical trials; most of these have pharmacovigilance requirements that rank as "high or medium...in line with international standards" (
+ibid.
+).
+[
+full citation needed
+]
+The WHO's Pan American Network for Drug Regulatory Harmonization
+[
+36
+]
+seeks to assist Latin American countries in develop harmonized pharmacovigilance regulations.
+[
+35
+]
+United States
+[
+edit
+]
+See also:
+Regulation of therapeutic goods in the United States
+In the U.S., with about a third of all global 2011 pharmaceutical expenditures,
+[
+27
+]
+the drug industry is regulated by the
+Food and Drug Administration
+, the largest national drug regulatory authority in the world.
+[
+citation needed
+]
+FDA authority is exercised through enforcement of regulations derived from legislation, as published in the U.S.
+Code of Federal Regulations
+(CFR); the principal drug safety regulations are found in 21 CFR Part 312 (IND regulations) and 21 CFR Part 314 (NDA regulations).
+[
+citation needed
+]
+While those regulatory efforts address pre-marketing concerns, pharmaceutical manufacturers and academic/non-profit organizations such as
+Research on Adverse Drug events And Reports
+(RADAR) and
+Public Citizen
+do play a role in pharmacovigilance in the US.
+[
+citation needed
+]
+The post-legislative rule-making process of the U.S. federal government provides for significant input from both the legislative and executive branches, which also play specific, distinct roles in determining FDA policy.
+[
+citation needed
+]
+Asia
+[
+edit
+]
+Azerbaijan
+[
+edit
+]
+The Azerbaijani
+Ministry of Healthcare
+coordinates pharmacovigilance activities through  its Analytical Expertise Center (AEC).
+[
+37
+]
+Azerbaijan became an associate member of the
+WHO
+Programme for International Drug Monitoring (WHO-PIDM) in 2010 and was admitted as a full member in January 2018, becoming the programme’s 130th member.
+[
+38
+]
+In 2019, the government adopted the “Regulation on Pharmacovigilance of Medicinal Products” through Cabinet of Ministers Resolution No. 503, which entered into force on 1 July 2020.
+[
+39
+]
+The regulation defines the scope of national pharmacovigilance, including the collection, evaluation, and prevention of adverse reactions and medication-related problems. It applies to health-care institutions, marketing-authorisation holders (MAHs), and their local representatives. The framework requires MAHs to appoint qualified persons responsible for pharmacovigilance, maintain pharmacovigilance system documentation, and ensure compliance with principles of Good Pharmacovigilance Practice (GVP).
+[
+39
+]
+China
+[
+edit
+]
+China's economy is anticipated to pass Japan to become second in the ranking of individual countries' in pharmaceutical purchases by 2015, and so its pharmacovigilance regulation will become increasing important; China's regulation of pharmacovigilance is through its National Center for Adverse Drug Reaction Monitoring, under China's
+Ministry of Health
+.
+[
+40
+]
+India
+[
+edit
+]
+In India, the pharmacovigilance regulatory authority is the
+Indian Pharmacopoeia Commission
+, with a National Coordination Centre under the Pharmacovigilance Program of India (PvPI), in the Ministry of Health and Family Welfare.
+[
+41
+]
+[
+42
+]
+Scientists working on pharmacovigilance share their experiences, findings, innovative ideas and researches during the annual meeting of
+Society of Pharmacovigilance, India
+.
+[
+citation needed
+]
+Iraq
+[
+edit
+]
+In Iraq, pharmacovigilance is regulated by the Iraqi Pharmacovigilance Center of the
+Iraqi Ministry of Health
+.
+[
+27
+]
+[
+citation needed
+]
+Japan
+[
+edit
+]
+In Japan, with ~12% of all global 2011 pharmaceutical expenditures,
+[
+27
+]
+pharmacovigilance matters are regulated by the
+Pharmaceuticals and Medical Devices Agency
+and the
+Ministry of Health, Labour, and Welfare
+.
+[
+citation needed
+]
+South Korea
+[
+edit
+]
+The
+Republic of Korea
+, with ~1% of all global 2011 pharmaceutical expenditures,
+[
+27
+]
+pharmacovigilance matters are regulated in South Korea by the
+Ministry of Food and Drug Safety
+.
+[
+citation needed
+]
+Saudi Arabia
+[
+edit
+]
+The Saudi Food and Drug Authority (
+SFDA
+) is an independent agency of the Kingdom of
+Saudi Arabia
+,
+[
+43
+]
+whose objective is to ensure the safety of food and pharmaceutical products for the nation. Regulated products include pharmaceutical products, biotechnology products, medical devices, herbal medicines, nutraceuticals, cosmetics, food and food supplements, as well as veterinary products and animal feed.
+[
+44
+]
+The Authority is responsible for monitoring and assessing these items in its own laboratories or in the laboratories of other organizations,
+[
+45
+]
+and for raising consumer awareness on all matters concerning food, drugs, medical devices and all related goods and preparations.
+Australia
+[
+edit
+]
+This section is empty.
+You can help by
+adding to it
+.
+(
+March 2025
+)
+Europe
+[
+edit
+]
+The
+European "Big Four"
+(France, Germany, Italy and the United Kingdom), along with Spain, accrued ~17% of global 2011 pharmaceutical expenditures.
+[
+27
+]
+The remaining EU and non-EU countries outside of France, Germany, Italy, the United Kingdom and Spain accrued ~7% of global 2011 pharmaceutical expenditures.
+[
+27
+]
+Regulation of those outside the EU being managed by specific governmental agencies.
+European Union
+[
+edit
+]
+Pharmacovigilance efforts in the European Union are coordinated by the
+European Medicines Agency
+and are conducted by the national competent authorities (NCAs).
+[
+citation needed
+]
+The main responsibility of the European Medicines Agency is to maintain and develop the pharmacovigilance database consisting of all suspected serious adverse reactions to medicines observed in the
+European Community
+; the data processing network and management system is called
+EudraVigilance
+and contains separate but similar databases of human and veterinary reactions.
+[
+46
+]
+The European Medicines Agency requires the individual marketing authorization holders to submit all received adverse reactions in electronic form, except in exceptional circumstances; the reporting obligations of the various stakeholders are defined by EEC
+[
+clarification needed
+]
+legislation, namely regulation (EC) No 726/2004, and for human medicines,
+European Union
+Directive 2001/83/EC
+as amended and
+Directive 2001/20/EC
+.
+[
+citation needed
+]
+In 2002,
+Heads of Medicines Agencies
+[
+47
+]
+agreed on a mandate for an ad hoc working group on establishing a European risk management strategy; the working group considered the conduct of a high level survey of EU pharmacovigilance resources to promote the utilization of expertise and encourage collaborative working.
+[
+citation needed
+]
+In conjunction with this oversight, individual countries maintain their distinct regulatory agencies with pharmacovigilance responsibility.
+[
+48
+]
+Good Pharmacovigilance Practices (GVP) is a set of set of guidelines that apply to the EU member states.
+[
+49
+]
+Module I: Pharmacovigilance system and Quality system
+Module II: Pharmacovigilance system master file
+Module III: Pharmacovigilance inspection
+Module IV: Pharmacovigilance audit
+Module V: Risk management system
+Module VI: Management and reporting of adverse reactions to medical products
+Module VII: Periodic safety update report
+Module VIII: Post authorization safety
+Module IX
+: Signal management
+Module X: Additional monitoring
+Module XI: Public participation in pharmacovigilance
+Module XII: Post-marketing authorization: regulatory and procedural guidance for human medicinal products
+Module XIII: Incident management
+Module XIV: Referral procedure for safety reasons
+Module XV: Safety communication
+Module XVI: Risk minimization measure: Selection of tools and effectiveness indicators
+Spain
+[
+edit
+]
+In Spain, pharmacovigilance is regulated by the
+Spanish Agency of Medicines and Medical Devices
+, which can suspend or withdraw the authorization of pharmaceuticals already on-market if the evidence shows that safety (or quality or efficacy) of an agent are unsatisfactory.
+[
+50
+]
+Switzerland
+[
+edit
+]
+In Switzerland, pharmacovigilance "inspections" for clinical trials of medicinal products are conducted by the
+Swiss Agency for Therapeutic Products
+(Swissmedic).
+[
+51
+]
+Pharmacoenvironmentology (Ecopharmacovigilance)
+[
+edit
+]
+Despite attention from the FDA and regulatory agencies of the European Union, procedures for monitoring drug concentrations and adverse effects in the environment are lacking.
+[
+citation needed
+]
+Pharmaceuticals, their metabolites, and related substances may enter the environment after patient excretion, after direct release to waste streams during manufacturing or administration, or via terrestrial deposits (e.g., from waste sludges or
+leachates
+).
+[
+52
+]
+A concept combining pharmacovigilance and environmental pharmacology, intended to focus attention on this area, was introduced first as
+pharmacoenvironmentology
+in 2006 by
+Syed Ziaur Rahman
+and later as
+ecopharmacology
+with further concurrent and later terms for the same concept (ecopharmacovigilance, environmental pharmacology, ecopharmacostewardship).
+[
+52
+]
+[
+53
+]
+[
+54
+]
+[
+55
+]
+Among routes to environmental exposure, excretion of drug residues by treated organisms is suggested to be a principal contributor to environmental contamination that ecopharmacovigilance seeks to address.
+[
+52
+]
+[
+56
+]
+Activities of ecopharmacovigilance have been suggested to include:
+Increasing, generally, the availability of environmental data on medicinal products;
+Tracking emerging data on environmental exposure, effects and risks after product launch;
+Using environmental risk management plans to manage risk throughout a drug's life cycle;
+Following risk identification, promoting further research and
+environmental monitoring
+, and
+In general, promoting a global perspective on ecopharmacovigilance issues.
+[
+52
+]
+Related to medical devices
+[
+edit
+]
+A
+medical device
+is an instrument, apparatus, implant,
+in vitro
+reagent, or similar or related article that is used to diagnose, prevent, or treat disease or other conditions, and does not achieve its purposes through chemical action within or on the body (which would make it a
+drug
+).  Whereas medicinal products (also called pharmaceuticals) achieve their principal action by pharmacological, metabolic or immunological means, medical devices act by physical, mechanical, or thermal means.  Medical devices vary greatly in complexity and application.  Examples range from simple devices such as
+tongue depressors
+, medical
+thermometers
+, and disposable gloves to advanced devices such as
+medical robots
+,
+cardiac pacemakers
+, and
+neuroprosthetics
+. This modern concept of monitoring and safety of medical devices which is known materiovigilance was quite documented in Unani System of medicine.
+[
+57
+]
+Given the inherent difference between medicinal products and medical products, the vigilance of medical devices is also different from that of medicinal products.  To reflect this difference, a classification system has been adopted in some countries to stratify the risk of failure with the different classes of devices.  The classes of devices typically run on a 1-3 or 1-4 scale, with Class 1 being the least likely to cause significant harm with device failure versus Classes 3 or 4 being the most likely to cause significant harm with device failure.  An example of a device in the "low risk" category would be contact lenses.  An example of a device in the "high risk" category would be cardiac pacemakers.
+Medical device reporting (MDR), which is the reporting of adverse events with medical devices, is similar to that with medicinal products, although there are differences. In contrast to reporting of medical products reports of side-effects play only a minor role with most medical devices. The vast majority of the medical device reports are related to medical device defects or failures. Other notable differences are in the obligations to report by other actors that aren't manufacturers, in the US user-facilities such as hospitals and nursing homes are legally required to report suspected medical device-related deaths to both FDA and the manufacturer, if known, and serious injuries to the manufacturer or to FDA, if the manufacturer is unknown.
+[
+58
+]
+This is in contrast to the voluntary reporting of AEs with medicinal products. Similar obligations exist in multiple European countries. The European regulation on medical devices
+[
+59
+]
+and the European regulation on in vitro diagnostic medical devices (
+IVDR
+)
+[
+60
+]
+obliges other economic operators most notably importers and distributors to inform manufacturers, and in certain instances the authorities, of incidents and safety issues with medical devices that they have distributed or imported in the European market.
+For herbal medicines
+[
+edit
+]
+This section has multiple issues.
+Please help
+improve it
+or discuss these issues on the
+talk page
+.
+(
+Learn how and when to remove these messages
+)
+This section
+needs
+more citations
+.
+Please help
+improve this article
+by
+adding citations to reliable sources
+in this section. Unsourced material may be challenged and removed.
+(
+March 2014
+)
+(
+Learn how and when to remove this message
+)
+This section
+needs expansion
+with: specific verifiable information, rather than vague statements. You can help by
+adding missing information
+.
+(
+March 2014
+)
+(
+Learn how and when to remove this message
+)
+The safety of herbal medicines has become a major concern to both national health authorities and the general public.
+[
+61
+]
+[
+full citation needed
+]
+The use of herbs as
+traditional medicines
+continues to expand rapidly
+[
+vague
+]
+across the world; many people
+[
+vague
+]
+now take herbal medicines or
+herbal products
+for their health care in different national health-care settings.
+[
+vague
+]
+[
+citation needed
+]
+However, mass media reports
+[
+which?
+]
+of adverse events with herbal medicines can be incomplete and therefore misleading.
+[
+citation needed
+]
+Moreover, it can be difficult to identify the causes of herbal medicine-associated adverse events since the amount of data on each event is generally less than for pharmaceuticals formally regulated as drugs (since the requirements for adverse event reporting are either non-existent or are less stringent for herbal supplements and medications).
+[
+62
+]
+Novel sources
+[
+edit
+]
+With the emergence of advanced artificial intelligence methods and social media big data, researchers are now using publicly posted social media data to discover unknown side effects of prescription medications.
+[
+63
+]
+Natural language processing and machine learning methods are developed and used for identifying non-standard expressions of side effects.
+Industry associations
+[
+edit
+]
+Boston Society of Pharmacovigilance Physicians.
+[
+26
+]
+See also
+[
+edit
+]
+Adverse drug reaction
+Adverse effect (medicine)
+Boston Collaborative Drug Surveillance Program
+Consultant pharmacist
+COSTART
+– Coding Symbols for a Thesaurus of Adverse Reaction Terms
+DrugLogic
+European Medicines Agency
+EudraVigilance
+Food and Drug Administration (US FDA)
+International Society for Pharmacoepidemiology
+International Society of Pharmacovigilance
+List of withdrawn drugs
+Society of Pharmacovigilance, India
+(SoPI)
+MedDRA
+– Medical Dictionary for Regulatory Activities
+Medical device
+MedWatch
+National Drug & Safety League
+Public health
+Pharmacoepidemiology
+Pharmacotherapy
+Pharmacogenetics
+Pharmacogenomics
+Pharmaceuticals and personal care products in the environment
+Post-market surveillance
+Proportional reporting ratio
+Uppsala Monitoring Centre
+WHOART
+Yellow Card Scheme
+(UK)
+Black triangle (pharmacovigilance)
+References
+[
+edit
+]
+↑
+The Importance of Pharmacovigilance
+(Report). World Health Organization. 2002.
+ISBN
+9-241-59015-7
+. Retrieved
+December 31,
+2020
+.
+↑
+"DIRECTIVE 2010/84/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 15 December 2010 amending, as regards pharmacovigilance, Directive 2001/83/EC on the Community code relating to medicinal products for human use (Text with EEA relevance)"
+.
+EUR-Lex: Access to European law
+. Retrieved
+December 9,
+2024
+.
+↑
+"International Drug Monitoring
+: The Role of National Centers"
+(PDF)
+. Who-umc.org
+. Retrieved
+February 27,
+2015
+.
+↑
+"Preparing for a Safety Inspection"
+(PDF)
+. Steve Jolley. 2011. Archived from
+the original
+(PDF)
+on January 9, 2016
+. Retrieved
+January 4,
+2016
+.
+↑
+"Guideline on good pharmacovigilance practices (GVP)Annex I - Definitions (Rev 4)"
+(PDF)
+.
+1
+2
+Current Challenges in Pharmacovigilance: Pragmatic Approaches
+(Report of CIOMS Working Group V), 2001 Geneva.
+↑
+Mackenzie SG, Lippman A (January 1989). "An investigation of report bias in a case-control study of pregnancy outcome".
+American Journal of Epidemiology
+.
+129
+(1):
+65–
+75.
+doi
+:
+10.1093/oxfordjournals.aje.a115125
+.
+PMID
+2910073
+.
+↑
+"MedDRA MSSO | MedDRA"
+.
+www.meddra.org
+. Retrieved
+March 16,
+2020
+.
+↑
+"Common Terminology Criteria for Adverse Events (CTCAE)
+: Version 4.0"
+(PDF)
+. Acrin.org. Archived from
+the original
+(PDF)
+on September 2, 2017
+. Retrieved
+February 27,
+2015
+.
+↑
+Lindquist M. Vigibase, the WHO Global ICSR Database System: Basic Facts.
+Drug Information Journal
+, 2008, 42:409-419.
+↑
+"ICH Official web site
+: ICH"
+.
+www.ich.org
+. Archived from
+the original
+on November 10, 2010.
+↑
+"ICH Official web site
+: ICH"
+.
+www.ich.org
+. Archived from
+the original
+on August 23, 2010.
+↑
+"Uppsala Monitoring Centre"
+. who-umc.org. Archived from
+the original
+on June 27, 2010
+. Retrieved
+February 27,
+2015
+.
+↑
+Pharmacovigilance
+. Mann RD, Andrews EB, eds. John Wiley & Sons Ltd, Chichester, 2002.
+spontaneous reports are very useful.
+↑
+Abramson, Brian Dean (2025). "Ch. 12-Reporting Requirements".
+Vaccine, Vaccination, and Immunization Law, Third Edition
+. Bloomberg Law. p.
+13.
+ISBN
+979-8-34170-407-7
+.
+↑
+Council for International Organizations of Medical Sciences. Working Group VIII. (2010).
+Practical aspects of signal detection in pharmacovigilance
+: report of CIOMS Working Group VIII
+. CIOMS.
+ISBN
+978-92-9036-082-7
+.
+OCLC
+676726220
+.
+↑
+"Risk Evaluation Mitigation Strategies and ETASU programs"
+. Ireminder.com. Archived from
+the original
+on December 26, 2010
+. Retrieved
+February 27,
+2015
+.
+↑
+Strom B (2006).
+Textbook of Pharmacoepidemiology
+. West Sussex, England: John Wiley and Son s. pp.
+3
+.
+ISBN
+978-0-470-02925-1
+.
+↑
+"UMC - WHO Programme"
+.
+www.who-umc.org
+. Archived from
+the original
+on October 24, 2017
+. Retrieved
+October 24,
+2017
+.
+↑
+"UMC - Being a member"
+.
+www.who-umc.org
+. Archived from
+the original
+on October 24, 2017
+. Retrieved
+October 24,
+2017
+.
+↑
+"» Steering Committees – What Are They and What Do I Need to Know?"
+.
+↑
+"Organisation"
+. ICH
+. Retrieved
+February 27,
+2015
+.
+↑
+"Steering Committee"
+. ICH. Archived from
+the original
+on February 27, 2015
+. Retrieved
+February 27,
+2015
+.
+↑
+"ISoP
+: International Society of Pharmacovigilance - Home"
+. Isoponline.org
+. Retrieved
+February 27,
+2015
+.
+↑
+"The Importance of Pharmacovigilance - Safety Monitoring of Medicinal Products: Chapter 2 - A Short History of Involvement in Drug Safety Monitoring by WHO"
+. Apps.who.int. February 10, 2015. Archived from
+the original
+on March 11, 2012
+. Retrieved
+February 27,
+2015
+.
+1
+2
+"Boston Society of Pharmacovigilance Physicians"
+. Retrieved
+March 27,
+2019
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+"Why Big Pharma Won't Get Its Piece Of The $1.2 Trillion Global Drug Market"
+.
+Forbes
+. December 7, 2012
+. Retrieved
+February 27,
+2015
+.
+↑
+"Pharmacovigilance Electronic Reporting System - Kenya"
+. Retrieved
+February 27,
+2015
+.
+↑
+"Master of Pharmacy in Pharmacoepidemiology & Pharmacovigilance"
+. Archived from
+the original
+on August 17, 2016
+. Retrieved
+June 28,
+2016
+.
+↑
+"Health Products and Food Branch"
+. Government of Canada. June 25, 2018
+. Retrieved
+October 29,
+2018
+.
+↑
+Gagnon, Marc-André (June 2014).
+"A Roadmap to a Rational Pharmacare Policy"
+(PDF)
+.
+The Canadian Federation of Nurses Unions
+.
+↑
+Lexchin J (March 2005).
+"Drug withdrawals from the Canadian market for safety reasons, 1963-2004"
+.
+CMAJ
+.
+172
+(6):
+765–
+7.
+doi
+:
+10.1503/cmaj.045021
+.
+PMC
+552890
+.
+PMID
+15767610
+.
+↑
+Minsky, Amy (August 18, 2017).
+"Opposition stands behind former MP accusing Health Canada of gutting drug safety law"
+. Global News
+. Retrieved
+October 29,
+2018
+.
+↑
+"Navigating Emerging Markets — Latin America"
+. Biopharminternational.com. April 1, 2013. Archived from
+the original
+on March 29, 2014
+. Retrieved
+February 27,
+2015
+.
+1
+2
+Hoffmann E, Fouretier A, Vergne C, et
+al. (2012). "Pharmacovigilance Regulatory Requirements in Latin America".
+Pharm Med
+.
+26
+(3):
+153–
+164.
+doi
+:
+10.1007/bf03262389
+.
+S2CID
+206837124
+.
+↑
+"Pan American Network for Drug Regulatory Harmonization"
+. Paho.org
+. Retrieved
+February 27,
+2015
+.
+↑
+"Promoting pharmacovigilance in Azerbaijan"
+. Uppsala Monitoring Centre. June 23, 2022
+. Retrieved
+November 18,
+2025
+.
+↑
+"Azerbaijan joins WHO Programme for International Drug Monitoring"
+. World Health Organization / Uppsala Monitoring Centre
+. Retrieved
+November 18,
+2025
+.
+1
+2
+"On approval of the Regulation on Pharmacovigilance of Medicinal Products (Resolution No. 503)"
+(in Azerbaijani). Cabinet of Ministers of the Republic of Azerbaijan. December 25, 2019
+. Retrieved
+November 18,
+2025
+.
+↑
+"China's Pharmacovigilance System: The Hunger For Safety Insights"
+. Clinicalleader.com. December 7, 2011
+. Retrieved
+February 27,
+2015
+.
+↑
+"Indian Pharmacopoeia Commission, Ministry of Health & Family Welfare, Government of India"
+. Ipc.gov.in
+. Retrieved
+February 27,
+2015
+.
+↑
+"Central Drugs Standard Control Organization"
+. Cdsco.nic.in. Archived from
+the original
+on April 10, 2008
+. Retrieved
+February 27,
+2015
+.
+↑
+"The official website of the Saudi Food and Drug Authority"
+.
+www.sfda.gov.sa
+. Retrieved
+June 25,
+2026
+.
+↑
+"SFDA Registration & Approval Process (Roadmap for All Products)"
+.
+pharmaknowl.com
+. Retrieved
+June 25,
+2026
+.
+↑
+"Enhancing The Monitoring System Of SFDA In Saudi Markets"
+(PDF)
+.
+aircconline.com
+. Retrieved
+June 25,
+2026
+.
+↑
+"Safety monitoring of medicines"
+European Medicines Agency
+↑
+"Heads of Medicines Agencies: Home"
+. Heads.medagencies.org
+. Retrieved
+February 27,
+2015
+.
+↑
+Guerriaud, Mathieu (February 1, 2016).
+"Pharmacovigilance européenne, un système aux multiples visages"
+.
+BNDS
+(in French)
+. Retrieved
+July 5,
+2016
+.
+↑
+"Good pharmacovigilance practices"
+. September 17, 2018.
+↑
+"Generalidades"
+. Se-fc.org. Archived from
+the original
+on February 27, 2015
+. Retrieved
+February 27,
+2015
+.
+↑
+"GCP and Pharmacovigilance Inspections - Swissmedic"
+. Swissmedic.ch. Archived from
+the original
+on May 8, 2014
+. Retrieved
+February 27,
+2015
+.
+1
+2
+3
+4
+Holm G, Snape JR, Murray-Smith R, Talbot J, Taylor D, Sörme P (July 2013).
+"Implementing ecopharmacovigilance in practice: challenges and potential opportunities"
+.
+Drug Safety
+.
+36
+(7):
+533–
+46.
+doi
+:
+10.1007/s40264-013-0049-3
+.
+PMC
+3691479
+.
+PMID
+23620169
+.
+↑
+Rahman SZ, Khan RA (December 2006).
+"Environmental pharmacology: A new discipline"
+.
+Indian Journal of Pharmacology
+.
+38
+(4):
+229–
+30.
+doi
+:
+10.4103/0253-7613.27017
+.
+↑
+Rahman SZ, Khan RA, Gupta V, Misbah Uddin (2008). "Chapter 2: Pharmacoenvironmentology – Ahead of Pharmacovigilance". In Rahman SZ, Shahid M, Gupta A (eds.).
+An Introduction to Environmental Pharmacology
+(1st
+ed.). Aligarh: Ibn Sina Academy. pp.
+35–
+52.
+ISBN
+978-81-906070-4-9
+.
+↑
+Ruhoy IS, Daughton CG (November 2008). "Beyond the medicine cabinet: an analysis of where and why medications accumulate".
+Environment International
+.
+34
+(8):
+1157–
+69.
+Bibcode
+:
+2008EnInt..34.1157R
+.
+doi
+:
+10.1016/j.envint.2008.05.002
+.
+PMID
+18571238
+.
+↑
+Rahman SZ, Khan RA, Gupta V, Uddin M (July 2007).
+"Pharmacoenvironmentology–a component of pharmacovigilance"
+.
+Environmental Health
+.
+6
+(20) 20.
+Bibcode
+:
+2007EnvHe...6...20R
+.
+doi
+:
+10.1186/1476-069X-6-20
+.
+PMC
+1947975
+.
+PMID
+17650313
+.
+↑
+Rahman SZ (January 2019).
+"Concept of Materiovigilance in Unani Medicine"
+.
+Bangladesh Journal of Medical Science
+.
+18
+(1):
+5–
+6.
+doi
+:
+10.3329/bjms.v18i1.39539
+.
+↑
+"Reporting By Health Professionals"
+. Fda.gov. Archived from
+the original
+on June 6, 2009
+. Retrieved
+February 27,
+2015
+.
+This article incorporates text from this source, which is in the
+public domain
+.
+↑
+MDR - 2017/745
+↑
+IVDR - 2017/746
+↑
+WHO guidelines on safety monitoring of herbal medicines in pharmacovigilance systems, World Health Organization, Geneva, 2004
+↑
+Rahman SZ, Singhal KC (January 2002). "Problems in pharmacovigilance of medicinal products of herbal origin and means to minimize them".
+Uppsala Reports, WHO Collaborating Center for ADR Monitoring
+.
+17
+(1-4 (Supplement)). Sweden: Uppsala Monitoring Centre.
+↑
+Sarker A, Ginn R, Nikfarjam A, O'Connor K, Smith K, Jayaraman S, et
+al. (April 2015).
+"Utilizing social media data for pharmacovigilance: A review"
+.
+Journal of Biomedical Informatics
+.
+54
+:
+202–
+12.
+doi
+:
+10.1016/j.jbi.2015.02.004
+.
+PMC
+4408239
+.
+PMID
+25720841
+.
+Further reading
+[
+edit
+]
+"Pharmacovigilance: post-authorisation"
+.
+European Medicine Agency
+. September 17, 2018.
+"Current Problems in Pharmacovigilance"
+.
+Medicines and Healthcare products Regulatory Agency (MHRA)
+. Archived from
+the original
+on September 24, 2006.
+"Guidance for Industry. Good Pharmacovigilance Practices and Pharmacoepidemiologic Assessment"
+(PDF)
+.
+Food and Drug Administration
+. March 2005. Archived from
+the original
+(PDF)
+on July 9, 2009
+. Retrieved
+July 20,
+2009
+.
+"The rules governing medicinal products in the European Union"
+. The European Commission. July 19, 2023.
+Contains Pharmacovigilance guidelines for medicinal products for both human and veterinary use.
+"Current Problems in Pharmacovigilance"
+.
+Medicines and Healthcare products Regulatory Agency (MHRA)
+. Archived from
+the original
+on September 24, 2006.
+"History of Pharmacovigilance in India: 1983–2022"
+(PDF)
+.
+Society of Pharmacovigilance, India
+.
+External links
+[
+edit
+]
+Look up
+pharmacovigilance
+in Wiktionary, the free dictionary.
+v
+t
+e
+Public health
+General
+Auxology
+Biological hazard
+Chief medical officer
+Climate change
+Cultural competence
+Deviance
+Environmental health
+Eugenics
+History of
+Liberal
+Euthenics
+Genomics
+Globalization and disease
+Harm reduction
+Health economics
+Health literacy
+Health policy
+Health system
+Health care reform
+Housing First
+Human right to water and sanitation
+Management of depression
+Public health law
+National public health institute
+Health politics
+Labor rights
+Maternal health
+Medical anthropology
+Medical sociology
+Mental health
+(
+Ministers
+)
+Occupational safety and health
+Pharmaceutical policy
+Pollution
+Air
+Water
+Soil
+Radiation
+Light
+Prisoners' rights
+Public health intervention
+Public health laboratory
+Right to food
+Right to health
+Right to a healthy environment
+Right to housing
+Right to rest and leisure
+Right to sit
+Security of person
+Sexual and reproductive health
+Social psychology
+Sociology of health and illness
+Unisex changing rooms
+Unisex public toilets
+Workers' right to access the toilet
+Preventive healthcare
+Behavior change
+Theories
+Drug checking
+Family planning
+Harm reduction
+Health promotion
+Human nutrition
+Healthy diet
+Preventive nutrition
+Hygiene
+Food safety
+Hand washing
+Infection control
+Oral hygiene
+Needle and syringe programmes
+Occupational safety and health
+Human factors and ergonomics
+Hygiene
+Controlled Drugs
+Injury prevention
+Medicine
+Nursing
+Patient safety
+Organization
+Pharmacovigilance
+Reagent testing
+Safe sex
+Sanitation
+Emergency
+Fecal–oral transmission
+Open defecation
+Sanitary sewer
+Waterborne diseases
+Worker
+School hygiene
+Smoking cessation
+Supervised injection site
+Vaccination
+Vector control
+Population health
+Adult mortality
+Biostatistics
+Child mortality
+Community health
+Epidemiology
+Global health
+Health impact assessment
+Health system
+Infant mortality
+Open-source healthcare software
+Multimorbidity
+Public health informatics
+Social determinants of health
+Commercial determinants of health
+Health equity
+Race and health
+Social medicine
+Biological and
+epidemiological statistics
+Case–control study
+Randomized controlled trial
+Relative risk
+Statistical hypothesis testing
+Analysis of variance (ANOVA)
+Regression analysis
+ROC curve
+Student's
+t
+-test
+Z
+-test
+Statistical software
+Infectious and epidemic
+disease prevention
+Asymptomatic carrier
+Epidemics
+List
+Notifiable diseases
+List
+Public health surveillance
+Disease surveillance
+Quarantine
+Sexually transmitted infection
+Social distancing
+Tropical disease
+Vaccine trial
+WASH
+Food hygiene and
+safety management
+Food
+Additive
+Chemistry
+Engineering
+Microbiology
+Processing
+Safety
+Safety scandals
+Good agricultural practice
+Good manufacturing practice
+HACCP
+ISO 22000
+Health behavioral
+sciences
+Diffusion of innovations
+Health belief model
+Health communication
+Health psychology
+Positive deviance
+PRECEDE–PROCEED model
+Social cognitive theory
+Social norms approach
+Theory of planned behavior
+Transtheoretical model
+Organizations,
+education
+and history
+Organizations
+Caribbean
+Caribbean Public Health Agency
+China
+Center for Disease Control and Prevention
+Europe
+Centre for Disease Prevention and Control
+Committee on the Environment, Public Health and Food Safety
+Russia
+Rospotrebnadzor
+India
+Ministry of Health and Family Welfare
+Canada
+Health Canada
+Public Health Agency
+U.S.
+Centers for Disease Control and Prevention
+Health departments in the United States
+Council on Education for Public Health
+Public Health Service
+World Health Organization
+World Toilet Organization
+(
+Full list
+)
+Education
+Health education
+Higher education
+Bachelor of Science in Public Health
+Doctor of Public Health
+Professional degrees of public health
+Schools of public health
+History
+History of public health in the United Kingdom
+History of public health in the United States
+History of public health in Australia
+Sara Josephine Baker
+Samuel Jay Crumbine
+Carl Rogers Darnall
+Joseph Lister
+Margaret Sanger
+John Snow
+Typhoid Mary
+Radium Girls
+Germ theory of disease
+Social hygiene movement
+Category
+Commons
+WikiProject
+Authority control databases
+International
+GND
+National
+Israel
+Other
+Yale LUX
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Pharmacovigilance&oldid=1362316609
+"
+Categories
+:
+Clinical research
+Clinical trials
+Drug safety
+Health care quality
+Pharmaceuticals policy
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Articles needing additional references from March 2014
+All articles needing additional references
+Articles lacking page references from March 2014
+Articles that may contain original research from March 2014
+All articles that may contain original research
+Articles with multiple maintenance issues
+Use mdy dates from June 2020
+Articles containing Latin-language text
+All articles with unsourced statements
+Articles with unsourced statements from June 2017
+All articles with vague or ambiguous time
+Vague or ambiguous time from March 2014
+Articles with unsourced statements from March 2014
+Articles needing additional references from March 2025
+Wikipedia articles needing clarification from March 2025
+All articles with specifically marked weasel-worded phrases
+Articles with specifically marked weasel-worded phrases from March 2025
+All articles with incomplete citations
+Articles with incomplete citations from March 2025
+CS1 Azerbaijani-language sources (az)
+Articles to be expanded from March 2025
+All articles to be expanded
+Articles with empty sections from March 2025
+All articles with empty sections
+Wikipedia articles needing clarification from June 2021
+CS1 French-language sources (fr)
+Source attribution
+Articles to be expanded from March 2014
+Articles with incomplete citations from March 2014
+All Wikipedia articles needing clarification
+Wikipedia articles needing clarification from March 2014
+Articles with specifically marked weasel-worded phrases from March 2014
+Search
+Search
+Pharmacovigilance
+20 languages
+Add topic

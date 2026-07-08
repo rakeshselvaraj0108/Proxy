@@ -1,0 +1,4640 @@
+Preventive healthcare - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Prevention of the occurrence of diseases
+"Prophylaxis", "Preventive medicine", and "Disease control" redirect here. For the peer-reviewed journal, see
+Preventive Medicine (journal)
+. For infection prevention, see
+infection control
+. For other uses, see
+Prophylaxis (disambiguation)
+.
+The examples and perspective in this article
+may not represent a
+worldwide view
+of the subject
+.
+You may
+improve this article
+, discuss the issue on the
+talk page
+, or
+create a new article
+, as appropriate.
+(
+March 2023
+)
+(
+Learn how and when to remove this message
+)
+Preventive medicine physician
+Occupation
+Names
+Physician
+Occupation type
+Specialty
+Activity sectors
+Medicine
+Description
+Education required
+Doctor of Medicine
+(M.D.)
+Doctor of Osteopathic Medicine
+(D.O.)
+Bachelor of Medicine, Bachelor of Surgery
+(M.B.B.S.)
+Bachelor of Medicine, Bachelor of Surgery
+(MBChB)
+Fields of
+employment
+Hospitals
+,
+clinics
+,
+Occupational Health clinics
+Immunization
+against diseases is a key preventive healthcare measure.
+Preventive healthcare
+or
+prophylaxis
+is the application of
+healthcare
+measures to prevent
+diseases
+.
+[
+1
+]
+Disease and disability are affected by
+environmental factors
+,
+genetic predisposition
+, disease agents, and
+lifestyle choices
+, and are dynamic processes that begin before individuals realize they are affected. Disease prevention relies on anticipatory actions that can be categorized as primal,
+[
+2
+]
+[
+3
+]
+primary, secondary, and tertiary prevention.
+[
+1
+]
+Preventative care can include services such as, screening tests to check for diseases, services like vaccines, dental cleanings, and education and counseling to help one make informed health related decisions.
+[
+4
+]
+Each year, millions of people die of preventable causes. A 2004 study showed that about half of all deaths in the United States in 2000 were due to preventable behaviors and exposures.
+[
+5
+]
+Leading causes included
+cardiovascular disease
+, chronic
+respiratory disease
+, unintentional injuries,
+diabetes
+, and certain
+infectious diseases
+.
+[
+5
+]
+The study also estimated that 400,000 people die each year in the United States due to poor diet and a
+sedentary lifestyle
+.
+[
+5
+]
+According to estimates made by the
+World Health Organization
+(WHO), about 55 million people died worldwide in 2011, and two-thirds of these died from non-communicable diseases, including
+cancer
+, diabetes, and chronic cardiovascular and
+lung diseases
+.
+[
+6
+]
+This is an increase from the year 2000, during which 60% of deaths were attributed to these diseases.
+[
+6
+]
+)
+Preventive healthcare is especially important given the worldwide rise in the prevalence of chronic diseases and deaths from these diseases. There are many methods for prevention of disease. One of them is prevention of teenage smoking through information giving.
+[
+7
+]
+[
+8
+]
+[
+9
+]
+[
+10
+]
+It is recommended that adults and children aim to visit their doctor for regular check-ups, even if they feel healthy, to perform disease
+screening
+, identify risk factors for disease, discuss tips for a healthy and balanced lifestyle, stay up to date with immunizations and boosters, and maintain a good relationship with a healthcare provider.
+[
+11
+]
+In pediatrics, some common examples of primary prevention are encouraging parents to turn down the temperature of their home water heater in order to avoid scalding burns, encouraging children to wear bicycle helmets, and suggesting that people use the
+air quality index
+(AQI) to check the level of pollution in the outside air before engaging in sporting activities.
+Some common disease screenings include checking for
+hypertension
+(high blood pressure),
+hyperglycemia
+(high blood sugar, a risk factor for
+diabetes mellitus
+),
+hypercholesterolemia
+(high blood cholesterol), screening for
+colon cancer
+,
+depression
+,
+HIV
+and other common types of
+sexually transmitted disease
+such as
+chlamydia
+,
+syphilis
+, and
+gonorrhea
+,
+mammography
+(to screen for
+breast cancer
+),
+colorectal cancer
+screening, a
+Pap test
+(to check for
+cervical cancer
+), and screening for
+osteoporosis
+.
+Genetic testing
+can also be performed to screen for mutations that cause
+genetic disorders
+or predisposition to certain diseases such as breast or
+ovarian cancer
+.
+[
+11
+]
+However, these measures are not affordable for every individual and the cost effectiveness of preventive healthcare is still a topic of debate.
+[
+12
+]
+[
+13
+]
+Overview
+[
+edit
+]
+Preventive healthcare strategies are described as taking place at the primal,
+[
+2
+]
+primary,
+[
+14
+]
+secondary, and tertiary prevention levels.
+Although advocated as preventive medicine in the early twentieth century by
+Sara Josephine Baker
+,
+[
+15
+]
+in the 1940s, Hugh R. Leavell and E. Gurney Clark coined the term primary prevention. They worked at the Harvard and Columbia University Schools of Public Health, respectively, and later expanded the levels to include secondary and tertiary prevention. Goldston (1987) notes that these levels might be better described as "prevention, treatment, and rehabilitation", although the terms primary, secondary, and tertiary prevention are still in use today. The concept of primal prevention has been created much more recently, in relation to the new developments in molecular biology over the last fifty years,
+[
+16
+]
+more particularly in epigenetics, which point to the paramount importance of environmental conditions, both physical and affective, on the organism during its fetal and newborn life, or so-called primal period of life.
+[
+3
+]
+Level
+Definition
+Primal and primordial prevention
+Primal prevention has been propounded as a separate category of
+health promotion
+based on the evidence that epigenetic processes start at conception (see below: Primal and primordial preventions). Primordial prevention refers to measures designed to avoid the development of risk factors in the first place, early in life.
+[
+17
+]
+[
+18
+]
+Primary prevention
+Methods to avoid occurrence of disease either through eliminating disease agents or increasing resistance to disease.
+[
+19
+]
+Examples include
+immunization
+against disease, maintaining a
+healthy diet
+and exercise regimen, and avoiding
+smoking
+.
+[
+20
+]
+Secondary prevention
+Methods to detect and address an existing disease prior to the appearance of symptoms.
+[
+19
+]
+Examples include treatment of
+hypertension
+(a risk factor for many cardiovascular diseases), and cancer screenings.
+[
+20
+]
+Tertiary prevention
+Methods to reduce the harm of symptomatic disease, such as disability or death, through rehabilitation and treatment.
+[
+19
+]
+Examples include surgical procedures that halt the spread or progression of disease.
+[
+19
+]
+Quaternary prevention
+Methods to mitigate or avoid results of unnecessary or excessive interventions in the health system, including potential violations of rights.
+[
+21
+]
+Primal and primordial preventions
+[
+edit
+]
+See also:
+Parent education program
+Primal prevention is health promotion
+par excellence
+.
+[
+22
+]
+New knowledge in molecular biology, in particular
+epigenetics
+, points to how much affective as well as physical environment during fetal and newborn life may determine adult health.
+[
+23
+]
+[
+24
+]
+[
+25
+]
+[
+26
+]
+This way of promoting health consists mainly in providing future parents with pertinent, unbiased information on primal health and supporting them during their child's primal period of life (i.e., "from conception to first anniversary" according to definition by the Primal Health Research Centre, London). This includes adequate parental leave, ideally for both parents, with kin caregiving and financial help where needed.
+[
+27
+]
+Primordial prevention refers to all measures designed to prevent the development of risk factors in the first place, early in life,
+[
+17
+]
+[
+18
+]
+and even preconception, as
+Ruth A. Etzel
+has described it "all population-level actions and measures that inhibit the emergence and establishment of adverse environmental, economic, and social conditions". This could be reducing air pollution
+[
+28
+]
+or prohibiting endocrine-disrupting chemicals in food-handling equipment and food contact materials.
+[
+29
+]
+Primary prevention
+[
+edit
+]
+Primary prevention consists of traditional
+health promotion
+and "specific protection".
+[
+19
+]
+Health promotion activities include prevention strategies such as
+health education
+and
+lifestyle medicine
+, and are current, non-clinical life choices such as
+eating nutritious meals
+and
+exercising
+often, that prevent
+lifestyle-related medical conditions
+, improve the
+quality of life
+, and create a sense of overall
+well-being
+.
+[
+30
+]
+Preventing disease and creating overall well-being
+prolongs life expectancy
+.
+[
+1
+]
+[
+19
+]
+Health-promotional activities do not target a specific disease or condition but rather promote health and well-being on a very general level.
+[
+1
+]
+On the other hand, specific protection targets a type or group of diseases and complements the goals of health promotion.
+[
+19
+]
+Food
+[
+edit
+]
+Food is the most basic tool in preventive health care. Poor nutrition is linked to various chronic illnesses. Because of this, having a healthy diet and proper nutrition can be used to prevent illnesses.
+[
+31
+]
+Access
+[
+edit
+]
+Some groups are at a disadvantage when it comes to health, not because of qualities they're born with but because of socioeconomic factors they experience in life.
+[
+32
+]
+The 2011 National Health Interview Survey performed by the Centers for Disease Control was the first national survey to include questions about ability to pay for food. Difficulty with paying for food, medicine, or both is a problem facing 1 out of 3 Americans. If better food options were available through
+food banks
+, soup kitchens, and other resources for low-income people, obesity and the chronic conditions that come along with it would be better controlled.
+[
+33
+]
+A
+food desert
+is an area with restricted access to healthy foods due to a lack of supermarkets within a reasonable distance. These are often low-income neighborhoods with the majority of residents lacking transportation.
+[
+34
+]
+There have been several grassroots movements since 1995 to encourage
+urban gardening
+, using vacant lots to grow food cultivated by local residents.
+[
+35
+]
+Mobile fresh markets are another resource for residents in a "food desert", which are specially outfitted buses bringing affordable fresh fruits and vegetables to low-income neighborhoods.
+[
+36
+]
+Food education and guidance
+[
+edit
+]
+It has been proposed that
+healthy longevity diets
+are included in standard healthcare as switching from a "typical Western diet" could often extend life by a decade.
+[
+37
+]
+Protective measures
+[
+edit
+]
+Specific protective measures such as
+water purification
+, sewage treatment, and the development of personal hygienic routines, such as regular hand-washing, safe sex to prevent
+sexually transmitted infections
+, became mainstream upon the discovery of infectious disease agents and have decreased the rates of communicable diseases which are spread in unsanitary conditions.
+[
+1
+]
+Scientific advancements in genetics have contributed to the knowledge of hereditary diseases and have facilitated progress in specific protective measures in individuals who are carriers of a disease gene or have an increased predisposition to a specific disease. Genetic testing has allowed physicians to make quicker and more accurate diagnoses and has allowed for tailored treatments or
+personalized medicine
+.
+[
+1
+]
+Food safety
+has a significant impact on human health and food quality monitoring has increased.
+[
+38
+]
+Water, including drinking water,
+is also monitored
+in many cases for securing health. There also is some
+monitoring of air pollution
+. In many cases,
+environmental standards
+such as via maximum pollution levels,
+regulation of chemicals
+,
+occupational hygiene
+requirements or
+consumer protection
+regulations establish some protection in combination with the monitoring.
+[
+citation needed
+]
+Preventive measures like
+vaccines
+and medical screenings are also important.
+[
+39
+]
+Using PPE properly and getting the recommended vaccines and screenings can help decrease the spread of respiratory diseases, protecting the healthcare workers as well as their patients.
+[
+40
+]
+[
+41
+]
+Secondary prevention
+[
+edit
+]
+See also:
+Screening (medicine)
+and
+Biomarker (medicine)
+Secondary prevention identifies early stages of diseases, e.g. by using screening tests. It attempts to prevent
+asymptomatic
+disease from progressing to symptomatic disease.
+[
+19
+]
+Certain diseases can be classified as primary or secondary. This depends on definitions of what constitutes a disease, though, in general, primary prevention addresses the
+root cause
+of a disease or injury
+[
+19
+]
+whereas secondary prevention aims to detect and treat a disease early on.
+[
+42
+]
+Secondary prevention consists of "early diagnosis and prompt treatment" to contain the disease and prevent its spread to other individuals, and "disability limitation" to prevent potential future complications and disabilities from the disease.
+[
+1
+]
+Early diagnosis and prompt treatment for a syphilis patient would include a course of antibiotics to destroy the pathogen and screening and treatment of any infants born to syphilitic mothers. Disability limitation for syphilitic patients includes continued check-ups on the heart, cerebrospinal fluid, and central nervous system of patients to curb any damaging effects such as blindness or paralysis.
+[
+1
+]
+Tertiary prevention
+[
+edit
+]
+Tertiary prevention attempts to reduce the damage caused by symptomatic disease by focusing on mental, physical, and social
+rehabilitation
+. It aims to maximize the remaining capabilities and functions of an already disabled individual.
+[
+1
+]
+Goals of tertiary prevention include: preventing pain and damage, halting progression and complications from disease, and restoring the health and functions of the individuals affected by disease.
+[
+42
+]
+For syphilitic patients, rehabilitation includes measures to prevent complete disability from the disease, such as implementing work-place adjustments for the blind and paralyzed or providing counseling to restore normal daily functions to the greatest extent possible.
+[
+1
+]
+Quaternary prevention
+[
+edit
+]
+Quaternary prevention
+means avoiding unnecessary medical interventions or
+overmedicalization
+.
+[
+43
+]
+Leading causes of preventable death
+[
+edit
+]
+This section needs to be
+updated
+.
+Please help update this article to reflect recent events or newly available information.
+(
+February 2025
+)
+Worldwide
+[
+edit
+]
+The leading
+causes of preventable death
+worldwide share similar trends to the
+United States
+. There are a few differences between the two, such as malnutrition, pollution, and unsafe sanitation, that reflect health disparities between the developing and developed world.
+[
+44
+]
+Leading causes of preventable death worldwide as of 2001
+[
+44
+]
+Cause
+Deaths caused (millions per year)
+Hypertension
+7.8
+Smoking
+5.0
+High cholesterol
+3.9
+Malnutrition
+3.8
+Sexually transmitted infections
+3.0
+Poor
+diet
+2.8
+Overweight
+and
+obesity
+2.5
+Physical inactivity
+2.0
+Alcohol
+1.9
+Indoor air pollution
+from solid fuels
+1.8
+Unsafe water
+and poor
+sanitation
+1.6
+However, several of the
+leading causes of death
+– or underlying contributors to earlier death – may not be included as "preventable" causes of death. A study concluded that
+pollution
+was "responsible for approximately 9 million deaths per year" in 2019.
+[
+45
+]
+And another study concluded that the global mean loss of life expectancy (a measure similar to
+years of potential life lost
+) from
+air pollution
+in 2015 was 2.9 years, substantially more than, for example, 0.3 years from all forms of direct violence, albeit a significant fraction of the LLE is considered to be unavoidable (such as pollution from some natural wildfires).
+[
+46
+]
+A 2021 landmark study by the
+World Health Organization
+and the
+International Labour Organization
+found that exposure to long working hours is the occupational risk factor with the largest attributable burden of disease, i.e. an estimated 745,000 fatalities from ischemic heart disease and stroke events in 2016.
+[
+47
+]
+With this study, prevention of exposure to long working hours has emerged as a priority for prevention healthcare in workplace settings.
+[
+citation needed
+]
+United States
+[
+edit
+]
+The leading
+preventable cause of death
+in the United States is tobacco; however, poor diet and lack of exercise may soon surpass tobacco as a leading cause of death. These behaviors are modifiable and public health and prevention efforts could make a difference to reduce these deaths.
+[
+5
+]
+Leading causes of preventable deaths in the United States in 2000
+[
+5
+]
+Cause
+Deaths caused
+% of all deaths
+Tobacco smoking
+435,000
+18.1
+Poor diet and physical inactivity
+400,000
+16.6
+Alcohol consumption
+85,000
+3.5
+Infectious diseases
+75,000
+3.1
+Toxicants
+55,000
+2.3
+Traffic collisions
+43,000
+1.8
+Firearm incidents
+29,000
+1.2
+Sexually transmitted infections
+20,000
+0.8
+Drug abuse
+17,000
+0.7
+Child mortality
+[
+edit
+]
+In 2010, 7.6 million children died before reaching the age of 5. While this is a decrease from 9.6 million in 2000,
+[
+48
+]
+it was still far from the fourth Millennium Development Goal to decrease child mortality by two-thirds by 2015.
+[
+49
+]
+Of these deaths, about 64% were due to
+infection
+including
+diarrhea
+,
+pneumonia
+, and
+malaria
+.
+[
+48
+]
+About 40% of these deaths occurred in neonates (children ages 1–28 days) due to pre-term birth complications.
+[
+49
+]
+The highest number of child deaths occurred in Africa and Southeast Asia.
+[
+48
+]
+As of 2015 in Africa, almost no progress has been made in reducing neonatal death since 1990.
+[
+49
+]
+In 2010, India, Nigeria, Democratic Republic of the Congo, Pakistan, and China contributed to almost 50% of global child deaths. Targeting efforts in these countries is essential to reducing the global child death rate.
+[
+48
+]
+Child mortality is caused by factors including poverty, environmental hazards, and lack of maternal education.
+[
+50
+]
+In 2003, the World Health Organization created a list of interventions in the following table that were judged economically and operationally "feasible," based on the healthcare resources and infrastructure in 42 nations that contribute to 90% of all infant and child deaths. The table indicates how many infant and child deaths could have been prevented in 2000, assuming universal healthcare coverage.
+[
+50
+]
+Leading preventive interventions as of 2003 reducing deaths in children 0–5 years old worldwide
+[
+50
+]
+Intervention
+Percent of all child deaths preventable
+Breastfeeding
+13
+Insecticide-treated materials
+7
+Complementary feeding
+6
+Zinc
+4
+Clean delivery
+4
+Hib vaccine
+4
+Water, sanitation, hygiene
+3
+Antenatal steroids
+3
+Newborn temperature management
+2
+Vitamin A
+2
+Tetanus toxoid
+2
+Nevirapine and replacement feeding
+2
+Antibiotics for premature rupture of membranes
+1
+Measles vaccine
+1
+Antimalarial intermittent preventive treatment in pregnancy
+<1%
+Preventive methods
+[
+edit
+]
+Smoking
+[
+edit
+]
+For primary
+smoking prevention
+, education, warning about the dangers of tobacco and counseling is employed.
+Tobacco control
+may include a ban on tobacco advertising and sponsorship, see
+MPOWER tobacco control
+. Secondary prevention includes protecting people from smoke with bans in public buildings for example, offering cessation.
+Obesity
+[
+edit
+]
+Obesity
+is a major risk factor for a wide variety of conditions including cardiovascular diseases,
+hypertension
+, certain cancers, and
+type 2 diabetes
+. In order to prevent obesity, it is recommended that individuals adhere to a consistent exercise regimen as well as a nutritious and balanced diet. A healthy individual should aim for acquiring 10% of their energy from proteins, 15-20% from fat, and over 50% from complex carbohydrates, while avoiding alcohol as well as foods high in fat, salt, and sugar.
+[
+51
+]
+Sedentary adults should aim for at least half an hour of moderate-level daily physical activity and eventually increase to include at least 20 minutes of intense exercise, three times a week.
+[
+51
+]
+Preventive health care offers many benefits to those that chose to participate in taking an active role in the culture. The medical system in our society is geared toward curing acute symptoms of disease after the fact that they have brought us into the emergency room. An ongoing epidemic within American culture is the prevalence of obesity. Healthy eating and regular exercise play a significant role in reducing an individual's risk for type 2 diabetes. A 2008 study concluded that about 23.6 million people in the United States had diabetes, including 5.7 million that had not been diagnosed. 90 to 95 percent of people with diabetes have
+type 2 diabetes
+. Diabetes is the main cause of kidney failure, limb amputation, and new-onset blindness in American adults.
+[
+52
+]
+Sexually transmitted infections
+[
+edit
+]
+U.S. propaganda poster
+Fool the Axis Use Prophylaxis
+, 1942
+Sexually transmitted infections
+(STIs), such as
+syphilis
+and
+HIV
+, are common but preventable with
+safe-sex
+practices. STIs can be asymptomatic, or cause a range of symptoms. Preventive measures for STIs are called prophylactics. The term especially applies to the use of
+condoms
+,
+[
+53
+]
+which are highly effective at preventing disease,
+[
+54
+]
+but also to other devices meant to prevent STIs,
+[
+53
+]
+such as
+dental dams
+and
+latex gloves
+. Other means for preventing STIs include education on how to use condoms or other
+such barrier devices
+,
+testing partners
+before having unprotected sex, receiving regular STI screenings, to both receive treatment and prevent spreading STIs to partners, and, specifically for HIV, regularly taking prophylactic antiretroviral drugs, such as
+Truvada
+.
+Post-exposure prophylaxis
+, started within 72 hours (optimally less than 1 hour) after exposure to high-risk fluids, can also protect against HIV transmission.
+[
+citation needed
+]
+Malaria prevention using genetic modification
+[
+edit
+]
+Genetically modified mosquitoes are being used in developing countries to control
+malaria
+. This approach has been subject to objections and controversy.
+[
+55
+]
+Thrombosis
+[
+edit
+]
+Main article:
+Thrombosis prophylaxis
+Thrombosis
+is a serious circulatory disease affecting thousands, usually older persons undergoing surgical procedures, women taking oral contraceptives and travelers. The consequences of thrombosis can be heart attacks and strokes. Prevention can include exercise, anti-embolism stockings, pneumatic devices, and pharmacological treatments.
+[
+citation needed
+]
+Cancer
+[
+edit
+]
+Main article:
+Cancer prevention
+In recent years
+[
+when?
+]
+,
+cancer
+has become a global problem. Low and middle income countries share a majority of the cancer burden largely due to exposure to carcinogens resulting from industrialization and globalization.
+[
+56
+]
+However, primary prevention of cancer and knowledge of cancer risk factors can reduce over one third of all cancer cases. Primary prevention of cancer can also prevent other diseases, both communicable and non-communicable, that share common risk factors with cancer.
+[
+56
+]
+Lung cancer
+[
+edit
+]
+Distribution of lung cancer in the United States
+Lung cancer
+is the leading cause of cancer-related deaths in the United States and Europe and is a major cause of death in other countries.
+[
+57
+]
+Tobacco
+is an environmental
+carcinogen
+and the major underlying cause of lung cancer.
+[
+57
+]
+Between 25% and 40% of all cancer deaths and about 90% of lung cancer cases are associated with tobacco use. Other carcinogens include asbestos and radioactive materials.
+[
+58
+]
+Both smoking and
+second-hand exposure
+from other smokers can lead to lung cancer and eventually death.
+[
+57
+]
+Prevention of tobacco use is paramount to prevention of lung cancer. Individual, community, and statewide interventions can prevent or cease tobacco use. 90% of adults in the U.S. who have ever smoked did so prior to the age of 20. In-school prevention/educational programs, as well as counseling resources, can help prevent and cease adolescent smoking.
+[
+58
+]
+Other cessation techniques include group support programs,
+nicotine replacement therapy
+(NRT), hypnosis, and self-motivated behavioral change. Studies have shown long term success rates (>1 year) of 20% for hypnosis and 10%-20% for group therapy.
+[
+58
+]
+Cancer screening
+programs serve as effective sources of secondary prevention. The Mayo Clinic, Johns Hopkins, and Memorial Sloan-Kettering hospitals conducted annual x-ray screenings and sputum cytology tests and found that lung cancer was detected at higher rates, earlier stages, and had more favorable treatment outcomes, which supports widespread investment in such programs.
+[
+58
+]
+Legislation can also affect smoking prevention and cessation. In 1992, Massachusetts (United States) voters passed a bill adding an extra 25 cent tax to each pack of cigarettes, despite intense lobbying and $7.3 million spent by the tobacco industry to oppose this bill. Tax revenue goes toward tobacco education and control programs and has led to a decline of tobacco use in the state.
+[
+59
+]
+Lung cancer and tobacco smoking are increasing worldwide, especially in China. China is responsible for about one-third of the global consumption and production of tobacco products.
+[
+60
+]
+Tobacco control policies have been ineffective as China is home to 350 million regular smokers and 750 million passive smokers and the annual death toll is over 1 million.
+[
+60
+]
+Recommended actions to reduce tobacco use include decreasing tobacco supply, increasing tobacco taxes, widespread educational campaigns, decreasing advertising from the tobacco industry, and increasing tobacco cessation support resources.
+[
+60
+]
+In Wuhan, China, a 1998 school-based program implemented an anti-tobacco curriculum for adolescents and reduced the number of regular smokers, though it did not significantly decrease the number of adolescents who initiated smoking. This program was therefore effective in secondary but not primary prevention and shows that school-based programs have the potential to reduce tobacco use.
+[
+61
+]
+Skin cancer
+[
+edit
+]
+An image of melanoma, one of the deadliest forms of skin cancer
+Skin cancer
+is the most common cancer in the United States.
+[
+62
+]
+The most lethal form of skin cancer, melanoma, leads to over 50,000 annual deaths in the United States.
+[
+62
+]
+Childhood prevention is particularly important because a significant portion of ultraviolet radiation exposure from the sun occurs during childhood and adolescence and can subsequently lead to skin cancer in adulthood. Furthermore, childhood prevention can lead to the development of healthy habits that continue to prevent cancer for a lifetime.
+[
+62
+]
+The
+Centers for Disease Control and Prevention
+(CDC) recommends several primary prevention methods including: limiting sun exposure between 10 AM and 4 PM, when the sun is strongest, wearing tighter-weave natural cotton clothing, wide-brim hats, and sunglasses as protective covers, using sunscreens that protect against both UV-A and UV-B rays, and avoiding tanning salons.
+[
+62
+]
+Sunscreen should be reapplied after sweating, exposure to water (through swimming for example) or after several hours of sun exposure.
+[
+62
+]
+Since skin cancer is very preventable, the CDC recommends school-level prevention programs including preventive curricula, family involvement, participation and support from the school's health services, and partnership with community, state, and national agencies and organizations to keep children away from excessive UV radiation exposure.
+[
+62
+]
+Most skin cancer and sun protection data comes from Australia and the United States.
+[
+63
+]
+An international study reported that Australians tended to demonstrate higher knowledge of sun protection and skin cancer knowledge, compared to other countries.
+[
+63
+]
+Of children, adolescents, and adults, sunscreen was the most commonly used skin protection. However, many adolescents purposely used sunscreen with a low sun protection factor (SPF) in order to get a tan.
+[
+63
+]
+Various Australian studies have shown that many adults failed to use sunscreen correctly; many applied sunscreen well after their initial sun exposure and/or failed to reapply when necessary.
+[
+64
+]
+[
+65
+]
+[
+66
+]
+A 2002 case-control study in Brazil showed that only 3% of case participants and 11% of control participants used sunscreen with SPF >15.
+[
+67
+]
+Cervical cancer
+[
+edit
+]
+The presence of cancer (adenocarcinoma) detected on a Pap test
+Cervical cancer
+ranks among the top three most common cancers among women in
+Latin America
+,
+sub-Saharan Africa
+, and parts of
+Asia
+. Cervical cytology screening aims to detect abnormal lesions in the cervix so that women can undergo treatment prior to the development of cancer. Given that high quality screening and follow-up care has been shown to reduce cervical cancer rates by up to 80%, most developed countries now encourage sexually active women to undergo a
+Pap test
+every 3–5 years. Finland and Iceland have developed effective organized programs with routine monitoring and have managed to significantly reduce cervical cancer mortality while using fewer resources than unorganized, opportunistic programs such as those in the United States or Canada.
+[
+68
+]
+In developing nations in Latin America, such as Chile, Colombia, Costa Rica, and Cuba, both public and privately organized programs have offered women routine cytological screening since the 1970s. However, these efforts have not resulted in a significant change in cervical cancer incidence or mortality in these nations. This is likely due to low quality, inefficient testing. However, Puerto Rico, which has offered early screening since the 1960s, has witnessed almost a 50% decline in cervical cancer incidence and almost a four-fold decrease in mortality between 1950 and 1990. Brazil, Peru, India, and several high-risk nations in sub-Saharan Africa which lack organized screening programs, have a high incidence of cervical cancer.
+[
+68
+]
+Colorectal cancer
+[
+edit
+]
+Colorectal cancer
+is globally the second most common cancer in women and the third-most common in men,
+[
+69
+]
+and the fourth most common cause of cancer death after
+lung
+,
+stomach
+, and
+liver cancer
+,
+[
+70
+]
+having caused 715,000 deaths in 2010.
+[
+71
+]
+It is also highly preventable; about 80 percent
+[
+72
+]
+of colorectal cancers begin as
+benign growths
+, commonly called
+polyps
+, which can be easily detected and removed during a
+colonoscopy
+. Other methods of screening for polyps and cancers include
+fecal occult blood
+testing. Lifestyle changes that may reduce the risk of colorectal cancer include increasing consumption of whole grains, fruits and vegetables, and reducing consumption of
+red meat
+.
+[
+73
+]
+Dementia
+[
+edit
+]
+This section is an excerpt from
+Prevention of dementia
+.
+[
+edit
+]
+The
+prevention of dementia
+involves reducing the number of risk factors for the development of
+dementia
+, and is a global health priority needing a global response.
+[
+74
+]
+[
+75
+]
+Initiatives include the establishment of the International Research Network on Dementia Prevention (IRNDP)
+[
+76
+]
+which aims to link researchers in this field globally, and the establishment of the Global Dementia Observatory
+[
+77
+]
+a web-based data knowledge and exchange platform, which will collate and disseminate key dementia data from members states. Although there is no cure for dementia, it is well established that modifiable risk factors influence both the likelihood of developing dementia and the age at which it is developed.
+[
+74
+]
+[
+78
+]
+Potentially modifiable risk factors for
+vascular dementia
+include
+high blood pressure
+,
+diabetes
+,
+obesity
+,
+smoking
+,
+physical inactivity
+, and
+depression
+.
+[
+74
+]
+[
+79
+]
+[
+78
+]
+A study concluded that more than a third of dementia cases are theoretically preventable. Among older adults both an unfavorable lifestyle and high genetic risk are independently associated with higher dementia risk.
+[
+80
+]
+A favorable lifestyle is associated with a lower dementia risk, regardless of genetic risk.
+[
+80
+]
+In 2020, a study identified 12 modifiable lifestyle factors, and the early treatment of acquired hearing loss was estimated as the most significant of these factors, potentially preventing up to 9% of dementia cases.
+[
+74
+]
+A later study added two more risk factors of vision loss, and high cholesterol.
+[
+81
+]
+Other studies show that certain vaccines, such as the
+shingles vaccine
+, could have a significant protective effect against the risk of dementia.
+[
+82
+]
+[
+83
+]
+Health disparities and barriers to accessing care
+[
+edit
+]
+Access to healthcare and preventive health services is unequal, as is the quality of care received. A study conducted by the Agency for Healthcare Research and Quality (AHRQ) revealed
+health disparities
+in the United States. In the United States, elderly adults (>65 years old) received worse care and had less access to care than their younger counterparts. The same trends are seen when comparing all racial minorities (black, Hispanic, Asian) to white patients, and low-income people to high-income people.
+[
+84
+]
+Common barriers to accessing and utilizing healthcare resources included lack of income and education, language barriers, and lack of health insurance. Minorities were less likely than whites to possess health insurance, as were individuals who completed less education. These disparities made it more difficult for the disadvantaged groups to have regular access to a primary care provider, receive immunizations, or receive other types of medical care.
+[
+84
+]
+Additionally, uninsured people tend to not seek care until their diseases progress to chronic and serious states and they are also more likely to forgo necessary tests, treatments, and filling prescription medications.
+[
+85
+]
+These sorts of disparities and barriers exist worldwide as well. Often, there are decades of gaps in life expectancy between developing and developed countries. For example, Japan has an average life expectancy that is 36 years greater than that in Malawi.
+[
+86
+]
+Low-income countries also tend to have fewer physicians than high-income countries. In Nigeria and Myanmar, there are fewer than 4 physicians per 100,000 people while Norway and Switzerland have a ratio that is ten-fold higher.
+[
+86
+]
+Common barriers worldwide include lack of availability of health services and healthcare providers in the region, great physical distance between the home and health service facilities, high transportation costs, high treatment costs, and social norms and stigma toward accessing certain health services.
+[
+87
+]
+Economics of lifestyle-based prevention
+[
+edit
+]
+With lifestyle factors such as diet and exercise rising to the top of preventable death statistics, the economics of healthy lifestyle is a growing concern. There is little question that positive lifestyle choices provide an investment in health throughout life.
+[
+88
+]
+To gauge success, traditional measures such as the quality years of life method
+(QALY)
+, show great value.
+[
+89
+]
+However, that method does not account for the cost of
+chronic conditions
+or future lost earnings because of poor health.
+[
+90
+]
+Developing future economic models that would guide both private and public investments as well as drive future policy to evaluate the efficacy of positive lifestyle choices on health is a major topic for economists globally. Americans spend over three trillion a year on health care but have a higher rate of
+infant mortality
+, shorter
+life expectancies
+, and a higher rate of diabetes than other high-income nations because of negative lifestyle choices.
+[
+91
+]
+Despite these large costs, very little is spent on prevention for lifestyle-caused conditions in comparison. In 2016, the
+Journal of the American Medical Association
+estimated that $101 billion was spent in 2013 on the preventable disease of
+diabetes
+, and another $88 billion was spent on
+heart disease
+.
+[
+92
+]
+In an effort to encourage healthy lifestyle choices, as of 2010
+workplace wellness
+programs were on the rise but the economics and effectiveness data were continuing to evolve and develop.
+[
+93
+]
+Health insurance coverage impacts lifestyle choices, even intermittent loss of coverage had negative effects on healthy choices in the U.S.
+[
+94
+]
+The repeal of the
+Affordable Care Act
+(ACA) could significantly impact coverage for many Americans as well as "The Prevention and Public Health Fund" which is the U.S. first and only mandatory funding stream dedicated to improving public health
+[
+95
+]
+including counseling on lifestyle prevention issues, such as weight management, alcohol use, and treatment for
+depression
+.
+[
+96
+]
+Because in the U.S. chronic illnesses predominate as a cause of death and pathways for treating chronic illnesses are complex and multifaceted, prevention is a best practice approach to chronic disease when possible. In many cases, prevention requires mapping complex pathways
+[
+97
+]
+to determine the ideal point for intervention.
+Cost-effectiveness
+of prevention is achievable, but impacted by the length of time it takes to see effects/outcomes of intervention. This makes prevention efforts difficult to fund—particularly in strained financial contexts. Prevention potentially creates other costs as well, due to
+extending
+the
+lifespan
+and thereby increasing opportunities for illness. In order to assess the cost-effectiveness of prevention, the cost of the preventive measure, savings from avoiding morbidity, and the cost from extending the lifespan need to be considered.
+[
+98
+]
+Life extension costs become smaller when accounting for savings from postponing the last year of life,
+[
+99
+]
+which makes up a large fraction of lifetime medical expenditures
+[
+100
+]
+and becomes cheaper with age.
+[
+101
+]
+Prevention leads to savings only if the cost of the preventive measure is less than the savings from avoiding morbidity net of the cost of extending the life span. In order to establish reliable economics of prevention for illnesses that are complicated in origin, knowing how best to assess prevention efforts, i.e. developing useful measures and appropriate scope, is required.
+[
+102
+]
+Effectiveness
+[
+edit
+]
+Preventive healthcare measures increase the
+quality of life
+. There are varying views on what constitutes a "good investment." Some argue that preventive health measures should save more money than they cost, when factoring in treatment costs in the absence of such measures.
+[
+12
+]
+Others have argued in favor of "good value" or conferring significant health benefits even if the measures do not save money.
+[
+103
+]
+Preventive health services comprise a myriad of different services, each of which can individually lead to net costs, savings, or neither.
+[
+12
+]
+A 2010 study reported that in the United States, vaccinating children, cessation of smoking, daily prophylactic use of aspirin, and
+screening
+of breast and colorectal cancers had the most potential to prevent premature death.
+[
+12
+]
+Preventive health measures that resulted in savings included vaccinating children and adults, smoking cessation, daily use of aspirin, and screening for issues with alcoholism, obesity, and vision failure.
+[
+12
+]
+These authors estimated that if usage of these services in the United States increased to 90% of the population, there would be net savings of $3.7 billion, which comprised only about -0.2% of the total 2006
+United States healthcare
+expenditure.
+[
+12
+]
+Despite the potential for decreasing healthcare spending, utilization of healthcare resources in the United States still remains low, especially among Latinos and African-Americans.
+[
+104
+]
+Overall, preventive services are difficult to implement because healthcare providers have limited time with patients and must integrate a variety of preventive health measures from different sources.
+[
+104
+]
+While these specific services bring about small net savings, not every preventive health measure saves more than it costs. A 1970s study showed that preventing heart attacks by treating hypertension early on with drugs did not save money in the long run. The money saved by evading treatment from
+heart attack
+and
+stroke
+only amounted to about a quarter of the cost of the drugs.
+[
+105
+]
+[
+106
+]
+Similarly, it was found that the cost of drugs or dietary changes to decrease high blood cholesterol exceeded the cost of subsequent heart disease treatment.
+[
+107
+]
+[
+108
+]
+Due to these findings, some argue that rather than focusing healthcare reform efforts exclusively on preventive care, the interventions that bring about the highest level of health should be prioritized.
+[
+103
+]
+In 2008, Cohen
+et al.
+outlined a few arguments made by skeptics of preventive healthcare, for example that preventive measures only cost less than future treatment when the proportion of the population that would become ill in the absence of prevention is fairly large.
+[
+13
+]
+The Diabetes Prevention Program Research Group conducted a 2012 study evaluating the costs and benefits in quality-adjusted life-years or
+QALYs
+of lifestyle changes versus taking the drug metformin. They found that neither method brought about financial savings, but were cost-effective nonetheless because they brought about an increase in QALYs.
+[
+109
+]
+Preventive healthcare skeptics also argue that while many treatments of existing diseases involve use of advanced equipment and technology, in some cases, this would be a more efficient use of resources than attempts to prevent the disease.
+[
+13
+]
+Cohen suggested that the preventive measures most worth exploring and investing in are those that could benefit a large portion of the population to bring about cumulative and widespread health benefits at a reasonable cost.
+[
+13
+]
+Cost-effectiveness of childhood obesity interventions
+[
+edit
+]
+As of 2015 there were at least four nationally implemented
+childhood obesity
+interventions in the United States: the Sugar-Sweetened Beverage excise tax (SSB), the TV AD program, active physical education (Active PE) policies, and early care and education (ECE) policies.
+[
+110
+]
+They each have similar goals of reducing childhood obesity. The effects of these interventions on BMI have been studied, and the
+cost-effectiveness analysis
+has led to a better understanding of projected cost reductions and improved health outcomes.
+[
+111
+]
+[
+112
+]
+The Childhood Obesity Intervention Cost-Effectiveness Study (CHOICES) was conducted to evaluate and compare the CEA of these four interventions.
+[
+110
+]
+Gortmaker, S.L.
+et al.
+(2015) stated: "The four initial interventions were selected by the investigators to represent a broad range of nationally scalable strategies to reduce childhood obesity using a mix of both policy and programmatic strategies... 1. an excise tax of $0.01 per ounce of
+sweetened beverages
+, applied nationally and administered at the state level (SSB), 2. elimination of the tax deductibility of advertising costs of TV advertisements for "nutritionally poor" foods and beverages seen by children and adolescents (TV AD), 3. state policy requiring all public elementary schools in which physical education (PE) is currently provided to devote ≥50% of PE class time to moderate and vigorous physical activity (Active PE), and 4. state policy to make early child educational settings healthier by increasing physical activity, improving nutrition, and reducing screen time (ECE)." The CHOICES found that SSB, TV AD, and ECE led to net cost savings. Both SSB and TV AD increased quality adjusted life years and produced yearly tax revenue of 12.5 billion U.S. dollars and 80 million U.S. dollars, respectively.
+[
+111
+]
+Some challenges with evaluating the effectiveness of child obesity interventions include:
+The economic consequences of childhood obesity are both short and long term. In the short term, obesity impairs cognitive achievement and academic performance. Some believe this is secondary to negative effects on mood or energy, but others suggest there may be physiological factors involved.
+[
+113
+]
+Furthermore, obese children have increased health care expenses (e.g. medications, acute care visits). In the long term, obese children tend to become obese adults with associated increased risk for a
+chronic condition
+such as diabetes or hypertension.
+[
+114
+]
+[
+115
+]
+Any effect on their cognitive development may also affect their contributions to society and socioeconomic status.
+In the CHOICES, it was noted that translating the effects of these interventions may in fact differ among communities throughout the nation. In addition it was suggested that limited outcomes are studied and these interventions may have an additional effect that is not fully appreciated.
+Modeling outcomes in such interventions in children over the long term is challenging because advances in medicine and medical technology are unpredictable. The projections from cost-effective analysis may need to be reassessed more frequently.
+Economics of U.S. preventive care
+[
+edit
+]
+As of 2009, the cost-effectiveness of preventive care was a highly debated topic. While some economists argue that preventive care is valuable and potentially cost saving, others believe it is a waste of resources.
+[
+116
+]
+Preventive care is composed of a variety of clinical services and programs including annual doctor's check-ups, annual immunizations, and wellness programs; recent models show that these simple interventions can have significant economic impacts.
+[
+89
+]
+Clinical preventive services and programs
+[
+edit
+]
+Research on preventive care addresses the question of whether it is cost saving or cost effective and whether there is an economics evidence base for health promotion and disease prevention. The need for and interest in preventive care is driven by the imperative to reduce health care costs while improving quality of care and the patient experience. Preventive care can lead to improved health outcomes and cost savings potential. Services such as
+health assessments
+/screenings,
+prenatal care
+, and
+telehealth
+and
+telemedicine
+can reduce morbidity or mortality with low cost or cost savings.
+[
+117
+]
+[
+118
+]
+Specifically, health assessments/screenings have cost savings potential, with varied cost-effectiveness based on screening and assessment type.
+[
+119
+]
+Inadequate prenatal care can lead to an increased risk of prematurity, stillbirth, and infant death.
+[
+120
+]
+Time is the ultimate resource and preventive care can help mitigate the time costs.
+[
+121
+]
+Telehealth and telemedicine is one option that has gained consumer interest, acceptance, and confidence and can improve quality of care and patient satisfaction.
+[
+122
+]
+Economics for investment
+[
+edit
+]
+There are benefits and trade-offs when considering investment in preventive care versus other types of clinical services. Preventive care can be a good investment as supported by the evidence base and can drive population health management objectives.
+[
+13
+]
+[
+118
+]
+The concepts of cost saving and cost-effectiveness are different and both are relevant to preventive care. Preventive care that may not save money may still provide health benefits; thus, there is a need to compare interventions relative to impact on health and cost.
+[
+123
+]
+Preventive care transcends demographics and is applicable to people of every age. The Health Capital Theory underpins the importance of preventive care across the lifecycle and provides a framework for understanding the variances in health and health care that are experienced. It treats health as a stock that provides direct utility. Health depreciates with age and the aging process can be countered through health investments. The theory further supports that individuals demand good health, that the demand for health investment is a derived demand (i.e. investment is health is due to the underlying demand for good health), and the efficiency of the health investment process increases with knowledge (i.e. it is assumed that the more educated are more efficient consumers and producers of health).
+[
+124
+]
+The prevalence elasticity of demand for prevention can also provide insights into the economics. Demand for preventive care can alter the prevalence rate of a given disease and further reduce or even reverse any further growth of prevalence.
+[
+121
+]
+Reduction in prevalence subsequently leads to reduction in costs. There are a number of organizations and policy actions that are relevant when discussing the economics of preventive care services. The evidence base, viewpoints, and policy briefs from  the
+Organisation for Economic Co-operation and Development
+(OECD), the
+Robert Wood Johnson Foundation
+, and efforts by the
+U.S. Preventive Services Task Force
+(USPSTF) all provide examples that improve the health and well-being of populations (e.g. preventive health assessments/screenings, prenatal care, and telehealth/telemedicine). The
+Affordable Care Act
+(ACA) has major influence on the provision of preventive care services. As of 2016 it came under heavy scrutiny and review by the new administration. According to the
+Centers for Disease Control and Prevention
+(CDC), the ACA makes preventive care affordable and accessible through mandatory coverage of preventive services without a deductible, copayment, coinsurance, or other cost sharing.
+[
+125
+]
+The U.S. Preventive Services Task Force (USPSTF), a panel of national experts in prevention and
+evidence-based medicine
+, works to improve health of Americans by making evidence-based recommendations about clinical preventive services.
+[
+126
+]
+They do not consider the cost of a preventive service when determining a recommendation. Each year, the organization delivers a report to Congress that identifies critical evidence gaps in research and recommends priority areas for further review.
+[
+127
+]
+The National Network of Perinatal Quality Collaboratives (NNPQC), sponsored by the CDC, supports state-based perinatal quality collaboratives (PQCs) in measuring and improving upon health care and health outcomes for mothers and babies. These PQCs have contributed to improvements such as reduction in deliveries before 39 weeks, reductions in healthcare associated bloodstream infections, and improvements in the utilization of antenatal corticosteroids.
+[
+128
+]
+Telehealth and telemedicine has realized significant growth and development. The Center for Connected Health Policy (The National Telehealth Policy Resource Center) has produced multiple reports and policy briefs on the topic of Telehealth and Telemedicine and how they contribute to preventive services.
+[
+129
+]
+Policy actions and provision of preventive services do not guarantee utilization. Reimbursement has remained a significant barrier to adoption due to variances in payer and state level reimbursement policies and guidelines through government and commercial payers. Americans use preventive services at about half the recommended rate and cost-sharing, such as deductibles, co-insurance, or copayments, also reduce the likelihood that preventive services will be used.
+[
+125
+]
+Despite the ACA's enhancement of Medicare benefits and preventive services, there were no effects on preventive service utilization, calling out the fact that other fundamental barriers exist.
+[
+130
+]
+Affordable Care Act and preventive healthcare
+[
+edit
+]
+The Patient Protection and Affordable Care Act, also known as just the Affordable Care Act or Obamacare, was passed and became law in the United States on March 23, 2010.
+[
+131
+]
+The finalized and newly ratified law was to address many issues in the U.S. healthcare system, which included expansion of coverage, insurance market reforms, better quality, and the forecast of efficiency and costs.
+[
+132
+]
+Under the insurance market reforms the act required that insurance companies no longer exclude people with pre-existing conditions, allow for children to be covered on their parents' plan until the age of 26, and expand appeals that dealt with reimbursement denials. The Affordable Care Act also banned the limited coverage imposed by health insurances, and insurance companies were to include coverage for preventive health care services.
+[
+133
+]
+The U.S. Preventive Services Task Force has categorized and rated preventive health services as either A or B, as to which insurance companies must comply and present full coverage. Not only has the U.S. Preventive Services Task Force provided graded preventive health services that are appropriate for coverage, they have also provided many recommendations to clinicians and insurers to promote better preventive care to ultimately provide better quality of care and lower the burden of costs.
+[
+134
+]
+Health insurance
+[
+edit
+]
+Healthcare insurance companies are willing to pay for preventive care despite the fact that patients are not acutely sick in hope that it will prevent them from developing a chronic disease later on in life.
+[
+135
+]
+Today, health insurance plans offered through the Marketplace, mandated by the
+Affordable Care Act
+are required to provide certain preventive care services free of charge to patients. Section 2713 of the Affordable Care Act,
+[
+136
+]
+specifies that all private Marketplace and all employer-sponsored private plans (except those grandfathered in) are required to cover preventive care services that are ranked A or B by the U.S. Preventive Services Task Force free of charge to patients.
+[
+137
+]
+[
+138
+]
+UnitedHealthcare insurance company has published patient guidelines at the beginning of the year explaining their preventive care coverage.
+[
+139
+]
+Evaluating incremental benefits
+[
+edit
+]
+Evaluating the incremental benefits of preventive care requires a longer period of time when compared to acutely ill patients. Inputs into the model such as
+discounting
+rate and time horizon can have significant effects on the results. One controversial subject is use of a 10-year time frame to assess cost effectiveness of diabetes preventive services by the US
+Congressional Budget Office
+.
+[
+140
+]
+Preventive care services mainly focus on chronic disease.
+[
+141
+]
+The Congressional Budget Office has provided guidance that further research is needed in the area of the economic impacts of obesity in the U.S. before the CBO can estimate budgetary consequences. A bipartisan report published in May 2015 recognizes the potential of preventive care to improve patients' health at individual and population levels while decreasing the healthcare expenditure.
+[
+142
+]
+Economic case
+[
+edit
+]
+Mortality from modifiable risk factors
+[
+edit
+]
+Chronic diseases such as heart disease, stroke, diabetes, obesity and cancer have become the most common and costly health problems in the United States. In 2014, it was projected that by 2023 the number of chronic disease cases would increase by 42%, resulting in $4.2 trillion in treatment and lost economic output.
+[
+143
+]
+They are also among the top ten leading causes of mortality.
+[
+144
+]
+Chronic diseases are driven by risk factors that are largely preventable. Sub-analysis performed on all deaths in the United States in 2000 revealed that almost half were attributed to preventable behaviors including
+tobacco use
+, poor diet,
+physical inactivity
+and
+alcohol consumption
+.
+[
+5
+]
+More recent analysis reveals that heart disease and cancer alone accounted for nearly 46% of all deaths.
+[
+145
+]
+Modifiable risk factors are also responsible for a large morbidity burden, resulting in poor quality of life in the present and loss of future life earning years. It is further estimated that by 2023, focused efforts on the prevention and treatment of chronic disease may result in 40 million fewer chronic disease cases, potentially reducing treatment costs by $220 billion.
+[
+143
+]
+Childhood vaccinations
+[
+edit
+]
+Childhood immunizations are largely responsible for the increase in life expectancy in the 20th century. From an economic standpoint, childhood vaccines demonstrate a very high
+return on investment
+.
+[
+5
+]
+According to Healthy People 2020, for every birth cohort that receives the routine childhood vaccination schedule, direct health care costs are reduced by $9.9 billion and society saves $33.4 billion in indirect costs.
+[
+146
+]
+The economic benefits of childhood vaccination extend beyond individual patients to insurance plans and vaccine manufacturers, all while improving the health of the population.
+[
+147
+]
+Health capital theory
+[
+edit
+]
+The burden of preventable illness extends beyond the healthcare sector, incurring costs related to lost productivity among workers in the workforce. Indirect costs related to poor health behaviors and associated chronic disease costs U.S. employers billions of dollars each year.
+[
+citation needed
+]
+According to the
+American Diabetes Association
+(ADA),
+[
+148
+]
+medical costs for employees with diabetes are twice as high as for workers without diabetes and are caused by work-related absenteeism ($5 billion), reduced productivity at work ($20.8 billion), inability to work due to illness-related disability ($21.6 billion), and premature mortality ($18.5 billion). Reported estimates of the cost burden due to increasingly high levels of overweight and obese members in the workforce vary,
+[
+149
+]
+with best estimates suggesting 450 million more missed work days, resulting in $153 billion each year in lost productivity, according to the CDC Healthy Workforce.
+[
+150
+]
+The health capital model
+[
+further explanation needed
+]
+explains how individual investments in health can increase earnings by "increasing the number of healthy days available to work and to earn income."
+[
+151
+]
+In this context, health can be treated both as a consumption good, wherein individuals desire health because it improves quality of life in the present, and as an investment good because of its potential to increase attendance and workplace productivity over time. Preventive health behaviors such as healthful diet, regular exercise, access to and use of well-care, avoiding tobacco, and limiting alcohol can be viewed as health inputs that result in both a healthier workforce and substantial cost savings.
+[
+citation needed
+]
+Quality-adjusted life years
+[
+edit
+]
+Health benefits of preventive care measures can be described in terms of
+quality-adjusted life-years
+(QALYs) saved. A QALY takes into account length and quality of life, and is used to evaluate the cost-effectiveness of medical and preventive interventions. Classically, one year of perfect health is defined as 1 QALY and a year with any degree of less than perfect health is assigned a value between 0 and 1 QALY.
+[
+152
+]
+As an economic weighting system, the QALY can be used to inform personal decisions, to evaluate preventive interventions and to set priorities for future preventive efforts.
+[
+citation needed
+]
+Cost-saving and cost-effective benefits of preventive care measures are well established. The Robert Wood Johnson Foundation evaluated the prevention cost-effectiveness literature, and found that many preventive measures meet the benchmark of <$100,000 per QALY and are considered to be favorably cost-effective. These include screenings for HIV and chlamydia, cancers of the colon, breast and cervix, vision screening, and screening for abdominal aortic aneurysms in men >60 in certain populations. Alcohol and tobacco screening were found to be cost-saving in some reviews and cost-effective in others. According to the RWJF analysis, two preventive interventions were found to save costs in all reviews: childhood immunizations and counseling adults on the use of aspirin.
+[
+153
+]
+Minority populations
+[
+edit
+]
+Health disparities are increasing in the United States for chronic diseases such as obesity, diabetes, cancer, and cardiovascular disease. Populations at heightened risk for health inequities are the growing proportion of racial and ethnic minorities, including African Americans, American Indians, Hispanics/Latinos, Asian Americans, Alaska Natives and Pacific Islanders.
+[
+154
+]
+According to the Racial and Ethnic Approaches to Community Health (REACH), a national CDC program, non-Hispanic blacks currently have the highest rates of obesity (48%), and risk of newly diagnosed diabetes is 77% higher among non-Hispanic blacks, 66% higher among Hispanics/Latinos and 18% higher among Asian Americans compared to non-Hispanic whites. Current U.S. population projections predict that more than half of Americans will belong to a minority group by 2044.
+[
+155
+]
+Without targeted preventive interventions, medical costs from chronic disease inequities will become unsustainable. Broadening health policies designed to improve delivery of preventive services for minority populations may help reduce substantial medical costs caused by inequities in health care, resulting in a return on investment.
+[
+citation needed
+]
+Policies
+[
+edit
+]
+See also:
+Health policy
+This section's
+factual accuracy
+may be compromised due to out-of-date information
+.
+Please help update this article to reflect recent events or newly available information.
+(
+January 2026
+)
+Chronic disease
+is a population-level issue that requires population-level efforts and national- and state-level public policy to effectively prevent, rather than individual-level efforts.
+[
+citation needed
+]
+[
+tone
+]
+The United States currently
+[
+as of?
+]
+employs many public health policy efforts aligned with the preventive health efforts discussed above. The Centers for Disease Control and Prevention support initiatives such as Health in All Policies and HI-5 (Health Impact in 5 Years), and collaborative efforts that aim to consider prevention across sectors
+[
+156
+]
+and address social determinants of health as a method of primary prevention for chronic disease.
+[
+157
+]
+Obesity
+[
+edit
+]
+This section
+contains
+instructions or advice
+.
+Wikipedia is not a guidebook; please help
+rewrite such content
+to be encyclopedic or move it to
+Wikiversity
+,
+Wikibooks
+, or
+Wikivoyage
+.
+(
+January 2026
+)
+Policies that address the obesity epidemic should be proactive and far-reaching, including a variety of stakeholders both in healthcare and in other sectors. Recommendations from the Institute of Medicine in 2012 suggest that "concerted action be taken across and within five environments (physical activity (PA), food and beverage, marketing and messaging, healthcare and worksites, and schools) and all sectors of society (including government, business and industry, schools, child care, urban planning, recreation, transportation, media, public health, agriculture, communities, and home) in order for obesity prevention efforts to truly be successful."
+[
+158
+]
+There are dozens of current
+[
+as of?
+]
+policies acting at either (or all of) the federal, state, local and school levels. Most states employ a physical education requirement of 150 minutes of physical education per week at school, a policy of the National Association of Sport and Physical Education. In some cities, including Philadelphia, a sugary food tax is employed. This is a part of an amendment to Title 19 of the Philadelphia Code, "Finance, Taxes and Collections", Chapter 19-4100, Sugar-Sweetened Beverage Tax that was approved 2016, which establishes an excise tax of $0.015 per fluid ounce on distributors of beverages sweetened with both caloric and non-caloric sweeteners.
+[
+159
+]
+Distributors are required to file a return with the department, and the department can collect taxes, among other responsibilities. These policies can be a source of tax credits. Under the Philadelphia policy, businesses can apply for tax credits with the revenue department on a first-come, first-served basis. This applies until the total amount of credits for a particular year reaches one million dollars.
+[
+160
+]
+Recently,
+[
+as of?
+]
+advertisements for food and beverages directed at children have received much attention. The Children's Food and Beverage Advertising Initiative (CFBAI) is a self-regulatory program of the food industry. Each participating company makes a public pledge that details its commitment to advertise only foods that meet certain nutritional criteria to children under 12 years old.
+[
+161
+]
+This is a self-regulated program with policies written by the Council of Better Business Bureaus. The Robert Wood Johnson Foundation funded research
+[
+when?
+]
+to test the efficacy of the CFBAI. The results showed progress in terms of decreased advertising of food products that target children and adolescents.
+[
+162
+]
+Childhood immunization policies
+[
+edit
+]
+This section's
+factual accuracy
+may be compromised due to out-of-date information
+.
+Please help update this article to reflect recent events or newly available information.
+(
+January 2026
+)
+Despite nationwide controversies over childhood vaccination and immunization, there are policies and programs at the federal, state, local and school levels outlining vaccination requirements. All states require children to be vaccinated against certain communicable diseases as a condition for school attendance. However, only 18 states allow exemptions for "philosophical or moral reasons." Diseases for which vaccinations form part of the standard ACIP vaccination schedule are diphtheria tetanus pertussis (whooping cough), poliomyelitis (polio), measles, mumps, rubella, haemophilus influenzae type b, hepatitis B, influenza, and pneumococcal infections.
+[
+163
+]
+The CDC website maintains such schedules.
+[
+164
+]
+The
+CDC
+website describes a federally funded program, Vaccines for Children (VFC), which provides vaccines at no cost to children who might not otherwise be vaccinated because of inability to pay. Additionally, the Advisory Committee on Immunization Practices (ACIP) is an expert vaccination advisory board that informs vaccination policy and guides on-going recommendations to the CDC, incorporating the most up-to-date cost-effectiveness and risk-benefit evidence in its recommendations.
+[
+165
+]
+See also
+[
+edit
+]
+Medicine portal
+Urban green space#Impact on health
+Chemoprevention
+Consumer protection
+Effects of climate change on human health
+Health security
+Genetic modifications preventing diseases
+Epigenetics
+Mental illness prevention
+Pandemic prevention
+Public health
+Pre-exposure prophylaxis
+Preparedness
+Preventive and social medicine
+Primary Health Care
+Pollution prevention (disambiguation)
+Sick building syndrome
+Treatment as prevention
+Journals and organizations
+American Board of Preventive Medicine
+American Journal of Preventive Medicine
+American Osteopathic Board of Preventive Medicine
+Preventive Medicine (journal)
+References
+[
+edit
+]
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Hugh R. Leavell and E. Gurney Clark as "the science and art of preventing disease, prolonging life, and promoting physical and mental health and efficiency. Leavell, H. R., & Clark, E. G. (1979). Preventive Medicine for the Doctor in his Community (3rd ed.). Huntington, NY: Robert E. Krieger Publishing Company.
+1
+2
+"
+"New parents" secure a lifelong well-being for their offspring by refusing to be victims of societal stress during its primal period"
+.
+Primal Prevention
+.
+1
+2
+"Primal Health Research Databank - Glossary"
+.
+primalhealthresearch.com
+. Archived from
+the original
+on 2018-08-15
+. Retrieved
+2021-07-05
+.
+↑
+"Are you up to date on preventative care?"
+.
+Center for Disease Control
+. August 15, 2025
+. Retrieved
+February 11,
+2026
+.
+1
+2
+3
+4
+5
+6
+7
+Mokdad AH, Marks JS, Stroup DF, Gerberding JL (March 2004). "Actual causes of death in the United States, 2000".
+JAMA
+.
+291
+(10):
+1238–
+45.
+doi
+:
+10.1001/jama.291.10.1238
+.
+PMID
+15010446
+.
+1
+2
+"The top 10 causes of death"
+.
+World Health Organization
+. 9 December 2020.
+↑
+LeChelle Saunders, BSc:
+Smoking is Critical to Our Health. Be Smart, Don't Start
+Archived
+2020-11-08 at the
+Wayback Machine
+↑
+Isensee B, Hanewinkel R (November 2018). "[School-based tobacco prevention: the "Be Smart - Don't Start" program]".
+Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz
+.
+61
+(11):
+1446–
+1452.
+doi
+:
+10.1007/s00103-018-2825-9
+.
+PMID
+30276431
+.
+↑
+Thrul J, Bühler A, Herth FJ (2014). "Prevention of teenage smoking through negative information giving, a cluster randomized controlled trial".
+Drugs: Education, Prevention and Policy
+.
+21
+:
+35–
+42.
+doi
+:
+10.3109/09687637.2013.798264
+.
+S2CID
+73102654
+.
+↑
+"
+'Be Smart, Don't Start' campaign launched to deter youths from smoking - The Malta Independent"
+.
+www.independent.com.mt
+. Retrieved
+2021-07-05
+.
+1
+2
+"Medical Encyclopedia: MedlinePlus"
+.
+medlineplus.gov
+. Retrieved
+2021-07-05
+.
+1
+2
+3
+4
+5
+6
+Maciosek MV, Coffield AB, Flottemesch TJ, Edwards NM, Solberg LI (September 2010). "Greater use of preventive services in U.S. health care could save lives at little or no cost".
+Health Affairs
+.
+29
+(9):
+1656–
+60.
+doi
+:
+10.1377/hlthaff.2008.0701
+.
+PMID
+20820022
+.
+1
+2
+3
+4
+5
+Cohen JT, Neumann PJ, Weinstein MC (February 2008).
+"Does preventive care save money? Health economics and the presidential candidates"
+.
+The New England Journal of Medicine
+.
+358
+(7):
+661–
+3.
+doi
+:
+10.1056/nejmp0708558
+.
+PMID
+18272889
+.
+↑
+Goldston, S. E. (Ed.). (1987).
+Concepts of primary prevention: A framework for program development
+. Sacramento, California Department of Mental Health
+↑
+Baker, Sara Josephine. Fighting for Life.1939.
+↑
+Darnell, James,
+RNA, Life's Indispensable Molecule
+, Cold Spring Harbor Laboratory Press, 2011
+1
+2
+Gillman MW (February 2015).
+"Primordial prevention of cardiovascular disease"
+.
+Circulation
+.
+131
+(7):
+599–
+601.
+doi
+:
+10.1161/circulationaha.115.014849
+.
+PMC
+4349501
+.
+PMID
+25605661
+.
+1
+2
+Chiolero A, Paradis G, Paccaud F (October 2015).
+"The pseudo-high-risk prevention strategy"
+.
+International Journal of Epidemiology
+.
+44
+(5):
+1469–
+73.
+doi
+:
+10.1093/ije/dyv102
+.
+PMID
+26071137
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Katz, D., & Ather, A. (2009). Preventive Medicine, Integrative Medicine & The Health of The Public. Commissioned for the IOM Summit on Integrative Medicine and the Health of the Public. Retrieved from
+"Archived copy"
+(PDF)
+. Archived from
+the original
+(PDF)
+on 2010-08-27
+. Retrieved
+2014-03-16
+.
+{{
+cite web
+}}
+:  CS1 maint: archived copy as title (
+link
+)
+1
+2
+Patterson C, Chambers LW (June 1995). "Preventive health care".
+Lancet
+.
+345
+(8965):
+1611–
+5.
+doi
+:
+10.1016/s0140-6736(95)90119-1
+.
+PMID
+7783540
+.
+S2CID
+5463575
+.
+↑
+Gofrit ON, Shemer J, Leibovici D, Modan B, Shapira SC. Quaternary prevention: a new look at an old challenge. Isr Med Assoc J. 2000;2(7):498-500.
+↑
+"Primal Prevention"
+.
+↑
+Perry, Bruce D,
+Maltreated Children: Experience, Brain Development and the Next Generation
+, Norton Professional Books, 1996
+↑
+Gluckman PD, Hanson MA, Cooper C, Thornburg KL (July 2008).
+"Effect of in utero and early-life conditions on adult health and disease"
+.
+The New England Journal of Medicine
+.
+359
+(1):
+61–
+73.
+doi
+:
+10.1056/NEJMra0708473
+.
+PMC
+3923653
+.
+PMID
+18596274
+.
+↑
+Scherrer et al.,
+Systemic and Pulmonary Vascular Dysfunction in Children Conceived by Assisted Reproductive Technologies
+, Swiss Cardiovascular Center, Bern, CH; Facultad de Ciencias, Departamento de Biologia, Tarapaca, Arica, Chile: Hirslander Group, Lausanne, CH; Botnar Center for Extreme Medicine and Department of Internal Medicine, CHUV, Lausanne, CH, and Centre de Procréation Médicalement Assistée, Lausanne, CH, 2012
+↑
+Gollwitzer ES, Marsland BJ (November 2015). "Impact of Early-Life Exposures on Immune Maturation and Susceptibility to Disease".
+Trends in Immunology
+.
+36
+(11):
+684–
+696.
+doi
+:
+10.1016/j.it.2015.09.009
+.
+PMID
+26497259
+.
+↑
+Garcia, Patricia,
+Why Silicon Valley's Paid Leave Policies Need to Go Viral
+, Vogue, culture, opinion, 2015
+↑
+Etzel RA (June 2016). "Children׳s Environmental Health-The Role of Primordial Prevention".
+Current Problems in Pediatric and Adolescent Health Care
+.
+46
+(6):
+202–
+4.
+doi
+:
+10.1016/j.cppeds.2015.12.008
+.
+PMID
+26803401
+.
+↑
+Etzel RA (April 2020).
+"Is the Environment Associated With Preterm Birth?"
+.
+JAMA Network Open
+.
+3
+(4): e202239.
+doi
+:
+10.1001/jamanetworkopen.2020.2239
+.
+PMID
+32259261
+.
+S2CID
+215405527
+.
+↑
+Mechanick JI, Kushner RF, eds. (2016).
+"The Importance of Healthy Living and Defining Lifestyle Medicine"
+.
+Lifestyle Medicine: A Manual for Clinical Practice
+.
+Cham, Switzerland
+:
+Springer Nature
+. pp.
+9–
+15.
+doi
+:
+10.1007/978-3-319-24687-1
+.
+ISBN
+978-3-319-24685-7
+.
+S2CID
+29205050
+.
+↑
+"Food is Prevention: The Case for Integrating Food and Nutrition Interventions into Healthcare"
+(PDF)
+.
+Center for Health Law and Policy Innovation
+. July 2015
+. Retrieved
+May 13,
+2024
+.
+↑
+"VitalSource Bookshelf Online"
+.
+bookshelf.vitalsource.com
+. Retrieved
+2026-01-27
+.
+↑
+Marucs E (2014-04-07).
+"Access to Good Food as Preventive Medicine"
+.
+The Atlantic
+. Atlantic Media Company
+. Retrieved
+11 April
+2015
+.
+↑
+"Food Deserts"
+.
+Food is Power.org
+. Retrieved
+11 April
+2015
+.
+↑
+"GreenThumb"
+.
+NYC Parks
+. Retrieved
+11 April
+2015
+.
+↑
+"It's a Market on a Bus"
+.
+Twin Cities Mobile Market
+. Archived from
+the original
+on 20 November 2015
+. Retrieved
+11 April
+2015
+.
+↑
+Longo, Valter D.; Anderson, Rozalyn M. (28 April 2022).
+"Nutrition, longevity and disease: From molecular mechanisms to interventions"
+.
+Cell
+.
+185
+(9):
+1455–
+1470.
+doi
+:
+10.1016/j.cell.2022.04.002
+.
+ISSN
+0092-8674
+.
+PMC
+9089818
+.
+PMID
+35487190
+.
+↑
+Fan, Sue-Yuan; Khuntia, Sucharita; Ahn, Christine Heera; Zhang, Bing; Tai, Li-Chia (January 2022).
+"Electrochemical Devices to Monitor Ionic Analytes for Healthcare and Industrial Applications"
+.
+Chemosensors
+.
+10
+(1): 22.
+doi
+:
+10.3390/chemosensors10010022
+.
+ISSN
+2227-9040
+.
+↑
+Infection Prevention and Control Guidelines for Anesthesia Care
+(PDF)
+. Park Ridge, Illinois: American Association of Nurse Anesthesiology. 2015. pp.
+3–
+25.
+↑
+Bowdle A, Jelacic S, Shishido S, Munoz-Price LS (November 2020).
+"Infection Prevention Precautions for Routine Anesthesia Care During the SARS-CoV-2 Pandemic"
+.
+Anesthesia and Analgesia
+.
+131
+(5):
+1342–
+1354.
+doi
+:
+10.1213/ANE.0000000000005169
+.
+PMID
+33079853
+.
+S2CID
+224826657
+.
+↑
+Obara S (June 2021).
+"Anesthesiologist behavior and anesthesia machine use in the operating room during the COVID-19 pandemic: awareness and changes to cope with the risk of infection transmission"
+.
+Journal of Anesthesia
+.
+35
+(3):
+351–
+355.
+doi
+:
+10.1007/s00540-020-02846-z
+.
+PMC
+7453066
+.
+PMID
+32856167
+.
+1
+2
+"Skin Cancer Module: Practice Exercises"
+.
+U.S. Centers for Disease Control and Prevention
+. Archived from
+the original
+on 22 February 2012.
+↑
+Jamoulle M. Quaternary prevention, an answer of family doctors to overmedicalization. International Journal of Health Policy and Management. 4-Feb-2015; 4:1–4.
+1
+2
+Lopez AD, Mathers CD, Ezzati M, Jamison DT, Murray CJ (May 2006). "Global and regional burden of disease and risk factors, 2001: systematic analysis of population health data".
+Lancet
+.
+367
+(9524):
+1747–
+57.
+doi
+:
+10.1016/s0140-6736(06)68770-9
+.
+PMID
+16731270
+.
+S2CID
+22609505
+.
+↑
+Fuller, Richard; Landrigan, Philip J;
+Balakrishnan, Kalpana
+; Bathan, Glynda; Bose-O'Reilly, Stephan; Brauer, Michael; Caravanos, Jack; Chiles, Tom; Cohen, Aaron; Corra, Lilian; Cropper, Maureen; Ferraro, Greg; Hanna, Jill; Hanrahan, David; Hu, Howard; Hunter, David; Janata, Gloria; Kupka, Rachael; Lanphear, Bruce; Lichtveld, Maureen; Martin, Keith; Mustapha, Adetoun; Sanchez-Triana, Ernesto; Sandilya, Karti; Schaefli, Laura; Shaw, Joseph; Seddon, Jessica; Suk, William; Téllez-Rojo, Martha María; Yan, Chonghuai (May 2022).
+"Pollution and health: a progress update"
+.
+The Lancet Planetary Health
+.
+6
+(6):
+e535–
+e547.
+doi
+:
+10.1016/S2542-5196(22)00090-0
+.
+PMC
+11995256
+.
+PMID
+35594895
+.
+S2CID
+248905224
+.
+↑
+Lelieveld, Jos; Pozzer, Andrea; Pöschl, Ulrich; Fnais, Mohammed; Haines, Andy; Münzel, Thomas (1 September 2020).
+"Loss of life expectancy from air pollution compared to other risk factors: a worldwide perspective"
+.
+Cardiovascular Research
+.
+116
+(11):
+1910–
+1917.
+doi
+:
+10.1093/cvr/cvaa025
+.
+ISSN
+0008-6363
+.
+PMC
+7449554
+.
+PMID
+32123898
+.
+↑
+Pega F, Náfrádi B, Momen NC, Ujita Y, Streicher KN, Prüss-Üstün AM, et
+al. (September 2021).
+"Global, regional, and national burdens of ischemic heart disease and stroke attributable to exposure to long working hours for 194 countries, 2000-2016: A systematic analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury"
+.
+Environment International
+.
+154
+106595.
+Bibcode
+:
+2021EnInt.15406595P
+.
+doi
+:
+10.1016/j.envint.2021.106595
+.
+PMC
+8204267
+.
+PMID
+34011457
+.
+1
+2
+3
+4
+Liu L, Johnson HL, Cousens S, Perin J, Scott S, Lawn JE, et
+al. (June 2012). "Global, regional, and national causes of child mortality: an updated systematic analysis for 2010 with time trends since 2000".
+Lancet
+.
+379
+(9832):
+2151–
+61.
+doi
+:
+10.1016/s0140-6736(12)60560-1
+.
+PMID
+22579125
+.
+S2CID
+43866899
+.
+1
+2
+3
+Countdown to 2015, decade report (2000–10)—taking stock of maternal, newborn and child survival WHO, Geneva (2010)
+1
+2
+3
+Jones G, Steketee RW, Black RE, Bhutta ZA, Morris SS (July 2003). "How many child deaths can we prevent this year?".
+Lancet
+.
+362
+(9377):
+65–
+71.
+doi
+:
+10.1016/s0140-6736(03)13811-1
+.
+PMID
+12853204
+.
+S2CID
+17908665
+.
+1
+2
+Kumanyika S, Jeffery RW, Morabia A, Ritenbaugh C, Antipatis VJ (March 2002).
+"Obesity prevention: the case for action"
+.
+International Journal of Obesity and Related Metabolic Disorders
+.
+26
+(3):
+425–
+36.
+doi
+:
+10.1038/sj.ijo.0801938
+.
+PMID
+11896500
+.
+S2CID
+1410343
+.
+↑
+"Diabetes Prevention Program (DPP) - NIDDK"
+.
+National Institute of Diabetes and Digestive and Kidney Diseases
+.
+1
+2
+"Prophylactic"
+.
+Merriam-Webster
+. Retrieved
+December 30,
+2018
+.
+↑
+"STD Data and Statistics"
+. 2 August 2021. Archived from
+the original
+on 27 June 2018
+. Retrieved
+10 September
+2017
+.
+↑
+Takken W, Scott TW (1991).
+Ecological Aspects for Application of Genetically Modified Mosquitoes
+. University of California. pp.
+X.
+ISBN
+978-1-4020-1585-4
+.
+{{
+cite book
+}}
+:
+|
+work=
+ignored (
+help
+)
+1
+2
+Vineis P, Wild CP (February 2014). "Global cancer patterns: causes and prevention".
+Lancet
+.
+383
+(9916):
+549–
+57.
+doi
+:
+10.1016/s0140-6736(13)62224-2
+.
+PMID
+24351322
+.
+S2CID
+24822736
+.
+1
+2
+3
+Goodman GE (March 2000). "Prevention of lung cancer".
+Critical Reviews in Oncology/Hematology
+.
+33
+(3):
+187–
+97.
+doi
+:
+10.1016/s1040-8428(99)00074-8
+.
+PMID
+10789492
+.
+1
+2
+3
+4
+Risser NL (November 1996). "Prevention of lung cancer: the key is to stop smoking".
+Seminars in Oncology Nursing
+.
+12
+(4):
+260–
+9.
+doi
+:
+10.1016/S0749-2081(96)80024-6
+.
+PMID
+8936641
+.
+↑
+Koh HK (1996).
+"An analysis of the successful 1992 Massachusetts tobacco tax initiative"
+.
+Tobacco Control
+.
+5
+(3):
+220–
+5.
+doi
+:
+10.1136/tc.5.3.220
+.
+PMC
+1759517
+.
+PMID
+9035358
+.
+1
+2
+3
+Zhang J, Ou JX, Bai CX (November 2011).
+"Tobacco smoking in China: prevalence, disease burden, challenges and future strategies"
+.
+Respirology
+.
+16
+(8):
+1165–
+72.
+doi
+:
+10.1111/j.1440-1843.2011.02062.x
+.
+PMID
+21910781
+.
+S2CID
+29359959
+.
+↑
+Chou CP, Li Y, Unger JB, Xia J, Sun P, Guo Q, et
+al. (April 2006). "A randomized intervention of smoking for adolescents in urban Wuhan, China".
+Preventive Medicine
+.
+42
+(4):
+280–
+5.
+doi
+:
+10.1016/j.ypmed.2006.01.002
+.
+PMID
+16487998
+.
+1
+2
+3
+4
+5
+6
+MMWR. Recommendations and Reports
+: Morbidity and Mortality Weekly Report. Recommendations and Reports / Centers for Disease Control [2002, 51(RR-4):1-18]
+1
+2
+3
+Stanton WR, Janda M, Baade PD, Anderson P (September 2004).
+"Primary prevention of skin cancer: a review of sun protection in Australia and internationally"
+.
+Health Promotion International
+.
+19
+(3):
+369–
+78.
+doi
+:
+10.1093/heapro/dah310
+.
+PMID
+15306621
+.
+↑
+Broadstock M (March 1991). "Sun protection at the cricket".
+The Medical Journal of Australia
+.
+154
+(6): 430.
+doi
+:
+10.5694/j.1326-5377.1991.tb121157.x
+.
+PMID
+2000067
+.
+S2CID
+20079122
+.
+↑
+Pincus MW, Rollings PK, Craft AB, Green A (1991). "Sunscreen use on Queensland beaches".
+The Australasian Journal of Dermatology
+.
+32
+(1):
+21–
+5.
+doi
+:
+10.1111/j.1440-0960.1991.tb00676.x
+.
+PMID
+1930002
+.
+S2CID
+36682427
+.
+↑
+Hill D, White V, Marks R, Theobald T, Borland R, Roy C (September 1992). "Melanoma prevention: behavioral and nonbehavioral factors in sunburn among an Australian urban population".
+Preventive Medicine
+.
+21
+(5):
+654–
+69.
+doi
+:
+10.1016/0091-7435(92)90072-p
+.
+PMID
+1438112
+.
+↑
+Bakos L, Wagner M, Bakos RM, Leite CS, Sperhacke CL, Dzekaniak KS, Gleisner AL (September 2002). "Sunburn, sunscreens, and phenotypes: some risk factors for cutaneous melanoma in southern Brazil".
+International Journal of Dermatology
+.
+41
+(9):
+557–
+62.
+doi
+:
+10.1046/j.1365-4362.2002.01412.x
+.
+PMID
+12358823
+.
+S2CID
+31890013
+.
+1
+2
+Sankaranarayanan R, Budukh AM, Rajkumar R (2001).
+"Effective screening programmes for cervical cancer in low- and middle-income developing countries"
+.
+Bulletin of the World Health Organization
+.
+79
+(10):
+954–
+62.
+PMC
+2566667
+.
+PMID
+11693978
+.
+↑
+World Cancer Report 2014
+. International Agency for Research on Cancer, World Health Organization. 2014.
+ISBN
+978-92-832-0432-9
+.
+↑
+"Cancer"
+. World Health Organization. February 2010
+. Retrieved
+January 5,
+2011
+.
+↑
+Lozano R, Naghavi M, Foreman K, Lim S, Shibuya K, Aboyans V, et
+al. (December 2012).
+"Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010"
+.
+Lancet
+.
+380
+(9859):
+2095–
+128.
+doi
+:
+10.1016/S0140-6736(12)61728-0
+.
+hdl
+:
+10536/DRO/DU:30050819
+.
+PMC
+10790329
+.
+PMID
+23245604
+.
+S2CID
+1541253
+.
+[
+dead link
+]
+↑
+Burke CA, Bianchi LK.
+"Colorectal Neoplasia"
+. Cleveland Clinic. Archived from
+the original
+on October 4, 2018
+. Retrieved
+January 12,
+2015
+.
+↑
+Yuan, Qihang; Liu, Jiahua; et
+al. (March 2025).
+"Deciphering the impact of dietary habits and behavioral patterns on colorectal cancer"
+.
+International Journal of Surgery
+.
+111
+(3): 2603.
+doi
+:
+10.1097/JS9.0000000000002229
+.
+PMID
+39869376
+. Retrieved
+2025-09-25
+.
+1
+2
+3
+4
+Livingston G, Huntley J, Sommerlad A, et
+al. (August 2020).
+"Dementia prevention, intervention, and care: 2020 report of the Lancet Commission"
+.
+Lancet
+.
+396
+(10248):
+413–
+446.
+doi
+:
+10.1016/S0140-6736(20)30367-6
+.
+PMC
+7392084
+.
+PMID
+32738937
+.
+↑
+"Development of a draft global action plan on the public health response to dementia"
+.
+World Health Organization
+. Archived from
+the original
+on 17 October 2016
+. Retrieved
+2017-10-31
+.
+↑
+"International Research Network on Dementia Prevention"
+. Retrieved
+2017-10-31
+.
+↑
+"The Global Dementia Observatory"
+.
+World Health Organization
+. Archived from
+the original
+on 3 February 2017
+. Retrieved
+2017-10-31
+.
+1
+2
+Norton S, Matthews FE, Barnes DE, Yaffe K, Brayne C (August 2014).
+"Potential for primary prevention of Alzheimer's disease: an analysis of population-based data"
+.
+The Lancet. Neurology
+.
+13
+(8):
+788–
+94.
+doi
+:
+10.1016/s1474-4422(14)70136-x
+.
+PMID
+25030513
+.
+S2CID
+206161840
+.
+↑
+"WHO Media centre fact sheets: Dementia. Fact sheet N°362"
+. April 2012
+. Retrieved
+21 January
+2015
+.
+1
+2
+Lourida I, Hannon E, Littlejohns TJ, Langa KM, Hyppönen E, Kuzma E, Llewellyn DJ (July 2019).
+"Association of Lifestyle and Genetic Risk With Incidence of Dementia"
+.
+JAMA
+.
+322
+(5):
+430–
+437.
+doi
+:
+10.1001/jama.2019.9879
+.
+PMC
+6628594
+.
+PMID
+31302669
+.
+↑
+Livingston G, Huntley J, Liu KY, Costafreda SG, Selbæk G, Alladi S, Ames D, Banerjee S, Burns A, Brayne C, Fox NC, Ferri CP, Gitlin LN, Howard R, Kales HC, Kivimäki M, Larson EB, Nakasujja N, Rockwood K, Samus Q, Shirai K, Singh-Manoux A, Schneider LS, Walsh S, Yao Y, Sommerlad A, Mukadam N (August 2024). "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission".
+Lancet
+.
+404
+(10452):
+572–
+628.
+doi
+:
+10.1016/S0140-6736(24)01296-0
+.
+PMID
+39096926
+.
+↑
+Anderer, Samantha (2025).
+"Shingles Vaccine Linked to Lower Dementia Risk"
+.
+JAMA
+.
+333
+(21): 1856.
+doi
+:
+10.1001/jama.2025.5644
+.
+PMID
+40314936
+.
+↑
+Taquet, Maxime; Dercon, Quentin; Todd, John A.; Harrison, Paul J. (2024).
+"The recombinant shingles vaccine is associated with lower risk of dementia"
+.
+Nature Medicine
+.
+30
+(10):
+2777–
+2781.
+doi
+:
+10.1038/s41591-024-03201-5
+.
+PMC
+11485228
+.
+PMID
+39053634
+.
+1
+2
+"Disparities in Healthcare Quality Among Racial and Ethnic Groups: Selected Findings from the 2011 National Healthcare Quality and Disparities Reports. Fact Sheet"
+. Rockville, MD: Agency for Healthcare Research and Quality. September 2012. AHRQ Publication No. 12-0006-1-EF.
+↑
+Carrillo JE, Carrillo VA, Perez HR, Salas-Lopez D, Natale-Pereira A, Byron AT (May 2011). "Defining and targeting health care access barriers".
+Journal of Health Care for the Poor and Underserved
+.
+22
+(2):
+562–
+75.
+doi
+:
+10.1353/hpu.2011.0037
+.
+PMID
+21551934
+.
+S2CID
+42283926
+.
+1
+2
+"WHO
+|
+Fact file on health inequities"
+. Archived from
+the original
+on November 9, 2011.
+↑
+Jacobs B, Ir P, Bigdeli M, Annear PL, Van Damme W (July 2012).
+"Addressing access barriers to health services: an analytical framework for selecting appropriate interventions in low-income Asian countries"
+.
+Health Policy and Planning
+.
+27
+(4):
+288–
+300.
+doi
+:
+10.1093/heapol/czr038
+.
+PMID
+21565939
+.
+↑
+Institute of Medicine (US) Roundtable on Evidence-Based Medicine, Yong PL, Saunders RS, Olsen LA (2010-01-01).
+Missed Prevention Opportunities
+. National Academies Press (US).
+1
+2
+Arenas DJ, Lett LA, Klusaritz H, Teitelman AM (28 December 2017).
+"A Monte Carlo simulation approach for estimating the health and economic impact of interventions provided at a student-run clinic"
+.
+PLOS ONE
+.
+12
+(12) e0189718.
+Bibcode
+:
+2017PLoSO..1289718A
+.
+doi
+:
+10.1371/journal.pone.0189718
+.
+PMC
+5746244
+.
+PMID
+29284026
+.
+↑
+Haninger K, Miller W, Rein D, O'Grady M, Yeung JE, Eichner J, McMahon M (2013),
+A Review and Analysis of Economic Models of Prevention Benefits
+,
+doi
+:
+10.13140/RG.2.1.1225.6803
+↑
+Frist B (May 28, 2015).
+"US Healthcare reform should focus on prevention efforts to cut skyrocketing costs"
+.
+U.S. News & World Report
+. Archived from
+the original
+on 2015-05-28
+. Retrieved
+2016-03-24
+.
+↑
+Dieleman JL, Baral R, Birger M, Bui AL, Bulchis A, Chapin A, et
+al. (December 2016).
+"US Spending on Personal Health Care and Public Health, 1996-2013"
+.
+JAMA
+.
+316
+(24):
+2627–
+2646.
+doi
+:
+10.1001/jama.2016.16885
+.
+PMC
+5551483
+.
+PMID
+28027366
+.
+↑
+Baicker K, Cutler D, Song Z (February 2010). "Workplace wellness programs can generate savings".
+Health Affairs
+.
+29
+(2):
+304–
+11.
+doi
+:
+10.1377/hlthaff.2009.0626
+.
+PMID
+20075081
+.
+↑
+Sudano JJ, Baker DW (January 2003).
+"Intermittent lack of health insurance coverage and use of preventive services"
+.
+American Journal of Public Health
+.
+93
+(1):
+130–
+7.
+doi
+:
+10.2105/AJPH.93.1.130
+.
+PMC
+1447707
+.
+PMID
+12511402
+.
+↑
+"Prevention and Public Health Fund"
+.
+American Public Health Association
+. Retrieved
+2017-03-24
+.
+↑
+(ASPA), Assistant Secretary for Public Affairs (2013-06-10).
+"Preventive Care"
+.
+HHS.gov
+. Retrieved
+2017-03-24
+.
+↑
+Schorr LB (2007).
+Pathway to the Prevention of Child Abuse and Neglect
+(PDF)
+. Harvard University.
+↑
+Gandjour A (March 2009). "Aging diseases--do they prevent preventive health care from saving costs?".
+Health Economics
+.
+18
+(3):
+355–
+62.
+doi
+:
+10.1002/hec.1370
+.
+PMID
+18833543
+.
+↑
+Gandjour A, Lauterbach KW (July 2005). "Does prevention save costs? Considering deferral of the expensive last year of life".
+Journal of Health Economics
+.
+24
+(4):
+715–
+24.
+doi
+:
+10.1016/j.jhealeco.2004.11.009
+.
+PMID
+15960993
+.
+↑
+Fuchs VR (1984).
+"
+"Though much is taken": reflections on aging, health, and medical care"
+(PDF)
+.
+The Milbank Memorial Fund Quarterly. Health and Society
+.
+62
+(2):
+143–
+66.
+doi
+:
+10.2307/3349821
+.
+JSTOR
+3349821
+.
+PMID
+6425716
+.
+S2CID
+25579469
+.
+↑
+Yang Z, Norton EC, Stearns SC (January 2003).
+"Longevity and health care expenditures: the real reasons older people spend more"
+.
+The Journals of Gerontology. Series B, Psychological Sciences and Social Sciences
+.
+58
+(1): S2-10.
+doi
+:
+10.1093/geronb/58.1.S2
+.
+PMID
+12496303
+.
+↑
+"Obesity and the Economics of Prevention | OECD READ edition"
+.
+OECD iLibrary
+. Archived from
+the original
+on 2018-01-28
+. Retrieved
+2017-03-27
+.
+1
+2
+Russell LB (July 1993). "The role of prevention in health reform".
+The New England Journal of Medicine
+.
+329
+(5):
+352–
+4.
+doi
+:
+10.1056/nejm199307293290511
+.
+PMID
+8321264
+.
+1
+2
+Maciosek MV, Coffield AB, Edwards NM, Flottemesch TJ, Goodman MJ, Solberg LI (July 2006). "Priorities among effective clinical preventive services: results of a systematic review and analysis".
+American Journal of Preventive Medicine
+.
+31
+(1):
+52–
+61.
+doi
+:
+10.1016/j.amepre.2006.03.012
+.
+PMID
+16777543
+.
+↑
+Weinstein MC, Stason WB. "Hypertension: a policy perspective. Cambridge, Mass.: Harvard University Press, 1976.
+↑
+Weinstein MC, Stason WB (March 1978). "Economic considerations in the management of mild hypertension".
+Annals of the New York Academy of Sciences
+.
+304
+(1):
+424–
+40.
+Bibcode
+:
+1978NYASA.304..424W
+.
+doi
+:
+10.1111/j.1749-6632.1978.tb25625.x
+.
+PMID
+101118
+.
+S2CID
+46598377
+.
+↑
+Taylor WC, Pass TM, Shepard DS, Komaroff AL. Cost effectiveness of cholesterol reduction for the primary prevention of coronary heart disease in men. In: Goldbloom RB, Lawrence RS, eds. Preventing disease: beyond the rhetoric. New York: Springer-Verlag, 1990:437-41.
+↑
+Goldman L, Weinstein MC, Goldman PA, Williams LW (March 1991). "Cost-effectiveness of HMG-CoA reductase inhibition for primary and secondary prevention of coronary heart disease".
+JAMA
+.
+265
+(9):
+1145–
+51.
+doi
+:
+10.1001/jama.265.9.1145
+.
+PMID
+1899896
+.
+↑
+The Diabetes Prevention Program Research Group (April 2012).
+"The 10-year cost-effectiveness of lifestyle intervention or metformin for diabetes prevention: an intent-to-treat analysis of the DPP/DPPOS"
+.
+Diabetes Care
+.
+35
+(4):
+723–
+30.
+doi
+:
+10.2337/dc11-1468
+.
+PMC
+3308273
+.
+PMID
+22442395
+.
+1
+2
+Gortmaker SL, Long MW, Resch SC, Ward ZJ, Cradock AL, Barrett JL, et
+al. (July 2015).
+"Cost Effectiveness of Childhood Obesity Interventions: Evidence and Methods for CHOICES"
+.
+American Journal of Preventive Medicine
+.
+49
+(1):
+102–
+11.
+doi
+:
+10.1016/j.amepre.2015.03.032
+.
+PMC
+9508900
+.
+PMID
+26094231
+.
+1
+2
+Barrett JL, Gortmaker SL, Long MW, Ward ZJ, Resch SC, Moodie ML, et
+al. (July 2015). "Cost Effectiveness of an Elementary School Active Physical Education Policy".
+American Journal of Preventive Medicine
+.
+49
+(1):
+148–
+59.
+doi
+:
+10.1016/j.amepre.2015.02.005
+.
+PMID
+26094235
+.
+↑
+Wright DR, Kenney EL, Giles CM, Long MW, Ward ZJ, Resch SC, et
+al. (July 2015). "Modeling the Cost Effectiveness of Child Care Policy Changes in the U.S".
+American Journal of Preventive Medicine
+.
+49
+(1):
+135–
+47.
+doi
+:
+10.1016/j.amepre.2015.03.016
+.
+PMID
+26094234
+.
+↑
+Black N, Johnston DW, Peeters A (September 2015). "Childhood Obesity and Cognitive Achievement".
+Health Economics
+.
+24
+(9):
+1082–
+100.
+doi
+:
+10.1002/hec.3211
+.
+PMID
+26123250
+.
+↑
+Schmeiser MD (April 2012). "The impact of long-term participation in the supplemental nutrition assistance program on child obesity".
+Health Economics
+.
+21
+(4):
+386–
+404.
+doi
+:
+10.1002/hec.1714
+.
+PMID
+21305645
+.
+↑
+Serdula MK, Ivery D, Coates RJ, Freedman DS, Williamson DF, Byers T (March 1993). "Do obese children become obese adults? A review of the literature".
+Preventive Medicine
+.
+22
+(2):
+167–
+77.
+doi
+:
+10.1006/pmed.1993.1014
+.
+PMID
+8483856
+.
+↑
+Cohen J.
+"The cost savings and cost-effectiveness of clinical preventative
+[
+sic
+]
+care. Robert Wood Johnson Foundation"
+.
+The Synthesis Project
+. Robert Wood Johnson Foundation
+. Retrieved
+March 24,
+2016
+.
+↑
+"Promoting health, preventing disease: Is there an economic case?"
+. 2013.
+1
+2
+Merkur S, Sassi F, McDaid D (June 2015).
+Promoting health, preventing disease: the economic case
+. McGraw-Hill Education.
+ISBN
+978-0-335-26226-7
+.
+OCLC
+973090310
+.
+↑
+Hackl F, Halla M, Hummer M, Pruckner GJ (August 2015).
+"The Effectiveness of Health Screening"
+(PDF)
+.
+Health Economics
+.
+24
+(8):
+913–
+35.
+doi
+:
+10.1002/hec.3072
+.
+hdl
+:
+10419/115079
+.
+PMID
+25044494
+.
+S2CID
+2618931
+.
+↑
+Partridge S, Balayla J, Holcroft CA, Abenhaim HA (November 2012). "Inadequate prenatal care utilization and risks of infant mortality and poor birth outcome: a retrospective analysis of 28,729,765 U.S. deliveries over 8 years".
+American Journal of Perinatology
+.
+29
+(10):
+787–
+93.
+doi
+:
+10.1055/s-0032-1316439
+.
+PMID
+22836820
+.
+S2CID
+25060507
+.
+1
+2
+Folland, S., Goodman, A., & Stano, M. (2013). The economics of health and health care. (7th ed.). Upper Saddle River: Pearson Education.
+↑
+Cantor, Amy G.; Jungbauer, Rebecca M.; Totten, Annette M.; Tilden, Ellen L.; Holmes, Rebecca; Ahmed, Azrah; Wagner, Jesse; Hermesch, Amy C.; McDonagh, Marian S. (2022).
+"Telehealth Strategies for the Delivery of Maternal Health Care: A Rapid Review"
+.
+Annals of Internal Medicine
+.
+175
+(9):
+1285–
+1297.
+doi
+:
+10.7326/M22-0737
+.
+ISSN
+0003-4819
+.
+PMID
+35878405
+.
+S2CID
+251067668
+.
+↑
+Robert Wood Johnson Foundation. (2009). The cost savings and cost-effectiveness of clinical preventive care.
+The Synthesis Project: New Insights from Research Results.
+Research Synthesis Report No. 18.
+↑
+Galama TJ, van Kippersluis H (2013). "Health Inequalities through the Lens of Health-Capital Theory: Issues, Solutions, and Future Directions".
+Health Inequalities through the Lens of Health Capital Theory: Issues, Solutions, and Future Directions
+. Research on Economic Inequality. Vol.
+21. pp.
+263–
+284.
+doi
+:
+10.1108/S1049-2585(2013)0000021013
+.
+ISBN
+978-1-78190-553-1
+.
+PMC
+3932058
+.
+PMID
+24570580
+.
+1
+2
+"Preventive Health Care: What is the Problem"
+.
+U.S. Centers for Disease Control and Prevention
+. Archived from
+the original
+on 10 January 2016.
+↑
+"A and B Recommendations | United States Preventive Services Taskforce"
+.
+www.uspreventiveservicestaskforce.org
+. Retrieved
+2021-07-05
+.
+↑
+"U.S. Preventive Services Task Force - Annual Reports"
+.
+U.S. Preventive Services Task Force (USPSTF)
+. Archived from
+the original
+on 10 March 2016.
+↑
+"Perinatal Quality Collaboratives | Perinatal | Reproductive Health | CDC"
+.
+www.cdc.gov
+. 2021-05-07
+. Retrieved
+2021-07-05
+.
+↑
+"Reports and Policy Briefs"
+.
+Center for Connected Health Policy (CCHP)
+. Archived from
+the original
+on 3 August 2017.
+↑
+Jensen GA, Salloum RG, Hu J, Ferdows NB, Tarraf W (July 2015). "A slow start: Use of preventive services among seniors following the Affordable Care Act's enhancement of Medicare benefits in the U.S".
+Preventive Medicine
+.
+76
+:
+37–
+42.
+doi
+:
+10.1016/j.ypmed.2015.03.023
+.
+PMID
+25895838
+.
+↑
+Fein O (September 2010). "Keep the single payer vision".
+Medical Care
+.
+48
+(9):
+759–
+60.
+doi
+:
+10.1097/mlr.0b013e3181f28be4
+.
+JSTOR
+25750554
+.
+PMID
+20716995
+.
+↑
+Harrington SE (1 January 2010). "U. S. Health-care Reform: The Patient Protection and Affordable Care Act".
+The Journal of Risk and Insurance
+.
+77
+(3):
+703–
+708.
+doi
+:
+10.1111/j.1539-6975.2010.01371.x
+.
+JSTOR
+40783701
+.
+S2CID
+154189813
+.
+↑
+Rosenbaum S (1 January 2011).
+"The Patient Protection and Affordable Care Act: implications for public health policy and practice"
+.
+Public Health Reports
+.
+126
+(1):
+130–
+5.
+doi
+:
+10.1177/003335491112600118
+.
+JSTOR
+41639332
+.
+PMC
+3001814
+.
+PMID
+21337939
+.
+↑
+Centers for Disease Control Prevention (October 2011). "Health plan implementation of U.S. Preventive Services Task Force A and B recommendations--Colorado, 2010".
+MMWR. Morbidity and Mortality Weekly Report
+.
+60
+(39):
+1348–
+50.
+JSTOR
+23320884
+.
+PMID
+21976117
+.
+↑
+Folland S (2010).
+The economics of health and health care
+. Upper Saddle River: Pearson Education.
+↑
+"Affordable Care Act Implementation FAQs - Set 12 | CMS"
+.
+www.cms.gov
+. Retrieved
+2021-07-05
+.
+↑
+"ACA: Preventive Care Coverage Requirements—Compliancedashboard: Interactive Web-Based Compliance Tool"
+.
+complianceadministrators.com
+. Archived from
+the original
+on 2021-03-03
+. Retrieved
+2016-03-25
+.
+↑
+"Preventive Services Covered by Private Health Plans under the Affordable Care Act"
+.
+kff.org
+. 2015-08-04
+. Retrieved
+2016-03-25
+.
+↑
+"Preventative
+[
+sic
+]
+care services"
+.
+UnitedHealthcare
+. Retrieved
+March 23,
+2016
+.
+↑
+O'Grady M.
+"Health-Care Cost Projections for Diabetes and other Chronic Diseases: The Current Context and Potential Enhancement"
+(PDF)
+.
+Fight Chronic Disease
+. Retrieved
+March 24,
+2016
+.
+↑
+"Estimating the Effects of Federal Policies Targeting Obesity: Challenges and Research Needs"
+.
+Congressional Budget Office
+. 26 October 2015
+. Retrieved
+2016-03-25
+.
+↑
+"A prevention prescription for improving health and health care in America"
+(PDF)
+.
+Bipartisan policy center
+. Archived from
+the original
+(PDF)
+on September 16, 2015
+. Retrieved
+March 24,
+2016
+.
+1
+2
+Chatterjee A, Kubendran S, King J, DeVol R (February 2014).
+"Chronic Disease and Wellness in America"
+(PDF)
+.
+Milken Institute
+. Archived from
+the original
+(PDF)
+on 28 February 2017.
+↑
+"CDC National Health Report Highlights"
+(PDF)
+.
+U.S. Centers for Disease Control and Prevention
+.
+↑
+"Chronic Diseases and Health Promotion"
+.
+U.S. Centers for Disease Control and Prevention
+. Archived from
+the original
+on 2 March 2014.
+↑
+"Immunization and Infectious Diseases | Healthy People 2020"
+.
+www.healthypeople.gov
+. Archived from
+the original
+on 2021-04-18
+. Retrieved
+2021-07-05
+.
+↑
+Jit M, Hutubessy R, Png ME, Sundaram N, Audimulam J, Salim S, Yoong J (September 2015).
+"The broader economic impact of vaccination: reviewing and appraising the strength of evidence"
+.
+BMC Medicine
+.
+13
+(1) 209.
+doi
+:
+10.1186/s12916-015-0446-9
+.
+PMC
+4558933
+.
+PMID
+26335923
+.
+↑
+American Diabetes Association (April 2013).
+"Economic costs of diabetes in the U.S. in 2012"
+.
+Diabetes Care
+.
+36
+(4):
+1033–
+46.
+doi
+:
+10.2337/dc12-2625
+.
+PMC
+3609540
+.
+PMID
+23468086
+.
+↑
+Goettler A, Grosse A, Sonntag D (October 2017).
+"Productivity loss due to overweight and obesity: a systematic review of indirect costs"
+.
+BMJ Open
+.
+7
+(10) e014632.
+doi
+:
+10.1136/bmjopen-2016-014632
+.
+PMC
+5640019
+.
+PMID
+28982806
+.
+↑
+"Business Pulse Series | CDC Foundation"
+.
+www.cdcfoundation.org
+. Retrieved
+2021-07-05
+.
+↑
+Folland, S., Goodman, A.C., & Stano, M. (2016). Demand for Health Capital. The Economics of Health and Healthcare, 7th ed. (p. 130). New York, NY: Routledge.
+↑
+Neumann PJ, Cohen JT (September 2009).
+"Cost savings and cost-effectiveness of clinical preventive care"
+.
+The Synthesis Project. Research Synthesis Report
+(18).
+PMID
+22052182
+.
+↑
+"Cost Savings and Cost-Effectiveness of Clinical Preventive Care"
+.
+RWJF
+. 2009-09-01. Archived from
+the original
+on 2021-07-29
+. Retrieved
+2021-07-05
+.
+↑
+"The Economic Case for Health Equity"
+.
+Association of State and Territorial Health Officials
+. Arlington, VA.
+↑
+Colby SL, Ortman JM (March 2015).
+"Projections of the Size and Composition of the U.S. Population: 2014–2060"
+(PDF)
+.
+Current Population Reports
+. United States Census Bureau. pp.
+25–
+1143
+. Retrieved
+5 July
+2021
+.
+↑
+"Health in All Policies | AD for Policy and Strategy | CDC"
+.
+www.cdc.gov
+. 2019-06-18. Archived from
+the original
+on 2021-05-10
+. Retrieved
+2021-07-05
+.
+↑
+"Health Impact in 5 Years | Health System Transformation | AD for Policy | CDC"
+.
+www.cdc.gov
+. 2019-07-01. Archived from
+the original
+on 2021-04-16
+. Retrieved
+2021-07-05
+.
+↑
+Chriqui JF (September 2013).
+"Obesity Prevention Policies in U.S. States and Localities: Lessons from the Field"
+.
+Current Obesity Reports
+.
+2
+(3):
+200–
+210.
+doi
+:
+10.1007/s13679-013-0063-x
+.
+PMC
+3916087
+.
+PMID
+24511455
+.
+↑
+"Chapter 19-4100. Sugar-Sweetened Beverage Tax"
+(PDF)
+.
+City of Philadelphia
+.
+↑
+smithaa02 (2017-11-13).
+"Philadelphia, Penn., Code tit Chapter 19-4100 (current through Nov. 7, 2017)"
+.
+Healthy Food Policy Project
+. Retrieved
+2021-07-05
+.
+{{
+cite web
+}}
+:  CS1 maint: numeric names: authors list (
+link
+)
+↑
+"Children's Food & Beverage Advertising Initiative"
+.
+BBBPrograms
+. Retrieved
+2021-07-05
+.
+↑
+"Trends in Television Food Advertising to Young People: 2016 Update"
+(PDF)
+.
+Rudd Center for Obesity Food Policy
+. University of Connecticut. June 2017.
+↑
+"State Mandates on Immunization and Vaccine-Preventable Diseases"
+.
+www.immunize.org
+. Retrieved
+2021-07-05
+.
+↑
+"Birth-18 Years Immunization Schedule | CDC"
+.
+www.cdc.gov
+. 2021-06-16. Archived from
+the original
+on 2016-03-06
+. Retrieved
+2021-07-05
+.
+↑
+"Advisory Committee on Immunization Practices (ACIP) | CDC"
+.
+www.cdc.gov
+. 2021-07-01. Archived from
+the original
+on 2021-05-21
+. Retrieved
+2021-07-05
+.
+External links
+[
+edit
+]
+United States Preventive Services Task Force (USPSTF)
+Canadian Task Force on Preventive Health Care (CTFPHC)
+European Centre for Disease Prevention and Control (ECDC)
+Hu, Frank; Cheung, Lilian; Otis, Brett; Oliveira, Nancy; Musicus, Aviva, eds. (19 January 2021).
+"The Nutrition Source – Healthy Living Guide 2020/2021: A Digest on Healthy Eating and Healthy Living"
+.
+www.hsph.harvard.edu
+.
+Boston
+: Department of Nutrition at the
+Harvard T.H. Chan School of Public Health
+.
+Archived
+from the original on 5 October 2021
+. Retrieved
+11 October
+2021
+.
+v
+t
+e
+Health care
+Economics
+Equipment
+Fraud
+Guidelines
+Industry
+Philosophy
+Policy
+Providers
+Public health
+Ranking
+Reform
+System
+Professions
+Medicine
+Nursing
+Pharmacy
+Healthcare science
+Dentistry
+Allied health professions
+Health information management
+Settings
+Assisted living
+Clinic
+Hospital
+Hospital-at-home
+Nursing home
+Medical school
+(
+Academic health science centre
+,
+Teaching hospital
+)
+Pharmacy school
+Supervised injection site
+Care
+Acute
+Chronic
+End-of-life
+Hospice
+Overutilization
+Palliative
+Primary
+Self
+Total
+Skills / training
+Bedside manner
+Cultural competence
+Diagnosis
+Education
+Medical student
+Universal precautions
+Technology
+3D bioprinting
+Artificial intelligence
+Connected health
+Digital health
+Electronic health records
+mHealth
+Nanomedicine
+Telemedicine
+Health informatics
+Medical image computing
+and
+imaging informatics
+Artificial intelligence in healthcare
+Neuroinformatics
+in healthcare
+Behavior informatics
+in healthcare
+Computational biology
+in healthcare
+Translational bioinformatics
+Translational medicine
+health information technology
+Telemedicine
+Public health informatics
+Health information management
+Consumer health informatics
+By country
+United States
+history
+reform debate
+United Kingdom
+Canada
+Australia
+New Zealand
+Category
+v
+t
+e
+Public health
+General
+Auxology
+Biological hazard
+Chief medical officer
+Climate change
+Cultural competence
+Deviance
+Environmental health
+Eugenics
+History of
+Liberal
+Euthenics
+Genomics
+Globalization and disease
+Harm reduction
+Health economics
+Health literacy
+Health policy
+Health system
+Health care reform
+Housing First
+Human right to water and sanitation
+Management of depression
+Public health law
+National public health institute
+Health politics
+Labor rights
+Maternal health
+Medical anthropology
+Medical sociology
+Mental health
+(
+Ministers
+)
+Occupational safety and health
+Pharmaceutical policy
+Pollution
+Air
+Water
+Soil
+Radiation
+Light
+Prisoners' rights
+Public health intervention
+Public health laboratory
+Right to food
+Right to health
+Right to a healthy environment
+Right to housing
+Right to rest and leisure
+Right to sit
+Security of person
+Sexual and reproductive health
+Social psychology
+Sociology of health and illness
+Unisex changing rooms
+Unisex public toilets
+Workers' right to access the toilet
+Preventive healthcare
+Behavior change
+Theories
+Drug checking
+Family planning
+Harm reduction
+Health promotion
+Human nutrition
+Healthy diet
+Preventive nutrition
+Hygiene
+Food safety
+Hand washing
+Infection control
+Oral hygiene
+Needle and syringe programmes
+Occupational safety and health
+Human factors and ergonomics
+Hygiene
+Controlled Drugs
+Injury prevention
+Medicine
+Nursing
+Patient safety
+Organization
+Pharmacovigilance
+Reagent testing
+Safe sex
+Sanitation
+Emergency
+Fecal–oral transmission
+Open defecation
+Sanitary sewer
+Waterborne diseases
+Worker
+School hygiene
+Smoking cessation
+Supervised injection site
+Vaccination
+Vector control
+Population health
+Adult mortality
+Biostatistics
+Child mortality
+Community health
+Epidemiology
+Global health
+Health impact assessment
+Health system
+Infant mortality
+Open-source healthcare software
+Multimorbidity
+Public health informatics
+Social determinants of health
+Commercial determinants of health
+Health equity
+Race and health
+Social medicine
+Biological and
+epidemiological statistics
+Case–control study
+Randomized controlled trial
+Relative risk
+Statistical hypothesis testing
+Analysis of variance (ANOVA)
+Regression analysis
+ROC curve
+Student's
+t
+-test
+Z
+-test
+Statistical software
+Infectious and epidemic
+disease prevention
+Asymptomatic carrier
+Epidemics
+List
+Notifiable diseases
+List
+Public health surveillance
+Disease surveillance
+Quarantine
+Sexually transmitted infection
+Social distancing
+Tropical disease
+Vaccine trial
+WASH
+Food hygiene and
+safety management
+Food
+Additive
+Chemistry
+Engineering
+Microbiology
+Processing
+Safety
+Safety scandals
+Good agricultural practice
+Good manufacturing practice
+HACCP
+ISO 22000
+Health behavioral
+sciences
+Diffusion of innovations
+Health belief model
+Health communication
+Health psychology
+Positive deviance
+PRECEDE–PROCEED model
+Social cognitive theory
+Social norms approach
+Theory of planned behavior
+Transtheoretical model
+Organizations,
+education
+and history
+Organizations
+Caribbean
+Caribbean Public Health Agency
+China
+Center for Disease Control and Prevention
+Europe
+Centre for Disease Prevention and Control
+Committee on the Environment, Public Health and Food Safety
+Russia
+Rospotrebnadzor
+India
+Ministry of Health and Family Welfare
+Canada
+Health Canada
+Public Health Agency
+U.S.
+Centers for Disease Control and Prevention
+Health departments in the United States
+Council on Education for Public Health
+Public Health Service
+World Health Organization
+World Toilet Organization
+(
+Full list
+)
+Education
+Health education
+Higher education
+Bachelor of Science in Public Health
+Doctor of Public Health
+Professional degrees of public health
+Schools of public health
+History
+History of public health in the United Kingdom
+History of public health in the United States
+History of public health in Australia
+Sara Josephine Baker
+Samuel Jay Crumbine
+Carl Rogers Darnall
+Joseph Lister
+Margaret Sanger
+John Snow
+Typhoid Mary
+Radium Girls
+Germ theory of disease
+Social hygiene movement
+Category
+Commons
+WikiProject
+v
+t
+e
+Medicine
+Specialties
+and
+subspecialties
+Surgery
+Cardiac surgery
+Cardiothoracic surgery
+Endocrine surgery
+Eye surgery
+General surgery
+Colorectal surgery
+Digestive system surgery
+Hand surgery
+Neurosurgery
+Ophthalmology
+Oral and maxillofacial surgery
+Orthopedic surgery
+Otolaryngology
+ENT
+Pediatric surgery
+Plastic surgery
+Reproductive surgery
+Surgical oncology
+Transplant surgery
+Trauma surgery
+Urology
+Andrology
+Vascular surgery
+Internal
+medicine
+Allergy
+/
+Immunology
+Angiology
+Cardiology
+Interventional
+Endocrinology
+Gastroenterology
+Hepatology
+Geriatrics
+Hematology
+Hospital medicine
+Infectious diseases
+Nephrology
+Oncology
+Molecular oncology
+Pulmonology
+Rheumatology
+Obstetrics and
+gynaecology
+Gynaecology
+Gynecologic oncology
+Maternal–fetal medicine
+Obstetrics
+Reproductive endocrinology and infertility
+Urogynecology
+Diagnostic
+Pathology
+Anatomical
+Clinical pathology
+Clinical chemistry
+Cytopathology
+Medical microbiology
+Transfusion medicine
+Radiology
+Interventional radiology
+Neuroradiology
+Nuclear medicine
+Common
+Anesthesiology
+Obstetric anesthesiology
+Neurosurgical anesthesiology
+Dermatology
+Emergency medicine
+Mass gathering medicine
+Family medicine
+/
+General practice
+Hospital medicine
+Intensive care medicine
+Medical genetics
+Neurology
+Clinical neurophysiology
+Oral medicine
+Palliative care
+Pediatrics
+Neonatology
+Physical medicine and rehabilitation
+(PM&R)
+Preventive medicine
+Psychiatry
+Addiction psychiatry
+Neuropsychiatry
+Radiation oncology
+Transplantation medicine
+Other
+Addiction medicine
+Adolescent medicine
+Aviation medicine
+Disaster medicine
+Diving medicine
+Evolutionary medicine
+Expedition medicine
+Narcology
+Occupational medicine
+Pain management
+Phlebology
+Prison healthcare
+Reproductive medicine
+Sexual medicine
+Venereology
+Sleep medicine
+Sports medicine
+Tropical medicine
+Travel medicine
+Medical
+education
+Bachelor of Medicine, Bachelor of Surgery
+Bachelor of Medical Sciences
+Doctor of Medicine
+Doctor of Osteopathic Medicine
+Master of Medicine
+Master of Surgery
+Medical school
+Medical student
+MD–PhD
+Medical Scientist Training Program
+Related topics
+Allied health
+History of medicine
+Medical terminology
+Nanomedicine
+Personalized medicine
+Public health
+Rural health
+Therapy
+Veterinary medicine
+Physician
+Category
+Commons
+Wikiproject
+Portal
+Outline
+v
+t
+e
+Nursing
+Levels of
+practice
+Generalists
+Student nurse
+Clinical nurse leader
+Licensed practical nurse
+Registered nurse
+Graduate nurse
+Nurse scientist
+Advanced practice
+APNs by role
+Clinical nurse specialist
+Nurse anesthetist
+Nurse midwife
+Nurse practitioner
+NPs by population
+Family
+Adult-gerontology
+Pediatrics
+Women's health
+Neonatal
+Psych/mental health
+Education
+and
+licensure
+Nightingale Pledge
+Associate of Science in Nursing
+Bachelor of Science in Nursing
+Diploma in Nursing
+Doctor of Nursing Practice
+Master of Science in Nursing
+Board of nursing
+Nurse Licensure Compact
+Nursing credentials and certifications
+Nurse education
+Nurse registry
+NCLEX
+TEAS
+Specialties and
+areas of
+practice
+Ambulatory care
+Cardiac
+Correctional nursing
+Critical care
+Dental
+Education
+Emergency
+Faith community
+Flight
+Forensic
+Geriatrics
+Holistic
+Home health
+Hyperbaric
+Legal consultation
+Management
+Matron
+Medical-surgical
+Midwifery
+Women's Health Care Nurse
+Military
+Neonatal
+Nursing informatics
+Obstetrics
+Occupational health
+Oncology
+Orthopedics
+Pediatrics
+Perianesthesia
+Perioperative
+Psychiatric and mental health
+Private duty
+Public health
+School
+Space
+Surgical
+Telenursing
+Travel health nursing
+WOCN
+Nursing process
+Nursing assessment
+Nursing diagnosis
+Nursing care plan
+Nursing theory
+Caregiver burden
+Classification
+systems
+NANDA
+Nursing Interventions Classification
+Nursing Minimum Data Set (NMDS)
+Nursing Outcomes Classification
+By country
+International Nurses Day
+Australia
+(
+timeline
+)
+Canada
+Germany
+Hong Kong
+India
+Iran
+Japan
+Kenya
+New Zealand
+(
+timeline
+)
+Pakistan
+Philippines
+Republic of Ireland
+South Africa
+Spain
+Taiwan
+United Kingdom
+(
+history
+)
+United States
+(
+history
+)
+Category
+Commons
+WikiProject
+Authority control databases
+International
+GND
+National
+United States
+France
+BnF data
+Japan
+Czech Republic
+2
+3
+Spain
+Latvia
+Israel
+Other
+NARA
+Yale LUX
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Preventive_healthcare&oldid=1354323173
+"
+Categories
+:
+Medical terminology
+Preventive medicine
+Nursing specialties
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Articles with limited geographic scope from March 2023
+Webarchive template wayback links
+CS1 maint: archived copy as title
+All articles with unsourced statements
+Articles with unsourced statements from June 2022
+Wikipedia articles in need of updating from February 2025
+All Wikipedia articles in need of updating
+CS1 errors: periodical ignored
+Articles with unsourced statements from July 2021
+All articles with vague or ambiguous time
+Vague or ambiguous time from January 2023
+All articles with dead external links
+Articles with dead external links from January 2026
+Articles with excerpts
+Wikipedia articles needing clarification from September 2025
+Articles with obsolete information from January 2026
+Articles with unsourced statements from January 2026
+Wikipedia articles with style issues from January 2026
+All articles with style issues
+Vague or ambiguous time from January 2026
+Articles needing cleanup from January 2026
+All pages needing cleanup
+Articles containing how-to sections
+CS1 maint: numeric names: authors list
+Search
+Search
+Preventive healthcare
+40 languages
+Add topic

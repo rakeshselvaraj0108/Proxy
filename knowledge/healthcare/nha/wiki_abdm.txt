@@ -1,0 +1,149 @@
+Ayushman Bharat Digital Mission - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Government agency in India
+The
+Ayushman Bharat Digital Mission (ABDM)
+is implemented by the
+National Health Authority
+(NHA)
+an
+agency of the Government of India
+.
+[
+1
+]
+[
+2
+]
+The ABDM aims to develop the backbone necessary to support the integrated digital health infrastructure of the country. It bridges the existing gap amongst different stakeholders of Healthcare ecosystem through digital highways.
+[
+3
+]
+The Mission aims to create an integrated healthcare system that will link practitioners and patients digitally by giving them access to real-time health records. This will promote prompt and structured healthcare across the country
+[
+4
+]
+leading to the creation of a national digital health ecosystem that supports universal health coverage in an efficient, accessible, inclusive, affordable, timely and safe manner.
+[
+5
+]
+To achieve this objective, digital building blocks in the form of
+digital public goods
+in
+federated architecture
+are being commissioned. These are based on a wide range of data, information and infrastructure services, duly leveraging open, interoperable, standards-based digital systems that will ensure security, confidentiality and privacy of health-related personal information.
+[
+6
+]
+The program aligns with other government programs, including the
+Aadhaar
+identification program and the
+Ayushman Bharat Yojana
+healthcare program.
+[
+7
+]
+Responses
+[
+edit
+]
+Forbes
+remarked that because of the large population of
+India
+any precedent for data management in the NDHM (now renamed as ABDM) would establish a model for other national health programs to study.
+[
+7
+]
+Commentators for
+The Ken
+criticized the announcement of the program for being very expensive with no publicly stated plan for either allocating money to achieve it nor for sustainably funding it in the longer term.
+[
+8
+]
+See also
+[
+edit
+]
+National Health Claims Exchange
+References
+[
+edit
+]
+↑
+"Press Information Bureau"
+.
+www.pib.gov.in
+. Retrieved
+2022-08-12
+.
+↑
+"Government of India press release of ABDM launch"
+(PDF)
+.
+↑
+"NDHM"
+.
+↑
+Mantri, Manisha; Sunder, Gaur; Kadam, Sanjay; Abhyankar, Aditya (2024-04-11).
+"A perspective on digital health platform design and its implementation at national level"
+.
+Frontiers in Digital Health
+.
+6
+1260855.
+doi
+:
+10.3389/fdgth.2024.1260855
+.
+ISSN
+2673-253X
+.
+PMC
+11043488
+.
+PMID
+38665619
+.
+↑
+"FHIR Implementation Guide for Ayushman Bharat Digital Mission"
+.
+↑
+"NHA
+|
+Official website Ayushman Bharat Digital Mission"
+.
+1
+2
+Dans, Enrique (17 August 2020).
+"How India's National Digital Health Mission Is Set To Revolutionize Healthcare"
+.
+Forbes
+.
+↑
+Singh, Seema; Porecha, Maitri (22 September 2020).
+"The rush and hush of India's National Digital Health Mission"
+.
+The Ken
+.
+External links
+[
+edit
+]
+Official website
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Ayushman_Bharat_Digital_Mission&oldid=1355918561
+"
+Categories
+:
+Medical and health government agencies of India
+Identity documents of India
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Official website different in Wikidata and Wikipedia
+Search
+Search
+Ayushman Bharat Digital Mission
+Add languages
+Add topic

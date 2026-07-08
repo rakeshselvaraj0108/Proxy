@@ -1,0 +1,512 @@
+{
+  "domain": "healthcare",
+  "generated_at": "2026-07-08T03:28:50.758953+00:00",
+  "root": "knowledge/healthcare",
+  "files_total": 46,
+  "chunks_total": 127,
+  "bytes_total": 310829,
+  "extension_counts": {
+    ".txt": 46
+  },
+  "authority_counts": {
+    "AIIMS": 1,
+    "CDC": 5,
+    "CDSCO": 1,
+    "CDSCO / Pharmacovigilance Programme of India (PvPI)": 1,
+    "General Public Health Education": 6,
+    "General Public Health Education (WHO/UNICEF ORS-Zinc protocol)": 1,
+    "ICMR": 1,
+    "MedlinePlus": 8,
+    "MoHFW / NHRC-linked Charter of Patients' Rights": 1,
+    "MoHFW / National Health Mission": 1,
+    "NCDC": 1,
+    "NCDC / Integrated Disease Surveillance Programme (IDSP)": 1,
+    "NIH": 2,
+    "National Accreditation Board for Hospitals & Healthcare Providers (NABH)": 1,
+    "WHO": 15
+  },
+  "folder_counts": {
+    "aiims": 1,
+    "cdc": 1,
+    "diagnostics": 3,
+    "diseases": 21,
+    "drug_safety": 3,
+    "faqs": 1,
+    "hospital_quality": 1,
+    "icmr": 1,
+    "medlineplus": 2,
+    "patient_rights": 2,
+    "public_health": 2,
+    "symptoms": 1,
+    "treatment_guidelines": 1,
+    "vaccination": 4,
+    "who": 2
+  },
+  "chunk_file": "knowledge/healthcare/chunks/healthcare_chunks.jsonl",
+  "graph_seed_files": [
+    "knowledge/healthcare/knowledge_graph/healthcare_entities.jsonl",
+    "knowledge/healthcare/knowledge_graph/healthcare_relationships.jsonl"
+  ],
+  "files": [
+    {
+      "path": "aiims/aiims_home.txt",
+      "bytes": 18045,
+      "sha256": "732acd76facdf4251fcc1d422ce877a09ca8d1e3c6ce309ca311eaeb5a7dcb35",
+      "chunks": 7,
+      "title": "AIIMS New Delhi Home",
+      "authority": "AIIMS",
+      "category": "overview",
+      "source_url": "https://www.aiims.edu/"
+    },
+    {
+      "path": "cdc/cdc_home.txt",
+      "bytes": 1907,
+      "sha256": "59ccf08903ce8469f3955ae9aab0256b3c1e34e10a4fb7085068ebf74df3859d",
+      "chunks": 1,
+      "title": "CDC Home",
+      "authority": "CDC",
+      "category": "overview",
+      "source_url": "https://www.cdc.gov/"
+    },
+    {
+      "path": "diagnostics/common_lab_test_reference_ranges.txt",
+      "bytes": 3204,
+      "sha256": "7df60f9c02c9e52274c4dddcb5e82888c95a292b1c5a13a8bcd232fff0a1bf5d",
+      "chunks": 1,
+      "title": "Common Lab Tests — General Reference Range Overview",
+      "authority": "General Public Health Education",
+      "category": "reference_ranges",
+      "source_url": null
+    },
+    {
+      "path": "diagnostics/medlineplus_laboratory_tests.txt",
+      "bytes": 4687,
+      "sha256": "ccef9d0be660c44134d3aa3f0b988d4a0bd82c2beb29e02587380f197ced0087",
+      "chunks": 2,
+      "title": "MedlinePlus: Laboratory Tests",
+      "authority": "MedlinePlus",
+      "category": "overview",
+      "source_url": "https://medlineplus.gov/laboratorytests.html"
+    },
+    {
+      "path": "diagnostics/understanding_your_lab_report_faqs.txt",
+      "bytes": 2212,
+      "sha256": "5f514ad6faa3d272ad00cacc3361cc86452ea1f1b8cc388d05e3cdb220c03034",
+      "chunks": 1,
+      "title": "Understanding Your Lab Report — FAQs",
+      "authority": "General Public Health Education",
+      "category": "faq",
+      "source_url": null
+    },
+    {
+      "path": "diseases/cdc_diabetes.txt",
+      "bytes": 3272,
+      "sha256": "f3e7bd4acd20a255e0726f0e8de7b1e5666031d8145050e7a75dca75cfc0c1f6",
+      "chunks": 2,
+      "title": "CDC Diabetes",
+      "authority": "CDC",
+      "category": "diabetes",
+      "source_url": "https://www.cdc.gov/diabetes/index.html"
+    },
+    {
+      "path": "diseases/cdc_malaria.txt",
+      "bytes": 2700,
+      "sha256": "bb34d4fdb7b18b5a0e3f34b28326b406c159800d55f7d63d2019e44ffaa36c63",
+      "chunks": 1,
+      "title": "CDC Malaria",
+      "authority": "CDC",
+      "category": "malaria",
+      "source_url": "https://www.cdc.gov/malaria/index.html"
+    },
+    {
+      "path": "diseases/cdc_tuberculosis.txt",
+      "bytes": 3683,
+      "sha256": "85dbc4572862bdc882baad444c70583987757a433751d61d296cf01d81dec471",
+      "chunks": 2,
+      "title": "CDC Tuberculosis",
+      "authority": "CDC",
+      "category": "tuberculosis",
+      "source_url": "https://www.cdc.gov/tb/index.html"
+    },
+    {
+      "path": "diseases/diarrheal_disease_and_ors_fact_sheet.txt",
+      "bytes": 2479,
+      "sha256": "0abc4d2141c9ced86d9ba651039d632cf4fbff42979379127d9cebd0aeb31b65",
+      "chunks": 1,
+      "title": "Diarrheal Disease and Oral Rehydration — General Fact Sheet",
+      "authority": "General Public Health Education (WHO/UNICEF ORS-Zinc protocol)",
+      "category": "diarrheal_disease",
+      "source_url": null
+    },
+    {
+      "path": "diseases/influenza_and_covid19_fact_sheet.txt",
+      "bytes": 2256,
+      "sha256": "88b01b4fc081c67f8c13a5118d72242d2e1cc18b1a805d98c71383cef4a54ef9",
+      "chunks": 1,
+      "title": "Influenza and COVID-19 — General Fact Sheet",
+      "authority": "General Public Health Education",
+      "category": "respiratory_illness",
+      "source_url": null
+    },
+    {
+      "path": "diseases/medlineplus_diabetes.txt",
+      "bytes": 14363,
+      "sha256": "d9a62ea9305ab85be87baf2fdd71cc83ca5b67e7892fe8d441782ea711837082",
+      "chunks": 6,
+      "title": "MedlinePlus: Diabetes",
+      "authority": "MedlinePlus",
+      "category": "diabetes",
+      "source_url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "path": "diseases/medlineplus_high_blood_pressure.txt",
+      "bytes": 11858,
+      "sha256": "7a9c6a32d39dc0fdc3fb1916e2f82d3e91b923e002cab85c61b844cc65ad19ce",
+      "chunks": 5,
+      "title": "MedlinePlus: High Blood Pressure",
+      "authority": "MedlinePlus",
+      "category": "hypertension",
+      "source_url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "path": "diseases/medlineplus_tuberculosis.txt",
+      "bytes": 12450,
+      "sha256": "8141e1c669d751dae06c5569f48215fff233c3c5d5020679145741926ffde2da",
+      "chunks": 5,
+      "title": "MedlinePlus: Tuberculosis",
+      "authority": "MedlinePlus",
+      "category": "tuberculosis",
+      "source_url": "https://medlineplus.gov/tuberculosis.html"
+    },
+    {
+      "path": "diseases/nih_nhlbi_home.txt",
+      "bytes": 2582,
+      "sha256": "4f2d6e4ff5fca3399e524239c3479f8e6864de263e70e8bce6f3e7559887a035",
+      "chunks": 1,
+      "title": "National Heart, Lung, and Blood Institute Home",
+      "authority": "NIH",
+      "category": "cardiovascular",
+      "source_url": "https://www.nhlbi.nih.gov/"
+    },
+    {
+      "path": "diseases/nih_niddk_home.txt",
+      "bytes": 3100,
+      "sha256": "7c867fbb937072d9df2a8a636fd28e3ed4ba44e7add9c5d001d916b4abdd2453",
+      "chunks": 1,
+      "title": "National Institute of Diabetes and Digestive and Kidney Diseases Home",
+      "authority": "NIH",
+      "category": "diabetes",
+      "source_url": "https://www.niddk.nih.gov/"
+    },
+    {
+      "path": "diseases/who_fact_sheet_cancer.txt",
+      "bytes": 13277,
+      "sha256": "7697ba71fc26910bf09c5f15bdf8317f46a83dc4c4bb5bfc1de13f398d054dd4",
+      "chunks": 5,
+      "title": "WHO Fact Sheet: Cancer",
+      "authority": "WHO",
+      "category": "cancer",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/cancer"
+    },
+    {
+      "path": "diseases/who_fact_sheet_cardiovascular.txt",
+      "bytes": 10371,
+      "sha256": "a5454e1f3dceacc09cac718937eaa874921771c725e8083a7aa8d993392c96ef",
+      "chunks": 4,
+      "title": "WHO Fact Sheet: Cardiovascular Diseases (CVDs)",
+      "authority": "WHO",
+      "category": "cardiovascular",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)"
+    },
+    {
+      "path": "diseases/who_fact_sheet_dengue.txt",
+      "bytes": 12902,
+      "sha256": "191005964da864cf60a7f0270ca1ea3105e868b268f5bfc22d723b7f2dae6088",
+      "chunks": 5,
+      "title": "WHO Fact Sheet: Dengue and Severe Dengue",
+      "authority": "WHO",
+      "category": "dengue",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue"
+    },
+    {
+      "path": "diseases/who_fact_sheet_diabetes.txt",
+      "bytes": 8521,
+      "sha256": "6d9afab2ab1691947ba7ef3274def26898a4306fac1695f890c3cb4cfe1eab28",
+      "chunks": 3,
+      "title": "WHO Fact Sheet: Diabetes",
+      "authority": "WHO",
+      "category": "diabetes",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/diabetes"
+    },
+    {
+      "path": "diseases/who_fact_sheet_hepatitis_b.txt",
+      "bytes": 12155,
+      "sha256": "18c41a33b5f8ac7990d10f21c6f74ae5165317d37248e1bc9e40847337902e52",
+      "chunks": 5,
+      "title": "WHO Fact Sheet: Hepatitis B",
+      "authority": "WHO",
+      "category": "hepatitis",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b"
+    },
+    {
+      "path": "diseases/who_fact_sheet_hypertension.txt",
+      "bytes": 9394,
+      "sha256": "ef4c851cb6625bc78d3c52149560a80a7410592a73d3ffcd2f40eed6087474a2",
+      "chunks": 4,
+      "title": "WHO Fact Sheet: Hypertension",
+      "authority": "WHO",
+      "category": "hypertension",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/hypertension"
+    },
+    {
+      "path": "diseases/who_fact_sheet_malaria.txt",
+      "bytes": 13697,
+      "sha256": "318cbc3bfa4f1e32e083cf56250229788df04d1ffff2402d81c47c557adc9fe1",
+      "chunks": 5,
+      "title": "WHO Fact Sheet: Malaria",
+      "authority": "WHO",
+      "category": "malaria",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/malaria"
+    },
+    {
+      "path": "diseases/who_fact_sheet_measles.txt",
+      "bytes": 9380,
+      "sha256": "0277125d0d93d1afe7cc884a4db44b26aae07bd555e203a6137d9838c360a8d4",
+      "chunks": 4,
+      "title": "WHO Fact Sheet: Measles",
+      "authority": "WHO",
+      "category": "measles",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/measles"
+    },
+    {
+      "path": "diseases/who_fact_sheet_mental_disorders.txt",
+      "bytes": 12299,
+      "sha256": "ac6e37b9bb9514541c9c3fa1d54677a56b5729e0fff76f7b85cb66501b577608",
+      "chunks": 5,
+      "title": "WHO Fact Sheet: Mental Disorders",
+      "authority": "WHO",
+      "category": "mental_health",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/mental-disorders"
+    },
+    {
+      "path": "diseases/who_fact_sheet_obesity.txt",
+      "bytes": 14177,
+      "sha256": "7737c5c9f1737025a300d57e3b6b30442b65890ef155bef45e8439bb8d2bca3c",
+      "chunks": 6,
+      "title": "WHO Fact Sheet: Obesity and Overweight",
+      "authority": "WHO",
+      "category": "obesity",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+    },
+    {
+      "path": "diseases/who_fact_sheet_tuberculosis.txt",
+      "bytes": 11313,
+      "sha256": "528c0bcb3de06ad7c7fe20fd5ea3396bd2e7544848d7591a492340b1fc0398a7",
+      "chunks": 5,
+      "title": "WHO Fact Sheet: Tuberculosis",
+      "authority": "WHO",
+      "category": "tuberculosis",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/tuberculosis"
+    },
+    {
+      "path": "drug_safety/cdsco_home.txt",
+      "bytes": 3523,
+      "sha256": "3bf5428bf7ec72ed39ffad167e00021eb37af6c499d0251d4d608bca40d6a025",
+      "chunks": 2,
+      "title": "Central Drugs Standard Control Organisation Home",
+      "authority": "CDSCO",
+      "category": "overview",
+      "source_url": "https://cdsco.gov.in/"
+    },
+    {
+      "path": "drug_safety/medication_safety_faqs.txt",
+      "bytes": 2776,
+      "sha256": "1af616d42c6042561a2b5bffc7caadd6f07db2db4f05ee0ed77d34dbafc30fea",
+      "chunks": 1,
+      "title": "Medication Safety — FAQs (Interactions, Generics, Reporting Adverse Reactions)",
+      "authority": "CDSCO / Pharmacovigilance Programme of India (PvPI)",
+      "category": "drug_safety",
+      "source_url": null
+    },
+    {
+      "path": "drug_safety/medlineplus_drug_information.txt",
+      "bytes": 1515,
+      "sha256": "bac3b5d79f155ce1116ca304493800d89aa77df582bc3842d517e5a5d1287ebb",
+      "chunks": 1,
+      "title": "MedlinePlus: Drug Information",
+      "authority": "MedlinePlus",
+      "category": "overview",
+      "source_url": "https://medlineplus.gov/druginformation.html"
+    },
+    {
+      "path": "faqs/medical_terminology_glossary.txt",
+      "bytes": 2740,
+      "sha256": "dbc0cd52fe9248ceac4f8df69cac38632c0ee996ac11dc141d3a0432bc1fd303",
+      "chunks": 1,
+      "title": "Common Medical Terminology and Abbreviations — Glossary",
+      "authority": "General Public Health Education",
+      "category": "glossary",
+      "source_url": null
+    },
+    {
+      "path": "hospital_quality/nabh_accreditation_standards_overview.txt",
+      "bytes": 2643,
+      "sha256": "d7e71425181713ac0c25e165f56c37c36176b6f564cfe3163c843be2a7c33bec",
+      "chunks": 1,
+      "title": "NABH Hospital Accreditation Standards — Overview",
+      "authority": "National Accreditation Board for Hospitals & Healthcare Providers (NABH)",
+      "category": "accreditation",
+      "source_url": null
+    },
+    {
+      "path": "icmr/icmr_home.txt",
+      "bytes": 21912,
+      "sha256": "12e2049a425a19a4172e6438a1570ee3bc8623da7cf2790cc8564bdc158b01b0",
+      "chunks": 8,
+      "title": "Indian Council of Medical Research Home",
+      "authority": "ICMR",
+      "category": "overview",
+      "source_url": "https://www.icmr.gov.in/"
+    },
+    {
+      "path": "medlineplus/medlineplus_health_topics.txt",
+      "bytes": 1717,
+      "sha256": "fc144473d2aa1a02a4ca4d32fc2818e5de063a8de07e9133dcc8f18a50d68a96",
+      "chunks": 1,
+      "title": "MedlinePlus Health Topics Index",
+      "authority": "MedlinePlus",
+      "category": "overview",
+      "source_url": "https://medlineplus.gov/healthtopics.html"
+    },
+    {
+      "path": "medlineplus/medlineplus_home.txt",
+      "bytes": 1570,
+      "sha256": "c2b858bef545ee1a552cbf96fb0580b9d41b56c4bd49c34cf0f63dcbe1a29a0c",
+      "chunks": 1,
+      "title": "MedlinePlus Home",
+      "authority": "MedlinePlus",
+      "category": "overview",
+      "source_url": "https://medlineplus.gov/"
+    },
+    {
+      "path": "patient_rights/patient_rights_charter_india_summary.txt",
+      "bytes": 3267,
+      "sha256": "601207acc86d2eaa31ade1e35a04a5e25954ed6d1ce2ccd44632343b5b266358",
+      "chunks": 1,
+      "title": "Charter of Patients' Rights (India) — Summary Overview",
+      "authority": "MoHFW / NHRC-linked Charter of Patients' Rights",
+      "category": "patient_rights",
+      "source_url": null
+    },
+    {
+      "path": "patient_rights/who_patient_safety_topic.txt",
+      "bytes": 8001,
+      "sha256": "892c3bf3fc1d89600c4553cceb259f505fcda64fa476eee2750794836b3df02d",
+      "chunks": 3,
+      "title": "WHO Health Topic: Patient Safety",
+      "authority": "WHO",
+      "category": "patient_safety",
+      "source_url": "https://www.who.int/health-topics/patient-safety"
+    },
+    {
+      "path": "public_health/ncdc_home.txt",
+      "bytes": 7463,
+      "sha256": "2132ad354abe82941ea0483350e54d0b081a5c582eb999d7660a9b5c0e9e7104",
+      "chunks": 3,
+      "title": "National Centre for Disease Control",
+      "authority": "NCDC",
+      "category": "disease_control",
+      "source_url": "https://ncdc.mohfw.gov.in/"
+    },
+    {
+      "path": "public_health/outbreak_public_health_advisory_guide.txt",
+      "bytes": 2198,
+      "sha256": "e146b060afa821dca55d10c08c6e816e44fb6faad88d7424b1806aeea976b2a8",
+      "chunks": 1,
+      "title": "Public Health Advisories and Outbreak Notification — How India's System Works",
+      "authority": "NCDC / Integrated Disease Surveillance Programme (IDSP)",
+      "category": "public_health_advisory",
+      "source_url": null
+    },
+    {
+      "path": "symptoms/when_to_seek_emergency_care.txt",
+      "bytes": 2604,
+      "sha256": "d168079b919d12b175ad288614306b8a9367088a4933032273d3b5bd42ab2413",
+      "chunks": 1,
+      "title": "When to Seek Emergency Care — General Red-Flag Symptoms",
+      "authority": "General Public Health Education",
+      "category": "emergency_guidance",
+      "source_url": null
+    },
+    {
+      "path": "treatment_guidelines/evidence_based_treatment_guideline_overview.txt",
+      "bytes": 2267,
+      "sha256": "60f8fdab7df30b6646be94473f3a370dfbb4c48d339116f5e162ecf02fb40207",
+      "chunks": 1,
+      "title": "Evidence-Based Clinical Guidelines — How They Work",
+      "authority": "General Public Health Education",
+      "category": "guidelines_overview",
+      "source_url": null
+    },
+    {
+      "path": "vaccination/cdc_vaccine_schedules.txt",
+      "bytes": 1939,
+      "sha256": "4a71f5e8865964d0dee682b6cf9fccba06b9139e71a069591226f31a33456cf2",
+      "chunks": 1,
+      "title": "CDC Vaccines and Immunization Schedules",
+      "authority": "CDC",
+      "category": "schedule",
+      "source_url": "https://www.cdc.gov/vaccines/schedules/index.html"
+    },
+    {
+      "path": "vaccination/medlineplus_immunization.txt",
+      "bytes": 9114,
+      "sha256": "c593480ec7d233990f916ea2131181f7a95575bdbcc823d4d2f62288559460cf",
+      "chunks": 4,
+      "title": "MedlinePlus: Immunization",
+      "authority": "MedlinePlus",
+      "category": "overview",
+      "source_url": "https://medlineplus.gov/immunization.html"
+    },
+    {
+      "path": "vaccination/national_immunization_schedule_india.txt",
+      "bytes": 2189,
+      "sha256": "f3d3af656534c0b61d0e896fa49093b7c58712891780e427920fb8d8afc67f66",
+      "chunks": 1,
+      "title": "National (Universal) Immunization Programme Schedule — India, Overview",
+      "authority": "MoHFW / National Health Mission",
+      "category": "schedule",
+      "source_url": null
+    },
+    {
+      "path": "vaccination/who_immunization_topic.txt",
+      "bytes": 10032,
+      "sha256": "924f526dea10e418e9591558ad284ba19dd60102bbb26b397a9041266d4191fc",
+      "chunks": 4,
+      "title": "WHO Health Topic: Vaccines and Immunization",
+      "authority": "WHO",
+      "category": "overview",
+      "source_url": "https://www.who.int/health-topics/vaccines-and-immunization"
+    },
+    {
+      "path": "who/who_fact_sheets_index.txt",
+      "bytes": 5124,
+      "sha256": "e75420181d91993fdd439787d63e6f030d36b68964d01c71ef32fb7ed5a0a9dc",
+      "chunks": 2,
+      "title": "WHO Fact Sheets Index",
+      "authority": "WHO",
+      "category": "overview",
+      "source_url": "https://www.who.int/news-room/fact-sheets"
+    },
+    {
+      "path": "who/who_home.txt",
+      "bytes": 1951,
+      "sha256": "609dd28fb07a9da1c0ca1795a1da6a76d0cc7b8313ab528800f71a4910042530",
+      "chunks": 1,
+      "title": "World Health Organization Home",
+      "authority": "WHO",
+      "category": "overview",
+      "source_url": "https://www.who.int/"
+    }
+  ]
+}

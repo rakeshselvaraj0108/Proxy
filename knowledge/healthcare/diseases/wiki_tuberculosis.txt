@@ -1,0 +1,7023 @@
+Tuberculosis - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Infectious disease
+Medical condition
+Tuberculosis
+Other names
+Phthisis, phthisis pulmonalis, consumption, white death, great white plague
+Chest X-ray
+of a person with advanced tuberculosis: Infection in both lungs is marked by white arrowheads, and black arrows mark the formation of a cavity.
+Specialty
+Infectious disease
+,
+pulmonology
+Symptoms
+Chronic cough
+,
+fever
+,
+cough with bloody mucus
+, weight loss. Latent TB infection is
+asymptomatic
+[
+1
+]
+Causes
+Mycobacterium tuberculosis
+[
+1
+]
+Risk factors
+Immunodeficiency
+[
+1
+]
+Diagnostic method
+CXR
+,
+microbial culture
+,
+TB skin test
+,
+interferon gamma release assay
+[
+1
+]
+Differential diagnosis
+Pneumonia
+,
+histoplasmosis
+,
+sarcoidosis
+,
+coccidioidomycosis
+[
+2
+]
+Prevention
+Screening those at high risk, treatment of those infected,
+vaccination
+with
+bacillus Calmette-Guérin
+(BCG)
+[
+1
+]
+Treatment
+Antibiotics
+[
+1
+]
+Frequency
+10.7
+million new infections per year (2024)
+[
+1
+]
+Deaths
+1.23
+million per year
+[
+1
+]
+Tuberculosis
+(
+/
+tj
+uː
+ˌ
+b
+ɜːr
+k
+j
+uː
+ˈ
+l
+oʊ
+s
+ɪ
+s
+/
+tew-
+BUR
+-kew-
+LOH
+-siss
+,
+also
+/
+ˌ
+tj
+uː
+b
+ər
+-/
+TEW
+-bər-
+;
+TB
+), also known colloquially as the "
+white death
+", or historically as
+consumption
+,
+[
+3
+]
+is a
+contagious disease
+usually caused by
+Mycobacterium tuberculosis
+(MTB)
+bacteria
+.
+[
+4
+]
+Tuberculosis initially infects the
+lungs
+, but it can also spread to other parts of the body.
+[
+1
+]
+Most infections show no symptoms, in which case it is known as inactive or
+latent tuberculosis
+.
+[
+4
+]
+A small proportion of latent infections progress to active disease that, if left untreated, can be fatal.
+[
+1
+]
+Typical symptoms of active TB are chronic
+cough
+with
+blood-containing
+mucus
+,
+fever
+,
+night sweats
+, and
+weight loss
+.
+[
+1
+]
+Infection
+of other organs can cause a wide range of symptoms.
+[
+5
+]
+Tuberculosis is
+spread from one person to the next
+through the air
+when people who have active TB in their lungs cough, spit, speak, or
+sneeze
+.
+[
+1
+]
+[
+4
+]
+People with latent TB do not spread the disease.
+[
+1
+]
+A latent infection is more likely to become active in individuals with
+weakened immune systems
+.
+[
+1
+]
+There are three principal
+tests for TB
+: the
+interferon-gamma release assay
+(IGRA),
+the tuberculin skin test
+, and the
+nucleic acid amplification test
+(NAAT).
+[
+1
+]
+[
+6
+]
+[
+7
+]
+Prevention of TB involves screening those at high risk, early detection and treatment of cases, and
+vaccination
+with the
+bacillus Calmette-Guérin
+(BCG) vaccine.
+[
+8
+]
+[
+9
+]
+[
+10
+]
+Those at high risk include household, workplace, and social contacts of people with active TB.
+[
+9
+]
+Treatment requires the use of multiple
+antibiotics
+over a long period of time.
+[
+1
+]
+It is estimated that one-quarter of the world's population, approximately 2
+billion people, have latent TB.
+[
+11
+]
+In 2024, TB incidence reached an estimated 10.7
+million people and caused 1.23
+million deaths,
+making it the leading cause of death
+from a single infectious agent worldwide.
+[
+1
+]
+Tuberculosis has been present in humans since
+ancient times
+.
+[
+12
+]
+In the 1800s, when it was known as
+consumption
+, TB was responsible for an estimated quarter of all deaths in Europe.
+[
+13
+]
+Both the
+incidence
+(new cases) and
+prevalence
+(total cases) of TB declined significantly during the 20th century, attributed to improved sanitation, the discovery of effective
+antibiotics
+, and the introduction of the BCG vaccination.
+[
+14
+]
+However, since the 1980s,
+antibiotic resistance
+has become a growing phenomenon, which led to a higher incidence of
+multidrug-resistant tuberculosis
+.
+[
+1
+]
+[
+15
+]
+Video summary (
+script
+)
+History
+[
+edit
+]
+Main article:
+History of tuberculosis
+An
+Egyptian mummy
+in the
+British Museum
+– tubercular decay has been found in the spine.
+Tuberculosis has existed since
+antiquity
+.
+[
+16
+]
+Skeletal remains show some prehistoric humans (4000
+BC
+) had TB, and researchers have found tubercular decay in the spines of
+Egyptian
+mummies
+dating from 3000 to 2400 BC.
+[
+17
+]
+Genetic studies suggest the presence of TB-like bacteria in South America from about AD 140.
+[
+18
+]
+Identification
+[
+edit
+]
+Although
+Richard Morton
+established the pulmonary form associated with
+tubercles
+as a pathology in 1689,
+[
+19
+]
+due to the variety of its symptoms, TB was not identified as a single disease until the 1820s.
+Benjamin Marten
+conjectured in 1720 that consumption was caused by microbes that were spread by people living close to each other.
+[
+20
+]
+In 1819,
+René Laennec
+claimed that tubercles were the cause of pulmonary tuberculosis.
+[
+21
+]
+J. L. Schönlein
+first published the name "tuberculosis" (German:
+Tuberkulose
+) in 1832.
+[
+22
+]
+[
+23
+]
+In 1865,
+Jean Antoine Villemin
+demonstrated that tuberculosis could be transmitted, via inoculation, from humans to animals and among animals.
+[
+24
+]
+Villemin's findings were confirmed in 1867 and 1868 by
+John Burdon-Sanderson
+.
+[
+25
+]
+Robert Koch
+discovered the tuberculosis bacillus.
+Robert Koch
+identified and described the bacillus causing tuberculosis,
+M. tuberculosis
+, on 24 March 1882.
+[
+26
+]
+[
+27
+]
+In 1905, he was awarded the
+Nobel Prize in Physiology or Medicine
+for this discovery.
+[
+28
+]
+Development of treatments
+[
+edit
+]
+In Europe, rates of tuberculosis began to rise in the early 1600s to a peak level in the 1800s, when it caused nearly 25% of all deaths.
+[
+13
+]
+In the 18th and 19th century,
+tuberculosis had become epidemic in Europe
+, showing a seasonal pattern.
+[
+29
+]
+[
+30
+]
+Tuberculosis caused widespread public concern in the 19th and early 20th centuries as the disease became common among the urban poor. In 1815, one in four deaths in England was due to "consumption." By 1918, TB still caused one in six deaths in France.
+[
+31
+]
+Between 1838 and 1845, John Croghan, the owner of
+Mammoth Cave
+in Kentucky from 1839 onwards, brought many people with tuberculosis into the cave in the hope of curing the disease with the constant temperature and purity of the cave air; each died within a year.
+[
+32
+]
+Hermann Brehmer opened the first TB
+sanatorium
+in 1859 in Görbersdorf (now
+Sokołowsko
+) in
+Silesia
+.
+[
+33
+]
+After TB was determined to be contagious, in the 1880s, it was put on a
+notifiable-disease
+list in Britain. Campaigns started to stop people from spitting in public places, and the infected poor were "encouraged" to enter sanatoria that resembled prisons. The sanatoria for the middle and upper classes offered excellent care and constant medical attention.
+[
+33
+]
+Whatever the benefits of the "fresh air" and labor in the sanatoria, even under the best conditions, 50% of those who entered died within five years (
+c.
+1916).
+[
+33
+]
+Robert Koch did not believe cattle and human tuberculosis were similar, which delayed the recognition of infected milk as a source of infection. During the first half of the 1900s, the risk of transmission from this source was dramatically reduced after the application of the
+pasteurization
+process. Koch announced a
+glycerine
+extract of the tubercle bacilli as a "remedy" for tuberculosis in 1890, calling it "
+tuberculin
+." Although it was not effective, it was later successfully adapted as a screening test for the presence of pre-symptomatic tuberculosis.
+[
+34
+]
+World Tuberculosis Day
+is marked on 24 March each year, the anniversary of Koch's original scientific announcement. When the
+Medical Research Council
+was formed in Britain in 1913, it initially focused on tuberculosis research.
+[
+35
+]
+Albert Calmette
+and
+Camille Guérin
+achieved the first genuine success in immunization against tuberculosis in 1906, using attenuated bovine-strain tuberculosis. It was called
+bacille Calmette–Guérin
+(BCG). The BCG vaccine was first used on humans in 1921 in France,
+[
+36
+]
+but achieved widespread acceptance in the US, Great Britain, and Germany only after World War II.
+[
+37
+]
+In 1946, the development of the antibiotic
+streptomycin
+made effective treatment and cure of TB a reality. Before the introduction of this medication, the only treatment was surgical intervention, including the "
+pneumothorax
+technique", which involved collapsing an infected lung to "rest" it and to allow tuberculous lesions to heal.
+[
+38
+]
+By the 1950s, mortality in Europe had decreased by about 90%. Improvements in sanitation, vaccination, and other public-health measures began significantly reducing rates of tuberculosis even before the arrival of streptomycin and other antibiotics, although the disease remained a significant threat.
+[
+39
+]
+[
+40
+]
+Drug-resistant tuberculosis
+[
+edit
+]
+A graph showing the trend in estimated
+prevalence
+(total cases) and
+incidence
+(annual new cases) of MDR-TB from 1990 to 2021
+A few years after the first antibiotic
+treatment
+for TB in 1943, some strains of the TB bacteria developed resistance to the standard drugs (streptomycin,
+para-aminosalicylic acid
+, and
+isoniazid
+).
+[
+41
+]
+Between 1970 and 1990, there were numerous outbreaks of drug-resistant tuberculosis involving strains resistant to two or more drugs; these strains are called
+multi-drug resistant TB
+(MDR-TB).
+[
+41
+]
+The resurgence of tuberculosis, caused in part by drug resistance and in part by the
+HIV pandemic
+, resulted in the declaration of a global health emergency by the World Health Organization (WHO) in 1993.
+[
+42
+]
+[
+43
+]
+Drug resistance to TB can come in two forms: primary and secondary. Primary drug resistance is caused by person-to-person transmission of drug-resistant TB bacteria. Secondary drug resistance (also called acquired resistance) develops during TB treatment. A person with fully drug-susceptible TB may develop secondary (acquired) resistance during therapy because of inadequate treatment, not taking the prescribed regimen appropriately (lack of compliance), or using low-quality drugs.
+[
+44
+]
+[
+45
+]
+To fully identify drug resistance and guide treatment,
+drug susceptibility testing
+(DST) determines which drugs can kill TB bacteria.
+[
+46
+]
+WHO guidelines recommend a rapid molecular test,
+Xpert MTB/RIF
+, to diagnose TB and simultaneously detect rifampicin resistance.
+[
+47
+]
+[
+48
+]
+DST is crucial for fully identifying drug resistance and guiding treatment.
+[
+49
+]
+Rifampicin-resistant TB
+(RR-TB) is resistant to the drug rifampicin.
+Multi-drug resistant tuberculosis
+(MDR-TB) is defined as resistance to the two most effective first-line TB drugs: rifampicin and isoniazid.
+[
+50
+]
+Extensively drug-resistant tuberculosis
+(XDR-TB) is resistant to rifampicin (and may also be resistant to isoniazid), and is also resistant to at least one
+fluoroquinolone
+(
+levofloxacin
+or
+moxifloxacin
+) and to at least one other Group A drug (
+bedaquiline
+or
+linezolid
+).
+[
+51
+]
+[
+46
+]
+A further categorization,
+totally drug resistant tuberculosis
+, has been used to describe strains with even greater drug resistance.
+As of 2025
+[
+update
+]
+, it has no accepted definition, but it is most commonly described as 'resistance to all first- and second-line drugs used to treat TB'.
+[
+52
+]
+It was first observed in 2003 in Italy,
+[
+53
+]
+but not widely reported until 2012,
+[
+52
+]
+[
+54
+]
+and has also been found in Iran, India, and South Africa.
+[
+55
+]
+As of 2023
+[
+update
+]
+, the WHO estimates that 3.2% of new TB infections globally are RR-TB or MDR-TB; this went down from 4.0% in 2015.
+[
+54
+]
+Among those who have been previously treated for TB, the proportion of people with RR-TB or MDR-TB has also decreased from 25% in 2015 to an estimated 16% in 2023.
+[
+54
+]
+Treatment of MDR-TB requires treatment with
+second-line drugs
+, which, in general, are less effective, more toxic, and more expensive than first-line drugs.
+[
+56
+]
+Treatment
+regimens
+can run for up to two years, compared to the six months of first-line drug treatment.
+[
+53
+]
+Treatment of MDR-TB is significantly more costly than treating regular TB. As an example, in the UK in 2013 the cost of standard TB treatment was estimated at £5,000 while the cost of treating MDR-TB was estimated to be more than 10 times greater, ranging from £50,000 to £70,000 per case.
+[
+57
+]
+In
+low-income countries
+, the impact of MDR-TB on the families of its victims is severe, affecting income, mental health, and social well-being. Families may become impoverished due to the financial strain of MDR-TB treatment, with studies reporting that a significant portion of household income can be spent on healthcare.
+[
+58
+]
+[
+59
+]
+Signs and symptoms
+[
+edit
+]
+The main symptoms of variants and stages of tuberculosis are given,
+[
+5
+]
+with many symptoms overlapping with other variants, while others are more, but not entirely, specific for certain variants.
+Tuberculosis of the lip, secondary to open pulmonary TB
+There is a popular misconception that tuberculosis is purely a disease of the lungs that manifests as
+coughing
+.
+[
+60
+]
+Tuberculosis may infect many organs, even though it most commonly occurs in the lungs (known as
+pulmonary tuberculosis
+).
+[
+5
+]
+Extrapulmonary TB
+occurs when tuberculosis develops in organs other than the lungs; it may coexist with pulmonary TB.
+[
+5
+]
+General signs and symptoms include fever,
+chills
+, night sweats,
+loss of appetite
+, weight loss, and
+fatigue
+.
+[
+5
+]
+Latent tuberculosis
+[
+edit
+]
+Main article:
+Latent tuberculosis
+The majority of individuals with TB infection show
+no symptoms
+, a state known as inactive or
+latent tuberculosis
+.
+[
+4
+]
+This condition is not contagious, and can be detected by the
+tuberculin skin test
+(TST) and the
+interferon-gamma release assay
+(IGRA); other tests should be conducted to eliminate the possibility of active TB.
+[
+61
+]
+Without treatment, an estimated 5% to 15% of cases will progress into active TB during the person's lifetime.
+[
+61
+]
+Pulmonary
+[
+edit
+]
+If a tuberculosis infection does become active, it most commonly involves the lungs (in about 90% of cases).
+[
+12
+]
+[
+62
+]
+Symptoms may include
+chest pain
+, a prolonged cough producing
+sputum
+which may be bloody, tiredness, temperature, loss of appetite,
+wasting
+and general
+malaise
+.
+[
+12
+]
+[
+63
+]
+In very rare cases, the infection may erode into the
+pulmonary artery
+or a
+Rasmussen aneurysm
+, resulting in massive bleeding.
+[
+5
+]
+[
+64
+]
+Tuberculosis may cause extensive scarring of the lungs, which persists after successful disease treatment. Survivors continue to experience chronic respiratory symptoms such as cough, sputum production, and
+shortness of breath
+.
+[
+65
+]
+Pulmonary tuberculosis can occasionally be complicated by pleural disease, including empyema and pneumothorax; when both pus and air accumulate in the
+pleural space
+, the condition is termed pyopneumothorax. These complications are associated with extensive or
+cavitary
+disease.
+[
+66
+]
+Extrapulmonary
+[
+edit
+]
+Main article:
+Extrapulmonary tuberculosis
+In 15–20% of active cases, the infection spreads outside the lungs, causing other kinds of TB.
+[
+67
+]
+These are collectively denoted as extrapulmonary tuberculosis.
+[
+68
+]
+Extrapulmonary TB occurs more commonly in people with a
+weakened immune system
+and young children. In those with HIV, this occurs in more than 50% of cases.
+[
+68
+]
+Notable extrapulmonary infection sites include the
+pleura
+(in tuberculous pleurisy), the
+central nervous system
+(in
+tuberculous meningitis
+), the
+lymphatic system
+(in
+scrofula
+of the neck), the
+genitourinary system
+(in
+urogenital tuberculosis
+), and the
+bones
+and joints (in
+Pott disease
+of the spine), among others. A potentially more serious, widespread form of TB is called "disseminated tuberculosis"; it is also known as
+miliary tuberculosis
+.
+[
+5
+]
+Miliary TB currently makes up about 10% of extrapulmonary cases.
+[
+69
+]
+Symptoms of extrapulmonary TB usually include the general signs and symptoms as above, with additional symptoms related to the part of the body which is affected.
+[
+70
+]
+Urogenital tuberculosis
+, however, typically presents differently, as this manifestation most commonly appears decades after the resolution of pulmonary symptoms. Most patients with chronic urogenital TB do not have pulmonary symptoms at the time of diagnosis. Urogenital tuberculosis most commonly presents with urinary "storage symptoms" such as increased frequency and/or urgency of urination, flank pain,
+hematuria
+, and nonspecific symptoms such as fever and malaise.
+[
+71
+]
+Causes
+[
+edit
+]
+Mycobacteria
+[
+edit
+]
+Main article:
+Mycobacterium tuberculosis
+Scanning electron micrograph
+of
+M. tuberculosis
+The principal microbial cause of TB is
+Mycobacterium tuberculosis
+(MTB), a small,
+aerobic
+,
+non-motile
+and rod-shaped
+bacillus
+.
+[
+5
+]
+It
+divides
+every 16 to 20 hours, which is slow compared with other bacteria, which usually divide in less than an hour.
+[
+72
+]
+Mycobacteria have a complex,
+lipid-rich
+cell envelope
+, with the high lipid content of the outer membrane acting as a robust barrier contributing to their
+drug resistance
+.
+[
+73
+]
+[
+74
+]
+If a
+Gram stain
+is performed, MTB either stains very weakly "Gram-positive" or does not retain dye as a result of the high lipid and
+mycolic acid
+content of its cell wall.
+[
+75
+]
+MTB can withstand weak
+disinfectants
+and survive in a
+dry state
+for weeks.
+[
+76
+]
+In nature, the bacterium can grow only within the cells of a
+host
+organism, but
+M. tuberculosis
+can be cultured
+in the laboratory
+.
+[
+77
+]
+The term
+M. tuberculosis
+complex
+describes a genetically related group of
+Mycobacterium
+species that can cause tuberculosis in humans or other animals. Among its members are four other TB-causing mycobacteria:
+M. bovis
+,
+M. africanum
+,
+M. canettii
+, and
+M. microti
+.
+[
+78
+]
+M. bovis
+causes bovine TB and was once a common cause of human TB, but the introduction of
+pasteurized milk
+has almost eliminated this as a public health problem in developed countries.
+[
+79
+]
+[
+80
+]
+M. africanum
+is not widespread, but it is a significant cause of human TB in parts of Africa.
+[
+81
+]
+[
+82
+]
+M. canettii
+is rare and seems to be limited to the
+Horn of Africa
+, although a few cases have been seen in African emigrants.
+[
+83
+]
+[
+84
+]
+M. microti
+appears to have a
+natural reservoir
+in small
+rodents
+such as mice and voles, but can infect larger mammals. It is rare in humans and is seen almost only in immunodeficient people, although its
+prevalence
+may be significantly underestimated.
+[
+85
+]
+[
+86
+]
+There are other known
+mycobacteria
+which cause lung disease resembling TB.
+M. avium complex
+is an environmental microorganism found in soil and water sources worldwide, which tends to present as an
+opportunistic infection
+in immunocompromised people.
+[
+87
+]
+[
+88
+]
+The natural reservoir of
+M. kansasii
+is unknown, but it has been found in tap water; it is most likely to infect humans with lung disease or who smoke.
+[
+89
+]
+These two species are classified as "
+nontuberculous mycobacteria
+".
+[
+90
+]
+Public health campaigns in the 1920s tried to halt the spread of TB.
+Transmission
+[
+edit
+]
+Tuberculosis spreads through the air when people with active pulmonary TB cough, sneeze, speak, or sing, releasing tiny airborne
+droplets
+containing the bacteria. Anyone nearby can breathe in these droplets and become infected. The droplets can remain airborne and infective for several hours, and are more likely to persist in poorly ventilated areas.
+[
+91
+]
+TB is not spread by shaking hands, sharing food, drinks, or utensils, touching bed linens and toilet seats, sharing toothbrushes, or kissing.
+[
+91
+]
+Risk factors
+[
+edit
+]
+Main article:
+Risk factors for tuberculosis
+Risk factors for TB include exposure to droplets from people with active TB, as well as environmental and health-condition-related factors that decrease a person's immune system response.
+[
+92
+]
+Close contact
+[
+edit
+]
+Prolonged, frequent, or close contact with people who have active TB is a high risk factor for becoming infected; this group includes health care workers and children where a family member is infected.
+[
+93
+]
+[
+94
+]
+Transmission is most likely to occur from only people with active TB – those with latent infection are not thought to be contagious.
+[
+79
+]
+Environmental risk factors that put a person in closer contact with infectious droplets from a person infected with TB are overcrowding, poor ventilation, or proximity to a potentially infective person.
+[
+95
+]
+[
+96
+]
+Environmental factors
+[
+edit
+]
+Environmental factors which weaken the body's protective mechanisms and may put a person at additional risk of contracting TB include
+air pollution
+, exposure to smoke (including
+tobacco smoke
+), and exposure (often
+occupational
+) to dust or
+particulates
+.
+[
+95
+]
+[
+91
+]
+Immunodeficiencies
+[
+edit
+]
+The most important risk factor globally for developing active TB is concurrent human immunodeficiency virus (
+HIV
+) infection; in 2023, 6.1% of those becoming infected with TB were also infected with HIV.
+[
+97
+]
+Sub-Saharan Africa
+has a particularly high burden of HIV-associated TB.
+[
+1
+]
+Of those without HIV infection who are infected with tuberculosis, about 5–15% develop active disease during their lifetimes;
+[
+61
+]
+in contrast, 30% of those co-infected with HIV develop the active disease.
+[
+98
+]
+Another important risk factor is the use of medications that suppress the immune system. These include (but are not limited to),
+chemotherapy
+; medication after an
+organ transplant
+; and medication for
+lupus
+or
+rheumatoid arthritis
+.
+[
+92
+]
+[
+99
+]
+Other risk factors include:
+heavy alcohol use
+,
+diabetes mellitus
+,
+silicosis
+,
+tobacco smoking
+, recreational drug use, severe kidney disease, head and neck cancer, and low body weight.
+[
+92
+]
+[
+100
+]
+Children, especially those under age five, have undeveloped immune systems and are at higher risk.
+[
+100
+]
+Pathogenesis
+[
+edit
+]
+The spleen in a patient with miliary tuberculosis showing granulomas (tubercles)
+TB infection begins when an
+M. tuberculosis
+bacterium, inhaled from the air, penetrates the lungs and reaches the
+alveoli
+. Here it encounters an
+alveolar macrophage
+, a cell of the body's
+immune system
+, which attempts to destroy it.
+[
+101
+]
+However,
+M. tuberculosis
+can neutralise and colonise the macrophage, leading to persistent infection.
+[
+101
+]
+The defence mechanism of the macrophage begins when a foreign body, such as a bacterial cell, binds to
+receptors
+on the surface of the macrophage. The macrophage then stretches itself around the bacterium and engulfs it.
+[
+102
+]
+Once inside this macrophage, the bacterium is trapped in a compartment called a
+phagosome
+; the phagosome subsequently merges with a
+lysosome
+to form a
+phagolysosome
+.
+[
+103
+]
+The lysosome is an
+organelle
+which contains digestive enzymes; these are released into the phagolysosome and kill the invader.
+[
+104
+]
+The
+M. tuberculosis
+bacterium can subvert the normal process by inhibiting phagosome development and preventing fusion with the lysosome.
+[
+103
+]
+The bacterium can survive and replicate within the phagosome; it will eventually destroy its host macrophage, releasing progeny bacteria which spread the infection.
+[
+101
+]
+In the next stage of infection,
+macrophages
+,
+epithelioid cells
+,
+lymphocytes
+and
+fibroblasts
+aggregate to form a
+granuloma
+, which surrounds and isolates the infected macrophages.
+[
+101
+]
+This does not destroy the tuberculosis bacilli, but contains them, preventing spread of the infection to other parts of the body. They are nevertheless able to survive within the granuloma.
+[
+101
+]
+[
+105
+]
+In tuberculosis, the granuloma contains
+necrotic
+tissue at its center, and appears as a small white nodule, also known as a
+tubercle
+, from which the disease derives its name.
+[
+106
+]
+Granulomas are most common in the lung, but they can appear anywhere in the body. As long as the infection is contained within granulomas, there are no outward symptoms and the infection is latent.
+[
+106
+]
+However, if the immune system is unable to control the infection, the disease can progress to active TB, which can cause significant damage to the lungs and other organs.
+[
+105
+]
+If TB bacteria gain entry to the blood stream from an area of damaged tissue, they can spread throughout the body and set up many foci of infection, all appearing as tiny, white tubercles in the tissues.
+[
+107
+]
+This severe form of TB disease, most common in young children and those with HIV, is called
+miliary tuberculosis
+.
+[
+108
+]
+People with this disseminated TB have a high fatality rate even with treatment (about 30%).
+[
+69
+]
+[
+109
+]
+In many people, the infection waxes and wanes. Tissue destruction and necrosis are often balanced by healing and
+fibrosis
+.
+[
+110
+]
+Affected tissue is replaced by scarring and cavities filled with caseous necrotic material. During active disease, some of these cavities connect to the air passages (
+bronchi
+), and this material can be coughed up. It contains living bacteria and thus can spread the infection. Treatment with appropriate
+antibiotics
+kills bacteria and allows healing to take place. Upon cure, affected areas are eventually replaced by scar tissue.
+[
+110
+]
+Diagnosis
+[
+edit
+]
+Main article:
+Diagnosis of tuberculosis
+M. tuberculosis
+(
+stained red
+) in
+sputum
+Diagnosis of tuberculosis is often difficult. Symptoms manifest slowly and are generally
+non-specific
+, e.g., cough, fatigue, fever, which have many possible causes.
+[
+111
+]
+The conclusive test for pulmonary TB is a
+bacterial culture
+taken from a sample of sputum, but this is slow to give a result, and does not detect latent TB. Extra-pulmonary TB infection can affect the kidneys, spine, brain, lymph nodes, or bones—a sample cannot easily be obtained for culture.
+[
+112
+]
+Tests based on the
+immune response
+are sensitive but are likely to give
+false negatives
+in those with
+weak immune systems
+such as very young patients and those
+coinfected
+with HIV. Another issue affecting diagnosis in many parts of the world is that TB infection is most common in
+resource-poor
+settings where sophisticated laboratories are rarely available.
+[
+113
+]
+[
+114
+]
+A diagnosis of TB should be considered in those with signs of lung disease or
+constitutional symptoms
+lasting longer than two weeks.
+[
+115
+]
+Diagnosis of TB, whether latent or active, starts with medical history and physical examination. Subsequently several tests can be performed to refine the diagnosis:
+[
+116
+]
+A
+chest X-ray
+and multiple
+sputum cultures
+for
+acid-fast bacilli
+are typically part of the initial evaluation.
+[
+115
+]
+Mantoux test
+[
+edit
+]
+The Mantoux skin test consists of an injection of a small quantity of PPD
+tuberculin
+just below the skin on the forearm.
+The
+Mantoux tuberculin skin test
+is often used to screen people at high risk for TB, such as healthcare workers or close contacts of TB patients, who may not display symptoms of infection.
+[
+115
+]
+In the Mantoux test, a small quantity of tuberculin antigen is injected intradermally on the forearm.
+[
+117
+]
+[
+118
+]
+The result of the test is read after 48 to 72 hours. A person who has been exposed to the bacteria would be expected to mount an immune response; the reaction is read by measuring the diameter of the raised area.
+[
+119
+]
+Vaccination with bacillus Calmette–Guérin (BCG) may result in a false-positive result. Several factors may lead to false negatives; these include HIV infection, some viral illnesses, and overwhelming TB disease.
+[
+120
+]
+[
+121
+]
+Interferon-gamma release assay
+[
+edit
+]
+In some testing strategies, the
+Interferon Gamma Release Assay
+(IGRA) is used as a follow-up test for those who are positive to the Mantoux test, to increase specificity in people who have received the
+BCG vaccine
+.
+[
+122
+]
+This test mixes a blood sample with antigenic material derived from the TB bacterium. If the patient has developed an immune response to a TB infection, white blood cells in the sample will release interferon-gamma (IFN-γ), which can be measured.
+[
+123
+]
+This test is more reliable than the Mantoux test, and does not give a false positive after BCG vaccination;
+[
+123
+]
+however it may give a positive result in case of infection by the related bacteria
+M. szulgai
+,
+M. marinum
+, and
+M. kansasii
+.
+[
+124
+]
+Chest radiograph
+[
+edit
+]
+In active pulmonary TB, infiltrates (opaque areas) or scarring are visible in the lungs on a chest X-ray. Infiltrates are suggestive but not necessarily diagnostic of TB. Other lung diseases can mimic the appearance of TB, and this test will not detect extrapulmonary infection or a recent infection.
+[
+125
+]
+Microbiological studies
+[
+edit
+]
+A close-up of
+Mycobacterium tuberculosis
+in a culture medium
+A definitive diagnosis of tuberculosis can be made by detecting
+Mycobacterium tuberculosis
+organisms in a specimen taken from the patient (most often
+sputum
+, but may also be
+pus
+,
+cerebrospinal fluid
+,
+biopsied
+tissue, etc.).
+[
+111
+]
+The specimen is examined by
+fluorescence microscopy
+.
+[
+126
+]
+The bacterium is slow growing, so a cell culture may take several weeks to yield a result.
+[
+127
+]
+Other tests
+[
+edit
+]
+Nucleic acid amplification tests
+(NAAT) and
+adenosine deaminase
+testing may allow rapid diagnosis of TB.
+[
+128
+]
+[
+48
+]
+In December 2010, the World Health Organization endorsed the Xpert MTB/RIF system (a NAAT) for diagnosis of tuberculosis in endemic countries.
+[
+7
+]
+Blood tests to detect antibodies are not
+specific or sensitive
+, so they are not recommended.
+[
+129
+]
+Polymerase chain reaction
+testing of urine for
+Mycobacterium tuberculosis
+is often required for the diagnosis of
+urogenital tuberculosis
+and may also be used to diagnose tuberculosis in
+biopsy
+samples from tissues. It is highly sensitive and specific, with good turnaround time.
+[
+71
+]
+Prevention
+[
+edit
+]
+The main strategies to prevent infection with TB are treatment of both active and latent TB, as well as vaccination of children who are at risk.
+[
+12
+]
+Although latent TB is not infective, it should be treated to prevent its development into active pulmonary TB, which is infective.
+[
+130
+]
+The cascade of person-to-person spread can be circumvented by segregating those with active ("overt") TB and putting them on anti-TB drug regimens. After about two weeks of effective treatment, subjects with
+nonresistant
+active infections generally do not remain contagious to others; however, it is important to complete the full course of treatment, which is usually six months.
+[
+131
+]
+[
+94
+]
+Vaccines
+[
+edit
+]
+Main articles:
+Tuberculosis vaccines
+and
+BCG vaccine
+The only available
+vaccine
+as of 2025
+[
+update
+]
+is
+bacillus Calmette-Guérin
+(BCG).
+[
+132
+]
+[
+133
+]
+In areas where tuberculosis is not common, only children at high risk are typically immunized, while suspected cases of tuberculosis are individually tested for and treated.
+[
+134
+]
+In countries where tuberculosis is common, one dose is recommended in healthy babies as soon after birth as possible.
+[
+134
+]
+A single dose is given by intradermal injection. Administered to children under 5, it decreases the risk of getting the infection by 20% and the risk of infection turning into active disease by nearly 60%.
+[
+135
+]
+[
+136
+]
+It is not effective if administered to adults.
+[
+137
+]
+Airborne infection control
+[
+edit
+]
+Airborne infection control (AIC) for tuberculosis is a set of administrative, environmental, and personal protective actions taken to reduce the spread of TB through infectious airborne respiratory particles. AIC is critical in prevention and treatment strategies for the disease globally.
+[
+138
+]
+Hierarchy of controls
+[
+edit
+]
+The WHO outlines a three-level hierarchy of TB infection prevention and control measures:
+[
+138
+]
+Administrative controls – early identification of presumptive TB cases, triage, separation of infectious patients, and rapid initiation of treatment.
+Environmental controls – ventilation systems (natural, mechanical, or mixed-mode), use of negative-pressure rooms, and
+germicidal ultraviolet
+(UV) light fixtures to reduce airborne particle concentration.
+Respiratory protection – use of medical masks and
+particulate respirators
+(e.g., N95 or FFP2) by health care workers and surgical masks by TB patients in high-risk settings.
+Special situations
+[
+edit
+]
+Airborne infection control measures are particularly important in high-risk environments such as prisons, refugee camps, homeless shelters, and health care facilities with limited resources. WHO recommends tailored interventions, including upper-room germicidal ultraviolet systems, air filtration, and strict respiratory hygiene practices in these settings.
+[
+138
+]
+India: National TB Elimination Programme
+[
+edit
+]
+In India, airborne infection control is a key component of the National Tuberculosis Elimination Programme (NTEP). The programme emphasizes contact tracing in high-risk populations, airborne infection control measures in health facilities, and a multisectoral response to address social determinants of TB.
+[
+139
+]
+Infrastructure scale-up has included the establishment of over 6,400 molecular diagnostic laboratories and 81 culture and drug susceptibility testing centers, alongside infection control interventions in hospitals and medical colleges.
+[
+139
+]
+End TB Transmission Initiative (ETTi)
+[
+edit
+]
+The End TB Transmission Initiative (ETTi) – Powering Airborne IPC is a working group of the
+Stop TB Partnership
+focused on strengthening airborne infection prevention and control for tuberculosis and other airborne pathogens. It was established to highlight the importance of airborne IPC following recognition of airborne transmission of diseases such as TB,
+SARS-CoV-2
+,
+influenza
+, and
+measles
+.
+[
+140
+]
+The initiative advocates for airborne IPC as a global priority, supports research and evidence dissemination, and promotes capacity building to prevent transmission in health care, community, and congregate settings.
+[
+140
+]
+Monitoring and evaluation
+[
+edit
+]
+WHO recommends regular monitoring of airborne infection control implementation through facility risk assessments, data collection on ventilation and protective equipment, and evaluation of TB incidence trends. Annexes in the WHO handbook provide tools such as facility TB risk assessment forms, health worker screening registers, and checklists for programmatic review.
+[
+138
+]
+Public health
+[
+edit
+]
+A tuberculosis public health campaign in Ireland, 1905
+The first
+International Congress on Tuberculosis
+was held at Berlin in 1899. It was known by this time that tuberculosis was caused by a
+bacillus
+, thought to be passed by
+phlegm
+coughed up by a sick person, dried into dust, and then inhaled by a healthy person.
+[
+141
+]
+Milk was known to be an important means of infection.
+[
+141
+]
+Means of prevention included free ventilation of houses and wholesome and abundant food. Milk should be boiled, and meat should be carefully inspected, or else the cattle should be tested for infection. Cures for the disease included abundant food, particularly fatty foods, and life in the open air.
+[
+142
+]
+Similar anti-spitting campaigns took hold elsewhere: in the United States, concern about the spread of tuberculosis played a role in the movement to prohibit public spitting except into
+spittoons
+.
+[
+143
+]
+Worldwide campaigns
+[
+edit
+]
+Royal Navy
+sailors being screened for tuberculosis (1940)
+Further information:
+Elimination of tuberculosis
+The World Health Organization (WHO) declared TB a "global health emergency" in 1993,
+[
+12
+]
+and in 2006, the Stop TB Partnership developed a
+Global Plan to Stop Tuberculosis
+, which aimed to save 14
+million lives between its launch and 2015.
+[
+144
+]
+Several targets they set were not achieved by 2015, mostly due to the increase in HIV-associated tuberculosis and the emergence of multidrug-resistant tuberculosis.
+[
+12
+]
+In 2014, the WHO adopted the "End TB" strategy which aims to reduce TB incidence by 80% and TB deaths by 90% by 2030.
+[
+145
+]
+The strategy contains a milestone to reduce TB incidence by 20% and TB deaths by 35% by 2020.
+[
+146
+]
+However, by 2020 only a 9% reduction in incidence per population was achieved globally, with the European region achieving 19% and the African region achieving 16% reductions.
+[
+146
+]
+Similarly, the number of deaths only fell by 14%, missing the 2020 milestone of a 35% reduction, with some regions making better progress (31% reduction in Europe and 19% in Africa).
+[
+146
+]
+Treatment, prevention, and funding milestones were also missed in 2020; for example, only 6.3
+million people began TB preventive treatment, far short of the 30
+million target.
+[
+146
+]
+The goal of tuberculosis elimination is being hampered by the lack of rapid testing, short and effective treatment courses, and
+completely effective vaccines
+.
+[
+147
+]
+Treatment
+[
+edit
+]
+Main article:
+Management of tuberculosis
+Tuberculosis
+phototherapy treatment
+in
+Kuopio
+, Finland, 1934
+A monograph on the treatment of tuberculosis (dated 1891)
+The
+antibiotic
+drugs used for treating TB are generally classified as either first-line or second-line. Treatment with a combination of first-line drugs (
+Isoniazid
+,
+Rifampicin
+,
+Pyrazinamide
+, and
+Ethambutol
+) is preferred; they are more effective, and have fewer
+side effects
+. Second-line drugs are used if a person's TB infection either develops
+resistance
+to one or more first-line drugs, or if the infection comprises a drug-resistant strain.
+[
+148
+]
+The second-line drugs are generally less effective, have more severe side effects, and must be taken over a longer period of time.
+[
+148
+]
+Drug susceptible TB
+[
+edit
+]
+An infection is drug-susceptible if it has no resistance to any of the first-line drugs. To prevent the tuberculosis bacterium from developing drug resistance, the recommended treatment regimens combine four drugs. These should be taken over a period of 4 or 6 months.
+[
+149
+]
+The 6 month regime, known by the acronym HRZE, comprises all four first-line drugs (Isoniazid (H), Rifampicin (R), Pyrazinamide (Z), and Ethambutol (E)) taken daily for two months, followed by just the H and R drugs for the remaining four months. Evidence indicates that it is highly effective if followed through properly. The four-month regime, known by the acronym HMPZ, has moderate evidence of effectiveness and several
+contra-indications
+. For the first 2 months, four drugs are taken (Isoniazid (H), Rifapentine (P),
+Moxifloxacin
+(M), and Pyrazinamide (Z)); followed by two more months with the H, P, and M components.
+[
+149
+]
+Drug-resistant TB (DR-TB)
+[
+edit
+]
+A particular issue with TB treatment arises when an infection is resistant to one or more of the treatment drugs. If first-line treatment does not work for a patient, then the infection should undergo
+drug susceptibility testing
+(DST) to develop a tailored second-line treatment regimen which will be more effective. Historically, treatment regimens for multidrug-resistant (MDR-TB) have required multiple drugs taken over long periods—between 18 and 24 months. The expense, duration, and adverse effects of these treatments mean many patients did not complete the course.
+[
+150
+]
+As of 2025
+[
+update
+]
+, WHO recommends two shorter 6-month regimens and two 9-month regimens for DR-TB and MDR-TB using a combination of second-line drugs taken orally; all have good evidence of effectiveness.
+[
+151
+]
+The 6-month regimens are known by the acronyms BPaLM and BDLLfx:
+BPaLM (
+bedaquiline
+,
+pretomanid
+,
+linezolid
+, moxifloxacin).
+[
+152
+]
+BDLLfxC (bedaquiline,
+delamanid
+, and linezolid in combination with either
+levofloxacin
+(Lfx) or
+clofazimine
+(C))
+[
+152
+]
+Adherence and support
+[
+edit
+]
+It can be difficult for patients to adhere to their TB treatment regimen. Several drugs must be taken daily for a long period, often with unpleasant side effects. There is often a rapid improvement in symptoms, so that patients stop taking medication even though the infection is still active and likely to reassert symptoms after a period.
+[
+153
+]
+In areas without public health systems, prolonged treatment is expensive.
+[
+153
+]
+[
+154
+]
+Failure to complete a course of treatment can result in the emergence of drug-resistant tuberculosis.
+[
+153
+]
+Public health bodies recommend supporting patients during the treatment period.
+[
+155
+]
+[
+156
+]
+One form of support is directly observed therapy—a healthcare worker watches the TB patient swallow the drugs, either in person or online.
+[
+157
+]
+Other forms of support include having an assigned case manager, digital monitoring, health education, counseling, and community support.
+[
+156
+]
+[
+158
+]
+Prognosis
+[
+edit
+]
+Age-standardized
+disability-adjusted life years
+caused by tuberculosis per 100,000
+inhabitants, 2004:
+[
+159
+]
+no data
+≤10
+10–25
+25–50
+50–75
+75–100
+100–250
+250–500
+500–750
+750–1000
+1000–2000
+2000–3000
+≥ 3000
+Tuberculosis (TB) is generally curable with prompt and appropriate treatment, but can be fatal if left untreated. The prognosis depends on factors like disease stage, drug resistance, and a person's overall health. While treatment is effective, delays or inadequate treatment can lead to severe illness and death.
+[
+160
+]
+Without treatment, about two-thirds of people with TB will die of the disease, on average, within three years of diagnosis.
+[
+161
+]
+[
+160
+]
+Progression from TB infection to overt TB disease occurs when the bacilli overcome the immune system defenses and begin to multiply. In some 1–5% of cases, this occurs soon after the initial infection.
+[
+79
+]
+However, in the majority of cases, a
+latent infection
+occurs with no obvious symptoms.
+[
+79
+]
+Over an individual's lifetime, these dormant bacilli produce active tuberculosis in 5–10% of these latent cases, often many years after infection.
+[
+112
+]
+The risk of reactivation increases in those whose
+immune system becomes weakened
+, such as may be caused by
+certain drug treatments
+, or by
+infection with HIV
+.
+[
+162
+]
+In people
+coinfected
+with
+M. tuberculosis
+and HIV, the risk of reactivation increases to 10% per year.
+[
+79
+]
+Tuberculosis (TB) prognosis is significantly worsened by HIV co-infection, leading to higher mortality rates and poorer treatment outcomes. People with HIV are much more susceptible to developing active TB, and even with treatment, they face increased risks of unsuccessful treatment and death compared to those without HIV.
+[
+163
+]
+[
+164
+]
+Epidemiology
+[
+edit
+]
+Reports of tuberculosis can be found throughout recorded history. In Europe,
+Hippocrates
+, writing around 400 BCE describes
+phthisis
+;
+[
+165
+]
+in India, the Vedas (composed 1500–1200 BCE) refer to
+yaksma
+;
+[
+166
+]
+both of these are generally equated with tuberculosis. Earlier evidence of tuberculosis has been found in prehistoric human remains in Europe, Africa, Asia, and the Americas, with the earliest dating to the early
+Neolithic
+era (approximately 10,000–11,000 years ago).
+[
+16
+]
+Phylogenetic
+analysis of DNA
+lineages
+indicates that the ancestors of the tuberculosis bacterium adapted to human hosts in Africa around 70,000 years ago, and spread across the globe with migrating humans.
+[
+16
+]
+The World Health Organization estimates that roughly one-quarter of the world's population carry infection with
+M. tuberculosis
+(
+prevalence
+), with new infections occurring in about 10.7
+million people each year (
+incidence
+).
+[
+1
+]
+Most infections with
+M. tuberculosis
+do not cause disease,
+[
+167
+]
+and 90–95% of infections remain asymptomatic.
+[
+168
+]
+TB infection disproportionally affects low-income populations and countries. Factors like
+poverty
+, inadequate living conditions, and
+poor nutrition
+contribute to higher TB prevalence and incidence in these settings.
+[
+1
+]
+Globally, the highest burden of TB is concentrated in
+low-income countries
+.
+[
+169
+]
+[
+170
+]
+People living with HIV have a significantly higher risk of developing tuberculosis (TB) compared to those without HIV. HIV weakens the immune system, making individuals more susceptible to TB infection and increasing the likelihood of progression from latent to active TB. TB is also a leading cause of death among people with HIV.
+[
+171
+]
+[
+1
+]
+To a certain extent, newly diagnosed TB infections tend to
+cluster in spring and summer
+; this is attributed in part to lower vitamin D levels and indoor crowding during the colder seasons, combined with a lag between infection and diagnosis. The strength of seasonality varies with latitude, with stronger patterns observed in regions farther from the equator.
+[
+172
+]
+Number of new cases of tuberculosis per 100,000 people, 2022
+[
+173
+]
+Map showing the rate of TB deaths worldwide in HIV-negative people, by country, 2023.
+[
+54
+]
+Tuberculosis deaths by region, 1990 to 2017
+[
+174
+]
+Deaths from tuberculosis, by age, World, 1990 to 2019
+[
+175
+]
+At-risk groups
+[
+edit
+]
+People deemed to be at higher risk for exposure to or infection from
+M. tuberculosis
+include those who frequently travel to or live in countries where TB disease is common; residents and employees of densely-occupied settings such as homeless shelters, detention and correctional facilities, and nursing homes; health care workers; populations defined locally as having an increased incidence of TB disease; those who are malnourished; and residents of resource-poor communities.
+[
+176
+]
+[
+177
+]
+There is a strong correlation between the risk for TB and socioeconomic status (SES). Specifically, people of low SES are more likely to contract TB. They also have more risk factors for TB disease, including malnutrition, HIV co-infection, more exposure to crowded and poorly ventilated spaces, and limited access to healthcare. Moreover, inadequate healthcare translates to those living with TB disease not being diagnosed and treated promptly, resulting in continued spread of the disease to others.
+[
+96
+]
+TB is the leading cause of death among people with HIV, who are about 12 times more likely to develop active TB than people without HIV.
+[
+1
+]
+The incidence of TB varies with age. Globally, TB occurs mainly in adults 15 years and older. Men are more likely to be infected than women.
+[
+178
+]
+[
+97
+]
+There is some evidence that, in countries with a low burden of TB such as Britain, Canada and the US, incidence rates among those 65 and older are consistently higher than in other age groups. A large portion of active TB cases in this age group are thought to be due to the reactivation of previously dormant TB infections.
+[
+179
+]
+[
+180
+]
+[
+181
+]
+Globally,
+Indigenous peoples
+are disproportionately impacted by TB.
+[
+182
+]
+[
+183
+]
+[
+184
+]
+Australian Indigenous populations face disproportionately higher TB rates, more than four times those of non-Indigenous Australian-born.
+[
+185
+]
+In 2023, the rate of TB disease among First Nations in Canada was over 3 times that of the overall Canadian population.
+[
+186
+]
+Contributing factors are the result of ongoing inequities stemming from historical and ongoing impacts of colonization including isolation from health services,
+food insecurity
+, higher prevalence of health conditions such as
+diabetes
+,
+overcrowding
+, and poverty.
+[
+187
+]
+[
+188
+]
+[
+186
+]
+Global trends
+[
+edit
+]
+Global tuberculosis rates per 100,000 population, from 2010 to 2023. Shaded areas represent 95% uncertainty intervals.
+[
+97
+]
+Since the late 19th century, a combination of improved living conditions and public health measures has resulted in declines in case and mortality rates in Western Europe and North America. This trend accelerated in the 1950s when effective drug treatments first became available.
+[
+189
+]
+However progress stalled and even reversed in some regions after the 1990s due to factors like drug resistance and the HIV/AIDS pandemic.
+[
+190
+]
+Global monitoring of TB incidence is primarily done through annual reports by the World Health Organization (WHO), which has been collecting data and publishing comprehensive reports on the disease since 1997.
+[
+191
+]
+Geographical epidemiology
+[
+edit
+]
+The distribution of tuberculosis is not uniform across the globe; it is concentrated in low- and middle-income countries, with high-burden regions including the WHO
+South-East Asia
+, African, and Western Pacific regions.
+[
+1
+]
+High incidence of TB is strongly correlated with poor literacy and sex (male).
+[
+192
+]
+Hopes of totally controlling the disease have been dramatically dampened because of many factors, including the difficulty of developing an effective vaccine, the expensive and time-consuming diagnostic process, the necessity of many months of treatment, the increase in HIV-associated tuberculosis, and the emergence of drug-resistant cases in the 1980s.
+[
+12
+]
+Approximately 87% of new TB cases occur in the 30 high TB burden countries, with more than two-thirds of the global burden occurring in Bangladesh, China, the Democratic Republic of the Congo, India, Indonesia, Nigeria, Pakistan, and the Philippines.
+[
+1
+]
+India
+[
+edit
+]
+Main article:
+Tuberculosis in India
+It is estimated that approximately 40% of the population of India carry tuberculosis infection.
+[
+193
+]
+This is attributed to widespread poverty, malnutrition, overcrowding, and poor hygiene, which facilitate transmission and disease development. Factors like stigma, lack of awareness, delayed diagnosis, and the high financial burden of treatment hinder progress. The emergence of multidrug-resistant TB, together with weak healthcare infrastructure contribute to the persistence of the disease, despite national control programs.
+[
+194
+]
+Overall, the rate of TB
+incidence
+(the annual total of new infections) in India has decreased from nearly 300 per 100,000 population in 2010 to 200 in 2023.
+[
+97
+]
+Indonesia
+[
+edit
+]
+TB is a major health challenge in Indonesia, with an estimated one million cases annually and around 134,000 deaths each year.
+[
+195
+]
+Factors contributing to this include a family history of TB, malnutrition, inappropriate ventilation, diabetes mellitus, smoking behavior, and low income level.
+[
+196
+]
+Incidence of TB infection increased in 2020 and subsequent years; this has been attributed to strain on health systems caused by the COVID-19 pandemic.
+[
+197
+]
+China
+[
+edit
+]
+Main article:
+Tuberculosis in China
+The incidence of TB in China has decreased over time, from 67 new cases per 100,000 of population in 2010 to 40 in 2023.
+[
+97
+]
+TB risk is not uniform across the country, with higher relative risks observed in the poorer western and southwestern regions, such as
+Xinjiang
+and
+Tibet
+.
+[
+198
+]
+Quality of care is inconsistent, despite efforts by the
+Chinese Center for Disease Control and Prevention
+to improve diagnosis, referral and treatment nationwide.
+[
+199
+]
+Philippines
+[
+edit
+]
+As of 2023, the Philippines accounts for 6.8% of global TB cases, the 4th worldwide.
+[
+97
+]
+Cases have increased from 520 per 100,000 people in 2007 to 625 cases per 100,000 in 2024, following a spike in numbers during the COVID-19 pandemic..
+[
+97
+]
+TB in the Philippines has been linked with poverty, overcrowded living conditions, malnutrition, and health inequities; in addition institutional discrimination and stigma may lead to delayed diagnosis and ongoing transmission.
+[
+200
+]
+[
+201
+]
+Lesotho
+[
+edit
+]
+Lesotho
+has an estimated 664 new infections per 100,000 population in 2023.
+[
+202
+]
+This compares favorably with the figure of 1,184 in 2010. It is still one of the highest TB incidence rates globally.
+[
+97
+]
+A major factor is the extremely high prevalence of HIV in the adult population (around 23%), with many TB patients being co-infected.
+[
+203
+]
+Other factors include lack of funding, mountainous territory making access to care difficult, and poor adherence to therapy regimens.
+[
+204
+]
+[
+205
+]
+[
+206
+]
+Society and culture
+[
+edit
+]
+Names
+[
+edit
+]
+In different ages and cultures, tuberculosis went by many names.
+Phthisis
+(
+φθίσις
+) in ancient Greek translates to
+decay
+or
+wasting disease
+, presumed to refer to pulmonary tuberculosis; around 460 BCE,
+Hippocrates
+described phthisis as a disease of dry seasons.
+[
+207
+]
+[
+29
+]
+Tabes
+in ancient Latin has a similar meaning.
+[
+27
+]
+Consumption
+, derived from Latin root
+con
+meaning 'completely' with
+sumere
+'to take up from under', was the most common nineteenth-century English word for the disease, and was also in use well into the twentieth century.
+[
+3
+]
+[
+208
+]
+In
+The Life and Death of Mr Badman
+by
+John Bunyan
+, the author calls consumption "the captain of all these men of death."
+[
+209
+]
+"Great white plague" has also been used.
+[
+27
+]
+Art and literature
+[
+edit
+]
+Painting
+The Sick Child
+by
+Edvard Munch
+, 1885–1886, depicts the illness of his sister Sophie, who died of tuberculosis when Edvard was 14; his mother also died of the disease.
+Main article:
+Cultural depictions of tuberculosis
+Tuberculosis was for centuries associated with
+poetic
+and
+artistic
+qualities among those infected, and was also known as "the romantic disease".
+[
+210
+]
+[
+211
+]
+Major artistic figures such as the poets
+John Keats
+,
+Percy Bysshe Shelley
+, and
+Edgar Allan Poe
+, the composer
+Frédéric Chopin
+,
+[
+212
+]
+the playwright
+Anton Chekhov
+, the novelists
+Franz Kafka
+,
+Katherine Mansfield
+,
+[
+213
+]
+Charlotte Brontë
+,
+Fyodor Dostoevsky
+,
+Thomas Mann
+,
+W. Somerset Maugham
+,
+[
+214
+]
+George Orwell
+,
+[
+215
+]
+and
+Robert Louis Stevenson
+, and the artists
+Alice Neel
+,
+[
+216
+]
+Jean-Antoine Watteau
+,
+Elizabeth Siddal
+,
+Marie Bashkirtseff
+,
+Edvard Munch
+,
+Aubrey Beardsley
+and
+Amedeo Modigliani
+either had the disease or were surrounded by people who did. A widespread belief was that tuberculosis assisted artistic talent. Physical mechanisms proposed for this effect included the slight fever and toxaemia it caused, allegedly helping them to see life more clearly and to act decisively.
+[
+217
+]
+[
+218
+]
+[
+219
+]
+Tuberculosis formed an often-reused theme in
+literature
+, as in
+Thomas Mann
+'s
+The Magic Mountain
+, set in a
+sanatorium
+;
+[
+220
+]
+in
+music
+, as in
+Van Morrison
+'s song "
+T.B. Sheets
+";
+[
+221
+]
+in
+opera
+, as in
+Puccini
+'s
+La bohème
+and
+Verdi
+'s
+La Traviata
+;
+[
+219
+]
+in
+art
+, as in
+Munch
+'s painting of his ill sister;
+[
+222
+]
+and in
+film
+, such as the 1945
+The Bells of St. Mary's
+starring
+Ingrid Bergman
+as a nun with tuberculosis.
+[
+223
+]
+Folklore
+[
+edit
+]
+In 19th-century New England, tuberculosis deaths were associated with
+vampires
+. When one member of a family died from the disease, the other infected members would lose their health slowly. People believed this was caused by the original person with TB draining the life from the other family members.
+[
+224
+]
+Law
+[
+edit
+]
+Historically, some countries, including
+Czech Republic
+,
+England
+,
+Estonia
+,
+Germany
+,
+Israel
+,
+Norway
+,
+Russia
+and
+Switzerland
+had legislation to involuntarily detain or examine those suspected to have tuberculosis, or
+involuntarily treat
+them if infected.
+[
+225
+]
+[
+226
+]
+As of 2025, many countries require TB cases to be notified to a national surveillance organisation (UK,
+[
+227
+]
+US,
+[
+228
+]
+European Union.
+[
+229
+]
+). Many countries make either short term or long term entry
+visas
+for potential
+migrants
+conditional on a negative TB test.
+[
+230
+]
+Stigma
+[
+edit
+]
+Tuberculosis
+stigma
+is discrimination experienced by many people with TB, which acts as a major barrier to health-seeking, treatment adherence, and overall disease control.
+[
+231
+]
+[
+232
+]
+Depending on the setting, between 42% and 82% of people with TB report experience of stigma.
+[
+232
+]
+This prejudice leads to social exclusion, delayed diagnosis, poor adherence to treatment regimens, and thus poor treatment outcomes.
+[
+233
+]
+Slow progress in preventing the disease may in part be due to
+stigma
+associated with TB.
+[
+234
+]
+Stigma may result in delays in seeking treatment,
+[
+234
+]
+lower treatment compliance, and family members keeping diagnosis and cause of death secret
+[
+235
+]
+– allowing the disease to spread further.
+[
+234
+]
+Stigma may be due to misconceptions about the disease's transmissibility, cultural myths, association with poverty or (in Africa)
+HIV/AIDS
+.
+[
+234
+]
+Studies in Ghana have found that individuals with TB may be banned from attending public gatherings,
+[
+236
+]
+and may be assigned junior staff in health facilities.
+[
+237
+]
+In India, people with TB may lose their job or be unable to marry.
+[
+238
+]
+Global programs
+[
+edit
+]
+Between 1995 and 2015, the World Health Organization formulated 3 strategies for the control and ultimately the elimination of tuberculosis, with a target date of 2035. This diagram charts how these are linked and build on each other.
+[
+239
+]
+The World Health Organization has formulated and promoted several strategies to combat TB globally. The first of these, launched in 1995, was DOTS (
+Directly Observed Treatment, Short-course
+), which promoted a standard course of treatment together with the appropriate resources and state support.
+[
+239
+]
+The DOTS program, implemented by the member nations of the World Health Organization, led to significant reductions in TB incidence and mortality by improving case detection and treatment success rates.
+[
+240
+]
+In 2006, WHO adopted the
+Stop TB Strategy
+which implemented
+millennium development goal
+6c (by 2015, to halt and reverse the incidence of major diseases).
+[
+241
+]
+This included and continued the DOTS program, with additional emphasis on sustainable financing, improved technology, and improved emphasis on drug resistance and HIV co-infection.
+[
+239
+]
+This program ran from 2006 (when TB incidence was estimated at 8.8 million new cases)
+[
+242
+]
+to 2014, when TB incidence was estimated at 9.6 million new cases.
+[
+243
+]
+The Stop TB Strategy was followed in 2014 by the
+End TB Strategy
+. This sets targets of a 90% reduction in TB deaths and 80% reduction in TB incidence by 2030, followed by reductions of 95% and 90%, respectively, by 2035. A third target is that no TB-affected households experience catastrophic costs due to the disease by 2020.
+[
+244
+]
+This incorporated the principles of the previous strategies, while introducing objectives for prevention based on the identification and treatment of individuals with latent TB infection.
+[
+239
+]
+In 2012, The World Health Organization (WHO), the
+Bill and Melinda Gates Foundation
+, and the US government subsided a fast-acting diagnostic tuberculosis test,
+Xpert MTB/RIF
+, for use in low- and middle-income countries.
+[
+245
+]
+[
+47
+]
+This is a rapid molecular test used to diagnose TB and simultaneously detect rifampicin resistance. It provides results in about 2 hours, which is much faster than traditional TB culture methods. The test is designed for use with the
+GeneXpert
+System.
+[
+48
+]
+Research directions
+[
+edit
+]
+As part of the
+End TB
+strategy, the WHO has identified four areas where research-based innovations are needed. These are 1) diagnostics, 2) treatment of active TB, 3) treatment of latent TB, and 4) vaccines.
+[
+145
+]
+Diagnostics
+[
+edit
+]
+Diagnosis of TB infection is difficult, slow, and expensive. This is particularly true of latent TB infection, or infection outside the lungs. Diagnostics can be improved by developing faster, more sensitive tests, preferably based on molecular testing of a blood sample rather than traditional cultivation of a sputum smear; as well as creating ultra-portable diagnostic devices for point-of-care use.
+[
+246
+]
+Treatment
+[
+edit
+]
+Treatment for TB generally involves taking a cocktail of (sometimes expensive) drugs daily over a period of months. Because the regimen is long and demanding, non-adherence is common, with patients forgetting doses or stopping treatment before completing the course. Shorter and simpler treatment regimens, as well as the introduction of new drugs, have the potential to improve adherence and thus improve outcomes.
+[
+145
+]
+There are two specific areas where research can lead to improvements in treatment. The first is the treatment of active tuberculosis, both drug-susceptible and drug-resistant strains. The introduction of safer, easier, and shorter treatment regimens would improve availability and adherence, giving better outcomes. The second area is the treatment and elimination of latent TB infection to prevent it from developing into the active form; again, improved treatment regimens would lead to better outcomes.
+[
+145
+]
+Beyond shorter or simpler drug regimens, improving treatment completion also depends on supportive measures such as better
+health literacy
+and support structures for people with TB. However, the evidence base for such interventions—particularly among underserved groups in low-incidence countries—remains limited, and further high-quality research is needed.
+[
+247
+]
+Vaccines
+[
+edit
+]
+Although it was originally developed over a century ago,
+[
+a
+]
+as of 2025
+[
+update
+]
+, BCG remains the only vaccine that is licensed for use; this is despite it having highly variable effectiveness.
+[
+248
+]
+A promising vaccine candidate,
+MVA85A
+, failed in 2019 to demonstrate effectiveness in clinical trials.
+[
+249
+]
+There is an urgent need for improved vaccines, which could be effective both before exposure to TB and also post exposure.
+[
+145
+]
+Other areas of research
+[
+edit
+]
+Fundamental research needs to continue into topics such as the interaction between the bacterium and its human host,
+[
+250
+]
+details of the chain of steps which culminate in TB transmission,
+[
+251
+]
+and the social and political obstacles to effective implementation of the elimination strategy.
+[
+252
+]
+Other animals
+[
+edit
+]
+Members of the genus
+Mycobacterium
+infect many different animals, including birds,
+[
+253
+]
+fish, rodents,
+[
+254
+]
+and reptiles.
+[
+255
+]
+The species
+Mycobacterium tuberculosis
+, though, is rarely present in wild animals.
+[
+256
+]
+An effort to eradicate bovine tuberculosis caused by
+Mycobacterium bovis
+from the cattle and deer herds of
+New Zealand
+has been relatively successful.
+[
+257
+]
+Efforts in Great Britain have been less successful.
+[
+258
+]
+[
+259
+]
+As of 2015
+[
+update
+]
+, tuberculosis appears to be widespread among captive
+elephants
+in the US. It is believed that the animals originally acquired the disease from humans, a process called
+reverse zoonosis
+. Because the disease can spread through the air to infect both humans and other animals, it is a public health concern affecting
+circuses
+and
+zoos
+.
+[
+260
+]
+[
+261
+]
+Transmission of both
+Mycobacterium bovis
+and
+Mycobacterium tuberculosis
+between humans and cattle has been documented, underscoring the importance of zooanthroponosis (human-to-animal transmission) and zoonotic tuberculosis (animal-to-human transmission). This highlights the need for a One Health approach that targets all four recognized reservoirs of tuberculosis — active TB disease and latent TB infection in humans, and active TB disease and latent TB infection in animals — if elimination is to be achieved. Diagnostic challenges further complicate control efforts, as commonly used nucleic acid amplification tests cannot reliably distinguish between members of the
+M. tuberculosis
+complex, and infections with
+M. bovis
+are naturally resistant to the first-line drug pyrazinamide, making species-specific diagnostic tools essential for effective treatment and surveillance.
+[
+262
+]
+See also
+[
+edit
+]
+Medicine portal
+Post-tuberculosis lung disease
+List of deaths due to tuberculosis
+Bibliography of tuberculosis
+International Congress on Tuberculosis
+Notes
+[
+edit
+]
+↑
+The Bacillus Calmette-Guérin (BCG) vaccine was first administered to humans in 1921
+References
+[
+edit
+]
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+"Tuberculosis (TB) Fact Sheet"
+.
+World Health Organization
+. 14 March 2025
+. Retrieved
+14 March
+2025
+.
+↑
+Ferri FF (2010).
+Ferri's differential diagnosis: a practical guide to the differential diagnosis of symptoms, signs, and clinical disorders
+(2nd
+ed.). Philadelphia, PA: Elsevier/Mosby. p.
+Chapter T.
+ISBN
+978-0-323-07699-9
+.
+1
+2
+The Chambers Dictionary
+. New Delhi: Allied Chambers India Ltd. 1998. p.
+352.
+ISBN
+978-81-86062-25-8
+.
+Archived
+from the original on 6 September 2015.
+1
+2
+3
+4
+"About Tuberculosis"
+.
+Centers for Disease Control and Prevention
+. 27 February 2025
+. Retrieved
+14 March
+2025
+.
+1
+2
+3
+4
+5
+6
+7
+8
+Adkinson NF, Bennett JE, Douglas RG, Mandell GL (2010).
+Mandell, Douglas, and Bennett's principles and practice of infectious diseases
+(7th
+ed.). Philadelphia, PA: Churchill Livingstone/Elsevier. p.
+Chapter 250.
+ISBN
+978-0-443-06839-3
+.
+↑
+"Testing for Tuberculosis"
+.
+Centers for Disease Prevention and Control
+. 17 June 2024
+. Retrieved
+14 March
+2025
+.
+1
+2
+"WHO endorses new rapid tuberculosis test"
+.
+World Health Organization
+. Archived from
+the original
+on 10 December 2010
+. Retrieved
+17 May
+2026
+.
+↑
+Hawn TR, Day TA, Scriba TJ, Hatherill M, Hanekom WA, Evans TG, et
+al. (December 2014).
+"Tuberculosis vaccines and prevention of infection"
+.
+Microbiology and Molecular Biology Reviews
+.
+78
+(4):
+650–
+71.
+doi
+:
+10.1128/MMBR.00021-14
+.
+PMC
+4248657
+.
+PMID
+25428938
+.
+1
+2
+Implementing the WHO Stop TB Strategy: a handbook for national TB control programmes
+. Geneva:
+World Health Organization
+(WHO). 2008. p.
+179.
+ISBN
+978-92-4-154667-6
+.
+Archived
+from the original on 2 June 2021
+. Retrieved
+17 September
+2017
+.
+↑
+Harris RE (2013).
+"Epidemiology of Tuberculosis"
+.
+Epidemiology of chronic disease: global perspectives
+. Burlington, MA: Jones & Bartlett Learning. p.
+682.
+ISBN
+978-0-7637-8047-0
+.
+Archived
+from the original on 7 February 2024
+. Retrieved
+17 September
+2017
+.
+↑
+"10 facts on tuberculosis"
+.
+World Health Organization
+. 29 October 2024
+. Retrieved
+15 March
+2025
+.
+1
+2
+3
+4
+5
+6
+7
+Lawn SD, Zumla AI (July 2011). "Tuberculosis".
+Lancet
+.
+378
+(9785):
+57–
+72.
+Bibcode
+:
+2011Lanc..378...57L
+.
+doi
+:
+10.1016/S0140-6736(10)62173-3
+.
+PMID
+21420161
+.
+S2CID
+208791546
+.
+1
+2
+Bloom BR (1994).
+Tuberculosis: pathogenesis, protection, and control
+. Washington, DC: ASM Press.
+ISBN
+978-1-55581-072-6
+.
+↑
+Persson S (2010).
+Smallpox, Syphilis and Salvation: Medical Breakthroughs That Changed the World
+. ReadHowYouWant.com. p.
+141.
+ISBN
+978-1-4587-6712-7
+.
+Archived
+from the original on 6 September 2015.
+↑
+Wall R (9 July 2024).
+"Tuberculosis Drug Discovery: Navigating Resistance and Developing New Therapies"
+.
+London School of Hygiene & Tropical Medicine
+. Retrieved
+15 March
+2025
+.
+1
+2
+3
+Buzic I, Giuffra V (30 April 2020).
+"The paleopathological evidence on the origins of human tuberculosis: a review"
+.
+Journal of Preventive Medicine and Hygiene
+.
+61
+(1 Suppl 1):
+E3–
+E8.
+doi
+:
+10.15167/2421-4248/JPMH2020.61.1S1.1379
+.
+PMC
+7263064
+.
+PMID
+32529097
+.
+↑
+Zink AR, Sola C, Reischl U, Grabner W, Rastogi N, Wolf H, et
+al. (January 2003).
+"Characterization of Mycobacterium tuberculosis complex DNAs from Egyptian mummies by spoligotyping"
+.
+Journal of Clinical Microbiology
+.
+41
+(1):
+359–
+67.
+doi
+:
+10.1128/JCM.41.1.359-367.2003
+.
+PMC
+149558
+.
+PMID
+12517873
+.
+↑
+Konomi N, Lebwohl E, Mowbray K, Tattersall I, Zhang D (December 2002).
+"Detection of mycobacterial DNA in Andean mummies"
+.
+Journal of Clinical Microbiology
+.
+40
+(12):
+4738–
+40.
+Bibcode
+:
+2002JCMb...40.4738K
+.
+doi
+:
+10.1128/JCM.40.12.4738-4740.2002
+.
+PMC
+154635
+.
+PMID
+12454182
+.
+↑
+Trail RR (April 1970).
+"Richard Morton (1637–1698)"
+.
+Medical History
+.
+14
+(2):
+166–
+74.
+doi
+:
+10.1017/S0025727300015350
+.
+PMC
+1034037
+.
+PMID
+4914685
+.
+↑
+Marten B (1720).
+A New Theory of Consumptions—More Especially a Phthisis or Consumption of the Lungs
+. London, England: T. Knaplock.
+Archived
+from the original on 26 March 2023
+. Retrieved
+8 December
+2020
+.
+P. 51:  "The
+Original
+and
+Essential Cause
+... may possibly be some certain Species of
+Animalcula
+or wonderfully minute living Creatures, ... "  P. 79:  "It may be therefore very likely, that by an habitual lying in the same Bed with a Consumptive Patient, constantly Eating and Drinking with him, or by very frequently conversing so nearly, as to draw in part of the Breath he emits from his Lungs, a Consumption may be caught by a sound Person; ... "
+↑
+Laennec RT (1819).
+De l'auscultation médiate ...
+(in French). Vol.
+1. Paris, France: J.-A. Brosson et J.-S Chaudé. p.
+20.
+Archived
+from the original on 2 June 2021
+. Retrieved
+6 December
+2020
+.
+From p. 20:
+"L'existence des tubercules dans le poumon est la cause et constitue le charactère anatomique propre de la phthisie pulmonaire (a).  (a) ... l'effet dont cette maladie tire son nom, c'est-à-dire, la consumption."
+(The existence of tubercles in the lung is the cause and constitutes the unique anatomical characteristic of pulmonary tuberculosis (a).  (a) ... the effect from which this malady [pulmonary tuberculosis] takes its name, that is, consumption.)
+↑
+Schönlein JL (1832).
+Allgemeine und specielle Pathologie und Therapie
+[
+General and Special Pathology and Therapy
+]
+(in German). Vol.
+3. Würzburg, (Germany): C. Etlinger. p.
+103.
+Archived
+from the original on 2 June 2021
+. Retrieved
+6 December
+2020
+.
+↑
+The word "tuberculosis" first appeared in Schönlein's clinical notes in 1829.  See:
+Jay SJ, Kırbıyık U, Woods JR, Steele GA, Hoyt GR, Schwengber RB, et
+al. (November 2018). "Modern theory of tuberculosis: culturomic analysis of its historical origin in Europe and North America".
+The International Journal of Tuberculosis and Lung Disease
+.
+22
+(11):
+1249–
+1257.
+doi
+:
+10.5588/ijtld.18.0239
+.
+PMID
+30355403
+.
+S2CID
+53027676
+.
+See especially Appendix, p. iii.
+↑
+Villemin JA (1865).
+"Cause et nature de la tuberculose"
+[
+Cause and nature of tuberculosis
+]
+.
+Bulletin de l'Académie Impériale de Médecine
+(in French).
+31
+:
+211–
+216.
+Archived
+from the original on 9 December 2021
+. Retrieved
+6 December
+2020
+.
+See also:
+Villemin JA (1868).
+Études sur la tuberculose: preuves rationnelles et expérimentales de sa spécificité et de son inoculabilité
+[
+Studies of tuberculosis: rational and experimental evidence of its specificity and inoculability
+]
+(in French). Paris, France: J.-B. Baillière et fils.
+Archived
+from the original on 7 February 2024
+. Retrieved
+6 December
+2020
+.
+↑
+Burdon-Sanderson, John Scott. (1870) "Introductory Report on the Intimate Pathology of Contagion." Appendix to:  Twelfth Report to the Lords of Her Majesty's Most Honourable Privy Council of the Medical Officer of the Privy Council [for the year 1869], Parliamentary Papers (1870), vol. 38, 229–256.
+↑
+Koch R (2018) [1882].
+"Die Ätiologie der Tuberkulose (1882)"
+.
+Robert Koch: Zentrale Texte
+[
+The Etiology of Tuberculosis
+]
+. Klassische Texte der Wissenschaft. Vol.
+19. Berlin, Heidelberg: Springer Spektrum. pp.
+221–
+30.
+doi
+:
+10.1007/978-3-662-56454-7_4
+.
+ISBN
+978-3-662-56454-7
+.
+Archived
+from the original on 6 November 2018
+. Retrieved
+15 June
+2021
+.
+1
+2
+3
+CDC (19 February 2025).
+"History of World TB Day"
+.
+World TB Day
+. Retrieved
+26 December
+2025
+.
+↑
+"The Nobel Prize in Physiology or Medicine 1905"
+.
+www.nobelprize.org
+.
+Archived
+from the original on 10 December 2006
+. Retrieved
+7 October
+2006
+.
+1
+2
+Frith J.
+"History of Tuberculosis. Part 1 – Phthisis, consumption and the White Plague"
+.
+Journal of Military and Veterans' Health
+.
+Archived
+from the original on 8 April 2021
+. Retrieved
+26 February
+2021
+.
+↑
+Zürcher K, Zwahlen M, Ballif M, Rieder HL, Egger M, Fenner L (5 October 2016).
+"Influenza Pandemics and Tuberculosis Mortality in 1889 and 1918: Analysis of Historical Data from Switzerland"
+.
+PLOS ONE
+.
+11
+(10) e0162575.
+Bibcode
+:
+2016PLoSO..1162575Z
+.
+doi
+:
+10.1371/journal.pone.0162575
+.
+PMC
+5051959
+.
+PMID
+27706149
+.
+↑
+"Revealing Data: Collecting Data about TB, ca. 1900"
+.
+Circulating Now
+. NLM Historical Collections. 31 January 2018
+. Retrieved
+18 January
+2026
+.
+↑
+"Kentucky: Mammoth Cave long on history"
+.
+CNN
+. 27 February 2004. Archived from
+the original
+on 13 August 2006
+. Retrieved
+8 October
+2006
+.
+1
+2
+3
+McCarthy OR (August 2001).
+"The key to the sanatoria"
+.
+Journal of the Royal Society of Medicine
+.
+94
+(8):
+413–
+17.
+doi
+:
+10.1177/014107680109400813
+.
+PMC
+1281640
+.
+PMID
+11461990
+. Retrieved
+28 September
+2011
+.
+↑
+Waddington K (January 2004).
+"To stamp out 'so terrible a malady': bovine tuberculosis and tuberculin testing in Britain, 1890–1939"
+.
+Medical History
+.
+48
+(1):
+29–
+48.
+doi
+:
+10.1017/S0025727300007043
+.
+PMC
+546294
+.
+PMID
+14968644
+.
+↑
+Hannaway C (2008).
+Biomedicine in the twentieth century: practices, policies, and politics
+. Amsterdam: IOS Press. p.
+233.
+ISBN
+978-1-58603-832-8
+.
+Archived
+from the original on 7 September 2015.
+↑
+Bonah C (December 2005). "The 'experimental stable' of the BCG vaccine: safety, efficacy, proof, and standards, 1921–1933".
+Studies in History and Philosophy of Biological and Biomedical Sciences
+.
+36
+(4):
+696–
+721.
+doi
+:
+10.1016/j.shpsc.2005.09.003
+.
+PMID
+16337557
+.
+↑
+Comstock GW (September 1994). "The International Tuberculosis Campaign: a pioneering venture in mass vaccination and research".
+Clinical Infectious Diseases
+.
+19
+(3):
+528–
+40.
+doi
+:
+10.1093/clinids/19.3.528
+.
+PMID
+7811874
+.
+↑
+Shields T (2009).
+General thoracic surgery
+(7th
+ed.). Philadelphia: Wolters Kluwer Health/Lippincott Williams & Wilkins. p.
+792.
+ISBN
+978-0-7817-7982-1
+.
+Archived
+from the original on 6 September 2015.
+↑
+McKeown T (31 December 1980).
+The Role of Medicine
+. Princeton University Press.
+doi
+:
+10.1515/9781400854622
+.
+ISBN
+978-1-4008-5462-2
+.
+↑
+Barberis I, Bragazzi NL, Galluzzo L, Martini M (March 2017).
+"The history of tuberculosis: from the first historical records to the isolation of Koch's bacillus"
+.
+Journal of Preventive Medicine and Hygiene
+.
+58
+(1):
+E9–
+E12.
+ISSN
+1121-2233
+.
+PMC
+5432783
+.
+PMID
+28515626
+.
+1
+2
+Keshavjee S, Farmer PE (6 September 2012).
+"Tuberculosis, Drug Resistance, and the History of Modern Medicine"
+.
+New England Journal of Medicine
+.
+367
+(10):
+931–
+936.
+doi
+:
+10.1056/NEJMra1205429
+.
+ISSN
+0028-4793
+.
+PMID
+22931261
+.
+↑
+Chaisson RE, Frick M, Nahid P (March 2022).
+"The scientific response to TB - the other deadly global health emergency"
+.
+The International Journal of Tuberculosis and Lung Disease
+.
+26
+(3):
+186–
+189.
+doi
+:
+10.5588/ijtld.21.0734
+.
+PMC
+8886961
+.
+PMID
+35197158
+.
+↑
+Nakajima DH (July–August 1993).
+"Tuberculosis: a global emergency"
+.
+World Health, the Magazine of the World Health Organization
+.
+46
+(4): 3
+. Retrieved
+26 December
+2025
+.
+↑
+"Clinical Overview of Drug-Resistant Tuberculosis Disease"
+. U.S. Centers for Disease Control and Prevention. 6 January 2025
+. Retrieved
+26 December
+2025
+.
+↑
+O'Brien RJ (June 1994). "Drug-resistant tuberculosis: etiology, management and prevention".
+Seminars in Respiratory Infections
+.
+9
+(2):
+104–
+112.
+ISSN
+0882-0546
+.
+PMID
+7973169
+.
+1
+2
+"Lesson 4. Diagnosis of Tuberculosis - 5. Bacteriological Examination – Drug Susceptibility Testing"
+.
+TB 101 for Health Care Workers
+. U.S. Centers for Disease Control and Prevention. 11 April 2024
+. Retrieved
+26 December
+2025
+.
+1
+2
+"WHO says Cepheid rapid test will transform TB care"
+.
+Reuters
+. 8 December 2010.
+Archived
+from the original on 11 December 2010.
+1
+2
+3
+"Xpert MTB/RIF Assay - A Tool to Diagnose Tuberculosis"
+.
+Centers for Disease Control and Prevention
+. 29 April 2024
+. Retrieved
+15 April
+2025
+.
+↑
+Jang JG, Chung JH (4 September 2020).
+"Diagnosis and treatment of multidrug-resistant tuberculosis"
+.
+Journal of Yeungnam Medical Science
+.
+37
+(4):
+277–
+285.
+doi
+:
+10.12701/yujm.2020.00626
+.
+ISSN
+2384-0293
+.
+PMC
+7606956
+.
+PMID
+32883054
+.
+↑
+"Tuberculosis: Multidrug-resistant (MDR-TB) or rifampicin-resistant TB (RR-TB)"
+.
+World Health Organization
+. 20 May 2024
+. Retrieved
+11 June
+2025
+.
+↑
+"Tuberculosis: Extensively drug-resistant tuberculosis (XDR-TB)"
+.
+World Health Organization
+. 23 May 2024
+. Retrieved
+11 June
+2025
+.
+1
+2
+Cegielski P, Nunn P, Kurbatova EV, Weyer K, Dalton TL, Wares DF, et
+al. (November 2012).
+"Challenges and controversies in defining totally drug-resistant tuberculosis"
+.
+Emerging Infectious Diseases
+.
+18
+(11): e2.
+doi
+:
+10.3201/eid1811.120526
+.
+ISSN
+1080-6059
+.
+PMC
+3559144
+.
+PMID
+23092736
+.
+1
+2
+"Global tuberculosis report 2023 - 2.4 Drug-resistant TB treatment"
+.
+World Health Organization
+. 21 July 2023
+. Retrieved
+11 June
+2025
+.
+1
+2
+3
+4
+"Global Tuberculosis Report 2024 - 1.3 Drug-resistant TB"
+.
+World Health Organization
+. Retrieved
+12 June
+2025
+.
+↑
+Parida SK, Axelsson-Robertson R, Rao MV, Singh N, Master I, Lutckii A, et
+al. (April 2015). "Totally drug-resistant tuberculosis and adjunct therapies".
+J Intern Med
+.
+277
+(4):
+388–
+405.
+doi
+:
+10.1111/joim.12264
+.
+PMID
+24809736
+.
+↑
+Millard J, Ugarte-Gil C, Moore DA (26 February 2015).
+"Multidrug resistant tuberculosis"
+.
+BMJ
+.
+350
+: h882.
+doi
+:
+10.1136/bmj.h882
+.
+ISSN
+1756-1833
+.
+PMID
+25721508
+.
+S2CID
+11683912
+.
+↑
+"The ongoing problem of tuberculosis in the UK".
+The Lancet
+.
+381
+(9876): 1431. 27 April 2013.
+doi
+:
+10.1016/S0140-6736(13)60910-1
+.
+PMID
+23622269
+.
+↑
+van den Hof S, Collins D, Hafidz F, Beyene D, Tursynbayeva A, Tiemersma E (5 September 2016).
+"The socioeconomic impact of multidrug resistant tuberculosis on patients: results from Ethiopia, Indonesia and Kazakhstan"
+.
+BMC Infectious Diseases
+.
+16
+(1): 470.
+doi
+:
+10.1186/s12879-016-1802-x
+.
+ISSN
+1471-2334
+.
+PMC
+5011357
+.
+PMID
+27595779
+.
+↑
+Numpong S, Kengganpanich M, Kaewkungwal J, Pan-ngum W, Silachamroon U, Kasetjaroen Y, et
+al. (1 January 2022).
+"Confronting and Coping with Multidrug-Resistant Tuberculosis: Life Experiences in Thailand"
+.
+Qualitative Health Research
+.
+32
+(1):
+159–
+167.
+doi
+:
+10.1177/10497323211049777
+.
+ISSN
+1049-7323
+.
+PMC
+8739603
+.
+PMID
+34845946
+.
+↑
+Kamboj A, Lause M, Kamboj K (2023). "The Problem of Tuberculosis: Myths, Stigma, and Mimics". In Rezaei N (ed.).
+Tuberculosis
+. Integrated Science. Vol.
+11. Springer. pp.
+1046–
+1062.
+doi
+:
+10.1007/978-3-031-15955-8_50
+.
+ISBN
+978-3-031-15954-1
+.
+1
+2
+3
+Price C, Nguyen AD (11 January 2024),
+"Latent Tuberculosis"
+,
+StatPearls
+, Treasure Island (FL): StatPearls Publishing,
+PMID
+38261712
+, retrieved
+17 March
+2025
+↑
+Behera D (2010).
+Textbook of Pulmonary Medicine
+(2nd
+ed.). New Delhi: Jaypee Brothers Medical Publishers. p.
+457.
+ISBN
+978-81-8448-749-7
+.
+Archived
+from the original on 6 September 2015.
+↑
+"Tuberculosis (TB)"
+.
+National Health Service
+. 20 April 2023
+. Retrieved
+17 March
+2025
+.
+↑
+Halezeroğlu S, Okur E (March 2014).
+"Thoracic surgery for haemoptysis in the context of tuberculosis: what is the best management approach?"
+.
+Journal of Thoracic Disease
+.
+6
+(3):
+182–
+85.
+doi
+:
+10.3978/j.issn.2072-1439.2013.12.25
+.
+PMC
+3949181
+.
+PMID
+24624281
+.
+↑
+Gai X, Allwood B, Sun Y (August 2023).
+"Post-tuberculosis lung disease and chronic obstructive pulmonary disease"
+.
+Chinese Medical Journal
+.
+136
+(16):
+1923–
+1928.
+doi
+:
+10.1097/CM9.0000000000002771
+.
+PMC
+10431356
+.
+PMID
+37455331
+.
+↑
+Kim HY, Song KS, Goo JM, Lee JS, Lee KS, Lim TH (2001). "Thoracic sequelae and complications of tuberculosis".
+Radiographics
+.
+21
+(4):
+839–
+860.
+doi
+:
+10.1148/radiographics.21.4.g01jl06839
+.
+PMID
+11452057
+.
+↑
+Jindal SK, ed. (2011).
+Textbook of Pulmonary and Critical Care Medicine
+. New Delhi: Jaypee Brothers Medical Publishers. p.
+549.
+ISBN
+978-93-5025-073-0
+.
+Archived
+from the original on 7 September 2015.
+1
+2
+Golden MP, Vikram HR (November 2005). "Extrapulmonary tuberculosis: an overview".
+American Family Physician
+.
+72
+(9):
+1761–
+68.
+PMID
+16300038
+.
+1
+2
+Habermann TM, Ghosh A (2008).
+Mayo Clinic internal medicine: concise textbook
+. Rochester, MN: Mayo Clinic Scientific Press. p.
+789.
+ISBN
+978-1-4200-6749-1
+.
+Archived
+from the original on 6 September 2015.
+↑
+"Clinical Symptoms of Tuberculosis"
+.
+Centers for Disease Control and Prevention
+. 8 May 2024
+. Retrieved
+17 March
+2025
+.
+1
+2
+Figueiredo AA, Lucon AM, Srougi M (24 February 2017). Schlossberg D (ed.).
+"Urogenital Tuberculosis"
+.
+Microbiology Spectrum
+.
+5
+(1) 5.1.01.
+doi
+:
+10.1128/microbiolspec.TNMI7-0015-2016
+.
+ISSN
+2165-0497
+.
+PMC
+11687435
+.
+PMID
+28087922
+.
+↑
+Jindal SK (2011).
+Textbook of Pulmonary and Critical Care Medicine
+. New Delhi: Jaypee Brothers Medical Publishers. p.
+525.
+ISBN
+978-93-5025-073-0
+.
+Archived
+from the original on 6 September 2015.
+↑
+Southwick F (2007). "Chapter 4: Pulmonary Infections".
+Infectious Diseases: A Clinical Short Course, 2nd ed
+. McGraw-Hill Medical Publishing Division. pp.
+104,
+313–
+14.
+ISBN
+978-0-07-147722-2
+.
+↑
+Niederweis M, Danilchanka O, Huff J, Hoffmann C, Engelhardt H (March 2010).
+"Mycobacterial outer membranes: in search of proteins"
+.
+Trends in Microbiology
+.
+18
+(3):
+109–
+16.
+doi
+:
+10.1016/j.tim.2009.12.005
+.
+PMC
+2931330
+.
+PMID
+20060722
+.
+↑
+Madison BM (May 2001). "Application of stains in clinical microbiology".
+Biotechnic & Histochemistry
+.
+76
+(3):
+119–
+25.
+doi
+:
+10.1080/714028138
+.
+PMID
+11475314
+.
+↑
+"Pathogen Safety Data Sheets: Infectious Substances – Mycobacterium tuberculosis and Mycobacterium tuberculosis complex"
+.
+www.canada.ca
+. Public Health Agency of Canada. 13 September 2012
+. Retrieved
+27 December
+2025
+.
+↑
+Parish T, Stoker NG (December 1999).
+"Mycobacteria: bugs and bugbears (two steps forward and one step back)"
+.
+Molecular Biotechnology
+.
+13
+(3):
+191–
+200.
+doi
+:
+10.1385/MB:13:3:191
+.
+PMID
+10934532
+.
+S2CID
+28960959
+.
+↑
+Zhang H, Liu M, Fan W, Sun S, Fan X (7 September 2022).
+"The impact of Mycobacterium tuberculosis complex in the environment on one health approach"
+.
+Frontiers in Public Health
+.
+10
+994745.
+Bibcode
+:
+2022FrPH...1094745Z
+.
+doi
+:
+10.3389/fpubh.2022.994745
+.
+ISSN
+2296-2565
+.
+PMC
+9489838
+.
+PMID
+36159313
+.
+1
+2
+3
+4
+5
+Kumar V, Robbins SL (2007).
+Robbins Basic Pathology
+(8th
+ed.). Philadelphia: Elsevier.
+ISBN
+978-1-4160-2973-1
+.
+OCLC
+69672074
+.
+↑
+Thoen C, Lobue P, de Kantor I (February 2006). "The importance of Mycobacterium bovis as a zoonosis".
+Veterinary Microbiology
+.
+112
+(
+2–
+4):
+339–
+45.
+doi
+:
+10.1016/j.vetmic.2005.11.047
+.
+PMID
+16387455
+.
+↑
+Niemann S, Rüsch-Gerdes S, Joloba ML, Whalen CC, Guwatudde D, Ellner JJ, et
+al. (September 2002).
+"Mycobacterium africanum subtype II is associated with two distinct genotypes and is a major cause of human tuberculosis in Kampala, Uganda"
+.
+Journal of Clinical Microbiology
+.
+40
+(9):
+3398–
+405.
+doi
+:
+10.1128/JCM.40.9.3398-3405.2002
+.
+PMC
+130701
+.
+PMID
+12202584
+.
+↑
+Niobe-Eyangoh SN, Kuaban C, Sorlin P, Cunin P, Thonnon J, Sola C, et
+al. (June 2003).
+"Genetic biodiversity of Mycobacterium tuberculosis complex strains from patients with pulmonary tuberculosis in Cameroon"
+.
+Journal of Clinical Microbiology
+.
+41
+(6):
+2547–
+53.
+doi
+:
+10.1128/JCM.41.6.2547-2553.2003
+.
+PMC
+156567
+.
+PMID
+12791879
+.
+↑
+Acton QA (2011).
+Mycobacterium Infections: New Insights for the Healthcare Professional
+. ScholarlyEditions. p.
+1968.
+ISBN
+978-1-4649-0122-5
+.
+Archived
+from the original on 6 September 2015.
+↑
+Pfyffer GE, Auckenthaler R, van Embden JD, van Soolingen D (1998).
+"Mycobacterium canettii, the smooth variant of M. tuberculosis, isolated from a Swiss patient exposed in Africa"
+.
+Emerging Infectious Diseases
+.
+4
+(4):
+631–
+4.
+doi
+:
+10.3201/eid0404.980414
+.
+PMC
+2640258
+.
+PMID
+9866740
+.
+↑
+Panteix G, Gutierrez MC, Boschiroli ML, Rouviere M, Plaidy A, Pressac D, et
+al. (August 2010).
+"Pulmonary tuberculosis due to Mycobacterium microti: a study of six recent cases in France"
+.
+Journal of Medical Microbiology
+.
+59
+(Pt 8):
+984–
+989.
+doi
+:
+10.1099/jmm.0.019372-0
+.
+PMID
+20488936
+.
+↑
+Smith NH, Crawshaw T, Parry J, Birtles RJ (August 2009).
+"Mycobacterium microti: More diverse than previously thought"
+.
+Journal of Clinical Microbiology
+.
+47
+(8):
+2551–
+2559.
+doi
+:
+10.1128/jcm.00638-09
+.
+PMC
+2725668
+.
+PMID
+19535520
+.
+↑
+"MAC Lung Disease"
+.
+American Lung Association
+. Retrieved
+18 March
+2025
+.
+↑
+Busatto C, Vianna JS, da Silva LV, Ramis IB, da Silva PE (January 2019). "Mycobacterium avium: an overview".
+Tuberculosis
+.
+114
+:
+127–
+134.
+doi
+:
+10.1016/j.tube.2018.12.004
+.
+PMID
+30711152
+.
+↑
+Johnston JC, Chiang L, Elwood K (January 2017).
+"Mycobacterium kansasii"
+.
+Microbiology Spectrum
+.
+5
+(1) 5.1.21: 10.1128/microbiolspec.tnmi7–0011–2016.
+doi
+:
+10.1128/microbiolspec.tnmi7-0011-2016
+.
+PMC
+11687434
+.
+PMID
+28185617
+.
+↑
+"Diagnosis and treatment of disease caused by nontuberculous mycobacteria".
+American Journal of Respiratory and Critical Care Medicine
+.
+156
+(2 Pt 2):
+S1–
+S25. August 1997.
+doi
+:
+10.1164/ajrccm.156.2.atsstatement
+.
+PMID
+9279284
+.
+1
+2
+3
+"Tuberculosis: Causes and How It Spreads"
+.
+Centers for Disease Control and Prevention
+. 5 February 2025
+. Retrieved
+18 March
+2025
+.
+1
+2
+3
+"Tuberculosis (TB): Prevention and risks"
+.
+Public Health Agency of Canada
+. 21 February 2024
+. Retrieved
+20 March
+2025
+.
+↑
+"Clinical Overview of Latent Tuberculosis Infection"
+.
+Centers for Disease Control and Prevention
+. 10 December 2024
+. Retrieved
+19 March
+2025
+.
+1
+2
+Ahmed N, Hasnain SE (September 2011). "Molecular epidemiology of tuberculosis in India: moving forward with a systems biology approach".
+Tuberculosis
+.
+91
+(5):
+407–
+13.
+doi
+:
+10.1016/j.tube.2011.03.006
+.
+PMID
+21514230
+.
+1
+2
+Schmidt CW (November 2008).
+"Linking TB and the Environment: An Overlooked Mitigation Strategy"
+.
+Environmental Health Perspectives
+.
+116
+(11):
+A478–
+A485.
+Bibcode
+:
+2008EnvHP.116.a478S
+.
+doi
+:
+10.1289/ehp.116-a478
+(inactive 13 January 2026).
+PMC
+2592293
+.
+PMID
+19057686
+.
+{{
+cite journal
+}}
+:  CS1 maint: DOI inactive as of January 2026 (
+link
+)
+1
+2
+Narasimhan P, Wood J, Macintyre CR, Mathai D (2013).
+"Risk factors for tuberculosis"
+.
+Pulmonary Medicine
+.
+2013
+828939.
+doi
+:
+10.1155/2013/828939
+.
+PMC
+3583136
+.
+PMID
+23476764
+.
+1
+2
+3
+4
+5
+6
+7
+8
+"Global Tuberculosis Report 2024: 1.1 TB incidence"
+.
+World Health Organization
+. 29 October 2024
+. Retrieved
+14 August
+2025
+.
+↑
+Gibson PG, Abramson M, Wood-Baker R, Volmink J, Hensley M, Costabel U, eds. (2005).
+Evidence-Based Respiratory Medicine
+(1st
+ed.). BMJ Books. p.
+321.
+ISBN
+978-0-7279-1605-1
+.
+Archived
+from the original on 8 December 2015.
+↑
+Maeda T, Connolly M, Thevenet-Morrison K, Levy P, Utell M, Munsiff S, et
+al. (August 2024).
+"Tuberculosis screening for patients on biologic Medications: A Single-Center experience and Society guideline Review, Monroe County, New York, 2018-2021"
+.
+J Clin Tuberc Other Mycobact Dis
+.
+36
+100460.
+doi
+:
+10.1016/j.jctube.2024.100460
+.
+PMC
+11254483
+.
+PMID
+39021381
+.
+1
+2
+"TB Risk Factors"
+.
+CDC
+. 18 March 2016.
+Archived
+from the original on 30 August 2020
+. Retrieved
+25 August
+2020
+.
+1
+2
+3
+4
+5
+Ahmad F, Rani A, Alam A, Zarin S, Pandey S, Singh H, et
+al. (6 May 2022).
+"Macrophage: A Cell With Many Faces and Functions in Tuberculosis"
+.
+Frontiers in Immunology
+.
+13
+747799.
+doi
+:
+10.3389/fimmu.2022.747799
+.
+ISSN
+1664-3224
+.
+PMC
+9122124
+.
+PMID
+35603185
+.
+↑
+Hampton MB, Vissers MC, Winterbourn CC (February 1994). "A single assay for measuring the rates of phagocytosis and bacterial killing by neutrophils".
+J. Leukoc. Biol
+.
+55
+(2):
+147–
+52.
+doi
+:
+10.1002/jlb.55.2.147
+.
+PMID
+8301210
+.
+S2CID
+44911791
+.
+1
+2
+Rohde K, Yates RM, Purdy GE, Russell DG (2007).
+"Mycobacterium tuberculosis and the environment within the phagosome"
+.
+Immunological Reviews
+.
+219
+(1):
+37–
+54.
+doi
+:
+10.1111/j.1600-065X.2007.00547.x
+.
+ISSN
+1600-065X
+.
+PMID
+17850480
+.
+↑
+Delves PJ, Martin SJ, Burton DR, Roit IM (2006).
+Roitt's Essential Immunology
+(11th
+ed.). Malden, MA: Blackwell Publishing. pp.
+6–
+7.
+ISBN
+978-1-4051-3603-7
+.
+1
+2
+Silva Miranda M, Breiman A, Allain S, Deknuydt F, Altare F (2012).
+"The Tuberculous Granuloma: An Unsuccessful Host Defence Mechanism Providing a Safety Shelter for the Bacteria?"
+.
+Journal of Immunology Research
+.
+2012
+(1) 139127.
+doi
+:
+10.1155/2012/139127
+.
+ISSN
+2314-7156
+.
+PMC
+3395138
+.
+PMID
+22811737
+.
+1
+2
+Alzayer Z, Al Nasser Y (2025),
+"Primary Lung Tuberculosis"
+,
+StatPearls
+, Treasure Island (FL): StatPearls Publishing,
+PMID
+33620814
+, retrieved
+26 March
+2025
+↑
+Crowley LV (2010).
+An introduction to human disease: pathology and pathophysiology correlations
+(8th
+ed.). Sudbury, MA: Jones and Bartlett. p.
+374.
+ISBN
+978-0-7637-6591-0
+.
+Archived
+from the original on 6 September 2015.
+↑
+Harries AD, Maher D, Graham S (2005).
+TB/HIV a Clinical Manual
+(2nd
+ed.). Geneva: World Health Organization (WHO). p.
+75.
+ISBN
+978-92-4-154634-8
+.
+Archived
+from the original on 6 September 2015.
+↑
+Jacob JT, Mehta AK, Leonard MK (January 2009). "Acute forms of tuberculosis in adults".
+The American Journal of Medicine
+.
+122
+(1):
+12–
+17.
+doi
+:
+10.1016/j.amjmed.2008.09.018
+.
+PMID
+19114163
+.
+1
+2
+Grosset J (March 2003).
+"Mycobacterium tuberculosis in the extracellular compartment: an underestimated adversary"
+.
+Antimicrobial Agents and Chemotherapy
+.
+47
+(3):
+833–
+36.
+doi
+:
+10.1128/AAC.47.3.833-836.2003
+.
+PMC
+149338
+.
+PMID
+12604509
+.
+1
+2
+Tobin EH, Tristram D (22 December 2024),
+"Tuberculosis Overview"
+,
+StatPearls
+, Treasure Island (FL): StatPearls Publishing,
+PMID
+28722945
+, retrieved
+27 March
+2025
+1
+2
+CDC (30 January 2025).
+"Clinical Overview of Tuberculosis Disease"
+.
+Tuberculosis (TB)
+. Retrieved
+29 March
+2025
+.
+↑
+Datta S, Evans CA (1 September 2020).
+"The uncertainty of tuberculosis diagnosis"
+.
+The Lancet Infectious Diseases
+.
+20
+(9):
+1002–
+1004.
+doi
+:
+10.1016/S1473-3099(20)30400-X
+.
+ISSN
+1473-3099
+.
+PMC
+7234790
+.
+PMID
+32437698
+.
+↑
+Hewison C, Gomez D, Deborggraeve S (24 October 2022).
+"The deadly gap in diagnosing children with tuberculosis"
+.
+MSF Access Campaign
+. Retrieved
+29 March
+2025
+.
+1
+2
+3
+Escalante P (June 2009). "In the clinic. Tuberculosis".
+Annals of Internal Medicine
+.
+150
+(11): ITC61-614, quiz ITV616.
+doi
+:
+10.7326/0003-4819-150-11-200906020-01006
+.
+PMID
+19487708
+.
+S2CID
+639982
+.
+↑
+CDC (30 January 2025).
+"Clinical and Laboratory Diagnosis for Tuberculosis"
+.
+Centers for Disease Control and Prevention
+. Retrieved
+29 March
+2025
+.
+↑
+"TB Elimination - Tuberculin Skin Testing"
+(PDF)
+.
+CDC.gov
+. CDC - National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention - Division of Tuberculosis Elimination. October 2011
+. Retrieved
+5 June
+2017
+.
+↑
+"The Mantoux test: Administration, reading and interpretation"
+(PDF)
+.
+NHS.uk
+. Archived from
+the original
+(PDF)
+on 15 February 2010
+. Retrieved
+5 June
+2017
+.
+↑
+"Mantoux Tuberculin Skin Test"
+(PDF)
+.
+Centers for Disease Control and Prevention
+. Retrieved
+30 March
+2025
+.
+↑
+"Table A3.1, Causes of false-negative and false-positive tuberculin skin tests"
+.
+www.ncbi.nlm.nih.gov
+. 2014
+. Retrieved
+30 March
+2025
+.
+↑
+Nayak S, Acharjya B (April 2012).
+"Mantoux test and its interpretation"
+.
+Indian Dermatology Online Journal
+.
+3
+(1):
+2–
+6.
+doi
+:
+10.4103/2229-5178.93479
+.
+ISSN
+2229-5178
+.
+PMC
+3481914
+.
+PMID
+23130251
+.
+↑
+Denkinger CM, Dheda K, Pai M (June 2011). "Guidelines on interferon-γ release assays for tuberculosis infection: concordance, discordance or confusion?".
+Clinical Microbiology and Infection
+.
+17
+(6):
+806–
+814.
+doi
+:
+10.1111/j.1469-0691.2011.03555.x
+.
+PMID
+21682801
+.
+1
+2
+"Clinical Testing Guidance for Tuberculosis: Interferon Gamma Release Assay"
+.
+Centers for Disease Control and Prevention
+. 12 September 2024
+. Retrieved
+30 March
+2025
+.
+↑
+Jindal SK, ed. (2011).
+Textbook of Pulmonary and Critical Care Medicine
+. New Delhi: Jaypee Brothers Medical Publishers. p.
+544.
+ISBN
+978-93-5025-073-0
+.
+Archived
+from the original on 6 September 2015.
+↑
+Pattamapaspong N, Kanthawang T, Peh WC, Hammami N, Chelli Bouaziz M, Ladeb MF (January 2024).
+"Imaging of thoracic tuberculosis: pulmonary and extrapulmonary"
+.
+BJR Open
+.
+6
+(1) tzae031.
+doi
+:
+10.1093/bjro/tzae031
+.
+PMC
+11449295
+.
+PMID
+39363908
+.
+↑
+Steingart KR, Henry M, Ng V, Hopewell PC, Ramsay A, Cunningham J, et
+al. (September 2006). "Fluorescence versus conventional sputum smear microscopy for tuberculosis: a systematic review".
+The Lancet. Infectious Diseases
+.
+6
+(9):
+570–
+81.
+doi
+:
+10.1016/S1473-3099(06)70578-3
+.
+PMID
+16931408
+.
+↑
+"Acid-Fast Bacillus (AFB) Tests"
+.
+MedlinePlus
+. Retrieved
+31 March
+2025
+.
+↑
+Bento J, Silva AS, Rodrigues F, Duarte R (2011).
+"
+[
+Diagnostic tools in tuberculosis
+]
+"
+.
+Acta Médica Portuguesa
+.
+24
+(1):
+145–
+54.
+doi
+:
+10.20344/amp.333
+.
+PMID
+21672452
+.
+S2CID
+76156550
+.
+↑
+Steingart KR, Flores LL, Dendukuri N, Schiller I, Laal S, Ramsay A, et
+al. (August 2011). Evans C (ed.).
+"Commercial serological tests for the diagnosis of active pulmonary and extrapulmonary tuberculosis: an updated systematic review and meta-analysis"
+.
+PLOS Medicine
+.
+8
+(8) e1001062.
+doi
+:
+10.1371/journal.pmed.1001062
+.
+PMC
+3153457
+.
+PMID
+21857806
+.
+↑
+"Tuberculosis Vaccine"
+.
+Centers for Disease Control and Prevention
+. 5 February 2025
+. Retrieved
+21 April
+2025
+.
+↑
+"Tuberculosis (TB): migrant health guide"
+.
+GOV.UK
+. 31 March 2025
+. Retrieved
+21 April
+2025
+.
+↑
+McShane H (October 2011).
+"Tuberculosis vaccines: beyond bacille Calmette-Guerin"
+.
+Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences
+.
+366
+(1579):
+2782–
+89.
+doi
+:
+10.1098/rstb.2011.0097
+.
+PMC
+3146779
+.
+PMID
+21893541
+.
+↑
+"Vaccines"
+.
+Centers for Disease Control
+. Archived from
+the original
+on 30 December 2021.
+1
+2
+"BCG vaccines: WHO position paper – February 2018".
+Weekly Epidemiological Record
+. Vol.
+93, no.
+8. 23 February 2018. pp.
+73–
+96.
+hdl
+:
+10665/260307
+.
+PMID
+29474026
+.
+↑
+Roy A, Eisenhut M, Harris RJ, Rodrigues LC, Sridhar S, Habermann S, et
+al. (August 2014).
+"Effect of BCG vaccination against Mycobacterium tuberculosis infection in children: systematic review and meta-analysis"
+.
+BMJ
+.
+349
+(aug04 5) g4643.
+doi
+:
+10.1136/bmj.g4643
+.
+PMC
+4122754
+.
+PMID
+25097193
+.
+↑
+Dias JV, Varandas L, Gonçalves L, Kagina B (June 2024). "Outcomes of childhood TB in countries with a universal BCG vaccination policy".
+The International Journal of Tuberculosis and Lung Disease
+.
+28
+(6):
+273–
+277.
+doi
+:
+10.5588/ijtld.23.0321
+.
+PMID
+38822485
+.
+↑
+Martinez L, Cords O, Liu Q, Acuna-Villaorduna C, Bonnet M, Fox GJ, et
+al. (1 September 2022).
+"Infant BCG vaccination and risk of pulmonary and extrapulmonary tuberculosis throughout the life course: a systematic review and individual participant data meta-analysis"
+.
+The Lancet Global Health
+.
+10
+(9):
+e1307–
+e1316.
+doi
+:
+10.1016/S2214-109X(22)00283-2
+.
+ISSN
+2214-109X
+.
+PMC
+10406427
+.
+PMID
+35961354
+.
+1
+2
+3
+4
+WHO operational handbook on tuberculosis: Module 1 – Prevention, infection prevention and control
+. World Health Organization. 2023.
+ISBN
+978-92-4-007815-4
+. Retrieved
+7 March
+2026
+.
+1
+2
+"National Tuberculosis Elimination Programme"
+.
+Ministry of Health and Family Welfare, Government of India
+. Retrieved
+7 March
+2026
+.
+1
+2
+"End TB Transmission Initiative (ETTi)"
+. Stop TB Partnership
+. Retrieved
+7 March
+2026
+.
+1
+2
+Maxwell
+&
+Pye-Smith 1899
+, p.
+5.
+↑
+Maxwell
+&
+Pye-Smith 1899
+, p.
+8.
+↑
+Abrams JE (July 2013). "
+"Spitting is dangerous, indecent, and against the law!" Legislating health behavior during the American tuberculosis crusade".
+Journal of the History of Medicine and Allied Sciences
+.
+68
+(3):
+416–
+450.
+doi
+:
+10.1093/jhmas/jrr073
+.
+PMID
+22298563
+.
+↑
+"The Global Plan to Stop TB"
+.
+World Health Organization
+(WHO). 2011.
+Archived
+from the original on 12 June 2011
+. Retrieved
+13 June
+2011
+.
+1
+2
+3
+4
+5
+"The End TB Strategy: Brochure"
+.
+Global Programme on Tuberculosis and Lung Health
+. 18 March 2015
+. Retrieved
+20 September
+2025
+.
+1
+2
+3
+4
+Global tuberculosis report 2020
+. World Health Organization. 2020.
+ISBN
+978-92-4-001313-1
+.
+Archived
+from the original on 22 July 2021
+. Retrieved
+22 July
+2021
+.
+↑
+Uplekar M, Weil D, Lonnroth K, Jaramillo E, Lienhardt C, Dias HM, et
+al. (May 2015). "WHO's new end TB strategy".
+Lancet
+.
+385
+(9979):
+1799–
+1801.
+doi
+:
+10.1016/S0140-6736(15)60570-0
+.
+PMID
+25814376
+.
+S2CID
+39379915
+.
+1
+2
+"TB Drugs"
+.
+Immunopaedia
+. 15 December 2014
+. Retrieved
+21 December
+2025
+.
+1
+2
+"WHO consolidated operational handbook on tuberculosis: module 4: treatment and care"
+.
+World Health Organization
+. 23 April 2025
+. Retrieved
+21 December
+2025
+.
+↑
+"The Price of a Pandemic: Counting the Cost of MDR-TB"
+(PDF)
+. All Party Parliamentary Group on TB. 2015.
+↑
+Davoli C, Rossi C, Ciccarone A, Bertoni F, Calamelli M, Rossi B, et
+al. (1 November 2025).
+"Can 6-month long regimens become the standardized treatment for MDR-TB globally?"
+.
+International Journal of Infectious Diseases
+.
+160
+108065.
+doi
+:
+10.1016/j.ijid.2025.108065
+.
+ISSN
+1201-9712
+.
+PMID
+40953688
+.
+1
+2
+"WHO consolidated guidelines on tuberculosis: module 4: treatment and care"
+.
+World Health Organization
+. Retrieved
+23 December
+2025
+.
+1
+2
+3
+Munro SA, Lewin SA, Smith HJ, Engel ME, Fretheim A, Volmink J (24 July 2007).
+"Patient Adherence to Tuberculosis Treatment: A Systematic Review of Qualitative Research"
+.
+PLOS Medicine
+.
+4
+(7) e238.
+doi
+:
+10.1371/journal.pmed.0040238
+.
+ISSN
+1549-1676
+.
+PMC
+1925126
+.
+PMID
+17676945
+.
+↑
+Lardizabal AA, Patrawalla A (14 April 2024).
+"Adherence to tuberculosis treatment"
+.
+www.uptodate.com
+. Retrieved
+3 June
+2025
+.
+↑
+"Tuberculosis"
+.
+National Institute for Health and Care Excellence
+. 13 January 2016. §1.7 Adherence, treatment completion and follow-up
+. Retrieved
+3 June
+2025
+.
+1
+2
+"1. Care and support interventions for all people with TB"
+.
+World Health Organization
+. Archived from
+the original
+on 3 June 2025
+. Retrieved
+3 June
+2025
+.
+↑
+"TB 101 for Health Care Workers - Directly Observed Therapy"
+.
+Centers for Disease Control and Prevention
+. 7 February 2024
+. Retrieved
+3 June
+2025
+.
+↑
+WHO Consolidated Guidelines on Tuberculosis. Module 4: Treatment. Tuberculosis Care and Support
+(1st
+ed.). Geneva: World Health Organization. 2022.
+ISBN
+978-92-4-004771-6
+.
+↑
+"WHO Disease and injury country estimates"
+. World Health Organization (WHO). 2004.
+Archived
+from the original on 11 November 2009
+. Retrieved
+11 November
+2009
+.
+1
+2
+"Global Tuberculosis Report 2023 - 1.2 TB mortality"
+.
+World Health Organization
+. Retrieved
+18 June
+2025
+.
+↑
+Tiemersma EW, van der Werf MJ, Borgdorff MW, Williams BG, Nagelkerke NJ (4 April 2011).
+"Natural History of Tuberculosis: Duration and Fatality of Untreated Pulmonary Tuberculosis in HIV Negative Patients: A Systematic Review"
+.
+PLOS ONE
+.
+6
+(4) e17601.
+Bibcode
+:
+2011PLoSO...617601T
+.
+doi
+:
+10.1371/journal.pone.0017601
+.
+ISSN
+1932-6203
+.
+PMC
+3070694
+.
+PMID
+21483732
+.
+↑
+Kiazyk S, Ball TB (2 March 2017).
+"Latent tuberculosis infection: An overview"
+.
+Canada Communicable Disease Report
+.
+43
+(
+3–
+4):
+62–
+66.
+doi
+:
+10.14745/ccdr.v43i34a01
+.
+ISSN
+1188-4169
+.
+PMC
+5764738
+.
+PMID
+29770066
+.
+↑
+"Tuberculosis & HIV"
+.
+www.who.int
+. Retrieved
+18 June
+2025
+.
+↑
+"Tuberculosis Diagnosis in People with HIV Increases Risk of Death Within 10 Years"
+.
+HIV.gov
+. Retrieved
+18 June
+2025
+.
+↑
+Hippocrates.
+"Of the Epidemics by"
+.
+The Internet Classics Archive
+. Retrieved
+8 August
+2025
+.
+↑
+www.wisdomlib.org (10 September 2016).
+"Yakshma, Yakṣma: 16 definitions"
+.
+www.wisdomlib.org
+. Retrieved
+8 August
+2025
+.
+↑
+"Fact Sheets: The Difference Between Latent TB Infection and Active TB Disease"
+.
+Centers for Disease Control and Prevention
+(CDC). 20 June 2011.
+Archived
+from the original on 4 August 2011
+. Retrieved
+26 July
+2011
+.
+↑
+Skolnik R (2011).
+Global health 101
+(2nd
+ed.). Burlington, MA: Jones & Bartlett Learning. p.
+253
+.
+ISBN
+978-0-7637-9751-5
+.
+↑
+Nhlema, B., et
+al. (WHO, Geneva, Switzerland) (2003).
+"A systematic analysis of TB and poverty"
+.
+GOV.UK
+. Kemp, J.; Steenbergen, G.; Theobald, S.; Tang, S.; Squire, S.B
+. Retrieved
+11 August
+2025
+.
+↑
+"Health Topics - Tuberculosis"
+.
+World Health Organization
+. Retrieved
+11 August
+2025
+.
+↑
+Hamada Y, Getahun H, Tadesse BT, Ford N (1 August 2021).
+"HIV-associated tuberculosis"
+.
+International Journal of STD & AIDS
+.
+32
+(9):
+780–
+790.
+doi
+:
+10.1177/0956462421992257
+.
+ISSN
+0956-4624
+.
+PMC
+8236666
+.
+PMID
+33612015
+.
+↑
+Tedijanto C, Hermans S, Cobelens F, Wood R, Andrews JR (November 2018).
+"Drivers of Seasonal Variation in Tuberculosis Incidence: Insights from a Systematic Review and Mathematical Model"
+.
+Epidemiology
+.
+29
+(6):
+857–
+866.
+doi
+:
+10.1097/EDE.0000000000000877
+.
+ISSN
+1044-3983
+.
+PMC
+6167146
+.
+PMID
+29870427
+.
+↑
+"Tuberculosis incidence (per 100,000 people)"
+.
+Our World in Data
+.
+Archived
+from the original on 26 September 2019
+. Retrieved
+7 March
+2020
+.
+↑
+"Tuberculosis deaths by region"
+.
+Our World in Data
+.
+Archived
+from the original on 8 May 2020
+. Retrieved
+7 March
+2020
+.
+↑
+"Deaths from tuberculosis, by age"
+.
+Our World in Data
+. Retrieved
+8 April
+2025
+.
+↑
+"Targeted Testing and the Diagnosis of Latent Tuberculosis Infection and Tuberculosis Disease"
+(PDF)
+. Atlanta, Georgia: United States Centers for Disease Control and Prevention. 2019
+. Retrieved
+13 December
+2025
+.
+↑
+Dryburgh L, Rippin H, Malykh R (2024).
+Tuberculosis and Malnutrition
+(Report). World Health Organization
+. Retrieved
+13 December
+2025
+.
+↑
+Yang H, Ruan X, Li W, Xiong J, Zheng Y (11 November 2024).
+"Global, regional, and national burden of tuberculosis and attributable risk factors for 204 countries and territories, 1990–2021: a systematic analysis for the Global Burden of Diseases 2021 study"
+.
+BMC Public Health
+.
+24
+(1): 3111.
+doi
+:
+10.1186/s12889-024-20664-w
+.
+ISSN
+1471-2458
+.
+PMC
+11552311
+.
+PMID
+39529028
+.
+↑
+Wu IL, Chitnis AS, Jaganath D (1 August 2022).
+"A narrative review of tuberculosis in the United States among persons aged 65 years and older"
+.
+Journal of Clinical Tuberculosis and Other Mycobacterial Diseases
+.
+28
+100321.
+doi
+:
+10.1016/j.jctube.2022.100321
+.
+ISSN
+2405-5794
+.
+PMC
+9213239
+.
+PMID
+35757390
+.
+↑
+"Tuberculosis incidence and epidemiology, England, 2023"
+.
+UK Health Security Agency
+. 29 May 2025
+. Retrieved
+17 August
+2025
+.
+↑
+"Tuberculosis surveillance in Canada summary report: 2012-2021"
+.
+Public Health Agency of Canada
+. 18 October 2023
+. Retrieved
+17 August
+2025
+.
+↑
+Mounchili A, Perera R, Lee RS, Njoo H, Brooks J (24 March 2022). "Chapter 1: Epidemiology of tuberculosis in Canada".
+Canadian Journal of Respiratory, Critical Care, and Sleep Medicine
+.
+6
+(sup1):
+8–
+21.
+doi
+:
+10.1080/24745332.2022.2033062
+.
+ISSN
+2474-5332
+.
+↑
+Meumann EM, Horan K, Ralph AP, Farmer B, Globan M, Stephenson E, et
+al. (1 October 2021).
+"Tuberculosis in Australia's tropical north: a population-based genomic epidemiological study"
+.
+The Lancet Regional Health – Western Pacific
+.
+15
+100229.
+doi
+:
+10.1016/j.lanwpc.2021.100229
+.
+ISSN
+2666-6065
+.
+PMC
+8350059
+.
+PMID
+34528010
+.
+↑
+Laird P, Schultz A (October 2021).
+"Tuberculosis in Australia's Top End First Nations highlights health and life expectancy gaps: a call to arms"
+.
+Lancet Reg Health West Pac
+.
+15
+100253.
+doi
+:
+10.1016/j.lanwpc.2021.100253
+.
+PMC
+8379636
+.
+PMID
+34528019
+.
+↑
+Inauen J, Storken A, Gill C, Brigham M, Kelly M, Barry S (July 2025).
+"Overcoming barriers in tuberculosis control: a case study from a remote community of South Australia"
+.
+Lancet Reg Health West Pac
+.
+60
+101604.
+doi
+:
+10.1016/j.lanwpc.2025.101604
+.
+PMC
+12271421
+.
+PMID
+40688172
+.
+1
+2
+"Tuberculosis in Indigenous communities"
+. Indigenous Services Canada. 21 March 2025
+. Retrieved
+13 December
+2025
+.
+↑
+Clark M, Riben P, Nowgesic E (1 October 2002). "The association of housing density, isolation and tuberculosis in Canadian First Nations communities".
+International Journal of Epidemiology
+.
+31
+(5):
+940–
+945.
+doi
+:
+10.1093/ije/31.5.940
+.
+PMID
+12435764
+.
+↑
+Cormier M, Schwartzman K, N'Diaye DS, Boone CE, Santos AM, Gaspar J, et
+al. (1 January 2019).
+"Proximate determinants of tuberculosis in Indigenous peoples worldwide: a systematic review"
+.
+The Lancet Global Health
+.
+7
+(1):
+e68–
+e80.
+doi
+:
+10.1016/S2214-109X(18)30435-2
+.
+ISSN
+2214-109X
+.
+PMID
+30554764
+.
+↑
+Glaziou P, Floyd K, Raviglione M (June 2018).
+"Global Epidemiology of Tuberculosis"
+.
+Seminars in Respiratory and Critical Care Medicine
+.
+39
+(3):
+271–
+285.
+doi
+:
+10.1055/s-0038-1651492
+.
+ISSN
+1069-3424
+.
+PMID
+30071543
+.
+↑
+Bloom BR, Atun R, Cohen T, Dye C, Fraser H, Gomez GB, et
+al. (2017). "Tuberculosis". In Holmes KK, Bertozzi S, Bloom BR, Jha P (eds.).
+Major Infectious Diseases
+(3rd
+ed.). Washington (DC): The International Bank for Reconstruction and Development / The World Bank.
+doi
+:
+10.1596/978-1-4648-0524-0_ch11
+.
+ISBN
+978-1-4648-0524-0
+.
+PMID
+30212088
+. Retrieved
+19 August
+2025
+–
+via NCBI Bookshelf.
+↑
+"Global tuberculosis report - Data"
+.
+World Health Organization
+. Retrieved
+21 August
+2025
+.
+↑
+Bai W, Ameyaw EK (2 January 2024).
+"Global, regional and national trends in tuberculosis incidence and main risk factors: a study using data from 2000 to 2021"
+.
+BMC Public Health
+.
+24
+(1): 12.
+doi
+:
+10.1186/s12889-023-17495-6
+.
+ISSN
+1471-2458
+.
+PMC
+10759569
+.
+PMID
+38166735
+.
+↑
+Chauhan A, Parmar M, Dash GC, Solanki H, Chauhan S, Sharma J, et
+al. (3 May 2023).
+"The prevalence of tuberculosis infection in India: A systematic review and meta-analysis"
+.
+Indian Journal of Medical Research
+.
+157
+(
+2–
+3):
+135–
+151.
+doi
+:
+10.4103/ijmr.ijmr_382_23
+.
+ISSN
+0971-5916
+.
+PMC
+10319385
+.
+PMID
+37202933
+.
+↑
+Bhargava A, Bhargava M, Juneja A (3 July 2021).
+"Social determinants of tuberculosis: context, framework, and the way forward to ending TB in India"
+.
+Expert Review of Respiratory Medicine
+.
+15
+(7):
+867–
+883.
+doi
+:
+10.1080/17476348.2021.1832469
+.
+ISSN
+1747-6348
+.
+PMID
+33016808
+.
+↑
+"Tuberculosis Care and Treatment in the Republic of Indonesia"
+.
+Cepheid
+. 17 March 2025
+. Retrieved
+23 August
+2025
+.
+↑
+Dana NR, Rika S, M IP, Alexander MB, Muthia S, Linda R, et
+al. (8 March 2024).
+"Modifiable and Non-Modifiable Risk Factors for Tuberculosis Among Adults in Indonesia: A Systematic Review and Meta-Analysis"
+.
+African Journal of Infectious Diseases
+.
+18
+(2):
+19–
+28.
+doi
+:
+10.21010/Ajidv18i2.3
+.
+ISSN
+2505-0419
+.
+PMC
+11004781
+.
+PMID
+38606192
+.
+↑
+Surendra H, Elyazar IR, Puspaningrum E, Darmawan D, Pakasi TT, Lukitosari E, et
+al. (1 September 2023).
+"Impact of the COVID-19 pandemic on tuberculosis control in Indonesia: a nationwide longitudinal analysis of programme data"
+.
+The Lancet Global Health
+.
+11
+(9):
+e1412–
+e1421.
+doi
+:
+10.1016/S2214-109X(23)00312-1
+.
+hdl
+:
+2066/296849
+.
+ISSN
+2214-109X
+.
+PMID
+37591587
+.
+↑
+Guo C, Du Y, Shen SQ, Lao XQ, Qian J, Ou CQ (September 2017).
+"Spatiotemporal analysis of tuberculosis incidence and its associated factors in mainland China"
+.
+Epidemiology & Infection
+.
+145
+(12):
+2510–
+2519.
+doi
+:
+10.1017/S0950268817001133
+.
+ISSN
+0950-2688
+.
+PMC
+9148796
+.
+PMID
+28595668
+.
+↑
+Long Q, Guo L, Jiang W, Huan S, Tang S (1 December 2021).
+"Ending tuberculosis in China: health system challenges"
+.
+The Lancet Public Health
+.
+6
+(12):
+e948–
+e953.
+doi
+:
+10.1016/S2468-2667(21)00203-6
+.
+ISSN
+2468-2667
+.
+PMID
+34838198
+.
+↑
+Galvez GK, Interior JS (30 November 2025).
+"Stigma and Inequity in Tuberculosis Transmission and Control in the Philippines"
+.
+Pathogens
+.
+14
+(12): 1226.
+doi
+:
+10.3390/pathogens14121226
+.
+ISSN
+2076-0817
+.
+PMC
+12735505
+.
+PMID
+41471182
+.
+↑
+Cahyani F, Dewi A (30 June 2025).
+"Stigma among tuberculosis patients: A bibliometric analysis and scoping review"
+.
+Russian Open Medical Journal
+.
+14
+(2) e0209.
+doi
+:
+10.15275/rusomj.2025.0209
+.
+↑
+"Incidence of tuberculosis (per 100,000 people)"
+.
+World Bank Open Data
+. 2024
+. Retrieved
+24 August
+2025
+.
+Data sourced from Global Tuberculosis Report, World Health Organization, 2024
+↑
+Matji R, Maama L, Roscigno G, Lerotholi M, Agonafir M, Sekibira R, et
+al. (9 March 2023).
+"Policy and programmatic directions for the Lesotho tuberculosis programme: Findings of the national tuberculosis prevalence survey, 2019"
+.
+PLOS ONE
+.
+18
+(3) e0273245.
+Bibcode
+:
+2023PLoSO..1873245M
+.
+doi
+:
+10.1371/journal.pone.0273245
+.
+ISSN
+1932-6203
+.
+PMC
+9997977
+.
+PMID
+36893175
+.
+↑
+"1,500 Lesotho health workers sent home after US aid suspended"
+.
+European AIDS treatment group
+. 11 February 2025
+. Retrieved
+27 August
+2025
+.
+↑
+Hirsch-Moverman Y, Mantell JE, Lebelo L, Howard AA, Hesseling AC, Nachman S, et
+al. (25 May 2020).
+"Provider attitudes about childhood tuberculosis prevention in Lesotho: a qualitative study"
+.
+BMC Health Services Research
+.
+20
+(1): 461.
+doi
+:
+10.1186/s12913-020-05324-0
+.
+ISSN
+1472-6963
+.
+PMC
+7249694
+.
+PMID
+32450858
+.
+↑
+Mostafa MA, Ogunmuyiwa JO, Appleby Tenney K, Tip SL, Zamalloa CZ, Blossom JC, et
+al. (1 January 2024).
+"Health for all: Primary care facility localization in Lesotho using qualitative research and GIS"
+.
+Global Transitions
+.
+6
+:
+123–
+135.
+Bibcode
+:
+2024GloT....6..123M
+.
+doi
+:
+10.1016/j.glt.2024.05.002
+.
+ISSN
+2589-7918
+.
+↑
+"Hippocrates 3.16 Classics, MIT"
+. Archived from
+the original
+on 11 February 2005
+. Retrieved
+15 December
+2015
+.
+↑
+Caldwell M (1988).
+The Last Crusade
+. New York: Macmillan. p.
+21
+.
+ISBN
+978-0-689-11810-4
+.
+↑
+Bunyan J (1808).
+The Life and Death of Mr. Badman
+. London: W. Nicholson. p.
+244
+. Retrieved
+28 September
+2016
+–
+via Internet Archive.
+captain.
+↑
+Lawlor C.
+"Katherine Byrne, Tuberculosis and the Victorian Literary Imagination"
+. British Society for Literature and Science.
+Archived
+from the original on 6 November 2020
+. Retrieved
+11 June
+2017
+.
+↑
+Byrne K (2011).
+Tuberculosis and the Victorian Literary Imagination
+. Cambridge University Press.
+ISBN
+978-1-107-67280-2
+.
+↑
+"About Chopin's illness"
+. Icons of Europe.
+Archived
+from the original on 28 September 2017
+. Retrieved
+11 June
+2017
+.
+↑
+Vilaplana C (March 2017).
+"A literary approach to tuberculosis: lessons learned from Anton Chekhov, Franz Kafka, and Katherine Mansfield"
+.
+International Journal of Infectious Diseases
+.
+56
+:
+283–
+85.
+doi
+:
+10.1016/j.ijid.2016.12.012
+.
+PMID
+27993687
+.
+↑
+Rogal SJ (1997).
+A William Somerset Maugham Encyclopedia
+. Greenwood Publishing. p.
+245.
+ISBN
+978-0-313-29916-2
+.
+Archived
+from the original on 2 June 2021
+. Retrieved
+4 October
+2017
+.
+↑
+Eschner K.
+"George Orwell Wrote '1984' While Dying of Tuberculosis"
+.
+Smithsonian
+.
+Archived
+from the original on 24 March 2019
+. Retrieved
+25 March
+2019
+.
+↑
+"Tuberculosis (whole issue)"
+.
+Journal of the American Medical Association
+.
+293
+(22): cover. 8 June 2005.
+Archived
+from the original on 24 August 2020
+. Retrieved
+4 October
+2017
+.
+↑
+Lemlein RF (1981). "Influence of Tuberculosis on the Work of Visual Artists: Several Prominent Examples".
+Leonardo
+.
+14
+(2):
+114–
+11.
+doi
+:
+10.2307/1574402
+.
+JSTOR
+1574402
+.
+S2CID
+191371443
+.
+↑
+Wilsey AM (May 2012).
+'Half in Love with Easeful Death:' Tuberculosis in Literature
+.
+Humanities Capstone Projects
+(PhD Thesis thesis). Pacific University. Archived from
+the original
+on 11 October 2017
+. Retrieved
+28 September
+2017
+.
+1
+2
+Morens DM (November 2002).
+"At the deathbed of consumptive art"
+.
+Emerging Infectious Diseases
+.
+8
+(11):
+1353–
+8.
+doi
+:
+10.3201/eid0811.020549
+.
+PMC
+2738548
+.
+PMID
+12463180
+.
+↑
+"Pulmonary Tuberculosis/In Literature and Art"
+. McMaster University History of Diseases
+. Retrieved
+9 June
+2017
+.
+↑
+Thomson G (1 June 2016).
+"Van Morrison – 10 of the best"
+.
+The Guardian
+.
+Archived
+from the original on 14 August 2020
+. Retrieved
+28 September
+2017
+.
+↑
+"Tuberculosis Throughout History: The Arts"
+(PDF)
+.
+United States Agency for International Development
+(USAID). Archived from
+the original
+(PDF)
+on 30 June 2017
+. Retrieved
+12 June
+2017
+.
+↑
+Corliss R (22 December 2008).
+"Top 10 Worst Christmas Movies"
+.
+Time
+.
+Archived
+from the original on 22 September 2020
+. Retrieved
+28 September
+2017
+.
+'If you don't cry when Bing Crosby tells Ingrid Bergman she has tuberculosis', Joseph McBride wrote in 1973, 'I never want to meet you, and that's that.'
+↑
+Sledzik PS, Bellantoni N (June 1994).
+"Brief communication: bioarcheological and biocultural evidence for the New England vampire folk belief"
+(PDF)
+.
+American Journal of Physical Anthropology
+.
+94
+(2):
+269–
+74.
+Bibcode
+:
+1994AJPA...94..269S
+.
+doi
+:
+10.1002/ajpa.1330940210
+.
+PMID
+8085617
+.
+Archived
+(PDF)
+from the original on 18 February 2017.
+↑
+Coker R, Mounier-Jack S, Martin R (April 2007). "Public health law and tuberculosis control in Europe".
+Public Health
+.
+121
+(4):
+266–
+273.
+doi
+:
+10.1016/j.puhe.2006.11.003
+.
+PMID
+17280692
+.
+↑
+Coker R, Thomas M, Lock K, Martin R (2007). "Detention and the evolving threat of tuberculosis: evidence, ethics, and law".
+The Journal of Law, Medicine & Ethics
+.
+35
+(4):
+609–
+15, 512.
+doi
+:
+10.1111/j.1748-720X.2007.00184.x
+.
+PMID
+18076512
+.
+S2CID
+19924571
+.
+↑
+"Notifying suspected or confirmed active tuberculosis (TB)"
+.
+GOV.UK
+. Retrieved
+1 September
+2025
+.
+↑
+CDC (17 April 2025).
+"Clinical Overview of Tuberculosis Disease"
+.
+Tuberculosis (TB)
+. Retrieved
+1 September
+2025
+.
+↑
+"Tuberculosis - Annual Epidemiological Report for 2022"
+.
+www.ecdc.europa.eu
+. 18 July 2024
+. Retrieved
+1 September
+2025
+.
+↑
+Kavanagh MM, Gostin LO, Stephens J (23 October 2020).
+"Tuberculosis, human rights, and law reform: Addressing the lack of progress in the global tuberculosis response"
+.
+PLOS Medicine
+.
+17
+(10) e1003324.
+doi
+:
+10.1371/journal.pmed.1003324
+.
+ISSN
+1549-1676
+.
+PMC
+7584189
+.
+PMID
+33095764
+.
+↑
+"4.1 Stigma"
+.
+World Health Organization
+. 15 September 2025
+. Retrieved
+15 September
+2025
+.
+1
+2
+Yadav S (June 2024).
+"Stigma in Tuberculosis: Time to Act on an Important and Largely Unaddressed Issue"
+.
+Cureus
+.
+16
+(6) e61964.
+doi
+:
+10.7759/cureus.61964
+.
+ISSN
+2168-8184
+.
+PMC
+11229827
+.
+PMID
+38978939
+.
+↑
+"Stigma and myths"
+.
+TB Alert
+. 20 September 2012
+. Retrieved
+15 September
+2025
+.
+1
+2
+3
+4
+Kielstra P (30 June 2014). Tabary Z (ed.).
+"Ancient enemy, modern imperative – A time for greater action against tuberculosis"
+(PDF)
+.
+The Economist
+.
+Economist Intelligence Unit
+. Archived from
+the original
+(PDF)
+on 10 August 2014
+. Retrieved
+22 January
+2022
+.
+↑
+Courtwright A, Turner AN (July–August 2010).
+"Tuberculosis and stigmatization: pathways and interventions"
+.
+Public Health Reports
+.
+125
+(4_suppl):
+34–
+42.
+doi
+:
+10.1177/00333549101250S407
+.
+PMC
+2882973
+.
+PMID
+20626191
+.
+↑
+Dodor EA, Kelly S (1 March 2009). "
+'We are afraid of them': Attitudes and behaviours of community members towards tuberculosis in Ghana and implications for TB control efforts".
+Psychology, Health & Medicine
+.
+14
+(2):
+170–
+179.
+doi
+:
+10.1080/13548500802199753
+.
+ISSN
+1354-8506
+.
+PMID
+19235076
+.
+↑
+van der Westhuizen HM, Ehrlich R, Somdyala N, Greenhalgh T, Tonkin-Crine S, Butler CC (3 October 2024).
+"Stigma relating to tuberculosis infection prevention and control implementation in rural health facilities in South Africa — a qualitative study outlining opportunities for mitigation"
+.
+BMC Global and Public Health
+.
+2
+(1) 66.
+doi
+:
+10.1186/s44263-024-00097-8
+.
+ISSN
+2731-913X
+.
+PMC
+11622938
+.
+PMID
+39681968
+.
+↑
+Kamble B, Singh S, Jethani S, Chellaiyan D V, Acharya B (2020).
+"Social stigma among tuberculosis patients attending DOTS centers in Delhi"
+.
+Journal of Family Medicine and Primary Care
+.
+9
+(8):
+4223–
+4228.
+doi
+:
+10.4103/jfmpc.jfmpc_709_20
+.
+ISSN
+2249-4863
+.
+PMC
+7586534
+.
+PMID
+33110836
+.
+1
+2
+3
+4
+Matteelli A, Rendon A, Tiberi S, Al-Abri S, Voniatis C, Carvalho AC, et
+al. (13 June 2018).
+"Tuberculosis elimination: where are we now?"
+.
+European Respiratory Review
+.
+27
+(148).
+doi
+:
+10.1183/16000617.0035-2018
+.
+ISSN
+0905-9180
+.
+PMC
+9488456
+.
+PMID
+29898905
+.
+↑
+Dye C, Watt CJ, Bleed DM, Hosseini SM, Raviglione MC (8 June 2005). "Evolution of Tuberculosis Control and Prospects for Reducing Tuberculosis Incidence, Prevalence, and Deaths Globally".
+JAMA
+.
+293
+(22):
+2767–
+2775.
+doi
+:
+10.1001/jama.293.22.2767
+.
+ISSN
+0098-7484
+.
+PMID
+15941807
+.
+↑
+"Millennium Development Goals (MDGs)"
+.
+World Health Organization
+. 19 February 2018
+. Retrieved
+1 September
+2025
+.
+↑
+Global Tuberculosis Control 2006
+. Geneva: World Health Organization. 2006.
+ISBN
+978-92-4-156314-7
+.
+↑
+Global tuberculosis report 2015
+(20th
+ed.). Geneva: World Health Organization. 2015.
+ISBN
+978-92-4-156505-9
+.
+↑
+Floyd K, Glaziou P, Houben RM, Sumner T, White RG, Raviglione M (1 July 2018).
+"Global tuberculosis targets and milestones set for 2016–2035: definition and rationale"
+.
+The International Journal of Tuberculosis and Lung Disease
+.
+22
+(7):
+723–
+730.
+doi
+:
+10.5588/ijtld.17.0835
+.
+ISSN
+1027-3719
+.
+PMC
+6005124
+.
+PMID
+29914597
+.
+↑
+"Public–Private Partnership Announces Immediate 40 Percent Cost Reduction for Rapid TB Test"
+(PDF)
+. World Health Organization (WHO). 6 August 2012.
+Archived
+(PDF)
+from the original on 29 October 2013.
+↑
+Pai M, Dewan PK, Swaminathan S (1 May 2023).
+"Transforming tuberculosis diagnosis"
+.
+Nature Microbiology
+.
+8
+(5):
+756–
+759.
+doi
+:
+10.1038/s41564-023-01365-3
+.
+ISSN
+2058-5276
+.
+PMID
+37127703
+.
+↑
+Dretzke J, Hobart C, Basu A, Ahyow L, Nagasivam A, Moore DJ, et
+al. (11 March 2024).
+"Interventions to improve latent and active tuberculosis treatment completion rates in underserved groups in low incidence countries: a scoping review"
+.
+BMJ Open
+.
+14
+(3) e080827.
+ISSN
+2044-6055
+.
+PMC
+10936502
+.
+PMID
+38471682
+.
+↑
+Zhuang L, Ye Z, Li L, Yang L, Gong W (31 July 2023).
+"Next-Generation TB Vaccines: Progress, Challenges, and Prospects"
+.
+Vaccines
+.
+11
+(8): 1304.
+doi
+:
+10.3390/vaccines11081304
+.
+ISSN
+2076-393X
+.
+PMC
+10457792
+.
+PMID
+37631874
+.
+↑
+Kashangura R, Jullien S, Garner P, Johnson S (30 April 2019). Cochrane Infectious Diseases Group (ed.).
+"MVA85A vaccine to enhance BCG for preventing tuberculosis"
+.
+Cochrane Database of Systematic Reviews
+.
+2019
+(4) CD012915.
+doi
+:
+10.1002/14651858.CD012915.pub2
+.
+PMC
+6488980
+.
+PMID
+31038197
+.
+↑
+Hunter RL (19 September 2018).
+"The Pathogenesis of Tuberculosis: The Early Infiltrate of Post-primary (Adult Pulmonary) Tuberculosis: A Distinct Disease Entity"
+.
+Frontiers in Immunology
+.
+9
+2108.
+doi
+:
+10.3389/fimmu.2018.02108
+.
+ISSN
+1664-3224
+.
+PMC
+6156532
+.
+PMID
+30283448
+.
+↑
+Churchyard G, Kim P, Shah NS, Rustomjee R, Gandhi N, Mathema B, et
+al. (3 November 2017).
+"What We Know About Tuberculosis Transmission: An Overview"
+.
+The Journal of Infectious Diseases
+.
+216
+(suppl_6):
+S629–
+S635.
+doi
+:
+10.1093/infdis/jix362
+.
+ISSN
+0022-1899
+.
+PMC
+5791742
+.
+PMID
+29112747
+.
+↑
+Appiah MA, Arthur JA, Gborgblorvor D, Asampong E, Kye-Duodu G, Kamau EM, et
+al. (10 July 2023).
+"Barriers to tuberculosis treatment adherence in high-burden tuberculosis settings in Ashanti region, Ghana: a qualitative study from patient's perspective"
+.
+BMC Public Health
+.
+23
+(1): 1317.
+doi
+:
+10.1186/s12889-023-16259-6
+.
+ISSN
+1471-2458
+.
+PMC
+10332032
+.
+PMID
+37430295
+.
+↑
+Shivaprasad HL, Palmieri C (January 2012). "Pathology of mycobacteriosis in birds".
+The Veterinary Clinics of North America. Exotic Animal Practice
+.
+15
+(1):
+41–
+55,
+v–
+vi.
+doi
+:
+10.1016/j.cvex.2011.11.004
+.
+PMID
+22244112
+.
+↑
+Reavill DR, Schmidt RE (January 2012). "Mycobacterial lesions in fish, amphibians, reptiles, rodents, lagomorphs, and ferrets with reference to animal models".
+The Veterinary Clinics of North America. Exotic Animal Practice
+.
+15
+(1):
+25–
+40, v.
+doi
+:
+10.1016/j.cvex.2011.10.001
+.
+PMID
+22244111
+.
+↑
+Mitchell MA (January 2012). "Mycobacterial infections in reptiles".
+The Veterinary Clinics of North America. Exotic Animal Practice
+.
+15
+(1):
+101–
+11, vii.
+doi
+:
+10.1016/j.cvex.2011.10.002
+.
+PMID
+22244116
+.
+↑
+Wobeser GA (2006).
+Essentials of disease in wild animals
+(1st
+ed.). Ames, IO [u.a.]: Blackwell Publishing. p.
+170.
+ISBN
+978-0-8138-0589-4
+.
+Archived
+from the original on 6 September 2015.
+↑
+Ryan TJ, Livingstone PG, Ramsey DS, de Lisle GW, Nugent G, Collins DM, et
+al. (February 2006). "Advances in understanding disease epidemiology and implications for control and eradication of tuberculosis in livestock: the experience from New Zealand".
+Veterinary Microbiology
+.
+112
+(
+2–
+4):
+211–
+19.
+doi
+:
+10.1016/j.vetmic.2005.11.025
+.
+PMID
+16330161
+.
+↑
+White PC, Böhm M, Marion G, Hutchings MR (September 2008). "Control of bovine tuberculosis in British livestock: there is no 'silver bullet'
+".
+Trends in Microbiology
+.
+16
+(9):
+420–
+7.
+CiteSeerX
+10.1.1.566.5547
+.
+doi
+:
+10.1016/j.tim.2008.06.005
+.
+PMID
+18706814
+.
+↑
+Ward AI, Judge J, Delahay RJ (January 2010). "Farm husbandry and badger behaviour: opportunities to manage badger to cattle transmission of Mycobacterium bovis?".
+Preventive Veterinary Medicine
+.
+93
+(1):
+2–
+10.
+doi
+:
+10.1016/j.prevetmed.2009.09.014
+.
+PMID
+19846226
+.
+↑
+Holt N (24 March 2015).
+"The Infected Elephant in the Room"
+.
+Slate
+.
+Archived
+from the original on 14 April 2016
+. Retrieved
+5 April
+2016
+.
+↑
+Mikota SK.
+"A Brief History of TB in Elephants"
+(PDF)
+.
+Animal and Plant Health Inspection Service
+(APHIS). Archived from
+the original
+(PDF)
+on 6 October 2016
+. Retrieved
+5 April
+2016
+.
+↑
+Mishra GP, Mulani JD (August 2025). "Zooanthroponosis and zoonotic TB: a call for a One Health approach".
+Int J Tuberc Lung Dis
+.
+29
+(8):
+384–
+385.
+doi
+:
+10.5588/ijtld.25.0194
+.
+PMID
+40751210
+.
+Sources
+[
+edit
+]
+Maxwell SH, Pye-Smith PH (1899),
+Copy of report of the delegates of Her Majesty's Government at the International Congress on Tuberculosis, held at Berlin on the 24th to the 27th May 1899
+, Printed for H.M.S.O. by Wyman and Sons
+, retrieved
+12 July
+2020
+Further reading
+[
+edit
+]
+Green J (March 2025).
+Everything Is Tuberculosis
+. Penguin Group.
+ISBN
+978-0-525-55657-2
+.
+External links
+[
+edit
+]
+Tuberculosis
+at Wikipedia's
+sister projects
+Definitions
+from Wiktionary
+Media
+from Commons
+Quotations
+from Wikiquote
+Taxa
+from Wikispecies
+Data
+from Wikidata
+Wikipedia's health care articles can be viewed offline with the
+Medical Wikipedia app
+.
+"Tuberculosis (TB)"
+. Centers for Disease Control and Prevention (CDC). 24 October 2018.
+"Tuberculosis (TB)"
+. London:
+Health Protection Agency
+. Archived from
+the original
+on 5 July 2007.
+WHO global 2016 TB report (infographic)
+WHO tuberculosis country profiles
+"Tuberculosis Among African Americans"
+, 1990-11-01,
+In Black America
+;
+KUT Radio
+,
+American Archive of Public Broadcasting
+(
+WGBH
+and the Library of Congress)
+Working Group on New TB drugs
+, tracking clinical trials and drug candidates
+Classification
+D
+ICD
+-
+11
+:
+1B10
+-
+1B1Z
+ICD
+-
+10
+:
+A15-A19
+ICD
+-
+9-CM
+:
+010
+–
+018
+OMIM
+:
+607948
+MeSH
+:
+D014376
+DiseasesDB
+:
+8515
+External resources
+MedlinePlus
+:
+000077
+eMedicine
+:
+med/2324
+emerg/618
+radio/411
+Patient UK
+:
+Tuberculosis
+Orphanet
+:
+3389
+Scholia
+:
+Q12204
+v
+t
+e
+Gram-positive bacterial infection
+:
+Actinomycetota
+Actinomycineae
+Actinomycetaceae
+Actinomyces israelii
+Actinomycosis
+Cutaneous actinomycosis
+"
+Tropheryma whipplei
+"
+Whipple's disease
+Arcanobacterium haemolyticum
+Arcanobacterium haemolyticum infection
+Actinomyces gerencseriae
+Propionibacteriaceae
+Propionibacterium acnes
+Corynebacterineae
+Mycobacteriaceae
+M. tuberculosis
+/
+M. bovis
+Tuberculosis
+:
+Ghon focus
+/
+Ghon's complex
+Pott disease
+brain
+Meningitis
+Rich focus
+Tuberculous lymphadenitis
+Tuberculous cervical lymphadenitis
+cutaneous
+Scrofuloderma
+Erythema induratum
+Lupus vulgaris
+Prosector's wart
+Tuberculosis cutis orificialis
+Tuberculous cellulitis
+Tuberculous gumma
+Lichen scrofulosorum
+Tuberculid
+Papulonecrotic tuberculid
+Primary inoculation tuberculosis
+Miliary
+Tuberculous pericarditis
+Urogenital tuberculosis
+Tuberculous dactylitis
+Multi-drug-resistant tuberculosis
+Extensively drug-resistant tuberculosis
+M. leprae
+Leprosy
+:
+Tuberculoid leprosy
+Borderline tuberculoid leprosy
+Borderline leprosy
+Borderline lepromatous leprosy
+Lepromatous leprosy
+Histoid leprosy
+Nontuberculous
+R1
+:
+M. kansasii
+M. marinum
+Aquarium granuloma
+R2
+:
+M. gordonae
+R3
+:
+M. avium
+complex
+/
+Mycobacterium avium
+/
+Mycobacterium intracellulare
+/
+MAP
+MAI infection
+M. ulcerans
+Buruli ulcer
+M. haemophilum
+R4
+/
+RG
+:
+M. fortuitum
+M. chelonae
+M. abscessus
+Nocardiaceae
+Nocardia asteroides
+/
+Nocardia brasiliensis
+/
+Nocardia farcinica
+Nocardiosis
+Rhodococcus equi
+Corynebacteriaceae
+Corynebacterium diphtheriae
+Diphtheria
+Corynebacterium minutissimum
+Erythrasma
+Corynebacterium jeikeium
+Group JK corynebacterium sepsis
+Bifidobacteriaceae
+Gardnerella vaginalis
+v
+t
+e
+Tuberculosis
+Symptoms, signs and
+associated conditions
+Pulmonary tuberculosis
+Ghon focus
+/
+Ghon's complex
+Extrapulmonary tuberculosis
+Pott disease
+Canga's bead symptom
+Prosector's wart
+Lupus vulgaris
+Tuberculous lymphadenitis
+Tuberculous meningitis
+Miliary tuberculosis
+Urogenital tuberculosis
+Latent tuberculosis
+Caseous necrosis
+Paronychia
+Giant multinucleated cell
+Post-tuberculosis lung disease
+Mycobacterium species
+Mycobacterium africanum
+Mycobacterium bovis
+Mycobacterium caprae
+Mycobacterium tuberculosis
+Tuberculosis diagnosis
+Ziehl–Neelsen stain
+Auramine phenol stain
+Culture on
+Löwenstein–Jensen medium
+and/or
+MGIT
+Chest photofluorography
+GeneXpert MTB/RIF
+Interferon gamma release assay
+QuantiFERON
+T-SPOT.TB
+Microscopic Observation Drug Susceptibility assay
+Tuberculin
+Heaf test
+Mantoux test
+Tine test
+Management
+(
+ATC code J04
+)
+Isoniazid
+4-Aminosalicylic acid
+Ethambutol
+Capreomycin
+Cycloserine
+Rifampicin
+Thioacetazone
+Streptomycin
+Bedaquiline
+Pyrazinamide
+Rifater
+Vaccines
+BCG vaccine
+Experimental
+M72/AS01E
+MVA85A
+RBCG30
+Resistance
+Multidrug-resistant tuberculosis
+Extensively drug-resistant tuberculosis
+Totally drug-resistant tuberculosis
+History of tuberculosis
+Manuel de Abreu
+Hermann Brehmer
+Albert Calmette
+Christopher Dye
+Marcos Espinal
+Friedrich Franz Friedmann
+Max Gerson
+Alan L. Hart
+Philip D'Arcy Hart
+F. R. G. Heaf
+George M. Heath
+Robert Koch
+Charles Mantoux
+Richard Morton
+Mario Raviglione
+Carl Rüedi
+Lucius Rüedi
+Madonna Swan
+Edward Livingston Trudeau
+Organizations
+Adirondack Cottage Sanitarium
+Campaign for Access to Essential Medicines
+Center for Global Infectious Disease Research
+Cure Cottages of Saranac Lake
+European and Developing Countries Clinical Trials Partnership
+Glen Lake Children's Camp
+Glen Lake Sanatorium
+Glenn Dale Hospital
+The Global Fund to Fight AIDS, Tuberculosis and Malaria
+Global Plan to Stop Tuberculosis
+International Congress on Tuberculosis
+International Union Against Tuberculosis and Lung Disease
+Millennium Foundation
+Mycobacterium Tuberculosis Structural Genomics Consortium
+National Jewish Health
+Phipps Institute for the Study, Treatment and Prevention of Tuberculosis
+Stop TB Partnership
+TB Alliance
+Unitaid
+Other
+Tuberculosis elimination
+2007 tuberculosis scare
+Baumgarten–Tangl law
+CFP-10
+ESAT-6
+Iowa Cow War
+List of tuberculosis cases
+N95 respirator
+Plombage
+Preventorium
+Sanatorium
+Sunshine Way
+Tuberculosis classification
+Tuberculosis in China
+Tuberculosis in human culture
+Tuberculosis radiology
+Tygerberg score
+World Tuberculosis Day
+v
+t
+e
+Diseases of poverty
+Diseases of poverty
+AIDS
+Malaria
+Tuberculosis
+Measles
+Pneumonia
+Diarrheal diseases
+Plague
+Neglected diseases
+Cholera
+Chagas disease
+African sleeping sickness
+Schistosomiasis
+Dracunculiasis
+River blindness
+Leishmaniasis
+Trachoma
+Miscellaneous
+Malnutrition
+Priority review voucher
+Authority control databases
+International
+GND
+FAST
+National
+United States
+France
+BnF data
+Japan
+Czech Republic
+Spain
+Latvia
+Israel
+Other
+Historical Dictionary of Switzerland
+NARA
+Yale LUX
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Tuberculosis&oldid=1362372930
+"
+Categories
+:
+Tuberculosis
+Airborne diseases
+Health in Africa
+Health care-associated infections
+Infectious causes of cancer
+Mycobacterium-related cutaneous conditions
+Vaccine-preventable diseases
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Good articles
+Wikipedia indefinitely move-protected pages
+Use dmy dates from January 2023
+CS1 French-language sources (fr)
+CS1 German-language sources (de)
+Articles containing potentially dated statements from 2025
+All articles containing potentially dated statements
+Articles containing potentially dated statements from 2023
+CS1 maint: DOI inactive as of January 2026
+Articles containing Ancient Greek (to 1453)-language text
+Articles containing Latin-language text
+Articles containing potentially dated statements from 2015
+Pages using Sister project links with hidden wikidata
+Articles with medical app sidebar
+Articles containing video clips
+Wikipedia infectious disease articles ready to translate
+Wikipedia medicine articles ready to translate (full)
+Search
+Search
+Tuberculosis
+172 languages
+Add topic

@@ -1,0 +1,56 @@
+COMMON LAB TESTS — GENERAL REFERENCE RANGE OVERVIEW (EDUCATIONAL ONLY)
+
+Reference ranges vary by laboratory, analyzer, patient age/sex, and
+population, and can change with updated clinical guidance. The ranges
+below are widely-cited general adult ranges for orientation only — always
+use the reference range printed on your own lab report (each lab states
+its own range), and discuss the result with your doctor, who interprets it
+in the context of your full clinical picture, not the number alone.
+
+Fasting blood glucose: roughly 70-100 mg/dL is commonly cited as a normal
+fasting range in adults without diabetes; 100-125 mg/dL is often flagged as
+"prediabetes" range; 126 mg/dL or higher on more than one occasion is one
+of the criteria clinicians use when evaluating for diabetes — diagnosis is
+made by a doctor using multiple criteria, not a single home reading.
+
+HbA1c (glycated hemoglobin, reflects ~3-month average blood sugar): below
+5.7% is commonly cited as normal; 5.7-6.4% as prediabetes range; 6.5% or
+higher (confirmed) as consistent with diabetes. For people already
+diagnosed with diabetes, doctors often set an individualized HbA1c target
+(commonly below 7%, but this varies by patient).
+
+Blood pressure: commonly cited categories include normal (below
+120/80 mmHg), elevated (120-129 systolic and below 80 diastolic), Stage 1
+hypertension (130-139/80-89 mmHg), and Stage 2 hypertension (140/90 mmHg or
+higher) — a single elevated reading is not a diagnosis; clinicians look at
+repeated readings, often including home or ambulatory monitoring.
+
+Complete Blood Count (CBC) — commonly referenced adult ranges: hemoglobin
+roughly 13.5-17.5 g/dL (men) and 12.0-15.5 g/dL (women); white blood cell
+count roughly 4,000-11,000 cells/mcL; platelet count roughly
+150,000-450,000/mcL. Ranges differ notably by lab and by age/pregnancy
+status.
+
+Lipid profile: total cholesterol below 200 mg/dL is commonly cited as
+desirable; LDL ("bad" cholesterol) targets vary by individual
+cardiovascular risk (a doctor sets your target, which may be much lower
+than a generic "normal" if you have heart disease risk factors); HDL
+("good" cholesterol) above roughly 40 mg/dL (men) / 50 mg/dL (women) is
+commonly cited as more favorable; triglycerides below 150 mg/dL is commonly
+cited as normal.
+
+Thyroid-Stimulating Hormone (TSH): roughly 0.4-4.0 mIU/L is a commonly
+cited general adult range, though "normal" varies by lab, age, and
+pregnancy status; a value outside this range does not by itself indicate a
+specific thyroid condition without further evaluation.
+
+Kidney function (creatinine, eGFR): reference creatinine ranges differ by
+sex and muscle mass; eGFR above 90 mL/min/1.73m^2 is often considered
+normal kidney function, with lower values used to stage chronic kidney
+disease severity — always interpreted by a clinician alongside other
+factors.
+
+Key takeaway: a value slightly outside the printed reference range is not
+automatically a disease and does not mean you should self-medicate or
+self-diagnose — bring the report to a qualified healthcare professional for
+interpretation in the context of your symptoms and history.

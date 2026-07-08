@@ -1,0 +1,38 @@
+PUBLIC HEALTH ADVISORIES AND OUTBREAK NOTIFICATION — HOW INDIA'S SYSTEM WORKS
+
+India tracks and responds to disease outbreaks and seasonal public health
+risks primarily through the Integrated Disease Surveillance Programme
+(IDSP), coordinated by the National Centre for Disease Control (NCDC) under
+the Ministry of Health and Family Welfare, working with state
+surveillance units and district/sub-district reporting units.
+
+How it generally works:
+- Health facilities and surveillance units report defined "presumptive"
+  case counts for certain diseases on a routine (often weekly) basis, which
+  can trigger further investigation if numbers cross an expected threshold
+  for that time/place (an "outbreak signal").
+- When an outbreak is confirmed, state health departments typically issue
+  local advisories (e.g. fogging/vector control for dengue, water-source
+  advisories for cholera/diarrheal disease after floods, isolation guidance
+  for a respiratory outbreak) alongside NCDC/MoHFW national guidance where
+  relevant.
+- Seasonal advisories are common and recurring: pre-monsoon and monsoon
+  advisories for vector-borne diseases (dengue, malaria, chikungunya) and
+  water-borne diseases; summer advisories for heat-related illness; winter
+  advisories for cold-wave-related risks and respiratory illness spikes.
+
+What patients/the public can do:
+- Follow official advisories from MoHFW, NCDC, ICMR, WHO, and your state
+  health department rather than unverified social media claims, especially
+  during an active outbreak.
+- Report unusual disease clusters (e.g. many people in one area with
+  similar symptoms in a short time) to the local health authority/primary
+  health centre — this is exactly the kind of signal surveillance systems
+  rely on.
+- For international travel, check both the destination country's advisories
+  and WHO's disease outbreak news for relevant precautions/vaccinations.
+
+This is a general overview of how public health surveillance and
+advisories function, not a live outbreak alert — for current, location-
+specific advisories, check MoHFW, NCDC (ncdc.mohfw.gov.in), your state
+health department, or WHO directly.

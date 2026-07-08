@@ -1,0 +1,8813 @@
+Reference ranges for blood tests - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Common human medical data ranges for blood test results
+Reference
+ranges
+In:
+Blood
+Urine
+CSF
+Feces
+Vital signs
+v
+t
+e
+Reference ranges (reference intervals) for blood tests
+are sets of values used by a
+health professional
+to interpret a set of
+medical test
+results from blood samples.
+Reference ranges
+for
+blood tests
+are studied within the field of
+clinical chemistry
+(also known as "clinical biochemistry", "chemical pathology" or "pure blood chemistry"), the area of
+pathology
+that is generally concerned with analysis of
+bodily fluids
+.
+[
+1
+]
+[
+2
+]
+[
+3
+]
+Blood test results should always be interpreted using the reference range provided by the laboratory that performed the test.
+[
+4
+]
+Interpretation
+[
+edit
+]
+A
+reference range
+is usually defined as the set of values 95 percent of the normal population falls within (that is, 95%
+prediction interval
+).
+[
+5
+]
+It is determined by collecting data from vast numbers of laboratory tests.
+[
+6
+]
+[
+7
+]
+Plasma or whole blood
+[
+edit
+]
+In this article, all values (except the ones listed below) denote
+blood plasma
+concentration, which is approximately 60–100% larger than the actual blood concentration if the amount inside
+red blood cells
+(RBCs) is negligible. The precise factor depends on
+hematocrit
+as well as amount inside RBCs. Exceptions are mainly those values that denote total blood concentration, and in this article they are:
+[
+8
+]
+All values in
+Hematology – red blood cells
+(except
+hemoglobin in plasma
+)
+All values in
+Hematology – white blood cells
+Platelet count (Plt)
+A few values are for inside red blood cells only:
+Vitamin B
+9
+(folic acid/folate) in red blood cells
+Mean corpuscular hemoglobin concentration (MCHC)
+Units
+[
+edit
+]
+Mass concentration
+(g/dL or g/L) is the most common measurement unit in the United States. Is usually given with dL (decilitres) as the denominator in the United States, and usually with L (litres) in, for example, Sweden.
+[
+citation needed
+]
+Molar concentration
+(mol/L) is used to a higher degree in most of the rest of the world, including the United Kingdom and other parts of Europe and Australia and New Zealand.
+[
+9
+]
+International units
+(IU) are based on measured
+biological activity
+or effect, or for some substances, a specified equivalent mass.
+[
+citation needed
+]
+Enzyme activity
+(
+kat
+) is commonly used for e.g.
+liver function tests
+like
+AST
+,
+ALT
+,
+LD
+and
+γ-GT
+in Sweden.
+[
+10
+]
+Percentages
+and time-dependent units (mol/s) are used for calculated derived parameters, e.g. for
+beta cell
+function in
+homeostasis model assessment
+or
+thyroid's secretory capacity
+.
+[
+11
+]
+Arterial or venous
+[
+edit
+]
+If not otherwise specified, a reference range for a blood test is generally the
+venous
+range, as the standard process of obtaining a sample is by
+venipuncture
+. An exception is for acid–base and
+blood gases
+, which are generally given for arterial blood.
+[
+12
+]
+Still, the blood values are approximately equal between the arterial and venous sides for most substances, with the exception of acid–base, blood gases and drugs (used in
+therapeutic drug monitoring
+(TDM) assays).
+[
+13
+]
+Arterial levels for drugs are generally higher than venous levels because of extraction while passing through tissues.
+[
+13
+]
+Usual or optimal
+[
+edit
+]
+Reference ranges
+are usually given as what are the usual (or
+normal
+) values found in the population, more specifically the
+prediction interval
+that 95% of the population fall into. This may also be called
+standard range
+. In contrast,
+optimal (health) range
+or
+therapeutic target
+is a reference range or limit that is based on concentrations or levels that are associated with optimal health or minimal risk of related complications and diseases. For most substances presented, the optimal levels are the ones normally found in the population as well. More specifically, optimal levels are generally close to a
+central tendency
+of the values found in the population. However, usual and optimal levels may differ substantially, most notably among vitamins and blood lipids, so these tables give limits on both standard and optimal (or target) ranges. In addition, some values, including
+troponin I
+and
+brain natriuretic peptide
+, are given as the estimated appropriate
+cutoffs
+to distinguish healthy people from people with specific conditions, which here are
+myocardial infarction
+and
+congestive heart failure
+, respectively, for the aforementioned substances.
+[
+14
+]
+[
+15
+]
+[
+16
+]
+Variability
+[
+edit
+]
+Further information:
+Reference range
+References range may vary with age, sex, race, pregnancy,
+[
+17
+]
+diet, use of prescribed or herbal drugs and stress. Reference ranges often depend on the analytical method used, for reasons such as
+inaccuracy
+, lack of
+standardisation
+, lack of
+certified reference material
+and differing
+antibody reactivity
+.
+[
+18
+]
+Also, reference ranges may be inaccurate when the reference groups used to establish the ranges are small.
+[
+19
+]
+Sorted by concentration
+[
+edit
+]
+By mass and molarity
+[
+edit
+]
+Smaller, narrower boxes indicate a more tight homeostatic regulation when measured as
+standard "usual" reference range
+.
+Reference ranges for blood tests
+, sorted logarithmically by
+mass
+above the scale and by
+molarity
+below. (
+A separate printable image is available for mass and molarity
+)
+Hormones predominate at the left part of the scale, shown with a red at ng/L or pmol/L, being in very low concentration. There appears to be the greatest cluster of substances in the yellow part (μg/L or nmol/L), becoming sparser in the green part (mg/L or μmol/L). However, there is another cluster containing many metabolic substances like cholesterol and glucose at the limit with the blue part (g/L or mmol/L).
+[
+citation needed
+]
+The unit conversions of substance concentrations from the molar to the mass concentration scale above are made as follows:
+Numerically:
+molar concentration
+×
+molar mass
+=
+mass concentration
+{\displaystyle {\text{molar concentration}}\times {\text{molar mass}}={\text{mass concentration}}}
+Measured directly in distance on the scales:
+log
+10
+⁡
+molar mass
+1000
+=
+distance to right (decades)
+{\displaystyle \log _{10}{\frac {\text{molar mass}}{1000}}={\text{distance to right (decades)}}}
+,
+where distance is the direct (not logarithmic) distance in number of
+decades
+or "octaves" to the right the mass concentration is found. To translate from mass to molar concentration, the dividend (
+molar mass
+and the divisor (1000) in the
+division
+change places, or, alternatively,
+distance to right
+is changed to
+distance to left
+. Substances with a molar mass around 1000g/mol (e.g. thyroxine) are almost vertically aligned in the mass and molar images. Adrenocorticotropic hormone, on the other hand, with a molar mass of 4540,
+[
+20
+]
+is 0.7 decades to the right in the mass image. Substances with molar mass below 1000g/mol (e.g. electrolytes and metabolites) would have "negative" distance, that is, masses deviating to the left.
+Many substances given in mass concentration are not given in molar amount because they haven't been added to the article.
+The diagram above can also be used as an alternative way to convert any substance concentration (not only the normal or optimal ones) from molar to mass units and vice versa for those substances appearing in both scales, by measuring how much they are horizontally displaced from one another (representing the molar mass for that substance), and using the same distance from the concentration to be converted to determine the equivalent concentration in terms of the other unit. For example, on a certain monitor, the horizontal distance between the upper limits for parathyroid hormone in pmol/L and pg/mL may be 7
+cm, with the mass concentration to the right. A molar concentration of, for example, 5 pmol/L would therefore correspond to a mass concentration located 7
+cm to the right in the mass diagram, that is, approximately 45 pg/mL.
+By units
+[
+edit
+]
+Units do not necessarily imply anything about molarity or mass.
+A few substances are below this main interval, e.g.
+thyroid stimulating hormone
+, being measured in
+m
+U/L
+, or above, like
+rheumatoid factor
+and
+CA19-9
+, being measured in U/mL.
+By enzyme activity
+[
+edit
+]
+White blood cells
+[
+edit
+]
+Sorted by category
+[
+edit
+]
+Ions and trace metals
+[
+edit
+]
+Further information:
+Trace metal
+and
+Metals in medicine
+Included here are also related binding proteins, like
+ferritin
+and
+transferrin
+for iron, and
+ceruloplasmin
+for copper.
+Test
+Lower limit
+Upper limit
+Unit*
+Comments
+Sodium
+(Na)
+135,
+[
+21
+]
+137
+[
+10
+]
+[
+22
+]
+145,
+[
+10
+]
+[
+22
+]
+147
+[
+21
+]
+mmol/L or mEq/L
+[
+21
+]
+See
+hyponatremia
+or
+hypernatremia
+310,
+[
+23
+]
+320
+[
+23
+]
+330,
+[
+23
+]
+340
+[
+23
+]
+mg/dL
+Potassium
+(K)
+3.5,
+[
+10
+]
+[
+21
+]
+3.6
+[
+22
+]
+5.0,
+[
+10
+]
+[
+21
+]
+[
+22
+]
+5.1
+mmol/L or mEq/L
+[
+21
+]
+See
+hypokalemia
+or
+hyperkalemia
+14
+[
+24
+]
+20
+[
+24
+]
+mg/dL
+Chloride
+(Cl)
+95,
+[
+21
+]
+98,
+[
+25
+]
+100
+[
+10
+]
+105,
+[
+21
+]
+106,
+[
+25
+]
+110
+[
+10
+]
+mmol/L or mEq/L
+[
+21
+]
+See
+hypochloremia
+or
+hyperchloremia
+340
+[
+26
+]
+370
+[
+26
+]
+mg/dL
+Ionized
+calcium
+(Ca)
+1.03,
+[
+27
+]
+1.10
+[
+10
+]
+1.23,
+[
+27
+]
+1.30
+[
+10
+]
+mmol/L
+See
+hypocalcaemia
+or
+hypercalcaemia
+4.1,
+[
+28
+]
+4.4
+[
+28
+]
+4.9,
+[
+28
+]
+5.2
+[
+28
+]
+mg/dL
+Total calcium (Ca)
+2.1,
+[
+21
+]
+[
+29
+]
+2.2
+[
+10
+]
+2.5,
+[
+10
+]
+[
+29
+]
+2.6,
+[
+29
+]
+2.8
+[
+21
+]
+mmol/L
+8.4,
+[
+21
+]
+8.5
+[
+30
+]
+10.2,
+[
+21
+]
+10.5
+[
+30
+]
+mg/dL
+Total
+serum iron
+(TSI) – male
+65,
+[
+31
+]
+76
+[
+22
+]
+176,
+[
+31
+]
+198
+[
+22
+]
+μg/dL
+See
+hypoferremia
+or the following:
+iron overload (hemochromatosis)
+,
+iron poisoning
+,
+siderosis
+,
+hemosiderosis
+,
+hyperferremia
+11.6,
+[
+32
+]
+[
+33
+]
+13.6
+[
+33
+]
+30,
+[
+32
+]
+32,
+[
+33
+]
+35
+[
+33
+]
+μmol/L
+Total serum iron (TSI) – female
+26,
+[
+22
+]
+50
+[
+31
+]
+170
+[
+22
+]
+[
+31
+]
+μg/dL
+4.6,
+[
+33
+]
+8.9
+[
+32
+]
+30.4
+[
+32
+]
+μmol/L
+Total serum iron (TSI) –
+newborns
+100
+[
+31
+]
+250
+[
+31
+]
+μg/dL
+18
+[
+33
+]
+45
+[
+33
+]
+μmol/L
+Total serum iron (TSI) –
+children
+50
+[
+31
+]
+120
+[
+31
+]
+μg/dL
+9
+[
+33
+]
+21
+[
+33
+]
+μmol/L
+Total iron-binding capacity
+(TIBC)
+240,
+[
+31
+]
+262
+[
+22
+]
+450,
+[
+31
+]
+474
+[
+22
+]
+μg/dL
+43,
+[
+33
+]
+47
+[
+33
+]
+81,
+[
+33
+]
+85
+[
+33
+]
+μmol/L
+Transferrin
+190,
+[
+34
+]
+194,
+[
+10
+]
+204
+[
+22
+]
+326,
+[
+10
+]
+330,
+[
+34
+]
+360
+[
+22
+]
+mg/dL
+25
+[
+35
+]
+45
+[
+35
+]
+μmol/L
+Transferrin saturation
+20
+[
+31
+]
+50
+[
+31
+]
+%
+Ferritin
+– Males and
+postmenopausal
+females
+12
+[
+36
+]
+300
+[
+36
+]
+[
+37
+]
+ng/mL or μg/L
+27
+[
+38
+]
+670
+[
+38
+]
+pmol/L
+Ferritin – premenopausal females
+12
+[
+36
+]
+150
+[
+36
+]
+– 200
+[
+37
+]
+ng/mL or μg/L
+27
+[
+38
+]
+330
+[
+38
+]
+– 440
+[
+38
+]
+pmol/L
+Ammonia
+10,
+[
+39
+]
+20
+[
+40
+]
+35,
+[
+39
+]
+65
+[
+40
+]
+μmol/L
+See
+hypoammonemia
+and
+hyperammonemia
+17,
+[
+41
+]
+34
+[
+41
+]
+60,
+[
+41
+]
+110
+[
+41
+]
+μg/dL
+Copper
+(Cu)
+70
+[
+30
+]
+150
+[
+30
+]
+μg/dL
+See
+hypocupremia
+or
+hypercupremia
+11
+[
+42
+]
+[
+43
+]
+24
+[
+42
+]
+μmol/L
+Ceruloplasmin
+15
+[
+30
+]
+60
+[
+30
+]
+mg/dL
+1
+[
+44
+]
+4
+[
+44
+]
+μmol/L
+Phosphate
+(HPO
+4
+2−
+)
+0.8
+1.5
+[
+45
+]
+mmol/L
+See
+hypophosphatemia
+or
+hyperphosphatemia
+Inorganic
+phosphorus
+(serum)
+1.0
+[
+21
+]
+1.5
+[
+21
+]
+mmol/L
+3.0
+[
+21
+]
+4.5
+[
+21
+]
+mg/dL
+Zinc
+(Zn)
+60,
+[
+46
+]
+72
+[
+47
+]
+110,
+[
+47
+]
+130
+[
+46
+]
+μg/dL
+See
+zinc deficiency
+or
+zinc poisoning
+9.2,
+[
+48
+]
+11
+[
+10
+]
+17,
+[
+10
+]
+20
+[
+48
+]
+μmol/L
+Magnesium
+1.5,
+[
+30
+]
+1.7
+[
+49
+]
+2.0,
+[
+30
+]
+2.3
+[
+49
+]
+mEq/L or mg/dL
+See
+hypomagnesemia
+or
+hypermagnesemia
+0.6,
+[
+50
+]
+0.7
+[
+10
+]
+0.82,
+[
+50
+]
+0.95
+[
+10
+]
+mmol/L
+Note: Although 'mEq' for mass and 'mEq/L' are sometimes used in the United States and elsewhere, they are not part of
+SI
+and are now considered redundant.
+Acid–base and blood gases
+[
+edit
+]
+Further information:
+Acid–base homeostasis
+Further information:
+Arterial blood gas test
+and
+Arterial blood gas test §
+Parameters and reference ranges
+If
+arterial
+/
+venous
+is not specified for an acid–base or blood gas value, then it generally refers to arterial, and not venous which otherwise is standard for other blood tests.
+[
+citation needed
+]
+Acid–base and blood gases are among the few blood constituents that exhibit substantial difference between arterial and venous values.
+[
+13
+]
+Still, pH, bicarbonate and base excess show a high level of
+inter-method reliability
+between arterial and venous tests, so arterial and venous values are roughly equivalent for these.
+[
+51
+]
+Test
+Arterial/Venous
+Lower limit
+Upper limit
+Unit
+pH
+Arterial
+7.34,
+[
+22
+]
+7.35
+[
+21
+]
+7.44,
+[
+22
+]
+7.45
+[
+21
+]
+Venous
+7.31
+[
+52
+]
+7.41
+[
+52
+]
+[
+H
++
+]
+Arterial
+36
+[
+21
+]
+44
+[
+21
+]
+nmol/L
+3.6
+[
+53
+]
+4.4
+[
+53
+]
+ng/dL
+Base excess
+Arterial & venous
+[
+52
+]
+−3
+[
+52
+]
++3
+[
+52
+]
+mEq/L
+Oxygen partial pressure
+(pO
+2
+)
+Arterial pO
+2
+10,
+[
+21
+]
+11
+[
+54
+]
+13,
+[
+54
+]
+14
+[
+21
+]
+kPa
+75,
+[
+21
+]
+[
+22
+]
+83
+[
+30
+]
+100,
+[
+22
+]
+105
+[
+21
+]
+mmHg
+or
+torr
+Venous
+4.0
+[
+54
+]
+5.3
+[
+54
+]
+kPa
+30
+[
+52
+]
+40
+[
+52
+]
+mmHg or torr
+Oxygen saturation
+Arterial
+94,
+[
+52
+]
+95,
+[
+25
+]
+96
+[
+30
+]
+100
+[
+25
+]
+[
+30
+]
+%
+Venous
+Approximately 75
+[
+25
+]
+Carbon dioxide partial pressure
+(pCO
+2
+)
+Arterial P
+a
+CO
+2
+4.4,
+[
+21
+]
+4.7
+[
+54
+]
+5.9,
+[
+21
+]
+6.0
+[
+54
+]
+kPa
+33,
+[
+21
+]
+35
+[
+22
+]
+44,
+[
+21
+]
+45
+[
+22
+]
+mmHg or torr
+Venous
+5.5,
+[
+54
+]
+6.8
+[
+54
+]
+kPa
+41
+[
+52
+]
+51
+[
+52
+]
+mmHg or torr
+Absolute content of
+carbon dioxide
+(CO
+2
+)
+Arterial
+23
+[
+52
+]
+30
+[
+52
+]
+mmol/L
+100
+[
+55
+]
+132
+[
+55
+]
+mg/dL
+Bicarbonate
+(HCO
+3
+−
+)
+Arterial & venous
+18
+[
+30
+]
+23
+[
+30
+]
+mmol/L
+110
+[
+56
+]
+140
+[
+56
+]
+mg/dL
+Standard bicarbonate
+(SBC
+e
+)
+Arterial & venous
+21, 22
+[
+21
+]
+27, 28
+[
+21
+]
+mmol/L or mEq/L
+[
+21
+]
+134
+[
+56
+]
+170
+[
+56
+]
+mg/dL
+Liver function
+[
+edit
+]
+Further information:
+Liver function tests
+Test
+Patient type
+Lower limit
+Upper limit
+Unit
+Comments
+Total protein
+(TotPro)
+60,
+[
+21
+]
+63
+[
+22
+]
+78,
+[
+21
+]
+82,
+[
+22
+]
+84
+[
+30
+]
+g/L
+See
+serum total protein Interpretation
+Albumin
+35
+[
+21
+]
+[
+57
+]
+48,
+[
+22
+]
+55
+[
+21
+]
+g/L
+See
+hypoalbuminemia
+3.5
+[
+22
+]
+4.8,
+[
+22
+]
+5.5
+[
+21
+]
+U/L
+540
+[
+58
+]
+740
+[
+58
+]
+μmol/L
+Globulins
+23
+[
+21
+]
+35
+[
+21
+]
+g/L
+Total
+bilirubin
+1.7,
+[
+59
+]
+2,
+[
+21
+]
+3.4,
+[
+59
+]
+5
+[
+10
+]
+17,
+[
+21
+]
+[
+59
+]
+22,
+[
+59
+]
+25
+[
+10
+]
+μmol/L
+0.1,
+[
+21
+]
+0.2,
+[
+22
+]
+0.29
+[
+60
+]
+1.0,
+[
+21
+]
+[
+30
+]
+1.3,
+[
+22
+]
+1.4
+[
+60
+]
+mg/dL
+Direct/conjugated bilirubin
+0.0
+[
+21
+]
+or N/A
+[
+10
+]
+5,
+[
+21
+]
+7
+[
+10
+]
+[
+59
+]
+μmol/L
+0
+[
+21
+]
+[
+22
+]
+0.3,
+[
+21
+]
+[
+22
+]
+0.4
+[
+30
+]
+mg/dL
+Alanine transaminase
+(ALT/ALAT
+[
+10
+]
+)
+5,
+[
+61
+]
+7,
+[
+22
+]
+8
+[
+21
+]
+20,
+[
+21
+]
+21,
+[
+25
+]
+56
+[
+22
+]
+U/L
+Also called
+serum glutamic pyruvic transaminase
+(SGPT)
+Female
+0.15
+[
+10
+]
+0.75
+[
+10
+]
+μ
+kat
+/L
+Male
+0.15
+[
+10
+]
+1.1
+[
+10
+]
+Aspartate transaminase
+(AST/ASAT
+[
+10
+]
+)
+Female
+6
+[
+62
+]
+34
+[
+62
+]
+IU/L
+Also called
+serum glutamic oxaloacetic transaminase
+(SGOT)
+0.25
+[
+10
+]
+0.60
+[
+10
+]
+μ
+kat
+/L
+Male
+8
+[
+62
+]
+40
+[
+62
+]
+IU/L
+0.25
+[
+10
+]
+0.75
+[
+10
+]
+μ
+kat
+/L
+Alkaline phosphatase
+(ALP)
+0.6
+[
+10
+]
+1.8
+[
+10
+]
+μ
+kat
+/L
+Female
+42
+[
+61
+]
+98
+[
+61
+]
+U/L
+Male
+53
+[
+61
+]
+128
+[
+61
+]
+Gamma glutamyl transferase
+(GGT)
+5,
+[
+61
+]
+8
+[
+22
+]
+40,
+[
+61
+]
+78
+[
+22
+]
+U/L
+Female
+0.63
+[
+63
+]
+μ
+kat
+/L
+Male
+0.92
+[
+63
+]
+μ
+kat
+/L
+Cardiac tests
+[
+edit
+]
+Test
+Patient type
+Lower limit
+Upper limit
+Unit
+Comments
+Creatine kinase
+(CK)
+Male
+24,
+[
+64
+]
+38,
+[
+22
+]
+60
+[
+61
+]
+174,
+[
+30
+]
+320
+[
+61
+]
+U/L or ng/mL
+0.42
+[
+65
+]
+1.5
+[
+65
+]
+μkat/L
+Female
+24,
+[
+64
+]
+38,
+[
+22
+]
+96
+[
+30
+]
+140,
+[
+30
+]
+200
+[
+61
+]
+U/L or ng/mL
+0.17
+[
+65
+]
+1.17
+[
+65
+]
+μkat/L
+CK-MB
+0
+3,
+[
+22
+]
+3.8,
+[
+10
+]
+5
+[
+61
+]
+ng/mL or μg/L
+[
+10
+]
+Myoglobin
+Female
+1
+[
+66
+]
+66
+[
+66
+]
+ng/mL or μg/L
+Male
+17
+[
+66
+]
+106
+[
+66
+]
+Cardiac
+troponin T
+(low sensitive)
+0.1
+[
+14
+]
+ng/mL
+99th percentile
+cutoff
+Cardiac
+troponin I
+(high sensitive)
+0.03
+[
+14
+]
+ng/mL
+99th percentile
+cutoff
+Cardiac troponin T (high sensitive)
+Male
+0.022
+[
+14
+]
+ng/mL
+99th percentile
+cutoff
+Female
+0.014
+[
+14
+]
+ng/mL
+99th percentile
+cutoff
+newborn/infants
+not established
+more than adults
+[
+67
+]
+[
+68
+]
+Brain natriuretic peptide
+(BNP)
+-more detailed ranges in
+BNP
+article
+Interpretation
+Range /
+Cutoff
+Congestive heart failure
+unlikely
+<
+100 pg/mL
+[
+15
+]
+[
+16
+]
+"Gray zone"
+100–500 pg/mL
+[
+15
+]
+[
+16
+]
+Congestive heart failure
+likely
+>
+500 pg/mL
+[
+15
+]
+[
+16
+]
+NT-proBNP
+-more detailed ranges in
+NT-proBNP
+article
+Interpretation
+Age
+Cutoff
+Congestive heart failure
+likely
+<
+75 years
+>
+125 pg/mL
+[
+69
+]
+> 75 years
+> 450pg/mL
+[
+69
+]
+Lipids
+[
+edit
+]
+Further information:
+Blood lipids
+Test
+Patient type
+Lower limit
+Upper limit
+Unit
+Therapeutic target
+Triglycerides
+10–39 years
+54
+[
+30
+]
+110
+[
+30
+]
+mg/dL
+< 100
+mg/dL
+[
+70
+]
+or 1.1
+mmol/L
+[
+70
+]
+0.61
+[
+71
+]
+1.2
+[
+71
+]
+mmol/L
+40–59 years
+70
+[
+30
+]
+150
+[
+30
+]
+mg/dL
+0.77
+[
+71
+]
+1.7
+[
+71
+]
+mmol/L
+> 60 years
+80
+[
+30
+]
+150
+[
+30
+]
+mg/dL
+0.9
+[
+71
+]
+1.7
+[
+71
+]
+mmol/L
+Total
+cholesterol
+3.0,
+[
+72
+]
+3.6
+[
+21
+]
+[
+72
+]
+5.0,
+[
+10
+]
+[
+73
+]
+6.5
+[
+21
+]
+mmol/L
+< 3.9
+mmol/L
+[
+70
+]
+120,
+[
+22
+]
+140
+[
+21
+]
+200,
+[
+22
+]
+250
+[
+21
+]
+mg/dL
+< 150
+mg/dL
+[
+70
+]
+HDL cholesterol
+Female
+1.0,
+[
+74
+]
+1.2,
+[
+10
+]
+1.3
+[
+72
+]
+2.2
+[
+74
+]
+mmol/L
+> 1.0
+[
+74
+]
+or 1.6
+[
+72
+]
+mmol/L
+40
+[
+75
+]
+or 60
+[
+76
+]
+mg/dL
+40,
+[
+75
+]
+50
+[
+77
+]
+86
+[
+75
+]
+mg/dL
+HDL cholesterol
+Male
+0.9
+[
+10
+]
+[
+74
+]
+2.0
+[
+74
+]
+mmol/L
+35
+[
+75
+]
+80
+[
+75
+]
+mg/dL
+LDL cholesterol
+(Not valid when
+triglycerides >5.0
+mmol/L)
+2.0,
+[
+74
+]
+2.4
+[
+73
+]
+3.0,
+[
+10
+]
+[
+73
+]
+3.4
+[
+74
+]
+mmol/L
+< 2.5
+mmol/L
+[
+74
+]
+80,
+[
+75
+]
+94
+[
+75
+]
+120,
+[
+75
+]
+130
+[
+75
+]
+mg/dL
+< 100
+mg/dL
+[
+75
+]
+LDL/HDL quotient
+n/a
+5
+[
+10
+]
+(unitless)
+Tumour markers
+[
+edit
+]
+Further information:
+Tumour markers
+Test
+Patient type
+Cutoff
+Unit
+Comments
+Alpha fetoprotein
+(AFP)
+44
+[
+22
+]
+ng/mL or μg/L
+Hepatocellular carcinoma or testicular cancer
+Beta
+human chorionic gonadotrophin
+(β-hCG)
+In males and non-pregnant females
+5
+[
+22
+]
+IU/L or mU/mL
+choriocarcinoma
+CA19-9
+40
+[
+22
+]
+U/mL
+Pancreatic cancer
+CA-125
+30,
+[
+78
+]
+35
+[
+79
+]
+kU/L or U/mL
+Carcinoembryonic antigen
+(CEA)
+Non-smokers, 50 years
+3.4,
+[
+10
+]
+3.6
+[
+80
+]
+μg/L
+Non-smokers, 70 years
+4.1
+[
+80
+]
+Smokers
+5
+[
+81
+]
+Prostate specific antigen
+(PSA)
+40–49 years
+1.2–2.9
+[
+82
+]
+μg/L
+[
+10
+]
+[
+22
+]
+or ng/mL
+[
+30
+]
+More detailed cutoffs in
+PSA – Serum levels
+70–79 years, non-
+African-American
+4.0–9.0
+[
+82
+]
+70–79 years, African-American
+7.7–13
+[
+82
+]
+PAP
+3
+[
+30
+]
+units/dL (Bodansky units)
+Calcitonin
+5,
+[
+83
+]
+15
+[
+83
+]
+ng/L or pg/mL
+Cutoff against
+medullary thyroid cancer
+[
+83
+]
+More detailed
+cutoffs
+in
+Calcitonin
+article
+Endocrinology
+[
+edit
+]
+Thyroid hormones
+[
+edit
+]
+Further information:
+Thyroid function tests
+Test
+Patient type
+Lower limit
+Upper limit
+Unit
+Thyroid stimulating hormone
+(TSH or thyrotropin)
+Adults –
+standard range
+0.3,
+[
+10
+]
+0.4,
+[
+22
+]
+0.5,
+[
+30
+]
+0.6
+[
+84
+]
+4.0,
+[
+10
+]
+4.5,
+[
+22
+]
+6.0
+[
+30
+]
+mIU/L or μIU/mL
+Adults –
+optimal range
+0.3,
+[
+85
+]
+0.5
+[
+86
+]
+2.0,
+[
+86
+]
+3.0
+[
+85
+]
+Infants
+1.3
+[
+87
+]
+19
+[
+87
+]
+Free
+thyroxine
+(FT4)
+-more detailed ranges in
+Thyroid function tests
+article
+Normal adult
+0.7,
+[
+88
+]
+0.8
+[
+22
+]
+1.4,
+[
+88
+]
+1.5,
+[
+22
+]
+1.8
+[
+89
+]
+ng/dL
+9,
+[
+10
+]
+[
+90
+]
+10,
+[
+91
+]
+12
+[
+92
+]
+18,
+[
+10
+]
+[
+90
+]
+23
+[
+92
+]
+pmol/L
+Child/Adolescent
+31 d – 18 y
+0.8
+[
+88
+]
+2.0
+[
+88
+]
+ng/dL
+10
+[
+90
+]
+26
+[
+90
+]
+pmol/L
+Pregnant
+0.5
+[
+88
+]
+1.0
+[
+88
+]
+ng/dL
+6.5
+[
+90
+]
+13
+[
+90
+]
+pmol/L
+Total thyroxine
+4,
+[
+91
+]
+5.5
+[
+22
+]
+11,
+[
+91
+]
+12.3
+[
+22
+]
+μg/dL
+60
+[
+91
+]
+[
+92
+]
+140,
+[
+91
+]
+160
+[
+92
+]
+nmol/L
+Free
+triiodothyronine
+(FT3)
+Normal adult
+0.2
+[
+91
+]
+0.5
+[
+91
+]
+ng/dL
+3.1
+[
+93
+]
+7.7
+[
+93
+]
+pmol/L
+Children 2-16 y
+0.1
+[
+94
+]
+0.6
+[
+94
+]
+ng/dL
+1.5
+[
+93
+]
+9.2
+[
+93
+]
+pmol/L
+Total
+triiodothyronine
+60,
+[
+22
+]
+75
+[
+91
+]
+175,
+[
+91
+]
+181
+[
+22
+]
+ng/dL
+0.9,
+[
+10
+]
+1.1
+[
+91
+]
+2.5,
+[
+10
+]
+2.7
+[
+91
+]
+nmol/L
+Thyroxine-binding globulin
+(TBG)
+12
+[
+22
+]
+30
+[
+22
+]
+mg/L
+Thyroglobulin
+(Tg)
+1.5
+[
+91
+]
+30
+[
+91
+]
+pmol/L
+1
+[
+91
+]
+20
+[
+91
+]
+μg/L
+Sex hormones
+[
+edit
+]
+Further information:
+Sex steroid
+The diagrams below take inter-cycle and inter-woman variability into account in displaying reference ranges for
+estradiol
+,
+progesterone
+,
+FSH
+and
+LH
+.
+Levels of
+estradiol
+(the main estrogen),
+progesterone
+,
+luteinizing hormone
+and
+follicle-stimulating hormone
+during the menstrual cycle.
+[
+95
+]
+Test
+Patient type
+Lower limit
+Upper limit
+Unit
+Dihydrotestosterone
+adult male
+1.0
+[
+96
+]
+2.9
+[
+97
+]
+nmol/L
+30
+85
+ng/dL
+Testosterone
+Male, overall
+8,
+[
+98
+]
+10
+[
+99
+]
+27,
+[
+98
+]
+35
+[
+99
+]
+nmol/L
+230,
+[
+100
+]
+300
+[
+101
+]
+780–1000
+[
+100
+]
+[
+101
+]
+ng/dL
+Male < 50 years
+10
+[
+10
+]
+45
+[
+10
+]
+nmol/L
+290
+[
+100
+]
+1300
+[
+100
+]
+ng/dL
+Male > 50 years
+6.2
+[
+10
+]
+26
+[
+10
+]
+nmol/L
+180
+[
+100
+]
+740
+[
+100
+]
+ng/dL
+Female
+0.7
+[
+99
+]
+2.8–3.0
+[
+99
+]
+[
+10
+]
+nmol/L
+20
+[
+101
+]
+80–85
+[
+101
+]
+[
+100
+]
+ng/dL
+17α-Hydroxyprogesterone
+male
+0.06
+[
+30
+]
+3.0
+[
+30
+]
+mg/L
+0.18
+[
+102
+]
+9.1
+[
+102
+]
+μmol/L
+Female (Follicular phase)
+0.2
+[
+30
+]
+1.0
+[
+30
+]
+mg/L
+0.6
+[
+102
+]
+3.0
+[
+102
+]
+μmol/L
+Follicle-stimulating
+hormone
+(FSH)
+-more detailed menstrual cycle
+ranges in
+separate diagram
+Prepubertal
+<1
+[
+103
+]
+3
+[
+103
+]
+IU/L
+Adult male
+1
+[
+103
+]
+8
+[
+103
+]
+Adult female (
+follicular
+and
+luteal phase
+)
+1
+[
+103
+]
+11
+[
+103
+]
+Adult female (
+Ovulation
+)
+6
+[
+103
+]
+95%
+PI
+(standard)
+26
+[
+103
+]
+95% PI)
+5
+[
+104
+]
+90%
+PI
+(used in diagram)
+15
+[
+104
+]
+(90% PI)
+Post-menopausal female
+30
+[
+103
+]
+118
+[
+103
+]
+Luteinizing hormone
+(LH)
+-more detailed menstrual cycle
+ranges in
+separate diagram
+Female, peak
+20
+[
+104
+]
+90%
+PI
+(used in diagram)
+75
+[
+104
+]
+(90% PI)
+IU/L
+Female, post-menopausal
+15
+[
+105
+]
+60
+[
+105
+]
+Male aged 18+
+2
+[
+106
+]
+9
+[
+106
+]
+Estradiol
+(an
+estrogen
+)
+-more detailed ranges in
+estradiol
+article
+Adult male
+50
+[
+107
+]
+200
+[
+107
+]
+pmol/L
+14
+[
+108
+]
+55
+[
+108
+]
+pg/mL
+Adult female (day 5 of
+follicular phase
+,
+and
+luteal phase
+)
+70
+[
+107
+]
+500,
+[
+107
+]
+600
+[
+107
+]
+pmol/L
+19
+[
+108
+]
+140,
+[
+108
+]
+160
+[
+108
+]
+pg/mL
+Adult female – free (not protein bound)
+0.5
+[
+109
+]
+9
+[
+109
+]
+pg/mL
+1.7
+[
+109
+]
+33
+[
+109
+]
+pmol/L
+Post-menopausal female
+0
+[
+107
+]
+130
+[
+107
+]
+pmol/L
+0
+[
+108
+]
+35
+[
+108
+]
+pg/mL
+Progesterone
+-more detailed ranges
+in
+Progesterone
+article
+Female in mid-
+luteal phase
+(day 21–23)
+17,
+[
+104
+]
+35
+[
+110
+]
+92
+[
+110
+]
+nmol/L
+6,
+[
+104
+]
+11
+[
+111
+]
+29
+[
+111
+]
+ng/mL
+Androstenedione
+Adult male and female
+60
+[
+105
+]
+270
+[
+105
+]
+ng/dL
+Post-menopausal female
+< 180
+[
+105
+]
+Prepubertal
+< 60
+[
+105
+]
+Dehydroepiandrosterone sulfate
+-more detailed ranges
+in
+DHEA-S
+article
+Adult male and female
+30
+[
+112
+]
+400
+[
+112
+]
+μg/dL
+SHBG
+-more detailed ranges
+in
+SHBG
+article
+Adult female
+40
+[
+113
+]
+120
+[
+113
+]
+nmol/L
+Adult male
+20
+[
+113
+]
+60
+[
+113
+]
+Anti-Müllerian hormone
+(AMH)
+-more detailed ranges in
+AMH
+article
+13–45 years
+0.7
+[
+114
+]
+20
+[
+114
+]
+ng/mL
+5
+[
+115
+]
+140
+[
+115
+]
+pmol/L
+Other hormones
+[
+edit
+]
+Further information:
+Hormones
+Test
+Patient type
+Lower limit
+Upper limit
+Unit
+Adrenocorticotropic hormone
+(ACTH)
+2.2
+[
+116
+]
+13.3
+[
+116
+]
+pmol/L
+20
+[
+22
+]
+100
+[
+22
+]
+pg/mL
+Cortisol
+09:00
+am
+140
+[
+117
+]
+700
+[
+117
+]
+nmol/L
+5
+[
+118
+]
+25
+[
+118
+]
+μg/dL
+Midnight
+80
+[
+117
+]
+350
+[
+117
+]
+nmol/L
+2.9
+[
+118
+]
+13
+[
+118
+]
+μg/dL
+Growth hormone
+(fasting)
+0
+5
+[
+21
+]
+ng/mL
+Growth hormone
+(
+arginine stimulation
+)
+7
+[
+21
+]
+n/a
+ng/mL
+IGF-1
+-more detailed ranges in
+IGF-1
+article
+Female, 20 yrs
+110
+[
+119
+]
+420
+[
+119
+]
+ng/mL
+Female, 75 yrs
+55
+[
+119
+]
+220
+[
+119
+]
+Male, 20 yrs
+160
+[
+119
+]
+390
+[
+119
+]
+Male, 75 yrs
+48
+[
+119
+]
+200
+[
+119
+]
+Prolactin
+-more detailed ranges in
+Prolactin
+article
+Female
+71,
+[
+120
+]
+105
+[
+120
+]
+348,
+[
+120
+]
+548
+[
+120
+]
+mIU/L
+3.4,
+[
+120
+]
+3.9
+[
+120
+]
+16.4,
+[
+120
+]
+20.3
+[
+120
+]
+μg/L
+Male
+58,
+[
+120
+]
+89
+[
+120
+]
+277,
+[
+120
+]
+365
+[
+120
+]
+mIU/L
+2.7,
+[
+120
+]
+3.3
+[
+120
+]
+13.0,
+[
+120
+]
+13.5
+[
+120
+]
+μg/L
+Parathyroid hormone
+(PTH)
+10,
+[
+121
+]
+17
+[
+122
+]
+65,
+[
+121
+]
+70
+[
+122
+]
+pg/mL
+1.1,
+[
+10
+]
+1.8
+[
+123
+]
+6.9,
+[
+10
+]
+7.5
+[
+123
+]
+pmol/L
+25-hydroxycholecalciferol
+(a
+vitamin D
+)
+–
+Standard reference range
+8,
+[
+30
+]
+[
+124
+]
+9
+[
+124
+]
+40,
+[
+124
+]
+80
+[
+30
+]
+ng/mL
+20,
+[
+125
+]
+23
+[
+126
+]
+95,
+[
+126
+]
+150
+[
+125
+]
+nmol/L
+25-hydroxycholecalciferol
+–
+Therapeutic target range
+30,
+[
+127
+]
+40
+[
+128
+]
+65,
+[
+128
+]
+100
+[
+127
+]
+ng/mL
+85,
+[
+70
+]
+100
+[
+128
+]
+120,
+[
+70
+]
+160
+[
+128
+]
+nmol/L
+Plasma renin activity
+0.29,
+[
+129
+]
+1.9
+[
+130
+]
+3.7
+[
+129
+]
+[
+130
+]
+ng/(mL·h)
+3.3,
+[
+131
+]
+21
+[
+132
+]
+41
+[
+131
+]
+[
+132
+]
+mcU
+/mL
+Aldosterone
+-more detailed ranges in
+Aldosterone
+article
+Adult
+19,
+[
+131
+]
+34.0
+[
+131
+]
+ng/dL
+530,
+[
+133
+]
+940
+[
+133
+]
+pmol/L
+Aldosterone-to-renin ratio
+-more detailed ranges in
+Aldosterone/renin ratio
+article
+Adult
+13.1,
+[
+134
+]
+35.0
+[
+134
+]
+ng/dL per ng/(mL·h)
+360,
+[
+134
+]
+970
+[
+134
+]
+pmol/liter per μg/(L·h)
+Vitamins
+[
+edit
+]
+Also including the vitamin B
+12
+)-related amino acid
+homocysteine
+.
+Test
+Patient type
+Standard range
+Optimal range
+Unit
+Lower limit
+Upper limit
+Lower limit
+Upper limit
+Vitamin A
+30
+[
+30
+]
+65
+[
+30
+]
+μg/dL
+Vitamin B
+9
+(Folic acid/Folate) –
+Serum
+Age > 1 year
+3.0
+[
+135
+]
+16
+[
+135
+]
+5
+[
+136
+]
+ng/mL or μg/L
+6.8
+[
+137
+]
+36
+[
+137
+]
+11
+[
+137
+]
+nmol/L
+Vitamin B
+9
+(Folic acid/Folate) –
+Red blood cells
+200
+[
+135
+]
+600
+[
+135
+]
+ng/mL or μg/L
+450
+[
+137
+]
+1400
+[
+137
+]
+nmol/L
+Pregnant
+400
+[
+135
+]
+ng/mL or μg/L
+900
+[
+135
+]
+nmol/L
+Vitamin B
+12
+(Cobalamin)
+130,
+[
+138
+]
+160
+[
+139
+]
+700,
+[
+138
+]
+950
+[
+139
+]
+ng/L
+100,
+[
+140
+]
+120
+[
+10
+]
+520,
+[
+140
+]
+700
+[
+10
+]
+pmol/L
+Homocysteine
+-more detailed ranges in
+Homocysteine
+article
+3.3,
+[
+141
+]
+5.9
+[
+141
+]
+7.2,
+[
+141
+]
+15.3
+[
+141
+]
+6.3
+[
+70
+]
+μmol/L
+45,
+[
+142
+]
+80
+[
+142
+]
+100,
+[
+142
+]
+210
+[
+142
+]
+85
+[
+70
+]
+μg/dL
+Vitamin C
+(Ascorbic acid)
+0.4
+[
+30
+]
+1.5
+[
+30
+]
+0.9
+[
+70
+]
+mg/dL
+23
+[
+143
+]
+85
+[
+143
+]
+50
+[
+70
+]
+μmol/L
+25-hydroxycholecalciferol
+(a
+vitamin D
+)
+8,
+[
+30
+]
+[
+124
+]
+9
+[
+124
+]
+40,
+[
+124
+]
+80
+[
+30
+]
+30,
+[
+127
+]
+40
+[
+128
+]
+65,
+[
+128
+]
+100
+[
+127
+]
+ng/mL
+20,
+[
+125
+]
+23
+[
+126
+]
+95,
+[
+126
+]
+150
+[
+125
+]
+85,
+[
+70
+]
+100
+[
+128
+]
+120,
+[
+70
+]
+160
+[
+128
+]
+nmol/L
+Vitamin E
+28
+[
+70
+]
+μmol/L
+1.2
+[
+70
+]
+mg/dL
+Toxic Substances
+[
+edit
+]
+Test
+Limit type
+Limit
+Unit
+Lead
+Optimal health range
+< 20
+[
+25
+]
+or 40
+[
+30
+]
+μg/dL
+Blood ethanol content
+Limit for
+drunk driving
+0,
+[
+144
+]
+0.2,
+[
+144
+]
+0.8
+[
+144
+]
+‰
+or g/L
+17.4
+[
+145
+]
+mmol/L
+Hematology
+[
+edit
+]
+Red blood cells
+[
+edit
+]
+These values (except
+Hemoglobin in plasma
+) are for total blood and not only blood plasma.
+Test
+Patient
+Lower limit
+Upper limit
+Unit
+Comments
+Hemoglobin
+(Hb)
+Male
+2.0,
+[
+146
+]
+2.1
+[
+21
+]
+[
+147
+]
+2.5,
+[
+146
+]
+2.7
+[
+21
+]
+[
+147
+]
+mmol/L
+Higher in
+neonates
+, lower in children.
+130,
+[
+10
+]
+132,
+[
+22
+]
+135
+[
+21
+]
+162,
+[
+22
+]
+170,
+[
+10
+]
+175
+[
+21
+]
+g/L
+Female
+1.8,
+[
+146
+]
+1.9
+[
+21
+]
+[
+147
+]
+2.3,
+[
+146
+]
+2.5
+[
+21
+]
+[
+146
+]
+[
+147
+]
+mmol/L
+Sex difference negligible until adulthood.
+120
+[
+10
+]
+[
+21
+]
+[
+22
+]
+150,
+[
+10
+]
+152,
+[
+22
+]
+160
+[
+21
+]
+[
+30
+]
+g/L
+Hemoglobin subunits
+(sometimes displayed simply as "Hemoglobin")
+Male
+8.0,
+[
+148
+]
+8.4
+[
+148
+]
+10.0,
+[
+148
+]
+10.8
+[
+148
+]
+mmol/L
+4 per hemoglobin molecule
+Female
+7.2,
+[
+148
+]
+7.6
+[
+148
+]
+9.2,
+[
+148
+]
+10.0
+[
+148
+]
+Hemoglobin
+in plasma
+0.16
+[
+21
+]
+0.62
+[
+21
+]
+μmol/L
+Normally diminutive compared with inside red blood cells
+1
+4
+mg/dL
+Glycated hemoglobin
+(Hb
+A1c
+)
+< 50 years
+3.6
+[
+10
+]
+5.0
+[
+10
+]
+% of Hb
+> 50 years
+3.9
+[
+10
+]
+5.3
+[
+10
+]
+Haptoglobin
+< 50 years
+0.35
+[
+10
+]
+1.9
+[
+10
+]
+g/L
+> 50 years
+0.47
+[
+10
+]
+2.1
+[
+10
+]
+Hematocrit
+(Hct)
+Male
+0.39,
+[
+10
+]
+0.4,
+[
+22
+]
+0.41,
+[
+21
+]
+0.45
+[
+30
+]
+0.50,
+[
+10
+]
+0.52,
+[
+22
+]
+0.53,
+[
+21
+]
+0.62
+[
+30
+]
+L/L
+Female
+0.35,
+[
+10
+]
+0.36,
+[
+21
+]
+0.37
+[
+22
+]
+[
+30
+]
+0.46,
+[
+10
+]
+[
+21
+]
+[
+22
+]
+0.48
+[
+30
+]
+L/L
+Child
+0.31
+[
+22
+]
+0.43
+[
+22
+]
+L/L
+Mean corpuscular volume
+(MCV)
+Male
+76,
+[
+30
+]
+82
+[
+22
+]
+100,
+[
+30
+]
+102
+[
+22
+]
+fL
+Cells are larger in
+neonates
+, though smaller in other children.
+Female
+78
+[
+22
+]
+101
+[
+22
+]
+fL
+Red blood cell distribution width
+(RDW)
+11.5
+[
+22
+]
+14.5
+[
+22
+]
+%
+Mean cell hemoglobin
+(MCH)
+0.39
+[
+21
+]
+0.54
+[
+21
+]
+fmol/cell
+25,
+[
+21
+]
+27
+[
+10
+]
+[
+30
+]
+32,
+[
+30
+]
+33,
+[
+10
+]
+35
+[
+21
+]
+pg/cell
+Mean corpuscular hemoglobin concentration
+(MCHC)
+4.8,
+[
+149
+]
+5.0
+[
+149
+]
+5.4,
+[
+149
+]
+5.6
+[
+149
+]
+mmol/L
+31,
+[
+22
+]
+32
+[
+10
+]
+[
+30
+]
+35,
+[
+22
+]
+36
+[
+10
+]
+[
+30
+]
+g/dL or
+%
+[
+note 1
+]
+Erythrocytes/
+Red blood cells
+(RBC)
+Male
+4.2,
+[
+30
+]
+4.3
+[
+10
+]
+[
+21
+]
+[
+22
+]
+5.7,
+[
+10
+]
+5.9,
+[
+21
+]
+6.2,
+[
+22
+]
+6.9
+[
+30
+]
+×
+10
+12
+/L
+or
+million
+/mm
+3
+Female
+3.5,
+[
+21
+]
+3.8,
+[
+22
+]
+3.9
+[
+10
+]
+5.1,
+[
+10
+]
+5.5
+[
+21
+]
+[
+22
+]
+Infant/Child
+3.8
+[
+22
+]
+5.5
+[
+22
+]
+Reticulocytes
+Adult
+26
+[
+10
+]
+130
+[
+10
+]
+×
+10
+9
+/L
+0.5
+[
+21
+]
+[
+22
+]
+1.5
+[
+21
+]
+[
+22
+]
+% of RBC
+Newborn
+1.1
+[
+22
+]
+4.5
+[
+22
+]
+% of RBC
+Infant
+0.5
+[
+22
+]
+3.1
+[
+22
+]
+% of RBC
+Immature reticulocyte fraction (IRF)
+Adult
+1.6
+[
+150
+]
+12.1
+[
+150
+]
+% of reticulocytes
+Reticulocyte hemoglobin equivalent
+Adult
+30.0
+[
+150
+]
+37.6
+[
+150
+]
+%
+24.1
+[
+151
+]
+35.8
+[
+151
+]
+pg
+Immature platelet fraction (IPF)
+Adult
+0.8
+[
+150
+]
+5.6
+[
+150
+]
+%
+White blood cells
+[
+edit
+]
+These values are for total blood and not only blood plasma.
+Test
+Patient type
+Lower limit
+Upper limit
+Unit
+White Blood Cell Count
+(
+WBC
+)
+Adult
+3.5,
+[
+10
+]
+3.9,
+[
+152
+]
+4.1,
+[
+22
+]
+4.5
+[
+21
+]
+9.0,
+[
+10
+]
+10.0,
+[
+152
+]
+10.9,
+[
+22
+]
+11
+[
+21
+]
+×
+10
+9
+/L
+×
+10
+3
+/mm
+3
+or
+×
+10
+3
+/μL
+Newborn
+9
+[
+153
+]
+30
+[
+153
+]
+1 year old
+6
+[
+153
+]
+18
+[
+153
+]
+Neutrophil granulocytes
+(A.K.A. grans, polys, PMNs, or segs)
+Adult
+1.3,
+[
+10
+]
+1.8,
+[
+152
+]
+2
+[
+153
+]
+5.4,
+[
+10
+]
+7,
+[
+152
+]
+8
+[
+153
+]
+×
+10
+9
+/L
+45–54
+[
+21
+]
+62,
+[
+21
+]
+74
+% of WBC
+Newborn
+6
+[
+153
+]
+26
+[
+153
+]
+×
+10
+9
+/L
+Neutrophilic
+band forms
+Adult
+0.7
+[
+153
+]
+×
+10
+9
+/L
+3
+[
+21
+]
+5
+[
+21
+]
+% of WBC
+Lymphocytes
+Adult
+0.7,
+[
+10
+]
+1.0
+[
+152
+]
+[
+153
+]
+3.5,
+[
+152
+]
+3.9,
+[
+10
+]
+4.8
+[
+153
+]
+×
+10
+9
+/L
+16–25
+[
+21
+]
+33,
+[
+21
+]
+45
+% of WBC
+Newborn
+2
+[
+153
+]
+11
+[
+153
+]
+×
+10
+9
+/L
+Monocytes
+Adult
+0.1,
+[
+10
+]
+0.2
+[
+154
+]
+[
+155
+]
+0.8
+[
+10
+]
+[
+153
+]
+[
+155
+]
+×
+10
+9
+/L
+3,
+[
+21
+]
+4.0
+7,
+[
+21
+]
+10
+% of WBC
+Newborn
+0.4
+[
+153
+]
+3.1
+[
+153
+]
+×
+10
+9
+/L
+Mononuclear leukocytes
+(Lymphocytes + monocytes)
+Adult
+1.5
+5
+×
+10
+9
+/L
+20
+35
+% of WBC
+CD4
++
+T cells
+Adult
+0.4,
+[
+22
+]
+0.5
+[
+25
+]
+1.5,
+[
+25
+]
+1.8
+[
+22
+]
+×
+10
+9
+/L
+Eosinophil granulocytes
+Adult
+0.0,
+[
+10
+]
+0.04
+[
+155
+]
+0.44,
+[
+155
+]
+0.45,
+[
+153
+]
+0.5
+[
+10
+]
+×
+10
+9
+/L
+1
+[
+21
+]
+3,
+[
+21
+]
+7
+% of WBC
+Newborn
+0.02
+[
+153
+]
+0.85
+[
+153
+]
+×
+10
+9
+/L
+Basophil granulocytes
+Adult
+40
+[
+152
+]
+100,
+[
+10
+]
+[
+155
+]
+200,
+[
+153
+]
+900
+[
+152
+]
+×
+10
+6
+/L
+0.0
+0.75,
+[
+21
+]
+2
+% of WBC
+Newborn
+0.64
+[
+153
+]
+×
+10
+9
+/L
+Coagulation
+[
+edit
+]
+Test
+Lower limit
+Upper limit
+Unit
+Comments
+Thrombocyte/
+Platelet
+count (Plt)
+140,
+[
+22
+]
+150
+[
+10
+]
+[
+21
+]
+350,
+[
+10
+]
+[
+30
+]
+400,
+[
+21
+]
+450
+[
+22
+]
+×
+10
+9
+/L or
+x1000/μL
+Mean platelet volume
+(MPV)
+7.2,
+[
+156
+]
+7.4,
+[
+157
+]
+7.5
+[
+158
+]
+10.4,
+[
+157
+]
+11.5,
+[
+158
+]
+11.7
+[
+156
+]
+fL
+Prothrombin time
+(PT)
+10,
+[
+25
+]
+11,
+[
+21
+]
+[
+159
+]
+12
+[
+22
+]
+13,
+[
+25
+]
+13.5,
+[
+159
+]
+14,
+[
+22
+]
+15
+[
+21
+]
+s
+PT reference varies between laboratory kits – INR is standardised
+INR
+0.9
+[
+10
+]
+1.2
+[
+10
+]
+The INR is a corrected ratio of a patient's PT to normal
+Activated partial thromboplastin time
+(APTT)
+18,
+[
+22
+]
+30
+[
+10
+]
+[
+25
+]
+28,
+[
+22
+]
+42,
+[
+10
+]
+45
+[
+25
+]
+s
+Thrombin clotting time
+(TCT)
+11
+18
+s
+Fibrinogen
+1.7,
+[
+22
+]
+2.0
+[
+10
+]
+3.6,
+[
+10
+]
+4.2
+[
+22
+]
+g/L
+Antithrombin
+0.80
+[
+10
+]
+1.2
+[
+10
+]
+kIU/L
+0.15,
+[
+160
+]
+0.17
+[
+161
+]
+0.2,
+[
+160
+]
+0.39
+[
+161
+]
+mg/mL
+Bleeding time
+2
+9
+minutes
+Viscosity
+1.5
+[
+162
+]
+1.72
+[
+162
+]
+cP
+Immunology
+[
+edit
+]
+Acute phase proteins
+[
+edit
+]
+Acute phase proteins
+are markers of
+inflammation
+.
+Test
+Patient
+Lower limit
+Upper limit
+Unit
+Comments
+Erythrocyte
+sedimentation
+rate
+(ESR)
+Male
+0
+Age÷2
+[
+163
+]
+mm/h
+ESR increases with age and tends to be higher in females.
+[
+164
+]
+Female
+(Age+10)÷2
+[
+163
+]
+C-reactive protein
+(CRP)
+5,
+[
+10
+]
+[
+165
+]
+6
+[
+166
+]
+mg/L
+200,
+[
+167
+]
+240
+[
+167
+]
+nmol/L
+Alpha 1-antitrypsin
+(AAT)
+20,
+[
+168
+]
+22
+[
+169
+]
+38,
+[
+169
+]
+53
+[
+168
+]
+μmol/L
+89,
+[
+170
+]
+97
+[
+10
+]
+170,
+[
+10
+]
+230
+[
+170
+]
+mg/dL
+Procalcitonin
+0.15
+[
+171
+]
+ng/mL or μg/L
+Isotypes of antibodies
+[
+edit
+]
+Further information:
+Antibody
+Test
+Patient
+Lower limit
+Upper limit
+Unit
+IgA
+Adult
+70,
+[
+10
+]
+110
+[
+172
+]
+360,
+[
+10
+]
+560
+[
+172
+]
+mg/dL
+IgD
+0.5
+[
+172
+]
+3.0
+[
+172
+]
+IgE
+0.01
+[
+172
+]
+0.04
+[
+172
+]
+IgG
+800
+[
+172
+]
+1800
+[
+172
+]
+IgM
+54
+[
+172
+]
+220
+[
+172
+]
+Autoantibodies
+[
+edit
+]
+For clinical associations, see
+Autoantibody
+.
+Autoantibodies are usually absent or very low, so instead of being given in standard reference ranges, the values usually denote where they are said to be present, or whether the test is a
+positive test
+. There may also be an
+equivocal
+interval, where it is uncertain whether there is a significantly increased level.
+Test
+Negative
+Equivocal
+Positive
+Unit
+anti-SS-A
+(Ro)
+< 1.0
+[
+173
+]
+n/a
+≥ 1.0
+[
+173
+]
+Units (U)
+anti-SS-B
+(La)
+< 1.0
+[
+174
+]
+n/a
+≥ 1.0
+[
+174
+]
+Anti ds-DNA
+< 30.0
+[
+175
+]
+30.0–75.0
+[
+175
+]
+> 75.0
+[
+175
+]
+International Units per millilitre (IU/mL)
+Anti ss-DNA
+< 8
+[
+176
+]
+8–10
+[
+176
+]
+> 10
+[
+176
+]
+Units per millilitre (U/mL)
+Anti-histone antibodies
+< 25
+[
+176
+]
+n/a
+[
+176
+]
+> 25
+[
+176
+]
+Cytoplasmic anti-neutrophil
+cytoplasmic antibodies (
+c-ANCA
+)
+< 20
+[
+176
+]
+21–30
+[
+176
+]
+> 30
+[
+176
+]
+Perinuclear anti-neutrophil
+cytoplasmic antibodies (
+p-ANCA
+)
+< 5
+[
+176
+]
+n/a
+> 5
+[
+176
+]
+Anti-mitochondrial antibodies
+(AMA)
+< 0.1
+[
+177
+]
+0.1-0.9
+[
+177
+]
+≥ 1.0
+[
+177
+]
+Units (U)
+Rheumatoid factor
+(RF)
+< 20
+20–30
+> 30
+[
+22
+]
+Units per millilitre (U/mL)
+Antistreptolysin O titre
+(ASOT) in
+preschoolers
+> 100
+ASOT at school age
+> 250
+[
+22
+]
+ASOT in adults
+> 125
+[
+22
+]
+Test
+Negative
+Low/weak positive
+Moderate positive
+High/strong positive
+Unit
+Anti-phospholipid
+IgG
+< 20
+[
+176
+]
+20–30
+[
+176
+]
+31–50
+[
+176
+]
+> 51
+[
+176
+]
+GPLU/mL
+[
+176
+]
+Anti-phospholipid IgM
+< 1.5
+[
+176
+]
+1.5–2.5
+[
+176
+]
+2–9.9
+[
+176
+]
+> 10
+[
+176
+]
+MPL /mL
+[
+176
+]
+Anti-phospholipid IgA
+< 10
+[
+176
+]
+10–20
+[
+176
+]
+21–30
+[
+176
+]
+> 31
+[
+176
+]
+arb U
+/mL
+[
+176
+]
+Anti-citrullinated protein antibodies
+< 20
+[
+176
+]
+20–39
+[
+176
+]
+40–59
+[
+176
+]
+> 60
+[
+176
+]
+EU
+[
+176
+]
+Other immunology
+[
+edit
+]
+Test
+Lower limit
+Upper limit
+Unit
+Serum free light chains
+(FLC): kappa/lambda ratio
+0.26
+[
+178
+]
+1.65
+[
+178
+]
+(unitless)
+Other enzymes and proteins
+[
+edit
+]
+Test
+Lower limit
+Upper limit
+Unit
+Comments
+Serum total protein
+60,
+[
+21
+]
+63
+[
+22
+]
+78,
+[
+21
+]
+82,
+[
+22
+]
+84
+[
+30
+]
+g/L
+Further information:
+Serum total protein §
+Interpretation
+Lactate dehydrogenase
+(LDH)
+50
+[
+30
+]
+150
+[
+30
+]
+U/L
+0.4
+[
+61
+]
+1.7
+[
+61
+]
+μmol/L
+1.8
+[
+10
+]
+3.4
+[
+10
+]
+μ
+kat
+/L
+< 70 years old
+[
+10
+]
+Amylase
+25,
+[
+21
+]
+30,
+[
+22
+]
+53
+[
+30
+]
+110,
+[
+22
+]
+120,
+[
+179
+]
+123,
+[
+30
+]
+125,
+[
+21
+]
+190
+[
+61
+]
+U/L
+0.15
+[
+10
+]
+1.1
+[
+10
+]
+μ
+kat
+/L
+200
+[
+167
+]
+240
+[
+167
+]
+nmol/L
+D-dimer
+-more detailed ranges in
+D-dimer
+article
+n/a
+500
+[
+180
+]
+ng/mL
+Higher in pregnant women
+[
+181
+]
+0.5
+[
+10
+]
+mg/L
+Lipase
+7,
+[
+22
+]
+10,
+[
+30
+]
+23
+[
+61
+]
+60,
+[
+22
+]
+150,
+[
+30
+]
+208
+[
+61
+]
+U/L
+Angiotensin-converting enzyme
+(ACE)
+23
+[
+61
+]
+57
+[
+61
+]
+U/L
+Acid phosphatase
+3.0
+[
+61
+]
+ng/mL
+Eosinophil cationic protein
+(ECP)
+2.3
+[
+10
+]
+16
+[
+10
+]
+μg/L
+Other electrolytes and metabolites
+[
+edit
+]
+Electrolytes
+and
+metabolites
+:
+For iron and copper, some related proteins are also included.
+Test
+Patient type
+Lower limit
+Upper limit
+Unit
+Comments
+Osmolality
+275,
+[
+21
+]
+280,
+[
+30
+]
+281
+[
+10
+]
+295,
+[
+21
+]
+296,
+[
+30
+]
+297
+[
+10
+]
+mOsm/kg
+Plasma weight excludes solutes
+Osmolarity
+Slightly less than osmolality
+mOsm/L
+Plasma volume includes solutes
+Urea
+3.0
+[
+182
+]
+7.0
+[
+182
+]
+mmol/L
+BUN –
+blood urea nitrogen
+7
+[
+21
+]
+18,
+[
+21
+]
+21
+[
+22
+]
+mg/dL
+*
+Uric acid
+[
+22
+]
+0.18
+[
+21
+]
+0.48
+[
+21
+]
+mmol/L
+Female
+2.0
+[
+30
+]
+7.0
+[
+30
+]
+mg/dL
+Male
+2.1
+[
+30
+]
+8.5
+[
+30
+]
+mg/dL
+Creatinine
+Male
+60,
+[
+10
+]
+68
+[
+183
+]
+90,
+[
+10
+]
+118
+[
+183
+]
+μmol/L
+May be complemented with
+creatinine clearance
+0.7,
+[
+184
+]
+0.8
+[
+184
+]
+1.0,
+[
+184
+]
+1.3
+[
+184
+]
+mg/dL
+Female
+50,
+[
+10
+]
+68
+[
+183
+]
+90,
+[
+10
+]
+98
+[
+183
+]
+μmol/L
+0.6,
+[
+184
+]
+0.8
+[
+184
+]
+1.0,
+[
+184
+]
+1.1
+[
+184
+]
+mg/dL
+BUN/Creatinine Ratio
+5
+[
+30
+]
+35
+[
+30
+]
+–
+Plasma
+glucose
+(fasting)
+3.8,
+[
+21
+]
+4.0
+[
+10
+]
+6.0,
+[
+10
+]
+6.1
+[
+185
+]
+mmol/L
+See also
+glycated hemoglobin
+(in hematology)
+65,
+[
+22
+]
+70,
+[
+21
+]
+72
+[
+186
+]
+100,
+[
+185
+]
+110
+[
+30
+]
+mg/dL
+Full blood glucose (fasting)
+3.3
+[
+10
+]
+5.6
+[
+10
+]
+mmol/L
+60
+[
+186
+]
+100
+[
+186
+]
+mg/dL
+Random glucose
+3.9
+[
+187
+]
+7.8
+[
+187
+]
+mmol/L
+70
+[
+188
+]
+140
+[
+188
+]
+mg/dL
+Lactate
+(Venous)
+4.5
+[
+30
+]
+19.8
+[
+30
+]
+mg/dL
+0.5
+[
+189
+]
+2.2
+[
+189
+]
+mmol/L
+Lactate (Arterial)
+4.5
+[
+30
+]
+14.4
+[
+30
+]
+mg/dL
+0.5
+[
+189
+]
+1.6
+[
+189
+]
+mmol/L
+Pyruvate
+300
+[
+30
+]
+900
+[
+30
+]
+μg/dL
+34
+[
+190
+]
+102
+[
+190
+]
+μmol/L
+Ketones
+1
+[
+191
+]
+mg/dL
+0.1
+[
+191
+]
+mmol/L
+Medication
+[
+edit
+]
+Test
+Lower limit
+Upper limit
+Unit
+Comments
+Digoxin
+0.5
+[
+192
+]
+2.0
+[
+192
+]
+ng/mL
+Narrow
+therapeutic window
+0.6
+[
+192
+]
+2.6
+[
+192
+]
+nmol/L
+Lithium
+0.4,
+[
+193
+]
+0.5,
+[
+194
+]
+[
+195
+]
+0.8
+[
+196
+]
+1.3
+[
+194
+]
+[
+195
+]
+mmol/L
+Narrow
+therapeutic window
+Paracetamol
+30
+[
+197
+]
+mg/L
+Risk of
+paracetamol toxicity
+at higher levels
+200
+[
+197
+]
+μmol/L
+See also
+[
+edit
+]
+Cardiology diagnostic tests and procedures
+Comprehensive metabolic panel
+Medical technologist
+Reference range
+Notes
+[
+edit
+]
+↑
+The MCHC in g/dL and the mass fraction of hemoglobin in red blood cells in
+% are numerically identical in practice, assuming a RBC density of 1g/mL and negligible hemoglobin in plasma.
+References
+[
+edit
+]
+↑
+Miri-Dashe, Timzing; Osawe, Sophia; Tokdung, Monday; Daniel, Nenbammun; Choji, Rahila Pam; Mamman, Ille; Deme, Kurt; Damulak, Dapus; Abimiku, Alash'le (2014).
+"Comprehensive reference ranges for hematology and clinical chemistry laboratory parameters derived from normal Nigerian adults"
+.
+PLOS ONE
+.
+9
+(5) e93919.
+Bibcode
+:
+2014PLoSO...993919M
+.
+doi
+:
+10.1371/journal.pone.0093919
+.
+ISSN
+1932-6203
+.
+PMC
+4022493
+.
+PMID
+24832127
+.
+↑
+Lo, Y. C.; Armbruster, David A. (April 2012).
+"Reference Intervals of Common Clinical Chemistry Analytes for Adults in Hong Kong"
+.
+EJIFCC
+.
+23
+(1):
+5–
+10.
+ISSN
+1650-3414
+.
+PMC
+4975210
+.
+PMID
+27683403
+.
+↑
+DomBourian, Melkon G.; Helander, Louise; Annen, Kyle; Campbell, Alice (2025).
+"Chemistry & Hematology Reference Intervals"
+.
+Current Diagnosis & Treatment: Pediatrics
+. McGraw Hill.
+↑
+"Reference Ranges and What They Mean"
+. Lab Tests Online (USA). Archived from
+the original
+on 28 August 2013
+. Retrieved
+22 June
+2013
+.
+↑
+Bangert, Stephen K.; Marshall, William J., eds. (2008).
+Clinical biochemistry: metabolic and clinical aspects
+(2nd
+ed.). Philadelphia: Churchill Livingstone/Elsevier. p.
+19.
+ISBN
+978-0-443-10186-1
+.
+↑
+Boyd, James C. (January 2010).
+"Defining laboratory reference values and decision limits: populations, intervals, and interpretations"
+.
+Asian Journal of Andrology
+.
+12
+(1):
+83–
+90.
+doi
+:
+10.1038/aja.2009.9
+.
+ISSN
+1745-7262
+.
+PMC
+3739683
+.
+PMID
+20111086
+.
+↑
+"Reference Ranges & What They Mean"
+.
+Lab Tests Online-UK
+.
+↑
+Bransky A, Larsson A, Aardal E, Ben-Yosef Y, Christenson RH (2021).
+"A Novel Approach to Hematology Testing at the Point of Care"
+.
+J Appl Lab Med
+.
+6
+(2):
+532–
+542.
+doi
+:
+10.1093/jalm/jfaa186
+.
+PMC
+7798949
+.
+PMID
+33274357
+.
+↑
+Dart, Richard C. (2004). "Units of measurement".
+Medical toxicology
+(3, illustrated
+ed.). Lippincott Williams & Wilkins. p.
+34.
+ISBN
+978-0-7817-2845-4
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+Reference range list from Uppsala University Hospital ("Laborationslista"). Artnr 40284 Sj74a. Issued on April 22, 2008
+↑
+Hill, Nathan R.; Levy, Jonathan C.; Matthews, David R. (11 July 2013).
+"Expansion of the Homeostasis Model Assessment of β-Cell Function and Insulin Resistance to Enable Clinical Trial Outcome Modeling Through the Interactive Adjustment of Physiology and Treatment Effects: iHOMA2"
+.
+Diabetes Care
+.
+36
+(8):
+2324–
+2330.
+doi
+:
+10.2337/dc12-0607
+.
+ISSN
+0149-5992
+.
+PMC
+3714535
+.
+PMID
+23564921
+.
+↑
+"Reference Interval and Critical Results Table"
+(PDF)
+. Blood Gas Laboratory.
+VCU Health Pathology
+.
+1
+2
+3
+Dufour, D. Robert (April 2000).
+"Arterial versus venous reference ranges"
+.
+Medical Laboratory Observer
+. Archived from
+the original
+on 2005-04-21.
+1
+2
+3
+4
+5
+Ashvarya Mangla.
+"Troponins"
+.
+medscape
+. Retrieved
+2017-07-24
+.
+Updated: Jan 14, 2015
+1
+2
+3
+4
+Brenden CK, Hollander JE, Guss D, et
+al. (May 2006). "Gray zone BNP levels in heart failure patients in the emergency department: results from the Rapid Emergency Department Heart Failure Outpatient Trial (REDHOT) multicenter study".
+American Heart Journal
+.
+151
+(5):
+1006–
+11.
+doi
+:
+10.1016/j.ahj.2005.10.017
+.
+PMID
+16644322
+.
+1
+2
+3
+4
+Strunk A, Bhalla V, Clopton P, et
+al. (January 2006).
+"Impact of the history of congestive heart failure on the utility of B-type natriuretic peptide in the emergency diagnosis of heart failure: results from the Breathing Not Properly Multinational Study"
+.
+The American Journal of Medicine
+.
+119
+(1): 69.e1–11.
+doi
+:
+10.1016/j.amjmed.2005.04.029
+.
+PMID
+16431187
+.
+↑
+Abbassi-Ghanavati, M.; Greer, L. G.; Cunningham, F. G. (2009). "Pregnancy and Laboratory Studies".
+Obstetrics & Gynecology
+.
+114
+(6):
+1326–
+31.
+doi
+:
+10.1097/AOG.0b013e3181c2bde8
+.
+PMID
+19935037
+.
+S2CID
+24249021
+.
+↑
+Armbruster, David; Miller, Richard R. (August 2007).
+"The Joint Committee for Traceability in Laboratory Medicine (JCTLM): A Global Approach to Promote the Standardisation of Clinical Laboratory Test Results"
+.
+The Clinical Biochemist Reviews
+.
+28
+(3):
+105–
+14.
+PMC
+1994110
+.
+PMID
+17909615
+.
+↑
+Meeker, William Q.; Hahn, Gerald J. (1982). "Sample Sizes for Prediction Intervals".
+Journal of Quality Technology
+.
+14
+(4):
+201–
+206.
+doi
+:
+10.1080/00224065.1982.11978821
+.
+↑
+PROOPIOMELANOCORTIN; NCBI / POMC
+Retrieved on September 28, 2009
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+Last page of
+Deepak A. Rao; Le, Tao; Bhushan, Vikas (2007).
+First Aid for the USMLE Step 1 2008 (First Aid for the Usmle Step 1)
+. McGraw-Hill Medical.
+ISBN
+978-0-07-149868-5
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+Normal Reference Range Table
+Archived
+2011-12-25 at the
+Wayback Machine
+from The University of Texas Southwestern Medical Center at Dallas. Used in Interactive Case Study Companion to Pathologic basis of disease.
+1
+2
+3
+4
+Derived from molar values using molar mass of 22.99 g•mol−1
+1
+2
+Derived from molar values using molar mass of 39.10 g•mol−1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+Merck Manuals > Common Medical Tests > Blood Tests
+Last full review/revision February 2003
+1
+2
+Derived from molar values using molar mass of 35.45 g•mol−1
+1
+2
+Larsson L, Ohman S (November 1978).
+"Serum ionized calcium and corrected total calcium in borderline hyperparathyroidism"
+.
+Clin. Chem
+.
+24
+(11):
+1962–
+65.
+doi
+:
+10.1093/clinchem/24.11.1962
+.
+PMID
+709830
+.
+1
+2
+3
+4
+Derived from molar values using molar mass of 40.08  g•mol−1
+1
+2
+3
+Derived from mass values using molar mass of 40.08  g•mol−1
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+Blood Test Results – Normal Ranges
+Archived
+2012-11-02 at the
+Wayback Machine
+Bloodbook.Com
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+Slon S (2006-09-22).
+"Serum Iron"
+. University of Illinois Medical Center. Archived from
+the original
+on 2006-10-28
+. Retrieved
+2006-07-06
+.
+1
+2
+3
+4
+Diagnostic Chemicals Limited > Serum Iron-SL Assay
+Archived
+2009-01-06 at the
+Wayback Machine
+July 15, 2005
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+Derived from mass values using molar mass of 55.85 g•mol−1
+1
+2
+Table 1.
+Page 133"
+Clinical Chemistry
+45, No. 1, 1999 (stating 1.9–3.3 g/L)
+1
+2
+Derived by dividing mass values with molar mass
+1
+2
+3
+4
+Ferritin
+by: Mark Levin, MD, Hematologist and Oncologist, Newark, NJ. Review provided by VeriMed Healthcare Network
+1
+2
+Andrea Duchini.
+"Hemochromatosis Workup"
+.
+Medscape
+. Retrieved
+2016-07-14
+.
+Updated: Jan 02, 2016
+1
+2
+3
+4
+5
+Derived from mass values using molar mass of 450,000 g•mol−1
+1
+2
+Mitchell ML, Filippone MD, Wozniak TF (August 2001).
+"Metastatic carcinomatous cirrhosis and hepatic hemosiderosis in a patient heterozygous for the H63D genotype"
+.
+Arch. Pathol. Lab. Med
+.
+125
+(8):
+1084–
+87.
+doi
+:
+10.5858/2001-125-1084-MCCAHH
+.
+PMID
+11473464
+.
+1
+2
+Diaz J, Tornel PL, Martinez P (July 1995).
+"Reference intervals for blood ammonia in healthy subjects, determined by microdiffusion"
+.
+Clin. Chem
+.
+41
+(7): 1048.
+doi
+:
+10.1093/clinchem/41.7.1048a
+.
+PMID
+7600690
+.
+1
+2
+3
+4
+Derived from molar values using molar mass of 17.03 g/mol
+1
+2
+Derived from mass values using molar mass of 63.55 g•mol−1
+↑
+"Reference range for copper"
+.
+GPnotebook
+.
+1
+2
+Derived from mass using molar mass of 151kDa
+↑
+Walter F. Boron (2005).
+Medical Physiology: A Cellular And Molecular Approach
+. Elsevier/Saunders. p.
+849.
+ISBN
+978-1-4160-2328-9
+.
+1
+2
+"Archived copy"
+(PDF)
+. Archived from
+the original
+(PDF)
+on 2010-03-07
+. Retrieved
+2010-01-17
+.
+{{
+cite web
+}}
+:  CS1 maint: archived copy as title (
+link
+)
+1
+2
+Derived from molar values using molar mass of 65.38 g/mol
+1
+2
+Derived from mass values using molar mass of 65.38 g/mol
+1
+2
+Derived from molar values using molar mass of 24.31 g/mol
+1
+2
+Derived from mass values using molar mass of 24.31 g/mol
+↑
+Middleton P, Kelly AM, Brown J, Robertson M (August 2006).
+"Agreements between arterial and central venous values for pH, bicarbonate, base excess, and lactate"
+.
+Emerg Med J
+.
+23
+(8):
+622–
+24.
+doi
+:
+10.1136/emj.2006.035915
+.
+PMC
+2564165
+.
+PMID
+16858095
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+The Medical Education Division of the Brookside Associates / ABG (Arterial Blood Gas)
+Retrieved on Dec 6, 2009
+1
+2
+Derived from molar values using molar mass of 1.01 g•mol−1
+1
+2
+3
+4
+5
+6
+7
+8
+Derived from mmHg values using 0.133322 kPa/mmHg
+1
+2
+Derived from molar values using molar mass of 44.010 g/mol
+1
+2
+3
+4
+Derived from molar values using molar mass of 61 g/mol
+↑
+"Reference range (albumin)"
+.
+GPnotebook
+.
+1
+2
+Derived from mass using molecular weight of 65kD
+1
+2
+3
+4
+5
+Derived from mass values using molar mass of 585g/mol
+1
+2
+Derived from molar values using molar mass of 585g/mol
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+Fachwörterbuch Kompakt Medizin E-D/D-E. Author: Fritz-Jürgen Nöhring. Edition 2. Publisher:Elsevier, Urban&FischerVerlag, 2004.
+ISBN
+978-3-437-15120-0
+. Length: 1288 pages
+1
+2
+3
+4
+GPnotebook > reference range (AST)
+Archived
+2017-01-07 at the
+Wayback Machine
+Retrieved on Dec 7, 2009
+1
+2
+"Gamma-GT"
+.
+Leistungsverzeichnis
+. Medizinisch-Diagnostische Institute. 5 November 2009. Archived from
+the original
+on 25 April 2012
+. Retrieved
+20 November
+2011
+.
+1
+2
+"Creatine kinase"
+.
+GPnotebook
+.
+1
+2
+3
+4
+Page 585
+in:
+Lee, Mary Ann (2009).
+Basic Skills in Interpreting Laboratory Data
+. Amer Soc of Health System.
+ISBN
+978-1-58528-180-0
+.
+1
+2
+3
+4
+Muscle Information and Courses from MediaLab, Inc. > Cardiac Biomarkers
+Retrieved on April 22, 2010
+↑
+Caselli, C.; Cangemi, G.; Masotti, S.; Ragusa, R.; Gennai, I.; Del Ry, S.; Prontera, C.; Clerico, A. (2016-07-01).
+"Plasma cardiac troponin I concentrations in healthy neonates, children and adolescents measured with a high sensitive immunoassay method: High sensitive troponin I in pediatric age"
+.
+Clinica Chimica Acta
+.
+458
+:
+68–
+71.
+doi
+:
+10.1016/j.cca.2016.04.029
+.
+ISSN
+0009-8981
+.
+PMID
+27118089
+.
+↑
+Baum, Hannsjörg; Hinze, Anika; Bartels, Peter; Neumeier, Dieter (2004-12-01).
+"Reference values for cardiac troponins T and I in healthy neonates"
+.
+Clinical Biochemistry
+.
+37
+(12):
+1079–
+82.
+doi
+:
+10.1016/j.clinbiochem.2004.08.003
+.
+ISSN
+0009-9120
+.
+PMID
+15589813
+.
+1
+2
+Page 220
+in:
+Lee, Mary Ann (2009).
+Basic Skills in Interpreting Laboratory Data
+. Amer Soc of Health System.
+ISBN
+978-1-58528-180-0
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+Adëeva Nutritionals Canada > Optimal blood test values
+Archived
+2009-05-29 at the
+Wayback Machine
+Retrieved on July 9, 2009
+1
+2
+3
+4
+5
+6
+Derived from values in mg/dL to mmol/L, by dividing by 89, according to
+faqs.org: What are mg/dL and mmol/L? How to convert? Glucose? Cholesterol?
+Last Update July 21, 2009. Retrieved on July 21, 2009
+1
+2
+3
+4
+Derived from values in mg/dL to mmol/L, using molar mass of 386.65 g/mol
+1
+2
+3
+"Reference range (cholesterol)"
+.
+GPnotebook
+.
+1
+2
+3
+4
+5
+6
+7
+8
+Royal College of Pathologists of Australasia; Cholesterol (HDL and LDL) – plasma or serum
+Last Updated: Monday, 6 August 2007
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Derived from values in mmol/L, using molar mass of 386.65 g/mol
+↑
+What Your Cholesterol Levels Mean.
+American Heart Association. Retrieved on September 12, 2009
+↑
+"HDL Cholesterol: The Test"
+. September 3, 2001. Archived from
+the original
+on 2001-09-03.
+↑
+GP Notebook > range (reference, ca-125)
+Retrieved on Jan 5, 2009
+↑
+ClinLab Navigator > Test Interpretations > CA-125
+Archived
+2012-06-26 at the
+Wayback Machine
+Retrieved on March 8, 2011
+1
+2
+Bjerner J, Høgetveit A, Wold Akselberg K, et
+al. (June 2008).
+"Reference intervals for carcinoembryonic antigen (CEA), CA125, MUC1, Alfa-foeto-protein (AFP), neuron-specific enolase (NSE) and CA19.9 from the NORIP study"
+.
+Scandinavian Journal of Clinical and Laboratory Investigation
+.
+68
+(8):
+703–
+13.
+doi
+:
+10.1080/00365510802126836
+.
+PMID
+18609108
+.
+S2CID
+12545738
+.
+↑
+Carcinoembryonic Antigen(CEA)
+at MedicineNet
+1
+2
+3
+Luboldt, Hans-Joachim; Schindler, Joachim F.; Rübben, Herbert (2007). "Age-Specific Reference Ranges for Prostate-Specific Antigen as a Marker for Prostate Cancer".
+EAU-EBU Update Series
+.
+5
+(1):
+38–
+48.
+doi
+:
+10.1016/j.eeus.2006.10.003
+.
+ISSN
+1871-2592
+.
+1
+2
+3
+Basuyau JP, Mallet E, Leroy M, Brunelle P (October 2004).
+"Reference intervals for serum calcitonin in men, women, and children"
+.
+Clinical Chemistry
+.
+50
+(10):
+1828–
+30.
+doi
+:
+10.1373/clinchem.2003.026963
+.
+PMID
+15388660
+.
+↑
+The TSH Reference Range Wars: What's "Normal?", Who is Wrong, Who is Right...
+Archived
+2016-04-11 at the
+Wayback Machine
+By Mary Shomon, About.com. Updated: June 19, 2006. About.com Health's Disease and Condition
+1
+2
+2006 Press releases: Thyroid Imbalance? Target Your Numbers
+Archived
+2008-03-03 at the
+Wayback Machine
+Contacts: Bryan Campbell American] Association of Clinical Endocrinologists
+1
+2
+The TSH Reference Range Wars: What's "Normal?", Who is Wrong, Who is Right...
+Archived
+2016-04-11 at the
+Wayback Machine
+By Mary Shomon, About.com. Updated: June 19, 2006
+1
+2
+Demers, Laurence M.; Carole A. Spencer (2002).
+"LMPG: Laboratory Support for the Diagnosis and Monitoring of Thyroid Disease"
+.
+National Academy of Clinical Biochemistry
+(USA). Archived from
+the original
+on 2008-11-20
+. Retrieved
+2007-04-13
+.
+– see
+Section 2. Pre-analytic factors
+1
+2
+3
+4
+5
+6
+Free T4; Thyroxine, Free; T4, Free
+Archived
+2010-12-22 at the
+Wayback Machine
+UNC Health Care System
+↑
+Derived from molar values using molar mass of 776.87 g/mol
+1
+2
+3
+4
+5
+6
+Derived from mass values using molar mass of 776.87 g/mol
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+Table 4: Typical reference ranges for serum assays
+Archived
+2011-07-01 at the
+Wayback Machine
+– Thyroid Disease Manager
+1
+2
+3
+4
+van der Watt G, Haarburger D, Berman P (July 2008).
+"Euthyroid patient with elevated serum free thyroxine"
+.
+Clinical Chemistry
+.
+54
+(7):
+1239–
+41.
+doi
+:
+10.1373/clinchem.2007.101428
+.
+PMID
+18593963
+.
+1
+2
+3
+4
+Derived from mass values using molar mass of 650.98 g/mol
+1
+2
+Cioffi M, Gazzerro P, Vietri MT, et
+al. (2001). "Serum concentration of free T3, free T4 and TSH in healthy children".
+Journal of Pediatric Endocrinology & Metabolism
+.
+14
+(9):
+1635–
+39.
+doi
+:
+10.1515/jpem.2001.14.9.1635
+.
+PMID
+11795654
+.
+S2CID
+34910563
+.
+INIST
+13391788
+.
+↑
+Häggström, Mikael (2014).
+"Reference ranges for estradiol, progesterone, luteinizing hormone and follicle-stimulating hormone during the menstrual cycle"
+.
+WikiJournal of Medicine
+.
+1
+(1).
+doi
+:
+10.15347/wjm/2014.001
+.
+↑
+10
+dL
+L
+290.447
+ng
+nmol
+30
+ng
+dL
+≈
+1.0
+nmol
+L
+{\displaystyle {\frac {10{\frac {\operatorname {dL} }{\operatorname {L} }}}{290.447{\frac {\operatorname {ng} }{\operatorname {nmol} }}}}30{\frac {\operatorname {ng} }{\operatorname {dL} }}\approx 1.0{\frac {\operatorname {nmol} }{\operatorname {L} }}}
+↑
+10
+dL
+L
+290.447
+ng
+nmol
+85
+ng
+dL
+≈
+2.9
+nmol
+L
+{\displaystyle {\frac {10{\frac {\operatorname {dL} }{\operatorname {L} }}}{290.447{\frac {\operatorname {ng} }{\operatorname {nmol} }}}}85{\frac {\operatorname {ng} }{\operatorname {dL} }}\approx 2.9{\frac {\operatorname {nmol} }{\operatorname {L} }}}
+1
+2
+"Andrology Australia: Your Health > Low Testosterone > Diagnosis"
+. Archived from
+the original
+on 2012-02-17
+. Retrieved
+2008-11-28
+.
+1
+2
+3
+4
+Derived from mass values using molar mass of 288.42g/mol
+1
+2
+3
+4
+5
+6
+7
+Derived from molar values using molar mass of 288.42g/mol
+1
+2
+3
+4
+MedlinePlus > Testosterone
+Update Date: 3/18/2008. Updated by: Elizabeth H. Holt, MD, PhD, Yale University. Review provided by VeriMed Healthcare Network. Also reviewed by David Zieve, MD, MHA, Medical Director
+1
+2
+3
+4
+Derived from mass values using molar mass of 330.46g/mol
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+reference range (FSH)
+GPnotebook. Retrieved on September 27, 2009
+1
+2
+3
+4
+5
+6
+Values taken from day 1 after LH surge in:
+Stricker R, Eberhart R, Chevailler MC, Quinn FA, Bischof P, Stricker R (2006). "Establishment of detailed reference values for luteinizing hormone, follicle stimulating hormone, estradiol, and progesterone during different phases of the menstrual cycle on the Abbott ARCHITECT analyzer".
+Clinical Chemistry and Laboratory Medicine
+.
+44
+(7):
+883–
+87.
+doi
+:
+10.1515/CCLM.2006.160
+.
+PMID
+16776638
+.
+S2CID
+524952
+.
+1
+2
+3
+4
+5
+6
+New York Hospital Queens > Services and Facilities > Patient Testing > Pathology > New York Hospital Queens Diagnostic Laboratories > Test Directory > Reference Ranges
+[
+permanent dead link
+]
+Retrieved on Nov 8, 2009
+1
+2
+Mayo Medical Laboratories > Test ID: LH, Luteinizing Hormone (LH), Serum
+Archived
+2016-09-25 at the
+Wayback Machine
+, retrieved December 2012
+1
+2
+3
+4
+5
+6
+7
+GPNotebook – reference range (oestradiol)
+Archived
+2012-06-09 at the
+Wayback Machine
+Retrieved on September 27, 2009
+1
+2
+3
+4
+5
+6
+7
+Derived from molar values using molar mass of 272.38g/mol
+1
+2
+3
+4
+Total amount multiplied by 0.022 according to 2.2% presented in:
+Wu CH, Motohashi T, Abdel-Rahman HA, Flickinger GL, Mikhail G (August 1976). "Free and protein-bound plasma estradiol-17 beta during the menstrual cycle".
+J. Clin. Endocrinol. Metab
+.
+43
+(2):
+436–
+45.
+doi
+:
+10.1210/jcem-43-2-436
+.
+PMID
+950372
+.
+1
+2
+Derived from mass values using molar mass of 314.46 g/mol
+1
+2
+Bhattacharya Sudhindra Mohan (July/August 2005)
+Mid-luteal phase plasma progesterone levels in spontaneous and clomiphene citrate induced conception cycles
+Archived
+2010-06-02 at the
+Wayback Machine
+J Obstet Gynecol India Vol. 55, No. 4
+: July/August 2005 pp. 350–52
+1
+2
+Dehydroepiandrosterone Sulfate (DHEA-S), Serum
+Archived
+2018-03-14 at the
+Wayback Machine
+at Mayo Foundation For Medical Education And Research. Retrieved July 2012
+1
+2
+3
+4
+Unit Code 91215
+Archived
+2011-07-20 at the
+Wayback Machine
+at
+Mayo Clinic
+Medical Laboratories. Retrieved April 2011
+1
+2
+Antimullerian Hormone (AMH), Serum
+Archived
+2013-07-29 at the
+Wayback Machine
+from Mayo Medical Laboratories. Retrieved April 2012.
+1
+2
+Derived from mass values using 140,000 g/mol, as given in:
+Hampl R, Šnajderová M, Mardešić T (2011).
+"Antimüllerian hormone (AMH) not only a marker for prediction of ovarian reserve"
+.
+Physiological Research
+.
+60
+(2):
+217–
+23.
+doi
+:
+10.33549/physiolres.932076
+.
+PMID
+21114374
+.
+1
+2
+Nieman, Lynnette K (29 September 2019).
+"Measurement of ACTH, CRH, and other hypothalamic and pituitary peptides"
+.
+www.uptodate.com
+. UpToDate. Archived from
+the original
+on 25 June 2021
+. Retrieved
+25 June
+2021
+.
+1
+2
+3
+4
+Biochemistry Reference Ranges at Good Hope Hospital
+Archived
+2010-07-20 at the
+Wayback Machine
+Retrieved on Nov 8, 2009
+1
+2
+3
+4
+Derived from molar values using molar mass of 362 g/mol
+1
+2
+3
+4
+5
+6
+7
+8
+Friedrich N, Alte D, Völzke H, et
+al. (June 2008). "Reference ranges of serum IGF-1 and IGFBP-3 levels in a general adult population: results of the Study of Health in Pomerania (SHIP)".
+Growth Hormone & IGF Research
+.
+18
+(3):
+228–
+37.
+doi
+:
+10.1016/j.ghir.2007.09.005
+.
+PMID
+17997337
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+Taken from the assay method giving the lowest and highest estimate, respectively, from
+Table 2
+in:
+Beltran L, Fahie-Wilson MN, McKenna TJ, Kavanagh L, Smith TP (October 2008).
+"Serum total prolactin and monomeric prolactin reference intervals determined by precipitation with polyethylene glycol: evaluation and validation on common immunoassay platforms"
+.
+Clinical Chemistry
+.
+54
+(10):
+1673–
+81.
+doi
+:
+10.1373/clinchem.2008.105312
+.
+PMID
+18719199
+.
+1
+2
+Derived from molar values using molar mass of 9.4 kDa
+1
+2
+Table 2
+in:
+Aloia JF, Feuerman M, Yeh JK (2006).
+"Reference range for serum parathyroid hormone"
+.
+Endocr Pract
+.
+12
+(2):
+137–
+44.
+doi
+:
+10.4158/ep.12.2.137
+.
+PMC
+1482827
+.
+PMID
+16690460
+.
+1
+2
+Derived from mass values using molar mass of 9.4 kDa
+1
+2
+3
+4
+5
+6
+Derived from molar values using molar mass 400.6 g/mol
+1
+2
+3
+4
+Bender, David A. (2003).
+"Vitamin D"
+.
+Nutritional biochemistry of the vitamins
+. Cambridge: Cambridge University Press.
+ISBN
+978-0-521-80388-5
+.
+Retrieved December 10, 2008 through
+Google Book Search
+.
+1
+2
+3
+4
+Bischoff-Ferrari HA, Dietrich T, Orav EJ, et
+al. (September 2004).
+"Higher 25-hydroxyvitamin D concentrations are associated with better lower-extremity function in both active and inactive persons aged > or =60 y"
+.
+The American Journal of Clinical Nutrition
+.
+80
+(3):
+752–
+58.
+doi
+:
+10.1093/ajcn/80.3.752
+.
+PMID
+15321818
+.
+1
+2
+3
+4
+Reusch J, Ackermann H, Badenhoop K (May 2009). "Cyclic changes of vitamin D and PTH are primarily regulated by solar radiation: 5-year analysis of a German (50 degrees N) population".
+Horm. Metab. Res
+.
+41
+(5):
+402–
+07.
+doi
+:
+10.1055/s-0028-1128131
+.
+PMID
+19241329
+.
+S2CID
+260166796
+.
+1
+2
+3
+4
+5
+6
+7
+8
+Vasquez A, Cannell J (July 2005).
+"Calcium and vitamin D in preventing fractures: data are not sufficient to show inefficacy"
+.
+BMJ
+.
+331
+(7508):
+108–
+09, author reply 109.
+doi
+:
+10.1136/bmj.331.7508.108-b
+.
+PMC
+558659
+.
+PMID
+16002891
+.
+1
+2
+Converted from values in mcU/mL by dividing with a factor of 11.2 mcU/mL per ng/(mL*hour), as given in:
+New Assays for Aldosterone, Renin and Parathyroid Hormone
+Archived
+2011-10-27 at the
+Wayback Machine
+University of
+Washington, Department of Laboratory Medicine. Retrieved Mars 2011
+1
+2
+Pratt RE, Flynn JA, Hobart PM, Paul M, Dzau VJ (March 1988).
+"Different secretory pathways of renin from mouse cells transfected with the human renin gene"
+.
+The Journal of Biological Chemistry
+.
+263
+(7):
+3137–
+41.
+doi
+:
+10.1016/S0021-9258(18)69046-5
+.
+PMID
+2893797
+.
+1
+2
+3
+4
+New Assays for Aldosterone, Renin and Parathyroid Hormone
+Archived
+2011-10-27 at the
+Wayback Machine
+University of Washington, Department of Laboratory Medicine. Retrieved Mars 2011
+1
+2
+Converted from values in ng/(mL*hour) by multiplying with a factor of 11.2 mcU/mL per ng/(mL*hour), as given in:
+New Assays for Aldosterone, Renin and Parathyroid Hormone
+Archived
+2011-10-27 at the
+Wayback Machine
+University of
+Washington, Department of Laboratory Medicine. Retrieved Mars 2011
+1
+2
+Converted from mass values using molar mass of 360.44 g/mol
+1
+2
+3
+4
+Tiu SC, Choi CH, Shek CC, et
+al. (January 2005). "The use of aldosterone-renin ratio as a diagnostic test for primary hyperaldosteronism and its test characteristics under different conditions of blood sampling".
+The Journal of Clinical Endocrinology and Metabolism
+.
+90
+(1):
+72–
+78.
+CiteSeerX
+10.1.1.117.5182
+.
+doi
+:
+10.1210/jc.2004-1149
+.
+PMID
+15483077
+.
+1
+2
+3
+4
+5
+6
+Central Manchester University Hospitals / Reference ranges
+Archived
+2012-11-30 at the
+Wayback Machine
+Retrieved on July 9, 2009
+↑
+University of Kentucky Chandler Medical Center > Clinical Lab Reference Range Guide
+Retrieved on April 28, 2009
+1
+2
+3
+4
+5
+Derived from mass values using molar mass of 441 mol−1
+1
+2
+GPnotebook > B12
+Retrieved on April 28, 2009
+1
+2
+Derived form molar values using molar mass of 1355g/mol
+1
+2
+Derived from mass values using molar mass of 1355g/mol
+1
+2
+3
+4
+"Homocysteine"
+.
+www.thedoctorsdoctor.com
+.
+1
+2
+3
+4
+Derived from molar values using molar massof 135 g/mol
+1
+2
+Derived from mass values using molar mass of 176 grams per mol
+1
+2
+3
+For
+Driving under the influence
+by country, see
+Drunk driving law by country
+↑
+Derived from mass values using molar mass of 46g/mol
+1
+2
+3
+4
+5
+Derived from mass values using 64,500 g/mol. This molar mass was taken from:
+Van Beekvelt MC, Colier WN, Wevers RA, Van Engelen BG (2001). "Performance of near-infrared spectroscopy in measuring local O2 consumption and blood flow in skeletal muscle".
+J Appl Physiol
+.
+90
+(2):
+511–
+19.
+doi
+:
+10.1152/jappl.2001.90.2.511
+.
+PMID
+11160049
+.
+S2CID
+15468862
+.
+1
+2
+3
+4
+Normal Lab Values
+Archived
+2014-12-16 at the
+Wayback Machine
+at Marshall University Joan C. Edwards School of Medicine. Retrieved July 2013
+1
+2
+3
+4
+5
+6
+7
+8
+molar concentration as given for
+hemoglobin
+above, but multiplied by 4, according to:
+Lodemann P, Schorer G, Frey BM (February 2010).
+"Wrong molar hemoglobin reference values-a longstanding error that should be corrected"
+.
+Annals of Hematology
+.
+89
+(2): 209.
+doi
+:
+10.1007/s00277-009-0791-x
+.
+PMID
+19609525
+.
+S2CID
+3091357
+.
+1
+2
+3
+4
+Derived from mass concentration, using molar mass of 64,458 g/mol. This molar mass was taken from:
+Van Beekvelt MC, Colier WN, Wevers RA, Van Engelen BG (2001). "Performance of near-infrared spectroscopy in measuring local O2 consumption and blood flow in skeletal muscle".
+J Appl Physiol
+.
+90
+(2):
+511–
+19.
+doi
+:
+10.1152/jappl.2001.90.2.511
+.
+PMID
+11160049
+.
+S2CID
+15468862
+.
+. Subsequently, 1 g/dL = 0.1551
+mmol/L
+1
+2
+3
+4
+5
+6
+Morkis IV, Farias MG, Scotti L (2016).
+"Determination of reference ranges for immature platelet and reticulocyte fractions and reticulocyte hemoglobin equivalent"
+.
+Rev Bras Hematol Hemoter
+.
+38
+(4):
+310–
+313.
+doi
+:
+10.1016/j.bjhh.2016.07.001
+.
+PMC
+5119661
+.
+PMID
+27863758
+.
+{{
+cite journal
+}}
+:  CS1 maint: multiple names: authors list (
+link
+)
+1
+2
+Brugnara C, Schiller B, Moran J (2006).
+"Reticulocyte hemoglobin equivalent (Ret He) and assessment of iron-deficient states"
+.
+Clinical and Laboratory Haematology
+.
+28
+(5):
+303–
+8.
+doi
+:
+10.1111/j.1365-2257.2006.00812.x
+.
+PMC
+1618805
+.
+PMID
+16999719
+.
+{{
+cite journal
+}}
+:  CS1 maint: multiple names: authors list (
+link
+)
+1
+2
+3
+4
+5
+6
+7
+8
+lymphomation.org >  Tests & Imaging > Labs  > Complete Blood Count
+Retrieved on May 14, 2009
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+McClatchey, Kenneth D. (November 28, 2002).
+Clinical Laboratory Medicine
+. Lippincott Williams & Wilkins.
+ISBN
+978-0-683-30751-1
+–
+via Google Books.
+↑
+"Determination of monocyte count by hematological analyzers, manual method and flow cytometry in Polish population"
+Central European Journal of Immunology
+(Centr Eur J Immunol 2006; 31 (1–2): 1–5) authors: Elżbieta Górska, Urszula Demkow, Roman Pińkowski, Barbara Jakubczak, Dorota Matuszewicz, Jolanta Gawęda, Wioletta Rzeszotarska, Maria Wąsik,
+1
+2
+3
+4
+5
+gpnotebook.co.uk > blood constituents (reference range)
+Retrieved on May 14, 2009
+1
+2
+Demirin H, Ozhan H, Ucgun T, Celer A, Bulur S, Cil H, Gunes C, Yildirim HA (2011). "Normal range of mean platelet volume in healthy subjects: Insight from a large epidemiologic study".
+Thromb. Res
+.
+128
+(4):
+358–
+60.
+doi
+:
+10.1016/j.thromres.2011.05.007
+.
+hdl
+:
+20.500.12684/3830
+.
+PMID
+21620440
+.
+1
+2
+Normal Values: RBC, Hgb, Hct, Indices, RDW, Platelets, and MPV (Conventional Units)
+Archived
+2011-07-27 at the
+Wayback Machine
+From labcareplus. Retrieved 4 nov, 2010
+1
+2
+Lozano M, Narváez J, Faúndez A, Mazzara R, Cid J, Jou JM, Marín JL, Ordinas A (1998). "[Platelet count and mean platelet volume in the Spanish population]".
+Med Clin (Barc)
+(in Spanish).
+110
+(20):
+774–
+77.
+PMID
+9666418
+.
+1
+2
+MedlinePlus Encyclopedia
+:
+003652
+1
+2
+Antithrombin III
+at
+eMedicine
+1
+2
+Antithrombin CO000300
+Archived
+2017-09-09 at the
+Wayback Machine
+in
+Coagulation Test Handbook
+at
+Massachusetts General Hospital
+. In turn citing:
+Elizabeth M. Van Cott, M.D., and Michael Laposata, M.D., Ph.D., "Coagulation." In: Jacobs DS et al, ed. The Laboratory Test Handbook, 5th Edition. Lexi-Comp, Cleveland, 2001; 327–58.
+1
+2
+"Home"
+.
+pathology.bsuh.nhs.uk
+. Retrieved
+November 20,
+2009
+.
+1
+2
+Miller A, Green M, Robinson D (January 1983).
+"Simple rule for calculating normal erythrocyte sedimentation rate"
+.
+British Medical Journal
+.
+286
+(6361): 266.
+doi
+:
+10.1136/bmj.286.6361.266
+.
+PMC
+1546487
+.
+PMID
+6402065
+.
+↑
+Böttiger LE, Svedberg CA (1967).
+"Normal erythrocyte sedimentation rate and age"
+.
+Br Med J
+.
+2
+(5544):
+85–
+87.
+doi
+:
+10.1136/bmj.2.5544.85
+.
+PMC
+1841240
+.
+PMID
+6020854
+.
+↑
+"C-reactive protein"
+.
+GPnotebook
+.
+↑
+2730 Serum C-Reactive Protein values in Diabetics with Periodontal Disease
+Archived
+2008-12-20 at the
+Wayback Machine
+A.R. Choudhury, and S. Rahman, Birdem, Diabetic Association of Bangladesh, Dhaka, Bangladesh. (the diabetics were not used to determine the reference ranges)
+1
+2
+3
+4
+Derived from mass using molar mass of 25,106 g/mol
+1
+2
+Sipahi T, Kara C, Tavil B, Inci A, Oksal A (March 2003). "Alpha-1 antitrypsin deficiency: an overlooked cause of late hemorrhagic disease of the newborn".
+Journal of Pediatric Hematology/Oncology
+.
+25
+(3):
+274–
+75.
+doi
+:
+10.1097/00043426-200303000-00019
+.
+PMID
+12621252
+.
+1
+2
+Derived from mass values using molar mass of 44324.5 g/mol
+1
+2
+Derived from molar values using molar mass of 44324.5 g/mol
+↑
+"Procalcitonin, Serum"
+.
+Mayo Clinic
+. Retrieved
+2015-03-01
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+The Society for American Clinical Laboratory Science > Chemistry Tests > Immunoglobulins
+Archived
+2009-10-15 at the
+Wayback Machine
+Retrieved on Nov 26, 2009
+1
+2
+"SSA – Clinical: SS-A/Ro Antibodies, IgG, Serum"
+.
+www.mayocliniclabs.com
+. Mayo Clinic Laboratories
+. Retrieved
+2 July
+2020
+.
+1
+2
+"SSB – Clinical: SS-B/La Antibodies, IgG, Serum"
+.
+www.mayocliniclabs.com
+. Mayo Clinic Laboratories
+. Retrieved
+2 July
+2020
+.
+1
+2
+3
+"ADNA – Clinical: DNA Double-Stranded Antibodies, IgG, Serum"
+.
+www.mayocliniclabs.com
+. Mayo Clinic Laboratories
+. Retrieved
+2 July
+2020
+.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+chronolab.com > Autoantibodies associated with rheumatic diseases >  Reference ranges
+Archived
+2013-07-30 at the
+Wayback Machine
+Retrieved on April 29, 2010
+1
+2
+3
+"AMA – Clinical: Mitochondrial Antibodies (M2), Serum"
+.
+www.mayocliniclabs.com
+. Mayo Clinic Laboratories
+. Retrieved
+2 July
+2020
+.
+1
+2
+Rajkumar SV, Kyle RA, Therneau TM, et
+al. (August 2005).
+"Serum free light chain ratio is an independent risk factor for progression in monoclonal gammopathy of undetermined significance"
+.
+Blood
+.
+106
+(3):
+812–
+17.
+doi
+:
+10.1182/blood-2005-03-1038
+.
+PMC
+1895159
+.
+PMID
+15855274
+.
+↑
+"Reference range (amylase)"
+.
+GPnotebook
+.
+↑
+Ageno W, Finazzi S, Steidl L, et
+al. (2002). "Plasma measurement of D-dimer levels for the early diagnosis of ischemic stroke subtypes".
+Archives of Internal Medicine
+.
+162
+(22):
+2589–
+93.
+doi
+:
+10.1001/archinte.162.22.2589
+.
+hdl
+:
+2434/51239
+.
+PMID
+12456231
+.
+↑
+Kline JA, Williams GW, Hernandez-Nino J (May 2005).
+"D-dimer concentrations in normal pregnancy: new diagnostic thresholds are needed"
+.
+Clinical Chemistry
+.
+51
+(5):
+825–
+29.
+doi
+:
+10.1373/clinchem.2004.044883
+.
+PMID
+15764641
+.
+1
+2
+Gardner MD, Scott R (April 1980).
+"Age- and sex-related reference ranges for eight plasma constituents derived from randomly selected adults in a Scottish new town"
+.
+Journal of Clinical Pathology
+.
+33
+(4):
+380–
+85.
+doi
+:
+10.1136/jcp.33.4.380
+.
+PMC
+1146084
+.
+PMID
+7400337
+.
+1
+2
+3
+4
+Finney H, Newman DJ, Price CP (January 2000).
+"Adult reference ranges for serum cystatin C, creatinine and predicted creatinine clearance"
+.
+Annals of Clinical Biochemistry
+.
+37
+(1):
+49–
+59.
+doi
+:
+10.1258/0004563001901524
+.
+PMID
+10672373
+.
+S2CID
+35866310
+.
+1
+2
+3
+4
+5
+6
+7
+8
+Derived from molar values by multiplying with the molar mass of 113.118 g/mol, and divided by 10.000 to adapt from μg/L to mg/dL
+1
+2
+MedlinePlus Encyclopedia
+:
+Glucose tolerance test
+1
+2
+3
+Derived from molar values using molar mass of 180g/mol
+1
+2
+Derived from mass values using molar mass of 180g/mol
+1
+2
+"Diabetes – Prevention"
+.
+Cleveland Clinic
+. Retrieved
+2016-06-23
+.
+Last revised 1/15/2013
+1
+2
+3
+4
+Derived from mass values using molar mass of 90.08 g/mol
+1
+2
+Derived from mass values using molar mass of 88.06 g/mol
+1
+2
+Ketones
+at
+eMedicine
+1
+2
+3
+4
+Page 700
+in:
+Richard C. Dart (2004).
+Medical Toxicology
+. Lippincott Williams & Wilkins=year=2004.
+ISBN
+978-0-7817-2845-4
+.
+↑
+The UK Electronic Medical Compendium recommends 0.4–0.8 mmol/L plasma lithium level in adults for prophylaxis of recurrent affective bipolar manic-depressive illness
+Camcolit 250 mg Lithium Carbonate
+Archived
+2016-03-04 at the
+Wayback Machine
+Revision 2 December 2010, Retrieved 5 May 2011
+1
+2
+Amdisen A. (1978). "Clinical and serum level monitoring in lithium therapy and lithium intoxication".
+J. Anal. Toxicol
+.
+2
+(5):
+193–
+202.
+doi
+:
+10.1093/jat/2.5.193
+.
+1
+2
+R. Baselt,
+Disposition of Toxic Drugs and Chemicals in Man
+, 8th edition, Biomedical Publications, Foster City, CA, 2008, pp. 851–54.
+↑
+One study (
+Solomon, D.; Ristow, W.; Keller, M.; Kane, J.; Gelenberg, A.; Rosenbaum, J.; Warshaw, M. (1996). "Serum lithium levels and psychosocial function in patients with bipolar I disorder".
+The American Journal of Psychiatry
+.
+153
+(10):
+1301–
+07.
+doi
+:
+10.1176/ajp.153.10.1301
+.
+PMID
+8831438
+.
+) concluded a "low" dose of 0.4–0.6 mmol/L serum lithium treatment for patients with bipolar 1 disorder had less side effects, but a higher rate of relapse, than a "standard" dose of 0.8–1.0 mmol/L. However, a reanalysis of the same experimental data (
+Perlis, R.; Sachs, G.; Lafer, B.; Otto, M.; Faraone, S.; Kane, J.; Rosenbaum, J. (2002). "Effect of abrupt change from standard to low serum levels of lithium: A reanalysis of double-blind lithium maintenance data".
+The American Journal of Psychiatry
+.
+159
+(7):
+1155–
+59.
+doi
+:
+10.1176/appi.ajp.159.7.1155
+.
+PMID
+12091193
+.
+S2CID
+12103424
+.
+) concluded the higher rate of relapse for the "low" dose was due to abrupt changes in the lithium serum levels
+[
+improper synthesis?
+]
+1
+2
+John Marx; Ron Walls; Robert Hockberger (2013).
+Rosen's Emergency Medicine – Concepts and Clinical Practice
+. Elsevier Health Sciences.
+ISBN
+978-1-4557-4987-4
+.
+External links
+[
+edit
+]
+Descriptions at amarillomed.com
+Values at lymphomation.org
+Further reading
+[
+edit
+]
+Rappoport, n.; Paik, P.; Oskotsky, B.; Tor, R.; Ziv, E.; Zaitlen, N.; Butte, A. (2018).
+"Comparing Ethnicity-Specific Reference Intervals for Clinical Laboratory Tests from EHR Data"
+.
+The Journal of Applied Laboratory Medicine
+.
+3
+(3):
+366–
+377.
+bioRxiv
+10.1101/213892
+.
+doi
+:
+10.1373/jalm.2018.026492
+.
+PMC
+8404742
+.
+PMID
+33636914
+.
+v
+t
+e
+Clinical biochemistry
+blood tests
+Electrolytes
+Sodium
+Potassium
+Chloride
+Calcium
+Renal function
+Creatinine
+Urea
+BUN-to-creatinine ratio
+Plasma osmolality
+Serum osmolal gap
+Acid-base
+Anion gap
+Arterial blood gas
+Base excess
+Bicarbonate
+CO
+2
+content
+Lactate
+Iron tests
+Ferritin
+Serum iron
+Transferrin saturation
+Total iron-binding capacity
+Transferrin
+Transferrin receptor
+Hormones
+ACTH stimulation test
+Thyroid function tests
+Thyroid-stimulating hormone
+Metabolism
+Blood glucose
+Hemoglobin A1c
+Lipid panel
+LDL
+HDL
+Triglycerides
+Total cholesterol
+Basic metabolic panel
+Comprehensive metabolic panel
+Cardiovascular
+Cardiac marker
+Troponin test
+CPK-MB test
+Lactate dehydrogenase
+Myoglobin
+Glycogen phosphorylase isoenzyme BB
+Liver function tests
+Proteins
+Human serum albumin
+Serum total protein
+ALP
+transaminases
+ALT
+AST
+AST/ALT ratio
+GGT
+Bilirubin
+Unconjugated
+Conjugated
+Pancreas
+Amylase
+Lipase
+Pancreatic lipase
+Small molecules
+Blood sugar level
+Hypoglycemia
+Hyperglycemia
+Nitrogenous
+Azotemia
+Hyperuricemia
+Hypouricemia
+Proteins
+LFT
+Elevated transaminases
+Elevated ALP
+Hypoproteinemia
+Hypoalbuminemia
+Hyperproteinemia
+Other
+Elevated alpha-fetoprotein
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Reference_ranges_for_blood_tests&oldid=1347726145
+"
+Category
+:
+Blood tests
+Hidden categories:
+Articles with short description
+Short description matches Wikidata
+All articles with unsourced statements
+Articles with unsourced statements from February 2024
+Webarchive template wayback links
+CS1 maint: archived copy as title
+All articles with dead external links
+Articles with dead external links from April 2018
+Articles with permanently dead external links
+CS1 maint: multiple names: authors list
+CS1 Spanish-language sources (es)
+Articles that may contain original research from January 2012
+Search
+Search
+Reference ranges for blood tests
+9 languages
+Add topic
