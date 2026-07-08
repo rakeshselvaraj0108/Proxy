@@ -1,0 +1,37 @@
+RERA DELAYED POSSESSION COMPLAINT TEMPLATE
+
+Legal basis: Under Section 18 of the Real Estate (Regulation and
+Development) Act, 2016, if a promoter (builder) fails to complete or is
+unable to give possession of an apartment/plot/building by the date
+stated in the registered agreement for sale, the allottee has the right
+to either withdraw from the project and get a full refund with interest,
+or stay in the project and claim interest for every month of delay until
+possession is handed over — the allottee's choice, not the builder's.
+
+File at: the State RERA Authority where the project is registered (e.g.
+MahaRERA, TN RERA, Karnataka RERA — search the project's RERA registration
+number on the state portal first to confirm jurisdiction and registered
+possession date).
+
+Complaint content:
+"I am an allottee in [Project Name], RERA registration number [xxxx],
+having booked Unit No. [xxxx] on [booking date]. The agreement for sale
+dated [date] states a possession date of [date], which has now been
+delayed by [X months/years]. I request [a full refund of the amount paid
+with interest under Section 18 / interest for every month of delay while
+I continue to hold the unit], along with compensation for the delay as
+provided under the Act."
+
+Documents to attach: Agreement for sale/allotment letter, payment
+receipts, registered project's RERA number, any builder correspondence
+about the delay.
+
+Escalation path:
+1. State RERA Authority complaint (adjudicating officer) — this is a
+   quasi-judicial body, complaints are typically disposed of within 60 days
+   as targeted under the Act.
+2. Appeal to the state's Real Estate Appellate Tribunal against a RERA
+   order, within 60 days of the order.
+3. Consumer forum (District/State Commission) remains an alternate/parallel
+   remedy for deficiency in service and compensation, though RERA is the
+   specialized forum for project-registration-linked disputes.

@@ -1,0 +1,37 @@
+[
+  {"authority": "MoHUA", "title": "Ministry of Housing and Urban Affairs Home", "url": "https://mohua.gov.in/", "folder": "mohua", "category": "overview", "slug": "mohua_home", "type": "html"},
+  {"authority": "MoHUA", "title": "PMAY-Urban (MoHUA)", "url": "https://mohua.gov.in/cms/pmay-urban.php", "folder": "mohua", "category": "pmay", "slug": "mohua_pmay_urban", "type": "html"},
+  {"authority": "MoHUA", "title": "PMAY-Urban Portal", "url": "https://pmay-urban.gov.in/", "folder": "mohua", "category": "pmay", "slug": "pmay_urban_portal", "type": "html"},
+
+  {"authority": "GoI", "title": "Real Estate (Regulation and Development) Act, 2016 - Full Text (UP-RERA mirror)", "url": "https://up-rera.in/pdf/reraact.pdf", "folder": "rera", "category": "act", "slug": "rera_act_2016_full_text", "type": "pdf"},
+  {"authority": "Kerala RERA", "title": "Real Estate (Regulation and Development) Act, 2016 - Full Text (Kerala RERA mirror)", "url": "https://reraonline.kerala.gov.in/PDF/RERA%20Act,%202016.pdf", "folder": "rera", "category": "act", "slug": "rera_act_2016_kerala_mirror", "type": "pdf"},
+  {"authority": "GoI", "title": "RERA Act 2016 - India Code (Legislative Department)", "url": "https://www.indiacode.nic.in/handle/123456789/2158", "folder": "rera", "category": "act", "slug": "rera_act_indiacode", "type": "html"},
+
+  {"authority": "Dept of Land Resources", "title": "Department of Land Resources Home", "url": "https://dolr.gov.in/", "folder": "property_registration", "category": "land_governance", "slug": "dolr_home", "type": "html"},
+  {"authority": "GoI", "title": "National Consumer Helpline", "url": "https://consumerhelpline.gov.in/", "folder": "consumer_cases", "category": "complaints", "slug": "national_consumer_helpline", "type": "html"},
+  {"authority": "NCDRC", "title": "National Consumer Disputes Redressal Commission", "url": "https://ncdrc.nic.in/", "folder": "consumer_cases", "category": "complaints", "slug": "ncdrc_home", "type": "html"},
+
+  {"authority": "TN RERA", "title": "Tamil Nadu Real Estate Regulatory Authority", "url": "https://rera.tn.gov.in/", "folder": "state_rera", "category": "tamil_nadu", "slug": "tn_rera_home", "type": "html"},
+  {"authority": "MahaRERA", "title": "Maharashtra Real Estate Regulatory Authority", "url": "https://maharera.maharashtra.gov.in/", "folder": "state_rera", "category": "maharashtra", "slug": "maharera_home", "type": "html"},
+  {"authority": "MahaRERA", "title": "MahaRERA Acts", "url": "https://maharera.maharashtra.gov.in/acts/12", "folder": "state_rera", "category": "maharashtra", "slug": "maharera_acts", "type": "html"},
+  {"authority": "Karnataka RERA", "title": "Karnataka Real Estate Regulatory Authority", "url": "https://rera.karnataka.gov.in/", "folder": "state_rera", "category": "karnataka", "slug": "karnataka_rera_home", "type": "html"},
+  {"authority": "Kerala RERA", "title": "Kerala Real Estate Regulatory Authority", "url": "https://rera.kerala.gov.in/", "folder": "state_rera", "category": "kerala", "slug": "kerala_rera_home", "type": "html"},
+  {"authority": "UP RERA", "title": "Uttar Pradesh Real Estate Regulatory Authority", "url": "https://www.up-rera.in/", "folder": "state_rera", "category": "uttar_pradesh", "slug": "up_rera_home", "type": "html"},
+
+  {"authority": "TN Registration Dept", "title": "Tamil Nadu Registration Department (TNREGINET)", "url": "https://tnreginet.gov.in/", "folder": "property_registration", "category": "tamil_nadu", "slug": "tnreginet_home", "type": "html"},
+  {"authority": "Karnataka Land Records", "title": "Karnataka Land Records (Bhoomi)", "url": "https://landrecords.karnataka.gov.in/", "folder": "property_registration", "category": "karnataka", "slug": "karnataka_land_records", "type": "html"},
+
+  {"authority": "HDFC", "title": "HDFC Home Loans", "url": "https://www.hdfc.com/home-loans", "folder": "home_loans", "category": "home_loans", "slug": "hdfc_home_loans", "type": "html"},
+
+  {"authority": "Wikipedia", "title": "Real Estate (Regulation and Development) Act, 2016", "url": "https://en.wikipedia.org/wiki/Real_Estate_(Regulation_and_Development)_Act,_2016", "folder": "rera", "category": "overview", "slug": "wiki_rera_act", "type": "html"},
+  {"authority": "Wikipedia", "title": "Pradhan Mantri Awas Yojana", "url": "https://en.wikipedia.org/wiki/Pradhan_Mantri_Awas_Yojana", "folder": "mohua", "category": "pmay", "slug": "wiki_pmay", "type": "html"},
+  {"authority": "Wikipedia", "title": "Ministry of Housing and Urban Affairs", "url": "https://en.wikipedia.org/wiki/Ministry_of_Housing_and_Urban_Affairs", "folder": "mohua", "category": "overview", "slug": "wiki_mohua", "type": "html"},
+  {"authority": "Wikipedia", "title": "Encumbrance", "url": "https://en.wikipedia.org/wiki/Encumbrance", "folder": "property_registration", "category": "encumbrance", "slug": "wiki_encumbrance", "type": "html"},
+  {"authority": "Wikipedia", "title": "Property Tax", "url": "https://en.wikipedia.org/wiki/Property_tax", "folder": "property_tax", "category": "overview", "slug": "wiki_property_tax", "type": "html"},
+  {"authority": "Wikipedia", "title": "Housing Cooperative", "url": "https://en.wikipedia.org/wiki/Housing_cooperative", "folder": "apartment_societies", "category": "overview", "slug": "wiki_housing_cooperative", "type": "html"},
+  {"authority": "Wikipedia", "title": "Certificate of Occupancy", "url": "https://en.wikipedia.org/wiki/Certificate_of_occupancy", "folder": "builders", "category": "occupancy_certificate", "slug": "wiki_certificate_of_occupancy", "type": "html"},
+  {"authority": "Wikipedia", "title": "Real Estate in India", "url": "https://en.wikipedia.org/wiki/Real_estate_in_India", "folder": "rera", "category": "overview", "slug": "wiki_real_estate_india", "type": "html"},
+  {"authority": "Wikipedia", "title": "Tenancy Deposit Scheme", "url": "https://en.wikipedia.org/wiki/Tenancy_deposit_scheme", "folder": "rental", "category": "security_deposit", "slug": "wiki_tenancy_deposit_scheme", "type": "html"},
+  {"authority": "Wikipedia", "title": "Landlord", "url": "https://en.wikipedia.org/wiki/Landlord", "folder": "rental", "category": "overview", "slug": "wiki_landlord", "type": "html"},
+  {"authority": "Wikipedia", "title": "Mortgage Loan", "url": "https://en.wikipedia.org/wiki/Mortgage_loan", "folder": "home_loans", "category": "overview", "slug": "wiki_mortgage_loan", "type": "html"}
+]

@@ -1,0 +1,37 @@
+{
+  "domain": "housing",
+  "generated_at": "2026-07-07T17:25:13.769386+00:00",
+  "local_corpus": {
+    "files_total": 25,
+    "chunks_total": 148,
+    "bytes_total": 1056516,
+    "extension_counts": {
+      ".pdf": 2,
+      ".txt": 23
+    },
+    "authority_counts": {
+      "Dept of Land Resources": 1,
+      "GoI": 3,
+      "HDFC": 1,
+      "Karnataka Land Records": 1,
+      "Kerala RERA": 1,
+      "MahaRERA": 2,
+      "MoHUA": 1,
+      "Municipal Corporation": 1,
+      "NCDRC": 1,
+      "RBI / Lenders": 1,
+      "RERA Act 2016": 3,
+      "RERA Act 2016 / Local Body": 1,
+      "Registration Act 1908 / State Registration Dept": 1,
+      "Rental Agreement / Model Tenancy Act": 1,
+      "Rental Agreement / State Rent Laws": 1,
+      "Society Bye-laws / Cooperative Societies Act": 1,
+      "Society Bye-laws / RERA": 1,
+      "State Registration Dept": 1,
+      "TN RERA": 1,
+      "TN Registration Dept": 1
+    },
+    "chunk_file": "knowledge/housing/chunks/housing_chunks.jsonl",
+    "manifest_file": "knowledge/housing/housing_corpus_manifest.json"
+  }
+}

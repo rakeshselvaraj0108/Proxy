@@ -1,0 +1,35 @@
+HOME LOAN DOCUMENTATION & FORECLOSURE — FAQs
+
+Q: What documents does a bank typically need to sanction a home loan
+   against an under-construction RERA project?
+A: KYC + income documents, the builder-buyer agreement, the project's
+   RERA registration number and details, an approved building plan copy,
+   and the bank's own legal/technical verification of the property title
+   and construction stage (banks disburse in stages tied to construction
+   progress for under-construction properties, not as a lump sum).
+
+Q: Can the bank charge a foreclosure/prepayment penalty on my home loan?
+A: For floating-rate home loans to individual borrowers, RBI directs that
+   banks generally cannot levy a foreclosure or prepayment penalty. Fixed-
+   rate loans may still carry one depending on the sanction terms — check
+   your specific loan's rate type and sanction letter.
+
+Q: The builder hasn't delivered on time — does that affect my home loan
+   EMIs?
+A: Your EMI obligation to the bank is independent of the builder's
+   performance (the loan is disbursed to the builder as construction-stage
+   payments; your repayment obligation to the bank starts regardless). If
+   you pursue a RERA refund from the builder for delay, the loan/EMI
+   position with your bank is a separate matter to resolve alongside —
+   inform your bank of a RERA proceeding as it may affect how they treat
+   your account.
+
+Q: What if I never received my property documents back after loan
+   closure?
+A: Lenders are required (per RBI's directions on release of movable/
+   immovable property documents) to return all original property
+   documents within a defined window (commonly 30 days) of full loan
+   repayment/closure, and to compensate for delay. Escalate to the
+   lender's Nodal Officer, then RBI Integrated Ombudsman (cms.rbi.org.in)
+   if unresolved — this is the same RBI ombudsman channel used for other
+   banking grievances.

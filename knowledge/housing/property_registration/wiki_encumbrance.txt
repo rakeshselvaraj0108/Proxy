@@ -1,0 +1,294 @@
+Encumbrance - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+This article is about the legal term. For the science and engineering term, see
+weight
+.
+Type of third party interest in property
+An
+encumbrance
+is a third party's right to, interest in, or
+legal liability
+on
+property
+that does not prohibit the property's owner from transferring
+title
+(but may diminish its value).
+[
+1
+]
+Encumbrances can be classified in several ways. They may be financial (for example,
+liens
+) or non-financial (for example,
+easements
+, private restrictions). Alternatively, they may be divided into those that affect title (for example, lien, legal or equitable charge) or those that affect the use or physical condition of the encumbered property (for example, restrictions, easements, encroachments).
+[
+2
+]
+Encumbrances include
+security interests
+, liens,
+servitudes
+(for example, easements,
+wayleaves
+,
+real covenants
+,
+profits a prendre
+),
+leases
+, restrictions, encroachments, and air and subsurface rights.
+Jurisdictions
+[
+edit
+]
+Hong Kong
+[
+edit
+]
+In
+Hong Kong
+, there is a statutory definition of "encumbrance". In Conveyancing and Property Ordinance (Cap. 219) it reads: "
+"encumbrance" (產權負擔) includes a legal and equitable mortgage, a trust for securing money, a lien, a charge of a portion, annuity, or other capital or annual sum; and "encumbrancer" (產權負擔人) has a meaning corresponding with that of "encumbrance" and includes every person entitled to the benefit of an encumbrance, or to require payment and discharge thereof
+".
+Other uses
+[
+edit
+]
+Colleges
+[
+edit
+]
+It is also a term used by
+colleges
+and universities to describe limitations placed on a
+student
+'s account due to late payment, late registration, or other reasons stated by the institution. An encumbrance can prohibit students from registering for
+classes
+, affect the release of their transcripts, or delay the reception of their
+diplomas
+.
+Accounting
+[
+edit
+]
+In
+management accounting
+,
+encumbrance
+is a management tool used to reflect commitments in the accounting system and attempt to prevent overspending. Encumbrances allow organizations to recognize future commitments of resources prior to an actual
+expenditure
+.  The term is frequently used in
+fund accounting
+, especially among governmental entities.
+Pre-encumbrance
+Amount expected to spend, but for which there is no legal obligation to spend. A requisition is a typical pre-encumbrance transaction.
+Encumbrance
+Amount for which there is a legal obligation to spend in the future. A purchase order is a typical encumbrance transaction.  At this point, the amount of the encumbrance will be entered in the financial records.
+Expenditure
+Amount for which there has been an expenditure of funds. An expenditure is recorded in Commitment Control for both vouchers payable and journal entries.  The encumbrance will be removed from the records when the expenditure is recorded.
+Intellectual property
+[
+edit
+]
+An example of
+Intellectual property
+encumbrance is "encumbered code", software that cannot be freely distributed due to intellectual property rights.
+Real Estate
+[
+edit
+]
+In certain parts of the world, such as India, an Encumbrance Certificate is issued prior to the sale of a home in order to ascertain whether the title of the home is free and clear.
+References
+[
+edit
+]
+↑
+Gifis, Steven H. (2008). "encumbrance".
+Dictionary of Legal Terms
+(4th
+ed.). Barrons Educational Series. p.
+169.
+ISBN
+978-0-7641-3921-5
+.
+OCLC
+1419985159
+.
+↑
+Galaty, Fillmore W.; Allaway, Wellington J.; Kyle, Robert C. (2001).
+Modern Real Estate Practice in Illinois
+. Dearborn Trade Publishing. p.
+107.
+ISBN
+978-0-7931-4257-6
+.
+v
+t
+e
+Real estate
+Property
+Tertiary sector
+By location
+Bangladesh
+Canada
+China
+Indonesia
+Italy
+Turkey
+Kenya
+Pakistan
+Panama
+Puerto Rico
+Russia
+Saudi Arabia
+United Arab Emirates
+United Kingdom
+Types
+Commercial property
+Commercial building
+Corporate Real Estate
+Estate
+Extraterrestrial real estate
+International real estate
+Lease administration
+Niche real estate
+Garden real estate
+Healthcare real estate
+Vacation property
+Arable land
+Golf property
+Luxury real estate
+Off-plan property
+Private equity real estate
+Real estate owned
+Residential property
+Sectors
+Property management
+Real estate development
+Real estate investing
+Real estate flipping
+Relocation
+Law
+and regulation
+Adverse possession
+Chain of title
+Closing
+Concurrent estate
+Conditional sale
+Conveyancing
+Deed
+Eminent domain
+Encumbrance
+Foreclosure
+Just cause eviction
+Land law
+Land registration
+Leasehold estate
+Lease
+Property abstract
+Real estate transaction
+Real estate contract
+Real property
+Rent regulation
+Severance
+Torrens title
+Zoning
+Economics, financing
+and valuation
+Asset-based lending
+Capitalization rate
+Cash out refinancing
+Effective gross income
+Gross rent multiplier
+Hard money loan
+Highest and best use
+Home equity
+Home equity investments
+Home equity loan
+Home equity line of credit
+Investment rating for real estate
+Mortgage insurance
+Mortgage loan
+Negative equity
+Real estate derivative
+Real estate economics
+Real estate bubble
+Real estate valuation
+Remortgage
+Rental value
+Reverse mortgage
+Parties
+Appraiser
+Buyer agent
+Buyer broker
+Chartered Surveyor
+Exclusive buyer agent
+Land banking
+Landlord
+Moving company
+Property manager
+Real estate broker
+Real estate investment club
+Real estate investment trust
+Real property administrator
+Tenant
+Other
+Companies
+Eviction
+Filtering
+Gentrification
+Graduate real estate education
+Green belt
+Indices
+Industry trade groups
+Investment firms
+Property cycle
+Real estate trends
+Undergraduate real estate programs
+Urban decay
+Urban planning
+List of housing markets by real estate prices
+Category
+Commons
+List of topics
+This
+legal term
+article is a
+stub
+. You can help Wikipedia by
+adding missing information
+.
+v
+t
+e
+This
+real estate
+article is a
+stub
+. You can help Wikipedia by
+adding missing information
+.
+v
+t
+e
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Encumbrance&oldid=1353134356
+"
+Categories
+:
+Common law legal terminology
+Property law legal terminology
+Intellectual property law
+Accounting terminology
+Legal terminology stubs
+Real estate stubs
+Hidden categories:
+Articles with short description
+Short description matches Wikidata
+All stub articles
+Search
+Search
+Encumbrance
+3 languages
+Add topic

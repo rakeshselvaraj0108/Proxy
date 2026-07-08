@@ -1,0 +1,26 @@
+DEFECTIVE CONSTRUCTION COMPLAINT TEMPLATE
+
+Legal basis: Section 14(3) of the RERA Act, 2016 makes the promoter liable,
+without further compensation, to rectify structural defects or any other
+defects in workmanship, quality, or provision of services, brought to
+notice within 5 years of handing over possession — the promoter must
+rectify such defects within 30 days at no cost to the allottee.
+
+To,
+The Promoter, [Builder/Project Name]
+CC: State RERA Authority
+
+Subject: Structural/quality defect notice under Section 14(3) RERA Act,
+2016 — Unit [xxxx], possession date [date]
+
+"I took possession of Unit [xxxx] in [Project Name] on [date]. I am
+noticing the following defect(s): [describe — e.g. seepage/leakage,
+cracks in walls, faulty plumbing/electrical, substandard flooring
+material]. Under Section 14(3) of the RERA Act, I request rectification
+within 30 days at no cost, as this is within the 5-year defect liability
+period from possession."
+
+If the builder does not rectify within 30 days:
+File a complaint with the State RERA Authority citing the Section 14(3)
+notice date and the builder's non-response/refusal, requesting a direction
+to rectify or compensate for independent rectification cost.

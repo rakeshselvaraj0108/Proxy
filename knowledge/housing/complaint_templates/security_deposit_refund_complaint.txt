@@ -1,0 +1,37 @@
+SECURITY DEPOSIT REFUND COMPLAINT TEMPLATE
+
+Background: Security deposit terms are primarily governed by the rental/
+lease agreement itself, and by state-specific Rent Control Acts or (in
+states that have adopted it) the Model Tenancy Act, 2021 framework, which
+recommends deposits be capped (commonly 2 months' rent for residential,
+higher for commercial) and refunded within a defined window (commonly
+cited as within 1 month) of the tenant vacating, net only of legitimately
+documented deductions (unpaid rent/utilities, damage beyond normal wear
+and tear — not routine wear and tear itself).
+
+To,
+[Landlord Name]
+
+Subject: Refund of security deposit — Property [address], tenancy ended
+[date]
+
+"I vacated the above property on [date] having given the notice required
+under our rental agreement, and handed over the property in the condition
+agreed (accounting for normal wear and tear). I have not received my
+security deposit of INR [amount] as of today, [X] days after vacating. I
+request the deposit be refunded within [7/15] days, with an itemized
+statement of any deductions you believe are due, failing which I will
+pursue this through [the Rent Authority / Consumer Court / Civil Court as
+applicable in my state]."
+
+Escalation path (varies by state — check whether your state has adopted
+the Model Tenancy Act with a Rent Authority):
+1. States with a Rent Authority / Rent Court under an adopted Model
+   Tenancy Act framework: file there — a faster, purpose-built forum for
+   exactly this dispute.
+2. Otherwise: a written notice, then a civil suit for recovery of the
+   deposit (small claims-style track in many states' civil courts), or a
+   consumer complaint if the tenancy is characterized as a "service" under
+   your state's interpretation.
+3. Keep move-in/move-out photos and the signed agreement — deposit
+   disputes are decided almost entirely on documented condition evidence.

@@ -1,0 +1,301 @@
+{
+  "domain": "housing",
+  "generated_at": "2026-07-07T17:25:13.769386+00:00",
+  "root": "knowledge/housing",
+  "files_total": 25,
+  "chunks_total": 148,
+  "bytes_total": 1056516,
+  "extension_counts": {
+    ".pdf": 2,
+    ".txt": 23
+  },
+  "authority_counts": {
+    "Dept of Land Resources": 1,
+    "GoI": 3,
+    "HDFC": 1,
+    "Karnataka Land Records": 1,
+    "Kerala RERA": 1,
+    "MahaRERA": 2,
+    "MoHUA": 1,
+    "Municipal Corporation": 1,
+    "NCDRC": 1,
+    "RBI / Lenders": 1,
+    "RERA Act 2016": 3,
+    "RERA Act 2016 / Local Body": 1,
+    "Registration Act 1908 / State Registration Dept": 1,
+    "Rental Agreement / Model Tenancy Act": 1,
+    "Rental Agreement / State Rent Laws": 1,
+    "Society Bye-laws / Cooperative Societies Act": 1,
+    "Society Bye-laws / RERA": 1,
+    "State Registration Dept": 1,
+    "TN RERA": 1,
+    "TN Registration Dept": 1
+  },
+  "folder_counts": {
+    "complaint_templates": 10,
+    "consumer_cases": 2,
+    "faqs": 2,
+    "home_loans": 1,
+    "mohua": 1,
+    "property_registration": 3,
+    "rera": 3,
+    "state_rera": 3
+  },
+  "chunk_file": "knowledge/housing/chunks/housing_chunks.jsonl",
+  "graph_seed_files": [
+    "knowledge/housing/knowledge_graph/housing_entities.jsonl",
+    "knowledge/housing/knowledge_graph/housing_relationships.jsonl"
+  ],
+  "files": [
+    {
+      "path": "complaint_templates/defective_construction_complaint.txt",
+      "bytes": 1240,
+      "sha256": "5b1a4e9510b5e3a50f2b0a90dbe921d8318e394e9f30e788184f98ceb1605cdc",
+      "chunks": 1,
+      "title": "Defective Construction / Structural Defect Complaint Template",
+      "authority": "RERA Act 2016",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "complaint_templates/encumbrance_certificate_guidance.txt",
+      "bytes": 1458,
+      "sha256": "e7db2f7b20aea9ed7b5decbab7c09b3497dea53af7b7b15ad8a664c4ef02f0c4",
+      "chunks": 1,
+      "title": "Encumbrance Certificate Guidance",
+      "authority": "State Registration Dept",
+      "category": "guide",
+      "source_url": null
+    },
+    {
+      "path": "complaint_templates/illegal_maintenance_charges_complaint.txt",
+      "bytes": 1681,
+      "sha256": "1e84aaf6c00e4fa4bd923c481ff5ecc70f47c45de88f8df6d2b060abb6ee310b",
+      "chunks": 1,
+      "title": "Illegal/Excessive Maintenance Charges Complaint Template",
+      "authority": "Society Bye-laws / RERA",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "complaint_templates/landlord_tenant_dispute_template.txt",
+      "bytes": 1532,
+      "sha256": "fdafc114f1aa20b68889d1884df7ad860799ebdd36fbbfdebdb3de5e8eb26766",
+      "chunks": 1,
+      "title": "General Landlord-Tenant Dispute Template",
+      "authority": "Rental Agreement / State Rent Laws",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "complaint_templates/occupancy_completion_certificate_delay.txt",
+      "bytes": 1595,
+      "sha256": "a703adeeb1fa4e5aa0b793aab51eff60eefb96286765b2819f07585acadc6c16",
+      "chunks": 1,
+      "title": "Occupancy/Completion Certificate Delay Complaint Template",
+      "authority": "RERA Act 2016 / Local Body",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "complaint_templates/property_registration_delay_complaint.txt",
+      "bytes": 1111,
+      "sha256": "4a8ae719a18f6e661202c3ccde7c18df9e7a69fa1774b2ac61676d577cb9ae6f",
+      "chunks": 1,
+      "title": "Property Registration Delay Complaint Template",
+      "authority": "Registration Act 1908 / State Registration Dept",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "complaint_templates/property_tax_dispute_template.txt",
+      "bytes": 1276,
+      "sha256": "1b0baceeea4d39b76012dfe904f5f5c7eba9140a0ae46e774ebb499cdee6666b",
+      "chunks": 1,
+      "title": "Property Tax Dispute / Correction Template",
+      "authority": "Municipal Corporation",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "complaint_templates/rera_delayed_possession_complaint.txt",
+      "bytes": 1960,
+      "sha256": "303af2254fcaa2d4f1ba9b37cf642e24625995af966358ed3b6b7471c6f725f8",
+      "chunks": 1,
+      "title": "RERA Delayed Possession Complaint Template",
+      "authority": "RERA Act 2016",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "complaint_templates/security_deposit_refund_complaint.txt",
+      "bytes": 1949,
+      "sha256": "aae1d00fde2446cf24c0cabf7d1bcc1ab14300890d9d48d7586e3e08e454e905",
+      "chunks": 1,
+      "title": "Security Deposit Refund Complaint Template",
+      "authority": "Rental Agreement / Model Tenancy Act",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "complaint_templates/society_noc_denial_complaint.txt",
+      "bytes": 1498,
+      "sha256": "bf6dd63638e7b0e769e324c2fc1125d6d95d522faae3b8d2785901f497ee1d39",
+      "chunks": 1,
+      "title": "Society NOC Denial Complaint Template",
+      "authority": "Society Bye-laws / Cooperative Societies Act",
+      "category": "template",
+      "source_url": null
+    },
+    {
+      "path": "consumer_cases/national_consumer_helpline.txt",
+      "bytes": 1177,
+      "sha256": "85718ae83917a167726f1d24ec7f3d5f63bfba764167a6ce174b75010308f2c0",
+      "chunks": 1,
+      "title": "National Consumer Helpline",
+      "authority": "GoI",
+      "category": "complaints",
+      "source_url": "https://consumerhelpline.gov.in/"
+    },
+    {
+      "path": "consumer_cases/ncdrc_home.txt",
+      "bytes": 3949,
+      "sha256": "f28d3ff3bbc2f60d31b2424a9b33cdce4fe6b2645f8358d57c43fffe81fe3a13",
+      "chunks": 2,
+      "title": "National Consumer Disputes Redressal Commission",
+      "authority": "NCDRC",
+      "category": "complaints",
+      "source_url": "https://ncdrc.nic.in/"
+    },
+    {
+      "path": "faqs/home_loan_documentation_faqs.txt",
+      "bytes": 1962,
+      "sha256": "4894639b629a5acf5e0c199a16c1d2e42b4c79ee7ce6c43d83752684e3ef8681",
+      "chunks": 1,
+      "title": "Home Loan Documentation & Foreclosure FAQs",
+      "authority": "RBI / Lenders",
+      "category": "faq",
+      "source_url": null
+    },
+    {
+      "path": "faqs/rera_complaint_filing_faqs.txt",
+      "bytes": 1744,
+      "sha256": "fbd6a3db1fa73651ba941306c364ceacf5950a3e243b6266fb9d814ebd3f8e01",
+      "chunks": 1,
+      "title": "RERA Complaint Filing — FAQs",
+      "authority": "RERA Act 2016",
+      "category": "faq",
+      "source_url": null
+    },
+    {
+      "path": "home_loans/hdfc_home_loans.txt",
+      "bytes": 50279,
+      "sha256": "bf17096e62351a5a5dfa3a02aa90ba6bd667997bba963e6231da34580e6448f1",
+      "chunks": 19,
+      "title": "HDFC Home Loans",
+      "authority": "HDFC",
+      "category": "home_loans",
+      "source_url": "https://www.hdfc.com/home-loans"
+    },
+    {
+      "path": "mohua/pmay_urban_portal.txt",
+      "bytes": 2774,
+      "sha256": "2826cc8479e2bee872180226f24da858afa372d5c4112c7e5fc18def5e6f6f12",
+      "chunks": 1,
+      "title": "PMAY-Urban Portal",
+      "authority": "MoHUA",
+      "category": "pmay",
+      "source_url": "https://pmay-urban.gov.in/"
+    },
+    {
+      "path": "property_registration/dolr_home.txt",
+      "bytes": 6551,
+      "sha256": "44cea83418c0a1bbdb97d3d3e7e28bb48d231c373d330676c281dd6c25a2b8d3",
+      "chunks": 1,
+      "title": "Department of Land Resources Home",
+      "authority": "Dept of Land Resources",
+      "category": "land_governance",
+      "source_url": "https://dolr.gov.in/"
+    },
+    {
+      "path": "property_registration/karnataka_land_records.txt",
+      "bytes": 1653,
+      "sha256": "96bdfa8715fd1601d2142c567f6df3e4407ed19cf57f1defd675d2ec481f46e3",
+      "chunks": 1,
+      "title": "Karnataka Land Records (Bhoomi)",
+      "authority": "Karnataka Land Records",
+      "category": "karnataka",
+      "source_url": "https://landrecords.karnataka.gov.in/"
+    },
+    {
+      "path": "property_registration/tnreginet_home.txt",
+      "bytes": 38566,
+      "sha256": "9d55e4ac39267c77750ca7b70c22303be180cae3a3c55decb1d6fd3219530fde",
+      "chunks": 6,
+      "title": "Tamil Nadu Registration Department (TNREGINET)",
+      "authority": "TN Registration Dept",
+      "category": "tamil_nadu",
+      "source_url": "https://tnreginet.gov.in/"
+    },
+    {
+      "path": "rera/rera_act_2016_full_text.pdf",
+      "bytes": 576388,
+      "sha256": "312d8c92bb8a3be7b915281197f65e45b8951af53bcb32548d434067b6591127",
+      "chunks": 47,
+      "title": "Real Estate (Regulation and Development) Act, 2016 - Full Text (UP-RERA mirror)",
+      "authority": "GoI",
+      "category": "act",
+      "source_url": "https://up-rera.in/pdf/reraact.pdf"
+    },
+    {
+      "path": "rera/rera_act_2016_kerala_mirror.pdf",
+      "bytes": 336699,
+      "sha256": "a66262dec6a10d2ae651ce47977ec52e01c8a0da5f3fb51c2470e1ef3458494e",
+      "chunks": 49,
+      "title": "Real Estate (Regulation and Development) Act, 2016 - Full Text (Kerala RERA mirror)",
+      "authority": "Kerala RERA",
+      "category": "act",
+      "source_url": "https://reraonline.kerala.gov.in/PDF/RERA%20Act,%202016.pdf"
+    },
+    {
+      "path": "rera/rera_act_indiacode.txt",
+      "bytes": 9099,
+      "sha256": "48999f468fd509e184444d98f8731d66d60036b5f932df9e3d0da4ee6c983a70",
+      "chunks": 4,
+      "title": "RERA Act 2016 - India Code (Legislative Department)",
+      "authority": "GoI",
+      "category": "act",
+      "source_url": "https://www.indiacode.nic.in/handle/123456789/2158"
+    },
+    {
+      "path": "state_rera/maharera_acts.txt",
+      "bytes": 1053,
+      "sha256": "979706abfaffa45963df8c7f806447c4a0ced91d9c1e9d0bb8906c52ad3ee5f7",
+      "chunks": 1,
+      "title": "MahaRERA Acts",
+      "authority": "MahaRERA",
+      "category": "maharashtra",
+      "source_url": "https://maharera.maharashtra.gov.in/acts/12"
+    },
+    {
+      "path": "state_rera/maharera_home.txt",
+      "bytes": 4982,
+      "sha256": "3c50126d2e08b46a96d27f1d28d0deb0489ceedd08c984ffa182479b4b6ee313",
+      "chunks": 2,
+      "title": "Maharashtra Real Estate Regulatory Authority",
+      "authority": "MahaRERA",
+      "category": "maharashtra",
+      "source_url": "https://maharera.maharashtra.gov.in/"
+    },
+    {
+      "path": "state_rera/tn_rera_home.txt",
+      "bytes": 4340,
+      "sha256": "0f4371d103b6e637e1891794af9eab93970314a631437db3a7f66a9307344585",
+      "chunks": 2,
+      "title": "Tamil Nadu Real Estate Regulatory Authority",
+      "authority": "TN RERA",
+      "category": "tamil_nadu",
+      "source_url": "https://rera.tn.gov.in/"
+    }
+  ]
+}

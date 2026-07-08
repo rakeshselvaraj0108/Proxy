@@ -1,0 +1,26 @@
+ENCUMBRANCE CERTIFICATE (EC) — GUIDANCE
+
+What it is: An Encumbrance Certificate confirms whether a property is
+free of registered legal/monetary liabilities (mortgages, liens, prior
+sales) over a specified period — essential before buying property or
+availing a home loan against it, since lenders require a clean EC.
+
+How to get one: Apply online via the state registration department's
+portal (e.g. TNREGINET for Tamil Nadu, Kaveri Online for Karnataka) for
+the specific survey number / property, specifying the period to be
+searched (commonly 13, 15, or 30 years depending on the need — a home
+loan lender may require a longer period than a simple resale check).
+
+Common issues and fixes:
+1. EC shows an entry that has actually been discharged (e.g. an old loan
+   already closed): obtain a discharge/release deed or "no dues"
+   certificate from the lender and get the registration department to
+   note the discharge, or apply for a corrected EC referencing the
+   discharge document's registration number.
+2. EC application delayed beyond the portal's stated timeline: escalate
+   via the registration department's grievance/helpdesk channel, citing
+   the application number.
+3. Property doesn't show up under the survey number searched: verify the
+   correct current survey/sub-division number with the local Village
+   Administrative Officer / Tahsildar — EC searches are only as good as
+   the survey number used.

@@ -1,0 +1,31 @@
+OCCUPANCY / COMPLETION CERTIFICATE DELAY COMPLAINT TEMPLATE
+
+Background: A Completion Certificate (CC) confirms the building was
+constructed per the sanctioned plan; an Occupancy Certificate (OC)
+certifies the building is fit for occupation (water/electricity/fire
+safety compliance). Under RERA, the promoter must obtain the OC/CC before
+handing over possession — possession without a valid OC is itself a RERA
+violation, and buyers should not be pressured to take possession or pay
+final dues without it.
+
+To,
+The Promoter, [Builder/Project Name]
+CC: State RERA Authority; [Municipal Corporation / Local Planning Authority]
+
+Subject: Occupancy Certificate not obtained — Project [Name], RERA
+registration [xxxx]
+
+"Possession of Unit [xxxx] was offered on [date] without a valid
+Occupancy Certificate. I request either the OC be produced immediately,
+or, per RERA Section 18 read with the possession obligations, [a refund
+with interest / compensation for the delay] since possession without OC
+does not constitute valid, lawful possession under the Act."
+
+Escalation path:
+1. State RERA Authority — OC non-compliance is a direct, checkable
+   violation against the project's registered details.
+2. Local Municipal Corporation / Development Authority (which actually
+   issues the OC/CC) — a parallel complaint about non-issuance can reveal
+   whether the builder never applied, or the application is pending for a
+   specific deficiency (fire NOC, structural certificate, etc.) — useful to
+   know before pressing RERA for a refund vs. waiting for OC.

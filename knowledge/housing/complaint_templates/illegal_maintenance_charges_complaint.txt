@@ -1,0 +1,34 @@
+ILLEGAL / EXCESSIVE MAINTENANCE CHARGES COMPLAINT TEMPLATE
+
+Background: Maintenance charges must be levied per the society's/RWA's
+approved bye-laws and, before a formal society is registered/handed over,
+per the RERA-registered project's disclosed maintenance terms — a builder
+cannot unilaterally impose charges outside what was disclosed at booking,
+and cannot condition possession/OC handover on payment of disputed
+"corpus fund" or maintenance amounts not agreed in the sale agreement.
+
+To,
+[Builder/Management Committee/RWA]
+
+Subject: Dispute of maintenance charges — Unit [xxxx], [Project/Society
+Name]
+
+"I am being charged INR [amount] as [maintenance/corpus fund/other
+charge], which [was not disclosed in my agreement for sale / exceeds the
+rate approved by the society's general body / is being demanded as a
+condition for possession or OC, which is impermissible]. I request an
+itemized break-up of this charge and its basis in the bye-laws or my
+agreement, and a review of the amount."
+
+Escalation path:
+1. Society/RWA general body / managing committee (request an audited
+   account of maintenance fund utilization if the dispute is about
+   reasonableness, not just disclosure).
+2. State Registrar of Cooperative Societies (for registered societies) —
+   handles disputes about bye-law violations, unauthorized charges, and
+   managing committee conduct.
+3. State RERA Authority if the dispute concerns a builder-controlled
+   maintenance regime before formal society handover, or possession/OC
+   being conditioned on disputed charges.
+4. Consumer forum for deficiency-in-service claims once other channels are
+   exhausted.

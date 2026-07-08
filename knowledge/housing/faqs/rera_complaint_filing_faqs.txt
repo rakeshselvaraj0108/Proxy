@@ -1,0 +1,33 @@
+RERA COMPLAINT FILING — FREQUENTLY ASKED QUESTIONS
+
+Q: Which State RERA do I file with?
+A: The RERA Authority of the state where the project is physically
+   located and registered — find the project's registration number and
+   registering authority on that state's RERA portal (e.g. rera.tn.gov.in,
+   maharera.maharashtra.gov.in, rera.karnataka.gov.in) before filing;
+   filing with the wrong state's authority will just be rejected/
+   transferred, wasting time.
+
+Q: What can I actually get from a RERA complaint?
+A: Depends on the ground: for possession delay (Section 18), a refund
+   with interest or continued possession with monthly interest for delay;
+   for structural/quality defects (Section 14(3)), a rectification order;
+   for general project non-compliance (false advertising, diversion of
+   funds, non-disclosure), a compliance direction and/or penalty on the
+   promoter. RERA authorities can also direct compensation for other
+   proven losses.
+
+Q: Do I need a lawyer to file a RERA complaint?
+A: No — RERA proceedings are explicitly designed to be accessible without
+   mandatory legal representation, though complex cases (large amounts,
+   disputed facts) often benefit from one.
+
+Q: How long does a RERA complaint take?
+A: The Act targets disposal within 60 days of filing, though actual
+   timelines vary by state authority caseload — track your complaint's
+   status online via the same state portal you filed on.
+
+Q: What if I'm unhappy with the RERA Authority's order?
+A: Appeal to the state's Real Estate Appellate Tribunal within 60 days of
+   the order (a short window — don't delay). Beyond the Tribunal, further
+   appeal lies to the High Court on a question of law.

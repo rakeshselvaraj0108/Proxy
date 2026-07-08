@@ -1,0 +1,33 @@
+LANDLORD-TENANT DISPUTE TEMPLATE (General)
+
+Common dispute types: illegal lock-out/eviction without notice, refusal to
+carry out agreed repairs, unauthorized entry, rent hike beyond the
+agreement's escalation clause, refusal to provide a rent receipt (needed
+for HRA tax claims), or a tenant's non-payment/property misuse from the
+landlord's side.
+
+To,
+[Landlord Name / Tenant Name]
+
+Subject: [Describe the specific dispute] — Property [address], agreement
+dated [date]
+
+"[State the issue factually, quote the relevant clause of the rental
+agreement if one governs it, and state the specific remedy sought — e.g.
+restoration of access, completion of the agreed repair by a date, a rent
+receipt for the stated period, or reversal of a rent increase inconsistent
+with the agreement.]"
+
+Key legal notes:
+- Illegal eviction (changing locks, cutting utilities without a court
+  order) is not permitted even for non-payment — the landlord must go
+  through the proper legal process (notice + court/Rent Authority order).
+- A tenant generally cannot be evicted purely at the landlord's will
+  during a fixed-term lease absent a breach specified in the agreement.
+
+Escalation path:
+1. Written notice citing the specific agreement clause breached.
+2. State Rent Authority/Rent Court (where the Model Tenancy Act framework
+   has been adopted) — otherwise, a civil suit for injunction/possession/
+   damages as applicable, or police assistance for immediate illegal
+   lock-out/harassment situations.

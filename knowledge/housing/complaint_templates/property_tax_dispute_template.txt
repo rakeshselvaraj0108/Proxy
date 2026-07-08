@@ -1,0 +1,27 @@
+PROPERTY TAX DISPUTE / CORRECTION TEMPLATE
+
+Common disputes: incorrect property classification (e.g. commercial rate
+applied to a residential unit), incorrect built-up area used for
+assessment, tax demand for a period the property was unoccupied/under
+construction (often eligible for a lower rate), or a demand despite
+having paid.
+
+To,
+The Revenue Officer / Commissioner, [Municipal Corporation]
+
+Subject: Dispute of property tax assessment — Property ID/PID [xxxx]
+
+"My property tax assessment for [year] shows [describe the error — wrong
+classification, wrong area, wrong occupancy status, or a demand despite
+payment receipt no. [xxxx]]. I request re-assessment/correction based on
+[attach: sale deed showing actual classification, building plan showing
+actual area, payment receipt, or occupancy timeline evidence]."
+
+Escalation path:
+1. Municipal Corporation Revenue/Tax department (most have an online
+   correction/grievance module now).
+2. Statutory appeal to the Municipal Commissioner or a dedicated Tax
+   Appellate Tribunal where the municipal act provides one (varies by
+   state/city — check your municipal corporation's specific appeal
+   provision before the assessment year closes, as many have strict
+   filing deadlines).
