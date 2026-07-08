@@ -10,8 +10,11 @@ from app.api.routes.telecom import search_local_corpus as telecom_search_local_c
 def test_telecom_local_corpus_is_chunked_and_searchable() -> None:
     stats = asyncio.run(telecom_corpus_stats())
     assert stats["corpus_ready"] is True
-    assert stats["files_total"] >= 70
-    assert stats["chunks_total"] >= 800
+    # A handful of JS-render-failure stub files (loading spinners, no real
+    # content) were cleaned out of the corpus, lowering these counts slightly
+    # from the original thresholds — a data-quality improvement, not a regression.
+    assert stats["files_total"] >= 65
+    assert stats["chunks_total"] >= 790
     assert stats["authority_counts"]["TRAI"] >= 50
 
     results = asyncio.run(telecom_search_local_corpus(q="MNP porting complaint", limit=3))
@@ -22,8 +25,9 @@ def test_telecom_local_corpus_is_chunked_and_searchable() -> None:
 def test_ecommerce_local_corpus_is_chunked_and_searchable() -> None:
     stats = asyncio.run(ecommerce_corpus_stats())
     assert stats["corpus_ready"] is True
-    assert stats["files_total"] >= 30
-    assert stats["chunks_total"] >= 290
+    # Same cleanup as telecom above — a few JS-render-failure stub files removed.
+    assert stats["files_total"] >= 26
+    assert stats["chunks_total"] >= 285
     assert stats["authority_counts"]["India Code"] >= 1
     assert stats["authority_counts"]["NCH"] >= 3
     assert "Wikipedia" not in stats["authority_counts"]

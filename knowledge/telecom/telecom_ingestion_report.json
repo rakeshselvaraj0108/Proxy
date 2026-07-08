@@ -1,6 +1,6 @@
 {
   "domain": "telecom",
-  "generated_at": "2026-07-07T07:50:08.281044+00:00",
+  "generated_at": "2026-07-07T16:50:18.051051+00:00",
   "official_sources": [
     {
       "authority": "TRAI",
@@ -309,15 +309,14 @@
   "graph_seed_entities": 26,
   "graph_seed_relationships": 13,
   "local_corpus": {
-    "files_total": 72,
-    "chunks_total": 804,
-    "bytes_total": 33220611,
+    "files_total": 67,
+    "chunks_total": 799,
+    "bytes_total": 33219901,
     "extension_counts": {
       ".pdf": 49,
-      ".txt": 23
+      ".txt": 18
     },
     "authority_counts": {
-      "Airtel": 5,
       "BSNL": 3,
       "Jio": 4,
       "NCH": 1,

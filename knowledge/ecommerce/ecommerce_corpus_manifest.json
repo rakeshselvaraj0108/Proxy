@@ -1,64 +1,46 @@
 {
   "domain": "ecommerce",
-  "generated_at": "2026-07-07T12:50:59.149693+00:00",
+  "generated_at": "2026-07-07T16:50:18.558696+00:00",
   "root": "knowledge/ecommerce",
-  "files_total": 32,
-  "chunks_total": 295,
-  "bytes_total": 787231,
+  "files_total": 27,
+  "chunks_total": 290,
+  "bytes_total": 786336,
   "extension_counts": {
-    ".txt": 32
+    ".txt": 27
   },
   "authority_counts": {
     "Amazon": 8,
     "BIS": 1,
     "BigBasket": 2,
     "Blinkit": 2,
-    "Delhivery": 1,
     "Flipkart": 3,
     "India Code": 1,
     "India Post": 1,
-    "JioMart": 2,
     "Myntra": 2,
     "NCDRC": 2,
-    "NCH": 5,
-    "Swiggy": 1,
-    "e-Jagriti": 1
+    "NCH": 5
   },
   "category_counts": {
     "complaint_redressal": 3,
     "consumer_commission": 2,
     "consumer_knowledge_base": 1,
     "consumer_protection": 1,
-    "courier_terms": 1,
     "faq": 1,
     "marketplace_guarantee": 1,
     "marketplaces": 7,
-    "online_filing": 1,
     "postal_complaints": 1,
     "privacy": 1,
     "refunds": 1,
     "returns": 2,
-    "returns_refunds": 1,
     "standards": 1,
-    "terms": 7
+    "terms": 5
   },
   "folder_counts": {
-    "courier": 1,
-    "marketplaces": 20,
-    "official": 11
+    "marketplaces": 17,
+    "official": 10
   },
   "chunk_file": "knowledge/ecommerce/chunks/ecommerce_chunks.jsonl",
   "files": [
-    {
-      "path": "courier/delhivery/delhivery_terms_official.txt",
-      "bytes": 215,
-      "sha256": "69fa22680474013e5c8f76cd9082547c8ad4111f60be8837116ea9b8a6337c93",
-      "chunks": 1,
-      "title": "Delhivery Terms and Conditions",
-      "authority": "Delhivery",
-      "category": "courier_terms",
-      "source_url": "https://www.delhivery.com/terms-and-conditions"
-    },
     {
       "path": "marketplaces/amazon/amazon_a_to_z_guarantee.txt",
       "bytes": 6211,
@@ -210,26 +192,6 @@
       "source_url": "https://www.flipkart.com/pages/terms"
     },
     {
-      "path": "marketplaces/jiomart/jiomart_returns_refunds_official.txt",
-      "bytes": 165,
-      "sha256": "aae4773329eb4911b6b8b50f73c8e8c4fad2c4e9c157f5ee7b8b49578e7d5924",
-      "chunks": 1,
-      "title": "JioMart Cancellation Return Refund",
-      "authority": "JioMart",
-      "category": "returns_refunds",
-      "source_url": "https://www.jiomart.com/cancellation-return-refund-policy"
-    },
-    {
-      "path": "marketplaces/jiomart/jiomart_terms_official.txt",
-      "bytes": 209,
-      "sha256": "dcfeabb38ea3dcd17403cb82c9f43ece589f7731e208ba84fbf30e47f4d6cc0f",
-      "chunks": 1,
-      "title": "JioMart Terms and Conditions",
-      "authority": "JioMart",
-      "category": "terms",
-      "source_url": "https://www.jiomart.com/terms-and-conditions"
-    },
-    {
       "path": "marketplaces/myntra/myntra_faq_official.txt",
       "bytes": 7485,
       "sha256": "5881226f30fe16de6792f198bcf48acabfb535aa57c4f822d184b0dcd74ab64b",
@@ -250,16 +212,6 @@
       "source_url": "https://www.myntra.com/termsofuse"
     },
     {
-      "path": "marketplaces/swiggy_instamart/swiggy_terms_official.txt",
-      "bytes": 206,
-      "sha256": "c9ad064edf0df75ca7597342ba40f8e94043f4a4daa608aacc5765b1f8eac63b",
-      "chunks": 1,
-      "title": "Swiggy Terms and Conditions",
-      "authority": "Swiggy",
-      "category": "terms",
-      "source_url": "https://www.swiggy.com/terms-and-conditions"
-    },
-    {
       "path": "official/courier/india_post_home.txt",
       "bytes": 6010,
       "sha256": "74a055e302e4b8e3568f5f7a7aba926c1c8e2f7c14a16885c9f7ab4ebff86a2e",
@@ -268,16 +220,6 @@
       "authority": "India Post",
       "category": "postal_complaints",
       "source_url": "https://www.indiapost.gov.in/"
-    },
-    {
-      "path": "official/e_jagriti/e_jagriti_home.txt",
-      "bytes": 100,
-      "sha256": "90adf702c34fb2322ab24e1ad7c196146a166cd05f347e67591f07c48ab6faee",
-      "chunks": 1,
-      "title": "e-Jagriti Online Filing Portal",
-      "authority": "e-Jagriti",
-      "category": "online_filing",
-      "source_url": "https://e-jagriti.gov.in/"
     },
     {
       "path": "official/india_code/consumer_protection_act_2019_india_code.txt",

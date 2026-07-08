@@ -1,16 +1,15 @@
 {
   "domain": "telecom",
-  "generated_at": "2026-07-07T07:50:08.281044+00:00",
+  "generated_at": "2026-07-07T16:50:18.051051+00:00",
   "root": "knowledge/telecom",
-  "files_total": 72,
-  "chunks_total": 804,
-  "bytes_total": 33220611,
+  "files_total": 67,
+  "chunks_total": 799,
+  "bytes_total": 33219901,
   "extension_counts": {
     ".pdf": 49,
-    ".txt": 23
+    ".txt": 18
   },
   "authority_counts": {
-    "Airtel": 5,
     "BSNL": 3,
     "Jio": 4,
     "NCH": 1,
@@ -23,7 +22,7 @@
     "faqs": 1,
     "mnp": 9,
     "mobile": 7,
-    "operators": 18,
+    "operators": 13,
     "trai": 18
   },
   "chunk_file": "knowledge/telecom/chunks/telecom_chunks.jsonl",
@@ -391,56 +390,6 @@
       "authority": "TRAI",
       "category": "vas",
       "source_url": "https://www.trai.gov.in/sites/default/files/2024-09/direction27apr09.pdf"
-    },
-    {
-      "path": "operators/airtel/airtel_broadband.txt",
-      "bytes": 142,
-      "sha256": "3b807229e9192463fbd2dbffd8512a5b5f397e45cf985c7964a738c6f9412047",
-      "chunks": 1,
-      "title": "Airtel Broadband",
-      "authority": "Airtel",
-      "category": "broadband",
-      "source_url": "https://www.airtel.in/airtel-broadband"
-    },
-    {
-      "path": "operators/airtel/airtel_fiber.txt",
-      "bytes": 142,
-      "sha256": "3b807229e9192463fbd2dbffd8512a5b5f397e45cf985c7964a738c6f9412047",
-      "chunks": 1,
-      "title": "Airtel Xstream Fiber",
-      "authority": "Airtel",
-      "category": "fiber",
-      "source_url": "https://www.airtel.in/airtel-xstream-fiber"
-    },
-    {
-      "path": "operators/airtel/airtel_help.txt",
-      "bytes": 142,
-      "sha256": "3b807229e9192463fbd2dbffd8512a5b5f397e45cf985c7964a738c6f9412047",
-      "chunks": 1,
-      "title": "Airtel Help and Support",
-      "authority": "Airtel",
-      "category": "complaint_process",
-      "source_url": "https://www.airtel.in/help"
-    },
-    {
-      "path": "operators/airtel/airtel_prepaid_plans.txt",
-      "bytes": 142,
-      "sha256": "3b807229e9192463fbd2dbffd8512a5b5f397e45cf985c7964a738c6f9412047",
-      "chunks": 1,
-      "title": "Airtel Prepaid Plans",
-      "authority": "Airtel",
-      "category": "mobile_plans",
-      "source_url": "https://www.airtel.in/prepaid/all-prepaid-plans"
-    },
-    {
-      "path": "operators/airtel/airtel_terms.txt",
-      "bytes": 142,
-      "sha256": "3b807229e9192463fbd2dbffd8512a5b5f397e45cf985c7964a738c6f9412047",
-      "chunks": 1,
-      "title": "Airtel Terms and Conditions",
-      "authority": "Airtel",
-      "category": "terms",
-      "source_url": "https://www.airtel.in/terms-and-conditions"
     },
     {
       "path": "operators/bsnl/bsnl_home_broadband.txt",
