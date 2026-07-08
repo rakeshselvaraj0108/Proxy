@@ -126,6 +126,8 @@ async def run_research_agent(state: AgentState) -> AgentState:
         hit.get("metadata", {}).get("final_url") or hit.get("metadata", {}).get("source_path") or str(hit.get("id"))
         for hit in ranked
     ]
+    from app.services.citation_engine import build_citations
+    state["structured_citations"] = build_citations(domain, ranked)
     state["llm_call_count"] = int(state.get("llm_call_count", 0)) + 1
     state.setdefault("agent_trace", []).append("research:qdrant+graph+web+gemini")
     return state

@@ -20,7 +20,7 @@ class HousingSpecialistAgent:
         self.system_prompt = system_prompt
 
     async def process(self, context: Dict[str, Any]) -> Dict[str, Any]:
-        query = context.get("initial_query", "")
+        query = context.get("case_summary", "")
         facts = context.get("extracted_facts", {})
 
         results = await qdrant_service.search_chunks(

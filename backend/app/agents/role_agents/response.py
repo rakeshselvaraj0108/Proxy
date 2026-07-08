@@ -24,9 +24,45 @@ async def _optional_polish(state: AgentState, answer: str) -> str:
     return await llm_service.generate(prompt, temperature=0.15, purpose="response")
 
 
+def _render_specialist_results(results: list[dict]) -> str | None:
+    """Render state["specialist_results"] (the shape produced by
+    specialist_dispatch.py's parallel executor for 6 of the 8 domains --
+    {"specialist_name", "specialist_focus", "strategy": {...json fields...}})
+    into readable text. This is distinct from state["specialist_outputs"]
+    (Health Insurance/Banking's own {"answer": ...} shape, handled below)."""
+    if not results:
+        return None
+    sections = []
+    for result in results:
+        strategy = result.get("strategy", {})
+        if not isinstance(strategy, dict):
+            continue
+        name = result.get("specialist_name", "Specialist")
+        # "analysis" is the common first field across every domain's output
+        # schema (housing/airlines/healthcare/etc. all define one), so lead
+        # with it; append every other field as supporting detail.
+        lines = [f"## {name}"]
+        analysis = strategy.get("analysis")
+        if analysis:
+            lines.append(str(analysis))
+        for key, value in strategy.items():
+            if key == "analysis" or not value:
+                continue
+            label = key.replace("_", " ").title()
+            rendered = ", ".join(str(v) for v in value) if isinstance(value, list) else str(value)
+            lines.append(f"**{label}:** {rendered}")
+        sections.append("\n".join(lines))
+    return "\n\n".join(sections) if sections else None
+
+
 async def run_response_agent(state: AgentState) -> AgentState:
     outputs = state.get("specialist_outputs", [])
-    primary = outputs[0]["answer"] if outputs else state.get("final_answer", "No specialist output was produced.")
+    if outputs:
+        primary = outputs[0]["answer"]
+    else:
+        primary = _render_specialist_results(state.get("specialist_results", [])) or state.get(
+            "final_answer", "No specialist output was produced."
+        )
     final_answer = state.get("final_answer") or primary
     final_answer = await _optional_polish(state, final_answer)
     state["final_answer"] = final_answer

@@ -4,11 +4,10 @@ from typing import Dict, Any, Optional
 from app.llm.gemini.service import gemini_service
 from app.models.domain import Domain
 from app.rag.retrieval.qdrant_service import qdrant_service
-from app.agents.role_agents.base import BaseAgent
 
 logger = logging.getLogger(__name__)
 
-class AirlineSpecialistAgent(BaseAgent):
+class AirlineSpecialistAgent:
     """Base class for all airline specialists"""
     def __init__(self, name: str, focus: str, system_prompt: str):
         self.name = name
@@ -16,7 +15,7 @@ class AirlineSpecialistAgent(BaseAgent):
         self.system_prompt = system_prompt
         
     async def process(self, context: Dict[str, Any]) -> Dict[str, Any]:
-        query = context.get("initial_query", "")
+        query = context.get("case_summary", "")
         facts = context.get("extracted_facts", {})
         
         # Pull vector context

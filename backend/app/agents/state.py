@@ -99,6 +99,7 @@ class AgentState(TypedDict, total=False):
     plan: dict[str, Any]
     agent_trace: list[str]
     specialist_outputs: list[dict[str, Any]]
+    specialist_results: list[dict[str, Any]]
     llm_call_count: int
     workflow_engine: str
 
