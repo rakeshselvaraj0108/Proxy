@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.api.routes import agents, appeals, auth, case_ai, case_workflow_aliases, cases, domains, graph, knowledge, search, timeline, upload, ws, banking, airlines, telecom, ecommerce, government, housing, healthcare
+from app.api.routes import agents, appeals, auth, case_ai, case_workflow_aliases, cases, domains, graph, intelligence, knowledge, search, timeline, upload, ws, banking, airlines, telecom, ecommerce, government, housing, healthcare
 
 api_router = APIRouter()
 api_router.include_router(auth.router, prefix="/auth", tags=["auth"])
@@ -10,6 +10,7 @@ api_router.include_router(case_workflow_aliases.router, tags=["case workflow"])
 api_router.include_router(upload.router, prefix="/upload", tags=["upload"])
 api_router.include_router(search.router, prefix="/search", tags=["search"])
 api_router.include_router(graph.router, prefix="/graph", tags=["knowledge graph"])
+api_router.include_router(intelligence.router, prefix="/intelligence", tags=["enterprise intelligence"])
 api_router.include_router(knowledge.router, prefix="/knowledge", tags=["knowledge ingestion"])
 api_router.include_router(banking.router, prefix="/banking", tags=["banking"])
 api_router.include_router(airlines.router, prefix="/airlines", tags=["airlines"])
