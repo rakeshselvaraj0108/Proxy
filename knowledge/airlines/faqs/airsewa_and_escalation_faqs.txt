@@ -1,0 +1,30 @@
+AIRSEWA & AIRLINE GRIEVANCE ESCALATION — FAQs
+
+Q: What is AirSewa?
+A: AirSewa (airsewa.gov.in) is the Ministry of Civil Aviation's online
+   platform for air passengers to file grievances against airlines and
+   airport operators, track flight status, and get general information.
+   It routes your complaint directly to the concerned airline/airport with
+   a tracked reference number and a monitored resolution timeline.
+
+Q: Should I go straight to AirSewa or complain to the airline first?
+A: Complain to the airline's own Nodal Officer / customer relations first
+   — most CAR-based rights (compensation, refund) are the airline's direct
+   obligation, and many complaints resolve at this stage within their
+   stated timeline. Use AirSewa when the airline doesn't respond in a
+   reasonable time or the response is inadequate — AirSewa complaints
+   carry a government-tracked SLA to which airlines respond faster.
+
+Q: My refund was converted to a "credit shell" without asking me — is
+   that allowed?
+A: Under the 2026 DGCA update, no — the choice of refund form (cash/original
+   payment method vs. credit shell) rests with the passenger, not the
+   airline. Cite this directly when disputing a forced credit shell.
+
+Q: How do I escalate beyond AirSewa?
+A: The Ministry of Civil Aviation's own grievance channel (vigilance
+   complaints for staff conduct, or the public grievance portal for
+   service issues) is the next step. For monetary claims the airline
+   disputes, a consumer court (District Consumer Disputes Redressal
+   Commission for smaller claims) remains available under the Consumer
+   Protection Act — DGCA/AirSewa processes don't bar this route.

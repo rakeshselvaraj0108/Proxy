@@ -1,2 +1,0 @@
-OPENFLIGHTS DATA
-Provides global airport and route databases mapping IATA 3-letter codes (e.g., DEL) and ICAO 4-letter codes (e.g., VIDP).

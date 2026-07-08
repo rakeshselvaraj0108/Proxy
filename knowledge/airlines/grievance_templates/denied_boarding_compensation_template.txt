@@ -1,0 +1,31 @@
+DENIED BOARDING COMPENSATION CLAIM TEMPLATE
+
+Legal basis: DGCA CAR Section 3 requires airlines to first call for
+volunteers before denying boarding involuntarily. If boarding is denied
+against your will on a flight you held a confirmed reservation for and
+checked in on time, you are entitled to compensation set by CAR (commonly
+cited as a percentage of basic fare plus fuel charge, subject to a cap,
+scaled by how much alternate travel is delayed), in addition to a refund
+or alternate flight — the airline cannot simply substitute one for the other.
+
+To,
+The Duty Manager / Nodal Officer, [Airline Name]
+
+Subject: Denied boarding on flight [flight number], [date] — compensation
+claim under DGCA CAR Section 3
+
+"I held a confirmed reservation on [flight number] dated [date] and
+checked in within the stipulated time, but was denied boarding
+involuntarily [describe: without being asked to volunteer / after
+volunteers were insufficient]. I request compensation as prescribed under
+DGCA CAR Section 3 for denied boarding, in addition to [a full refund /
+rebooking on the next available flight], and a written explanation of how
+volunteers were solicited before my boarding was denied."
+
+Escalation path if unresolved:
+1. Airline's own Nodal Officer / customer relations (most airlines must
+   respond within a stated window, commonly 7-30 days).
+2. AirSewa portal (airsewa.gov.in) — the government's air-passenger
+   grievance platform, routes the complaint to the airline with tracking.
+3. Ministry of Civil Aviation grievance channel if AirSewa/airline
+   response is inadequate.

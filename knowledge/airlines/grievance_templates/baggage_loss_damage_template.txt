@@ -1,0 +1,34 @@
+LOST / DAMAGED BAGGAGE CLAIM TEMPLATE
+
+Legal basis: For international carriage, the Montreal Convention caps
+airline liability for baggage loss/damage/delay at a fixed amount in
+Special Drawing Rights (SDRs) per passenger unless a higher value was
+declared in advance; domestic Indian carriage follows the Carriage by Air
+Act 1972 (which applies Montreal/Warsaw-derived rules domestically) and
+DGCA's baggage-related CAR provisions.
+
+Immediate step: file a Property Irregularity Report (PIR) at the airport
+baggage desk BEFORE leaving — this is generally required to preserve your
+claim; note the PIR reference number.
+
+To,
+The Baggage Services / Customer Relations, [Airline Name]
+
+Subject: [Lost / Damaged / Delayed] baggage — PIR [reference], flight
+[flight number], [date]
+
+"My baggage was [lost / damaged / delivered X days late] on flight
+[flight number] dated [date], PIR reference [xxxx]. I am claiming
+[replacement value of contents / repair cost / reimbursement for
+essential purchases made during the delay], with receipts attached. Please
+confirm the applicable liability limit and processing timeline for this
+claim."
+
+Escalation path if unresolved:
+1. Airline's baggage/customer relations team (using the PIR reference).
+2. AirSewa (airsewa.gov.in) if unresolved within the airline's stated
+   timeline.
+3. Consumer court (District/State Commission under the Consumer Protection
+   Act) for claims the airline disputes or undervalues — baggage liability
+   caps under Montreal Convention do not prevent a consumer complaint about
+   deficiency in service more broadly.

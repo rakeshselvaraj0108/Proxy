@@ -1,2 +1,0 @@
-OURAIRPORTS DATA
-Runway metrics and GPS coordinates for every Indian airport, useful for calculating distance and delay metrics.

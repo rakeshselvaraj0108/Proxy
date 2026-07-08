@@ -1,0 +1,33 @@
+FLIGHT CANCELLATION / DELAY COMPENSATION TEMPLATE
+
+Legal basis: DGCA CAR Section 3 (Facilities to Passengers) sets airline
+obligations based on notice given before a cancellation, and on delay
+duration: informing passengers of cancellation less than the required
+notice window before departure entitles the passenger to compensation
+in addition to a refund or alternate flight; delays beyond stated
+thresholds require the airline to provide meals/refreshments and, beyond
+longer thresholds, hotel accommodation for outstation passengers.
+
+To,
+The Duty Manager / Nodal Officer, [Airline Name]
+
+Subject: [Cancellation / Delay] of flight [flight number], [date] —
+facilities and compensation claim
+
+"My flight [flight number] scheduled for [date/time] was [cancelled with
+less than the required notice / delayed by [X] hours]. I was not offered
+[meals / refreshments / hotel accommodation / alternate flight / refund]
+as required under DGCA CAR Section 3 for a delay/cancellation of this
+duration. I request [the applicable facility] and, where a cancellation
+notice was inadequate, the compensation prescribed under CAR in addition
+to my refund or rebooking."
+
+Note the 2026 update: DGCA now requires a 48-hour "look-in" cancellation
+window on qualifying bookings (7+ days out domestic, 15+ days out
+international) letting passengers cancel/modify without penalty, and bars
+airlines from forcing a credit shell instead of a cash refund — cite this
+directly if a refund was converted to a credit shell without your consent.
+
+Escalation path if unresolved:
+1. Airline Nodal Officer -> 2. AirSewa (airsewa.gov.in) -> 3. Ministry of
+Civil Aviation grievance channel.
