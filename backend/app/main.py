@@ -62,9 +62,11 @@ register_exception_handlers(app)
 app.include_router(api_router, prefix=settings.api_prefix)
 
 from app.api.routes.admin_llm import router as admin_llm_router
+from app.api.routes.admin_panel import router as admin_panel_router
 from app.api.routes.component_health import router as component_health_router
 
 app.include_router(admin_llm_router, prefix="/admin", tags=["admin"])
+app.include_router(admin_panel_router, prefix="/admin", tags=["admin panel"])
 app.include_router(component_health_router, prefix="/health", tags=["system"])
 
 

@@ -122,6 +122,48 @@ async def get_metrics(_: CurrentUser = Depends(require_admin)) -> Dict[str, Any]
     return metrics.snapshot()
 
 
+@router.get("/observability")
+async def observability_dashboard(_: CurrentUser = Depends(require_admin)) -> Dict[str, Any]:
+    """Latency/error/retry stats grouped by category (agent, LLM, embedding,
+    vector search, graph, API), built from the same underlying MetricsStore
+    /metrics exposes flat -- this is a friendlier shape for a dashboard."""
+    snapshot = metrics.snapshot()
+    latencies = snapshot["average_latency_ms"]
+    counters = snapshot["counters"]
+
+    def _match(prefix: str) -> dict:
+        return {k: v for k, v in latencies.items() if k.startswith(prefix)}
+
+    total_requests = counters.get("api_requests_total", 0)
+    total_errors = sum(v for k, v in counters.items() if k.startswith("api_errors."))
+    total_fallbacks = counters.get("fallback_count", 0)
+    total_llm_unavailable = counters.get("llm_unavailable_count", 0)
+
+    provider = get_raw_provider()
+    circuit_state = provider.health_check().get("circuit_breaker") if hasattr(provider, "health_check") else None
+
+    return {
+        "agent_latency_ms": _match("router."),
+        "llm_latency_ms": {k: v for k, v in latencies.items() if k.startswith("router.") or k.startswith("nvidia.") or k.startswith("gemini.")},
+        "embedding_latency_ms": _match("embedding."),
+        "vector_search_latency_ms": _match("vector_search."),
+        "graph_latency_ms": _match("graph."),
+        "api_latency_ms": _match("api."),
+        "success_rate": {
+            "total_requests": total_requests,
+            "total_errors": total_errors,
+            "success_rate_percent": round(100 * (1 - total_errors / total_requests), 2) if total_requests else None,
+        },
+        "retry_and_fallback_counts": {
+            "model_router_fallbacks": total_fallbacks,
+            "llm_unavailable": total_llm_unavailable,
+            "circuit_breaker_open_skips": counters.get("circuit_breaker_open_skips", 0,),
+        },
+        "circuit_breaker": circuit_state,
+        "raw_counters": counters,
+    }
+
+
 @router.get("/llm/model")
 async def get_model_overrides(_: CurrentUser = Depends(require_admin)) -> Dict[str, Any]:
     provider = get_raw_provider()

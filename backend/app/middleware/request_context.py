@@ -11,11 +11,29 @@ from app.core.errors import ProxyError
 
 class RequestContextMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next: Callable[[Request], Awaitable[Response]]) -> Response:
+        from app.llm.metrics import metrics
+
         request_id = request.headers.get("x-request-id", str(uuid.uuid4()))
         start = time.perf_counter()
-        response = await call_next(request)
+        # Group by route template (e.g. "/cases/{case_id}"), not the raw path
+        # with its real ID, so latency/error stats aggregate per-endpoint.
+        route_path = request.url.path
+        for route in request.app.routes:
+            if getattr(route, "path_regex", None) and route.path_regex.match(route_path):
+                route_path = route.path
+                break
+        try:
+            response = await call_next(request)
+        except Exception:
+            metrics.increment(f"api_errors.{request.method}.{route_path}")
+            raise
+        elapsed_ms = (time.perf_counter() - start) * 1000
+        metrics.record_latency(f"api.{request.method}.{route_path}", elapsed_ms)
+        metrics.increment("api_requests_total")
+        if response.status_code >= 400:
+            metrics.increment(f"api_errors.{request.method}.{route_path}")
         response.headers["x-request-id"] = request_id
-        response.headers["x-process-time-ms"] = str(round((time.perf_counter() - start) * 1000, 2))
+        response.headers["x-process-time-ms"] = str(round(elapsed_ms, 2))
         return response
 
 

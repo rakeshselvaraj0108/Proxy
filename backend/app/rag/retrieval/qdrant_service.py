@@ -100,8 +100,18 @@ class QdrantService:
 
         collection_name = status["collection_name"]
         store = get_vector_store()
+
+        import time
+        from app.llm.metrics import metrics
+
+        embed_start = time.monotonic()
         query_vector = await llm_service.embed_query(query)
+        metrics.record_latency("embedding.query", (time.monotonic() - embed_start) * 1000)
+
+        search_start = time.monotonic()
         hits = store.query(collection_name, query_vector, top_k=limit, filters=filters)
+        metrics.record_latency(f"vector_search.{domain.value}", (time.monotonic() - search_start) * 1000)
+        metrics.increment("vector_search_total")
         if hits:
             results = [
                 {
