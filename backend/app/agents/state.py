@@ -101,3 +101,9 @@ class AgentState(TypedDict, total=False):
     specialist_outputs: list[dict[str, Any]]
     llm_call_count: int
     workflow_engine: str
+
+    # Phase 2: Enterprise Intelligence Layer
+    candidate_domains: list[dict[str, Any]]
+    memory_context: str
+    scored_evidence: list[dict[str, Any]]
+    structured_citations: list[dict[str, Any]]

@@ -21,6 +21,7 @@ from app.models.domain import Domain
 from app.rag.chunking.semantic import semantic_chunking
 from app.rag.retrieval.collection_registry import get_collection_registry
 from app.rag.retrieval.factory import get_vector_store
+from app.rag.source_metadata import load_source_metadata
 
 KNOWLEDGE_ROOT = Path(__file__).resolve().parents[3] / "knowledge"
 JOB_STATE_ROOT = Path("datasets") / "reindex_jobs"
@@ -229,6 +230,12 @@ async def run_reindex(domain: Domain) -> ReindexJob:
                 vectors = await llm_service.embed_documents(chunks)
                 from uuid import NAMESPACE_URL, uuid5
 
+                # Merge the scrape/seed script's sidecar metadata (authority,
+                # category, source_url, title) into every chunk's payload so
+                # evidence scoring and citations don't need a disk lookup at
+                # query time. Falls back to {} for synthetic/authored content
+                # that never had a sidecar file.
+                source_meta = load_source_metadata(domain, rel_path)
                 points = [
                     {
                         "id": str(uuid5(NAMESPACE_URL, f"{domain.value}:{job.version_label}:{rel_path}:{i}")),
@@ -239,6 +246,7 @@ async def run_reindex(domain: Domain) -> ReindexJob:
                             "text": chunk,
                             "domain": domain.value,
                             "source_path": rel_path,
+                            **source_meta,
                         },
                     }
                     for i, (chunk, vector) in enumerate(zip(chunks, vectors))
