@@ -115,6 +115,53 @@ class JsonlGraphStore(GraphStore):
         events = len(self._read_events())
         return {"status": "ready", "backend": "jsonl", "events": events, "path": str(self.fallback_path)}
 
+    async def upsert_citizen_case(
+        self,
+        user_id: str,
+        domain: Domain,
+        case_id: str,
+        institution_name: str | None,
+        title: str,
+    ) -> dict[str, Any]:
+        payload = {
+            "user_id": user_id,
+            "domain": domain.value,
+            "case_id": case_id,
+            "institution_name": institution_name,
+            "title": title,
+        }
+        self._append("citizen_case", payload)
+        return {"user_id": user_id, "case_id": case_id, "mode": "jsonl"}
+
+    async def get_citizen_profile(self, user_id: str) -> dict[str, Any]:
+        by_domain: dict[str, dict[str, Any]] = {}
+        for event in self._read_events("citizen_case"):
+            payload = event.get("payload", {})
+            if payload.get("user_id") != user_id:
+                continue
+            domain_value = payload.get("domain", "unknown")
+            entry = by_domain.setdefault(domain_value, {"domain": domain_value, "cases": [], "institutions": set()})
+            entry["cases"].append({"case_id": payload.get("case_id"), "title": payload.get("title")})
+            if payload.get("institution_name"):
+                entry["institutions"].add(payload["institution_name"])
+
+        domains_summary = []
+        for entry in by_domain.values():
+            domains_summary.append({
+                "domain": entry["domain"],
+                "case_count": len(entry["cases"]),
+                "cases": entry["cases"],
+                "institutions": sorted(entry["institutions"]),
+            })
+        domains_summary.sort(key=lambda item: item["case_count"], reverse=True)
+
+        return {
+            "user_id": user_id,
+            "domains_active_in": [entry["domain"] for entry in domains_summary],
+            "total_cases": sum(entry["case_count"] for entry in domains_summary),
+            "by_domain": domains_summary,
+        }
+
     def iter_events(self) -> list[dict[str, Any]]:
         return self._read_events()
 

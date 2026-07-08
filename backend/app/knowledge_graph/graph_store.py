@@ -37,3 +37,24 @@ class GraphStore(ABC):
     @abstractmethod
     def health_check(self) -> dict[str, Any]:
         raise NotImplementedError
+
+    @abstractmethod
+    async def upsert_citizen_case(
+        self,
+        user_id: str,
+        domain: Domain,
+        case_id: str,
+        institution_name: str | None,
+        title: str,
+    ) -> dict[str, Any]:
+        """Link a citizen (user) to a case in a given domain, enabling
+        cross-domain traversal: (Citizen)-[:FILED]->(Case)-[:AGAINST]->(Institution),
+        (Citizen)-[:HAS_CASE_IN]->(Domain)."""
+        raise NotImplementedError
+
+    @abstractmethod
+    async def get_citizen_profile(self, user_id: str) -> dict[str, Any]:
+        """Traverse every domain a citizen has a case in and return a
+        cross-domain profile: which domains, which institutions, how many
+        cases each — the Enterprise Knowledge Graph traversal entry point."""
+        raise NotImplementedError

@@ -41,5 +41,13 @@ class Neo4jKnowledgeGraph:
     async def find_similar_cases(self, domain: Domain, institution_name: str, limit: int = 5) -> list[dict]:
         return await self.store.find_similar_cases(domain, institution_name, limit)
 
+    async def upsert_citizen_case(
+        self, user_id: str, domain: Domain, case_id: str, institution_name: str | None, title: str,
+    ) -> dict:
+        return await self.store.upsert_citizen_case(user_id, domain, case_id, institution_name, title)
+
+    async def get_citizen_profile(self, user_id: str) -> dict:
+        return await self.store.get_citizen_profile(user_id)
+
 
 knowledge_graph = Neo4jKnowledgeGraph()

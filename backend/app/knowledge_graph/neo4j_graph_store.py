@@ -220,4 +220,74 @@ class Neo4jGraphStore(GraphStore):
         except Exception as exc:
             return {"status": "unreachable", "backend": "neo4j", "uri": self.settings.neo4j_uri, "error": str(exc)}
 
+    async def upsert_citizen_case(
+        self,
+        user_id: str,
+        domain: Domain,
+        case_id: str,
+        institution_name: str | None,
+        title: str,
+    ) -> dict[str, Any]:
+        driver = self._get_driver()
+        query = """
+        MERGE (citizen:Citizen {id: $user_id})
+        MERGE (d:Domain {name: $domain})
+        MERGE (c:Case {id: $case_id})
+          SET c.title = $title, c.domain = $domain, c.updatedAt = datetime()
+        MERGE (citizen)-[:FILED]->(c)
+        MERGE (citizen)-[:HAS_CASE_IN]->(d)
+        MERGE (c)-[:IN_DOMAIN]->(d)
+        WITH citizen, c
+        FOREACH (_ IN CASE WHEN $institution IS NULL THEN [] ELSE [1] END |
+            MERGE (inst:Institution {name: $institution})
+            MERGE (c)-[:AGAINST_INSTITUTION]->(inst)
+        )
+        RETURN citizen.id AS user_id
+        """
+        with driver.session() as session:
+            session.run(
+                query,
+                user_id=user_id,
+                domain=domain.value,
+                case_id=case_id,
+                institution=institution_name,
+                title=title,
+            )
+        return {"user_id": user_id, "case_id": case_id, "mode": "neo4j"}
+
+    async def get_citizen_profile(self, user_id: str) -> dict[str, Any]:
+        driver = self._get_driver()
+        query = """
+        MATCH (citizen:Citizen {id: $user_id})-[:FILED]->(c:Case)-[:IN_DOMAIN]->(d:Domain)
+        OPTIONAL MATCH (c)-[:AGAINST_INSTITUTION]->(inst:Institution)
+        RETURN d.name AS domain, c.id AS case_id, c.title AS title,
+               collect(DISTINCT inst.name) AS institutions
+        """
+        with driver.session() as session:
+            rows = list(session.run(query, user_id=user_id))
+
+        by_domain: dict[str, dict[str, Any]] = {}
+        for row in rows:
+            entry = by_domain.setdefault(row["domain"], {"domain": row["domain"], "cases": [], "institutions": set()})
+            entry["cases"].append({"case_id": row["case_id"], "title": row["title"]})
+            entry["institutions"].update(name for name in row["institutions"] if name)
+
+        domains_summary = [
+            {
+                "domain": entry["domain"],
+                "case_count": len(entry["cases"]),
+                "cases": entry["cases"],
+                "institutions": sorted(entry["institutions"]),
+            }
+            for entry in by_domain.values()
+        ]
+        domains_summary.sort(key=lambda item: item["case_count"], reverse=True)
+
+        return {
+            "user_id": user_id,
+            "domains_active_in": [entry["domain"] for entry in domains_summary],
+            "total_cases": sum(entry["case_count"] for entry in domains_summary),
+            "by_domain": domains_summary,
+        }
+
 
