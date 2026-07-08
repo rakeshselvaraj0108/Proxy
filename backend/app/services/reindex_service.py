@@ -26,10 +26,26 @@ KNOWLEDGE_ROOT = Path(__file__).resolve().parents[3] / "knowledge"
 JOB_STATE_ROOT = Path("datasets") / "reindex_jobs"
 SKIP_DIR_NAMES = {"metadata", "chunks", "knowledge_graph", "synthetic_cases", "embeddings"}
 DOC_EXTENSIONS = {".txt", ".md", ".pdf", ".html"}
+# Genuine policy/regulatory documents run at most a few hundred pages of dense
+# text. A handful of "policy documents" in real scraped corpora turn out to be
+# administrative dumps mislabeled as consumer content (e.g. a multi-thousand-page
+# internal agent-code registry) — extracted text this long is a strong signal
+# of exactly that, not a document worth chunking into thousands of near-duplicate
+# vectors. Flagged in the job report rather than silently dropped.
+MAX_DOCUMENT_CHARS = 300_000
+# Same rationale, checked before paying the cost of extracting text from every
+# page — a genuine policy/regulatory PDF is rarely more than a few hundred
+# pages; thousands of pages is the administrative-dump signal on its own.
+MAX_PDF_PAGES = 600
 
 
 def _now() -> str:
     return datetime.now(timezone.utc).isoformat()
+
+
+class _OversizedDocument(Exception):
+    """Raised when a PDF's page count alone signals an administrative dump
+    not worth the cost of full text extraction (see MAX_PDF_PAGES)."""
 
 
 def _read_file(path: Path) -> str:
@@ -39,7 +55,11 @@ def _read_file(path: Path) -> str:
             from pypdf import PdfReader
 
             reader = PdfReader(str(path))
+            if len(reader.pages) > MAX_PDF_PAGES:
+                raise _OversizedDocument(f"{len(reader.pages)} pages")
             return "\n\n".join(page.extract_text() or "" for page in reader.pages)
+        except _OversizedDocument:
+            raise
         except Exception:
             return ""
     if ext == ".html":
@@ -90,6 +110,7 @@ class ReindexJob:
     finished_at: str | None = None
     eta_seconds: float | None = None
     error: str | None = None
+    skipped_oversized_files: list[str] = field(default_factory=list)
 
     @property
     def progress_percent(self) -> float:
@@ -174,13 +195,32 @@ async def run_reindex(domain: Domain) -> ReindexJob:
     start_time = time.monotonic()
     for path in remaining:
         rel_path = str(path.relative_to(KNOWLEDGE_ROOT / domain.value))
-        text = _read_file(path)
+        try:
+            text = _read_file(path)
+        except _OversizedDocument as exc:
+            job.skipped_oversized_files.append(f"{rel_path} ({exc})")
+            job.processed_files.append(rel_path)
+            _save_job(job)
+            continue
         if not text or len(text.strip()) < 50:
             job.processed_files.append(rel_path)
             _save_job(job)
             continue
 
-        chunks = semantic_chunking(text, chunk_size=350, overlap=80)
+        if len(text) > MAX_DOCUMENT_CHARS:
+            job.skipped_oversized_files.append(f"{rel_path} ({len(text):,} chars)")
+            job.processed_files.append(rel_path)
+            _save_job(job)
+            continue
+
+        # chunk_size is denominated in "tokens" via a 4-chars/token estimate inside
+        # semantic_chunking, but dense legal/tabular text (the norm for regulatory
+        # PDFs here) commonly runs closer to 1.5-2 chars/token — a 350-token budget
+        # can produce chunks NVIDIA's 512-token embedding limit rejects. 180 keeps
+        # the resulting ~720-char chunks under that limit even for dense text, so
+        # the fast batch path succeeds instead of falling back to the (correct but
+        # much slower, one-rate-limited-call-per-chunk) per-text shrink path.
+        chunks = semantic_chunking(text, chunk_size=180, overlap=40)
         job.total_chunks += len(chunks)
 
         attempt = 0

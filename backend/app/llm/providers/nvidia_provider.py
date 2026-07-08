@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 from typing import AsyncIterator
 
 import httpx
@@ -7,6 +8,8 @@ import httpx
 from app.core.config import Settings
 from app.llm.base import LLMProvider, LLMPurpose
 from app.llm.observability import RateLimiter, build_retrying, log_llm_call
+
+logger = logging.getLogger("app.llm.nvidia")
 
 
 class _TokenLimitExceeded(Exception):
@@ -183,12 +186,15 @@ class NvidiaProvider(LLMProvider):
 
         try:
             return await self._embed_call(texts, input_type)
-        except _TokenLimitExceeded:
-            # The chunker's char->token estimate is approximate and occasionally
-            # underestimates dense/technical text. Rather than drop the offending
-            # chunks (orphan vectors), fall back to embedding one text at a time,
-            # shrinking any text that still exceeds the limit until it fits — every
-            # input text is guaranteed a vector back.
+        except (_TokenLimitExceeded, httpx.HTTPStatusError) as exc:
+            if isinstance(exc, httpx.HTTPStatusError) and exc.response.status_code != 400:
+                if self.settings.environment == "test" or self.settings.disable_external_llm:
+                    return [self._hash_embedding(text) for text in texts]
+                raise RuntimeError(f"NVIDIA embedding API call failed: {exc}") from exc
+            # A 400 for the whole batch (token limit, or some other single bad
+            # input — e.g. garbage text from a scanned/malformed PDF) means one
+            # item is the problem, not all of them. Isolate per-text instead of
+            # failing every chunk in the batch for one bad apple.
             return [await self._embed_one_with_shrink(text, input_type) for text in texts]
         except Exception as exc:
             if self.settings.environment == "test" or self.settings.disable_external_llm:
@@ -197,19 +203,38 @@ class NvidiaProvider(LLMProvider):
 
     async def _embed_one_with_shrink(self, text: str, input_type: str, max_attempts: int = 5) -> list[float]:
         current = text
+        last_exc: Exception | None = None
         for attempt in range(max_attempts):
             try:
                 vectors = await self._embed_call([current], input_type)
                 return vectors[0]
-            except _TokenLimitExceeded:
+            except _TokenLimitExceeded as exc:
+                last_exc = exc
+                current = current[: max(200, int(len(current) * 0.65))]
+            except httpx.HTTPStatusError as exc:
+                last_exc = exc
+                if exc.response.status_code != 400:
+                    if self.settings.environment == "test" or self.settings.disable_external_llm:
+                        return self._hash_embedding(text)
+                    raise RuntimeError(f"NVIDIA embedding API call failed: {exc}") from exc
+                # Non-token-limit 400 (e.g. malformed/garbage extracted text) —
+                # shrinking sometimes helps if the issue is in a specific span;
+                # if it doesn't, we give up on this one chunk below rather than
+                # taking down the whole file's batch.
                 current = current[: max(200, int(len(current) * 0.65))]
             except Exception as exc:
                 if self.settings.environment == "test" or self.settings.disable_external_llm:
                     return self._hash_embedding(text)
                 raise RuntimeError(f"NVIDIA embedding API call failed: {exc}") from exc
-        # Final aggressive truncation — guarantees a vector rather than an orphan chunk.
-        vectors = await self._embed_call([current[:400]], input_type)
-        return vectors[0]
+        try:
+            vectors = await self._embed_call([current[:400]], input_type)
+            return vectors[0]
+        except Exception as exc:
+            logger.warning(
+                "nvidia_embed_chunk_skipped reason=%s text_preview=%r",
+                repr(last_exc or exc), text[:80],
+            )
+            return self._hash_embedding(text)
 
     async def _embed_call(self, texts: list[str], input_type: str) -> list[list[float]]:
         payload = {

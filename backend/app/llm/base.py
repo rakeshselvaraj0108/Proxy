@@ -74,6 +74,10 @@ class LLMProvider(ABC):
         prompt = f"{instruction}\n\nText:\n{text[:12000]}"
         return await self.generate(prompt, temperature=0.1, purpose="summarization")
 
-    def _hash_embedding(self, text: str, dimensions: int = 768) -> list[float]:
+    def _hash_embedding(self, text: str, dimensions: int | None = None) -> list[float]:
+        # Default to this provider's real embedding dimension (not a fixed 768)
+        # so dev/test hash-fallback vectors are never silently the wrong size
+        # for whichever provider produced them.
+        size = dimensions if dimensions is not None else self.embedding_dimension
         seed = sum(ord(ch) for ch in text)
-        return [((seed + index * 31) % 997) / 997 for index in range(dimensions)]
+        return [((seed + index * 31) % 997) / 997 for index in range(size)]
