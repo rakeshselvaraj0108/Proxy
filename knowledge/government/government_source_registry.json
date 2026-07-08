@@ -4,6 +4,7 @@
   {"authority": "DARPG", "title": "CPGRAMS About Us", "url": "https://pgportal.gov.in/AboutUs", "folder": "cpgrams", "category": "grievance_portal", "slug": "cpgrams_about"},
   {"authority": "UIDAI", "title": "About Your Aadhaar", "url": "https://uidai.gov.in/en/my-aadhaar/about-your-aadhaar.html", "folder": "uidai", "category": "aadhaar_guide", "slug": "uidai_about_aadhaar"},
   {"authority": "UIDAI", "title": "UIDAI Legal Framework", "url": "https://uidai.gov.in/en/about-uidai/legal-framework.html", "folder": "uidai", "category": "regulations", "slug": "uidai_legal_framework"},
+  {"authority": "UIDAI", "title": "Aadhaar Enrolment/Correction/Update Form", "url": "https://uidai.gov.in/images/aadhaar_enrolment_correction_form_version_2.1.pdf", "folder": "uidai", "category": "forms", "slug": "uidai_enrolment_correction_form", "type": "pdf"},
   {"authority": "MEA", "title": "Ministry of External Affairs Home", "url": "https://www.mea.gov.in/", "folder": "passport", "category": "overview", "slug": "mea_home"},
   {"authority": "Income Tax Dept", "title": "Income Tax e-Filing Portal", "url": "https://www.incometax.gov.in/iec/foportal/", "folder": "incometax", "category": "overview", "slug": "incometax_home"},
   {"authority": "Income Tax Dept", "title": "Return Applicability Guide 1", "url": "https://www.incometax.gov.in/iec/foportal/help/individual/return-applicable-1", "folder": "incometax", "category": "guide", "slug": "incometax_return_guide_1"},
