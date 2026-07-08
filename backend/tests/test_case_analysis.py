@@ -36,7 +36,7 @@ def test_case_analysis_workflow_runs_linear_pipeline() -> None:
     assert "evidence:gemini" in trace
     assert "graph:neo4j" in trace
     assert "strategy:gemini" in trace
-    assert "negotiation:appeal_draft" in trace
+    assert "negotiation:all_documents" in trace
     assert "review:gemini" in trace
     assert "final_report:gemini" in trace
     assert state.get("research_summary")

@@ -1,10 +1,10 @@
 """Unit/integration tests for the provider-agnostic LLM abstraction.
 
 conftest.py pins ENVIRONMENT=test, DISABLE_EXTERNAL_LLM=true, and
-LLM_PROVIDER=gemini by default, so these tests never hit a real network — the
-NVIDIA-specific tests below override settings explicitly per-test instead of
-relying on env vars, and mock httpx so no real HTTP call is made even when a
-key is supplied.
+LLM_PROVIDER=nvidia by default (matching the real active production
+provider), so these tests never hit a real network — the provider-specific
+tests below override settings explicitly per-test instead of relying on env
+vars, and mock httpx so no real HTTP call is made even when a key is supplied.
 """
 from __future__ import annotations
 
@@ -63,13 +63,15 @@ def test_factory_rejects_unknown_provider() -> None:
 
 
 def test_gemini_alias_matches_configured_provider() -> None:
-    # conftest pins LLM_PROVIDER=gemini for the whole suite.
+    # conftest pins LLM_PROVIDER=nvidia for the whole suite (the real active
+    # production provider). The alias itself is provider-agnostic — it just
+    # forwards to whatever's configured.
     assert gemini_alias is llm_service
     # get_llm_provider() returns the wrapped chain (cache + router); the
     # concrete provider is reachable underneath, or directly via get_raw_provider().
     wrapped = get_llm_provider()
-    assert isinstance(wrapped.inner.provider, GeminiProvider)
-    assert isinstance(get_raw_provider(), GeminiProvider)
+    assert isinstance(wrapped.inner.provider, NvidiaProvider)
+    assert isinstance(get_raw_provider(), NvidiaProvider)
 
 
 # ---- Model routing ------------------------------------------------------
@@ -102,7 +104,10 @@ def test_nvidia_embed_falls_back_to_hash_embedding_when_unconfigured() -> None:
     provider = NvidiaProvider(_settings(nvidia_api_key=None))
     vectors = asyncio.run(provider.embed_documents(["hello world", "second chunk"]))
     assert len(vectors) == 2
-    assert all(len(v) == 768 for v in vectors)
+    # hash-fallback dimension matches this provider's real embedding size (1024
+    # for NVIDIA), not a fixed 768 — dev-mode vectors must never silently be
+    # the wrong size for whichever provider produced them.
+    assert all(len(v) == provider.embedding_dimension == 1024 for v in vectors)
     # deterministic: same text -> same vector
     again = asyncio.run(provider.embed_documents(["hello world"]))
     assert again[0] == vectors[0]

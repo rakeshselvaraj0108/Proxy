@@ -17,9 +17,9 @@ from app.services.official_health_sources import OfficialHealthSourceCollector
 from app.storage.service import storage_service
 
 
-def test_healthcare_is_active_and_airlines_is_future_domain() -> None:
+def test_health_insurance_and_airlines_are_active_domains() -> None:
     assert Domain.HEALTH_INSURANCE in ACTIVE_DOMAINS
-    assert Domain.AIRLINES not in ACTIVE_DOMAINS
+    assert Domain.AIRLINES in ACTIVE_DOMAINS
 
 
 def test_case_repository_creates_healthcare_case() -> None:
@@ -195,7 +195,8 @@ def test_supervisor_routes_cataract_coverage_to_policy_and_medical() -> None:
     assert "claims" not in routes
     assert any(step == "retrieval:qdrant" for step in state["agent_trace"])
     assert state["llm_call_count"] == len(state["specialist_outputs"]) + 5
-    assert all(output["model"] == "gemini-2.5-flash" for output in state["specialist_outputs"])
+    expected_model = gemini_service.model_for("reasoning")
+    assert all(output["model"] == expected_model for output in state["specialist_outputs"])
 
 
 def test_supervisor_routes_denial_to_claims_agent() -> None:
@@ -219,11 +220,18 @@ def test_supervisor_routes_denial_to_claims_agent() -> None:
 
 
 def test_gemini_role_model_mapping_uses_optimized_defaults() -> None:
-    assert gemini_service.model_for("reasoning") == "gemini-2.5-flash"
-    assert gemini_service.model_for("router") == "gemini-2.5-flash-lite"
-    assert gemini_service.model_for("planner") == "gemini-2.5-flash-lite"
-    assert gemini_service.model_for("response") == "gemini-2.5-flash"
-    assert gemini_service.model_for("summarization") == "gemini-2.5-flash-lite"
-    assert gemini_service.model_for("ocr") == "gemini-2.5-flash"
+    # gemini_service is now the provider-agnostic alias (conftest pins the
+    # suite to nvidia) — construct a GeminiProvider directly to test
+    # Gemini-specific model mapping regardless of the active default provider.
+    from app.core.config import get_settings
+    from app.llm.providers.gemini_provider import GeminiProvider
+
+    provider = GeminiProvider(get_settings())
+    assert provider.model_for("reasoning") == "gemini-2.5-flash"
+    assert provider.model_for("router") == "gemini-2.5-flash-lite"
+    assert provider.model_for("planner") == "gemini-2.5-flash-lite"
+    assert provider.model_for("response") == "gemini-2.5-flash"
+    assert provider.model_for("summarization") == "gemini-2.5-flash-lite"
+    assert provider.model_for("ocr") == "gemini-2.5-flash"
 
 
