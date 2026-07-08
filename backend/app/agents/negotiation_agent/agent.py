@@ -8,6 +8,8 @@
 
 from __future__ import annotations
 
+import json
+
 from app.agents.json_parser import parse_agent_json
 from app.agents.state import AgentState, NegotiationOutput
 from app.llm.service import llm_service
@@ -46,14 +48,24 @@ async def run_negotiation_agent(state: AgentState) -> AgentState:
     prompt = negotiation_prompt(domain, case_summary, context, strategy_text, evidence_summary)
     raw = await llm_service.generate(prompt, temperature=0.25, purpose="reasoning")
 
-    # Parse structured output
+    # Parse structured output. The LLM doesn't always return these fields as
+    # plain strings (e.g. it may nest a dict for a domain the prompt wasn't
+    # tuned for), so coerce defensively — downstream code slices/concatenates
+    # these as free text.
+    def _as_text(value: object) -> str:
+        if isinstance(value, str):
+            return value
+        if value in (None, ""):
+            return ""
+        return json.dumps(value, ensure_ascii=False, indent=2)
+
     parsed = parse_agent_json(raw, NEGOTIATION_FALLBACK_FIELDS)
     negotiation_output: NegotiationOutput = {
-        "appeal_letter": parsed.get("appeal_letter", ""),
-        "complaint_email": parsed.get("complaint_email", ""),
-        "escalation_note": parsed.get("escalation_note", ""),
-        "consumer_complaint": parsed.get("consumer_complaint", ""),
-        "summary": parsed.get("summary", "Appeal documents generated."),
+        "appeal_letter": _as_text(parsed.get("appeal_letter", "")),
+        "complaint_email": _as_text(parsed.get("complaint_email", "")),
+        "escalation_note": _as_text(parsed.get("escalation_note", "")),
+        "consumer_complaint": _as_text(parsed.get("consumer_complaint", "")),
+        "summary": _as_text(parsed.get("summary", "Appeal documents generated.")),
     }
     state["negotiation_output"] = negotiation_output
 
