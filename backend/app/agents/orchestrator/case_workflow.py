@@ -1,10 +1,10 @@
-from app.agents.domain_agents.health_insurance.specialists import run_health_specialists
 from app.agents.evidence_agent.agent import run_evidence_agent
 from app.agents.graph_agent.agent import run_graph_agent
 from app.agents.negotiation_agent.agent import run_negotiation_agent
+from app.agents.orchestrator.specialist_dispatch import run_domain_specialists
 from app.agents.role_agents.graph import run_graph_role_agent
 from app.agents.role_agents.negotiator import run_negotiator_agent
-from app.agents.role_agents.planner import run_planner_agent
+from app.agents.role_agents.execution_planner import run_execution_planner_agent
 from app.agents.role_agents.response import run_response_agent
 from app.agents.role_agents.retrieval import run_retrieval_agent
 from app.agents.role_agents.web_search import run_web_search_agent
@@ -12,110 +12,6 @@ from app.agents.research_agent.agent import run_research_agent
 from app.agents.review_agent.agent import run_review_agent
 from app.agents.state import AgentState
 from app.agents.strategy_agent.agent import run_strategy_agent
-
-
-async def run_domain_specialists(state: AgentState) -> AgentState:
-    from app.models.domain import Domain
-    domain = state["domain"]
-    if domain == Domain.BANKING:
-        from app.agents.domain_agents.banking.specialists import run_banking_specialists
-        return await run_banking_specialists(state)
-    elif domain == Domain.AIRLINES:
-        from app.agents.domain_agents.airlines.specialists import get_airline_specialists
-        
-        # Simple inline orchestrator for airlines
-        state.setdefault("agent_trace", []).append("airlines_orchestrator:start")
-        plan = state.get("plan", {})
-        routes = plan.get("specialists", ["general_aviation"])
-        
-        specialists = get_airline_specialists()
-        all_results = []
-        for route in routes:
-            agent = specialists.get(route)
-            if agent:
-                res = await agent.process(state)
-                all_results.append(res)
-                state["agent_trace"].append(f"specialist_executed:{agent.name}")
-        
-        state["specialist_results"] = all_results
-        return state
-    elif domain == Domain.TELECOM:
-        from app.agents.domain_agents.telecom.specialists import get_telecom_specialists
-        state.setdefault("agent_trace", []).append("telecom_orchestrator:start")
-        plan = state.get("plan", {})
-        routes = plan.get("specialists", ["general_telecom"])
-        specialists = get_telecom_specialists()
-        all_results = []
-        for route in routes:
-            agent = specialists.get(route)
-            if agent:
-                res = await agent.process(state)
-                all_results.append(res)
-                state["agent_trace"].append(f"specialist_executed:{agent.name}")
-        state["specialist_results"] = all_results
-        return state
-    elif domain == Domain.ECOMMERCE:
-        from app.agents.domain_agents.ecommerce.specialists import get_ecommerce_specialists
-        state.setdefault("agent_trace", []).append("ecommerce_orchestrator:start")
-        plan = state.get("plan", {})
-        routes = plan.get("specialists", ["consumer_protection"])
-        specialists = get_ecommerce_specialists()
-        all_results = []
-        for route in routes:
-            agent = specialists.get(route)
-            if agent:
-                res = await agent.process(state)
-                all_results.append(res)
-                state["agent_trace"].append(f"specialist_executed:{agent.name}")
-        state["specialist_results"] = all_results
-        return state
-    elif domain == Domain.GOVERNMENT:
-        from app.agents.domain_agents.government.specialists import get_government_specialists
-        state.setdefault("agent_trace", []).append("government_orchestrator:start")
-        plan = state.get("plan", {})
-        routes = plan.get("specialists", ["general_government"])
-        specialists = get_government_specialists()
-        all_results = []
-        for route in routes:
-            agent = specialists.get(route)
-            if agent:
-                res = await agent.process(state)
-                all_results.append(res)
-                state["agent_trace"].append(f"specialist_executed:{agent.name}")
-        state["specialist_results"] = all_results
-        return state
-    elif domain == Domain.HOUSING:
-        from app.agents.domain_agents.housing.specialists import get_housing_specialists
-        state.setdefault("agent_trace", []).append("housing_orchestrator:start")
-        plan = state.get("plan", {})
-        routes = plan.get("specialists", ["general_housing"])
-        specialists = get_housing_specialists()
-        all_results = []
-        for route in routes:
-            agent = specialists.get(route)
-            if agent:
-                res = await agent.process(state)
-                all_results.append(res)
-                state["agent_trace"].append(f"specialist_executed:{agent.name}")
-        state["specialist_results"] = all_results
-        return state
-    elif domain == Domain.HEALTHCARE:
-        from app.agents.domain_agents.healthcare.specialists import get_healthcare_specialists
-        state.setdefault("agent_trace", []).append("healthcare_orchestrator:start")
-        plan = state.get("plan", {})
-        routes = plan.get("specialists", ["general_healthcare"])
-        specialists = get_healthcare_specialists()
-        all_results = []
-        for route in routes:
-            agent = specialists.get(route)
-            if agent:
-                res = await agent.process(state)
-                all_results.append(res)
-                state["agent_trace"].append(f"specialist_executed:{agent.name}")
-        state["specialist_results"] = all_results
-        return state
-
-    return await run_health_specialists(state)
 
 
 class CaseWorkflow:
@@ -155,7 +51,7 @@ class CaseWorkflow:
 
         graph = StateGraph(AgentState)
         graph.add_node("supervisor_start", self._supervisor_start)
-        graph.add_node("planner", run_planner_agent)
+        graph.add_node("planner", run_execution_planner_agent)
         graph.add_node("retrieval", run_retrieval_agent)
         graph.add_node("graph", run_graph_role_agent)
         graph.add_node("web_search", run_web_search_agent)
@@ -190,7 +86,7 @@ class CaseWorkflow:
 
     async def _run_fallback(self, state: AgentState) -> AgentState:
         state = await self._supervisor_start(state)
-        state = await run_planner_agent(state)
+        state = await run_execution_planner_agent(state)
         state = await run_retrieval_agent(state)
         state = await run_graph_role_agent(state)
         state = await run_web_search_agent(state)
@@ -209,7 +105,53 @@ class CaseWorkflow:
         state.setdefault("agent_trace", []).append("supervisor:start")
         state.setdefault("llm_call_count", 0)
         state["workflow_engine"] = "langgraph" if self._graph is not None else "fallback"
+        await self._record_citizen_case(state)
+        await self._load_memory(state)
         return state
+
+    async def _load_memory(self, state: AgentState) -> None:
+        """Best-effort: load this citizen's long-term memory (past cases,
+        appeals, reports) plus this case's own history, and fold a summary
+        into retrieved_context so follow-up conversations have continuity."""
+        user_id = state.get("user_id")
+        case_id = state.get("case_id")
+        if not user_id:
+            return
+        try:
+            from app.services.memory_service import (
+                format_memory_for_prompt, get_case_memory, get_user_memory,
+            )
+            user_memory = await get_user_memory(user_id)
+            case_memory = await get_case_memory(case_id, user_id) if case_id else None
+            memory_text = format_memory_for_prompt(user_memory, case_memory)
+            state["memory_context"] = memory_text
+            if memory_text:
+                existing = state.get("retrieved_context", "")
+                state["retrieved_context"] = f"{existing}\n\nCitizen memory:\n{memory_text}".strip()
+                state.setdefault("agent_trace", []).append("memory:loaded")
+        except Exception:
+            pass
+
+    async def _record_citizen_case(self, state: AgentState) -> None:
+        """Best-effort: link this case into the cross-domain Enterprise
+        Knowledge Graph (Citizen -> Case -> Institution/Domain). Never blocks
+        or fails the case on a graph-store hiccup."""
+        user_id = state.get("user_id")
+        case_id = state.get("case_id")
+        domain = state.get("domain")
+        if not user_id or not case_id or not domain:
+            return
+        try:
+            from app.knowledge_graph.neo4j.service import knowledge_graph
+            await knowledge_graph.upsert_citizen_case(
+                user_id=user_id,
+                domain=domain,
+                case_id=case_id,
+                institution_name=state.get("institution_name"),
+                title=state.get("case_summary", "")[:200],
+            )
+        except Exception:
+            pass
 
     async def _supervisor_done(self, state: AgentState) -> AgentState:
         state.setdefault("agent_trace", []).append("supervisor:done")
