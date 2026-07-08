@@ -16,3 +16,6 @@ backend/.venv/
 .venv/
 datasets/vector_embeddings/*.jsonl
 datasets/knowledge_graph/*.jsonl
+**/datasets/vector_embeddings/*.jsonl
+**/datasets/knowledge_graph/*.jsonl
+.claude/
