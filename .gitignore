@@ -10,6 +10,7 @@ node_modules/
 dist/
 build/
 coverage/
+.next/
 .DS_Store
 *.log
 backend/.venv/
@@ -19,3 +20,4 @@ datasets/knowledge_graph/*.jsonl
 **/datasets/vector_embeddings/*.jsonl
 **/datasets/knowledge_graph/*.jsonl
 .claude/
+k8s/secret.yaml

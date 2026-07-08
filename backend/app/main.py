@@ -70,6 +70,15 @@ app.include_router(admin_panel_router, prefix="/admin", tags=["admin panel"])
 app.include_router(component_health_router, prefix="/health", tags=["system"])
 
 
+@app.get("/health/live", tags=["system"])
+async def health_live() -> dict:
+    """Liveness only: is the process itself up, with no dependency checks.
+    Kubernetes liveness probes should hit this, not /health -- a transient
+    Qdrant/Neo4j blip must not cause a perfectly healthy pod to be killed
+    and restarted, only pulled out of rotation (that's what readiness is for)."""
+    return {"status": "alive"}
+
+
 @app.get("/health", tags=["system"])
 async def health() -> dict:
     from app.core.startup import collect_health_status
