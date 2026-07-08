@@ -126,11 +126,25 @@ export async function globalSearch(query: string, topKOverall = 15): Promise<Glo
   });
 }
 
+export interface Appeal {
+  id: string;
+  case_id: string;
+  user_id: string;
+  version: number;
+  title: string;
+  content: string;
+  status: "draft" | "sent" | "escalated" | "resolved";
+  document_type: string;
+  domain: string | null;
+  created_at: string;
+}
+
 export interface DomainResult {
   confidence: number;
   route: string;
   final_report: string | null;
   agent_trace: string[];
+  appeals: Appeal[];
 }
 
 export interface MultiDomainCaseResponse {
@@ -142,9 +156,20 @@ export interface MultiDomainCaseResponse {
   combined_summary: string;
 }
 
-export async function runMultiDomainCase(caseId: string, message: string): Promise<MultiDomainCaseResponse> {
+export async function runMultiDomainCase(caseId: string, message: string, generateAppeals = false): Promise<MultiDomainCaseResponse> {
   return request("/intelligence/cases/multi-domain", {
     method: "POST",
-    body: JSON.stringify({ case_id: caseId, case_summary: message }),
+    body: JSON.stringify({ case_id: caseId, case_summary: message, generate_appeals: generateAppeals }),
+  });
+}
+
+export async function listAppeals(): Promise<Appeal[]> {
+  return request("/appeals", { method: "GET" });
+}
+
+export async function updateAppealStatus(appealId: string, status: Appeal["status"]): Promise<Appeal> {
+  return request(`/appeals/${appealId}/status`, {
+    method: "PATCH",
+    body: JSON.stringify({ status }),
   });
 }

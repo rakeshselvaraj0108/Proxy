@@ -1,6 +1,7 @@
 ﻿from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 from uuid import uuid4
 
@@ -204,7 +205,10 @@ class CaseRepository:
     async def list_agent_runs(self, case_id: str) -> list[dict]:
         return [run for run in self._agent_runs.values() if run["case_id"] == case_id]
 
-    async def add_appeal(self, case_id: str, user_id: str, title: str, content: str) -> dict:
+    async def add_appeal(
+        self, case_id: str, user_id: str, title: str, content: str,
+        *, document_type: str = "appeal_letter", domain: str | None = None,
+    ) -> dict:
         version = 1 + len([appeal for appeal in self._appeals.values() if appeal["case_id"] == case_id])
         appeal = {
             "id": str(uuid4()),
@@ -214,6 +218,13 @@ class CaseRepository:
             "title": title,
             "content": content,
             "status": "draft",
+            # Denormalized so the cross-case Appeals Center (list_appeals_for_user)
+            # never needs a join with `cases` -- appeals generated from the
+            # multi-domain assistant workflow don't create a real Case row,
+            # only a synthetic case_id for internal state tracking.
+            "document_type": document_type,
+            "domain": domain,
+            "created_at": datetime.now(timezone.utc).isoformat(),
         }
         self._appeals[appeal["id"]] = appeal
         self.local.append("appeals", self._jsonable(appeal))
@@ -223,6 +234,20 @@ class CaseRepository:
 
     async def list_appeals(self, case_id: str) -> list[dict]:
         return [appeal for appeal in self._appeals.values() if appeal["case_id"] == case_id]
+
+    async def list_appeals_for_user(self, user_id: str) -> list[dict]:
+        appeals = [appeal for appeal in self._appeals.values() if appeal["user_id"] == user_id]
+        return sorted(appeals, key=lambda a: a.get("created_at") or "", reverse=True)
+
+    async def update_appeal_status(self, appeal_id: str, user_id: str, status: str) -> dict | None:
+        appeal = self._appeals.get(appeal_id)
+        if not appeal or appeal["user_id"] != user_id:
+            return None
+        appeal["status"] = status
+        self.local.upsert("appeals", "id", self._jsonable(appeal))
+        await self.supabase.upsert("appeals", self._jsonable(appeal), on_conflict="id")
+        await self.add_event(appeal["case_id"], {"actor": "user", "event_type": "appeal_status_changed", "title": f"Appeal marked {status}", "body": appeal["title"]})
+        return appeal
 
     async def upsert_knowledge_source(self, source: dict) -> dict:
         self._knowledge_sources[source["source_id"]] = source

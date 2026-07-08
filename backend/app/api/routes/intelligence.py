@@ -51,6 +51,7 @@ class MultiDomainCaseRequest(BaseModel):
     case_id: str
     case_summary: str = Field(min_length=3, max_length=5000)
     institution_name: str | None = None
+    generate_appeals: bool = False
 
 
 @router.post("/cases/multi-domain")
@@ -58,7 +59,12 @@ async def run_multi_domain(payload: MultiDomainCaseRequest, user: CurrentUser = 
     """Classify the query into every relevant domain and run the full case
     workflow for each concurrently, merging the results -- e.g. a cancelled
     flight with a rejected travel-insurance claim runs Airlines AND Health
-    Insurance and returns both, instead of forcing a single domain choice."""
+    Insurance and returns both, instead of forcing a single domain choice.
+
+    generate_appeals=True additionally persists every non-empty document the
+    negotiation agent produced (appeal letter, complaint email, escalation
+    note, consumer complaint) as real Appeal records, visible via GET
+    /appeals and per-domain in this response's per_domain_results[*].appeals."""
     return await run_multi_domain_case({
         "case_id": payload.case_id,
         "user_id": user.id,
@@ -69,7 +75,7 @@ async def run_multi_domain(payload: MultiDomainCaseRequest, user: CurrentUser = 
         # default only applies when the key is missing), so an explicit None
         # here previously reached str-only code (cache-key hashing) and crashed.
         "institution_name": payload.institution_name or "",
-    })
+    }, save_appeals=payload.generate_appeals)
 
 
 @router.get("/tools")
