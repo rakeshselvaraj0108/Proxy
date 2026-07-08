@@ -40,3 +40,20 @@ async def require_admin(user: CurrentUser = Depends(get_current_user)) -> Curren
     if user.role != "admin":
         raise ProxyError("Admin permission required", status_code=403, code="forbidden")
     return user
+
+
+async def require_admin_or_api_key(
+    authorization: str | None = Header(default=None),
+    x_admin_api_key: str | None = Header(default=None),
+) -> CurrentUser:
+    """Admin access via either a Supabase JWT with role=admin, or a static
+    ADMIN_API_KEY header -- for service-to-service/CI callers that shouldn't
+    need a user session (e.g. a scheduled reindex trigger, a CI health
+    check). Only usable when ADMIN_API_KEY is actually configured."""
+    settings = get_settings()
+    if settings.admin_api_key and x_admin_api_key:
+        import secrets
+        if secrets.compare_digest(x_admin_api_key, settings.admin_api_key):
+            return CurrentUser(id="service-api-key", role="admin")
+        raise ProxyError("Invalid API key", status_code=401, code="unauthorized")
+    return await require_admin(await get_current_user(authorization))

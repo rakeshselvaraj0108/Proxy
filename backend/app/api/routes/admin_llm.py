@@ -7,12 +7,13 @@ from typing import Any, Dict
 
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException
 
-from app.auth.dependencies import CurrentUser, require_admin
+from app.auth.dependencies import CurrentUser, require_admin, require_admin_or_api_key
 from app.llm.metrics import metrics
 from app.llm.runtime_overrides import runtime_overrides
 from app.llm.service import get_llm_provider, get_raw_provider
 from app.models.domain import ACTIVE_DOMAINS, Domain
 from app.rag.retrieval.qdrant_service import qdrant_service
+from app.services.audit_log import read_audit_log, record_audit_event
 from app.services.reindex_service import ReindexJob, load_job, run_reindex
 
 router = APIRouter()
@@ -43,7 +44,7 @@ async def reindex_status(_: CurrentUser = Depends(require_admin)) -> Dict[str, A
 
 @router.post("/reindex/{domain}")
 async def trigger_reindex(
-    domain: Domain, background_tasks: BackgroundTasks, _: CurrentUser = Depends(require_admin)
+    domain: Domain, background_tasks: BackgroundTasks, user: CurrentUser = Depends(require_admin_or_api_key)
 ) -> Dict[str, Any]:
     if domain not in ACTIVE_DOMAINS:
         raise HTTPException(status_code=400, detail=f"Domain '{domain.value}' is not active")
@@ -53,6 +54,7 @@ async def trigger_reindex(
         raise HTTPException(status_code=409, detail=f"Reindex already running for '{domain.value}'")
 
     resuming = bool(existing and existing.status in {"failed", "failed_verification", "verifying"})
+    record_audit_event(user.id, "trigger_reindex", {"domain": domain.value, "resumed": resuming})
     background_tasks.add_task(run_reindex, domain)
     return {
         "message": f"Reindex {'resumed' if resuming else 'started'} for '{domain.value}'",
@@ -178,7 +180,7 @@ async def get_model_overrides(_: CurrentUser = Depends(require_admin)) -> Dict[s
 
 
 @router.post("/llm/model")
-async def set_model_override(payload: Dict[str, str], _: CurrentUser = Depends(require_admin)) -> Dict[str, Any]:
+async def set_model_override(payload: Dict[str, str], user: CurrentUser = Depends(require_admin)) -> Dict[str, Any]:
     """Hot-switch a purpose's model without restarting the process.
 
     Body: {"provider": "nvidia", "purpose": "reasoning", "model": "meta/llama-3.3-70b-instruct"}
@@ -190,10 +192,18 @@ async def set_model_override(payload: Dict[str, str], _: CurrentUser = Depends(r
         raise HTTPException(status_code=400, detail="'model' is required")
     purpose = payload.get("purpose")
     runtime_overrides.set_model(provider, purpose, model)
+    record_audit_event(user.id, "set_model_override", {"provider": provider, "purpose": purpose, "model": model})
     return {"message": "Model override applied", "provider": provider, "purpose": purpose or "*", "model": model}
 
 
 @router.delete("/llm/model")
-async def clear_model_override(provider: str | None = None, purpose: str | None = None, _: CurrentUser = Depends(require_admin)) -> Dict[str, Any]:
-    runtime_overrides.clear(provider or get_raw_provider().name, purpose)
-    return {"message": "Model override cleared", "provider": provider or get_raw_provider().name, "purpose": purpose or "*"}
+async def clear_model_override(provider: str | None = None, purpose: str | None = None, user: CurrentUser = Depends(require_admin)) -> Dict[str, Any]:
+    resolved_provider = provider or get_raw_provider().name
+    runtime_overrides.clear(resolved_provider, purpose)
+    record_audit_event(user.id, "clear_model_override", {"provider": resolved_provider, "purpose": purpose})
+    return {"message": "Model override cleared", "provider": resolved_provider, "purpose": purpose or "*"}
+
+
+@router.get("/audit-log")
+async def audit_log(limit: int = 200, _: CurrentUser = Depends(require_admin)) -> Dict[str, Any]:
+    return {"entries": read_audit_log(limit)}

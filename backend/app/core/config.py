@@ -116,6 +116,7 @@ class Settings(BaseModel):
     jwt_audience: str = "authenticated"
     jwt_issuer: str | None = None
     supabase_jwt_secret: str | None = None
+    admin_api_key: str | None = None
     tavily_api_key: str | None = None
     web_search_cache_ttl_seconds: int = 86400
     web_search_rate_limit_per_minute: int = 10
@@ -191,6 +192,7 @@ def get_settings() -> Settings:
         jwt_audience=_env("JWT_AUDIENCE", "authenticated"),
         jwt_issuer=_optional_env("JWT_ISSUER"),
         supabase_jwt_secret=_optional_env("SUPABASE_JWT_SECRET"),
+        admin_api_key=_optional_env("ADMIN_API_KEY"),
         tavily_api_key=_optional_env("TAVILY_API_KEY"),
         web_search_cache_ttl_seconds=int(_env("WEB_SEARCH_CACHE_TTL_SECONDS", "86400")),
         web_search_rate_limit_per_minute=int(_env("WEB_SEARCH_RATE_LIMIT_PER_MINUTE", "10")),
