@@ -177,6 +177,24 @@ async def users_overview(_: CurrentUser = Depends(require_admin)) -> dict[str, A
     }
 
 
+@router.get("/evaluation")
+async def evaluation_benchmark(_: CurrentUser = Depends(require_admin)) -> dict[str, Any]:
+    """Fast evaluation (no LLM calls): domain-classification accuracy,
+    specialist-routing accuracy, and retrieval hit-rate/latency over every
+    synthetic case per domain. See app.services.evaluation_service for the
+    (deliberately LLM-call-bounded) deep-eval variant, run via the CLI
+    script rather than an open GET endpoint."""
+    from app.models.domain import ACTIVE_DOMAINS
+    from app.services.evaluation_service import evaluate_domain_fast
+
+    results = []
+    for domain in sorted(ACTIVE_DOMAINS, key=lambda d: d.value):
+        result = await evaluate_domain_fast(domain)
+        if result:
+            results.append(result)
+    return {"domains": results}
+
+
 @router.get("/usage")
 async def api_usage(_: CurrentUser = Depends(require_admin)) -> dict[str, Any]:
     """API call volume/error counts per route, from the request middleware's

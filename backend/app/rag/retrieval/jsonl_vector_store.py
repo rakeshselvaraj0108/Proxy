@@ -45,7 +45,7 @@ class JsonlVectorStore(VectorStore):
         new complete file, never a partial one."""
         targets = [collection] if collection else list(self._dirty)
         for name in targets:
-            if name not in self._cache:
+            if name not in self._cache or name not in self._dirty:
                 continue
             target_path = self._path(name)
             fd, tmp_path = tempfile.mkstemp(dir=target_path.parent, prefix=f".{target_path.stem}.", suffix=".tmp")
