@@ -7,7 +7,7 @@ import { domainRegistry, findDomainAnalysis } from "@/lib/proxy-analysis-data";
 import { SceneBackground } from "@/components/3d/SceneBackground";
 
 const nav = [
-  ["Dashboard", "/dashboard", Home], ["New Analysis", "/dashboard/new", Upload], ["My Analyses", "/dashboard/analyses", FileSearch], ["AI Assistant", "/dashboard/assistant", Bot], ["Knowledge Graph", "/dashboard/knowledge-graph", Network], ["Documents", "/dashboard/documents", FileText], ["Appeals", "/dashboard/appeals", ClipboardList], ["Reports", "/dashboard/reports", Gauge], ["Notifications", "/dashboard/notifications", Bell], ["Settings", "/dashboard/settings", Settings],
+  ["Dashboard", "/dashboard", Home], ["New Analysis", "/dashboard/new", Upload], ["My Analyses", "/dashboard/analyses", FileSearch], ["AI Assistant", "/dashboard/assistant", Bot], ["Knowledge Graph", "/dashboard/knowledge-graph", Network], ["Cross-Domain Search", "/dashboard/cross-domain-search", Search], ["Documents", "/dashboard/documents", FileText], ["Appeals", "/dashboard/appeals", ClipboardList], ["Reports", "/dashboard/reports", Gauge], ["Notifications", "/dashboard/notifications", Bell], ["Settings", "/dashboard/settings", Settings],
 ] as const;
 
 export function AppShell({ children }: { children: React.ReactNode }) {

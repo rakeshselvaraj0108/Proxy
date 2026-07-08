@@ -54,3 +54,54 @@ export async function askAI(id: string, message: string) {
     return { answer: "Realtime AI is in fallback mode. Start FastAPI to stream cited answers from Gemini, Qdrant, and Neo4j.", sources: [{ title: "Offline analysis preview", source: id }] };
   }
 }
+
+export interface DomainCandidate {
+  domain: string;
+  confidence: number;
+  matched_terms: string[];
+}
+
+export interface Citation {
+  title: string;
+  authority: string;
+  url: string | null;
+  publication_date: string | null;
+  section: string | null;
+  domain: string;
+  retrieved_chunk: string;
+  confidence: number;
+}
+
+export interface GlobalSearchResult {
+  id: string;
+  score: number;
+  text: string;
+  domain: string;
+  metadata: Record<string, unknown>;
+  evidence_scores: {
+    similarity_score: number;
+    authority_score: number;
+    legal_weight: number;
+    freshness_score: number;
+    confidence: number;
+    overall_evidence_score: number;
+  };
+}
+
+export interface GlobalSearchResponse {
+  query: string;
+  domains_searched: string[];
+  results: GlobalSearchResult[];
+  total_hits: number;
+}
+
+export async function classifyQuery(query: string): Promise<{ query: string; candidates: DomainCandidate[] }> {
+  return request("/intelligence/classify", { method: "POST", body: JSON.stringify({ query }) });
+}
+
+export async function globalSearch(query: string, topKOverall = 15): Promise<GlobalSearchResponse> {
+  return request("/intelligence/search", {
+    method: "POST",
+    body: JSON.stringify({ query, top_k_overall: topKOverall }),
+  });
+}
