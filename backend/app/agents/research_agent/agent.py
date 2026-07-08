@@ -50,7 +50,11 @@ def rank_hits(hits: list[dict]) -> list[dict]:
 async def run_research_agent(state: AgentState) -> AgentState:
     """Execute the research agent: search Qdrant + Neo4j + Web, then synthesize via Gemini."""
     domain = state["domain"]
-    institution = state.get("institution_name", "")
+    # `.get(key, "")` only falls back to "" when the key is *missing* -- a
+    # caller that explicitly sets institution_name=None (a legitimate case:
+    # a general-purpose query with no specific institution) still gets None
+    # through here, which then crashes cache-key hashing (str-only) downstream.
+    institution = state.get("institution_name") or ""
     case_summary = state.get("case_summary", "")
     combined_query = f"{case_summary} {institution} " + " ".join(RESEARCH_QUERIES)
 

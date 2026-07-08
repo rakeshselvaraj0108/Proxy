@@ -2,10 +2,30 @@
 
 export const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8000/api/v1";
 
+// No real login flow is wired up yet, so there's no session token to attach.
+// The backend's dev-mode auth (app/auth/dependencies.py) accepts any bearer
+// string as a stand-in user id when ENVIRONMENT=development and no Supabase
+// JWT secret is configured -- persist a stable per-browser id so requests
+// authenticate consistently instead of getting a fresh identity every call.
+function getDeviceUserId(): string {
+  if (typeof window === "undefined") return "server";
+  const key = "proxy:device-user-id";
+  let id = window.localStorage.getItem(key);
+  if (!id) {
+    id = `device-${crypto.randomUUID()}`;
+    window.localStorage.setItem(key, id);
+  }
+  return id;
+}
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(`${API_BASE}${path}`, {
     ...init,
-    headers: { "Content-Type": "application/json", ...(init?.headers ?? {}) },
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${getDeviceUserId()}`,
+      ...(init?.headers ?? {}),
+    },
     cache: "no-store",
   });
   if (!response.ok) throw new Error(`API ${response.status}: ${await response.text()}`);
@@ -103,5 +123,28 @@ export async function globalSearch(query: string, topKOverall = 15): Promise<Glo
   return request("/intelligence/search", {
     method: "POST",
     body: JSON.stringify({ query, top_k_overall: topKOverall }),
+  });
+}
+
+export interface DomainResult {
+  confidence: number;
+  route: string;
+  final_report: string | null;
+  agent_trace: string[];
+}
+
+export interface MultiDomainCaseResponse {
+  query: string;
+  domains_analyzed: string[];
+  primary_domain: string;
+  per_domain_results: Record<string, DomainResult>;
+  combined_citations: Citation[];
+  combined_summary: string;
+}
+
+export async function runMultiDomainCase(caseId: string, message: string): Promise<MultiDomainCaseResponse> {
+  return request("/intelligence/cases/multi-domain", {
+    method: "POST",
+    body: JSON.stringify({ case_id: caseId, case_summary: message }),
   });
 }

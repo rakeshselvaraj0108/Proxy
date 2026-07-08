@@ -31,7 +31,13 @@ export function ParticleField({ count = 800, speed = 0.15 }: { count?: number; s
 
   useFrame((state) => {
     if (!ref.current) return;
-    const pos = ref.current.geometry.attributes.position.array as Float32Array;
+    // The `position` attribute is set in the useEffect above, which can
+    // commit after useFrame's render loop has already started ticking (most
+    // often the very first frame) -- geometry.attributes.position is briefly
+    // undefined in that window, not just when ref.current is null.
+    const attribute = ref.current.geometry.attributes.position;
+    if (!attribute) return;
+    const pos = attribute.array as Float32Array;
     const time = state.clock.elapsedTime;
 
     for (let i = 0; i < count; i++) {
@@ -43,7 +49,7 @@ export function ParticleField({ count = 800, speed = 0.15 }: { count?: number; s
 
     ref.current.rotation.x += (pointer.y * 0.3 - ref.current.rotation.x) * 0.02;
     ref.current.rotation.y += (pointer.x * 0.3 - ref.current.rotation.y) * 0.02;
-    ref.current.geometry.attributes.position.needsUpdate = true;
+    attribute.needsUpdate = true;
   });
 
   return (

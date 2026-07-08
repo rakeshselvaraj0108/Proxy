@@ -63,7 +63,12 @@ async def run_multi_domain(payload: MultiDomainCaseRequest, user: CurrentUser = 
         "case_id": payload.case_id,
         "user_id": user.id,
         "case_summary": payload.case_summary,
-        "institution_name": payload.institution_name,
+        # Normalize None to "" here, at the boundary where user input enters
+        # the pipeline -- state.get("institution_name", "") downstream does
+        # NOT fall back to "" when the key is present with value None (that
+        # default only applies when the key is missing), so an explicit None
+        # here previously reached str-only code (cache-key hashing) and crashed.
+        "institution_name": payload.institution_name or "",
     })
 
 
