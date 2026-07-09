@@ -32,6 +32,8 @@ class CaseRead(BaseModel):
     summary: str
     jurisdiction: str
     status: CaseStatus
+    created_at: str | None = None
+    updated_at: str | None = None
 
 
 class CaseEventCreate(BaseModel):

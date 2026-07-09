@@ -106,8 +106,9 @@ class CaseRepository:
             return [self._jsonable(item) for item in value]
         return value
 
-    async def create_case(self, user_id: str, payload: CaseCreate) -> dict:
-        case_id = str(uuid4())
+    async def create_case(self, user_id: str, payload: CaseCreate, case_id: str | None = None) -> dict:
+        case_id = case_id or str(uuid4())
+        now = datetime.now(timezone.utc).isoformat()
         record = {
             "id": case_id,
             "user_id": user_id,
@@ -117,6 +118,8 @@ class CaseRepository:
             "summary": payload.summary,
             "jurisdiction": payload.jurisdiction,
             "status": CaseStatus.INTAKE,
+            "created_at": now,
+            "updated_at": now,
         }
         self._cases[case_id] = record
         stored = self._jsonable(record)
@@ -131,6 +134,7 @@ class CaseRepository:
         if not case:
             return None
         case["status"] = status
+        case["updated_at"] = datetime.now(timezone.utc).isoformat()
         stored = self._jsonable(case)
         self.local.upsert("cases", "id", stored)
         await self.supabase.upsert("cases", stored, on_conflict="id")
@@ -177,6 +181,32 @@ class CaseRepository:
         if domain:
             rows = [case for case in rows if case["domain"] == domain]
         return rows
+
+    async def list_analyses_for_user(self, user_id: str) -> list[dict]:
+        """Every case enriched with its agent-run results -- confidence,
+        which domains were actually analyzed, and how many runs completed
+        vs failed -- so "My Analyses" can show real status/confidence
+        instead of just the raw case record."""
+        cases = await self.list_cases(user_id)
+        analyses = []
+        for case in cases:
+            runs = [run for run in self._agent_runs.values() if run["case_id"] == case["id"]]
+            confidences = [
+                run["output"]["confidence"] for run in runs
+                if isinstance(run.get("output"), dict) and isinstance(run["output"].get("confidence"), (int, float))
+            ]
+            domains_involved = sorted({
+                run["output"].get("domain") for run in runs
+                if isinstance(run.get("output"), dict) and run["output"].get("domain")
+            }) or [case["domain"].value if hasattr(case["domain"], "value") else case["domain"]]
+            analyses.append({
+                **self._jsonable(case),
+                "avg_confidence": round(sum(confidences) / len(confidences), 3) if confidences else None,
+                "run_count": len(runs),
+                "completed_runs": sum(1 for run in runs if run.get("status") == "completed"),
+                "domains_involved": domains_involved,
+            })
+        return sorted(analyses, key=lambda a: a.get("updated_at") or a.get("created_at") or "", reverse=True)
 
     async def add_document(self, document: dict) -> dict:
         document.setdefault("created_at", datetime.now(timezone.utc).isoformat())

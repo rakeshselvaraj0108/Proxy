@@ -43,11 +43,66 @@ async def _save_appeals_for_domain(user_id: str, case_id: str, domain_value: str
     return saved
 
 
+async def _create_analysis_case(user_id: str, case_id: str, primary_domain, query: str, institution_name: str) -> None:
+    """Every multi-domain query becomes a real, listable Case -- previously
+    only appeals/documents persisted anything, so "My Analyses" would be
+    empty for the primary interaction path (the AI Assistant) even though
+    real multi-agent analysis work was happening on every query."""
+    if not user_id:
+        return
+    from app.database.postgres.repositories import case_repository
+    from app.schemas.cases import CaseCreate, CaseStatus
+
+    query_snippet = query[:120] + ("..." if len(query) > 120 else "")
+    await case_repository.create_case(
+        user_id,
+        CaseCreate(
+            domain=primary_domain,
+            title=query_snippet or "Untitled analysis",
+            institution_name=institution_name or "Not specified",
+            summary=query or query_snippet,
+        ),
+        case_id=case_id,
+    )
+    await case_repository.update_case_status(case_id, CaseStatus.ANALYZING)
+
+
+async def _record_analysis_runs(user_id: str, case_id: str, per_domain_results: list[dict], query: str) -> None:
+    if not user_id:
+        return
+    from app.database.postgres.repositories import case_repository
+    from app.schemas.cases import CaseStatus
+
+    any_succeeded = False
+    for entry in per_domain_results:
+        state = entry["state"]
+        final = state.get("final_report") or state.get("final_answer")
+        succeeded = bool(final)
+        any_succeeded = any_succeeded or succeeded
+        await case_repository.add_agent_run(
+            case_id,
+            f"multi_domain:{entry['domain']}",
+            status="completed" if succeeded else "failed",
+            input_payload={"query": query, "domain": entry["domain"]},
+            output_payload={
+                "domain": entry["domain"],
+                "confidence": entry["confidence"],
+                "route": state.get("route"),
+                "citations": len(state.get("structured_citations") or []),
+            },
+        )
+    await case_repository.update_case_status(
+        case_id, CaseStatus.REVIEW_REQUIRED if any_succeeded else CaseStatus.ANALYZING
+    )
+
+
 async def run_multi_domain_case(base_state: dict, save_appeals: bool = False) -> dict:
     query = base_state.get("case_summary", "")
     user_id = base_state.get("user_id", "")
     candidates = classify_domains(query)
     base_case_id = base_state.get("case_id", "case")
+
+    await _create_analysis_case(user_id, base_case_id, candidates[0]["domain"], query, base_state.get("institution_name", ""))
 
     async def run_for_candidate(candidate: dict) -> dict:
         domain = candidate["domain"]
@@ -60,6 +115,7 @@ async def run_multi_domain_case(base_state: dict, save_appeals: bool = False) ->
         return {"domain": domain.value, "confidence": candidate["confidence"], "state": result, "appeals": appeals}
 
     per_domain_results = await asyncio.gather(*(run_for_candidate(c) for c in candidates))
+    await _record_analysis_runs(user_id, base_case_id, per_domain_results, query)
 
     combined_citations: list[dict] = []
     combined_summaries: list[str] = []

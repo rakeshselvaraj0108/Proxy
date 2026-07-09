@@ -44,17 +44,6 @@ function normalizeAnalysis(payload: unknown, id: string): Analysis {
   };
 }
 
-export async function listAnalyses(): Promise<Analysis[]> {
-  try {
-    const payload = await request<unknown>("/history");
-    if (Array.isArray(payload)) return payload.map((item, index) => normalizeAnalysis(item, `AN-${index + 1}`));
-    const rows = (payload as { cases?: unknown[]; analyses?: unknown[] }).analyses ?? (payload as { cases?: unknown[] }).cases;
-    return rows?.map((item, index) => normalizeAnalysis(item, `AN-${index + 1}`)) ?? analyses;
-  } catch {
-    return analyses;
-  }
-}
-
 export async function getAnalysis(id: string): Promise<Analysis> {
   try {
     return normalizeAnalysis(await request(`/case/${id}`), id);
@@ -274,4 +263,34 @@ export async function getReportSummary(): Promise<ReportSummary> {
 
 export async function getCaseReport(caseId: string): Promise<CaseReportData> {
   return request(`/reports/case/${caseId}`, { method: "GET" });
+}
+
+export type CaseStatus = "draft" | "intake" | "analyzing" | "review_required" | "ready_for_approval" | "submitted" | "resolved" | "closed";
+
+export interface AnalysisCase {
+  id: string;
+  user_id: string;
+  domain: string;
+  title: string;
+  institution_name: string;
+  summary: string;
+  jurisdiction: string;
+  status: CaseStatus;
+  created_at: string;
+  updated_at: string;
+  avg_confidence: number | null;
+  run_count: number;
+  completed_runs: number;
+  domains_involved: string[];
+}
+
+export async function listAnalyses(): Promise<AnalysisCase[]> {
+  return request("/cases/analyses", { method: "GET" });
+}
+
+export async function updateCaseStatus(caseId: string, status: CaseStatus): Promise<AnalysisCase> {
+  return request(`/cases/${caseId}/status`, {
+    method: "PATCH",
+    body: JSON.stringify({ status }),
+  });
 }
