@@ -5,13 +5,14 @@ import { useRouter } from "next/navigation";
 import {
   Send, Loader2, ArrowUpRight, FileStack, Scale, FileText, TrendingUp,
   Activity, Upload, Search, Bot, ClipboardList, Network, Gauge, PenLine,
-  FileCheck2, ArrowUpCircle, Radio, Command,
+  FileCheck2, ArrowUpCircle, Radio, Command, Zap,
 } from "lucide-react";
 import {
   classifyQuery, getReportSummary, listAnalyses,
   type DomainCandidate, type ReportSummary, type AnalysisCase,
 } from "@/lib/api-client";
-import { DOMAIN_THEME, domainTheme } from "@/components/chat/domain-theme";
+import { domainTheme, DOMAIN_THEME } from "@/components/chat/domain-theme";
+import { DomainOrbit } from "./DomainOrbit";
 
 const DOMAIN_PROMPTS: Record<string, string> = {
   health_insurance: "My health insurance claim was denied for a pre-existing condition exclusion.",
@@ -49,17 +50,24 @@ function useCountUp(target: number, durationMs = 900) {
   useEffect(() => {
     let frame: number;
     const start = performance.now();
-    const from = 0;
     function tick(now: number) {
       const progress = Math.min(1, (now - start) / durationMs);
       const eased = 1 - Math.pow(1 - progress, 3);
-      setValue(Math.round(from + (target - from) * eased));
+      setValue(Math.round(target * eased));
       if (progress < 1) frame = requestAnimationFrame(tick);
     }
     frame = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(frame);
   }, [target, durationMs]);
   return value;
+}
+
+function Reveal({ delay = 0, className = "", children }: { delay?: number; className?: string; children: React.ReactNode }) {
+  return (
+    <div className={className} style={{ animation: `revealUp .7s cubic-bezier(.16,1,.3,1) ${delay}ms both` }}>
+      {children}
+    </div>
+  );
 }
 
 export function DashboardHome() {
@@ -111,45 +119,53 @@ export function DashboardHome() {
     return values.length ? values.reduce((s, c) => s + c, 0) / values.length : null;
   }, [analyses]);
 
-  const recentAnalyses = analyses.slice(0, 5);
+  const recentAnalyses = analyses.slice(0, 6);
   const greeting = now.getHours() < 12 ? "Good morning" : now.getHours() < 18 ? "Good afternoon" : "Good evening";
   const backendOnline = summary !== null;
 
+  function openDomain(domain: string) {
+    router.push(`/dashboard/assistant?q=${encodeURIComponent(DOMAIN_PROMPTS[domain] ?? "")}`);
+  }
+
   return (
-    <div className="flex flex-1 flex-col gap-5">
-      <HeroComposer greeting={greeting} now={now} backendOnline={backendOnline} />
+    <div className="flex flex-1 flex-col gap-4">
+      <Reveal delay={0}>
+        <HeroComposer greeting={greeting} now={now} backendOnline={backendOnline} />
+      </Reveal>
 
-      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
-        <KpiCard icon={FileStack} label="Cases" value={summary?.totals.cases ?? 0} accent="#00e5ff" loading={loading} />
-        <KpiCard icon={Scale} label="Appeals Generated" value={summary?.totals.appeals ?? 0} accent="#9b5cff" loading={loading} />
-        <KpiCard icon={FileText} label="Documents" value={summary?.totals.documents ?? 0} accent="#37f29a" loading={loading} />
-        <KpiCard
-          icon={TrendingUp}
-          label="Resolution Rate"
-          value={summary?.resolution_rate !== null && summary?.resolution_rate !== undefined ? Math.round(summary.resolution_rate * 100) : 0}
-          suffix="%"
-          accent="#ffc857"
-          loading={loading}
-        />
-        <KpiCard
-          icon={Radio}
-          label="Agent Runs"
-          value={totalRuns}
-          accent="#ff6fb0"
-          loading={loading}
-          footnote={overallConfidence !== null ? `${Math.round(overallConfidence * 100)}% avg confidence` : undefined}
-        />
-      </div>
+      <Reveal delay={80}>
+        <div className="grid gap-4 xl:grid-cols-[1.05fr_.95fr]">
+          <section className="flex flex-col rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
+            <div className="mb-1 flex items-center justify-between">
+              <div>
+                <h2 className="text-lg font-semibold">Domain orbit</h2>
+                <p className="mt-0.5 text-xs text-proxy-muted">Live activity across all 8 specialist domains -- click a node to launch a focused analysis.</p>
+              </div>
+            </div>
+            <DomainOrbit stats={domainStats} overallConfidence={overallConfidence} totalRuns={totalRuns} onSelect={openDomain} />
+          </section>
 
-      <DomainCockpit stats={domainStats} loading={loading} onOpen={(domain) => router.push(`/dashboard/assistant?q=${encodeURIComponent(DOMAIN_PROMPTS[domain] ?? "")}`)} />
+          <StatRail summary={summary} totalRuns={totalRuns} overallConfidence={overallConfidence} loading={loading} />
+        </div>
+      </Reveal>
 
-      <div className="grid gap-4 xl:grid-cols-[1.15fr_.85fr]">
+      <Reveal delay={140}>
         <RecentAnalysesRail analyses={recentAnalyses} loading={loading} onViewAll={() => router.push("/dashboard/analyses")} />
-        <div className="flex flex-col gap-4">
+      </Reveal>
+
+      <Reveal delay={200}>
+        <div className="grid gap-4 xl:grid-cols-[.62fr_.38fr]">
           <QuickActions />
           <ActivityFeed events={summary?.recent_activity ?? []} loading={loading} />
         </div>
-      </div>
+      </Reveal>
+
+      <style jsx global>{`
+        @keyframes revealUp {
+          from { opacity: 0; transform: translateY(10px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+      `}</style>
     </div>
   );
 }
@@ -197,20 +213,24 @@ function HeroComposer({ greeting, now, backendOnline }: { greeting: string; now:
   }
 
   return (
-    <section className="relative overflow-hidden rounded-2xl border border-cyan-300/20 bg-glass p-5 shadow-glow-cyan backdrop-blur-2xl sm:p-7">
+    <section className="relative overflow-hidden rounded-2xl border border-cyan-300/20 bg-glass p-5 shadow-glow-cyan backdrop-blur-2xl sm:p-8">
       <div className="hero-aurora pointer-events-none absolute inset-0 -z-10" />
-      <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+      <div className="hero-orb pointer-events-none absolute -right-24 -top-24 -z-10 size-72 rounded-full" />
+
+      <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
         <div>
-          <p className="flex items-center gap-2 text-xs uppercase tracking-[.22em] text-cyan-200">
-            <span className={`size-1.5 rounded-full ${backendOnline ? "bg-green-300" : "bg-red-300"}`} />
-            {backendOnline ? "All systems online" : "Backend unreachable"}
-          </p>
-          <h1 className="mt-2 text-2xl font-semibold sm:text-3xl">{greeting}, Rakesh</h1>
-          <p className="mt-1 text-sm text-proxy-muted">
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-black/30 px-3 py-1">
+            <span className={`size-1.5 rounded-full ${backendOnline ? "bg-green-300 animate-pulse" : "bg-red-300"}`} />
+            <span className="text-[10px] uppercase tracking-[.2em] text-cyan-200">
+              {backendOnline ? "All systems online" : "Backend unreachable"}
+            </span>
+          </div>
+          <h1 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">{greeting}, Rakesh</h1>
+          <p className="mt-1.5 text-sm text-proxy-muted">
             8 domain specialists standing by &middot; parallel multi-agent reasoning &middot; every claim cited
           </p>
         </div>
-        <div className="rounded-xl border border-white/10 bg-black/25 px-4 py-2.5 text-right">
+        <div className="shrink-0 rounded-xl border border-white/10 bg-black/25 px-4 py-2.5 text-right">
           <p className="font-mono text-lg text-proxy-text">{now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })}</p>
           <p className="text-[11px] text-proxy-tertiary">{now.toLocaleDateString([], { weekday: "long", month: "short", day: "numeric" })}</p>
         </div>
@@ -235,7 +255,8 @@ function HeroComposer({ greeting, now, backendOnline }: { greeting: string; now:
       )}
 
       <div className="composer-glow flex items-end gap-2 rounded-2xl p-[1.5px]">
-        <div className="flex w-full items-end gap-2 rounded-2xl bg-[#07080b] p-2">
+        <div className="flex w-full items-end gap-2 rounded-2xl bg-[#07080b] p-2.5">
+          <Zap className="mb-2.5 ml-1 size-4 shrink-0 text-cyan-300/70" />
           <textarea
             ref={textareaRef}
             value={input}
@@ -248,7 +269,7 @@ function HeroComposer({ greeting, now, backendOnline }: { greeting: string; now:
             }}
             placeholder="Describe your issue -- across any domain, or several at once... (Ctrl/Cmd+K)"
             rows={1}
-            className="max-h-32 flex-1 resize-none bg-transparent px-2 py-2.5 text-sm text-proxy-text outline-none placeholder:text-proxy-tertiary"
+            className="max-h-32 flex-1 resize-none bg-transparent px-1 py-2.5 text-sm text-proxy-text outline-none placeholder:text-proxy-tertiary"
           />
           <button
             onClick={launch}
@@ -267,6 +288,15 @@ function HeroComposer({ greeting, now, backendOnline }: { greeting: string; now:
         .hero-aurora {
           background: radial-gradient(circle at 8% -10%, rgba(0, 229, 255, 0.14), transparent 40%),
             radial-gradient(circle at 95% 0%, rgba(155, 92, 255, 0.12), transparent 45%);
+        }
+        .hero-orb {
+          background: radial-gradient(circle, rgba(0, 229, 255, 0.16), transparent 70%);
+          filter: blur(10px);
+          animation: float 8s ease-in-out infinite;
+        }
+        @keyframes float {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(14px); }
         }
         .composer-glow {
           background: linear-gradient(120deg, rgba(0, 229, 255, 0.5), rgba(155, 92, 255, 0.5), rgba(0, 229, 255, 0.5));
@@ -287,77 +317,72 @@ function HeroComposer({ greeting, now, backendOnline }: { greeting: string; now:
   );
 }
 
-function KpiCard({
-  icon: Icon, label, value, accent, suffix = "", loading, footnote,
+function StatRail({
+  summary, totalRuns, overallConfidence, loading,
+}: {
+  summary: ReportSummary | null;
+  totalRuns: number;
+  overallConfidence: number | null;
+  loading: boolean;
+}) {
+  const rows = [
+    { icon: FileStack, label: "Cases", value: summary?.totals.cases ?? 0, accent: "#00e5ff", suffix: "" },
+    { icon: Scale, label: "Appeals Generated", value: summary?.totals.appeals ?? 0, accent: "#9b5cff", suffix: "" },
+    { icon: FileText, label: "Documents", value: summary?.totals.documents ?? 0, accent: "#37f29a", suffix: "" },
+    {
+      icon: TrendingUp,
+      label: "Resolution Rate",
+      value: summary?.resolution_rate !== null && summary?.resolution_rate !== undefined ? Math.round(summary.resolution_rate * 100) : 0,
+      accent: "#ffc857",
+      suffix: "%",
+    },
+    { icon: Radio, label: "Agent Runs", value: totalRuns, accent: "#ff6fb0", suffix: "", footnote: overallConfidence !== null ? `${Math.round(overallConfidence * 100)}% avg confidence` : undefined },
+  ];
+  const maxValue = Math.max(1, ...rows.map((r) => (r.suffix === "%" ? 100 : r.value)));
+
+  return (
+    <section className="flex flex-col justify-center rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
+      <p className="mb-3 text-xs font-medium uppercase tracking-[0.16em] text-proxy-tertiary">Snapshot</p>
+      <div className="flex flex-col divide-y divide-white/5">
+        {rows.map((row) => (
+          <StatRailRow key={row.label} {...row} loading={loading} pct={row.suffix === "%" ? row.value : Math.min(100, (row.value / maxValue) * 100)} />
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function StatRailRow({
+  icon: Icon, label, value, accent, suffix, footnote, loading, pct,
 }: {
   icon: typeof FileStack;
   label: string;
   value: number;
   accent: string;
-  suffix?: string;
-  loading: boolean;
+  suffix: string;
   footnote?: string;
+  loading: boolean;
+  pct: number;
 }) {
   const animated = useCountUp(loading ? 0 : value);
   return (
-    <div className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl transition-colors hover:border-white/20">
-      <div className="mb-3 grid size-9 place-items-center rounded-xl border" style={{ borderColor: `${accent}40`, backgroundColor: `${accent}15` }}>
-        <Icon className="size-4" style={{ color: accent }} />
+    <div className="flex items-center gap-3 py-2.5 first:pt-0 last:pb-0">
+      <div className="grid size-8 shrink-0 place-items-center rounded-lg border" style={{ borderColor: `${accent}40`, backgroundColor: `${accent}15` }}>
+        <Icon className="size-3.5" style={{ color: accent }} />
       </div>
-      <p className="text-2xl font-semibold text-proxy-text">
-        {loading ? <Loader2 className="size-5 animate-spin text-proxy-tertiary" /> : `${animated}${suffix}`}
-      </p>
-      <p className="text-xs text-proxy-tertiary">{label}</p>
-      {footnote && !loading && <p className="mt-1 text-[10px] text-proxy-tertiary">{footnote}</p>}
-    </div>
-  );
-}
-
-function DomainCockpit({
-  stats, loading, onOpen,
-}: {
-  stats: Array<{ domain: string; count: number; avgConfidence: number | null }>;
-  loading: boolean;
-  onOpen: (domain: string) => void;
-}) {
-  return (
-    <section className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
-      <div className="mb-4 flex items-center justify-between">
-        <div>
-          <h2 className="text-lg font-semibold">Domain cockpit</h2>
-          <p className="mt-0.5 text-xs text-proxy-muted">Live activity across all 8 specialist domains -- tap one to start a focused analysis.</p>
+      <div className="min-w-0 flex-1">
+        <div className="flex items-baseline justify-between gap-2">
+          <span className="text-xs text-proxy-muted">{label}</span>
+          <span className="text-sm font-semibold text-proxy-text">
+            {loading ? <Loader2 className="size-3.5 animate-spin text-proxy-tertiary" /> : `${animated}${suffix}`}
+          </span>
         </div>
+        <div className="mt-1.5 h-1 overflow-hidden rounded-full bg-white/5">
+          <div className="h-full rounded-full transition-all duration-700" style={{ width: loading ? "0%" : `${pct}%`, backgroundColor: accent }} />
+        </div>
+        {footnote && !loading && <p className="mt-1 text-[10px] text-proxy-tertiary">{footnote}</p>}
       </div>
-      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-        {stats.map(({ domain, count, avgConfidence }) => {
-          const theme = domainTheme(domain);
-          return (
-            <button
-              key={domain}
-              onClick={() => onOpen(domain)}
-              className="motion-card group rounded-xl border border-white/10 bg-black/20 p-4 text-left transition-colors hover:border-white/25"
-              style={{ borderLeftColor: theme.color, borderLeftWidth: 3 }}
-            >
-              <div className="mb-2 flex items-center justify-between">
-                <p className="text-sm font-medium text-proxy-text">{theme.label}</p>
-                <ArrowUpRight className="size-3.5 text-proxy-tertiary opacity-0 transition-opacity group-hover:opacity-100" />
-              </div>
-              <div className="flex items-end justify-between">
-                <div>
-                  <p className="text-xl font-semibold" style={{ color: theme.color }}>{loading ? "-" : count}</p>
-                  <p className="text-[10px] text-proxy-tertiary">analyses</p>
-                </div>
-                {avgConfidence !== null && (
-                  <span className="rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-proxy-muted">
-                    {Math.round(avgConfidence * 100)}% conf.
-                  </span>
-                )}
-              </div>
-            </button>
-          );
-        })}
-      </div>
-    </section>
+    </div>
   );
 }
 
@@ -371,7 +396,10 @@ function RecentAnalysesRail({
   return (
     <section className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
       <div className="mb-4 flex items-center justify-between">
-        <h2 className="text-lg font-semibold">Recent analyses</h2>
+        <div>
+          <h2 className="text-lg font-semibold">Recent analyses</h2>
+          <p className="mt-0.5 text-xs text-proxy-muted">Your latest multi-agent runs, freshest first.</p>
+        </div>
         <button onClick={onViewAll} className="inline-flex items-center gap-1 text-xs text-cyan-200 hover:text-cyan-100">
           View all <ArrowUpRight className="size-3.5" />
         </button>
@@ -385,31 +413,31 @@ function RecentAnalysesRail({
           <p className="max-w-xs text-xs text-proxy-tertiary">Ask a question above to run your first multi-agent analysis.</p>
         </div>
       ) : (
-        <div className="space-y-2">
+        <div className="-mx-1 flex snap-x gap-3 overflow-x-auto px-1 pb-1">
           {analyses.map((analysis) => {
             const theme = domainTheme(analysis.domains_involved[0] ?? analysis.domain);
             return (
               <button
                 key={analysis.id}
                 onClick={onViewAll}
-                className="flex w-full items-center gap-3 rounded-xl border border-white/10 p-3 text-left transition-colors hover:border-cyan-300/30 hover:bg-cyan-300/[0.04]"
-                style={{ borderLeftColor: theme.color, borderLeftWidth: 3 }}
+                className="motion-card w-64 shrink-0 snap-start rounded-xl border border-white/10 bg-black/20 p-3.5 text-left transition-colors hover:border-cyan-300/30 hover:bg-cyan-300/[0.04]"
+                style={{ borderTopColor: theme.color, borderTopWidth: 3 }}
               >
-                <div className="min-w-0 flex-1">
-                  <p className="truncate text-xs font-medium text-proxy-text">{analysis.title}</p>
-                  <div className="mt-1 flex flex-wrap items-center gap-1.5">
-                    {analysis.domains_involved.map((d) => {
-                      const t = domainTheme(d);
-                      return <span key={d} className="rounded-full px-1.5 py-0.5 text-[9px]" style={{ backgroundColor: `${t.color}1a`, color: t.color }}>{t.label}</span>;
-                    })}
-                  </div>
+                <p className="line-clamp-2 min-h-9 text-xs font-medium text-proxy-text">{analysis.title}</p>
+                <div className="mt-2 flex flex-wrap gap-1">
+                  {analysis.domains_involved.slice(0, 2).map((d) => {
+                    const t = domainTheme(d);
+                    return <span key={d} className="rounded-full px-1.5 py-0.5 text-[9px]" style={{ backgroundColor: `${t.color}1a`, color: t.color }}>{t.label}</span>;
+                  })}
                 </div>
-                <span className="shrink-0 text-[10px] text-proxy-tertiary">{timeAgo(analysis.updated_at)}</span>
-                {analysis.avg_confidence !== null && (
-                  <span className="shrink-0 rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-proxy-muted">
-                    {Math.round(analysis.avg_confidence * 100)}%
-                  </span>
-                )}
+                <div className="mt-3 flex items-center justify-between border-t border-white/5 pt-2.5">
+                  <span className="text-[10px] text-proxy-tertiary">{timeAgo(analysis.updated_at)}</span>
+                  {analysis.avg_confidence !== null && (
+                    <span className="rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-proxy-muted">
+                      {Math.round(analysis.avg_confidence * 100)}%
+                    </span>
+                  )}
+                </div>
               </button>
             );
           })}
@@ -432,17 +460,21 @@ function QuickActions() {
   return (
     <section className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
       <h2 className="mb-3 text-lg font-semibold">Quick actions</h2>
-      <div className="grid grid-cols-2 gap-2.5">
+      <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3">
         {actions.map((action) => (
           <button
             key={action.label}
             onClick={() => router.push(action.href)}
-            className="motion-card group flex flex-col items-start gap-2 rounded-xl border border-white/10 bg-black/20 p-3 text-left transition-colors hover:border-white/25"
+            className="motion-card group relative flex flex-col items-start gap-2 overflow-hidden rounded-xl border border-white/10 bg-black/20 p-3 text-left transition-colors hover:border-white/25"
           >
-            <div className="grid size-8 place-items-center rounded-lg border" style={{ borderColor: `${action.accent}40`, backgroundColor: `${action.accent}15` }}>
+            <div
+              className="pointer-events-none absolute -right-6 -top-6 size-16 rounded-full opacity-0 blur-xl transition-opacity duration-300 group-hover:opacity-100"
+              style={{ backgroundColor: action.accent }}
+            />
+            <div className="relative grid size-8 place-items-center rounded-lg border" style={{ borderColor: `${action.accent}40`, backgroundColor: `${action.accent}15` }}>
               <action.icon className="size-4" style={{ color: action.accent }} />
             </div>
-            <div>
+            <div className="relative">
               <p className="text-xs font-medium text-proxy-text">{action.label}</p>
               <p className="mt-0.5 text-[10px] leading-4 text-proxy-tertiary">{action.desc}</p>
             </div>
@@ -455,22 +487,27 @@ function QuickActions() {
 
 function ActivityFeed({ events, loading }: { events: ReportSummary["recent_activity"]; loading: boolean }) {
   return (
-    <section className="flex-1 rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
+    <section className="flex flex-col rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
       <div className="mb-3 flex items-center gap-2">
         <h2 className="text-lg font-semibold">Live activity</h2>
-        {!loading && events.length > 0 && <span className="size-1.5 animate-pulse rounded-full bg-green-300" />}
+        {!loading && events.length > 0 && (
+          <span className="inline-flex items-center gap-1 rounded-full border border-green-300/25 bg-green-300/10 px-2 py-0.5 text-[9px] uppercase tracking-wide text-green-200">
+            <span className="size-1.5 animate-pulse rounded-full bg-green-300" /> Live
+          </span>
+        )}
       </div>
       {loading ? (
         <div className="flex h-32 items-center justify-center"><Loader2 className="size-5 animate-spin text-proxy-tertiary" /></div>
       ) : events.length === 0 ? (
         <p className="text-xs text-proxy-tertiary">No activity yet.</p>
       ) : (
-        <div className="max-h-72 space-y-3 overflow-y-auto pr-1">
+        <div className="relative max-h-72 space-y-4 overflow-y-auto pl-1 pr-1">
+          <div className="absolute bottom-1 left-[15px] top-1 w-px bg-gradient-to-b from-white/10 via-white/5 to-transparent" />
           {events.map((event) => {
             const Icon = EVENT_ICON[event.event_type] ?? Activity;
             return (
-              <div key={event.id} className="flex items-start gap-2.5">
-                <div className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border border-white/10 bg-black/30">
+              <div key={event.id} className="relative flex items-start gap-3">
+                <div className="relative z-10 mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border border-white/10 bg-[#0a0b10]">
                   <Icon className="size-3 text-cyan-200" />
                 </div>
                 <div className="min-w-0 flex-1">
