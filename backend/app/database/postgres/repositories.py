@@ -136,6 +136,29 @@ class CaseRepository:
         await self.supabase.upsert("cases", stored, on_conflict="id")
         return case
 
+    _VAULT_TITLE = "Document Vault"
+
+    async def get_or_create_vault_case(self, user_id: str, domain: Domain) -> dict:
+        """A stable, lazily-created case per (user, domain) for documents
+        uploaded from the Document Vault UI rather than a specific dispute
+        case -- so uploading a file only ever requires picking a domain, not
+        first filling out a full case-creation form (title/institution/
+        summary), while every upload still has a real case to attach to
+        (indexing, knowledge-graph registration, and storage paths all key
+        off case_id)."""
+        existing = [
+            case for case in self._cases.values()
+            if case["user_id"] == user_id and case["domain"] == domain and case.get("title") == self._VAULT_TITLE
+        ]
+        if existing:
+            return existing[0]
+        return await self.create_case(user_id, CaseCreate(
+            domain=domain,
+            title=self._VAULT_TITLE,
+            institution_name="Not specified",
+            summary=f"Documents uploaded to the {domain.value} document vault, not tied to a specific dispute case.",
+        ))
+
     async def get_case(self, case_id: str, user_id: str) -> dict | None:
         case = self._cases.get(case_id)
         if case and case["user_id"] == user_id:
@@ -156,6 +179,7 @@ class CaseRepository:
         return rows
 
     async def add_document(self, document: dict) -> dict:
+        document.setdefault("created_at", datetime.now(timezone.utc).isoformat())
         self._documents[document["document_id"]] = document
         stored = self._jsonable(document)
         self.local.upsert("case_documents", "document_id", stored)
@@ -174,6 +198,19 @@ class CaseRepository:
 
     async def list_documents(self, case_id: str) -> list[dict]:
         return [document for document in self._documents.values() if document["case_id"] == case_id]
+
+    async def list_documents_for_user(self, user_id: str) -> list[dict]:
+        documents = [document for document in self._documents.values() if document["user_id"] == user_id]
+        return sorted(documents, key=lambda d: d.get("created_at") or "", reverse=True)
+
+    async def delete_document(self, document_id: str, user_id: str) -> bool:
+        document = self._documents.get(document_id)
+        if not document or document["user_id"] != user_id:
+            return False
+        del self._documents[document_id]
+        self.local.write("case_documents", [self._jsonable(d) for d in self._documents.values()])
+        await self.supabase.delete("case_documents", {"id": document_id})
+        return True
 
     async def add_event(self, case_id: str, event: dict) -> dict:
         record = {"id": str(uuid4()), "case_id": case_id, **event}

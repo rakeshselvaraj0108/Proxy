@@ -55,6 +55,15 @@ class SupabaseGateway:
         rows = getattr(result, "data", None) or []
         return rows[0] if rows else payload
 
+    async def delete(self, table: str, filters: dict) -> None:
+        client = self.client()
+        if client is None:
+            return
+        query = client.table(table).delete()
+        for key, value in filters.items():
+            query = query.eq(key, value)
+        query.execute()
+
     async def select(self, table: str, filters: dict | None = None, limit: int | None = None) -> list[dict]:
         client = self.client()
         if client is None:

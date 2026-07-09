@@ -173,3 +173,64 @@ export async function updateAppealStatus(appealId: string, status: Appeal["statu
     body: JSON.stringify({ status }),
   });
 }
+
+export interface VaultDocument {
+  id: string;
+  document_id: string;
+  case_id: string;
+  filename: string;
+  mime_type: string | null;
+  size_bytes: number;
+  text_extract: string;
+  document_type: string;
+  domain: string | null;
+  indexed: boolean;
+  chunks_indexed: number;
+  created_at: string;
+}
+
+export async function listDocuments(): Promise<VaultDocument[]> {
+  return request("/upload/documents", { method: "GET" });
+}
+
+export async function deleteDocument(documentId: string): Promise<void> {
+  await request(`/upload/documents/${documentId}`, { method: "DELETE" });
+}
+
+export async function getDocumentSignedUrl(caseId: string, documentId: string): Promise<string> {
+  const result = await request<{ signed_url: string }>(`/upload/${caseId}/documents/${documentId}/signed-url`, { method: "GET" });
+  return result.signed_url;
+}
+
+export interface UploadProgressHandlers {
+  onProgress?: (percent: number) => void;
+}
+
+// Uses XMLHttpRequest instead of fetch() so upload progress is observable --
+// fetch's request-body progress isn't exposed in a way that works reliably
+// across browsers yet. Deliberately bypasses request()'s JSON Content-Type
+// default (must NOT be set for multipart/form-data -- the browser sets the
+// boundary itself), but still attaches the same bearer auth.
+export async function uploadDocument(domain: string, file: File, handlers?: UploadProgressHandlers): Promise<VaultDocument> {
+  return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open("POST", `${API_BASE}/upload/vault/${domain}`);
+    xhr.setRequestHeader("Authorization", `Bearer ${getDeviceUserId()}`);
+    xhr.upload.onprogress = (event) => {
+      if (event.lengthComputable && handlers?.onProgress) {
+        handlers.onProgress(Math.round((event.loaded / event.total) * 100));
+      }
+    };
+    xhr.onload = () => {
+      if (xhr.status >= 200 && xhr.status < 300) {
+        resolve(JSON.parse(xhr.responseText));
+      } else {
+        reject(new Error(`Upload failed: ${xhr.status} ${xhr.responseText}`));
+      }
+    };
+    xhr.onerror = () => reject(new Error("Upload failed: network error"));
+    const formData = new FormData();
+    formData.append("file", file);
+    xhr.send(formData);
+  });
+}

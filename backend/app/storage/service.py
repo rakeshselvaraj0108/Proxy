@@ -118,6 +118,7 @@ class StorageService:
                 case, user_id, document_id, safe_name, storage_path, text_extract, resolved_type
             )
 
+        domain = case.get("domain")
         document = {
             "id": document_id,
             "document_id": document_id,
@@ -125,11 +126,15 @@ class StorageService:
             "user_id": user_id,
             "filename": safe_name,
             "mime_type": file.content_type,
+            "size_bytes": len(raw),
             "storage_path": storage_path,
             "text_extract": text_extract,
             "document_type": resolved_type,
             "indexed": indexed,
             "chunks_indexed": chunks_indexed,
+            # Denormalized so the cross-case Document Vault (list_documents_for_user)
+            # can show a domain badge without a join against `cases`.
+            "domain": domain.value if hasattr(domain, "value") else domain,
         }
         await case_repository.add_document(document)
         return document
