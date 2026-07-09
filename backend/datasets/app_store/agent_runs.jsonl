@@ -67,3 +67,5 @@
 {"id": "a8366324-7334-4a7d-9d52-5669e1f61995", "case_id": "1026e724-c90e-4ab0-a6cc-c93afd6c0827", "workflow_name": "healthcare_case_workflow", "status": "completed", "input": {}, "output": {"appeal_draft": "Draft"}, "error": null}
 {"id": "e927d4fb-8653-4693-8806-b73bed444fee", "case_id": "dd6dac3b-155e-4da8-a002-e1b5c712bb10", "workflow_name": "healthcare_case_workflow", "status": "completed", "input": {}, "output": {"appeal_draft": "Draft"}, "error": null}
 {"id": "3891eb2d-0ee7-4786-8820-efc990eee8db", "case_id": "b11a9cab-662d-4962-bb56-7a2a59d44edc", "workflow_name": "healthcare_case_workflow", "status": "completed", "input": {}, "output": {"appeal_draft": "Draft"}, "error": null}
+{"id": "5d6a0545-7b3e-48be-b637-23ccf29e3960", "case_id": "6624dba2-bcd1-401a-80a9-10b7cd32ad72", "workflow_name": "healthcare_case_workflow", "status": "completed", "input": {}, "output": {"appeal_draft": "Draft"}, "error": null}
+{"id": "f8eebbc3-e12b-47d3-a05f-e3174bd056a2", "case_id": "0844aa26-4e37-47b4-8dcf-48e003ea10f5", "workflow_name": "healthcare_case_workflow", "status": "completed", "input": {}, "output": {"appeal_draft": "Draft"}, "error": null}

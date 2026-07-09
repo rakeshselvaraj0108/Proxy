@@ -17,6 +17,7 @@ import { ReasoningLanes } from "@/components/chat/ReasoningLanes";
 import { CitationConstellation } from "@/components/chat/CitationConstellation";
 import { markdownComponents } from "@/components/chat/markdown-components";
 import { ESTIMATED_STAGES } from "@/components/chat/pipeline";
+import { PREF_KEYS, getPref } from "@/lib/preferences";
 
 const DOMAIN_PROMPTS: Record<string, string> = {
   health_insurance: "My health insurance claim was denied for a pre-existing condition exclusion.",
@@ -55,7 +56,7 @@ interface DomainAnswer {
 
 export function NewAnalysisFlow() {
   const router = useRouter();
-  const [focusDomain, setFocusDomain] = useState("health_insurance");
+  const [focusDomain, setFocusDomain] = useState(() => getPref(PREF_KEYS.newAnalysisDefaultDomain, "health_insurance"));
   const [domainCounts, setDomainCounts] = useState<Record<string, number>>({});
   const [issueText, setIssueText] = useState("");
   const [livePreview, setLivePreview] = useState<DomainCandidate[]>([]);

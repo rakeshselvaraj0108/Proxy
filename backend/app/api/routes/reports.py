@@ -16,6 +16,26 @@ from app.database.postgres.repositories import case_repository
 router = APIRouter()
 
 
+@router.get("/events")
+async def list_events(limit: int = 30, before: str | None = None, user: CurrentUser = Depends(get_current_user)) -> list[dict]:
+    """Paginated real event feed for the Notifications page -- /summary's
+    recent_activity is capped at 20 and has no cursor, so it can't support
+    scroll-to-load-more or a multi-week activity heatmap."""
+    events = await case_repository.list_events_for_user(user.id, limit=limit, before=before)
+    return [
+        {
+            "id": event.get("id"),
+            "case_id": event.get("case_id"),
+            "event_type": event.get("event_type"),
+            "title": event.get("title"),
+            "body": event.get("body"),
+            "actor": event.get("actor"),
+            "created_at": event.get("created_at"),
+        }
+        for event in events
+    ]
+
+
 @router.get("/summary")
 async def report_summary(user: CurrentUser = Depends(get_current_user)) -> dict:
     cases = await case_repository.list_cases(user.id)

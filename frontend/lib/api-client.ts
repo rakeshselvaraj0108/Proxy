@@ -265,6 +265,36 @@ export async function getCaseReport(caseId: string): Promise<CaseReportData> {
   return request(`/reports/case/${caseId}`, { method: "GET" });
 }
 
+export type TimelineEvent = ReportSummary["recent_activity"][number];
+
+export async function getEvents(limit = 30, before?: string): Promise<TimelineEvent[]> {
+  const params = new URLSearchParams({ limit: String(limit) });
+  if (before) params.set("before", before);
+  return request(`/reports/events?${params.toString()}`, { method: "GET" });
+}
+
+export interface SystemHealth {
+  status: string;
+  service: string;
+  environment: string;
+  vector_store: { status: string; backend: string; collections?: number; total_points?: number };
+  graph_store: { status: string; backend: string; events?: number };
+  supabase: { status: string; url?: string };
+  gemini: { status: string };
+  llm: { provider: string; status: string; reasoning_model?: string; embedding_model?: string };
+  redis: { status: string; error?: string };
+  web_search: { status: string };
+}
+
+export async function getSystemHealth(): Promise<{ health: SystemHealth; latencyMs: number }> {
+  const root = API_BASE.replace(/\/api\/v1\/?$/, "");
+  const start = performance.now();
+  const response = await fetch(`${root}/health`, { cache: "no-store" });
+  const latencyMs = Math.round(performance.now() - start);
+  if (!response.ok) throw new Error(`API ${response.status}: ${await response.text()}`);
+  return { health: await response.json(), latencyMs };
+}
+
 export type CaseStatus = "draft" | "intake" | "analyzing" | "review_required" | "ready_for_approval" | "submitted" | "resolved" | "closed";
 
 export interface AnalysisCase {

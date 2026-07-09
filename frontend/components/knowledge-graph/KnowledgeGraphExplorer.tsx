@@ -13,6 +13,7 @@ import {
 } from "@/lib/api-client";
 import { DOMAIN_THEME, domainTheme } from "@/components/chat/domain-theme";
 import { GraphCanvas, type CanvasEdge, type CanvasNode } from "./GraphCanvas";
+import { PREF_KEYS, getPref } from "@/lib/preferences";
 
 type Tab = "case" | "institution" | "profile";
 
@@ -34,7 +35,7 @@ interface InstitutionPrefill {
 }
 
 export function KnowledgeGraphExplorer() {
-  const [tab, setTab] = useState<Tab>("case");
+  const [tab, setTab] = useState<Tab>(() => getPref(PREF_KEYS.kgDefaultTab, "case") as Tab);
   const [analyses, setAnalyses] = useState<AnalysisCase[]>([]);
   const [loadingAnalyses, setLoadingAnalyses] = useState(true);
   const [focusCaseId, setFocusCaseId] = useState<string | null>(null);
@@ -45,6 +46,18 @@ export function KnowledgeGraphExplorer() {
       .then(setAnalyses)
       .catch(() => {})
       .finally(() => setLoadingAnalyses(false));
+  }, []);
+
+  // Deep-link from Notifications (?case=<id>) -- opens straight into that
+  // case's graph instead of requiring the user to hunt for it in the list.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const caseId = params.get("case");
+    if (caseId) {
+      setFocusCaseId(caseId);
+      setTab("case");
+      window.history.replaceState({}, "", window.location.pathname);
+    }
   }, []);
 
   function openCase(caseId: string) {

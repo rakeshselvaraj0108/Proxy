@@ -265,9 +265,11 @@ class CaseRepository:
         ids |= {doc["case_id"] for doc in self._documents.values() if doc["user_id"] == user_id}
         return ids
 
-    async def list_events_for_user(self, user_id: str, limit: int = 50) -> list[dict]:
+    async def list_events_for_user(self, user_id: str, limit: int = 50, before: str | None = None) -> list[dict]:
         case_ids = self._user_case_ids(user_id)
         events = [event for event in self._events if event["case_id"] in case_ids]
+        if before:
+            events = [event for event in events if (event.get("created_at") or "") < before]
         return sorted(events, key=lambda e: e.get("created_at") or "", reverse=True)[:limit]
 
     async def add_agent_run(self, case_id: str, workflow_name: str, status: str, input_payload: dict, output_payload: dict, error: str | None = None) -> dict:
