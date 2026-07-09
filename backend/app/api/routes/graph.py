@@ -11,6 +11,14 @@ async def institution_patterns(domain: Domain, institution_name: str, _: Current
     return await knowledge_graph.find_institution_patterns(domain, institution_name)
 
 
+@router.get("/similar-cases")
+async def similar_cases(domain: Domain, institution_name: str, limit: int = 5, _: CurrentUser = Depends(get_current_user)) -> list[dict]:
+    """Other real cases (across all citizens) logged against this domain +
+    institution -- previously implemented on every GraphStore backend but
+    never exposed via a route."""
+    return await knowledge_graph.find_similar_cases(domain, institution_name, limit)
+
+
 @router.get("/citizen/{user_id}/profile")
 async def citizen_profile(user_id: str, current_user: CurrentUser = Depends(get_current_user)) -> dict:
     """Cross-domain traversal: every domain/institution/case linked to this

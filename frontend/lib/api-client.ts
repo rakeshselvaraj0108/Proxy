@@ -308,6 +308,19 @@ export async function getInstitutionPatterns(domain: string, institutionName: st
   });
 }
 
+export interface SimilarCase {
+  case_id: string;
+  title: string;
+  summary: string;
+}
+
+export async function getSimilarCases(domain: string, institutionName: string, limit = 5): Promise<SimilarCase[]> {
+  return request(
+    `/graph/similar-cases?domain=${encodeURIComponent(domain)}&institution_name=${encodeURIComponent(institutionName)}&limit=${limit}`,
+    { method: "GET" }
+  );
+}
+
 export interface CitizenDomainProfile {
   domain: string;
   case_count: number;

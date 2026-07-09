@@ -3,11 +3,12 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   Search, FileText, Scale, Building2, Layers, Loader2, Network, Users,
-  Landmark, X, ChevronRight, Sparkles, ScrollText,
+  Landmark, X, ChevronRight, Sparkles, ScrollText, Plus, TrendingUp, Clock,
 } from "lucide-react";
 import {
-  listAnalyses, getCaseReport, getInstitutionPatterns, getMyCitizenProfile,
-  type AnalysisCase, type CaseReportData, type InstitutionPattern, type CitizenProfile,
+  listAnalyses, getCaseReport, getInstitutionPatterns, getSimilarCases, getMyCitizenProfile,
+  type AnalysisCase, type CaseReportData, type InstitutionPattern, type SimilarCase,
+  type CitizenProfile, type CitizenDomainProfile,
 } from "@/lib/api-client";
 import { DOMAIN_THEME, domainTheme } from "@/components/chat/domain-theme";
 import { GraphCanvas, type CanvasEdge, type CanvasNode } from "./GraphCanvas";
@@ -26,10 +27,17 @@ function timeAgo(iso: string | null | undefined): string {
   return `${days}d ago`;
 }
 
+interface InstitutionPrefill {
+  domain: string;
+  institution: string;
+}
+
 export function KnowledgeGraphExplorer() {
   const [tab, setTab] = useState<Tab>("case");
   const [analyses, setAnalyses] = useState<AnalysisCase[]>([]);
   const [loadingAnalyses, setLoadingAnalyses] = useState(true);
+  const [focusCaseId, setFocusCaseId] = useState<string | null>(null);
+  const [institutionPrefill, setInstitutionPrefill] = useState<InstitutionPrefill | null>(null);
 
   useEffect(() => {
     listAnalyses()
@@ -37,6 +45,16 @@ export function KnowledgeGraphExplorer() {
       .catch(() => {})
       .finally(() => setLoadingAnalyses(false));
   }, []);
+
+  function openCase(caseId: string) {
+    setFocusCaseId(caseId);
+    setTab("case");
+  }
+
+  function openInstitution(domain: string, institution: string) {
+    setInstitutionPrefill({ domain, institution });
+    setTab("institution");
+  }
 
   return (
     <div className="flex min-h-[760px] flex-1 flex-col gap-4">
@@ -46,9 +64,9 @@ export function KnowledgeGraphExplorer() {
         <TabButton active={tab === "profile"} icon={Users} label="My Cross-Domain Profile" onClick={() => setTab("profile")} />
       </div>
 
-      {tab === "case" && <CaseGraphTab analyses={analyses} loading={loadingAnalyses} />}
-      {tab === "institution" && <InstitutionTab analyses={analyses} />}
-      {tab === "profile" && <ProfileTab />}
+      {tab === "case" && <CaseGraphTab analyses={analyses} loading={loadingAnalyses} focusCaseId={focusCaseId} onOpenInstitution={openInstitution} />}
+      {tab === "institution" && <InstitutionTab analyses={analyses} prefill={institutionPrefill} onOpenCase={openCase} />}
+      {tab === "profile" && <ProfileTab analyses={analyses} onOpenCase={openCase} onOpenInstitution={openInstitution} />}
     </div>
   );
 }
@@ -86,7 +104,14 @@ const CASE_GRAPH_LEGEND = [
   { label: "Appeal", color: "#9b5cff" },
 ];
 
-function CaseGraphTab({ analyses, loading }: { analyses: AnalysisCase[]; loading: boolean }) {
+function CaseGraphTab({
+  analyses, loading, focusCaseId, onOpenInstitution,
+}: {
+  analyses: AnalysisCase[];
+  loading: boolean;
+  focusCaseId: string | null;
+  onOpenInstitution: (domain: string, institution: string) => void;
+}) {
   const [search, setSearch] = useState("");
   const [selectedCaseId, setSelectedCaseId] = useState<string | null>(null);
   const [report, setReport] = useState<CaseReportData | null>(null);
@@ -96,6 +121,10 @@ function CaseGraphTab({ analyses, loading }: { analyses: AnalysisCase[]; loading
   useEffect(() => {
     if (analyses.length > 0 && !selectedCaseId) setSelectedCaseId(analyses[0].id);
   }, [analyses, selectedCaseId]);
+
+  useEffect(() => {
+    if (focusCaseId) setSelectedCaseId(focusCaseId);
+  }, [focusCaseId]);
 
   useEffect(() => {
     if (!selectedCaseId) return;
@@ -144,7 +173,19 @@ function CaseGraphTab({ analyses, loading }: { analyses: AnalysisCase[]; loading
         kind: "institution",
         label: caseData.institution_name || "Not specified",
         color: "#ffc857",
-        detail: <DetailRow label="Institution" value={caseData.institution_name || "Not specified"} />,
+        detail: (
+          <>
+            <DetailRow label="Institution" value={caseData.institution_name || "Not specified"} />
+            {caseData.institution_name && caseData.institution_name !== "Not specified" && (
+              <button
+                onClick={() => onOpenInstitution(caseData.domain, caseData.institution_name)}
+                className="inline-flex items-center gap-1.5 rounded-lg border border-amber-300/25 bg-amber-300/10 px-3 py-1.5 text-xs text-amber-100 hover:bg-amber-300/15"
+              >
+                <Landmark className="size-3.5" /> Explore this institution
+              </button>
+            )}
+          </>
+        ),
       },
       ...report.documents.map((doc) => ({
         id: `doc-${doc.id}`,
@@ -294,12 +335,50 @@ function DetailRow({ label, value }: { label: string; value: string }) {
 /* Institution Intelligence                                                */
 /* ---------------------------------------------------------------------- */
 
-function InstitutionTab({ analyses }: { analyses: AnalysisCase[] }) {
-  const [domain, setDomain] = useState("health_insurance");
-  const [institution, setInstitution] = useState("");
-  const [patterns, setPatterns] = useState<InstitutionPattern[] | null>(null);
+interface InstitutionSlot {
+  domain: string;
+  institution: string;
+}
+
+interface InstitutionResult {
+  patterns: InstitutionPattern[];
+  similar: SimilarCase[];
+  avgConfidence: number | null;
+}
+
+const RECENT_QUERIES_KEY = "proxy:kg-institution-recent";
+
+function loadRecentQueries(): InstitutionSlot[] {
+  if (typeof window === "undefined") return [];
+  try {
+    return JSON.parse(window.localStorage.getItem(RECENT_QUERIES_KEY) ?? "[]");
+  } catch {
+    return [];
+  }
+}
+
+function InstitutionTab({
+  analyses, prefill, onOpenCase,
+}: {
+  analyses: AnalysisCase[];
+  prefill: InstitutionPrefill | null;
+  onOpenCase: (caseId: string) => void;
+}) {
+  const [slots, setSlots] = useState<InstitutionSlot[]>([{ domain: "health_insurance", institution: "" }]);
+  const [results, setResults] = useState<Record<number, InstitutionResult | null>>({});
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [recent, setRecent] = useState<InstitutionSlot[]>([]);
+
+  useEffect(() => setRecent(loadRecentQueries()), []);
+
+  useEffect(() => {
+    if (prefill) {
+      setSlots([{ domain: prefill.domain, institution: prefill.institution }]);
+      window.setTimeout(() => runSearch([{ domain: prefill.domain, institution: prefill.institution }]), 0);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [prefill]);
 
   const knownInstitutions = useMemo(() => {
     const set = new Set<string>();
@@ -307,56 +386,137 @@ function InstitutionTab({ analyses }: { analyses: AnalysisCase[] }) {
     return Array.from(set);
   }, [analyses]);
 
-  async function search() {
-    if (!institution.trim()) return;
+  function updateSlot(index: number, patch: Partial<InstitutionSlot>) {
+    setSlots((current) => current.map((slot, i) => (i === index ? { ...slot, ...patch } : slot)));
+  }
+
+  function addComparison() {
+    if (slots.length >= 2) return;
+    setSlots((current) => [...current, { domain: "health_insurance", institution: "" }]);
+  }
+
+  function removeSlot(index: number) {
+    setSlots((current) => current.filter((_, i) => i !== index));
+    setResults((current) => {
+      const next: Record<number, InstitutionResult | null> = {};
+      Object.entries(current).forEach(([key, value]) => {
+        const i = Number(key);
+        if (i < index) next[i] = value;
+        else if (i > index) next[i - 1] = value;
+      });
+      return next;
+    });
+  }
+
+  async function runSearch(activeSlots: InstitutionSlot[]) {
+    const filled = activeSlots.filter((s) => s.institution.trim());
+    if (filled.length === 0) return;
     setLoading(true);
     setError(null);
     try {
-      setPatterns(await getInstitutionPatterns(domain, institution.trim()));
+      const fetched = await Promise.all(
+        activeSlots.map(async (slot) => {
+          if (!slot.institution.trim()) return null;
+          const [patterns, similar] = await Promise.all([
+            getInstitutionPatterns(slot.domain, slot.institution.trim()),
+            getSimilarCases(slot.domain, slot.institution.trim(), 5),
+          ]);
+          const confidences = patterns.map((p) => p.confidence);
+          return {
+            patterns,
+            similar,
+            avgConfidence: confidences.length ? confidences.reduce((s, c) => s + c, 0) / confidences.length : null,
+          };
+        })
+      );
+      const nextResults: Record<number, InstitutionResult | null> = {};
+      fetched.forEach((result, index) => {
+        nextResults[index] = result;
+      });
+      setResults(nextResults);
+      const nextRecent = [...filled, ...recent.filter((r) => !filled.some((f) => f.domain === r.domain && f.institution === r.institution))].slice(0, 8);
+      setRecent(nextRecent);
+      window.localStorage.setItem(RECENT_QUERIES_KEY, JSON.stringify(nextRecent));
     } catch (err) {
       setError(err instanceof Error ? err.message : "Couldn't reach the knowledge graph.");
-      setPatterns(null);
+      setResults({});
     } finally {
       setLoading(false);
     }
   }
 
   return (
-    <div className="grid flex-1 gap-4 xl:grid-cols-[340px_minmax(0,1fr)]">
+    <div className="grid flex-1 gap-4 xl:grid-cols-[320px_minmax(0,1fr)]">
       <aside className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl">
         <div className="mb-3 flex items-center gap-2">
           <Landmark className="size-4 text-cyan-200" />
           <h2 className="font-semibold">Query the institution graph</h2>
         </div>
         <p className="mb-4 text-xs leading-5 text-proxy-muted">
-          Real cross-user pattern intelligence pulled from the knowledge graph -- prior cases and indexed documents logged against a domain + institution pair.
+          Real cross-user pattern intelligence and similar cases pulled from the knowledge graph. Compare up to two institutions side by side.
         </p>
-        <label className="mb-3 block text-sm">
-          <span className="mb-1.5 block text-xs text-proxy-muted">Domain</span>
-          <select value={domain} onChange={(e) => setDomain(e.target.value)} className="w-full rounded-lg border border-white/10 bg-black/30 px-3 py-2 text-sm outline-none focus:border-cyan-300/60">
-            {Object.entries(DOMAIN_THEME).map(([key, t]) => <option key={key} value={key}>{t.label}</option>)}
-          </select>
-        </label>
-        <label className="mb-2 block text-sm">
-          <span className="mb-1.5 block text-xs text-proxy-muted">Institution name</span>
-          <input
-            value={institution}
-            onChange={(e) => setInstitution(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && search()}
-            placeholder="e.g. Star Health Insurance"
-            className="w-full rounded-lg border border-white/10 bg-black/30 px-3 py-2 text-sm outline-none focus:border-cyan-300/60"
-          />
-        </label>
+
+        {slots.map((slot, index) => (
+          <div key={index} className="mb-3 rounded-xl border border-white/10 bg-black/20 p-3">
+            {slots.length > 1 && (
+              <div className="mb-2 flex items-center justify-between">
+                <span className="text-[10px] uppercase tracking-wide text-proxy-tertiary">Query {index + 1}</span>
+                <button onClick={() => removeSlot(index)} className="text-proxy-tertiary hover:text-red-200"><X className="size-3.5" /></button>
+              </div>
+            )}
+            <label className="mb-2 block text-sm">
+              <span className="mb-1 block text-xs text-proxy-muted">Domain</span>
+              <select value={slot.domain} onChange={(e) => updateSlot(index, { domain: e.target.value })} className="w-full rounded-lg border border-white/10 bg-black/30 px-3 py-2 text-sm outline-none focus:border-cyan-300/60">
+                {Object.entries(DOMAIN_THEME).map(([key, t]) => <option key={key} value={key}>{t.label}</option>)}
+              </select>
+            </label>
+            <label className="block text-sm">
+              <span className="mb-1 block text-xs text-proxy-muted">Institution name</span>
+              <input
+                value={slot.institution}
+                onChange={(e) => updateSlot(index, { institution: e.target.value })}
+                onKeyDown={(e) => e.key === "Enter" && runSearch(slots)}
+                placeholder="e.g. Star Health Insurance"
+                className="w-full rounded-lg border border-white/10 bg-black/30 px-3 py-2 text-sm outline-none focus:border-cyan-300/60"
+              />
+            </label>
+          </div>
+        ))}
+
+        {slots.length < 2 && (
+          <button onClick={addComparison} className="mb-3 inline-flex items-center gap-1.5 text-xs text-cyan-200 hover:text-cyan-100">
+            <Plus className="size-3.5" /> Compare with another institution
+          </button>
+        )}
+
         {knownInstitutions.length > 0 && (
-          <div className="mb-4 flex flex-wrap gap-1.5">
+          <div className="mb-3 flex flex-wrap gap-1.5">
             {knownInstitutions.slice(0, 6).map((name) => (
-              <button key={name} onClick={() => setInstitution(name)} className="rounded-full border border-white/10 px-2 py-1 text-[10px] text-proxy-muted hover:border-cyan-300/30 hover:text-cyan-100">
+              <button key={name} onClick={() => updateSlot(0, { institution: name })} className="rounded-full border border-white/10 px-2 py-1 text-[10px] text-proxy-muted hover:border-cyan-300/30 hover:text-cyan-100">
                 {name}
               </button>
             ))}
           </div>
         )}
-        <button onClick={search} disabled={!institution.trim() || loading} className="search-orb inline-flex w-full items-center justify-center gap-1.5 rounded-lg px-3 py-2.5 text-sm font-medium text-black disabled:cursor-not-allowed disabled:opacity-40">
+
+        {recent.length > 0 && (
+          <div className="mb-4">
+            <p className="mb-1.5 text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Recent queries</p>
+            <div className="flex flex-wrap gap-1.5">
+              {recent.map((r, i) => (
+                <button
+                  key={`${r.domain}-${r.institution}-${i}`}
+                  onClick={() => { setSlots([r]); runSearch([r]); }}
+                  className="rounded-full border border-white/10 px-2 py-1 text-[10px] text-proxy-muted hover:border-cyan-300/30 hover:text-cyan-100"
+                >
+                  {r.institution} &middot; {domainTheme(r.domain).label}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <button onClick={() => runSearch(slots)} disabled={!slots.some((s) => s.institution.trim()) || loading} className="search-orb inline-flex w-full items-center justify-center gap-1.5 rounded-lg px-3 py-2.5 text-sm font-medium text-black disabled:cursor-not-allowed disabled:opacity-40">
           {loading ? <Loader2 className="size-4 animate-spin" /> : <Search className="size-4" />} Query graph
         </button>
         <style jsx>{`
@@ -364,38 +524,103 @@ function InstitutionTab({ analyses }: { analyses: AnalysisCase[] }) {
         `}</style>
       </aside>
 
-      <section className="rounded-2xl border border-white/10 bg-glass p-5 backdrop-blur-2xl">
-        {loading ? (
-          <div className="flex h-64 items-center justify-center"><Loader2 className="size-6 animate-spin text-cyan-200" /></div>
-        ) : error ? (
+      {loading ? (
+        <div className="flex h-64 items-center justify-center"><Loader2 className="size-6 animate-spin text-cyan-200" /></div>
+      ) : error ? (
+        <div className="rounded-2xl border border-white/10 bg-glass p-5 backdrop-blur-2xl">
           <p className="text-sm text-red-200">{error}</p>
-        ) : !patterns ? (
-          <div className="flex h-64 flex-col items-center justify-center gap-2 text-center">
-            <Sparkles className="size-8 text-proxy-tertiary" />
-            <p className="text-sm text-proxy-tertiary">Pick a domain and institution to query real pattern intelligence.</p>
-          </div>
-        ) : patterns.length === 0 ? (
-          <p className="text-sm text-proxy-tertiary">No graph patterns found yet for this domain + institution pair.</p>
-        ) : (
-          <div className="space-y-3">
-            {patterns.map((p, index) => (
-              <div key={index} className="rounded-xl border border-white/10 bg-black/20 p-4">
-                <div className="mb-2 flex items-center justify-between">
-                  <span className="rounded-full px-2 py-0.5 text-[10px]" style={{ backgroundColor: `${domainTheme(p.domain).color}1a`, color: domainTheme(p.domain).color }}>
-                    {domainTheme(p.domain).label}
-                  </span>
-                  <span className="text-xs text-proxy-tertiary">{Math.round(p.confidence * 100)}% confidence</span>
-                </div>
-                <p className="text-sm leading-6 text-proxy-text">{p.pattern}</p>
-                <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-white/5">
-                  <div className="h-full rounded-full bg-cyan-300" style={{ width: `${p.confidence * 100}%` }} />
-                </div>
+        </div>
+      ) : Object.keys(results).length === 0 ? (
+        <div className="flex h-64 flex-col items-center justify-center gap-2 rounded-2xl border border-white/10 bg-glass text-center backdrop-blur-2xl">
+          <Sparkles className="size-8 text-proxy-tertiary" />
+          <p className="text-sm text-proxy-tertiary">Pick a domain and institution to query real pattern intelligence.</p>
+        </div>
+      ) : (
+        <div className={`grid gap-4 ${slots.length > 1 ? "md:grid-cols-2" : ""}`}>
+          {slots.map((slot, index) => {
+            const result = results[index];
+            if (!result) return null;
+            return (
+              <InstitutionResultCard key={index} slot={slot} result={result} onOpenCase={onOpenCase} />
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function InstitutionResultCard({
+  slot, result, onOpenCase,
+}: {
+  slot: InstitutionSlot;
+  result: InstitutionResult;
+  onOpenCase: (caseId: string) => void;
+}) {
+  const theme = domainTheme(slot.domain);
+  const circumference = 2 * Math.PI * 26;
+  const pct = result.avgConfidence ?? 0;
+  const offset = circumference * (1 - pct);
+
+  return (
+    <section className="rounded-2xl border border-white/10 bg-glass p-5 backdrop-blur-2xl">
+      <div className="mb-4 flex items-center gap-4">
+        <svg width="64" height="64" viewBox="0 0 64 64" className="shrink-0">
+          <circle cx="32" cy="32" r="26" fill="none" stroke="rgba(255,255,255,.08)" strokeWidth="5" />
+          <circle
+            cx="32" cy="32" r="26" fill="none" stroke={theme.color} strokeWidth="5"
+            strokeDasharray={circumference} strokeDashoffset={offset} strokeLinecap="round"
+            transform="rotate(-90 32 32)" style={{ transition: "stroke-dashoffset .6s ease" }}
+          />
+          <text x="32" y="37" textAnchor="middle" fill="#dbeafe" fontSize="13" fontWeight={600}>
+            {result.avgConfidence !== null ? `${Math.round(pct * 100)}%` : "-"}
+          </text>
+        </svg>
+        <div className="min-w-0">
+          <p className="truncate text-sm font-semibold text-proxy-text">{slot.institution}</p>
+          <span className="mt-1 inline-block rounded-full px-2 py-0.5 text-[10px]" style={{ backgroundColor: `${theme.color}1a`, color: theme.color }}>{theme.label}</span>
+          <p className="mt-1 text-[10px] text-proxy-tertiary">{result.patterns.length} pattern{result.patterns.length === 1 ? "" : "s"} &middot; {result.similar.length} similar case{result.similar.length === 1 ? "" : "s"}</p>
+        </div>
+      </div>
+
+      {result.patterns.length === 0 ? (
+        <p className="mb-4 text-xs text-proxy-tertiary">No graph patterns found yet for this domain + institution pair.</p>
+      ) : (
+        <div className="mb-4 space-y-2.5">
+          <p className="text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Pattern intelligence</p>
+          {result.patterns.map((p, index) => (
+            <div key={index} className="rounded-xl border border-white/10 bg-black/20 p-3">
+              <div className="mb-1.5 flex items-center justify-between">
+                <span className="text-xs text-proxy-tertiary">{Math.round(p.confidence * 100)}% confidence</span>
               </div>
+              <p className="text-sm leading-6 text-proxy-text">{p.pattern}</p>
+              <div className="mt-2 h-1 overflow-hidden rounded-full bg-white/5">
+                <div className="h-full rounded-full" style={{ width: `${p.confidence * 100}%`, backgroundColor: theme.color }} />
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {result.similar.length > 0 && (
+        <div>
+          <p className="mb-2 text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Similar cases at this institution</p>
+          <div className="space-y-1.5">
+            {result.similar.map((c) => (
+              <button
+                key={c.case_id}
+                onClick={() => onOpenCase(c.case_id)}
+                className="flex w-full items-center gap-2 rounded-lg border border-white/5 bg-black/20 p-2.5 text-left text-xs hover:border-cyan-300/25"
+              >
+                <ScrollText className="size-3.5 shrink-0 text-cyan-200" />
+                <span className="min-w-0 flex-1 truncate text-proxy-text">{c.title}</span>
+                <ChevronRight className="size-3.5 shrink-0 text-proxy-tertiary" />
+              </button>
             ))}
           </div>
-        )}
-      </section>
-    </div>
+        </div>
+      )}
+    </section>
   );
 }
 
@@ -403,7 +628,13 @@ function InstitutionTab({ analyses }: { analyses: AnalysisCase[] }) {
 /* Cross-Domain Profile                                                    */
 /* ---------------------------------------------------------------------- */
 
-function ProfileTab() {
+function ProfileTab({
+  analyses, onOpenCase, onOpenInstitution,
+}: {
+  analyses: AnalysisCase[];
+  onOpenCase: (caseId: string) => void;
+  onOpenInstitution: (domain: string, institution: string) => void;
+}) {
   const [profile, setProfile] = useState<CitizenProfile | null>(null);
   const [loading, setLoading] = useState(true);
   const [selectedDomain, setSelectedDomain] = useState<string | null>(null);
@@ -414,6 +645,18 @@ function ProfileTab() {
       .catch(() => setProfile(null))
       .finally(() => setLoading(false));
   }, []);
+
+  const analysesById = useMemo(() => new Map(analyses.map((a) => [a.id, a])), [analyses]);
+
+  const timeline = useMemo(
+    () => [...analyses].sort((a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime()),
+    [analyses]
+  );
+
+  const overallConfidence = useMemo(() => {
+    const values = analyses.map((a) => a.avg_confidence).filter((c): c is number => c !== null);
+    return values.length ? values.reduce((s, c) => s + c, 0) / values.length : null;
+  }, [analyses]);
 
   if (loading) {
     return <div className="flex h-96 items-center justify-center"><Loader2 className="size-6 animate-spin text-cyan-200" /></div>;
@@ -429,6 +672,8 @@ function ProfileTab() {
 
   const maxCases = Math.max(1, ...profile.by_domain.map((d) => d.case_count));
   const active = profile.by_domain.find((d) => d.domain === selectedDomain) ?? null;
+  const mostActive = [...profile.by_domain].sort((a, b) => b.case_count - a.case_count)[0];
+  const activeDomainConfidence = computeDomainConfidence(active, analysesById);
 
   const profileNodes: CanvasNode[] = [
     { id: "you", kind: "you", label: "YOU", color: "#00e5ff", r: 34 },
@@ -444,65 +689,144 @@ function ProfileTab() {
   const profileLegend = profile.by_domain.map((entry) => ({ label: domainTheme(entry.domain).label, color: domainTheme(entry.domain).color }));
 
   return (
-    <div className="grid flex-1 gap-4 xl:grid-cols-[minmax(0,1fr)_320px]">
-      <section className="relative overflow-hidden rounded-2xl border border-cyan-300/15 bg-[#050608] shadow-glow-cyan">
-        <GraphCanvas
-          nodes={profileNodes}
-          edges={profileEdges}
-          anchorId="you"
-          selectedId={selectedDomain}
-          onSelect={setSelectedDomain}
-          renderIcon={(kind, color) => (kind === "you" ? <Users className="size-full" style={{ color }} /> : <Layers className="size-full" style={{ color }} />)}
-          legend={profileLegend}
-          headerBadge={
-            <div className="absolute left-4 top-4 z-10 rounded-xl border border-white/10 bg-black/45 px-3 py-2 backdrop-blur-xl">
-              <p className="text-xs uppercase tracking-[.18em] text-proxy-tertiary">Your cross-domain footprint</p>
-              <p className="text-sm text-cyan-100">{profile.total_cases} case{profile.total_cases === 1 ? "" : "s"} across {profile.domains_active_in.length} domain{profile.domains_active_in.length === 1 ? "" : "s"}</p>
-            </div>
-          }
-        />
-      </section>
+    <div className="flex flex-1 flex-col gap-4">
+      <div className="grid gap-3 sm:grid-cols-4">
+        <ProfileStat icon={Users} label="Total cases" value={String(profile.total_cases)} accent="#00e5ff" />
+        <ProfileStat icon={Layers} label="Active domains" value={String(profile.domains_active_in.length)} accent="#9b5cff" />
+        <ProfileStat icon={TrendingUp} label="Avg. confidence" value={overallConfidence !== null ? `${Math.round(overallConfidence * 100)}%` : "-"} accent="#37f29a" />
+        <ProfileStat icon={Building2} label="Most active domain" value={mostActive ? domainTheme(mostActive.domain).label : "-"} accent="#ffc857" />
+      </div>
 
-      <aside className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl">
-        {active ? (
-          <>
-            <div className="mb-4 flex items-center justify-between">
-              <div className="flex items-center gap-2">
-                <div className="grid size-9 place-items-center rounded-lg border" style={{ borderColor: domainTheme(active.domain).color, boxShadow: `0 0 18px ${domainTheme(active.domain).color}55` }}>
-                  <Layers className="size-4" style={{ color: domainTheme(active.domain).color }} />
+      {timeline.length > 0 && (
+        <div className="rounded-2xl border border-white/10 bg-glass p-3 backdrop-blur-2xl">
+          <div className="mb-2 flex items-center gap-1.5 px-1 text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">
+            <Clock className="size-3" /> Activity timeline
+          </div>
+          <div className="flex gap-2 overflow-x-auto pb-1">
+            {timeline.map((a) => {
+              const t = domainTheme(a.domains_involved[0] ?? a.domain);
+              return (
+                <button
+                  key={a.id}
+                  onClick={() => onOpenCase(a.id)}
+                  className="w-40 shrink-0 rounded-lg border border-white/5 bg-black/20 p-2 text-left hover:border-white/20"
+                  style={{ borderTopColor: t.color, borderTopWidth: 2 }}
+                >
+                  <p className="line-clamp-2 text-[11px] text-proxy-text">{a.title}</p>
+                  <p className="mt-1 text-[9px] text-proxy-tertiary">{new Date(a.created_at).toLocaleDateString()}</p>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      <div className="grid flex-1 gap-4 xl:grid-cols-[minmax(0,1fr)_340px]">
+        <section className="relative overflow-hidden rounded-2xl border border-cyan-300/15 bg-[#050608] shadow-glow-cyan">
+          <GraphCanvas
+            nodes={profileNodes}
+            edges={profileEdges}
+            anchorId="you"
+            selectedId={selectedDomain}
+            onSelect={setSelectedDomain}
+            renderIcon={(kind, color) => (kind === "you" ? <Users className="size-full" style={{ color }} /> : <Layers className="size-full" style={{ color }} />)}
+            legend={profileLegend}
+            headerBadge={
+              <div className="absolute left-4 top-4 z-10 rounded-xl border border-white/10 bg-black/45 px-3 py-2 backdrop-blur-xl">
+                <p className="text-xs uppercase tracking-[.18em] text-proxy-tertiary">Your cross-domain footprint</p>
+                <p className="text-sm text-cyan-100">{profile.total_cases} case{profile.total_cases === 1 ? "" : "s"} across {profile.domains_active_in.length} domain{profile.domains_active_in.length === 1 ? "" : "s"}</p>
+              </div>
+            }
+          />
+        </section>
+
+        <aside className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl">
+          {active ? (
+            <>
+              <div className="mb-4 flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <div className="grid size-9 place-items-center rounded-lg border" style={{ borderColor: domainTheme(active.domain).color, boxShadow: `0 0 18px ${domainTheme(active.domain).color}55` }}>
+                    <Layers className="size-4" style={{ color: domainTheme(active.domain).color }} />
+                  </div>
+                  <div>
+                    <p className="text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Domain</p>
+                    <p className="text-sm font-semibold text-proxy-text">{domainTheme(active.domain).label}</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Domain</p>
-                  <p className="text-sm font-semibold text-proxy-text">{domainTheme(active.domain).label}</p>
+                <button onClick={() => setSelectedDomain(null)} className="text-proxy-tertiary hover:text-proxy-text"><X className="size-4" /></button>
+              </div>
+              <div className="mb-4 grid grid-cols-2 gap-2">
+                <div className="rounded-lg border border-white/5 bg-black/20 p-2 text-center">
+                  <p className="text-sm font-semibold text-proxy-text">{active.case_count}</p>
+                  <p className="text-[9px] text-proxy-tertiary">Cases</p>
+                </div>
+                <div className="rounded-lg border border-white/5 bg-black/20 p-2 text-center">
+                  <p className="text-sm font-semibold text-proxy-text">{activeDomainConfidence !== null ? `${Math.round(activeDomainConfidence * 100)}%` : "-"}</p>
+                  <p className="text-[9px] text-proxy-tertiary">Avg. confidence</p>
                 </div>
               </div>
-              <button onClick={() => setSelectedDomain(null)} className="text-proxy-tertiary hover:text-proxy-text"><X className="size-4" /></button>
-            </div>
-            <p className="mb-3 text-xs text-proxy-tertiary">{active.case_count} case{active.case_count === 1 ? "" : "s"}</p>
-            {active.institutions.length > 0 && (
-              <div className="mb-4">
-                <p className="mb-1.5 text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Institutions</p>
-                <div className="flex flex-wrap gap-1.5">
-                  {active.institutions.map((name) => (
-                    <span key={name} className="rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-proxy-muted">{name}</span>
-                  ))}
+              {active.institutions.length > 0 && (
+                <div className="mb-4">
+                  <p className="mb-1.5 text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Institutions</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {active.institutions.map((name) => (
+                      <button
+                        key={name}
+                        onClick={() => onOpenInstitution(active.domain, name)}
+                        className="inline-flex items-center gap-1 rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-proxy-muted hover:border-amber-300/30 hover:text-amber-100"
+                      >
+                        <Landmark className="size-2.5" /> {name}
+                      </button>
+                    ))}
+                  </div>
                 </div>
+              )}
+              <p className="mb-1.5 text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Cases</p>
+              <div className="space-y-1.5">
+                {active.cases.map((c) => {
+                  const full = analysesById.get(c.case_id);
+                  return (
+                    <button
+                      key={c.case_id}
+                      onClick={() => onOpenCase(c.case_id)}
+                      className="flex w-full items-center gap-2 rounded-lg border border-white/5 bg-black/20 p-2 text-left text-xs text-proxy-text hover:border-cyan-300/25"
+                    >
+                      <ScrollText className="size-3 shrink-0 text-proxy-tertiary" />
+                      <span className="min-w-0 flex-1 truncate">{c.title}</span>
+                      {full?.avg_confidence !== null && full?.avg_confidence !== undefined && (
+                        <span className="shrink-0 text-[10px] text-proxy-tertiary">{Math.round(full.avg_confidence * 100)}%</span>
+                      )}
+                      <ChevronRight className="size-3 shrink-0 text-proxy-tertiary" />
+                    </button>
+                  );
+                })}
               </div>
-            )}
-            <p className="mb-1.5 text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Cases</p>
-            <div className="space-y-1.5">
-              {active.cases.map((c) => (
-                <div key={c.case_id} className="flex items-center gap-2 rounded-lg border border-white/5 bg-black/20 p-2 text-xs text-proxy-text">
-                  <ChevronRight className="size-3 shrink-0 text-proxy-tertiary" />
-                  <span className="truncate">{c.title}</span>
-                </div>
-              ))}
-            </div>
-          </>
-        ) : (
-          <p className="text-xs text-proxy-tertiary">Click a domain node to see the institutions and cases behind it.</p>
-        )}
-      </aside>
+            </>
+          ) : (
+            <p className="text-xs text-proxy-tertiary">Click a domain node to see confidence, institutions, and cases behind it.</p>
+          )}
+        </aside>
+      </div>
+    </div>
+  );
+}
+
+function computeDomainConfidence(active: CitizenDomainProfile | null, analysesById: Map<string, AnalysisCase>): number | null {
+  if (!active) return null;
+  const values = active.cases
+    .map((c: { case_id: string }) => analysesById.get(c.case_id)?.avg_confidence)
+    .filter((c): c is number => c !== null && c !== undefined);
+  return values.length ? values.reduce((s, c) => s + c, 0) / values.length : null;
+}
+
+function ProfileStat({ icon: Icon, label, value, accent }: { icon: typeof Users; label: string; value: string; accent: string }) {
+  return (
+    <div className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl">
+      <div className="mb-2 grid size-8 place-items-center rounded-lg border" style={{ borderColor: `${accent}40`, backgroundColor: `${accent}15` }}>
+        <Icon className="size-4" style={{ color: accent }} />
+      </div>
+      <p className="truncate text-lg font-semibold text-proxy-text">{value}</p>
+      <p className="text-[11px] text-proxy-tertiary">{label}</p>
     </div>
   );
 }
