@@ -1,0 +1,487 @@
+"use client";
+
+import { useEffect, useMemo, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
+import {
+  Send, Loader2, ArrowUpRight, FileStack, Scale, FileText, TrendingUp,
+  Activity, Upload, Search, Bot, ClipboardList, Network, Gauge, PenLine,
+  FileCheck2, ArrowUpCircle, Radio, Command,
+} from "lucide-react";
+import {
+  classifyQuery, getReportSummary, listAnalyses,
+  type DomainCandidate, type ReportSummary, type AnalysisCase,
+} from "@/lib/api-client";
+import { DOMAIN_THEME, domainTheme } from "@/components/chat/domain-theme";
+
+const DOMAIN_PROMPTS: Record<string, string> = {
+  health_insurance: "My health insurance claim was denied for a pre-existing condition exclusion.",
+  banking: "My bank charged me twice for the same transaction and won't refund it.",
+  airlines: "My flight was cancelled and the airline refused a refund.",
+  telecom: "My telecom provider is billing me for a plan I cancelled two months ago.",
+  ecommerce: "An online seller sent me a counterfeit product and refuses a return.",
+  government: "My passport renewal application has been stuck in review for 90 days.",
+  housing: "My builder delayed possession of my flat by 18 months under RERA.",
+  healthcare: "I was overcharged for a hospital procedure that my insurance should have covered.",
+};
+
+const EVENT_ICON: Record<string, typeof Activity> = {
+  case_created: PenLine,
+  document_uploaded: Upload,
+  appeal_drafted: FileCheck2,
+  appeal_status_changed: ArrowUpCircle,
+  agent_run: Activity,
+};
+
+function timeAgo(iso: string | null): string {
+  if (!iso) return "";
+  const diffMs = Date.now() - new Date(iso).getTime();
+  const minutes = Math.floor(diffMs / 60000);
+  if (minutes < 1) return "just now";
+  if (minutes < 60) return `${minutes}m ago`;
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours}h ago`;
+  const days = Math.floor(hours / 24);
+  return `${days}d ago`;
+}
+
+function useCountUp(target: number, durationMs = 900) {
+  const [value, setValue] = useState(0);
+  useEffect(() => {
+    let frame: number;
+    const start = performance.now();
+    const from = 0;
+    function tick(now: number) {
+      const progress = Math.min(1, (now - start) / durationMs);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      setValue(Math.round(from + (target - from) * eased));
+      if (progress < 1) frame = requestAnimationFrame(tick);
+    }
+    frame = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(frame);
+  }, [target, durationMs]);
+  return value;
+}
+
+export function DashboardHome() {
+  const router = useRouter();
+  const [summary, setSummary] = useState<ReportSummary | null>(null);
+  const [analyses, setAnalyses] = useState<AnalysisCase[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [now, setNow] = useState(new Date());
+
+  useEffect(() => {
+    Promise.all([getReportSummary().catch(() => null), listAnalyses().catch(() => [])]).then(
+      ([summaryResult, analysesResult]) => {
+        setSummary(summaryResult);
+        setAnalyses(analysesResult);
+        setLoading(false);
+      }
+    );
+  }, []);
+
+  useEffect(() => {
+    const timer = window.setInterval(() => setNow(new Date()), 1000);
+    return () => window.clearInterval(timer);
+  }, []);
+
+  const domainStats = useMemo(() => {
+    const counts = new Map<string, number>(summary?.domain_breakdown.map((d) => [d.domain, d.count]) ?? []);
+    const confidenceByDomain = new Map<string, number[]>();
+    for (const analysis of analyses) {
+      for (const domain of analysis.domains_involved) {
+        if (analysis.avg_confidence === null) continue;
+        const list = confidenceByDomain.get(domain) ?? [];
+        list.push(analysis.avg_confidence);
+        confidenceByDomain.set(domain, list);
+      }
+    }
+    return Object.keys(DOMAIN_THEME).map((domain) => {
+      const confidences = confidenceByDomain.get(domain) ?? [];
+      return {
+        domain,
+        count: counts.get(domain) ?? 0,
+        avgConfidence: confidences.length ? confidences.reduce((s, c) => s + c, 0) / confidences.length : null,
+      };
+    });
+  }, [summary, analyses]);
+
+  const totalRuns = useMemo(() => analyses.reduce((sum, a) => sum + a.run_count, 0), [analyses]);
+  const overallConfidence = useMemo(() => {
+    const values = analyses.map((a) => a.avg_confidence).filter((c): c is number => c !== null);
+    return values.length ? values.reduce((s, c) => s + c, 0) / values.length : null;
+  }, [analyses]);
+
+  const recentAnalyses = analyses.slice(0, 5);
+  const greeting = now.getHours() < 12 ? "Good morning" : now.getHours() < 18 ? "Good afternoon" : "Good evening";
+  const backendOnline = summary !== null;
+
+  return (
+    <div className="flex flex-1 flex-col gap-5">
+      <HeroComposer greeting={greeting} now={now} backendOnline={backendOnline} />
+
+      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
+        <KpiCard icon={FileStack} label="Cases" value={summary?.totals.cases ?? 0} accent="#00e5ff" loading={loading} />
+        <KpiCard icon={Scale} label="Appeals Generated" value={summary?.totals.appeals ?? 0} accent="#9b5cff" loading={loading} />
+        <KpiCard icon={FileText} label="Documents" value={summary?.totals.documents ?? 0} accent="#37f29a" loading={loading} />
+        <KpiCard
+          icon={TrendingUp}
+          label="Resolution Rate"
+          value={summary?.resolution_rate !== null && summary?.resolution_rate !== undefined ? Math.round(summary.resolution_rate * 100) : 0}
+          suffix="%"
+          accent="#ffc857"
+          loading={loading}
+        />
+        <KpiCard
+          icon={Radio}
+          label="Agent Runs"
+          value={totalRuns}
+          accent="#ff6fb0"
+          loading={loading}
+          footnote={overallConfidence !== null ? `${Math.round(overallConfidence * 100)}% avg confidence` : undefined}
+        />
+      </div>
+
+      <DomainCockpit stats={domainStats} loading={loading} onOpen={(domain) => router.push(`/dashboard/assistant?q=${encodeURIComponent(DOMAIN_PROMPTS[domain] ?? "")}`)} />
+
+      <div className="grid gap-4 xl:grid-cols-[1.15fr_.85fr]">
+        <RecentAnalysesRail analyses={recentAnalyses} loading={loading} onViewAll={() => router.push("/dashboard/analyses")} />
+        <div className="flex flex-col gap-4">
+          <QuickActions />
+          <ActivityFeed events={summary?.recent_activity ?? []} loading={loading} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function HeroComposer({ greeting, now, backendOnline }: { greeting: string; now: Date; backendOnline: boolean }) {
+  const router = useRouter();
+  const [input, setInput] = useState("");
+  const [livePreview, setLivePreview] = useState<DomainCandidate[]>([]);
+  const [classifying, setClassifying] = useState(false);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  useEffect(() => {
+    if (input.trim().length < 12) {
+      setLivePreview([]);
+      return;
+    }
+    setClassifying(true);
+    const timer = window.setTimeout(async () => {
+      try {
+        setLivePreview((await classifyQuery(input)).candidates);
+      } catch {
+        setLivePreview([]);
+      } finally {
+        setClassifying(false);
+      }
+    }, 500);
+    return () => window.clearTimeout(timer);
+  }, [input]);
+
+  useEffect(() => {
+    function onKeydown(event: KeyboardEvent) {
+      if ((event.metaKey || event.ctrlKey) && event.key === "k") {
+        event.preventDefault();
+        textareaRef.current?.focus();
+      }
+    }
+    window.addEventListener("keydown", onKeydown);
+    return () => window.removeEventListener("keydown", onKeydown);
+  }, []);
+
+  function launch() {
+    const text = input.trim();
+    if (!text) return;
+    router.push(`/dashboard/assistant?q=${encodeURIComponent(text)}`);
+  }
+
+  return (
+    <section className="relative overflow-hidden rounded-2xl border border-cyan-300/20 bg-glass p-5 shadow-glow-cyan backdrop-blur-2xl sm:p-7">
+      <div className="hero-aurora pointer-events-none absolute inset-0 -z-10" />
+      <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+        <div>
+          <p className="flex items-center gap-2 text-xs uppercase tracking-[.22em] text-cyan-200">
+            <span className={`size-1.5 rounded-full ${backendOnline ? "bg-green-300" : "bg-red-300"}`} />
+            {backendOnline ? "All systems online" : "Backend unreachable"}
+          </p>
+          <h1 className="mt-2 text-2xl font-semibold sm:text-3xl">{greeting}, Rakesh</h1>
+          <p className="mt-1 text-sm text-proxy-muted">
+            8 domain specialists standing by &middot; parallel multi-agent reasoning &middot; every claim cited
+          </p>
+        </div>
+        <div className="rounded-xl border border-white/10 bg-black/25 px-4 py-2.5 text-right">
+          <p className="font-mono text-lg text-proxy-text">{now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })}</p>
+          <p className="text-[11px] text-proxy-tertiary">{now.toLocaleDateString([], { weekday: "long", month: "short", day: "numeric" })}</p>
+        </div>
+      </div>
+
+      {livePreview.length > 0 && (
+        <div className="mb-2 flex flex-wrap items-center gap-1.5 px-1">
+          <span className="text-[10px] uppercase tracking-wide text-proxy-tertiary">Detected:</span>
+          {livePreview.map((candidate) => {
+            const theme = domainTheme(candidate.domain);
+            return (
+              <span
+                key={candidate.domain}
+                className="rounded-full border px-2 py-0.5 text-[10px]"
+                style={{ borderColor: `${theme.color}40`, backgroundColor: `${theme.color}1a`, color: theme.color }}
+              >
+                {theme.label}
+              </span>
+            );
+          })}
+        </div>
+      )}
+
+      <div className="composer-glow flex items-end gap-2 rounded-2xl p-[1.5px]">
+        <div className="flex w-full items-end gap-2 rounded-2xl bg-[#07080b] p-2">
+          <textarea
+            ref={textareaRef}
+            value={input}
+            onChange={(event) => setInput(event.target.value)}
+            onKeyDown={(event) => {
+              if (event.key === "Enter" && !event.shiftKey) {
+                event.preventDefault();
+                launch();
+              }
+            }}
+            placeholder="Describe your issue -- across any domain, or several at once... (Ctrl/Cmd+K)"
+            rows={1}
+            className="max-h-32 flex-1 resize-none bg-transparent px-2 py-2.5 text-sm text-proxy-text outline-none placeholder:text-proxy-tertiary"
+          />
+          <button
+            onClick={launch}
+            disabled={!input.trim()}
+            className="orb-send grid size-10 shrink-0 place-items-center rounded-full text-black transition-transform disabled:cursor-not-allowed disabled:opacity-40 enabled:hover:scale-105"
+          >
+            {classifying ? <Loader2 className="size-4 animate-spin" /> : <Send className="size-4" />}
+          </button>
+        </div>
+      </div>
+      <div className="mt-1.5 flex items-center gap-1 px-1 text-[10px] text-proxy-tertiary">
+        <Command className="size-3" /> K to focus &middot; Enter to launch in the AI Assistant
+      </div>
+
+      <style jsx>{`
+        .hero-aurora {
+          background: radial-gradient(circle at 8% -10%, rgba(0, 229, 255, 0.14), transparent 40%),
+            radial-gradient(circle at 95% 0%, rgba(155, 92, 255, 0.12), transparent 45%);
+        }
+        .composer-glow {
+          background: linear-gradient(120deg, rgba(0, 229, 255, 0.5), rgba(155, 92, 255, 0.5), rgba(0, 229, 255, 0.5));
+          background-size: 200% 200%;
+          animation: glowShift 6s ease infinite;
+        }
+        @keyframes glowShift {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+        .orb-send {
+          background: radial-gradient(circle at 30% 30%, #5cf5ff, #00b8d9 55%, #6a3df0);
+          box-shadow: 0 0 18px rgba(0, 229, 255, 0.45);
+        }
+      `}</style>
+    </section>
+  );
+}
+
+function KpiCard({
+  icon: Icon, label, value, accent, suffix = "", loading, footnote,
+}: {
+  icon: typeof FileStack;
+  label: string;
+  value: number;
+  accent: string;
+  suffix?: string;
+  loading: boolean;
+  footnote?: string;
+}) {
+  const animated = useCountUp(loading ? 0 : value);
+  return (
+    <div className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl transition-colors hover:border-white/20">
+      <div className="mb-3 grid size-9 place-items-center rounded-xl border" style={{ borderColor: `${accent}40`, backgroundColor: `${accent}15` }}>
+        <Icon className="size-4" style={{ color: accent }} />
+      </div>
+      <p className="text-2xl font-semibold text-proxy-text">
+        {loading ? <Loader2 className="size-5 animate-spin text-proxy-tertiary" /> : `${animated}${suffix}`}
+      </p>
+      <p className="text-xs text-proxy-tertiary">{label}</p>
+      {footnote && !loading && <p className="mt-1 text-[10px] text-proxy-tertiary">{footnote}</p>}
+    </div>
+  );
+}
+
+function DomainCockpit({
+  stats, loading, onOpen,
+}: {
+  stats: Array<{ domain: string; count: number; avgConfidence: number | null }>;
+  loading: boolean;
+  onOpen: (domain: string) => void;
+}) {
+  return (
+    <section className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
+      <div className="mb-4 flex items-center justify-between">
+        <div>
+          <h2 className="text-lg font-semibold">Domain cockpit</h2>
+          <p className="mt-0.5 text-xs text-proxy-muted">Live activity across all 8 specialist domains -- tap one to start a focused analysis.</p>
+        </div>
+      </div>
+      <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+        {stats.map(({ domain, count, avgConfidence }) => {
+          const theme = domainTheme(domain);
+          return (
+            <button
+              key={domain}
+              onClick={() => onOpen(domain)}
+              className="motion-card group rounded-xl border border-white/10 bg-black/20 p-4 text-left transition-colors hover:border-white/25"
+              style={{ borderLeftColor: theme.color, borderLeftWidth: 3 }}
+            >
+              <div className="mb-2 flex items-center justify-between">
+                <p className="text-sm font-medium text-proxy-text">{theme.label}</p>
+                <ArrowUpRight className="size-3.5 text-proxy-tertiary opacity-0 transition-opacity group-hover:opacity-100" />
+              </div>
+              <div className="flex items-end justify-between">
+                <div>
+                  <p className="text-xl font-semibold" style={{ color: theme.color }}>{loading ? "-" : count}</p>
+                  <p className="text-[10px] text-proxy-tertiary">analyses</p>
+                </div>
+                {avgConfidence !== null && (
+                  <span className="rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-proxy-muted">
+                    {Math.round(avgConfidence * 100)}% conf.
+                  </span>
+                )}
+              </div>
+            </button>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+function RecentAnalysesRail({
+  analyses, loading, onViewAll,
+}: {
+  analyses: AnalysisCase[];
+  loading: boolean;
+  onViewAll: () => void;
+}) {
+  return (
+    <section className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
+      <div className="mb-4 flex items-center justify-between">
+        <h2 className="text-lg font-semibold">Recent analyses</h2>
+        <button onClick={onViewAll} className="inline-flex items-center gap-1 text-xs text-cyan-200 hover:text-cyan-100">
+          View all <ArrowUpRight className="size-3.5" />
+        </button>
+      </div>
+      {loading ? (
+        <div className="flex h-40 items-center justify-center"><Loader2 className="size-5 animate-spin text-proxy-tertiary" /></div>
+      ) : analyses.length === 0 ? (
+        <div className="flex flex-col items-center justify-center gap-2 py-10 text-center">
+          <Bot className="size-7 text-proxy-tertiary" />
+          <p className="text-sm text-proxy-muted">No analyses yet.</p>
+          <p className="max-w-xs text-xs text-proxy-tertiary">Ask a question above to run your first multi-agent analysis.</p>
+        </div>
+      ) : (
+        <div className="space-y-2">
+          {analyses.map((analysis) => {
+            const theme = domainTheme(analysis.domains_involved[0] ?? analysis.domain);
+            return (
+              <button
+                key={analysis.id}
+                onClick={onViewAll}
+                className="flex w-full items-center gap-3 rounded-xl border border-white/10 p-3 text-left transition-colors hover:border-cyan-300/30 hover:bg-cyan-300/[0.04]"
+                style={{ borderLeftColor: theme.color, borderLeftWidth: 3 }}
+              >
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-xs font-medium text-proxy-text">{analysis.title}</p>
+                  <div className="mt-1 flex flex-wrap items-center gap-1.5">
+                    {analysis.domains_involved.map((d) => {
+                      const t = domainTheme(d);
+                      return <span key={d} className="rounded-full px-1.5 py-0.5 text-[9px]" style={{ backgroundColor: `${t.color}1a`, color: t.color }}>{t.label}</span>;
+                    })}
+                  </div>
+                </div>
+                <span className="shrink-0 text-[10px] text-proxy-tertiary">{timeAgo(analysis.updated_at)}</span>
+                {analysis.avg_confidence !== null && (
+                  <span className="shrink-0 rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-proxy-muted">
+                    {Math.round(analysis.avg_confidence * 100)}%
+                  </span>
+                )}
+              </button>
+            );
+          })}
+        </div>
+      )}
+    </section>
+  );
+}
+
+function QuickActions() {
+  const actions = [
+    { label: "New Analysis", desc: "Ask the AI Assistant", icon: Bot, href: "/dashboard/assistant", accent: "#00e5ff" },
+    { label: "Search Everything", desc: "Cross-domain evidence search", icon: Search, href: "/dashboard/cross-domain-search", accent: "#9b5cff" },
+    { label: "Upload Document", desc: "Add to your document vault", icon: Upload, href: "/dashboard/documents", accent: "#37f29a" },
+    { label: "Appeals Center", desc: "Review generated appeals", icon: ClipboardList, href: "/dashboard/appeals", accent: "#ffc857" },
+    { label: "Knowledge Graph", desc: "Explore entity relationships", icon: Network, href: "/dashboard/knowledge-graph", accent: "#ff6fb0" },
+    { label: "Reports", desc: "Full analytics breakdown", icon: Gauge, href: "/dashboard/reports", accent: "#5c9bff" },
+  ];
+  const router = useRouter();
+  return (
+    <section className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
+      <h2 className="mb-3 text-lg font-semibold">Quick actions</h2>
+      <div className="grid grid-cols-2 gap-2.5">
+        {actions.map((action) => (
+          <button
+            key={action.label}
+            onClick={() => router.push(action.href)}
+            className="motion-card group flex flex-col items-start gap-2 rounded-xl border border-white/10 bg-black/20 p-3 text-left transition-colors hover:border-white/25"
+          >
+            <div className="grid size-8 place-items-center rounded-lg border" style={{ borderColor: `${action.accent}40`, backgroundColor: `${action.accent}15` }}>
+              <action.icon className="size-4" style={{ color: action.accent }} />
+            </div>
+            <div>
+              <p className="text-xs font-medium text-proxy-text">{action.label}</p>
+              <p className="mt-0.5 text-[10px] leading-4 text-proxy-tertiary">{action.desc}</p>
+            </div>
+          </button>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function ActivityFeed({ events, loading }: { events: ReportSummary["recent_activity"]; loading: boolean }) {
+  return (
+    <section className="flex-1 rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
+      <div className="mb-3 flex items-center gap-2">
+        <h2 className="text-lg font-semibold">Live activity</h2>
+        {!loading && events.length > 0 && <span className="size-1.5 animate-pulse rounded-full bg-green-300" />}
+      </div>
+      {loading ? (
+        <div className="flex h-32 items-center justify-center"><Loader2 className="size-5 animate-spin text-proxy-tertiary" /></div>
+      ) : events.length === 0 ? (
+        <p className="text-xs text-proxy-tertiary">No activity yet.</p>
+      ) : (
+        <div className="max-h-72 space-y-3 overflow-y-auto pr-1">
+          {events.map((event) => {
+            const Icon = EVENT_ICON[event.event_type] ?? Activity;
+            return (
+              <div key={event.id} className="flex items-start gap-2.5">
+                <div className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-full border border-white/10 bg-black/30">
+                  <Icon className="size-3 text-cyan-200" />
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-xs text-proxy-text">{event.title}</p>
+                  <p className="text-[10px] text-proxy-tertiary">{event.actor} &middot; {timeAgo(event.created_at)}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </section>
+  );
+}
