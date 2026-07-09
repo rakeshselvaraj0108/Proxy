@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import {
   Search, FileText, Scale, Building2, Layers, Loader2, Network, Users,
-  Landmark, X, ChevronRight, Sparkles, ScrollText, Plus, TrendingUp, Clock,
+  Landmark, X, ChevronRight, Sparkles, ScrollText, Plus, TrendingUp, Clock, Bot,
 } from "lucide-react";
 import {
   listAnalyses, getCaseReport, getInstitutionPatterns, getSimilarCases, getMyCitizenProfile,
@@ -62,6 +63,7 @@ export function KnowledgeGraphExplorer() {
         <TabButton active={tab === "case"} icon={Network} label="Case Graph" onClick={() => setTab("case")} />
         <TabButton active={tab === "institution"} icon={Landmark} label="Institution Intelligence" onClick={() => setTab("institution")} />
         <TabButton active={tab === "profile"} icon={Users} label="My Cross-Domain Profile" onClick={() => setTab("profile")} />
+        <div className="ml-auto"><NewAnalysisButton /></div>
       </div>
 
       {tab === "case" && <CaseGraphTab analyses={analyses} loading={loadingAnalyses} focusCaseId={focusCaseId} onOpenInstitution={openInstitution} />}
@@ -80,6 +82,31 @@ function TabButton({ active, icon: Icon, label, onClick }: { active: boolean; ic
       }`}
     >
       <Icon className="size-3.5" /> {label}
+    </button>
+  );
+}
+
+function NewAnalysisButton({ compact = false }: { compact?: boolean }) {
+  const router = useRouter();
+  if (compact) {
+    return (
+      <button
+        onClick={() => router.push("/dashboard/assistant")}
+        title="Ask the AI Assistant"
+        className="new-orb grid size-8 shrink-0 place-items-center rounded-lg text-black"
+      >
+        <Bot className="size-4" />
+        <style jsx>{`.new-orb { background: radial-gradient(circle at 30% 30%, #5cf5ff, #00b8d9 55%, #6a3df0); }`}</style>
+      </button>
+    );
+  }
+  return (
+    <button
+      onClick={() => router.push("/dashboard/assistant")}
+      className="new-orb inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium text-black"
+    >
+      <Bot className="size-3.5" /> Ask the AI Assistant
+      <style jsx>{`.new-orb { background: radial-gradient(circle at 30% 30%, #5cf5ff, #00b8d9 55%, #6a3df0); }`}</style>
     </button>
   );
 }
@@ -229,19 +256,25 @@ function CaseGraphTab({
   return (
     <div className="grid flex-1 gap-4 xl:grid-cols-[260px_minmax(0,1fr)_320px]">
       <aside className="rounded-2xl border border-white/10 bg-glass p-3 backdrop-blur-2xl">
-        <div className="relative mb-3">
-          <Search className="absolute left-2.5 top-1/2 size-3.5 -translate-y-1/2 text-proxy-tertiary" />
-          <input
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search your cases..."
-            className="w-full rounded-lg border border-white/10 bg-black/30 py-1.5 pl-8 pr-2 text-xs text-proxy-text outline-none placeholder:text-proxy-tertiary focus:border-cyan-300/40"
-          />
+        <div className="mb-3 flex items-center gap-2">
+          <div className="relative flex-1">
+            <Search className="absolute left-2.5 top-1/2 size-3.5 -translate-y-1/2 text-proxy-tertiary" />
+            <input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search your cases..."
+              className="w-full rounded-lg border border-white/10 bg-black/30 py-1.5 pl-8 pr-2 text-xs text-proxy-text outline-none placeholder:text-proxy-tertiary focus:border-cyan-300/40"
+            />
+          </div>
+          <NewAnalysisButton compact />
         </div>
         {loading ? (
           <div className="flex h-32 items-center justify-center"><Loader2 className="size-5 animate-spin text-proxy-tertiary" /></div>
         ) : filteredAnalyses.length === 0 ? (
-          <p className="p-2 text-xs text-proxy-tertiary">No analyses yet. Ask the AI Assistant a question to create one.</p>
+          <div className="flex flex-col items-center gap-2 p-3 text-center">
+            <p className="text-xs text-proxy-tertiary">No analyses yet -- ask the live multi-agent AI Assistant a question to create your first real case.</p>
+            <NewAnalysisButton />
+          </div>
         ) : (
           <div className="max-h-[640px] space-y-1.5 overflow-y-auto pr-1">
             {filteredAnalyses.map((a) => {
@@ -503,7 +536,7 @@ function InstitutionTab({
 
   const graphEdges: CanvasEdge[] = useMemo(() => {
     const list: CanvasEdge[] = [];
-    slots.forEach((slot, index) => {
+    slots.forEach((_slot, index) => {
       const result = results[index];
       if (!result) return;
       result.patterns.forEach((_, i) => list.push({ source: `institution-${index}`, target: `pattern-${index}-${i}` }));
@@ -739,9 +772,10 @@ function ProfileTab({
   }
   if (!profile || profile.total_cases === 0) {
     return (
-      <div className="flex h-96 flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-white/10 text-center">
+      <div className="flex h-96 flex-col items-center justify-center gap-3 rounded-2xl border border-dashed border-white/10 text-center">
         <Users className="size-8 text-proxy-tertiary" />
         <p className="text-sm text-proxy-tertiary">Your cross-domain profile builds automatically as you run analyses.</p>
+        <NewAnalysisButton />
       </div>
     );
   }
