@@ -445,8 +445,79 @@ function InstitutionTab({
     }
   }
 
+  const [selectedGraphNode, setSelectedGraphNode] = useState<string | null>(null);
+
+  const graphNodes: InstitutionGraphNode[] = useMemo(() => {
+    const list: InstitutionGraphNode[] = [];
+    slots.forEach((slot, index) => {
+      const result = results[index];
+      if (!result) return;
+      const theme = domainTheme(slot.domain);
+      list.push({
+        id: `institution-${index}`,
+        kind: "institution",
+        label: slot.institution,
+        color: theme.color,
+        r: 32,
+        detail: <InstitutionScoreDetail slot={slot} result={result} />,
+      });
+      result.patterns.forEach((p, i) => {
+        list.push({
+          id: `pattern-${index}-${i}`,
+          kind: "pattern",
+          label: p.pattern.length > 26 ? `${p.pattern.slice(0, 26)}...` : p.pattern,
+          color: "#00e5ff",
+          r: 14 + p.confidence * 12,
+          detail: (
+            <>
+              <DetailRow label="Pattern" value={p.pattern} />
+              <DetailRow label="Confidence" value={`${Math.round(p.confidence * 100)}%`} />
+            </>
+          ),
+        });
+      });
+      result.similar.forEach((c) => {
+        list.push({
+          id: `case-${index}-${c.case_id}`,
+          kind: "case",
+          label: c.title.length > 24 ? `${c.title.slice(0, 24)}...` : c.title,
+          color: "#9b5cff",
+          r: 18,
+          detail: (
+            <>
+              <DetailRow label="Title" value={c.title} />
+              <DetailRow label="Summary" value={c.summary} />
+              <button
+                onClick={() => onOpenCase(c.case_id)}
+                className="inline-flex items-center gap-1.5 rounded-lg border border-purple-300/25 bg-purple-300/10 px-3 py-1.5 text-xs text-purple-100 hover:bg-purple-300/15"
+              >
+                <Network className="size-3.5" /> Open in Case Graph
+              </button>
+            </>
+          ),
+        });
+      });
+    });
+    return list;
+  }, [slots, results, onOpenCase]);
+
+  const graphEdges: CanvasEdge[] = useMemo(() => {
+    const list: CanvasEdge[] = [];
+    slots.forEach((slot, index) => {
+      const result = results[index];
+      if (!result) return;
+      result.patterns.forEach((_, i) => list.push({ source: `institution-${index}`, target: `pattern-${index}-${i}` }));
+      result.similar.forEach((c) => list.push({ source: `institution-${index}`, target: `case-${index}-${c.case_id}` }));
+    });
+    return list;
+  }, [slots, results]);
+
+  const activeInstitutionCount = Object.values(results).filter(Boolean).length;
+  const canvasNodes: CanvasNode[] = graphNodes.map((n) => ({ id: n.id, kind: n.kind, label: n.label, color: n.color, r: n.r }));
+  const selectedGraphDetail = graphNodes.find((n) => n.id === selectedGraphNode);
+
   return (
-    <div className="grid flex-1 gap-4 xl:grid-cols-[320px_minmax(0,1fr)]">
+    <div className="grid flex-1 gap-4 xl:grid-cols-[300px_minmax(0,1fr)_320px]">
       <aside className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl">
         <div className="mb-3 flex items-center gap-2">
           <Landmark className="size-4 text-cyan-200" />
@@ -524,48 +595,91 @@ function InstitutionTab({
         `}</style>
       </aside>
 
-      {loading ? (
-        <div className="flex h-64 items-center justify-center"><Loader2 className="size-6 animate-spin text-cyan-200" /></div>
-      ) : error ? (
-        <div className="rounded-2xl border border-white/10 bg-glass p-5 backdrop-blur-2xl">
-          <p className="text-sm text-red-200">{error}</p>
-        </div>
-      ) : Object.keys(results).length === 0 ? (
-        <div className="flex h-64 flex-col items-center justify-center gap-2 rounded-2xl border border-white/10 bg-glass text-center backdrop-blur-2xl">
-          <Sparkles className="size-8 text-proxy-tertiary" />
-          <p className="text-sm text-proxy-tertiary">Pick a domain and institution to query real pattern intelligence.</p>
-        </div>
-      ) : (
-        <div className={`grid gap-4 ${slots.length > 1 ? "md:grid-cols-2" : ""}`}>
-          {slots.map((slot, index) => {
-            const result = results[index];
-            if (!result) return null;
-            return (
-              <InstitutionResultCard key={index} slot={slot} result={result} onOpenCase={onOpenCase} />
-            );
-          })}
-        </div>
-      )}
+      <section className="relative overflow-hidden rounded-2xl border border-cyan-300/15 bg-[#050608] shadow-glow-cyan">
+        {loading ? (
+          <div className="flex h-full min-h-[600px] items-center justify-center"><Loader2 className="size-6 animate-spin text-cyan-200" /></div>
+        ) : error ? (
+          <div className="flex h-full min-h-[600px] items-center justify-center p-6 text-center">
+            <p className="text-sm text-red-200">{error}</p>
+          </div>
+        ) : (
+          <GraphCanvas
+            nodes={canvasNodes}
+            edges={graphEdges}
+            anchorId={activeInstitutionCount === 1 ? "institution-0" : undefined}
+            selectedId={selectedGraphNode}
+            onSelect={setSelectedGraphNode}
+            renderIcon={(kind, color) => <InstitutionNodeIcon kind={kind as InstitutionGraphNode["kind"]} color={color} />}
+            legend={INSTITUTION_GRAPH_LEGEND}
+            emptyMessage="Pick a domain and institution to query real pattern intelligence."
+            headerBadge={
+              activeInstitutionCount > 0 ? (
+                <div className="absolute left-4 top-4 z-10 rounded-xl border border-white/10 bg-black/45 px-3 py-2 backdrop-blur-xl">
+                  <p className="text-xs uppercase tracking-[.18em] text-proxy-tertiary">Institution Graph</p>
+                  <p className="text-sm text-cyan-100">{activeInstitutionCount} institution{activeInstitutionCount === 1 ? "" : "s"} &middot; {canvasNodes.length} real entities</p>
+                </div>
+              ) : undefined
+            }
+          />
+        )}
+      </section>
+
+      <aside className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl">
+        {selectedGraphDetail ? (
+          <>
+            <div className="mb-4 flex items-center gap-2">
+              <div className="grid size-9 place-items-center rounded-lg border" style={{ borderColor: selectedGraphDetail.color, boxShadow: `0 0 18px ${selectedGraphDetail.color}55` }}>
+                <InstitutionNodeIcon kind={selectedGraphDetail.kind} color={selectedGraphDetail.color} large />
+              </div>
+              <div className="min-w-0">
+                <p className="text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">{selectedGraphDetail.kind}</p>
+                <p className="truncate text-sm font-semibold text-proxy-text">{selectedGraphDetail.label}</p>
+              </div>
+            </div>
+            <div className="space-y-3">{selectedGraphDetail.detail}</div>
+          </>
+        ) : (
+          <p className="text-xs text-proxy-tertiary">Query an institution, then select a node to inspect it -- drag nodes to explore, scroll to zoom.</p>
+        )}
+      </aside>
     </div>
   );
 }
 
-function InstitutionResultCard({
-  slot, result, onOpenCase,
-}: {
-  slot: InstitutionSlot;
-  result: InstitutionResult;
-  onOpenCase: (caseId: string) => void;
-}) {
+interface InstitutionGraphNode {
+  id: string;
+  kind: "institution" | "pattern" | "case";
+  label: string;
+  color: string;
+  r: number;
+  detail: React.ReactNode;
+}
+
+const INSTITUTION_GRAPH_LEGEND = [
+  { label: "Institution", color: "#ffc857" },
+  { label: "Pattern", color: "#00e5ff" },
+  { label: "Similar Case", color: "#9b5cff" },
+];
+
+function InstitutionNodeIcon({ kind, color, large }: { kind: InstitutionGraphNode["kind"]; color: string; large?: boolean }) {
+  const cls = large ? "size-4" : "size-full";
+  const style = { color };
+  switch (kind) {
+    case "institution": return <Building2 className={cls} style={style} />;
+    case "pattern": return <Sparkles className={cls} style={style} />;
+    case "case": return <ScrollText className={cls} style={style} />;
+  }
+}
+
+function InstitutionScoreDetail({ slot, result }: { slot: InstitutionSlot; result: InstitutionResult }) {
   const theme = domainTheme(slot.domain);
   const circumference = 2 * Math.PI * 26;
   const pct = result.avgConfidence ?? 0;
   const offset = circumference * (1 - pct);
-
   return (
-    <section className="rounded-2xl border border-white/10 bg-glass p-5 backdrop-blur-2xl">
-      <div className="mb-4 flex items-center gap-4">
-        <svg width="64" height="64" viewBox="0 0 64 64" className="shrink-0">
+    <>
+      <div className="mb-3 flex items-center gap-3">
+        <svg width="60" height="60" viewBox="0 0 64 64" className="shrink-0">
           <circle cx="32" cy="32" r="26" fill="none" stroke="rgba(255,255,255,.08)" strokeWidth="5" />
           <circle
             cx="32" cy="32" r="26" fill="none" stroke={theme.color} strokeWidth="5"
@@ -577,50 +691,12 @@ function InstitutionResultCard({
           </text>
         </svg>
         <div className="min-w-0">
-          <p className="truncate text-sm font-semibold text-proxy-text">{slot.institution}</p>
-          <span className="mt-1 inline-block rounded-full px-2 py-0.5 text-[10px]" style={{ backgroundColor: `${theme.color}1a`, color: theme.color }}>{theme.label}</span>
-          <p className="mt-1 text-[10px] text-proxy-tertiary">{result.patterns.length} pattern{result.patterns.length === 1 ? "" : "s"} &middot; {result.similar.length} similar case{result.similar.length === 1 ? "" : "s"}</p>
+          <span className="inline-block rounded-full px-2 py-0.5 text-[10px]" style={{ backgroundColor: `${theme.color}1a`, color: theme.color }}>{theme.label}</span>
+          <p className="mt-1 text-[11px] text-proxy-tertiary">{result.patterns.length} pattern{result.patterns.length === 1 ? "" : "s"} &middot; {result.similar.length} similar case{result.similar.length === 1 ? "" : "s"}</p>
         </div>
       </div>
-
-      {result.patterns.length === 0 ? (
-        <p className="mb-4 text-xs text-proxy-tertiary">No graph patterns found yet for this domain + institution pair.</p>
-      ) : (
-        <div className="mb-4 space-y-2.5">
-          <p className="text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Pattern intelligence</p>
-          {result.patterns.map((p, index) => (
-            <div key={index} className="rounded-xl border border-white/10 bg-black/20 p-3">
-              <div className="mb-1.5 flex items-center justify-between">
-                <span className="text-xs text-proxy-tertiary">{Math.round(p.confidence * 100)}% confidence</span>
-              </div>
-              <p className="text-sm leading-6 text-proxy-text">{p.pattern}</p>
-              <div className="mt-2 h-1 overflow-hidden rounded-full bg-white/5">
-                <div className="h-full rounded-full" style={{ width: `${p.confidence * 100}%`, backgroundColor: theme.color }} />
-              </div>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {result.similar.length > 0 && (
-        <div>
-          <p className="mb-2 text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Similar cases at this institution</p>
-          <div className="space-y-1.5">
-            {result.similar.map((c) => (
-              <button
-                key={c.case_id}
-                onClick={() => onOpenCase(c.case_id)}
-                className="flex w-full items-center gap-2 rounded-lg border border-white/5 bg-black/20 p-2.5 text-left text-xs hover:border-cyan-300/25"
-              >
-                <ScrollText className="size-3.5 shrink-0 text-cyan-200" />
-                <span className="min-w-0 flex-1 truncate text-proxy-text">{c.title}</span>
-                <ChevronRight className="size-3.5 shrink-0 text-proxy-tertiary" />
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
-    </section>
+      <DetailRow label="Institution" value={slot.institution} />
+    </>
   );
 }
 
