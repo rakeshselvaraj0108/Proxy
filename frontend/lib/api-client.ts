@@ -294,3 +294,38 @@ export async function updateCaseStatus(caseId: string, status: CaseStatus): Prom
     body: JSON.stringify({ status }),
   });
 }
+
+export interface InstitutionPattern {
+  pattern: string;
+  domain: string;
+  institution: string;
+  confidence: number;
+}
+
+export async function getInstitutionPatterns(domain: string, institutionName: string): Promise<InstitutionPattern[]> {
+  return request(`/graph/patterns?domain=${encodeURIComponent(domain)}&institution_name=${encodeURIComponent(institutionName)}`, {
+    method: "GET",
+  });
+}
+
+export interface CitizenDomainProfile {
+  domain: string;
+  case_count: number;
+  cases: Array<{ case_id: string; title: string }>;
+  institutions: string[];
+}
+
+export interface CitizenProfile {
+  user_id: string;
+  domains_active_in: string[];
+  total_cases: number;
+  by_domain: CitizenDomainProfile[];
+}
+
+export async function getCitizenProfile(userId: string): Promise<CitizenProfile> {
+  return request(`/graph/citizen/${userId}/profile`, { method: "GET" });
+}
+
+export async function getMyCitizenProfile(): Promise<CitizenProfile> {
+  return getCitizenProfile(getDeviceUserId());
+}
