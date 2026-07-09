@@ -102,6 +102,19 @@ export function AssistantChat() {
 
   useEffect(() => setMessages(loadHistory()), []);
   useEffect(() => { if (messages.length) saveHistory(messages); }, [messages]);
+
+  // Cross-page handoff from Cross-Domain Search's "Ask the AI Assistant"
+  // action (?q=...) -- pre-fills but doesn't auto-send, so the user reviews
+  // before it runs a real (slow, LLM-backed) multi-agent query.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const q = params.get("q");
+    if (q) {
+      setInput(q);
+      window.setTimeout(() => textareaRef.current?.focus(), 100);
+      window.history.replaceState({}, "", window.location.pathname);
+    }
+  }, []);
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
   }, [messages, filledCount]);
