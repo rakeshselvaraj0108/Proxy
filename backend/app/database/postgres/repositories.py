@@ -213,7 +213,7 @@ class CaseRepository:
         return True
 
     async def add_event(self, case_id: str, event: dict) -> dict:
-        record = {"id": str(uuid4()), "case_id": case_id, **event}
+        record = {"id": str(uuid4()), "case_id": case_id, "created_at": datetime.now(timezone.utc).isoformat(), **event}
         self._events.append(record)
         self.local.append("case_events", self._jsonable(record))
         await self.supabase.insert("case_events", self._jsonable(record))
@@ -221,6 +221,24 @@ class CaseRepository:
 
     async def list_events(self, case_id: str) -> list[dict]:
         return [event for event in self._events if event["case_id"] == case_id]
+
+    def _user_case_ids(self, user_id: str) -> set[str]:
+        """Events don't carry user_id directly (several call sites -- e.g.
+        add_agent_run -- don't have it in scope), so cross-case queries
+        correlate via case_id instead: every case_id the user has any
+        relationship with, across real Cases, appeals, and documents (the
+        synthetic per-query case_ids from the multi-domain assistant
+        workflow never create a real Case row, so appeals/documents are the
+        only source of truth for those)."""
+        ids = {case["id"] for case in self._cases.values() if case["user_id"] == user_id}
+        ids |= {appeal["case_id"] for appeal in self._appeals.values() if appeal["user_id"] == user_id}
+        ids |= {doc["case_id"] for doc in self._documents.values() if doc["user_id"] == user_id}
+        return ids
+
+    async def list_events_for_user(self, user_id: str, limit: int = 50) -> list[dict]:
+        case_ids = self._user_case_ids(user_id)
+        events = [event for event in self._events if event["case_id"] in case_ids]
+        return sorted(events, key=lambda e: e.get("created_at") or "", reverse=True)[:limit]
 
     async def add_agent_run(self, case_id: str, workflow_name: str, status: str, input_payload: dict, output_payload: dict, error: str | None = None) -> dict:
         run = {

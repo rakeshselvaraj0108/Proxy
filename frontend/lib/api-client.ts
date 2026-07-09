@@ -234,3 +234,44 @@ export async function uploadDocument(domain: string, file: File, handlers?: Uplo
     xhr.send(formData);
   });
 }
+
+export interface ReportSummary {
+  totals: { cases: number; appeals: number; documents: number; domains_engaged: number };
+  resolution_rate: number | null;
+  domain_breakdown: Array<{ domain: string; count: number }>;
+  appeal_status_breakdown: Array<{ status: string; count: number }>;
+  case_status_breakdown: Array<{ status: string; count: number }>;
+  recent_activity: Array<{
+    id: string;
+    case_id: string;
+    event_type: string;
+    title: string;
+    body: string | null;
+    actor: string;
+    created_at: string | null;
+  }>;
+  generated_at: string;
+}
+
+export interface CaseReportData {
+  case: {
+    id: string;
+    domain: string;
+    title: string;
+    institution_name: string;
+    summary: string;
+    status: string;
+    synthetic?: boolean;
+  } | null;
+  appeals: Appeal[];
+  documents: VaultDocument[];
+  events: ReportSummary["recent_activity"];
+}
+
+export async function getReportSummary(): Promise<ReportSummary> {
+  return request("/reports/summary", { method: "GET" });
+}
+
+export async function getCaseReport(caseId: string): Promise<CaseReportData> {
+  return request(`/reports/case/${caseId}`, { method: "GET" });
+}
