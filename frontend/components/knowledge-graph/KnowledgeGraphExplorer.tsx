@@ -10,6 +10,7 @@ import {
   type AnalysisCase, type CaseReportData, type InstitutionPattern, type CitizenProfile,
 } from "@/lib/api-client";
 import { DOMAIN_THEME, domainTheme } from "@/components/chat/domain-theme";
+import { GraphCanvas, type CanvasEdge, type CanvasNode } from "./GraphCanvas";
 
 type Tab = "case" | "institution" | "profile";
 
@@ -74,15 +75,16 @@ interface GraphNode {
   kind: "case" | "domain" | "institution" | "document" | "appeal";
   label: string;
   color: string;
-  x: number;
-  y: number;
   detail: React.ReactNode;
 }
 
-const SIZE = 460;
-const CENTER = SIZE / 2;
-const INNER_R = 90;
-const OUTER_R = 175;
+const CASE_GRAPH_LEGEND = [
+  { label: "Case", color: "#00e5ff" },
+  { label: "Domain", color: "#00e5ff" },
+  { label: "Institution", color: "#ffc857" },
+  { label: "Document", color: "#37f29a" },
+  { label: "Appeal", color: "#9b5cff" },
+];
 
 function CaseGraphTab({ analyses, loading }: { analyses: AnalysisCase[]; loading: boolean }) {
   const [search, setSearch] = useState("");
@@ -90,7 +92,6 @@ function CaseGraphTab({ analyses, loading }: { analyses: AnalysisCase[]; loading
   const [report, setReport] = useState<CaseReportData | null>(null);
   const [loadingReport, setLoadingReport] = useState(false);
   const [selectedNode, setSelectedNode] = useState<string | null>(null);
-  const [hoveredNode, setHoveredNode] = useState<string | null>(null);
 
   useEffect(() => {
     if (analyses.length > 0 && !selectedCaseId) setSelectedCaseId(analyses[0].id);
@@ -123,8 +124,6 @@ function CaseGraphTab({ analyses, loading }: { analyses: AnalysisCase[]; loading
         kind: "case",
         label: caseData.title.length > 28 ? `${caseData.title.slice(0, 28)}...` : caseData.title,
         color: theme.color,
-        x: CENTER,
-        y: CENTER,
         detail: (
           <>
             <DetailRow label="Full title" value={caseData.title} />
@@ -133,31 +132,20 @@ function CaseGraphTab({ analyses, loading }: { analyses: AnalysisCase[]; loading
           </>
         ),
       },
-    ];
-
-    const domainAngle = -Math.PI / 2 - 0.5;
-    result.push({
-      id: "domain",
-      kind: "domain",
-      label: theme.label,
-      color: theme.color,
-      x: CENTER + INNER_R * Math.cos(domainAngle),
-      y: CENTER + INNER_R * Math.sin(domainAngle),
-      detail: <DetailRow label="Domain" value={`This case is classified under ${theme.label}.`} />,
-    });
-
-    const institutionAngle = -Math.PI / 2 + 0.5;
-    result.push({
-      id: "institution",
-      kind: "institution",
-      label: caseData.institution_name || "Not specified",
-      color: "#ffc857",
-      x: CENTER + INNER_R * Math.cos(institutionAngle),
-      y: CENTER + INNER_R * Math.sin(institutionAngle),
-      detail: <DetailRow label="Institution" value={caseData.institution_name || "Not specified"} />,
-    });
-
-    const outer = [
+      {
+        id: "domain",
+        kind: "domain",
+        label: theme.label,
+        color: theme.color,
+        detail: <DetailRow label="Domain" value={`This case is classified under ${theme.label}.`} />,
+      },
+      {
+        id: "institution",
+        kind: "institution",
+        label: caseData.institution_name || "Not specified",
+        color: "#ffc857",
+        detail: <DetailRow label="Institution" value={caseData.institution_name || "Not specified"} />,
+      },
       ...report.documents.map((doc) => ({
         id: `doc-${doc.id}`,
         kind: "document" as const,
@@ -186,13 +174,14 @@ function CaseGraphTab({ analyses, loading }: { analyses: AnalysisCase[]; loading
       })),
     ];
 
-    outer.forEach((item, index) => {
-      const angle = (index / Math.max(outer.length, 1)) * Math.PI * 2 - Math.PI / 2;
-      result.push({ ...item, x: CENTER + OUTER_R * Math.cos(angle), y: CENTER + OUTER_R * Math.sin(angle) });
-    });
-
     return result;
   }, [report, theme]);
+
+  const canvasNodes: CanvasNode[] = useMemo(
+    () => nodes.map((n) => ({ id: n.id, kind: n.kind, label: n.label, color: n.color, r: n.kind === "case" ? 40 : n.kind === "domain" || n.kind === "institution" ? 26 : 20 })),
+    [nodes]
+  );
+  const canvasEdges: CanvasEdge[] = useMemo(() => nodes.slice(1).map((n) => ({ source: "case", target: n.id })), [nodes]);
 
   const active = nodes.find((n) => n.id === selectedNode) ?? nodes[0];
 
@@ -236,74 +225,25 @@ function CaseGraphTab({ analyses, loading }: { analyses: AnalysisCase[]; loading
       </aside>
 
       <section className="relative overflow-hidden rounded-2xl border border-cyan-300/15 bg-[#050608] shadow-glow-cyan">
-        <div className="absolute left-4 top-4 z-10 rounded-xl border border-white/10 bg-black/45 px-3 py-2 backdrop-blur-xl">
-          <p className="text-xs uppercase tracking-[.18em] text-proxy-tertiary">Case Knowledge Graph</p>
-          <p className="text-sm text-cyan-100">{nodes.length} real entities</p>
-        </div>
         {loadingReport ? (
           <div className="flex h-full min-h-[600px] items-center justify-center"><Loader2 className="size-6 animate-spin text-cyan-200" /></div>
-        ) : nodes.length === 0 ? (
-          <div className="flex h-full min-h-[600px] flex-col items-center justify-center gap-2 text-center">
-            <Network className="size-8 text-proxy-tertiary" />
-            <p className="text-sm text-proxy-tertiary">Select a case to explore its knowledge graph.</p>
-          </div>
         ) : (
-          <svg viewBox={`0 0 ${SIZE} ${SIZE}`} className="h-full min-h-[600px] w-full" role="img" aria-label="Case knowledge graph">
-            <defs>
-              <radialGradient id="caseGraphGlow">
-                <stop offset="0%" stopColor="rgba(0,229,255,.16)" />
-                <stop offset="100%" stopColor="rgba(0,0,0,0)" />
-              </radialGradient>
-            </defs>
-            <rect width={SIZE} height={SIZE} fill="url(#caseGraphGlow)" />
-            {nodes.slice(1).map((node) => {
-              const caseNode = nodes[0];
-              const isCore = node.kind === "domain" || node.kind === "institution";
-              const active = node.id === hoveredNode || node.id === selectedNode;
-              return (
-                <line
-                  key={`edge-${node.id}`}
-                  x1={caseNode.x}
-                  y1={caseNode.y}
-                  x2={node.x}
-                  y2={node.y}
-                  stroke={node.color}
-                  strokeWidth={isCore ? 1.5 : 1}
-                  strokeOpacity={active ? 0.6 : 0.18}
-                />
-              );
-            })}
-            {nodes.map((node) => {
-              const isCase = node.kind === "case";
-              const r = isCase ? 42 : node.kind === "domain" || node.kind === "institution" ? 26 : 20;
-              const isActive = node.id === selectedNode;
-              return (
-                <g
-                  key={node.id}
-                  onClick={() => setSelectedNode(node.id)}
-                  onMouseEnter={() => setHoveredNode(node.id)}
-                  onMouseLeave={() => setHoveredNode(null)}
-                  style={{ cursor: "pointer" }}
-                >
-                  <circle
-                    cx={node.x}
-                    cy={node.y}
-                    r={r}
-                    fill="rgba(5,5,8,.9)"
-                    stroke={node.color}
-                    strokeWidth={isActive ? 3 : 1.5}
-                    style={{ filter: `drop-shadow(0 0 ${isActive ? 16 : 8}px ${node.color}66)`, transition: "all .15s ease" }}
-                  />
-                  <foreignObject x={node.x - 9} y={node.y - 9} width="18" height="18">
-                    <NodeIcon kind={node.kind} color={node.color} />
-                  </foreignObject>
-                  <text x={node.x} y={node.y + r + 14} textAnchor="middle" fill="#dbeafe" fontSize={isCase ? 12 : 10}>
-                    {node.label}
-                  </text>
-                </g>
-              );
-            })}
-          </svg>
+          <GraphCanvas
+            nodes={canvasNodes}
+            edges={canvasEdges}
+            anchorId="case"
+            selectedId={selectedNode}
+            onSelect={setSelectedNode}
+            renderIcon={(kind, color) => <NodeIcon kind={kind as GraphNode["kind"]} color={color} />}
+            legend={CASE_GRAPH_LEGEND}
+            emptyMessage="Select a case to explore its knowledge graph."
+            headerBadge={
+              <div className="absolute left-4 top-4 z-10 rounded-xl border border-white/10 bg-black/45 px-3 py-2 backdrop-blur-xl">
+                <p className="text-xs uppercase tracking-[.18em] text-proxy-tertiary">Case Knowledge Graph</p>
+                <p className="text-sm text-cyan-100">{nodes.length} real entities &middot; drag to explore, scroll to zoom</p>
+              </div>
+            }
+          />
         )}
       </section>
 
@@ -487,51 +427,40 @@ function ProfileTab() {
     );
   }
 
-  const size = 420;
-  const center = size / 2;
-  const radius = 150;
   const maxCases = Math.max(1, ...profile.by_domain.map((d) => d.case_count));
   const active = profile.by_domain.find((d) => d.domain === selectedDomain) ?? null;
+
+  const profileNodes: CanvasNode[] = [
+    { id: "you", kind: "you", label: "YOU", color: "#00e5ff", r: 34 },
+    ...profile.by_domain.map((entry) => ({
+      id: entry.domain,
+      kind: "domain",
+      label: domainTheme(entry.domain).label,
+      color: domainTheme(entry.domain).color,
+      r: 16 + (entry.case_count / maxCases) * 20,
+    })),
+  ];
+  const profileEdges: CanvasEdge[] = profile.by_domain.map((entry) => ({ source: "you", target: entry.domain }));
+  const profileLegend = profile.by_domain.map((entry) => ({ label: domainTheme(entry.domain).label, color: domainTheme(entry.domain).color }));
 
   return (
     <div className="grid flex-1 gap-4 xl:grid-cols-[minmax(0,1fr)_320px]">
       <section className="relative overflow-hidden rounded-2xl border border-cyan-300/15 bg-[#050608] shadow-glow-cyan">
-        <div className="absolute left-4 top-4 z-10 rounded-xl border border-white/10 bg-black/45 px-3 py-2 backdrop-blur-xl">
-          <p className="text-xs uppercase tracking-[.18em] text-proxy-tertiary">Your cross-domain footprint</p>
-          <p className="text-sm text-cyan-100">{profile.total_cases} case{profile.total_cases === 1 ? "" : "s"} across {profile.domains_active_in.length} domain{profile.domains_active_in.length === 1 ? "" : "s"}</p>
-        </div>
-        <svg viewBox={`0 0 ${size} ${size}`} className="h-full min-h-[520px] w-full" role="img" aria-label="Cross-domain citizen profile">
-          <circle cx={center} cy={center} r={radius} fill="none" stroke="rgba(255,255,255,.06)" strokeDasharray="2 7" />
-          {profile.by_domain.map((entry, index) => {
-            const theme = domainTheme(entry.domain);
-            const angle = (index / profile.by_domain.length) * Math.PI * 2 - Math.PI / 2;
-            const x = center + radius * Math.cos(angle);
-            const y = center + radius * Math.sin(angle);
-            const r = 16 + (entry.case_count / maxCases) * 20;
-            const isActive = selectedDomain === entry.domain;
-            return (
-              <g key={entry.domain}>
-                <line x1={center} y1={center} x2={x} y2={y} stroke={theme.color} strokeOpacity={isActive ? 0.55 : 0.18} strokeWidth={1.5} />
-                <circle
-                  cx={x} cy={y} r={r} fill="rgba(5,5,8,.9)" stroke={theme.color} strokeWidth={isActive ? 3 : 1.5}
-                  style={{ cursor: "pointer", filter: `drop-shadow(0 0 ${isActive ? 16 : 8}px ${theme.color}66)`, transition: "all .15s ease" }}
-                  onClick={() => setSelectedDomain(entry.domain)}
-                />
-                <text x={x} y={y + 4} textAnchor="middle" fill="#dbeafe" fontSize="12" fontWeight={600} style={{ pointerEvents: "none" }}>
-                  {entry.case_count}
-                </text>
-                <text x={x} y={y + r + 16} textAnchor="middle" fill="#a8b3c7" fontSize="11" style={{ pointerEvents: "none" }}>
-                  {theme.label}
-                </text>
-              </g>
-            );
-          })}
-          <circle cx={center} cy={center} r={36} fill="#07080b" stroke="rgba(255,255,255,.15)" strokeWidth={2} />
-          <foreignObject x={center - 12} y={center - 12} width="24" height="24">
-            <Users className="size-6 text-cyan-200" />
-          </foreignObject>
-          <text x={center} y={center + 52} textAnchor="middle" fill="#687386" fontSize="10">YOU</text>
-        </svg>
+        <GraphCanvas
+          nodes={profileNodes}
+          edges={profileEdges}
+          anchorId="you"
+          selectedId={selectedDomain}
+          onSelect={setSelectedDomain}
+          renderIcon={(kind, color) => (kind === "you" ? <Users className="size-full" style={{ color }} /> : <Layers className="size-full" style={{ color }} />)}
+          legend={profileLegend}
+          headerBadge={
+            <div className="absolute left-4 top-4 z-10 rounded-xl border border-white/10 bg-black/45 px-3 py-2 backdrop-blur-xl">
+              <p className="text-xs uppercase tracking-[.18em] text-proxy-tertiary">Your cross-domain footprint</p>
+              <p className="text-sm text-cyan-100">{profile.total_cases} case{profile.total_cases === 1 ? "" : "s"} across {profile.domains_active_in.length} domain{profile.domains_active_in.length === 1 ? "" : "s"}</p>
+            </div>
+          }
+        />
       </section>
 
       <aside className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl">
