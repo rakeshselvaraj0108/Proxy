@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import {
   classifyQuery, runMultiDomainCase, uploadDocument, deleteDocument, listAnalyses,
-  type DomainCandidate, type MultiDomainCaseResponse, type VaultDocument,
+  type DomainCandidate, type MultiDomainCaseResponse, type UploadedDocument,
 } from "@/lib/api-client";
 import { DOMAIN_THEME, domainTheme } from "@/components/chat/domain-theme";
 import { ReasoningLanes } from "@/components/chat/ReasoningLanes";
@@ -61,7 +61,7 @@ export function NewAnalysisFlow() {
   const [issueText, setIssueText] = useState("");
   const [livePreview, setLivePreview] = useState<DomainCandidate[]>([]);
   const [classifying, setClassifying] = useState(false);
-  const [uploadedDocs, setUploadedDocs] = useState<VaultDocument[]>([]);
+  const [uploadedDocs, setUploadedDocs] = useState<UploadedDocument[]>([]);
   const [pendingUploads, setPendingUploads] = useState<PendingUpload[]>([]);
   const [dragActive, setDragActive] = useState(false);
   const [draftAppeals, setDraftAppeals] = useState(false);
@@ -125,10 +125,10 @@ export function NewAnalysisFlow() {
     [focusDomain]
   );
 
-  async function removeDoc(doc: VaultDocument) {
-    setUploadedDocs((current) => current.filter((d) => d.id !== doc.id));
+  async function removeDoc(doc: UploadedDocument) {
+    setUploadedDocs((current) => current.filter((d) => d.document_id !== doc.document_id));
     try {
-      await deleteDocument(doc.id);
+      await deleteDocument(doc.document_id);
     } catch {
       // best-effort -- it's already removed from this session's intake list
     }
@@ -334,10 +334,10 @@ function IntakePanel({
   setIssueText: (v: string) => void;
   livePreview: DomainCandidate[];
   classifying: boolean;
-  uploadedDocs: VaultDocument[];
+  uploadedDocs: UploadedDocument[];
   pendingUploads: PendingUpload[];
   onPick: () => void;
-  onRemoveDoc: (doc: VaultDocument) => void;
+  onRemoveDoc: (doc: UploadedDocument) => void;
   draftAppeals: boolean;
   setDraftAppeals: (v: boolean) => void;
   canRun: boolean;
@@ -373,7 +373,7 @@ function IntakePanel({
             </div>
           ))}
           {uploadedDocs.map((doc) => (
-            <div key={doc.id} className="flex items-center gap-2 rounded-lg border border-white/10 bg-black/20 p-2 text-xs">
+            <div key={doc.document_id} className="flex items-center gap-2 rounded-lg border border-white/10 bg-black/20 p-2 text-xs">
               <FileText className="size-3.5 shrink-0 text-cyan-200" />
               <span className="min-w-0 flex-1 truncate text-proxy-text">{doc.filename}</span>
               {doc.indexed ? (

@@ -195,12 +195,26 @@ export interface UploadProgressHandlers {
   onProgress?: (percent: number) => void;
 }
 
+// Matches backend DocumentUploadResponse (app/schemas/knowledge.py) exactly
+// -- FastAPI's response_model strips every field not declared there (id,
+// user_id, mime_type, size_bytes, text_extract, document_type, domain,
+// chunks_indexed, created_at all get dropped), so this is NOT a VaultDocument
+// despite the upload endpoint operating on one internally. Callers that need
+// the full record must re-fetch via listDocuments().
+export interface UploadedDocument {
+  document_id: string;
+  case_id: string;
+  filename: string;
+  storage_path: string;
+  indexed: boolean;
+}
+
 // Uses XMLHttpRequest instead of fetch() so upload progress is observable --
 // fetch's request-body progress isn't exposed in a way that works reliably
 // across browsers yet. Deliberately bypasses request()'s JSON Content-Type
 // default (must NOT be set for multipart/form-data -- the browser sets the
 // boundary itself), but still attaches the same bearer auth.
-export async function uploadDocument(domain: string, file: File, handlers?: UploadProgressHandlers): Promise<VaultDocument> {
+export async function uploadDocument(domain: string, file: File, handlers?: UploadProgressHandlers): Promise<UploadedDocument> {
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
     xhr.open("POST", `${API_BASE}/upload/vault/${domain}`);
