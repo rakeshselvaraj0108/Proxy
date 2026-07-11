@@ -1,7 +1,15 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { Search, FileSearch, Network, Target, PenLine, ShieldAlert, Loader2, Check } from "lucide-react";
 import { domainTheme } from "./domain-theme";
+import { useDeviceTier } from "@/components/landing/useDeviceTier";
+import type { FlowStage } from "./PipelineFlow3D";
+
+const PipelineFlow3D = dynamic(() => import("./PipelineFlow3D"), {
+  ssr: false,
+  loading: () => <div className="h-[300px] animate-pulse rounded-lg bg-white/[.02]" aria-hidden />,
+});
 
 export interface DetectedDomain {
   domain: string;
@@ -27,6 +35,12 @@ export function PipelineSidebar({
   processing: boolean;
 }) {
   const theme = primaryDomain ? domainTheme(primaryDomain) : undefined;
+  const color = theme?.color ?? "#00e5ff";
+  const tier = useDeviceTier();
+  const stages: FlowStage[] = PIPELINE_STAGES.map((stage) => {
+    const done = trace.some(stage.match);
+    return { key: stage.key, label: stage.label, done, active: processing && !done && trace.length > 0 };
+  });
 
   return (
     <div className="hidden w-64 shrink-0 flex-col gap-4 xl:flex">
@@ -57,29 +71,32 @@ export function PipelineSidebar({
       </div>
 
       <div className="rounded-xl border border-white/10 bg-black/20 p-3">
-        <p className="mb-3 text-[10px] font-medium uppercase tracking-wide text-proxy-tertiary">Agent Pipeline</p>
-        <div className="relative space-y-3">
-          <div className="absolute bottom-3 left-[11px] top-3 w-px bg-white/10" aria-hidden />
-          {PIPELINE_STAGES.map((stage) => {
-            const Icon = stage.icon;
-            const done = trace.some(stage.match);
-            const isNext = processing && !done && trace.length > 0;
-            const color = theme?.color ?? "#00e5ff";
-            return (
-              <div key={stage.key} className="relative flex items-start gap-2.5 pl-0">
-                <span
-                  className="relative z-10 grid size-[22px] shrink-0 place-items-center rounded-full border-2 border-black/40"
-                  style={{ backgroundColor: done ? color : "rgba(255,255,255,.06)" }}
-                >
-                  {done ? <Check className="size-3 text-black" /> : isNext ? <Loader2 className="size-3 animate-spin text-proxy-tertiary" /> : <Icon className="size-3 text-proxy-tertiary" />}
-                </span>
-                <div className="min-w-0 pt-0.5">
-                  <p className={`text-[11px] font-medium ${done ? "text-proxy-text" : "text-proxy-tertiary"}`}>{stage.label}</p>
+        <p className="mb-1 text-[10px] font-medium uppercase tracking-wide text-proxy-tertiary">Agent Pipeline</p>
+        {tier === "high" ? (
+          <PipelineFlow3D stages={stages} color={color} processing={processing} />
+        ) : (
+          <div className="relative space-y-3 pt-2">
+            <div className="absolute bottom-3 left-[11px] top-3 w-px bg-white/10" aria-hidden />
+            {PIPELINE_STAGES.map((stage) => {
+              const Icon = stage.icon;
+              const done = trace.some(stage.match);
+              const isNext = processing && !done && trace.length > 0;
+              return (
+                <div key={stage.key} className="relative flex items-start gap-2.5 pl-0">
+                  <span
+                    className="relative z-10 grid size-[22px] shrink-0 place-items-center rounded-full border-2 border-black/40"
+                    style={{ backgroundColor: done ? color : "rgba(255,255,255,.06)" }}
+                  >
+                    {done ? <Check className="size-3 text-black" /> : isNext ? <Loader2 className="size-3 animate-spin text-proxy-tertiary" /> : <Icon className="size-3 text-proxy-tertiary" />}
+                  </span>
+                  <div className="min-w-0 pt-0.5">
+                    <p className={`text-[11px] font-medium ${done ? "text-proxy-text" : "text-proxy-tertiary"}`}>{stage.label}</p>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
-        </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </div>
   );

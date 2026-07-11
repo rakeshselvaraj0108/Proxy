@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import { domainTheme } from "@/components/chat/domain-theme";
+import { useDeviceTier } from "@/components/landing/useDeviceTier";
 
 export interface DomainOrbitStat {
   domain: string;
@@ -14,11 +16,28 @@ const CENTER = SIZE / 2;
 const ORBIT_R = 122;
 const CORE_R = 40;
 
-/** Radial "solar system" of domain activity, replacing a plain grid --
- * node size encodes analysis volume, the core encodes overall confidence
- * as an animated progress ring, so the whole system's health reads at a
- * glance instead of requiring eight separate numbers to be scanned. */
-export function DomainOrbit({
+const DomainOrbit3D = dynamic(() => import("./DomainOrbit3D"), {
+  ssr: false,
+  loading: () => <div className="h-[320px] w-[320px] animate-pulse rounded-full bg-white/[.02]" aria-hidden />,
+});
+
+/** Radial "solar system" of domain activity -- node size encodes analysis
+ * volume, the core encodes overall confidence as an animated progress ring.
+ * Renders as a real orbiting 3D scene on capable devices (nodes genuinely
+ * revolve around the core, not a static ring of dots), falling back to the
+ * flat SVG version below on low-tier devices / reduced motion. */
+export function DomainOrbit(props: {
+  stats: DomainOrbitStat[];
+  overallConfidence: number | null;
+  totalRuns: number;
+  onSelect: (domain: string) => void;
+}) {
+  const tier = useDeviceTier();
+  if (tier === "high") return <DomainOrbit3D {...props} />;
+  return <DomainOrbitFlat {...props} />;
+}
+
+function DomainOrbitFlat({
   stats, overallConfidence, totalRuns, onSelect,
 }: {
   stats: DomainOrbitStat[];

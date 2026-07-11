@@ -260,11 +260,18 @@ export function AssistantChat() {
   const sidebarTrace = processing ? [] : primaryAnswer?.trace ?? [];
 
   return (
-    <div className="flex min-h-[720px] flex-1 gap-4">
-      <div className="flex flex-1 flex-col rounded-2xl border border-white/10 bg-glass backdrop-blur-2xl">
+    <div className="flex min-h-0 flex-1 gap-4">
+      <div className="flex min-h-0 flex-1 flex-col rounded-2xl border border-white/10 bg-glass backdrop-blur-2xl">
         <ChatHeader onClear={clearConversation} busy={processing} />
 
-        <div ref={scrollRef} className="flex-1 space-y-5 overflow-y-auto px-4 py-6 sm:px-8">
+        {/* This is the only scrollable region -- the header above and the
+            Composer below are outside this div, in the same flex-col, so
+            they hold a fixed position regardless of how much content
+            streams in here. min-h-0 is required: without it a flex child
+            refuses to shrink below its content size, and overflow-y-auto
+            never actually kicks in, letting this div (and the whole page)
+            grow taller with every generated answer instead. */}
+        <div ref={scrollRef} className="min-h-0 flex-1 space-y-5 overflow-y-auto px-4 py-6 sm:px-8">
           {messages.length === 0 && !processing && <BootSequence onPick={setInput} />}
 
           {messages.map((message) =>
@@ -299,7 +306,12 @@ export function AssistantChat() {
         />
       </div>
 
-      <div className="hidden py-4 xl:block">
+      {/* No overflow-y-auto here: the sidebar's natural content height
+          (Detected + Agent Pipeline) comfortably fits without scrolling in
+          normal use, and forcing it into the row's clamped height with
+          scrollbars now hidden globally meant content got silently clipped
+          with no visible affordance that more existed below. */}
+      <div className="hidden self-start py-4 xl:block">
         <PipelineSidebar
           candidates={sidebarCandidates}
           primaryDomain={primaryAnswer?.domain}
