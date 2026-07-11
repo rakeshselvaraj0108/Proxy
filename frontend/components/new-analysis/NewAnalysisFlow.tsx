@@ -261,7 +261,18 @@ export function NewAnalysisFlow() {
             runState={runState}
             onRun={runAnalysis}
           />
-          <LiveFlowPanel lanes={lanes} runState={runState} filledCount={filledCount} error={error} elapsedMs={runningElapsedMs} />
+          <LiveFlowPanel
+            lanes={lanes}
+            runState={runState}
+            filledCount={filledCount}
+            error={error}
+            elapsedMs={runningElapsedMs}
+            issueText={issueText}
+            classifying={classifying}
+            livePreview={livePreview}
+            uploadedDocs={uploadedDocs}
+            pendingUploads={pendingUploads}
+          />
         </div>
       </section>
 
@@ -471,17 +482,29 @@ const STILL_WORKING_PHRASES = [
 ];
 
 function LiveFlowPanel({
-  lanes, runState, filledCount, error, elapsedMs,
+  lanes, runState, filledCount, error, elapsedMs, issueText, classifying, livePreview, uploadedDocs, pendingUploads,
 }: {
   lanes: Array<{ domain: string; trace?: string[] }>;
   runState: "idle" | "running" | "complete" | "error";
   filledCount: number;
   error: string | null;
   elapsedMs: number;
+  issueText: string;
+  classifying: boolean;
+  livePreview: DomainCandidate[];
+  uploadedDocs: UploadedDocument[];
+  pendingUploads: PendingUpload[];
 }) {
   const elapsedSeconds = elapsedMs / 1000;
   const stagesExhausted = filledCount >= ESTIMATED_STAGES.length;
   const stillWorkingPhrase = STILL_WORKING_PHRASES[Math.min(Math.floor(elapsedSeconds / 15), STILL_WORKING_PHRASES.length - 1)];
+  // While idle, node 0 ("Classifying query across domains") is genuinely
+  // complete the moment the real classifyQuery call resolves -- reflect
+  // that instead of leaving every node dormant until the full run starts,
+  // which is what made this panel look dead even after real classification
+  // and real document uploads had already happened.
+  const idleFilledCount = livePreview.length > 0 ? 1 : 0;
+  const displayFilledCount = runState === "running" ? filledCount : idleFilledCount;
 
   return (
     <div className="rounded-xl border border-white/10 bg-black/20 p-4">
@@ -493,14 +516,14 @@ function LiveFlowPanel({
           <span className="text-xs text-proxy-tertiary">Real multi-agent trace</span>
         )}
       </div>
-      <ReasoningLanes lanes={lanes} processing={runState === "running"} filledCount={filledCount} />
+      <ReasoningLanes lanes={lanes} processing={runState === "running" || classifying} filledCount={displayFilledCount} />
 
       <div className="mt-4 rounded-xl border border-white/10 bg-[#050608] p-4 font-mono text-xs text-proxy-muted">
         <div className="mb-2 flex items-center gap-1.5 text-cyan-100"><ScrollText className="size-3.5" /> Console</div>
         {error ? (
           <p className="flex items-center gap-2 text-red-200"><AlertCircle className="size-3.5 shrink-0" /> {error}</p>
         ) : runState === "idle" ? (
-          <p>Waiting for domain, evidence, or issue description...</p>
+          <IdleConsole issueText={issueText} classifying={classifying} livePreview={livePreview} uploadedDocs={uploadedDocs} pendingUploads={pendingUploads} />
         ) : runState === "running" ? (
           <>
             <p className="mb-1"><span className="text-green-300">&#10003;</span> Domain Router: classifying across domains...</p>
@@ -521,6 +544,57 @@ function LiveFlowPanel({
       </div>
     </div>
   );
+}
+
+function IdleConsole({
+  issueText, classifying, livePreview, uploadedDocs, pendingUploads,
+}: {
+  issueText: string;
+  classifying: boolean;
+  livePreview: DomainCandidate[];
+  uploadedDocs: UploadedDocument[];
+  pendingUploads: PendingUpload[];
+}) {
+  const lines: React.ReactNode[] = [];
+
+  for (const upload of pendingUploads) {
+    lines.push(
+      <p key={`pending-${upload.id}`} className="mb-1 flex items-center gap-2 text-proxy-muted">
+        <Loader2 className="size-3 shrink-0 animate-spin text-cyan-300" /> Uploading {upload.filename}... {upload.progress}%
+      </p>
+    );
+  }
+  for (const doc of uploadedDocs) {
+    lines.push(
+      <p key={`doc-${doc.document_id}`} className="mb-1">
+        <span className={doc.indexed ? "text-green-300" : "text-amber-300"}>{doc.indexed ? "✓" : "○"}</span> {doc.filename} {doc.indexed ? "indexed and searchable" : "processing..."}
+      </p>
+    );
+  }
+
+  if (!issueText.trim() && uploadedDocs.length === 0 && pendingUploads.length === 0) {
+    lines.push(<p key="waiting">Waiting for domain, evidence, or issue description...</p>);
+  } else if (classifying) {
+    lines.push(
+      <p key="classifying" className="flex items-center gap-2 text-proxy-muted">
+        <Loader2 className="size-3 shrink-0 animate-spin text-cyan-300" /> Domain Router: classifying your description across all 8 domains...
+      </p>
+    );
+  } else if (livePreview.length > 0) {
+    const domainList = livePreview.map((c) => domainTheme(c.domain).label).join(", ");
+    lines.push(
+      <p key="classified" className="mb-1">
+        <span className="text-green-300">&#10003;</span> Domain Router: classified as {domainList}.
+      </p>
+    );
+    lines.push(<p key="ready" className="text-proxy-tertiary">Ready -- run the analysis to dispatch the real 6-agent pipeline for each detected domain.</p>);
+  } else if (issueText.trim().length > 0 && issueText.trim().length <= 12) {
+    lines.push(<p key="typing">Keep typing -- domain classification starts after 12 characters.</p>);
+  } else if (issueText.trim().length > 12) {
+    lines.push(<p key="no-match" className="text-proxy-tertiary">No strong domain match yet -- analysis will still run using the selected focus domain above.</p>);
+  }
+
+  return <>{lines}</>;
 }
 
 function ResultsPanel({
