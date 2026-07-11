@@ -23,6 +23,12 @@ Prefer precise evidence-backed language over aggressive claims.
     Domain.HOUSING: "Focus on lease clauses, notice dates, deposit deductions, maintenance records, and local tenant law.",
     Domain.ECOMMERCE: "Focus on order facts, warranty terms, return window, defect evidence, seller communication, and consumer rules.",
     Domain.GOVERNMENT: "Focus on eligibility, application timeline, statutory service window, grievance channel, and required forms.",
+    Domain.HEALTHCARE: """
+This is an educational, evidence-based public health information query -- NOT a dispute and there is no counterparty.
+Answer from WHO, MedlinePlus, and other authoritative clinical/public-health sources.
+Do not diagnose. Do not recommend specific medications or dosages. Always recommend consulting a licensed
+physician for personal medical advice, and flag any red-flag/urgent symptoms clearly.
+""",
 }
 
 

@@ -1,9 +1,13 @@
-"""Evidence Agent — reads uploaded documents and extracts structured facts:
+"""Evidence Agent — reads uploaded documents and extracts structured facts.
 
-- Diagnosis, Treatment, Hospital
-- Coverage, Dates, Bill amounts
-- Documents missing
-- Reason for rejection
+The schema of those facts is domain-specific (evidence_prompt builds it from
+app.prompts.domain_profiles -- diagnosis/hospital for health insurance,
+transaction_date/dispute_type for banking, flight_number/disruption_type for
+airlines, etc.), so this agent passes through whatever fields the LLM
+actually returned instead of only ever keeping a fixed insurance-shaped
+subset -- previously it cherry-picked diagnosis/treatment/hospital/etc. by
+hardcoded key name regardless of domain, silently discarding every other
+domain's real extracted facts.
 """
 
 from __future__ import annotations
@@ -14,21 +18,13 @@ from app.llm.service import llm_service
 from app.prompts.health_insurance_agents import evidence_prompt
 
 EVIDENCE_FALLBACK_FIELDS: dict = {
-    "diagnosis": "",
-    "treatment": "",
-    "hospital": "",
-    "coverage_requested": "",
-    "admission_date": "",
-    "discharge_date": "",
-    "bill_amount": "",
-    "reason_for_rejection": "",
     "documents_missing": [],
     "key_dates": [],
 }
 
 
 async def run_evidence_agent(state: AgentState) -> AgentState:
-    """Execute the evidence agent: parse documents and extract structured medical/insurance facts."""
+    """Execute the evidence agent: parse documents and extract domain-appropriate structured facts."""
     domain = state["domain"]
     case_summary = state.get("case_summary", "")
     context = state.get("retrieved_context", "")
@@ -37,17 +33,11 @@ async def run_evidence_agent(state: AgentState) -> AgentState:
     prompt = evidence_prompt(domain, case_summary, context, evidence)
     raw = await llm_service.generate(prompt, temperature=0.1, purpose="reasoning")
 
-    # Parse structured output
+    # Parse structured output -- keep every field the LLM returned (the
+    # schema varies per domain) rather than filtering to a fixed key set.
     parsed = parse_agent_json(raw, EVIDENCE_FALLBACK_FIELDS)
     evidence_output: EvidenceOutput = {
-        "diagnosis": parsed.get("diagnosis", ""),
-        "treatment": parsed.get("treatment", ""),
-        "hospital": parsed.get("hospital", ""),
-        "coverage_requested": parsed.get("coverage_requested", ""),
-        "admission_date": parsed.get("admission_date", ""),
-        "discharge_date": parsed.get("discharge_date", ""),
-        "bill_amount": parsed.get("bill_amount", ""),
-        "reason_for_rejection": parsed.get("reason_for_rejection", ""),
+        **{key: value for key, value in parsed.items() if key != "_parse_failed"},
         "documents_missing": parsed.get("documents_missing", []),
         "key_dates": parsed.get("key_dates", []),
         "summary": parsed.get("summary", raw[:2000]),

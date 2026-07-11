@@ -12,15 +12,10 @@ from app.agents.json_parser import parse_agent_json
 from app.agents.state import AgentState, ResearchOutput
 from app.knowledge_graph.neo4j.service import knowledge_graph
 from app.llm.service import llm_service
+from app.prompts.domain_profiles import get_profile
 from app.prompts.health_insurance_agents import research_prompt
 from app.rag.retrieval.qdrant_service import qdrant_service
 from app.services.web_search import web_search_service
-
-RESEARCH_QUERIES = [
-    "policy coverage clauses exclusions waiting period",
-    "IRDAI health insurance regulations claim denial appeal",
-    "medical necessity pre-authorization reimbursement",
-]
 
 RESEARCH_FALLBACK_FIELDS: dict = {
     "applicable_clauses": [],
@@ -56,12 +51,19 @@ async def run_research_agent(state: AgentState) -> AgentState:
     # through here, which then crashes cache-key hashing (str-only) downstream.
     institution = state.get("institution_name") or ""
     case_summary = state.get("case_summary", "")
-    combined_query = f"{case_summary} {institution} " + " ".join(RESEARCH_QUERIES)
+    profile = get_profile(domain)
+    # Previously hardcoded to health-insurance terms ("IRDAI health insurance
+    # regulations", "medical necessity pre-authorization") regardless of
+    # domain -- every other domain's vector search was polluted with
+    # irrelevant insurance jargon. Now pulls the same domain profile the
+    # prompts use, so a banking/airlines/housing/etc. case searches for its
+    # own actually-relevant terms.
+    combined_query = f"{case_summary} {institution} " + " ".join(profile.research_questions)
 
     # --- 1. Vector search (Qdrant) ---
     all_hits: list[dict] = []
     seen: set[str] = set()
-    for query in [combined_query, f"{institution} policy wording rules regulations"]:
+    for query in [combined_query, f"{institution} {profile.counterparty} rules regulations terms"]:
         hits = await qdrant_service.search(domain, query, limit=6)
         for hit in hits:
             hit_id = str(hit.get("id"))
@@ -75,15 +77,15 @@ async def run_research_agent(state: AgentState) -> AgentState:
     state["graph_context"] = "\n".join(graph_lines)
 
     # --- 3. Web Search ---
-    from app.models.domain import Domain as DomainEnum
-    if domain == DomainEnum.BANKING:
-        web_query = f"{institution} banking dispute RBI ombudsman complaint {case_summary[:200]}"
+    # Previously only banking got a domain-appropriate query -- every other
+    # domain (airlines, telecom, ecommerce, government, housing, healthcare)
+    # searched the web for "health insurance claim denial IRDAI appeal"
+    # regardless of what the case was actually about.
+    if profile.is_dispute:
+        web_query = f"{institution} {profile.counterparty} dispute {profile.regulator} complaint {case_summary[:200]}"
     else:
-        web_query = f"{institution} health insurance claim denial IRDAI appeal {case_summary[:200]}"
-    web_results = await web_search_service.search(
-        web_query,
-        max_results=3,
-    )
+        web_query = f"{case_summary[:200]} symptoms causes treatment WHO guidance"
+    web_results = await web_search_service.search(web_query, max_results=3)
 
     state["web_search_results"] = web_results
     web_context = ""

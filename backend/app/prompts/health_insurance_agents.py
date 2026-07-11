@@ -1,5 +1,6 @@
 from app.models.domain import Domain
 from app.prompts.consumer_advocacy import SYSTEM_GUARDRAILS, DOMAIN_PROMPTS
+from app.prompts.domain_profiles import get_profile
 
 
 def _base(domain: Domain, task: str, case_summary: str, context: str = "", evidence: str = "") -> str:
@@ -18,24 +19,24 @@ def _base(domain: Domain, task: str, case_summary: str, context: str = "", evide
 
 
 def research_prompt(domain: Domain, case_summary: str, context: str, graph_context: str = "") -> str:
-    task = """You are the Research Agent for a health insurance claim dispute.
+    profile = get_profile(domain)
+    domain_label = domain.value.replace("_", " ")
+    questions = "\n".join(f"{i + 1}. {q}" for i, q in enumerate(profile.research_questions))
+    task = f"""You are the Research Agent for a {domain_label} case involving a {profile.entity} and a {profile.counterparty}.
 Answer ONLY from supplied retrieved knowledge and graph context.
 Return JSON with exactly this schema:
 
-{
-  "applicable_clauses": ["clause 1", "clause 2"],
-  "possible_exclusions": ["exclusion 1"],
-  "waiting_periods": ["24 months for pre-existing conditions"],
-  "regulations": ["IRDAI circular X", "IRDAI Health Insurance Regulations 2024"],
+{{
+  "applicable_clauses": ["clause, term, or rule 1", "clause, term, or rule 2"],
+  "possible_exclusions": ["exclusion or limitation 1 that the {profile.counterparty} may invoke"],
+  "waiting_periods": ["any relevant timelines, waiting periods, or deadlines -- leave empty list if none apply"],
+  "regulations": ["{profile.regulator} rule/circular/provision X"],
   "summary": "One paragraph research summary citing specific sources.",
   "confidence": 0.75
-}
+}}
 
-Rules:
-1. Which policy clauses apply to this claim?
-2. Which exclusions may the insurer invoke?
-3. Which waiting periods apply?
-4. Which IRDAI regulations / policyholder rights apply?
+Rules -- answer these questions specifically for this case:
+{questions}
 Cite sources explicitly. If uncertain, state what document is missing.
 RETURN JSON ONLY. No markdown fences. Research Agent output."""
     if graph_context:
@@ -44,22 +45,18 @@ RETURN JSON ONLY. No markdown fences. Research Agent output."""
 
 
 def evidence_prompt(domain: Domain, case_summary: str, context: str, evidence: str) -> str:
-    task = """You are the Evidence Agent. Read uploaded case documents and extract structured facts.
+    profile = get_profile(domain)
+    domain_label = domain.value.replace("_", " ")
+    schema_lines = ",\n  ".join(f'"{key}": "{example}"' for key, example in profile.evidence_schema.items())
+    task = f"""You are the Evidence Agent. Read uploaded case documents and extract structured facts for this {domain_label} case.
 Return JSON with exactly this schema:
 
-{
-  "diagnosis": "e.g. Lumbar disc herniation L4-L5",
-  "treatment": "e.g. Microdiscectomy surgery",
-  "hospital": "e.g. Apollo Hospitals, Chennai",
-  "coverage_requested": "e.g. Rs 3,50,000 surgery + Rs 45,000 room charges",
-  "admission_date": "e.g. 2026-01-15",
-  "discharge_date": "e.g. 2026-01-18",
-  "bill_amount": "e.g. Rs 4,12,000",
-  "reason_for_rejection": "e.g. Pre-existing condition exclusion under clause 4.3",
-  "documents_missing": ["Physician support letter", "Pre-authorization form"],
-  "key_dates": ["Claim filed: 2026-02-01", "Rejection received: 2026-02-15"],
+{{
+  {schema_lines},
+  "documents_missing": ["Document or fact still needed"],
+  "key_dates": ["Event: date"],
   "summary": "Concise one-paragraph extraction summary."
-}
+}}
 
 Be factual. Do not invent values not present in evidence. Leave fields empty string if not found.
 RETURN JSON ONLY. No markdown fences. Evidence Agent output."""
@@ -67,15 +64,46 @@ RETURN JSON ONLY. No markdown fences. Evidence Agent output."""
 
 
 def strategy_prompt(domain: Domain, case_summary: str, context: str, evidence_summary: str, research_summary: str) -> str:
-    task = f"""You are the Strategy Agent. Decide the dispute path based on research and evidence.
+    profile = get_profile(domain)
+    escalation_json = ", ".join(f'"{step}"' for step in profile.escalation_path)
+
+    if not profile.is_dispute:
+        task = f"""You are the Response Planning Agent for an informational query (not a dispute -- there is no counterparty to appeal to).
+Return JSON with exactly this schema:
+
+{{
+  "can_appeal": "N/A",
+  "success_probability": 1.0,
+  "recommended_strategy": "Step-by-step plan for what the response should cover, in order.",
+  "evidence_required": ["Any clarifying context that would help answer more precisely, if any"],
+  "escalation_path": [{escalation_json}],
+  "summary": "One-paragraph plan rationale."
+}}
+
+Inputs:
+Research summary:
+{research_summary}
+
+Evidence summary:
+{evidence_summary}
+
+Decide:
+1. What should the response prioritize covering?
+2. Are there any red-flag/urgent symptoms or concerns that must be flagged prominently?
+3. What tone is appropriate (educational, reassuring, or urging prompt care)?
+
+RETURN JSON ONLY. No markdown fences. Response Planning Agent output."""
+        return _base(domain, task, case_summary, context)
+
+    task = f"""You are the Strategy Agent. Decide the dispute path for this {profile.entity} vs {profile.counterparty} case, based on research and evidence.
 Return JSON with exactly this schema:
 
 {{
   "can_appeal": "YES",
   "success_probability": 0.72,
-  "recommended_strategy": "Step-by-step numbered plan for the appeal",
+  "recommended_strategy": "Step-by-step numbered plan for the appeal/dispute",
   "evidence_required": ["Document 1 needed", "Document 2 needed"],
-  "escalation_path": ["Internal appeal to insurer GRO", "IRDAI IGMS portal", "Insurance Ombudsman"],
+  "escalation_path": [{escalation_json}],
   "summary": "One-paragraph strategy rationale."
 }}
 
@@ -87,25 +115,50 @@ Evidence summary:
 {evidence_summary}
 
 Decide:
-1. Can the claim be appealed? YES or NO
+1. Can this be disputed/appealed? YES or NO
 2. Success probability (0.0 to 1.0) with reason
 3. Recommended strategy (numbered steps)
-4. Evidence still required before filing appeal
-5. Escalation path if insurer does not respond
+4. Evidence still required before filing
+5. Escalation path if the {profile.counterparty} does not respond, in order: {' -> '.join(profile.escalation_path)}
 
 RETURN JSON ONLY. No markdown fences. Strategy Agent output."""
     return _base(domain, task, case_summary, context)
 
 
 def negotiation_prompt(domain: Domain, case_summary: str, context: str, strategy: str, evidence_summary: str) -> str:
-    task = f"""You are the Negotiation Agent. Draft professional outputs for human approval.
+    profile = get_profile(domain)
+
+    if not profile.is_dispute:
+        task = f"""You are the Response Drafting Agent. Produce a clear, accurate, well-organized informational answer.
+Generate the following in ONE JSON response:
+
+{{
+  "appeal_letter": "The full informational answer in plain language, organized with clear sections. This is NOT a legal letter -- it is a direct answer to the reader's question, written for a general audience.",
+  "complaint_email": "",
+  "escalation_note": "",
+  "consumer_complaint": "",
+  "summary": "Brief description of what was generated."
+}}
+
+Response plan to follow:
+{strategy}
+
+Context to rely on:
+{evidence_summary}
+
+Always include a clear disclaimer that this is educational information, not a diagnosis, and to consult a licensed physician for personal medical advice. If any red-flag/urgent symptoms were identified in the plan, state them prominently and recommend seeking care promptly.
+
+RETURN JSON ONLY. No markdown fences. Response Drafting Agent output."""
+        return _base(domain, task, case_summary, context)
+
+    task = f"""You are the Negotiation Agent. Draft professional outputs for human approval for this {profile.entity} vs {profile.counterparty} dispute.
 Generate ALL of the following in ONE JSON response:
 
 {{
-  "appeal_letter": "Full formal appeal letter to the insurer. Address to the Grievance Redressal Officer. Cite specific policy clauses, IRDAI regulations, and evidence. Be firm but professional. Include subject line, body, and closing.",
-  "complaint_email": "Shorter email version for the insurer's customer care. Include subject line and body.",
-  "escalation_note": "Internal escalation memo if internal appeal fails. Reference GRO timeline, ombudsman path, and IRDAI IGMS portal.",
-  "consumer_complaint": "Draft complaint for the IRDAI IGMS portal or Insurance Ombudsman. Include policyholder details placeholder, policy number placeholder, claim details, rejection details, and relief sought.",
+  "appeal_letter": "Full formal appeal/dispute letter to the {profile.counterparty}. Cite specific clauses, {profile.regulator} rules, and evidence. Be firm but professional. Include subject line, body, and closing.",
+  "complaint_email": "Shorter email version for the {profile.counterparty}'s customer care / support desk. Include subject line and body.",
+  "escalation_note": "Internal escalation memo if the first-level response fails. Reference this escalation path: {' -> '.join(profile.escalation_path)}.",
+  "consumer_complaint": "Draft complaint for {profile.regulator}. Include {profile.entity} details placeholder, reference/account number placeholder, dispute details, and relief sought.",
   "summary": "Brief description of what was generated."
 }}
 
@@ -127,29 +180,29 @@ def review_prompt(
     strategy: str,
     appeal_draft: str,
 ) -> str:
+    profile = get_profile(domain)
     task = f"""You are the Review Agent (devil's advocate). Audit the entire case before human approval.
 Return JSON with exactly this schema:
 
 {{
   "missing_evidence": ["List specific documents or facts still missing"],
   "hallucination_risks": ["Any claims made without evidence backing"],
-  "wrong_clause_risks": ["Any policy clauses cited incorrectly or that may not apply"],
-  "weak_arguments": ["Arguments that an insurer could easily counter"],
+  "wrong_clause_risks": ["Any clauses, rules, or regulations cited incorrectly or that may not apply"],
+  "weak_arguments": ["Arguments the {profile.counterparty} could easily counter"],
   "approval_ready": false,
   "summary": "Overall audit verdict and what must be fixed before submission."
 }}
 
 Check:
-- Missing evidence that weakens the appeal
-- Hallucinated clauses or regulations not in the retrieved knowledge
-- Wrong policy clause cited
-- Wrong IRDAI regulation cited
+- Missing evidence that weakens the case
+- Hallucinated clauses, rules, or regulations not in the retrieved knowledge
+- Wrong clause or regulation cited (verify against {profile.regulator} where applicable)
 - Weak or unsupported arguments
 
 Strategy reviewed:
 {strategy}
 
-Appeal draft reviewed:
+Draft reviewed:
 {appeal_draft[:6000]}
 
 Evidence reviewed:
@@ -160,22 +213,26 @@ RETURN JSON ONLY. No markdown fences. Review Agent output."""
 
 
 def final_report_prompt(domain: Domain, state: dict) -> str:
+    profile = get_profile(domain)
     research_output = state.get("research_output", {})
     evidence_output = state.get("evidence_output", {})
     strategy_output = state.get("strategy_output", {})
     negotiation_output = state.get("negotiation_output", {})
     review_output = state.get("review_output", {})
 
-    task = f"""Compile a comprehensive Final Case Report for the policyholder.
+    section_5 = "Response Drafted - Summary of the generated informational answer" if not profile.is_dispute else "Generated Documents - Summary of appeal letter, complaint, and escalation drafts"
+    section_4 = "Response Plan - What the answer covers and its tone" if not profile.is_dispute else "Appeal Strategy - Recommended approach with probability"
+
+    task = f"""Compile a comprehensive Final Case Report for the {profile.entity}.
 
 Sections to include:
 1. Executive Summary - One paragraph overview of the case and recommendation
-2. Key Facts - Extracted from evidence (diagnosis, treatment, hospital, dates, amounts)
-3. Applicable Clauses & Regulations - From research
-4. Appeal Strategy - Recommended approach with probability
-5. Generated Documents - Summary of appeal letter, complaint, and escalation drafts
+2. Key Facts - Extracted from evidence
+3. Applicable Rules & Regulations - From research
+4. {section_4}
+5. {section_5}
 6. Review Flags - Issues found by the review agent
-7. Next Steps - Actionable items for the policyholder
+7. Next Steps - Actionable items for the {profile.entity}
 
 Research findings: {research_output.get('summary', state.get('research_summary', 'Not available'))}
 Evidence findings: {evidence_output.get('summary', state.get('evidence_summary', 'Not available'))}
