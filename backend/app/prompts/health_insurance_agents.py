@@ -227,6 +227,16 @@ def final_report_prompt(domain: Domain, state: dict) -> str:
     section_5 = "Response Drafted - Summary of the generated informational answer" if not profile.is_dispute else "Generated Documents - Summary of appeal letter, complaint, and escalation drafts"
     section_4 = "Response Plan - What the answer covers and its tone" if not profile.is_dispute else "Appeal Strategy - Recommended approach with probability"
 
+    mismatch_notice = ""
+    if evidence_output.get("evidence_relevant") is False:
+        mismatch_notice = (
+            "\n\nIMPORTANT: evidence_relevant is False -- the uploaded document does NOT match this case "
+            "(see the evidence summary below for why). You MUST open the report with a clearly marked "
+            "notice, before the Executive Summary, e.g. \"NOTE: The document you uploaded does not appear "
+            "to relate to this case -- the analysis below is based only on your written description.\" "
+            "Do not build any Key Facts from that document; state plainly that no usable evidence was extracted."
+        )
+
     task = f"""Compile a comprehensive Final Case Report for the {profile.entity}.
 
 Sections to include:
@@ -243,7 +253,7 @@ Evidence findings: {evidence_output.get('summary', state.get('evidence_summary',
 Strategy: {strategy_output.get('summary', state.get('strategy', 'Not available'))}
 Documents generated: {negotiation_output.get('summary', 'Not available')}
 Review flags: {review_output.get('summary', 'Not available')}
-Review approval status: {'READY' if review_output.get('approval_ready') else 'NEEDS ATTENTION'}
+Review approval status: {'READY' if review_output.get('approval_ready') else 'NEEDS ATTENTION'}{mismatch_notice}
 
 Keep it actionable and cite only what prior agents established.
 Return the final case report as a plain text document. Do NOT return JSON for this one — return formatted text with clear section headings."""

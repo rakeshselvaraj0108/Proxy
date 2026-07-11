@@ -44,7 +44,13 @@ def _prompt_for(specialist: HealthSpecialist, state: AgentState) -> str:
         "If the retrieved context is insufficient, say exactly what evidence or policy document is missing."
     )
     task = f"{route_note}\n\n{specialist.task}"
-    return build_agent_prompt(state["domain"], task, state["case_summary"], state.get("retrieved_context", ""))
+    return build_agent_prompt(
+        state["domain"],
+        task,
+        state["case_summary"],
+        state.get("retrieved_context", ""),
+        state.get("evidence_bundle", ""),
+    )
 
 
 async def run_health_specialist(state: AgentState, route: str) -> AgentState:

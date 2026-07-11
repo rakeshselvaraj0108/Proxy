@@ -20,26 +20,41 @@ class TelecomSpecialistAgent:
 
     async def process(self, context: Dict[str, Any]) -> Dict[str, Any]:
         query = context.get("case_summary", "")
-        facts = context.get("extracted_facts", {})
+        evidence_bundle = context.get("evidence_bundle", "")
 
         results = await qdrant_service.search_chunks(
             Domain.TELECOM, f"{self.focus}: {query}", top_k=5
         )
         context_text = "\n\n".join(r.get("text", "") for r in results)
 
+        evidence_section = evidence_bundle[:16000] if evidence_bundle else "No documents were uploaded for this case."
+        evidence_instruction = (
+            "Before using the uploaded evidence above, check whether it actually relates to this case "
+            "(same operator/account, same bill or incident, same underlying issue -- not just the same broad "
+            "topic). Set \"evidence_relevant\" to false if it clearly does NOT relate (e.g. it's a certificate "
+            "or an unrelated document), and in that case do not draw any facts from it. Set it to true if it "
+            "DOES relate, and then treat its dates, amounts, and reference numbers as verified facts and use "
+            "them directly."
+            if evidence_bundle
+            else ""
+        )
+
         prompt = f"""{self.system_prompt}
 
 # User Query
 {query}
 
-# Extracted Facts
-{json.dumps(facts, indent=2)}
+# Uploaded Case Evidence
+{evidence_section}
 
 # Regulatory & Policy Context (retrieved from knowledge base)
 {context_text}
 
+{evidence_instruction}
+
 # Output (strict JSON only)
 {{
+    "evidence_relevant": true,
     "analysis": "...",
     "applicable_regulations": ["..."],
     "action_plan": ["..."],

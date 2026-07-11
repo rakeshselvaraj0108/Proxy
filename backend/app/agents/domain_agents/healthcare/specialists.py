@@ -36,12 +36,23 @@ class HealthcareSpecialistAgent:
 
     async def process(self, context: Dict[str, Any]) -> Dict[str, Any]:
         query = context.get("case_summary", "")
-        facts = context.get("extracted_facts", {})
+        evidence_bundle = context.get("evidence_bundle", "")
 
         results = await qdrant_service.search_chunks(
             Domain.HEALTHCARE, f"{self.focus}: {query}", top_k=5
         )
         context_text = "\n\n".join(r.get("text", "") for r in results)
+
+        evidence_section = evidence_bundle[:16000] if evidence_bundle else "No documents were uploaded for this case."
+        evidence_instruction = (
+            "Before using the uploaded evidence above, check whether it actually relates to this query "
+            "(same condition/topic the user is asking about -- not just any medical-sounding document). Set "
+            "\"evidence_relevant\" to false if it clearly does NOT relate, and in that case do not draw any "
+            "facts from it. Set it to true if it DOES relate, and then treat its details as verified facts "
+            "and use them directly."
+            if evidence_bundle
+            else ""
+        )
 
         prompt = f"""{self.system_prompt}
 
@@ -57,14 +68,17 @@ changes, or urgent symptoms.
 # User Query
 {query}
 
-# Extracted Facts
-{json.dumps(facts, indent=2)}
+# Uploaded Case Evidence
+{evidence_section}
 
 # Educational & Reference Context (retrieved from knowledge base)
 {context_text}
 
+{evidence_instruction}
+
 # Output (strict JSON only)
 {{
+    "evidence_relevant": true,
     "analysis": "...",
     "key_facts": ["..."],
     "recommended_next_steps": ["..."],

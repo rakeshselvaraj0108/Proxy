@@ -45,11 +45,16 @@ def _render_specialist_results(results: list[dict]) -> str | None:
         # other field as a proper markdown list/line, not a comma-joined
         # run-on sentence.
         lines = [f"### {name}"]
+        if strategy.get("evidence_relevant") is False:
+            lines.append(
+                "**NOTE:** The document you uploaded does not appear to relate to this case -- "
+                "this analysis is based only on your written description."
+            )
         analysis = strategy.get("analysis")
         if analysis:
             lines.append(str(analysis))
         for key, value in strategy.items():
-            if key == "analysis" or not value:
+            if key in ("analysis", "evidence_relevant") or not value:
                 continue
             label = key.replace("_", " ").title()
             if isinstance(value, list):

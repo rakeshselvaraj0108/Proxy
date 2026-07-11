@@ -5,7 +5,9 @@ You are PROXY, an automated consumer advocacy assistant. You help draft and orga
 You are not a lawyer, doctor, insurer, bank, court, or regulator. Do not claim legal representation.
 Use only supplied evidence and retrieved knowledge. If a citation is missing, say what evidence is needed.
 Every external action must require explicit human approval.
-Prefer official regulatory and policyholder sources over medical background sources when making insurance-rights arguments.
+Prefer official regulatory a
+
+nd policyholder sources over medical background sources when making insurance-rights arguments.
 """
 
 DOMAIN_PROMPTS = {
@@ -32,8 +34,30 @@ physician for personal medical advice, and flag any red-flag/urgent symptoms cle
 }
 
 
-def build_agent_prompt(domain: Domain, task: str, case_summary: str, retrieved_context: str = "") -> str:
+def build_agent_prompt(
+    domain: Domain,
+    task: str,
+    case_summary: str,
+    retrieved_context: str = "",
+    evidence_bundle: str = "",
+) -> str:
     domain_prompt = DOMAIN_PROMPTS.get(domain, "Use general consumer protection reasoning.")
+    evidence_section = "No documents were uploaded for this case -- answer from the case summary alone."
+    evidence_instruction = ""
+    if evidence_bundle:
+        evidence_section = evidence_bundle[:16000]
+        evidence_instruction = (
+            "\n\nBefore using the uploaded evidence above, check whether it actually relates to this case "
+            "(same institution/counterparty, same transaction or incident, same underlying issue -- not just "
+            "the same broad topic).\n"
+            "- If it clearly does NOT relate (e.g. it's a certificate, an unrelated document, or describes a "
+            "different matter entirely), you MUST open your answer with a clearly marked notice such as "
+            "\"NOTE: The document you uploaded does not appear to relate to this case -- this answer is based "
+            "only on your written description.\" and do not draw any facts from it.\n"
+            "- If it DOES relate, treat the details in it (dates, amounts, reference numbers, names) as "
+            "verified facts of this case and use them directly and confidently -- do not add disclaimers "
+            "questioning evidence that clearly matches the case summary."
+        )
     return f"""{SYSTEM_GUARDRAILS}
 
 Domain instructions:
@@ -47,4 +71,7 @@ Case summary:
 
 Retrieved context:
 {retrieved_context or 'No retrieved context supplied.'}
+
+Uploaded case evidence:
+{evidence_section}{evidence_instruction}
 """

@@ -16,13 +16,25 @@ class AirlineSpecialistAgent:
         
     async def process(self, context: Dict[str, Any]) -> Dict[str, Any]:
         query = context.get("case_summary", "")
-        facts = context.get("extracted_facts", {})
-        
+        evidence_bundle = context.get("evidence_bundle", "")
+
         # Pull vector context
         search_query = f"{self.focus}: {query}"
         results = await qdrant_service.search_chunks(Domain.AIRLINES, search_query, top_k=5)
         context_text = "\n\n".join([r.get("text", "") for r in results])
-        
+
+        evidence_section = evidence_bundle[:16000] if evidence_bundle else "No documents were uploaded for this case."
+        evidence_instruction = (
+            "Before using the uploaded evidence above, check whether it actually relates to this case "
+            "(same airline/booking, same flight or incident, same underlying issue -- not just the same broad "
+            "topic). Set \"evidence_relevant\" to false if it clearly does NOT relate (e.g. it's a certificate "
+            "or an unrelated document), and in that case do not draw any facts from it. Set it to true if it "
+            "DOES relate, and then treat its dates, amounts, and reference numbers as verified facts and use "
+            "them directly."
+            if evidence_bundle
+            else ""
+        )
+
         prompt = f"""
 {self.system_prompt}
 
@@ -32,15 +44,18 @@ Analyze the user's issue and provided evidence, and formulate a strategy based o
 # User Query
 {query}
 
-# User Facts
-{json.dumps(facts, indent=2)}
+# Uploaded Case Evidence
+{evidence_section}
 
 # Regulatory & Policy Context
 {context_text}
 
+{evidence_instruction}
+
 # Output format
 Return ONLY valid JSON:
 {{
+    "evidence_relevant": true,
     "analysis": "...",
     "applicable_rules": ["..."],
     "action_plan": ["..."],
