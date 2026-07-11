@@ -654,11 +654,149 @@ export function KnowledgeGraphView({ analysis }: { analysis: Analysis }) {
   );
 }
 
-export function AppealWorkflow({ analysis }: { analysis: Analysis }) { const config = getDomainConfig(analysis.domain); return <section className="rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl"><div className="mb-4 flex gap-2 overflow-x-auto pb-2">{config.workflowSteps.map((step, index) => <div key={step} className={`min-w-fit rounded-full border px-3 py-2 text-xs ${index < 4 ? "border-green-300/25 bg-green-300/10 text-green-100" : index === 4 ? "border-cyan-300/35 bg-cyan-300/10 text-cyan-100 shadow-glow-cyan" : "border-white/10 text-proxy-tertiary"}`}>{step}</div>)}</div><textarea defaultValue={analysis.appealDraft} className="min-h-80 w-full rounded-lg border border-white/10 bg-black/25 p-4 text-sm leading-7 text-proxy-muted outline-none focus:border-cyan-300/60" /><div className="mt-3 flex flex-wrap gap-2"><button className="rounded-lg bg-cyan-300 px-3 py-2 text-sm font-semibold text-black"><Download className="mr-2 inline size-4" />Export PDF</button><button className="rounded-lg border border-white/10 px-3 py-2 text-sm">Copy</button><button className="rounded-lg border border-white/10 px-3 py-2 text-sm">Regenerate with AI</button></div></section>; }
+// ─── Real-data components (accept caseId: string) ────────────────────────────
 
-export function ChatPanel({ analysis }: { analysis: Analysis }) { const config = getDomainConfig(analysis.domain); const [message, setMessage] = useState(`What is the strongest ${config.actionName.toLowerCase()} argument?`); const [answer, setAnswer] = useState("Ask AI. Answers stream from the selected domain context and cite RAG/graph sources when the backend is available."); const [loading, setLoading] = useState(false); async function submit() { setLoading(true); const response = await askAI(analysis.id, message); setAnswer(response.answer); setLoading(false); } return <section className="rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl"><h2 className="mb-3 flex items-center gap-2 font-semibold"><Bot className="size-5 text-cyan-200" />AI Assistant</h2>{loading ? <LoadingSkeleton label="chat" /> : <div className="rounded-lg border border-white/10 bg-black/20 p-4 text-sm leading-7 text-proxy-muted">{answer}</div>}<div className="mt-3 flex flex-col gap-2 sm:flex-row"><input value={message} onChange={(event) => setMessage(event.target.value)} className="min-h-11 flex-1 rounded-lg border border-white/10 bg-black/25 px-3 text-sm outline-none focus:border-cyan-300/60" /><button onClick={submit} className="rounded-lg bg-cyan-300 px-4 py-2 text-sm font-semibold text-black"><MessageSquare className="mr-2 inline size-4" />Ask</button></div></section>; }
+export function AppealWorkflow({ caseId }: { caseId: string }) {
+  const [draft, setDraft] = useState<string>("");
+  const [loading, setLoading] = useState(true);
+  const [copied, setCopied] = useState(false);
 
-export function TimelinePanel({ analysis }: { analysis: Analysis }) { return <section className="rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl"><h2 className="mb-3 font-semibold">Realtime Timeline</h2>{analysis.timeline.map((item) => <div key={`${item.time}-${item.event}`} className="mb-2 rounded-lg border border-white/10 bg-black/20 p-3"><p className="text-sm font-medium">{item.event}</p><p className="mt-1 text-xs leading-5 text-proxy-muted">{item.time} / {item.detail}</p></div>)}</section>; }
+  useEffect(() => {
+    import("@/lib/api-client").then(({ getCaseReport }) => {
+      getCaseReport(caseId)
+        .then(r => setDraft(r.latest_analysis?.appeal_draft ?? ""))
+        .catch(() => setDraft(""))
+        .finally(() => setLoading(false));
+    });
+  }, [caseId]);
 
-export function QuickActions({ analysis }: { analysis: Analysis }) { const config = getDomainConfig(analysis.domain); return <section className="mt-5 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">{[["Upload Documents", Upload], ["Run New Analysis", Sparkles], [config.actionName, ClipboardList], ["Chat with AI Assistant", MessageSquare]].map(([label, Icon]) => <button key={String(label)} className="motion-card rounded-lg border border-white/10 bg-white/[.035] p-4 text-left text-sm font-medium hover:border-cyan-300/40 hover:bg-cyan-300/8"><Icon className="mb-3 size-5 text-cyan-200" />{String(label)}</button>)}</section>; }
+  async function copy() {
+    if (!draft) return;
+    await navigator.clipboard.writeText(draft);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }
 
+  return (
+    <section className="rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl">
+      <h2 className="mb-3 font-semibold">Appeal Draft</h2>
+      {loading ? (
+        <LoadingSkeleton label="appeal draft" />
+      ) : draft ? (
+        <>
+          <textarea
+            value={draft}
+            onChange={e => setDraft(e.target.value)}
+            className="min-h-80 w-full rounded-lg border border-white/10 bg-black/25 p-4 text-sm leading-7 text-proxy-muted outline-none focus:border-cyan-300/60"
+          />
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button onClick={copy} className="rounded-lg border border-white/10 px-3 py-2 text-sm">{copied ? "Copied!" : "Copy"}</button>
+          </div>
+        </>
+      ) : (
+        <p className="py-6 text-center text-xs text-proxy-tertiary">No appeal draft yet. Run the analysis to generate one.</p>
+      )}
+    </section>
+  );
+}
+
+export function ChatPanel({ caseId }: { caseId: string }) {
+  const [message, setMessage] = useState("What is the strongest argument in this case?");
+  const [answer, setAnswer] = useState("Ask the AI a question about this case. Answers are grounded in your uploaded evidence and case context.");
+  const [loading, setLoading] = useState(false);
+
+  async function submit() {
+    if (!message.trim()) return;
+    setLoading(true);
+    try {
+      const response = await askAI(caseId, message);
+      setAnswer(response.answer);
+    } catch {
+      setAnswer("Unable to reach the AI backend. Please ensure the FastAPI server is running.");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <section className="rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl">
+      <h2 className="mb-3 flex items-center gap-2 font-semibold"><Bot className="size-5 text-cyan-200" />AI Assistant</h2>
+      {loading ? <LoadingSkeleton label="chat" /> : <div className="rounded-lg border border-white/10 bg-black/20 p-4 text-sm leading-7 text-proxy-muted">{answer}</div>}
+      <div className="mt-3 flex flex-col gap-2 sm:flex-row">
+        <input
+          value={message}
+          onChange={e => setMessage(e.target.value)}
+          onKeyDown={e => e.key === "Enter" && submit()}
+          className="min-h-11 flex-1 rounded-lg border border-white/10 bg-black/25 px-3 text-sm outline-none focus:border-cyan-300/60"
+        />
+        <button onClick={submit} disabled={loading} className="rounded-lg bg-cyan-300 px-4 py-2 text-sm font-semibold text-black disabled:opacity-40">
+          <MessageSquare className="mr-2 inline size-4" />Ask
+        </button>
+      </div>
+    </section>
+  );
+}
+
+export function TimelinePanel({ caseId }: { caseId: string }) {
+  const [events, setEvents] = useState<Array<{ id: string; title: string; body?: string; actor: string; created_at: string | null }>>([]);
+  const [loading, setLoading] = useState(true);
+
+  function timeAgo(iso: string | null) {
+    if (!iso) return "";
+    const m = Math.floor((Date.now() - new Date(iso).getTime()) / 60000);
+    if (m < 1) return "just now";
+    if (m < 60) return `${m}m ago`;
+    const h = Math.floor(m / 60);
+    if (h < 24) return `${h}h ago`;
+    return `${Math.floor(h / 24)}d ago`;
+  }
+
+  useEffect(() => {
+    import("@/lib/api-client").then(({ getCaseReport }) => {
+      getCaseReport(caseId)
+        .then(r => setEvents(r.events ?? []))
+        .catch(() => setEvents([]))
+        .finally(() => setLoading(false));
+    });
+  }, [caseId]);
+
+  return (
+    <section className="rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl">
+      <h2 className="mb-3 font-semibold">Case Timeline</h2>
+      {loading ? <LoadingSkeleton label="timeline" /> : events.length === 0 ? (
+        <p className="py-4 text-center text-xs text-proxy-tertiary">No events yet.</p>
+      ) : (
+        <div className="space-y-3">
+          {events.map((event, i) => (
+            <div key={event.id || i} className="flex items-start gap-3">
+              <div className="mt-1 size-1.5 shrink-0 rounded-full bg-cyan-300/60" />
+              <div>
+                <p className="text-sm font-medium text-proxy-text">{event.title}</p>
+                {event.body && <p className="mt-0.5 text-xs leading-5 text-proxy-muted">{event.body}</p>}
+                <p className="mt-0.5 text-[10px] text-proxy-tertiary">{event.actor} · {timeAgo(event.created_at)}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
+export function QuickActions({ onNew }: { onNew?: () => void }) {
+  const actions: Array<[string, typeof Upload, string]> = [
+    ["Upload Documents", Upload, "/dashboard/documents"],
+    ["New Analysis", Sparkles, "/dashboard/new"],
+    ["View Appeals", ClipboardList, "/dashboard/appeals"],
+    ["AI Assistant", MessageSquare, "/dashboard/assistant"],
+  ];
+  return (
+    <section className="mt-5 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+      {actions.map(([label, Icon, href]) => (
+        <a key={label} href={href} className="motion-card rounded-lg border border-white/10 bg-white/[.035] p-4 text-left text-sm font-medium hover:border-cyan-300/40 hover:bg-cyan-300/[0.08]">
+          <Icon className="mb-3 size-5 text-cyan-200" />{label}
+        </a>
+      ))}
+    </section>
+  );
+}

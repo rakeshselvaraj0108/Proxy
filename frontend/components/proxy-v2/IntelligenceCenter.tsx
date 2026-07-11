@@ -3,7 +3,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Activity, Bot, Download, Filter, Layers3, Maximize2, Pause, Play, RotateCcw, Search, Share2 } from "lucide-react";
 import { AppShell } from "./Shell";
-import { domainRegistry, findDomainAnalysis, getDomainConfig, type DomainConfig, type DomainKey } from "@/lib/proxy-analysis-data";
+import { domainRegistry, getDomainConfig, type DomainConfig, type DomainKey } from "@/lib/proxy-analysis-data";
+import { listAnalyses } from "@/lib/api-client";
 import { intelEdges, intelNodes, intelTimeline, kindStyles, layerKeys, type IntelEdge, type IntelNode, type LayerKey } from "@/lib/intelligence-center-data";
 
 function buildDomainUniverse(config: DomainConfig): IntelNode[] {
@@ -110,20 +111,42 @@ export function IntelligenceCenter() {
   const [minConfidence, setMinConfidence] = useState(60);
   const [timeIndex, setTimeIndex] = useState(6);
   const [playing, setPlaying] = useState(true);
+  const [domainConfidence, setDomainConfidence] = useState<Record<string, number>>({});
+
   useEffect(() => { const saved = window.localStorage.getItem("proxy:last-analysis-domain") as DomainKey | null; if (saved && domainRegistry.some((item) => item.key === saved)) setDomain(saved); }, []);
-  const analysis = findDomainAnalysis(domain);
+
+  // Pull real per-domain confidence from actual analyses
+  useEffect(() => {
+    listAnalyses().then(analyses => {
+      const confByDomain: Record<string, number[]> = {};
+      for (const a of analyses) {
+        if (a.avg_confidence === null) continue;
+        for (const d of a.domains_involved) {
+          if (!confByDomain[d]) confByDomain[d] = [];
+          confByDomain[d].push(a.avg_confidence);
+        }
+      }
+      const avg: Record<string, number> = {};
+      for (const [d, vals] of Object.entries(confByDomain)) {
+        avg[d] = Math.round((vals.reduce((s, v) => s + v, 0) / vals.length) * 100);
+      }
+      setDomainConfidence(avg);
+    }).catch(() => {});
+  }, []);
+
   const config = getDomainConfig(domain);
+  const realConfidence = domainConfidence[domain] ?? null;
   const domainNodes = useMemo(() => buildDomainUniverse(config), [config]);
   const visibleNodes = useMemo(() => domainNodes.filter((node, index) => enabledLayers[node.layer] && node.confidence >= minConfidence && index <= timeIndex + 4), [domainNodes, enabledLayers, minConfidence, timeIndex]);
   const visibleIds = new Set(visibleNodes.map((node) => node.id));
   const visibleEdges = intelEdges.filter((edge) => visibleIds.has(edge.from) && visibleIds.has(edge.to) && enabledLayers[edge.layer] && edge.confidence >= minConfidence);
   const selected = visibleNodes.find((node) => node.id === selectedId) ?? visibleNodes[0] ?? domainNodes[0];
 
-  return <AppShell><SceneBackground /><div className="relative z-10 mx-auto flex min-h-screen max-w-[1800px] flex-col px-4 py-5 sm:px-6 lg:px-8"><Header domainLabel={config.label} confidence={analysis.confidence} /><div className="grid min-h-[720px] flex-1 gap-4 xl:grid-cols-[300px_minmax(0,1fr)_360px]"><LeftPanel domain={domain} setDomain={setDomain} enabledLayers={enabledLayers} setEnabledLayers={setEnabledLayers} minConfidence={minConfidence} setMinConfidence={setMinConfidence} /><KnowledgeUniverse nodes={visibleNodes} edges={visibleEdges} selectedId={selected.id} hoveredId={hoveredId} setSelectedId={setSelectedId} setHoveredId={setHoveredId} /><RightPanel node={selected} domainLabel={config.label} /></div><BottomTimeline timeIndex={timeIndex} setTimeIndex={setTimeIndex} playing={playing} setPlaying={setPlaying} /></div></AppShell>;
+  return <AppShell><SceneBackground /><div className="relative z-10 mx-auto flex min-h-screen max-w-[1800px] flex-col px-4 py-5 sm:px-6 lg:px-8"><Header domainLabel={config.label} confidence={realConfidence} /><div className="grid min-h-[720px] flex-1 gap-4 xl:grid-cols-[300px_minmax(0,1fr)_360px]"><LeftPanel domain={domain} setDomain={setDomain} enabledLayers={enabledLayers} setEnabledLayers={setEnabledLayers} minConfidence={minConfidence} setMinConfidence={setMinConfidence} /><KnowledgeUniverse nodes={visibleNodes} edges={visibleEdges} selectedId={selected.id} hoveredId={hoveredId} setSelectedId={setSelectedId} setHoveredId={setHoveredId} /><RightPanel node={selected} domainLabel={config.label} /></div><BottomTimeline timeIndex={timeIndex} setTimeIndex={setTimeIndex} playing={playing} setPlaying={setPlaying} /></div></AppShell>;
 }
 
-function Header({ domainLabel, confidence }: { domainLabel: string; confidence: number }) {
-  return <header className="mb-4 rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl"><div className="flex flex-col gap-4 xl:flex-row xl:items-end xl:justify-between"><div><p className="text-xs uppercase tracking-[.22em] text-cyan-200">PROXY AI Reasoning</p><h1 className="mt-2 text-3xl font-semibold sm:text-4xl">Knowledge Intelligence Center</h1><p className="mt-2 max-w-4xl text-sm leading-6 text-proxy-muted">Watch the AI build relationships between claims, policies, medical evidence, regulations, and institution decisions in real time.</p></div><div className="grid gap-2 sm:grid-cols-5 xl:min-w-[620px]"><HeaderAction label="Global Search" icon={Search} /><HeaderMetric label="Current Analysis" value={domainLabel} /><HeaderMetric label="Confidence" value={`${confidence}%`} /><HeaderAction label="Export PNG" icon={Download} /><HeaderAction label="AI Live" icon={Activity} live /></div></div></header>;
+function Header({ domainLabel, confidence }: { domainLabel: string; confidence: number | null }) {
+  return <header className="mb-4 rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl"><div className="flex flex-col gap-4 xl:flex-row xl:items-end xl:justify-between"><div><p className="text-xs uppercase tracking-[.22em] text-cyan-200">PROXY AI Reasoning</p><h1 className="mt-2 text-3xl font-semibold sm:text-4xl">Knowledge Intelligence Center</h1><p className="mt-2 max-w-4xl text-sm leading-6 text-proxy-muted">Watch the AI build relationships between claims, policies, evidence, regulations, and institution decisions in real time — powered by your actual case data.</p></div><div className="grid gap-2 sm:grid-cols-5 xl:min-w-[620px]"><HeaderAction label="Global Search" icon={Search} /><HeaderMetric label="Current Domain" value={domainLabel} /><HeaderMetric label="Avg Confidence" value={confidence !== null ? `${confidence}%` : "—"} /><HeaderAction label="Export PNG" icon={Download} /><HeaderAction label="AI Live" icon={Activity} live /></div></div></header>;
 }
 function HeaderAction({ label, icon: Icon, live }: { label: string; icon: React.ComponentType<{ className?: string }>; live?: boolean }) { return <button className={`rounded-xl border px-3 py-2 text-left text-xs ${live ? "border-green-300/25 bg-green-300/10 text-green-100 shadow-glow-green" : "border-white/10 bg-white/[.035] text-proxy-muted hover:border-cyan-300/35"}`}><Icon className="mb-1 size-4 text-cyan-200" />{label}</button>; }
 function HeaderMetric({ label, value }: { label: string; value: string }) { return <div className="rounded-xl border border-white/10 bg-black/20 px-3 py-2"><p className="text-[11px] text-proxy-tertiary">{label}</p><p className="truncate text-sm font-semibold">{value}</p></div>; }

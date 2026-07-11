@@ -1,4 +1,4 @@
-import { analyses, demoAnalysis, type Analysis } from "./proxy-analysis-data";
+// api-client.ts — all methods backed by real FastAPI endpoints, no mock fallbacks.
 
 export const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8000/api/v1";
 
@@ -32,36 +32,23 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   return response.json() as Promise<T>;
 }
 
-function normalizeAnalysis(payload: unknown, id: string): Analysis {
-  if (!payload || typeof payload !== "object") return { ...demoAnalysis, id };
-  const data = payload as Record<string, unknown>;
-  const rawCase = (data.case ?? data.analysis ?? data) as Record<string, unknown>;
-  return {
-    ...demoAnalysis,
-    id: String(rawCase.id ?? rawCase.case_id ?? id),
-    status: String(rawCase.status ?? demoAnalysis.status) as Analysis["status"],
-    updated: String(rawCase.updated_at ?? rawCase.updated ?? demoAnalysis.updated),
-  };
-}
-
-export async function getAnalysis(id: string): Promise<Analysis> {
-  try {
-    return normalizeAnalysis(await request(`/case/${id}`), id);
-  } catch {
-    return { ...demoAnalysis, id };
-  }
+// Legacy helper kept for any old AnalysisWidgets that pass an Analysis id.
+// Routes to the real /case/{id} backend endpoint.
+export async function getAnalysis(id: string): Promise<Record<string, unknown>> {
+  return request<Record<string, unknown>>(`/case/${id}`);
 }
 
 export async function runAnalysis(id: string) {
-  return request("/analyze", { method: "POST", body: JSON.stringify({ case_id: id }) });
+  return request("/case/analyze", { method: "POST", body: JSON.stringify({ case_id: id }) });
 }
 
-export async function askAI(id: string, message: string) {
-  try {
-    return await request<{ answer: string; sources?: Array<{ title: string; source: string }> }>("/chat", { method: "POST", body: JSON.stringify({ case_id: id, message }) });
-  } catch {
-    return { answer: "Realtime AI is in fallback mode. Start FastAPI to stream cited answers from Gemini, Qdrant, and Neo4j.", sources: [{ title: "Offline analysis preview", source: id }] };
-  }
+// Chat about a specific case — hits the real LLM endpoint backed by Qdrant
+// retrieval and case evidence context.
+export async function askAI(caseId: string, message: string): Promise<{ answer: string; question?: string }> {
+  return request<{ answer: string; question?: string }>("/case/chat", {
+    method: "POST",
+    body: JSON.stringify({ case_id: caseId, message }),
+  });
 }
 
 export interface DomainCandidate {
