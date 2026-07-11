@@ -177,6 +177,9 @@ export function NewAnalysisFlow() {
     try {
       const response = await runMultiDomainCase(id, issueText, draftAppeals, uploadedDocs.map((doc) => doc.document_id));
       setResult(response);
+      // The backend saves the case under this exact id — store it so the
+      // "Open in My Analyses" button can deep-link straight into it.
+      setCaseId(id);
       setRunState("complete");
     } catch (err) {
       setError(err instanceof Error ? err.message : "Something went wrong reaching the multi-agent backend.");
@@ -281,7 +284,7 @@ export function NewAnalysisFlow() {
           result={result}
           caseId={caseId}
           onReset={reset}
-          onOpenAnalyses={() => router.push("/dashboard/analyses")}
+          onOpenAnalyses={() => router.push(caseId ? `/dashboard/analyses?case=${encodeURIComponent(caseId)}` : "/dashboard/analyses")}
           onOpenAppeals={() => router.push("/dashboard/appeals")}
         />
       )}

@@ -5,8 +5,9 @@ import { useEffect, useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import { Activity, AlertTriangle, Bot, Check, ChevronRight, CircleDot, ClipboardList, Download, FileText, Heart, Loader2, MessageSquare, Network, Pin, RefreshCw, Search, Sparkles, Star, Upload, Wifi, WifiOff } from "lucide-react";
 import { agentStages, appealSteps, type StageStatus } from "@/lib/design-tokens";
-import { analyses, getDomainConfig, domainRegistry, type Analysis } from "@/lib/proxy-analysis-data";
-import { askAI } from "@/lib/api-client";
+import { analyses as mockAnalyses, getDomainConfig, domainRegistry, type Analysis } from "@/lib/proxy-analysis-data";
+import { askAI, getReportSummary, listAnalyses, type ReportSummary, type AnalysisCase } from "@/lib/api-client";
+import { domainTheme } from "@/components/chat/domain-theme";
 import { connectAnalysisRealtime, type RealtimeMode } from "@/lib/realtime";
 
 export function LivePipeline({ analysis, large = false }: { analysis: Analysis; large?: boolean }) {
@@ -24,9 +25,111 @@ export function LivePipeline({ analysis, large = false }: { analysis: Analysis; 
 function RealtimeBadge({ mode }: { mode: RealtimeMode }) { const Icon = mode === "offline" ? WifiOff : Wifi; return <span className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-xs text-proxy-muted"><Icon className="size-3.5 text-cyan-200" />{mode}</span>; }
 function AgentNode({ label, status, stream, index }: { label: string; status: StageStatus; stream: string; index: number }) { const icon = status === "done" ? <Check className="size-4" /> : status === "running" ? <Loader2 className="size-4 animate-spin" /> : status === "error" ? <AlertTriangle className="size-4" /> : <CircleDot className="size-4" />; const tone = status === "done" ? "border-green-300/25 bg-green-300/10 text-green-100 shadow-glow-green" : status === "running" ? "border-cyan-300/35 bg-cyan-300/10 text-cyan-100 shadow-glow-cyan" : status === "error" ? "border-red-300/35 bg-red-300/10 text-red-100" : "border-white/10 bg-white/[.025] text-proxy-tertiary"; return <div className={`motion-card relative rounded-lg border p-3 ${tone}`} style={{ animationDelay: `${index * 80}ms` }}><div className="flex items-center gap-2"><span className="grid size-8 place-items-center rounded-md bg-black/25">{icon}</span><div><p className="text-sm font-medium">{label}</p><p className="text-xs capitalize opacity-75">{status === "running" ? "Running..." : status}</p></div></div><p className="mt-3 min-h-5 text-xs text-proxy-muted">{status === "running" ? stream : status === "done" ? "Complete" : "Waiting"}</p>{status === "running" && <div className="absolute inset-x-3 bottom-2 h-px overflow-hidden bg-white/10"><span className="block h-full w-1/2 animate-flow bg-cyan-200" /></div>}</div>; }
 
-export function KpiGrid({ analysis }: { analysis: Analysis }) { const config = getDomainConfig(analysis.domain); const kpis = [["Analyses Across Domains", String(analyses.length), "8 dispute domains ready"], [config.primaryMetric, `${analysis.successProbability}%`, config.label], ["Documents Processed", "1,284", "multi-domain queue"], ["Knowledge Sources", "16,336", config.sourcesLabel], ["AI Accuracy", "91%", "reviewed outcomes"], ["Average Confidence", `${analysis.confidence}%`, "across active analyses"], ["Active AI Agents", "6", "live-updating"], ["Domain Coverage", `${domainRegistry.length}/8`, "all UI domains enabled"]]; return <section className="mt-5 grid auto-cols-[minmax(220px,1fr)] grid-flow-col gap-3 overflow-x-auto pb-2 md:grid-flow-row md:grid-cols-2 xl:grid-cols-4">{kpis.map(([label, value, sub]) => <div key={label} className="motion-card min-w-[220px] rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl"><div className="mb-3 flex items-center justify-between"><span className="text-sm text-proxy-muted">{label}</span><Activity className="size-4 text-cyan-200" /></div><p className="text-2xl font-semibold">{value}</p><p className="mt-1 text-xs text-proxy-tertiary">{sub}</p></div>)}</section>; }
+export function KpiGrid({ analysis }: { analysis: Analysis }) {
+  const [summary, setSummary] = useState<ReportSummary | null>(null);
+  const [realAnalyses, setRealAnalyses] = useState<AnalysisCase[]>([]);
+  const [loading, setLoading] = useState(true);
 
-export function AnalysesList() { return <section className="rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl"><div className="mb-4 flex items-center justify-between"><h2 className="font-semibold">My Analyses</h2><div className="flex gap-2"><button className="rounded-md border border-white/10 p-2 text-proxy-muted" aria-label="Search and filter"><Search className="size-4" /></button><button className="rounded-md border border-white/10 p-2 text-proxy-muted" aria-label="Favorites"><Star className="size-4" /></button><button className="rounded-md border border-white/10 p-2 text-proxy-muted" aria-label="Pinned analyses"><Pin className="size-4" /></button></div></div>{analyses.map((item) => <Link key={item.id} href={`/dashboard/analyses/${item.id}`} className="motion-card mb-3 block rounded-lg border border-white/10 bg-black/20 p-3 hover:border-cyan-300/35"><div className="flex flex-wrap items-center justify-between gap-3"><div><p className="font-medium">{item.id} / {item.claimant}</p><p className="mt-1 text-sm text-proxy-muted">{getDomainConfig(item.domain).label} / {item.counterparty}</p></div><span className="rounded-full border border-amber-300/25 bg-amber-300/10 px-2.5 py-1 text-xs text-amber-100">{item.status}</span></div><div className="mt-3 h-1.5 rounded-full bg-white/8"><div className="h-full rounded-full bg-cyan-300 shadow-glow-cyan" style={{ width: `${item.confidence}%` }} /></div><div className="mt-2 flex justify-between text-xs text-proxy-tertiary"><span>Confidence {item.confidence}%</span><span>{item.updated}</span></div></Link>)}</section>; }
+  useEffect(() => {
+    Promise.all([getReportSummary().catch(() => null), listAnalyses().catch(() => [])]).then(
+      ([s, a]) => { setSummary(s); setRealAnalyses(a); setLoading(false); }
+    );
+  }, []);
+
+  const avgConf = realAnalyses.length
+    ? realAnalyses.filter(a => a.avg_confidence !== null).reduce((sum, a) => sum + (a.avg_confidence ?? 0), 0) /
+      Math.max(1, realAnalyses.filter(a => a.avg_confidence !== null).length)
+    : null;
+  const totalRuns = realAnalyses.reduce((sum, a) => sum + a.run_count, 0);
+
+  const kpis = [
+    ["Total Cases", loading ? "..." : String(summary?.totals.cases ?? 0), "all domains combined"],
+    ["Appeals Generated", loading ? "..." : String(summary?.totals.appeals ?? 0), "complaint letters drafted"],
+    ["Documents Uploaded", loading ? "..." : String(summary?.totals.documents ?? 0), "indexed in vault"],
+    ["Resolution Rate", loading ? "..." : summary?.resolution_rate != null ? `${Math.round(summary.resolution_rate * 100)}%` : "N/A", "resolved appeals"],
+    ["Agent Runs", loading ? "..." : String(totalRuns), "total AI pipeline executions"],
+    ["Avg Confidence", loading ? "..." : avgConf != null ? `${Math.round(avgConf * 100)}%` : "N/A", "across all analyses"],
+    ["Active AI Agents", "6", "per domain pipeline"],
+    ["Domain Coverage", `${domainRegistry.length}/8`, "all UI domains enabled"],
+  ];
+
+  return (
+    <section className="mt-5 grid auto-cols-[minmax(220px,1fr)] grid-flow-col gap-3 overflow-x-auto pb-2 md:grid-flow-row md:grid-cols-2 xl:grid-cols-4">
+      {kpis.map(([label, value, sub]) => (
+        <div key={label} className="motion-card min-w-[220px] rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl">
+          <div className="mb-3 flex items-center justify-between">
+            <span className="text-sm text-proxy-muted">{label}</span>
+            <Activity className="size-4 text-cyan-200" />
+          </div>
+          <p className="text-2xl font-semibold">{value}</p>
+          <p className="mt-1 text-xs text-proxy-tertiary">{sub}</p>
+        </div>
+      ))}
+    </section>
+  );
+}
+
+
+export function AnalysesList() {
+  const [items, setItems] = useState<AnalysisCase[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    listAnalyses()
+      .then(setItems)
+      .catch(() => setItems([]))
+      .finally(() => setLoading(false));
+  }, []);
+
+  function timeAgo(iso: string) {
+    const diff = Date.now() - new Date(iso).getTime();
+    const m = Math.floor(diff / 60000);
+    if (m < 1) return "just now";
+    if (m < 60) return `${m}m ago`;
+    const h = Math.floor(m / 60);
+    if (h < 24) return `${h}h ago`;
+    return `${Math.floor(h / 24)}d ago`;
+  }
+
+  return (
+    <section className="rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl">
+      <div className="mb-4 flex items-center justify-between">
+        <h2 className="font-semibold">My Analyses</h2>
+        <span className="text-xs text-proxy-tertiary">{items.length} total</span>
+      </div>
+      {loading ? (
+        <div className="flex h-24 items-center justify-center"><Loader2 className="size-5 animate-spin text-proxy-tertiary" /></div>
+      ) : items.length === 0 ? (
+        <p className="py-6 text-center text-xs text-proxy-tertiary">No analyses yet — run your first multi-domain analysis above.</p>
+      ) : (
+        items.map((item) => {
+          const theme = domainTheme(item.domains_involved[0] ?? item.domain);
+          return (
+            <a key={item.id} href={`/dashboard/analyses?case=${encodeURIComponent(item.id)}`}
+              className="motion-card mb-3 block rounded-lg border border-white/10 bg-black/20 p-3 hover:border-cyan-300/35"
+              style={{ borderLeftColor: theme.color, borderLeftWidth: 3 }}
+            >
+              <div className="flex flex-wrap items-center justify-between gap-3">
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-sm font-medium text-proxy-text">{item.title}</p>
+                  <p className="mt-0.5 text-xs text-proxy-muted">{item.institution_name} &middot; {item.domain}</p>
+                </div>
+                <span className="shrink-0 rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-proxy-tertiary">{item.status}</span>
+              </div>
+              <div className="mt-2.5 h-1.5 rounded-full bg-white/8">
+                <div className="h-full rounded-full bg-cyan-300 shadow-glow-cyan" style={{ width: `${item.avg_confidence != null ? Math.round(item.avg_confidence * 100) : 0}%` }} />
+              </div>
+              <div className="mt-1.5 flex justify-between text-[10px] text-proxy-tertiary">
+                <span>Confidence {item.avg_confidence != null ? `${Math.round(item.avg_confidence * 100)}%` : "—"}</span>
+                <span>{timeAgo(item.updated_at)}</span>
+              </div>
+            </a>
+          );
+        })
+      )}
+    </section>
+  );
+}
 
 export function GaugeCard({ label, value, max = 100 }: { label: string; value: number; max?: number }) { const pct = Math.min(100, Math.round((value / max) * 100)); const color = pct > 75 ? "#37f29a" : pct > 45 ? "#ffc857" : "#ff4d6d"; return <div className="rounded-lg border border-white/10 bg-black/20 p-3"><svg viewBox="0 0 80 80" className="mx-auto size-20" role="img" aria-label={`${label} ${value}`}><circle cx="40" cy="40" r="31" fill="none" stroke="rgba(255,255,255,.08)" strokeWidth="7" /><circle cx="40" cy="40" r="31" fill="none" stroke={color} strokeWidth="7" strokeDasharray={`${pct * 1.95} 195`} strokeLinecap="round" transform="rotate(-90 40 40)" /></svg><p className="-mt-12 text-center text-lg font-semibold">{value}{max === 100 ? "%" : ""}</p><p className="mt-8 text-center text-xs text-proxy-muted">{label}</p></div>; }
 
