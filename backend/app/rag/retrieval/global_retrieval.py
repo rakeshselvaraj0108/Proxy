@@ -9,14 +9,15 @@ from __future__ import annotations
 
 import asyncio
 
+from app.llm.service import llm_service
 from app.models.domain import ACTIVE_DOMAINS, Domain
 from app.rag.retrieval.qdrant_service import qdrant_service
 from app.services.evidence_scoring import score_evidence_batch
 
 
-async def _search_one_domain(domain: Domain, query: str, top_k: int) -> list[dict]:
+async def _search_one_domain(domain: Domain, query: str, top_k: int, query_vector: list[float]) -> list[dict]:
     try:
-        hits = await qdrant_service.search(domain, query, limit=top_k)
+        hits = await qdrant_service.search(domain, query, limit=top_k, query_vector=query_vector)
     except Exception:
         return []
     return score_evidence_batch(domain, hits)
@@ -32,11 +33,15 @@ async def global_search(
     single evidence-ranked list plus a per-domain breakdown.
 
     Runs one search per domain concurrently — cost is bounded by the slowest
-    single domain's Qdrant/jsonl query, not the sum of all of them.
+    single domain's Qdrant/jsonl query, not the sum of all of them. The
+    query text is identical across every domain, so it's embedded exactly
+    once here and the vector is reused for all of them, rather than each
+    domain paying for its own redundant embedding call.
     """
     target_domains = domains or sorted(ACTIVE_DOMAINS, key=lambda d: d.value)
+    query_vector = await llm_service.embed_query(query)
     results_per_domain = await asyncio.gather(
-        *(_search_one_domain(domain, query, top_k_per_domain) for domain in target_domains)
+        *(_search_one_domain(domain, query, top_k_per_domain, query_vector) for domain in target_domains)
     )
 
     merged: list[dict] = []

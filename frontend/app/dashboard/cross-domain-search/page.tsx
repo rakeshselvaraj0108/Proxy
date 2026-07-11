@@ -49,9 +49,20 @@ export default function CrossDomainSearchPage() {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [recent, setRecent] = useState<string[]>([]);
   const [showRecent, setShowRecent] = useState(false);
+  const [loadingElapsedMs, setLoadingElapsedMs] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => setRecent(loadRecent()), []);
+
+  useEffect(() => {
+    if (!loading) {
+      setLoadingElapsedMs(0);
+      return;
+    }
+    const start = performance.now();
+    const timer = window.setInterval(() => setLoadingElapsedMs(Math.round(performance.now() - start)), 200);
+    return () => window.clearInterval(timer);
+  }, [loading]);
 
   useEffect(() => {
     function onKeydown(event: KeyboardEvent) {
@@ -212,6 +223,8 @@ export default function CrossDomainSearchPage() {
           <div className="mb-6 rounded-xl border border-red-300/25 bg-red-300/10 px-4 py-3 text-sm text-red-100">{error}</div>
         )}
 
+        {loading && <SearchingPanel elapsedMs={loadingElapsedMs} candidates={livePreview.length > 0 ? livePreview : candidates} />}
+
         {results.length > 0 && !loading && (
           <>
             {/* Stats bar */}
@@ -297,6 +310,30 @@ export default function CrossDomainSearchPage() {
         }
       `}</style>
     </AppShell>
+  );
+}
+
+function SearchingPanel({ elapsedMs, candidates }: { elapsedMs: number; candidates: DomainCandidate[] }) {
+  const seconds = (elapsedMs / 1000).toFixed(1);
+  return (
+    <div className="mb-6 rounded-2xl border border-cyan-300/15 bg-glass p-6 text-center backdrop-blur-2xl">
+      <Loader2 className="mx-auto mb-3 size-6 animate-spin text-cyan-200" />
+      <p className="text-sm text-proxy-text">Searching across all 8 domains and ranking by evidence quality...</p>
+      <p className="mt-1 font-mono text-xs text-proxy-tertiary">{seconds}s elapsed -- real vector search + LLM-scored evidence, not instant by nature</p>
+      {candidates.length > 0 && (
+        <div className="mt-3 flex flex-wrap items-center justify-center gap-1.5">
+          <span className="text-[10px] uppercase tracking-wide text-proxy-tertiary">Most relevant:</span>
+          {candidates.map((c) => {
+            const theme = domainTheme(c.domain);
+            return (
+              <span key={c.domain} className="rounded-full border px-2 py-0.5 text-[10px]" style={{ borderColor: `${theme.color}40`, backgroundColor: `${theme.color}1a`, color: theme.color }}>
+                {theme.label}
+              </span>
+            );
+          })}
+        </div>
+      )}
+    </div>
   );
 }
 

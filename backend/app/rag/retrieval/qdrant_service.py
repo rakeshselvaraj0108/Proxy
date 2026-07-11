@@ -84,7 +84,15 @@ class QdrantService:
             "last_indexed": active.get("last_indexed") if active else None,
         }
 
-    async def search(self, domain: Domain, query: str, limit: int = 5, filters: dict | None = None) -> list[dict]:
+    async def search(
+        self, domain: Domain, query: str, limit: int = 5, filters: dict | None = None, query_vector: list[float] | None = None
+    ) -> list[dict]:
+        """`query_vector` lets a caller that's searching the same query text
+        across many domains (e.g. global_search) embed it once and reuse the
+        vector, instead of paying for a redundant embedding call per domain
+        -- previously every domain in a cross-domain search re-embedded the
+        identical query text from scratch, multiplying both latency and
+        NVIDIA API usage by the domain count for zero benefit."""
         status = self.dimension_status(domain)
         if status["needs_reindex"]:
             logger.warning(
@@ -104,9 +112,10 @@ class QdrantService:
         import time
         from app.llm.metrics import metrics
 
-        embed_start = time.monotonic()
-        query_vector = await llm_service.embed_query(query)
-        metrics.record_latency("embedding.query", (time.monotonic() - embed_start) * 1000)
+        if query_vector is None:
+            embed_start = time.monotonic()
+            query_vector = await llm_service.embed_query(query)
+            metrics.record_latency("embedding.query", (time.monotonic() - embed_start) * 1000)
 
         search_start = time.monotonic()
         hits = store.query(collection_name, query_vector, top_k=limit, filters=filters)
