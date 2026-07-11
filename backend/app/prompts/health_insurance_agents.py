@@ -48,17 +48,21 @@ def evidence_prompt(domain: Domain, case_summary: str, context: str, evidence: s
     profile = get_profile(domain)
     domain_label = domain.value.replace("_", " ")
     schema_lines = ",\n  ".join(f'"{key}": "{example}"' for key, example in profile.evidence_schema.items())
-    task = f"""You are the Evidence Agent. Read uploaded case documents and extract structured facts for this {domain_label} case.
+    task = f"""You are the Evidence Agent. Read the uploaded case evidence below and extract structured facts for this {domain_label} case.
+
+FIRST, decide whether the uploaded evidence actually relates to the case summary below (same case, same institution/counterparty, same underlying issue -- not just the same broad domain). If the uploaded evidence is about a different, unrelated matter (wrong institution, wrong transaction/incident, or simply doesn't mention anything from the case summary), set "evidence_relevant" to false, leave every extracted field an empty string, and say so plainly in "summary" -- do NOT invent or guess values to fill the schema just because a document was uploaded.
+
 Return JSON with exactly this schema:
 
 {{
+  "evidence_relevant": true,
   {schema_lines},
   "documents_missing": ["Document or fact still needed"],
   "key_dates": ["Event: date"],
-  "summary": "Concise one-paragraph extraction summary."
+  "summary": "Concise one-paragraph extraction summary, or a note that the uploaded evidence doesn't match the case if evidence_relevant is false."
 }}
 
-Be factual. Do not invent values not present in evidence. Leave fields empty string if not found.
+Be strictly factual. Do not invent values not present in the evidence. Leave fields empty string if not found there.
 RETURN JSON ONLY. No markdown fences. Evidence Agent output."""
     return _base(domain, task, case_summary, context, evidence)
 

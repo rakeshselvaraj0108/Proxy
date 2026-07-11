@@ -233,6 +233,17 @@ class CaseRepository:
         documents = [document for document in self._documents.values() if document["user_id"] == user_id]
         return sorted(documents, key=lambda d: d.get("created_at") or "", reverse=True)
 
+    async def get_documents_by_ids(self, document_ids: list[str], user_id: str) -> list[dict]:
+        """Fetch specific documents by id, scoped to `user_id` -- used to pull
+        the exact set of documents a caller uploaded for one analysis run
+        (regardless of which case/vault they're attached to), rather than
+        every document ever uploaded to that domain's vault."""
+        return [
+            self._documents[document_id]
+            for document_id in document_ids
+            if document_id in self._documents and self._documents[document_id]["user_id"] == user_id
+        ]
+
     async def delete_document(self, document_id: str, user_id: str) -> bool:
         document = self._documents.get(document_id)
         if not document or document["user_id"] != user_id:

@@ -11,6 +11,7 @@ import asyncio
 
 from app.agents.orchestrator.case_workflow import case_workflow
 from app.agents.role_agents.domain_router import classify_domains
+from app.services.case_context import build_evidence_bundle
 
 # NegotiationOutput's fields (app/agents/state.py) mapped to a human title
 # used both for the saved Appeal's title and the frontend's document-type
@@ -96,10 +97,34 @@ async def _record_analysis_runs(user_id: str, case_id: str, per_domain_results: 
     )
 
 
+async def _fetch_evidence_documents(user_id: str, document_ids: list[str]) -> list[dict]:
+    """Fetch the exact documents the caller uploaded for this run (by id,
+    scoped to user_id) -- not every historical document in that domain's
+    vault, which would let unrelated old uploads bleed into every future
+    analysis for the same domain."""
+    if not user_id or not document_ids:
+        return []
+    from app.database.postgres.repositories import case_repository
+    return await case_repository.get_documents_by_ids(document_ids, user_id)
+
+
 async def run_multi_domain_case(base_state: dict, save_appeals: bool = False) -> dict:
     query = base_state.get("case_summary", "")
     user_id = base_state.get("user_id", "")
-    candidates = classify_domains(query)
+    document_ids = base_state.get("document_ids") or []
+    documents = await _fetch_evidence_documents(user_id, document_ids)
+    evidence_bundle = build_evidence_bundle(documents)
+
+    # Uploaded evidence can carry its own domain signal (e.g. a RERA
+    # possession notice uploaded alongside a vague "my builder is delaying
+    # things" query) -- classify against the query PLUS a snippet of every
+    # uploaded document's real extracted text, not the query text alone.
+    classification_text = query
+    for doc in documents:
+        extract = (doc.get("text_extract") or "")[:2000]
+        if extract:
+            classification_text = f"{classification_text}\n{extract}"
+    candidates = classify_domains(classification_text)
     base_case_id = base_state.get("case_id", "case")
 
     await _create_analysis_case(user_id, base_case_id, candidates[0]["domain"], query, base_state.get("institution_name", ""))
@@ -110,6 +135,8 @@ async def run_multi_domain_case(base_state: dict, save_appeals: bool = False) ->
         state["domain"] = domain
         case_id = f"{base_case_id}-{domain.value}"
         state["case_id"] = case_id
+        state["evidence_bundle"] = evidence_bundle
+        state["documents"] = documents
         result = await case_workflow.run(state)
         appeals = await _save_appeals_for_domain(user_id, case_id, domain.value, query, result) if save_appeals else []
         return {"domain": domain.value, "confidence": candidate["confidence"], "state": result, "appeals": appeals}

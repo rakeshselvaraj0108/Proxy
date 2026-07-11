@@ -79,12 +79,19 @@ def _term_matches(term: str, text: str) -> bool:
     return re.search(rf"\b{re.escape(term)}\b", text) is not None
 
 
-def classify_domains(query: str, max_domains: int = 3, min_relative_score: float = 0.4) -> list[dict]:
+def classify_domains(query: str, max_domains: int = 3, min_relative_score: float = 0.55) -> list[dict]:
     """Score every active domain against the query and return ranked candidates.
 
-    A domain is included if it's the top match, or if it scores at least
-    `min_relative_score` of the top domain's score (supports genuine
-    multi-domain queries without flooding results with weak matches).
+    The top match is always included. A secondary domain is included only if
+    it BOTH scores at least `min_relative_score` of the top domain's score
+    AND has at least one strong, unambiguous signal term (STRONG_SIGNAL_TERMS)
+    -- not just incidental overlap on a generic word shared across domains
+    (e.g. "charged", "refund", "complaint"). Previously a single weak hit
+    was enough on its own (base score floor of 0.2, relative threshold of
+    0.4), which meant a plain banking query like "my bank charged me twice"
+    could pull in Telecom or E-commerce as a full duplicate analysis purely
+    because they share generic billing vocabulary, with zero domain-specific
+    signal behind the match.
     """
     text = query.lower()
     scored: list[dict] = []
@@ -100,6 +107,7 @@ def classify_domains(query: str, max_domains: int = 3, min_relative_score: float
             "domain": domain,
             "confidence": round(score, 3),
             "matched_terms": hits[:8],
+            "_strong_hits": strong_hits,
         })
 
     if not scored:
@@ -116,8 +124,10 @@ def classify_domains(query: str, max_domains: int = 3, min_relative_score: float
     for candidate in scored[1:]:
         if len(selected) >= max_domains:
             break
-        if candidate["confidence"] >= top_score * min_relative_score:
+        if candidate["_strong_hits"] and candidate["confidence"] >= top_score * min_relative_score:
             selected.append(candidate)
+    for candidate in selected:
+        candidate.pop("_strong_hits", None)
     return selected
 
 

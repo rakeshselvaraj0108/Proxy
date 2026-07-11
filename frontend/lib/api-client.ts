@@ -141,7 +141,12 @@ export interface ResearchAgentOutput {
 // insurance, transaction_date/dispute_type for banking, flight_number for
 // airlines, etc. -- see backend app/prompts/domain_profiles.py), so this is
 // intentionally a loose record rather than a fixed shape.
-export type EvidenceAgentOutput = Record<string, string | string[] | undefined> & {
+export type EvidenceAgentOutput = Record<string, string | string[] | boolean | undefined> & {
+  // False when the Evidence Agent decided the uploaded document(s) don't
+  // actually relate to this case -- undefined means either no documents
+  // were uploaded, or the model didn't return the field (treat as unknown,
+  // not as a false "unrelated" claim).
+  evidence_relevant?: boolean;
   documents_missing?: string[];
   key_dates?: string[];
   summary?: string;
@@ -204,10 +209,12 @@ export interface MultiDomainCaseResponse {
   combined_summary: string;
 }
 
-export async function runMultiDomainCase(caseId: string, message: string, generateAppeals = false): Promise<MultiDomainCaseResponse> {
+export async function runMultiDomainCase(
+  caseId: string, message: string, generateAppeals = false, documentIds: string[] = []
+): Promise<MultiDomainCaseResponse> {
   return request("/intelligence/cases/multi-domain", {
     method: "POST",
-    body: JSON.stringify({ case_id: caseId, case_summary: message, generate_appeals: generateAppeals }),
+    body: JSON.stringify({ case_id: caseId, case_summary: message, generate_appeals: generateAppeals, document_ids: documentIds }),
   });
 }
 

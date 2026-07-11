@@ -64,6 +64,7 @@ class AgentState(TypedDict, total=False):
 
     # Raw inputs
     evidence_bundle: str
+    document_ids: list[str]
     documents: list[dict[str, Any]]
 
     # Research outputs

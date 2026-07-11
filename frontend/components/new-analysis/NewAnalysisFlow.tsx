@@ -175,7 +175,7 @@ export function NewAnalysisFlow() {
     }, 1300);
 
     try {
-      const response = await runMultiDomainCase(id, issueText, draftAppeals);
+      const response = await runMultiDomainCase(id, issueText, draftAppeals, uploadedDocs.map((doc) => doc.document_id));
       setResult(response);
       setRunState("complete");
     } catch (err) {
@@ -794,9 +794,15 @@ function AgentContent({ agentKey, breakdown, color }: { agentKey: keyof AgentBre
 
   if (agentKey === "evidence") {
     const e = breakdown.evidence;
-    const fields = Object.entries(e).filter(([k, v]) => !["documents_missing", "key_dates", "summary"].includes(k) && typeof v === "string" && v.trim());
+    const fields = Object.entries(e).filter(([k, v]) => !["documents_missing", "key_dates", "summary", "evidence_relevant"].includes(k) && typeof v === "string" && v.trim());
     return (
       <>
+        {e.evidence_relevant === false && (
+          <div className="mb-2.5 flex items-start gap-2 rounded-lg border border-amber-300/25 bg-amber-300/10 p-2.5">
+            <AlertCircle className="mt-0.5 size-3.5 shrink-0 text-amber-300" />
+            <p className="text-xs leading-5 text-amber-100">Uploaded evidence doesn't appear to match this case -- nothing was extracted from it to avoid guessing.</p>
+          </div>
+        )}
         {fields.length > 0 && (
           <div className="mb-2.5 grid grid-cols-2 gap-2">
             {fields.map(([key, value]) => (
