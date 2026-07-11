@@ -2,6 +2,9 @@ from __future__ import annotations
 
 from enum import Enum
 
+from app.models.domain import Domain
+from app.services.document_relevance import check_document_relevance
+
 
 class DocumentType(str, Enum):
     POLICY = "policy"
@@ -32,7 +35,33 @@ def classify_document(filename: str, mime_type: str | None = None) -> DocumentTy
     return DocumentType.OTHER
 
 
+def _relevant_documents(documents: list[dict], domain: str | Domain | None) -> list[dict]:
+    """Return only documents that pass the domain relevance check."""
+    if not domain:
+        return documents
+    # Resolve string → Domain enum if needed
+    if isinstance(domain, str):
+        try:
+            domain = Domain(domain)
+        except ValueError:
+            return documents
+    relevant = []
+    for doc in documents:
+        text = (doc.get("text_extract") or "").strip()
+        filename = doc.get("filename", "")
+        if not text:
+            # No text (e.g. image) — keep it, can't check
+            relevant.append(doc)
+            continue
+        is_ok, _ = check_document_relevance(text, domain, filename=filename)
+        if is_ok:
+            relevant.append(doc)
+    return relevant
+
+
 def build_case_summary(case: dict, documents: list[dict]) -> str:
+    domain = case.get("domain")
+    filtered = _relevant_documents(documents, domain)
     sections = [
         f"Case: {case.get('title', '')}",
         f"Insurer: {case.get('institution_name', '')}",
@@ -40,24 +69,29 @@ def build_case_summary(case: dict, documents: list[dict]) -> str:
         f"Jurisdiction: {case.get('jurisdiction', 'IN')}",
     ]
     by_type: dict[str, list[str]] = {}
-    for doc in documents:
+    for doc in filtered:
         doc_type = doc.get("document_type") or DocumentType.OTHER.value
         by_type.setdefault(doc_type, []).append(doc.get("filename", "document"))
     if by_type:
         sections.append("Uploaded documents:")
         for doc_type, names in by_type.items():
             sections.append(f"  - {doc_type}: {', '.join(names)}")
+    skipped = len(documents) - len(filtered)
+    if skipped:
+        sections.append(f"  ({skipped} unrelated document(s) excluded from analysis)")
     return "\n".join(sections)
 
 
-def build_evidence_bundle(documents: list[dict]) -> str:
+def build_evidence_bundle(documents: list[dict], domain: str | Domain | None = None) -> str:
     if not documents:
         return "No uploaded evidence documents."
+    # Filter out unrelated documents so they never reach the LLM
+    filtered = _relevant_documents(documents, domain) if domain else documents
     parts: list[str] = []
-    for doc in documents:
+    for doc in filtered:
         doc_type = doc.get("document_type", DocumentType.OTHER.value)
         text = (doc.get("text_extract") or "").strip()
         if not text:
             continue
         parts.append(f"=== {doc_type.upper()}: {doc.get('filename', 'document')} ===\n{text[:8000]}")
-    return "\n\n".join(parts) if parts else "Uploaded documents contain no extractable text yet."
+    return "\n\n".join(parts) if parts else "Uploaded documents contain no extractable text relevant to this case."

@@ -55,7 +55,7 @@ async def _build_state(case: dict, user_id: str, documents: list[dict]) -> dict:
         "domain": case["domain"],
         "case_summary": build_case_summary(case, documents),
         "institution_name": case["institution_name"],
-        "evidence_bundle": build_evidence_bundle(documents),
+        "evidence_bundle": build_evidence_bundle(documents, domain=case["domain"]),
         "documents": documents,
     }
 
