@@ -70,8 +70,24 @@ export function NewAnalysisFlow() {
   const [result, setResult] = useState<MultiDomainCaseResponse | null>(null);
   const [caseId, setCaseId] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [runningElapsedMs, setRunningElapsedMs] = useState(0);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const stageTimerRef = useRef<number | null>(null);
+
+  // The estimated-stages animation (below) necessarily finishes in ~10s, but
+  // real multi-agent runs -- several sequential LLM calls per domain, run in
+  // parallel across domains -- genuinely take 30-120+s. Without a ticking
+  // clock the UI looks frozen for the remainder of a real run, which reads
+  // as broken rather than slow.
+  useEffect(() => {
+    if (runState !== "running") {
+      setRunningElapsedMs(0);
+      return;
+    }
+    const start = performance.now();
+    const timer = window.setInterval(() => setRunningElapsedMs(Math.round(performance.now() - start)), 200);
+    return () => window.clearInterval(timer);
+  }, [runState]);
 
   useEffect(() => {
     listAnalyses()
@@ -243,7 +259,7 @@ export function NewAnalysisFlow() {
             runState={runState}
             onRun={runAnalysis}
           />
-          <LiveFlowPanel lanes={lanes} runState={runState} filledCount={filledCount} error={error} />
+          <LiveFlowPanel lanes={lanes} runState={runState} filledCount={filledCount} error={error} elapsedMs={runningElapsedMs} />
         </div>
       </section>
 
@@ -445,19 +461,35 @@ function IntakePanel({
   );
 }
 
+const STILL_WORKING_PHRASES = [
+  "Domain specialists are reasoning over retrieved evidence...",
+  "Cross-checking clauses and regulations against your case...",
+  "Building response strategy and scoring evidence quality...",
+  "Complex multi-domain cases can take up to two minutes -- still working, not stuck.",
+];
+
 function LiveFlowPanel({
-  lanes, runState, filledCount, error,
+  lanes, runState, filledCount, error, elapsedMs,
 }: {
   lanes: Array<{ domain: string; trace?: string[] }>;
   runState: "idle" | "running" | "complete" | "error";
   filledCount: number;
   error: string | null;
+  elapsedMs: number;
 }) {
+  const elapsedSeconds = elapsedMs / 1000;
+  const stagesExhausted = filledCount >= ESTIMATED_STAGES.length;
+  const stillWorkingPhrase = STILL_WORKING_PHRASES[Math.min(Math.floor(elapsedSeconds / 15), STILL_WORKING_PHRASES.length - 1)];
+
   return (
     <div className="rounded-xl border border-white/10 bg-black/20 p-4">
       <div className="mb-3 flex items-center justify-between">
         <h3 className="font-semibold">2. Live Agent Flow</h3>
-        <span className="text-xs text-proxy-tertiary">Real multi-agent trace</span>
+        {runState === "running" ? (
+          <span className="font-mono text-xs text-cyan-200">{elapsedSeconds.toFixed(1)}s elapsed</span>
+        ) : (
+          <span className="text-xs text-proxy-tertiary">Real multi-agent trace</span>
+        )}
       </div>
       <ReasoningLanes lanes={lanes} processing={runState === "running"} filledCount={filledCount} />
 
@@ -470,8 +502,16 @@ function LiveFlowPanel({
         ) : runState === "running" ? (
           <>
             <p className="mb-1"><span className="text-green-300">&#10003;</span> Domain Router: classifying across domains...</p>
-            <p className="mb-1"><span className="text-green-300">&#10003;</span> {ESTIMATED_STAGES[Math.min(filledCount, ESTIMATED_STAGES.length - 1)]}...</p>
-            <p className="text-proxy-tertiary">(estimate -- replaced by the real trace once the response lands)</p>
+            {!stagesExhausted ? (
+              <>
+                <p className="mb-1"><span className="text-green-300">&#10003;</span> {ESTIMATED_STAGES[Math.min(filledCount, ESTIMATED_STAGES.length - 1)]}...</p>
+                <p className="text-proxy-tertiary">(estimate -- replaced by the real trace once the response lands)</p>
+              </>
+            ) : (
+              <p className="flex items-center gap-2 text-proxy-muted">
+                <Loader2 className="size-3 shrink-0 animate-spin text-cyan-300" /> {stillWorkingPhrase}
+              </p>
+            )}
           </>
         ) : (
           <p><span className="text-green-300">&#10003;</span> Complete. Results and citations unlocked below.</p>

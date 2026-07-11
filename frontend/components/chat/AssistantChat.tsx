@@ -96,9 +96,23 @@ export function AssistantChat() {
   const [processing, setProcessing] = useState(false);
   const [processingDomains, setProcessingDomains] = useState<string[]>([]);
   const [filledCount, setFilledCount] = useState(0);
+  const [processingElapsedMs, setProcessingElapsedMs] = useState(0);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const stageTimerRef = useRef<number | null>(null);
+
+  // ESTIMATED_STAGES finishes animating in ~10s, but a real multi-agent run
+  // (several sequential LLM calls per domain) can take 30-120+s -- without a
+  // ticking clock the UI looks frozen for the rest of that time.
+  useEffect(() => {
+    if (!processing) {
+      setProcessingElapsedMs(0);
+      return;
+    }
+    const start = performance.now();
+    const timer = window.setInterval(() => setProcessingElapsedMs(Math.round(performance.now() - start)), 200);
+    return () => window.clearInterval(timer);
+  }, [processing]);
 
   useEffect(() => setMessages(loadHistory()), []);
   useEffect(() => { if (messages.length) saveHistory(messages); }, [messages]);
@@ -241,6 +255,7 @@ export function AssistantChat() {
             processing
             processingDomains={processingDomains.length ? processingDomains : ["health_insurance"]}
             filledCount={filledCount}
+            elapsedMs={processingElapsedMs}
           />
         )}
       </div>
@@ -351,17 +366,27 @@ function UserPrompt({ text }: { text: string }) {
   );
 }
 
+const STILL_REASONING_PHRASES = [
+  "Reasoning across domains...",
+  "Cross-checking clauses and regulations...",
+  "Scoring evidence and building strategy...",
+  "Complex multi-domain queries can take up to two minutes -- still working.",
+];
+
 function IntelligenceCard({
-  message, processing, processingDomains, filledCount, onRetry,
+  message, processing, processingDomains, filledCount, elapsedMs, onRetry,
 }: {
   message: ChatMessage;
   processing?: boolean;
   processingDomains?: string[];
   filledCount?: number;
+  elapsedMs?: number;
   onRetry?: () => void;
 }) {
   const domains = processing ? (processingDomains ?? []) : message.domains ?? [];
   const lanes = domains.map((domain) => ({ domain, trace: message.perDomainTraces?.[domain] }));
+  const elapsedSeconds = (elapsedMs ?? 0) / 1000;
+  const reasoningLabel = STILL_REASONING_PHRASES[Math.min(Math.floor(elapsedSeconds / 15), STILL_REASONING_PHRASES.length - 1)];
 
   return (
     <div className="rounded-2xl border border-white/10 bg-black/20 p-4 sm:p-5">
@@ -370,8 +395,11 @@ function IntelligenceCard({
           {processing ? <Loader2 className="size-3.5 animate-spin text-cyan-200" /> : <Zap className="size-3.5 text-cyan-200" />}
         </div>
         <p className="text-xs font-medium text-proxy-muted">
-          {processing ? "Reasoning across domains..." : "PROXY"}
+          {processing ? reasoningLabel : "PROXY"}
         </p>
+        {processing && (
+          <span className="ml-auto font-mono text-[10px] text-cyan-200">{elapsedSeconds.toFixed(1)}s</span>
+        )}
         {!processing && domains.length > 0 && (
           <div className="ml-auto flex flex-wrap gap-1.5">
             {domains.map((domain) => {
