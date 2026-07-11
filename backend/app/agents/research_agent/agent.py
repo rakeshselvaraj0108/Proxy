@@ -75,6 +75,10 @@ async def run_research_agent(state: AgentState) -> AgentState:
     patterns = await knowledge_graph.find_institution_patterns(domain, institution)
     graph_lines = [p.get("pattern", "") for p in patterns if p.get("pattern")]
     state["graph_context"] = "\n".join(graph_lines)
+    # Keep the structured list too (not just the flattened string) so callers
+    # that want real per-pattern confidence scores -- e.g. the New Analysis
+    # results view's Knowledge Graph section -- don't have to re-query.
+    state["graph_patterns"] = patterns
 
     # --- 3. Web Search ---
     # Previously only banking got a domain-appropriate query -- every other

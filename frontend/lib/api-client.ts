@@ -128,12 +128,71 @@ export interface Appeal {
   created_at: string;
 }
 
+export interface ResearchAgentOutput {
+  applicable_clauses?: string[];
+  possible_exclusions?: string[];
+  waiting_periods?: string[];
+  regulations?: string[];
+  summary?: string;
+  confidence?: number;
+}
+
+// Evidence field names vary per domain (diagnosis/hospital for health
+// insurance, transaction_date/dispute_type for banking, flight_number for
+// airlines, etc. -- see backend app/prompts/domain_profiles.py), so this is
+// intentionally a loose record rather than a fixed shape.
+export type EvidenceAgentOutput = Record<string, string | string[] | undefined> & {
+  documents_missing?: string[];
+  key_dates?: string[];
+  summary?: string;
+};
+
+export interface KnowledgeGraphAgentOutput {
+  patterns: Array<{ pattern: string; domain: string; institution: string; confidence: number }>;
+}
+
+export interface StrategyAgentOutput {
+  can_appeal?: string;
+  success_probability?: number;
+  recommended_strategy?: string | string[];
+  evidence_required?: string[];
+  escalation_path?: string[];
+  summary?: string;
+}
+
+export interface NegotiationAgentOutput {
+  appeal_letter?: string;
+  complaint_email?: string;
+  escalation_note?: string;
+  consumer_complaint?: string;
+  summary?: string;
+}
+
+export interface ReviewAgentOutput {
+  missing_evidence?: string[];
+  hallucination_risks?: string[];
+  wrong_clause_risks?: string[];
+  weak_arguments?: string[];
+  approval_ready?: boolean;
+  summary?: string;
+}
+
+export interface AgentBreakdown {
+  research: ResearchAgentOutput;
+  evidence: EvidenceAgentOutput;
+  knowledge_graph: KnowledgeGraphAgentOutput;
+  strategy: StrategyAgentOutput;
+  negotiation: NegotiationAgentOutput;
+  review: ReviewAgentOutput;
+}
+
 export interface DomainResult {
   confidence: number;
   route: string;
   final_report: string | null;
   agent_trace: string[];
   appeals: Appeal[];
+  agent_breakdown: AgentBreakdown;
 }
 
 export interface MultiDomainCaseResponse {

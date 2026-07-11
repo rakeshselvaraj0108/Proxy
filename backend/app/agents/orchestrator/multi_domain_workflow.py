@@ -138,9 +138,26 @@ async def run_multi_domain_case(base_state: dict, save_appeals: bool = False) ->
                 "final_report": entry["state"].get("final_report") or entry["state"].get("final_answer"),
                 "agent_trace": entry["state"].get("agent_trace"),
                 "appeals": entry["appeals"],
+                # Each of the 6 agents' real structured output -- computed on
+                # every run already (case_workflow's graph runs all of them
+                # unconditionally) but previously discarded here, so the
+                # frontend only ever saw the single compiled final_report
+                # text blob instead of what each agent individually found.
+                "agent_breakdown": _build_agent_breakdown(entry["state"]),
             }
             for entry in per_domain_results
         },
         "combined_citations": combined_citations,
         "combined_summary": "\n\n".join(combined_summaries),
+    }
+
+
+def _build_agent_breakdown(state: dict) -> dict:
+    return {
+        "research": state.get("research_output") or {},
+        "evidence": state.get("evidence_output") or {},
+        "knowledge_graph": {"patterns": state.get("graph_patterns") or []},
+        "strategy": state.get("strategy_output") or {},
+        "negotiation": state.get("negotiation_output") or {},
+        "review": state.get("review_output") or {},
     }

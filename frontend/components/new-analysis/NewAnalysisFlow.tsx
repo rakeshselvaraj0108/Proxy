@@ -7,10 +7,11 @@ import remarkGfm from "remark-gfm";
 import {
   Upload, Play, Loader2, FileText, AlertCircle, CheckCircle2, Sparkles,
   ArrowUpRight, Trash2, RotateCcw, ClipboardList, ScrollText,
+  Search, FileSearch, Network, Target, PenLine, ShieldAlert,
 } from "lucide-react";
 import {
   classifyQuery, runMultiDomainCase, uploadDocument, deleteDocument, listAnalyses,
-  type DomainCandidate, type MultiDomainCaseResponse, type UploadedDocument,
+  type DomainCandidate, type MultiDomainCaseResponse, type UploadedDocument, type AgentBreakdown,
 } from "@/lib/api-client";
 import { DOMAIN_THEME, domainTheme } from "@/components/chat/domain-theme";
 import { ReasoningLanes } from "@/components/chat/ReasoningLanes";
@@ -52,6 +53,7 @@ interface DomainAnswer {
   domain: string;
   route: string;
   report: string | null;
+  breakdown: AgentBreakdown;
 }
 
 export function NewAnalysisFlow() {
@@ -531,7 +533,7 @@ function ResultsPanel({
   onOpenAppeals: () => void;
 }) {
   const answers: DomainAnswer[] = Object.entries(result.per_domain_results).map(([domain, r]) => ({
-    domain, route: r.route, report: r.final_report,
+    domain, route: r.route, report: r.final_report, breakdown: r.agent_breakdown,
   }));
   const appealCount = Object.values(result.per_domain_results).reduce((sum, r) => sum + r.appeals.length, 0);
 
@@ -584,6 +586,7 @@ function ResultsPanel({
 function DomainAnswerSection({ answer }: { answer: DomainAnswer }) {
   const theme = domainTheme(answer.domain);
   const [expanded, setExpanded] = useState(true);
+  const [tab, setTab] = useState<"report" | "agents">("report");
   if (!answer.report) return null;
 
   return (
@@ -597,11 +600,235 @@ function DomainAnswerSection({ answer }: { answer: DomainAnswer }) {
       </button>
       {expanded && (
         <div className="px-4 py-3">
-          <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-            {answer.report}
-          </ReactMarkdown>
+          <div className="mb-3 flex gap-1 rounded-lg border border-white/10 bg-black/20 p-0.5">
+            <button
+              onClick={() => setTab("report")}
+              className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition-colors ${tab === "report" ? "bg-white/10 text-proxy-text" : "text-proxy-tertiary hover:text-proxy-muted"}`}
+            >
+              Plain-English Report
+            </button>
+            <button
+              onClick={() => setTab("agents")}
+              className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition-colors ${tab === "agents" ? "bg-white/10 text-proxy-text" : "text-proxy-tertiary hover:text-proxy-muted"}`}
+            >
+              6-Agent Breakdown
+            </button>
+          </div>
+          {tab === "report" ? (
+            <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+              {answer.report}
+            </ReactMarkdown>
+          ) : (
+            <AgentBreakdownView breakdown={answer.breakdown} accent={theme.color} />
+          )}
         </div>
       )}
     </div>
+  );
+}
+
+interface AgentSpec {
+  key: keyof AgentBreakdown;
+  label: string;
+  icon: typeof Search;
+  color: string;
+  tagline: string;
+}
+
+const AGENT_SPECS: AgentSpec[] = [
+  { key: "research", label: "Research Agent", icon: Search, color: "#00e5ff", tagline: "Vector search + knowledge graph + web -- what rules apply" },
+  { key: "evidence", label: "Evidence Agent", icon: FileSearch, color: "#37f29a", tagline: "Structured facts extracted from your description and documents" },
+  { key: "knowledge_graph", label: "Knowledge Graph Agent", icon: Network, color: "#9b5cff", tagline: "Cross-user institution patterns from the live graph" },
+  { key: "strategy", label: "Strategy Agent", icon: Target, color: "#ffc857", tagline: "Whether to proceed, and the recommended path" },
+  { key: "negotiation", label: "Negotiation Agent", icon: PenLine, color: "#ff6fb0", tagline: "Drafted letters and complaints, ready for your review" },
+  { key: "review", label: "Review Agent", icon: ShieldAlert, color: "#ff4d6d", tagline: "Devil's advocate audit of everything above" },
+];
+
+function AgentBreakdownView({ breakdown, accent }: { breakdown: AgentBreakdown; accent: string }) {
+  return (
+    <div className="space-y-2.5">
+      {AGENT_SPECS.map((spec) => (
+        <AgentCard key={spec.key} spec={spec} breakdown={breakdown} fallbackAccent={accent} />
+      ))}
+    </div>
+  );
+}
+
+function AgentCard({ spec, breakdown, fallbackAccent }: { spec: AgentSpec; breakdown: AgentBreakdown; fallbackAccent: string }) {
+  const [open, setOpen] = useState(false);
+  const Icon = spec.icon;
+  const color = spec.color || fallbackAccent;
+
+  return (
+    <div className="overflow-hidden rounded-lg border border-white/10 bg-black/20">
+      <button onClick={() => setOpen((v) => !v)} className="flex w-full items-center gap-2.5 px-3 py-2.5 text-left hover:bg-white/[0.03]">
+        <div className="grid size-7 shrink-0 place-items-center rounded-lg border" style={{ borderColor: `${color}40`, backgroundColor: `${color}15` }}>
+          <Icon className="size-3.5" style={{ color }} />
+        </div>
+        <div className="min-w-0 flex-1">
+          <p className="text-xs font-medium text-proxy-text">{spec.label}</p>
+          <p className="truncate text-[10px] text-proxy-tertiary">{spec.tagline}</p>
+        </div>
+        <span className="shrink-0 text-[10px] text-proxy-tertiary">{open ? "Hide" : "Show"}</span>
+      </button>
+      {open && (
+        <div className="border-t border-white/5 px-3 py-3">
+          <AgentContent agentKey={spec.key} breakdown={breakdown} color={color} />
+        </div>
+      )}
+    </div>
+  );
+}
+
+function ListBlock({ label, items, color }: { label: string; items?: string[]; color: string }) {
+  if (!items || items.length === 0) return null;
+  return (
+    <div className="mb-2.5">
+      <p className="mb-1 text-[10px] uppercase tracking-wide text-proxy-tertiary">{label}</p>
+      <ul className="space-y-1">
+        {items.map((item, i) => (
+          <li key={i} className="flex items-start gap-1.5 text-xs leading-5 text-proxy-muted">
+            <span className="mt-1.5 size-1 shrink-0 rounded-full" style={{ backgroundColor: color }} />
+            {item}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function AgentContent({ agentKey, breakdown, color }: { agentKey: keyof AgentBreakdown; breakdown: AgentBreakdown; color: string }) {
+  if (agentKey === "research") {
+    const r = breakdown.research;
+    return (
+      <>
+        <ListBlock label="Applicable clauses / rules" items={r.applicable_clauses} color={color} />
+        <ListBlock label="Possible exclusions" items={r.possible_exclusions} color={color} />
+        <ListBlock label="Key timelines" items={r.waiting_periods} color={color} />
+        <ListBlock label="Regulations cited" items={r.regulations} color={color} />
+        {r.confidence !== undefined && (
+          <div className="mt-2 flex items-center gap-2">
+            <span className="text-[10px] text-proxy-tertiary">Research confidence</span>
+            <div className="h-1 flex-1 overflow-hidden rounded-full bg-white/5"><div className="h-full rounded-full" style={{ width: `${r.confidence * 100}%`, backgroundColor: color }} /></div>
+            <span className="text-[10px] text-proxy-muted">{Math.round(r.confidence * 100)}%</span>
+          </div>
+        )}
+        {r.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{r.summary}</p>}
+      </>
+    );
+  }
+
+  if (agentKey === "evidence") {
+    const e = breakdown.evidence;
+    const fields = Object.entries(e).filter(([k, v]) => !["documents_missing", "key_dates", "summary"].includes(k) && typeof v === "string" && v.trim());
+    return (
+      <>
+        {fields.length > 0 && (
+          <div className="mb-2.5 grid grid-cols-2 gap-2">
+            {fields.map(([key, value]) => (
+              <div key={key} className="rounded-lg border border-white/5 bg-black/20 p-2">
+                <p className="text-[9px] uppercase tracking-wide text-proxy-tertiary">{key.replace(/_/g, " ")}</p>
+                <p className="mt-0.5 truncate text-xs text-proxy-text">{value as string}</p>
+              </div>
+            ))}
+          </div>
+        )}
+        <ListBlock label="Documents still missing" items={e.documents_missing} color={color} />
+        <ListBlock label="Key dates" items={e.key_dates} color={color} />
+        {e.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{e.summary as string}</p>}
+      </>
+    );
+  }
+
+  if (agentKey === "knowledge_graph") {
+    const patterns = breakdown.knowledge_graph.patterns;
+    if (patterns.length === 0) return <p className="text-xs text-proxy-tertiary">No cross-user patterns found yet for this institution.</p>;
+    return (
+      <div className="space-y-2">
+        {patterns.map((p, i) => (
+          <div key={i} className="rounded-lg border border-white/5 bg-black/20 p-2.5">
+            <div className="mb-1 flex items-center justify-between">
+              <span className="text-[10px] text-proxy-tertiary">{domainTheme(p.domain).label}</span>
+              <span className="text-[10px] text-proxy-muted">{Math.round(p.confidence * 100)}% confidence</span>
+            </div>
+            <p className="text-xs leading-5 text-proxy-text">{p.pattern}</p>
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  if (agentKey === "strategy") {
+    const s = breakdown.strategy;
+    const steps = Array.isArray(s.recommended_strategy) ? s.recommended_strategy : s.recommended_strategy ? [s.recommended_strategy] : [];
+    return (
+      <>
+        <div className="mb-3 flex items-center gap-3">
+          {s.success_probability !== undefined && (
+            <div className="flex items-center gap-2">
+              <svg width="36" height="36" viewBox="0 0 36 36">
+                <circle cx="18" cy="18" r="15" fill="none" stroke="rgba(255,255,255,.08)" strokeWidth="4" />
+                <circle
+                  cx="18" cy="18" r="15" fill="none" stroke={color} strokeWidth="4" strokeLinecap="round"
+                  strokeDasharray={2 * Math.PI * 15} strokeDashoffset={2 * Math.PI * 15 * (1 - s.success_probability)}
+                  transform="rotate(-90 18 18)"
+                />
+              </svg>
+              <div>
+                <p className="text-xs font-semibold text-proxy-text">{Math.round(s.success_probability * 100)}%</p>
+                <p className="text-[9px] text-proxy-tertiary">success probability</p>
+              </div>
+            </div>
+          )}
+          {s.can_appeal && (
+            <span className="rounded-full border px-2 py-0.5 text-[10px]" style={{ borderColor: `${color}40`, backgroundColor: `${color}15`, color }}>
+              Can proceed: {s.can_appeal}
+            </span>
+          )}
+        </div>
+        <ListBlock label="Recommended steps" items={steps} color={color} />
+        <ListBlock label="Evidence still required" items={s.evidence_required} color={color} />
+        <ListBlock label="Escalation path" items={s.escalation_path} color={color} />
+        {s.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{s.summary}</p>}
+      </>
+    );
+  }
+
+  if (agentKey === "negotiation") {
+    const n = breakdown.negotiation;
+    const docs: Array<[string, string | undefined]> = [
+      ["Appeal / dispute letter", n.appeal_letter],
+      ["Complaint email", n.complaint_email],
+      ["Escalation note", n.escalation_note],
+      ["Consumer complaint", n.consumer_complaint],
+    ].filter(([, v]) => v && v.trim()) as Array<[string, string]>;
+    if (docs.length === 0) return <p className="text-xs text-proxy-tertiary">No documents drafted for this run -- enable "Also draft appeal / complaint letters" and re-run to generate them.</p>;
+    return (
+      <div className="space-y-2">
+        {docs.map(([label, content]) => (
+          <details key={label} className="rounded-lg border border-white/5 bg-black/20 p-2.5">
+            <summary className="cursor-pointer text-xs font-medium" style={{ color }}>{label}</summary>
+            <p className="mt-2 whitespace-pre-wrap text-xs leading-5 text-proxy-muted">{content}</p>
+          </details>
+        ))}
+      </div>
+    );
+  }
+
+  // review
+  const rv = breakdown.review;
+  return (
+    <>
+      {rv.approval_ready !== undefined && (
+        <span className={`mb-2.5 inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] ${rv.approval_ready ? "border border-green-300/25 bg-green-300/10 text-green-100" : "border border-amber-300/25 bg-amber-300/10 text-amber-100"}`}>
+          {rv.approval_ready ? "Ready for approval" : "Needs attention before approval"}
+        </span>
+      )}
+      <ListBlock label="Missing evidence" items={rv.missing_evidence} color={color} />
+      <ListBlock label="Hallucination risks caught" items={rv.hallucination_risks} color={color} />
+      <ListBlock label="Wrong clause/regulation risks caught" items={rv.wrong_clause_risks} color={color} />
+      <ListBlock label="Weak arguments flagged" items={rv.weak_arguments} color={color} />
+      {rv.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{rv.summary}</p>}
+    </>
   );
 }

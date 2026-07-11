@@ -73,6 +73,7 @@ class AgentState(TypedDict, total=False):
     research_output: ResearchOutput
     research_summary: str
     citations: list[str]
+    graph_patterns: list[dict[str, Any]]
 
     # Evidence outputs
     evidence_output: EvidenceOutput
