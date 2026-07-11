@@ -1,2 +1,2 @@
-﻿import { DashboardHome } from "@/components/proxy-v2/Pages";
-export default function Page() { return <DashboardHome />; }
+import { redirect } from "next/navigation";
+export default function Page() { redirect("/dashboard"); }

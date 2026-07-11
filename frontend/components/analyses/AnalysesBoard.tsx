@@ -84,6 +84,20 @@ export function AnalysesBoard() {
     setFavorites(loadIdSet(FAVORITE_KEY));
   }, []);
 
+  // Deep-link from the command palette or /dashboard/analyses/[id] --
+  // opens straight into that case's detail panel instead of requiring the
+  // user to find it in the board.
+  useEffect(() => {
+    if (loading || analyses.length === 0) return;
+    const params = new URLSearchParams(window.location.search);
+    const caseId = params.get("case");
+    if (caseId) {
+      const match = analyses.find((a) => a.id === caseId);
+      if (match) setSelected(match);
+      window.history.replaceState({}, "", window.location.pathname);
+    }
+  }, [loading, analyses]);
+
   function togglePin(id: string) {
     setPinned((current) => {
       const next = new Set(current);
