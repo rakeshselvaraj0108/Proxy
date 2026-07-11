@@ -13,18 +13,39 @@ consult a qualified healthcare professional for actual medical decisions.
 The mandatory "disclaimer" field in every specialist's output JSON schema
 must not be dropped or reworded away from that meaning.
 """
-import json
 import logging
 from typing import Dict, Any
+from app.agents.json_parser import parse_agent_json
 from app.llm.service import llm_service
 from app.models.domain import Domain
 from app.rag.retrieval.qdrant_service import qdrant_service
+from app.services.citation_verification import verify_claims
 
 logger = logging.getLogger(__name__)
 
 MEDICAL_DISCLAIMER = (
     "This is educational information, not a diagnosis. Consult a qualified "
     "healthcare professional for medical advice specific to your situation."
+)
+
+# Running specialist agents against retrieved public-health sources and the
+# user's own evidence only pays off if the answer is thorough and complete
+# -- not a shallow reply that just says "see a doctor" with nothing else,
+# which is indistinguishable from a plain chatbot and defeats the reason to
+# run agents at all. This does not relax the safety constraint above: being
+# thorough means fully explaining the general condition/topic and citing
+# real sources, never diagnosing this specific user or replacing the
+# recommendation to see a professional.
+COMPLETENESS_MANDATE = (
+    "Before answering: your \"analysis\" and \"recommended_next_steps\" must be a thorough, complete "
+    "educational explanation built from the retrieved context above, not a one-line deflection. Name "
+    "the specific source (WHO guideline, MedlinePlus page, MoHFW advisory, etc.) from the Educational & "
+    "Reference Context above (not \"medical guidelines\"). Cover what the condition/topic is, common "
+    "causes or risk factors, general self-care or prevention steps that are safe to state generically, "
+    "and concretely when to seek professional care -- so this reads as a complete explanation, not a "
+    "generic \"consult a doctor\" brush-off. If any red-flag/urgent symptom is mentioned or plausible for "
+    "this topic, say explicitly to call 112 (national emergency) or 108 (ambulance), or go to the "
+    "nearest hospital emergency department now -- don't just say \"seek care\" without the actual number."
 )
 
 
@@ -47,9 +68,10 @@ class HealthcareSpecialistAgent:
         evidence_instruction = (
             "Before using the uploaded evidence above, check whether it actually relates to this query "
             "(same condition/topic the user is asking about -- not just any medical-sounding document). Set "
-            "\"evidence_relevant\" to false if it clearly does NOT relate, and in that case do not draw any "
-            "facts from it. Set it to true if it DOES relate, and then treat its details as verified facts "
-            "and use them directly."
+            "\"evidence_relevant\" to false if it clearly does NOT relate, and in that case leave "
+            "\"evidence_facts\" empty and do not draw any facts from it. Set it to true if it DOES relate, and "
+            "populate \"evidence_facts\" with the specific details you found in the evidence -- this is what "
+            "makes the answer visibly grounded in what the user uploaded rather than generic information."
             if evidence_bundle
             else ""
         )
@@ -76,9 +98,12 @@ changes, or urgent symptoms.
 
 {evidence_instruction}
 
+{COMPLETENESS_MANDATE}
+
 # Output (strict JSON only)
 {{
     "evidence_relevant": true,
+    "evidence_facts": ["specific details found in the uploaded evidence, empty list if none uploaded or not relevant"],
     "analysis": "...",
     "key_facts": ["..."],
     "recommended_next_steps": ["..."],
@@ -87,15 +112,15 @@ changes, or urgent symptoms.
     "disclaimer": "{MEDICAL_DISCLAIMER}"
 }}"""
         raw = await llm_service.generate(prompt, purpose="reasoning")
-        try:
-            if "```json" in raw:
-                raw = raw.split("```json")[1].split("```")[0].strip()
-            elif "```" in raw:
-                raw = raw.split("```")[1].strip()
-            data = json.loads(raw)
-        except Exception as e:
-            logger.error(f"{self.name} JSON parse error: {e}")
-            data = {"error": str(e), "raw": raw, "disclaimer": MEDICAL_DISCLAIMER}
+        data = parse_agent_json(raw, {"analysis": "", "authoritative_sources_cited": [], "recommended_next_steps": []})
+        if "_parse_failed" in data:
+            logger.error(f"{self.name} JSON parse error")
+            data.setdefault("disclaimer", MEDICAL_DISCLAIMER)
+
+        sources = data.get("authoritative_sources_cited")
+        if isinstance(sources, list) and sources:
+            _, unverified = verify_claims(sources, context_text)
+            data["unverified_sources"] = unverified
 
         data.setdefault("disclaimer", MEDICAL_DISCLAIMER)
         return {"specialist_name": self.name, "specialist_focus": self.focus, "strategy": data}

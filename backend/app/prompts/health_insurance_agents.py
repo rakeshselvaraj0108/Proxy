@@ -155,14 +155,19 @@ Always include a clear disclaimer that this is educational information, not a di
 RETURN JSON ONLY. No markdown fences. Response Drafting Agent output."""
         return _base(domain, task, case_summary, context)
 
+    escalation_path_str = " -> ".join(profile.escalation_path)
     task = f"""You are the Negotiation Agent. Draft professional outputs for human approval for this {profile.entity} vs {profile.counterparty} dispute.
-Generate ALL of the following in ONE JSON response:
+Generate ALL of the following in ONE JSON response. These are four DIFFERENT documents for different
+recipients and purposes -- each has a required FORMAT below that is deliberately different from the
+others, specifically so you cannot write one letter and paste it into all four fields with only the
+greeting changed. If you notice two fields ending up with nearly the same sentences, that is a sign
+you have done this wrong -- rewrite the shorter/later one from scratch in its required format instead.
 
 {{
-  "appeal_letter": "Full formal appeal/dispute letter to the {profile.counterparty}. Cite specific clauses, {profile.regulator} rules, and evidence. Be firm but professional. Include subject line, body, and closing.",
-  "complaint_email": "Shorter email version for the {profile.counterparty}'s customer care / support desk. Include subject line and body.",
-  "escalation_note": "Internal escalation memo if the first-level response fails. Reference this escalation path: {' -> '.join(profile.escalation_path)}.",
-  "consumer_complaint": "Draft complaint for {profile.regulator}. Include {profile.entity} details placeholder, reference/account number placeholder, dispute details, and relief sought.",
+  "appeal_letter": "Formal letter addressed TO {profile.counterparty}. Prose, 3-5 paragraphs: state the dispute, cite the specific clause/regulation/evidence, state what you want done, state the response deadline you expect. Subject line, salutation, body, closing.",
+  "complaint_email": "A DIFFERENT, MUCH SHORTER document (under 100 words) addressed to {profile.counterparty}'s customer-support desk, not their legal/nodal channel. Plain conversational tone, NO clause citations, NO legal language. Just: what happened (one sentence), what you want (one sentence), a request to log a ticket/reference number. Do not reuse appeal_letter's sentences.",
+  "escalation_note": "An INTERNAL memo, NOT addressed to {profile.counterparty} at all -- this is a note for the consumer's own record / next escalation contact, in this exact structured format with these labeled lines (not prose paragraphs): 'CASE: <one-line summary>' / 'PRIOR ATTEMPT: <when the appeal_letter/complaint_email above was or will be sent, and the response deadline given>' / 'IF NO RESPONSE BY DEADLINE: escalate via {escalation_path_str}' / 'NEXT ACTION: <specific next step, e.g. which regulator form to file>'.",
+  "consumer_complaint": "A formal regulator complaint for {profile.regulator}, in STRUCTURED FIELD format (labeled fields, not flowing prose, and NOT a Python/JSON dict literal -- write each as its own plain text line like 'Name: [Your Name]') so it visually cannot be confused with the letter above: 'COMPLAINANT DETAILS:' then separate lines 'Name: <placeholder>', 'Address: <placeholder>', 'Contact Number: <placeholder>' / 'RESPONDENT: {profile.entity} name placeholder' / 'REFERENCE/ACCOUNT NUMBER: <placeholder>' / 'NATURE OF COMPLAINT: <one or two lines>' / 'CHRONOLOGY: <dated bullet list of what happened, from the evidence below>' / 'RELIEF SOUGHT: <specific ask>'.",
   "summary": "Brief description of what was generated."
 }}
 

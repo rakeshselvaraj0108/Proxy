@@ -15,6 +15,7 @@ from app.llm.service import llm_service
 from app.prompts.domain_profiles import get_profile
 from app.prompts.health_insurance_agents import research_prompt
 from app.rag.retrieval.qdrant_service import qdrant_service
+from app.services.citation_verification import verify_claims
 from app.services.web_search import web_search_service
 
 RESEARCH_FALLBACK_FIELDS: dict = {
@@ -122,11 +123,17 @@ async def run_research_agent(state: AgentState) -> AgentState:
 
     # --- 6. Parse structured output ---
     parsed = parse_agent_json(raw, RESEARCH_FALLBACK_FIELDS)
+    regulations = parsed.get("regulations", [])
+    # Deterministic check, not another LLM call: does each cited regulation
+    # actually appear in the text this agent was given? A hallucinated
+    # citation otherwise sails through with no ground-truth check at all.
+    _, unverified_regulations = verify_claims(regulations, state.get("retrieved_context", ""))
     research_output: ResearchOutput = {
         "applicable_clauses": parsed.get("applicable_clauses", []),
         "possible_exclusions": parsed.get("possible_exclusions", []),
         "waiting_periods": parsed.get("waiting_periods", []),
-        "regulations": parsed.get("regulations", []),
+        "regulations": regulations,
+        "unverified_regulations": unverified_regulations,
         "summary": parsed.get("summary", raw[:2000]),
         "confidence": float(parsed.get("confidence", 0.5)),
     }

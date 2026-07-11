@@ -51,12 +51,30 @@ async def run_negotiation_agent(state: AgentState) -> AgentState:
     # Parse structured output. The LLM doesn't always return these fields as
     # plain strings (e.g. it may nest a dict for a domain the prompt wasn't
     # tuned for), so coerce defensively — downstream code slices/concatenates
-    # these as free text.
+    # these as free text, and a raw json.dumps() here used to leak literal
+    # {"subject": ..., "body": "...\n\n..."} text straight into the UI.
     def _as_text(value: object) -> str:
         if isinstance(value, str):
             return value
         if value in (None, ""):
             return ""
+        if isinstance(value, dict):
+            # Common nested shape: {"subject": ..., "body": ...} -- render
+            # as a real letter opening, not a JSON blob.
+            if "body" in value:
+                subject = value.get("subject")
+                body = str(value.get("body", ""))
+                return f"Subject: {subject}\n\n{body}" if subject else body
+            lines = []
+            for key, val in value.items():
+                label = str(key).replace("_", " ").title()
+                if isinstance(val, list):
+                    lines.append(label + ":\n" + "\n".join(f"- {item}" for item in val))
+                else:
+                    lines.append(f"{label}: {val}")
+            return "\n\n".join(lines)
+        if isinstance(value, list):
+            return "\n".join(f"- {item}" for item in value)
         return json.dumps(value, ensure_ascii=False, indent=2)
 
     parsed = parse_agent_json(raw, NEGOTIATION_FALLBACK_FIELDS)

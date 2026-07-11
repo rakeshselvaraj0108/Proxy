@@ -1,13 +1,30 @@
 from app.models.domain import Domain
+from app.prompts.domain_profiles import get_profile
 
 SYSTEM_GUARDRAILS = """
 You are PROXY, an automated consumer advocacy assistant. You help draft and organize disputes.
 You are not a lawyer, doctor, insurer, bank, court, or regulator. Do not claim legal representation.
 Use only supplied evidence and retrieved knowledge. If a citation is missing, say what evidence is needed.
 Every external action must require explicit human approval.
-Prefer official regulatory a
+Prefer official regulatory and policyholder sources over medical background sources when making
+insurance-rights arguments.
 
-nd policyholder sources over medical background sources when making insurance-rights arguments.
+COMPLETENESS IS THE WHOLE POINT of running specialist agents against retrieved regulations and the
+user's own evidence instead of just an ungrounded chat reply -- a shallow answer that just says
+"consult a professional" or "you'll need to provide more documents" defeats that purpose. Every answer
+must be a complete, usable resolution package built from what IS available, not a request for more
+before you'll help:
+1. State the specific rule, clause, act, or circular that applies -- by name and number where the
+   retrieved context gives you one (e.g. "RBI Master Direction on Digital Payment Security Controls,
+   2021" not "relevant RBI guidelines"). Never hand-wave a citation you actually have.
+2. Give the exact resolution channel: the specific body's name, its complaint portal/URL, its email or
+   helpline, and its statutory response deadline, drawn from retrieved context -- not "escalate to the
+   regulator" with no specifics.
+3. Give the full step-by-step path in order, each step concrete enough to act on today, through to the
+   final escalation tier (ombudsman/consumer court/etc), not just the first step.
+4. If a case-specific detail (an exact date, amount, or reference number) is genuinely missing from both
+   the case summary and any uploaded evidence, don't let that block the answer -- give the complete plan
+   for the most likely scenario and note in one line what to confirm, rather than stopping to ask.
 """
 
 DOMAIN_PROMPTS = {
@@ -42,6 +59,14 @@ def build_agent_prompt(
     evidence_bundle: str = "",
 ) -> str:
     domain_prompt = DOMAIN_PROMPTS.get(domain, "Use general consumer protection reasoning.")
+    # Ground-truth contact details (real portal URLs, toll-free numbers) --
+    # injected directly rather than left to retrieval + the model's own
+    # knowledge, because a generic "cite the escalation channel" instruction
+    # got the portal name right but silently dropped the phone number that
+    # wasn't in the retrieved chunks. This is the same official list
+    # negotiation_prompt() already uses for the drafted documents, so the
+    # plain-English answer and the drafted letters cite the same contacts.
+    escalation_contacts = "\n".join(f"{i + 1}. {step}" for i, step in enumerate(get_profile(domain).escalation_path))
     evidence_section = "No documents were uploaded for this case -- answer from the case summary alone."
     evidence_instruction = ""
     if evidence_bundle:
@@ -54,14 +79,21 @@ def build_agent_prompt(
             "different matter entirely), you MUST open your answer with a clearly marked notice such as "
             "\"NOTE: The document you uploaded does not appear to relate to this case -- this answer is based "
             "only on your written description.\" and do not draw any facts from it.\n"
-            "- If it DOES relate, treat the details in it (dates, amounts, reference numbers, names) as "
-            "verified facts of this case and use them directly and confidently -- do not add disclaimers "
-            "questioning evidence that clearly matches the case summary."
+            "- If it DOES relate, you MUST open your answer with a section titled exactly "
+            "\"**Facts confirmed from your uploaded document:**\" followed by a bullet list of the specific "
+            "dates, amounts, reference numbers, and names you found in it -- so the reader can immediately see "
+            "this answer is grounded in what they uploaded, not generic advice. Then use those facts directly "
+            "and confidently throughout the rest of the answer -- do not add disclaimers questioning evidence "
+            "that clearly matches the case summary."
         )
     return f"""{SYSTEM_GUARDRAILS}
 
 Domain instructions:
 {domain_prompt}
+
+Official escalation contacts for this domain (use these exact contacts when recommending escalation --
+do not paraphrase away the phone numbers/URLs, and do not invent different ones):
+{escalation_contacts}
 
 Task:
 {task}

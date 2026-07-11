@@ -10,6 +10,13 @@ class ResearchOutput(TypedDict, total=False):
     possible_exclusions: list[str]
     waiting_periods: list[str]
     regulations: list[str]
+    # Subset of `regulations` that couldn't be confirmed against the actual
+    # retrieved source text -- see app/services/citation_verification.py.
+    # Still shown to the reader (a real regulation just phrased differently
+    # than the source, or genuine model knowledge, isn't necessarily wrong),
+    # but flagged rather than presented with the same unearned confidence as
+    # a citation that's directly grounded in what was retrieved.
+    unverified_regulations: list[str]
     summary: str
     confidence: float
 

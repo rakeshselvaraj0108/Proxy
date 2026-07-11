@@ -40,9 +40,9 @@ DOMAIN_PROFILES: dict[Domain, DomainProfile] = {
         counterparty="insurer",
         regulator="IRDAI",
         escalation_path=[
-            "Internal appeal to the insurer's Grievance Redressal Officer (GRO)",
-            "IRDAI Integrated Grievance Management System (IGMS)",
-            "Insurance Ombudsman",
+            "Internal appeal to the insurer's Grievance Redressal Officer (GRO) -- named on your policy document/insurer's website 'Grievance Redressal' page",
+            "IRDAI Bima Bharosa portal (bimabharosa.irdai.gov.in) or IRDAI Grievance Call Centre: 155255 / 1800-4254-732",
+            "Insurance Ombudsman -- find your zone's office at cioins.co.in",
         ],
         research_questions=[
             "Which policy clauses apply to this claim?",
@@ -66,9 +66,8 @@ DOMAIN_PROFILES: dict[Domain, DomainProfile] = {
         counterparty="bank",
         regulator="RBI Banking Ombudsman",
         escalation_path=[
-            "Bank's internal grievance redressal / nodal officer",
-            "RBI Integrated Ombudsman Scheme complaint (cms.rbi.org.in)",
-            "Banking Ombudsman",
+            "Bank's internal grievance redressal / nodal officer -- contact listed on your bank's website 'Customer Grievance' page and on your passbook/statement",
+            "RBI Integrated Ombudsman Scheme: file online at cms.rbi.org.in, or call the RBI complaint toll-free number 14448",
         ],
         research_questions=[
             "Which RBI circulars or chargeback network rules apply?",
@@ -91,9 +90,9 @@ DOMAIN_PROFILES: dict[Domain, DomainProfile] = {
         counterparty="airline",
         regulator="DGCA",
         escalation_path=[
-            "Airline's customer relations / nodal officer",
-            "DGCA AirSewa portal complaint",
-            "Consumer forum (if compensation is refused)",
+            "Airline's customer relations / nodal officer -- contact listed on the airline's website 'Contact Us'/'Nodal Officer' page",
+            "AirSewa portal: airsewa.gov.in, or call the AirSewa helpline 1800-11-2124",
+            "Consumer forum (National Consumer Helpline 1915 / consumerhelpline.gov.in), if compensation is refused",
         ],
         research_questions=[
             "Which DGCA passenger-rights rules apply (cancellation, delay, denied boarding)?",
@@ -114,11 +113,11 @@ DOMAIN_PROFILES: dict[Domain, DomainProfile] = {
     Domain.TELECOM: DomainProfile(
         entity="subscriber",
         counterparty="telecom operator",
-        regulator="TRAI / Telecom Ombudsman",
+        regulator="TRAI / Department of Telecommunications",
         escalation_path=[
-            "Operator's appellate authority (mandatory first step under TRAI regulations)",
-            "TRAI/DoT consumer grievance portal",
-            "Telecom Ombudsman / Consumer forum",
+            "Operator's appellate authority (mandatory first step under TRAI regulations) -- contact listed on the operator's website 'Consumer Grievance' page and on your bill",
+            "DoT's Sanchar Saathi portal: sancharsaathi.gov.in, for complaints the operator doesn't resolve",
+            "Consumer forum (National Consumer Helpline 1915 / consumerhelpline.gov.in)",
         ],
         research_questions=[
             "Which TRAI regulations govern this billing/service issue?",
@@ -141,9 +140,9 @@ DOMAIN_PROFILES: dict[Domain, DomainProfile] = {
         counterparty="seller/platform",
         regulator="Consumer Protection Act, 2019 / National Consumer Helpline",
         escalation_path=[
-            "Seller/platform's return-and-refund support",
-            "National Consumer Helpline (1915) / e-daakhil portal",
-            "District Consumer Disputes Redressal Commission",
+            "Seller/platform's return-and-refund support -- via the app/website's order help section",
+            "National Consumer Helpline: call 1915 or 1800-11-4000, or use the UMANG app / consumerhelpline.gov.in",
+            "File a case on the e-daakhil portal (edaakhil.nic.in) with the District Consumer Disputes Redressal Commission",
         ],
         research_questions=[
             "What do the platform's return/warranty terms say, and were they honored?",
@@ -166,9 +165,9 @@ DOMAIN_PROFILES: dict[Domain, DomainProfile] = {
         counterparty="government department",
         regulator="CPGRAMS (Centralized Public Grievance Redress)",
         escalation_path=[
-            "Department's designated Public Grievance Officer",
-            "CPGRAMS online grievance portal",
-            "RTI Act request for status, or appeal to the relevant appellate authority",
+            "Department's designated Public Grievance Officer -- listed on the department's official website",
+            "CPGRAMS portal: pgportal.gov.in",
+            "RTI Act request for status via rtionline.gov.in, or appeal to the relevant appellate authority",
         ],
         research_questions=[
             "What is the statutory service-delivery timeline for this application/scheme (e.g. under a state Right to Public Services Act)?",
@@ -192,8 +191,8 @@ DOMAIN_PROFILES: dict[Domain, DomainProfile] = {
         regulator="RERA / local Rent Control Act",
         escalation_path=[
             "Written notice to the landlord/builder with a documented response deadline",
-            "State RERA authority complaint (for builder/possession disputes) or Rent Control/local tribunal (for tenancy disputes)",
-            "Consumer forum or civil court, if unresolved",
+            "State RERA authority complaint (for builder/possession disputes) -- each state runs its own RERA portal, e.g. Maharashtra: maharera.mahaonline.gov.in, Karnataka: rera.karnataka.gov.in; search '[your state] RERA' for others -- or Rent Control/local tribunal (for tenancy disputes)",
+            "Consumer forum (National Consumer Helpline 1915 / consumerhelpline.gov.in) or civil court, if unresolved",
         ],
         research_questions=[
             "Which RERA provisions apply (for builder/possession delays) or which local tenancy law applies (for rental disputes)?",
@@ -217,7 +216,7 @@ DOMAIN_PROFILES: dict[Domain, DomainProfile] = {
         regulator="N/A",
         escalation_path=[
             "Consult a licensed physician for diagnosis or treatment decisions",
-            "Seek emergency care immediately for any red-flag/urgent symptoms",
+            "For any red-flag/urgent symptoms, seek emergency care immediately: call 112 (national emergency) or 108 (ambulance), or go to the nearest hospital emergency department",
         ],
         research_questions=[
             "What do authoritative clinical/public-health sources (WHO, MedlinePlus, CDC-equivalent guidance) say about this topic?",
@@ -240,7 +239,10 @@ DEFAULT_PROFILE = DomainProfile(
     entity="consumer",
     counterparty="counterparty",
     regulator="the relevant sector regulator",
-    escalation_path=["Counterparty's internal grievance channel", "Relevant sector regulator or consumer forum"],
+    escalation_path=[
+        "Counterparty's internal grievance channel",
+        "Relevant sector regulator, or the National Consumer Helpline: call 1915 / 1800-11-4000 or visit consumerhelpline.gov.in",
+    ],
     research_questions=["What rules, regulations, or contractual terms apply to this dispute?"],
     evidence_schema={"issue_summary": "e.g. brief summary of the dispute", "amount_at_stake": "e.g. Rs 0"},
 )

@@ -35,11 +35,18 @@ interface InstitutionPrefill {
 }
 
 export function KnowledgeGraphExplorer() {
-  const [tab, setTab] = useState<Tab>(() => getPref(PREF_KEYS.kgDefaultTab, "case") as Tab);
+  // Stable SSR-safe default; the real saved tab preference is read
+  // client-side after mount to avoid a hydration mismatch (localStorage
+  // isn't available during server rendering).
+  const [tab, setTab] = useState<Tab>("case");
   const [analyses, setAnalyses] = useState<AnalysisCase[]>([]);
   const [loadingAnalyses, setLoadingAnalyses] = useState(true);
   const [focusCaseId, setFocusCaseId] = useState<string | null>(null);
   const [institutionPrefill, setInstitutionPrefill] = useState<InstitutionPrefill | null>(null);
+
+  useEffect(() => {
+    setTab(getPref(PREF_KEYS.kgDefaultTab, "case") as Tab);
+  }, []);
 
   useEffect(() => {
     listAnalyses()

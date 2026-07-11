@@ -4,14 +4,31 @@ Routes to: identity_documents, travel_documents, civil_certificates,
 transport_licensing, property_land_records, pensions_welfare, grievance_rti,
 general_government
 """
-import json
 import logging
 from typing import Dict, Any
+from app.agents.json_parser import parse_agent_json
 from app.llm.gemini.service import gemini_service
 from app.models.domain import Domain
 from app.rag.retrieval.qdrant_service import qdrant_service
+from app.services.citation_verification import verify_claims
 
 logger = logging.getLogger(__name__)
+
+# Running specialist agents against retrieved regulations and the user's own
+# evidence only pays off if the answer is a complete, usable resolution --
+# not a shallow reply that just says "contact the office" or asks for more
+# documents before it'll help, which is indistinguishable from a plain
+# chatbot and defeats the reason to run agents at all.
+COMPLETENESS_MANDATE = (
+    "Before answering: your \"analysis\" and \"action_plan\" must form a complete, usable resolution "
+    "built from what's available now, not a request for more information as the primary answer. Name "
+    "the specific rule, scheme, or statutory service-window from the Regulatory & Procedural Context "
+    "above (not \"relevant government rules\"). Give the exact escalation channel -- the issuing "
+    "office's grievance cell, then the Appellate Authority, then CPGRAMS (pgportal.gov.in) or an RTI "
+    "application -- with what each step requires. If an exact date or reference number is missing from "
+    "the query and evidence, give the complete plan for the most likely scenario and note what to "
+    "confirm in one line, rather than stopping to ask."
+)
 
 
 class GovernmentSpecialistAgent:
@@ -34,9 +51,10 @@ class GovernmentSpecialistAgent:
             "Before using the uploaded evidence above, check whether it actually relates to this case "
             "(same application/document, same office or incident, same underlying issue -- not just the same "
             "broad topic). Set \"evidence_relevant\" to false if it clearly does NOT relate (e.g. it's a "
-            "certificate or an unrelated document), and in that case do not draw any facts from it. Set it to "
-            "true if it DOES relate, and then treat its dates, amounts, and reference numbers as verified "
-            "facts and use them directly."
+            "certificate or an unrelated document), and in that case leave \"evidence_facts\" empty and do not "
+            "draw any facts from it. Set it to true if it DOES relate, and populate \"evidence_facts\" with the "
+            "specific dates, amounts, reference numbers, and names you found in the evidence -- this is what "
+            "makes the answer visibly grounded in what the user uploaded rather than generic advice."
             if evidence_bundle
             else ""
         )
@@ -54,9 +72,12 @@ class GovernmentSpecialistAgent:
 
 {evidence_instruction}
 
+{COMPLETENESS_MANDATE}
+
 # Output (strict JSON only)
 {{
     "evidence_relevant": true,
+    "evidence_facts": ["specific dates/amounts/reference numbers/names found in the uploaded evidence, empty list if none uploaded or not relevant"],
     "analysis": "...",
     "applicable_rules": ["..."],
     "action_plan": ["..."],
@@ -65,15 +86,14 @@ class GovernmentSpecialistAgent:
     "estimated_resolution_days": "..."
 }}"""
         raw = await gemini_service.generate(prompt, purpose="reasoning")
-        try:
-            if "```json" in raw:
-                raw = raw.split("```json")[1].split("```")[0].strip()
-            elif "```" in raw:
-                raw = raw.split("```")[1].strip()
-            data = json.loads(raw)
-        except Exception as e:
-            logger.error(f"{self.name} JSON parse error: {e}")
-            data = {"error": str(e), "raw": raw}
+        data = parse_agent_json(raw, {"analysis": "", "applicable_rules": [], "action_plan": []})
+        if "_parse_failed" in data:
+            logger.error(f"{self.name} JSON parse error")
+
+        rules = data.get("applicable_rules")
+        if isinstance(rules, list) and rules:
+            _, unverified = verify_claims(rules, context_text)
+            data["unverified_rules"] = unverified
 
         return {"specialist_name": self.name, "specialist_focus": self.focus, "strategy": data}
 

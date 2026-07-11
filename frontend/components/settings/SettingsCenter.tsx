@@ -212,8 +212,16 @@ function DiagCard({ icon: Icon, title, status, children }: { icon: typeof Cpu; t
 }
 
 function NotificationPreferences() {
-  const [live, setLive] = useState(() => getPref(PREF_KEYS.notificationsLive, "false") === "true");
-  const [pollMs, setPollMs] = useState(() => getPref(PREF_KEYS.notificationsPollMs, "20000"));
+  // Stable SSR-safe defaults; the real saved preferences are read
+  // client-side after mount to avoid a hydration mismatch (localStorage
+  // isn't available during server rendering, so reading it in the useState
+  // initializer makes the client's first render disagree with the server's).
+  const [live, setLive] = useState(false);
+  const [pollMs, setPollMs] = useState("20000");
+  useEffect(() => {
+    setLive(getPref(PREF_KEYS.notificationsLive, "false") === "true");
+    setPollMs(getPref(PREF_KEYS.notificationsPollMs, "20000"));
+  }, []);
 
   return (
     <section className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">
@@ -255,8 +263,13 @@ function NotificationPreferences() {
 }
 
 function WorkspacePreferences() {
-  const [kgTab, setKgTab] = useState(() => getPref(PREF_KEYS.kgDefaultTab, "case"));
-  const [domain, setDomain] = useState(() => getPref(PREF_KEYS.newAnalysisDefaultDomain, "health_insurance"));
+  // Same SSR-safe pattern as NotificationPreferences above.
+  const [kgTab, setKgTab] = useState("case");
+  const [domain, setDomain] = useState("health_insurance");
+  useEffect(() => {
+    setKgTab(getPref(PREF_KEYS.kgDefaultTab, "case"));
+    setDomain(getPref(PREF_KEYS.newAnalysisDefaultDomain, "health_insurance"));
+  }, []);
 
   return (
     <section className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-5">

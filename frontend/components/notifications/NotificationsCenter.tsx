@@ -82,7 +82,16 @@ export function NotificationsCenter() {
   const [typeFilter, setTypeFilter] = useState<string>("all");
   const [domainFilter, setDomainFilter] = useState<string>("all");
   const [lastSeen, setLastSeen] = useState<string>("");
-  const [live, setLive] = useState(() => getPref(PREF_KEYS.notificationsLive, "false") === "true");
+  // Initialize to the SSR-safe default and only read the real localStorage
+  // value after mount -- reading it in the useState initializer runs during
+  // both server and client render, and since localStorage only exists on
+  // the client, a previously-saved "true" would make the client's first
+  // render disagree with the server's, which React reports as a hydration
+  // mismatch (and then throws away the whole server-rendered tree).
+  const [live, setLive] = useState(false);
+  useEffect(() => {
+    setLive(getPref(PREF_KEYS.notificationsLive, "false") === "true");
+  }, []);
   const [pulse, setPulse] = useState(false);
   const pollRef = useRef<number | null>(null);
 

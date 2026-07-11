@@ -9,11 +9,12 @@ Domain.HEALTH_INSURANCE so the caller can run both workflows and merge them.
 """
 from __future__ import annotations
 
+import difflib
 import re
 
 from app.agents.role_agents.planner import (
     BANK_CARD_TERMS, BANK_LOAN_TERMS, BANK_PAYMENT_TERMS, BANK_REG_TERMS,
-    CLAIM_TERMS, POLICY_TERMS, MEDICAL_TERMS, LEGAL_TERMS,
+    CLAIM_TERMS, POLICY_TERMS, MEDICAL_TERMS,
     TELECOM_BILLING_TERMS, TELECOM_NETWORK_TERMS, TELECOM_MNP_TERMS, TELECOM_REG_TERMS,
     ECOMMERCE_CONSUMER_TERMS, ECOMMERCE_RETURN_TERMS, ECOMMERCE_MARKETPLACE_TERMS,
     ECOMMERCE_DELIVERY_TERMS, ECOMMERCE_WARRANTY_TERMS,
@@ -36,7 +37,14 @@ AIRLINE_TERMS = {
 }
 
 DOMAIN_KEYWORDS: dict[Domain, set[str]] = {
-    Domain.HEALTH_INSURANCE: CLAIM_TERMS | POLICY_TERMS | MEDICAL_TERMS | LEGAL_TERMS
+    # LEGAL_TERMS (rights, complaint, law, appeal, rule, grievance, regulation,
+    # circular) used to be folded in here, but it's generic dispute
+    # vocabulary that applies to every domain, not health-insurance-specific
+    # -- it gave health_insurance a structural home-field advantage over
+    # every other domain (e.g. "what are my legal rights" alone would win
+    # health_insurance even for a housing/construction dispute) since no
+    # other domain's keyword set included it.
+    Domain.HEALTH_INSURANCE: CLAIM_TERMS | POLICY_TERMS | MEDICAL_TERMS
     | {"health insurance", "insurer", "insurance", "irdai", "mediclaim", "tpa"},
     Domain.BANKING: BANK_CARD_TERMS | BANK_LOAN_TERMS | BANK_PAYMENT_TERMS | BANK_REG_TERMS
     | {"bank", "banking", "savings account", "current account", "cheque", "neft", "rtgs", "imps"},
@@ -68,7 +76,7 @@ STRONG_SIGNAL_TERMS: dict[Domain, set[str]] = {
     Domain.TELECOM: {"telecom", "trai", "sim", "broadband", "recharge"},
     Domain.ECOMMERCE: {"amazon", "flipkart", "ecommerce", "online order", "seller"},
     Domain.GOVERNMENT: {"aadhaar", "passport", "rti", "cpgrams", "pan card"},
-    Domain.HOUSING: {"rera", "landlord", "tenant", "builder", "property registration"},
+    Domain.HOUSING: {"rera", "landlord", "tenant", "builder", "property registration", "construction", "possession"},
     Domain.HEALTHCARE: {"symptom", "symptoms", "vaccine", "vaccination", "who", "mohfw", "dengue", "diagnosis"},
 }
 
@@ -77,6 +85,17 @@ def _term_matches(term: str, text: str) -> bool:
     """Word-boundary match so short generic terms (e.g. "act") don't
     spuriously match as a substring of an unrelated word (e.g. "transaction")."""
     return re.search(rf"\b{re.escape(term)}\b", text) is not None
+
+
+def _fuzzy_term_matches(term: str, words: set[str]) -> bool:
+    """Typo-tolerant fallback for single-word terms only -- real user text is
+    full of typos ("constuction", "legel rigts"), and those would otherwise
+    never match anything and fall through to the (previously dishonest)
+    zero-match fallback. Multi-word phrases and short terms (<5 chars, where
+    a fuzzy match is more likely to be coincidental) are skipped."""
+    if " " in term or len(term) < 5:
+        return False
+    return bool(difflib.get_close_matches(term, words, n=1, cutoff=0.82))
 
 
 def classify_domains(query: str, max_domains: int = 3, min_relative_score: float = 0.55) -> list[dict]:
@@ -94,15 +113,20 @@ def classify_domains(query: str, max_domains: int = 3, min_relative_score: float
     signal behind the match.
     """
     text = query.lower()
+    words = set(re.findall(r"[a-z]+", text))
     scored: list[dict] = []
     for domain in ACTIVE_DOMAINS:
         terms = DOMAIN_KEYWORDS.get(domain, set())
-        hits = sorted({t for t in terms if _term_matches(t, text)}, key=len, reverse=True)
+        exact_hits = {t for t in terms if _term_matches(t, text)}
+        fuzzy_hits = {t for t in terms if t not in exact_hits and _fuzzy_term_matches(t, words)}
+        hits = sorted(exact_hits | fuzzy_hits, key=len, reverse=True)
         if not hits:
             continue
         strong_hits = [t for t in hits if t in STRONG_SIGNAL_TERMS.get(domain, set())]
-        # Base score from breadth of matches, bonus for strong/unambiguous terms.
-        score = min(1.0, 0.2 + 0.12 * len(hits) + 0.15 * len(strong_hits))
+        # Base score from breadth of matches, bonus for strong/unambiguous
+        # terms; fuzzy-only matches count for less than an exact hit since
+        # they're inherently less certain.
+        score = min(1.0, 0.2 + 0.12 * len(exact_hits) + 0.06 * len(fuzzy_hits) + 0.15 * len(strong_hits))
         scored.append({
             "domain": domain,
             "confidence": round(score, 3),
@@ -111,9 +135,16 @@ def classify_domains(query: str, max_domains: int = 3, min_relative_score: float
         })
 
     if not scored:
+        # Genuinely nothing matched, even fuzzily -- don't pretend to have
+        # confidently detected a specific domain (this used to always claim
+        # "health_insurance" regardless of content). confidence 0.0 plus
+        # fallback=True tells the caller/UI this isn't a real detection; the
+        # domain is still populated so downstream code that indexes
+        # candidates[0] doesn't break, but nothing should present this as
+        # "detected".
         return [{
             "domain": Domain.HEALTH_INSURANCE,
-            "confidence": 0.15,
+            "confidence": 0.0,
             "matched_terms": [],
             "fallback": True,
         }]

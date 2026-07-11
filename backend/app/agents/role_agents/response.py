@@ -24,46 +24,141 @@ async def _optional_polish(state: AgentState, answer: str) -> str:
     return await llm_service.generate(prompt, temperature=0.15, purpose="response")
 
 
+_SHARED_LIST_FIELDS = ("applicable_rules", "applicable_regulations", "escalation_path")
+# Maps each citation-bearing field to the field the deterministic verifier
+# (app/services/citation_verification.py) writes the unmatched subset into --
+# see the specialist files for where these get populated.
+_CITATION_FIELDS = {
+    "applicable_rules": "unverified_rules",
+    "applicable_regulations": "unverified_regulations",
+    "authoritative_sources_cited": "unverified_sources",
+}
+_UNVERIFIED_FIELDS = tuple(_CITATION_FIELDS.values())
+
+
+def _render_citation_list(label: str, items: list, unverified: list) -> list[str]:
+    lines = [f"\n**{label}:**"]
+    for item in items:
+        flag = " *(not confirmed word-for-word in retrieved sources -- worth double-checking)*" if item in unverified else ""
+        lines.append(f"- {item}{flag}")
+    return lines
+
+
+def _render_one_specialist(name: str, strategy: dict, skip_keys: tuple[str, ...] = ()) -> list[str]:
+    lines = [f"**{name}**"]
+    facts = strategy.get("evidence_facts")
+    if isinstance(facts, list) and facts and "evidence_facts" not in skip_keys:
+        # Mirrors the mandatory callout in consumer_advocacy.py's
+        # build_agent_prompt -- the specific facts pulled from an uploaded
+        # document need to be impossible to miss, not buried in prose,
+        # otherwise an evidence-grounded answer reads the same as a generic
+        # one and the upload seems to have made no difference.
+        lines.append("**Facts confirmed from your uploaded document:**")
+        lines.extend(f"- {fact}" for fact in facts)
+    analysis = strategy.get("analysis")
+    if analysis:
+        lines.append(str(analysis))
+    for key, value in strategy.items():
+        if key in ("analysis", "evidence_relevant", "evidence_facts", *_UNVERIFIED_FIELDS, *skip_keys) or not value:
+            continue
+        if key in _CITATION_FIELDS and isinstance(value, list):
+            label = key.replace("_", " ").title()
+            lines.extend(_render_citation_list(label, value, strategy.get(_CITATION_FIELDS[key]) or []))
+            continue
+        label = key.replace("_", " ").title()
+        if isinstance(value, list):
+            lines.append(f"\n**{label}:**")
+            lines.extend(f"- {item}" for item in value)
+        else:
+            lines.append(f"**{label}:** {value}")
+    return lines
+
+
 def _render_specialist_results(results: list[dict]) -> str | None:
     """Render state["specialist_results"] (the shape produced by
     specialist_dispatch.py's parallel executor for 6 of the 8 domains --
     {"specialist_name", "specialist_focus", "strategy": {...json fields...}})
     into readable text. This is distinct from state["specialist_outputs"]
     (Health Insurance/Banking's own {"answer": ...} shape, handled below)."""
-    if not results:
+    valid = [r for r in results if isinstance(r.get("strategy"), dict)]
+    if not valid:
         return None
-    sections = []
-    for result in results:
-        strategy = result.get("strategy", {})
-        if not isinstance(strategy, dict):
-            continue
-        name = result.get("specialist_name", "Specialist")
-        # "###" (not "##") because the caller nests this under a domain-level
-        # "##" heading -- and "analysis" is the common first field across
-        # every domain's output schema (housing/airlines/healthcare/etc. all
-        # define one), so lead with it as plain prose, then render every
-        # other field as a proper markdown list/line, not a comma-joined
-        # run-on sentence.
-        lines = [f"### {name}"]
+
+    if len(valid) == 1:
+        strategy = valid[0]["strategy"]
+        lines = _render_one_specialist(valid[0].get("specialist_name", "Specialist"), strategy)
         if strategy.get("evidence_relevant") is False:
-            lines.append(
+            lines.insert(
+                0,
                 "**NOTE:** The document you uploaded does not appear to relate to this case -- "
-                "this analysis is based only on your written description."
+                "this analysis is based only on your written description.",
             )
-        analysis = strategy.get("analysis")
-        if analysis:
-            lines.append(str(analysis))
-        for key, value in strategy.items():
-            if key in ("analysis", "evidence_relevant") or not value:
-                continue
-            label = key.replace("_", " ").title()
-            if isinstance(value, list):
-                lines.append(f"\n**{label}:**")
-                lines.extend(f"- {item}" for item in value)
-            else:
-                lines.append(f"\n**{label}:** {value}")
-        sections.append("\n".join(lines))
-    return "\n\n".join(sections) if sections else None
+        return "\n".join(lines)
+
+    # Multiple specialists ran for the same case -- they routinely cite the
+    # exact same rules/escalation path (and, since they're reading the same
+    # uploaded document, the same evidence facts), which used to repeat
+    # verbatim under every specialist's heading and read as the report
+    # saying the same thing over and over. Pull anything identical across
+    # specialists into one shared section up top, then only show each
+    # specialist's distinct analysis and any fields that actually differ.
+    shared_facts: list[str] = []
+    for result in valid:
+        for fact in result["strategy"].get("evidence_facts") or []:
+            if fact not in shared_facts:
+                shared_facts.append(fact)
+
+    shared: dict[str, list[str]] = {}
+    shared_unverified: dict[str, list[str]] = {}
+    for result in valid:
+        strategy = result["strategy"]
+        for key in _SHARED_LIST_FIELDS:
+            values = strategy.get(key)
+            if isinstance(values, list):
+                bucket = shared.setdefault(key, [])
+                for v in values:
+                    if v not in bucket:
+                        bucket.append(v)
+            unverified_key = _CITATION_FIELDS.get(key)
+            if unverified_key:
+                unverified_values = strategy.get(unverified_key)
+                if isinstance(unverified_values, list):
+                    ubucket = shared_unverified.setdefault(key, [])
+                    for v in unverified_values:
+                        if v not in ubucket:
+                            ubucket.append(v)
+
+    lines: list[str] = []
+    if any(r["strategy"].get("evidence_relevant") is False for r in valid):
+        lines.append(
+            "**NOTE:** The document you uploaded does not appear to relate to this case -- "
+            "this analysis is based only on your written description."
+        )
+    if shared_facts:
+        lines.append("**Facts confirmed from your uploaded document:**")
+        lines.extend(f"- {fact}" for fact in shared_facts)
+    for key, values in shared.items():
+        if key in _CITATION_FIELDS:
+            label = f"{key.replace('_', ' ').title()} (applies to all findings below)"
+            lines.extend(_render_citation_list(label, values, shared_unverified.get(key, [])))
+            continue
+        label = key.replace("_", " ").title()
+        lines.append(f"\n**{label} (applies to all findings below):**")
+        lines.extend(f"- {v}" for v in values)
+
+    lines.append("\n### Specialist perspectives")
+    for result in valid:
+        name = result.get("specialist_name", "Specialist")
+        lines.append("")
+        # _SHARED_LIST_FIELDS were already rendered once in the shared
+        # section above -- only skip them here, in the multi-specialist
+        # path; the single-specialist branch above calls
+        # _render_one_specialist directly with no skip_keys, so those
+        # fields still render there (there's no separate shared section to
+        # have shown them in).
+        lines.extend(_render_one_specialist(name, result["strategy"], skip_keys=("evidence_facts", *_SHARED_LIST_FIELDS)))
+
+    return "\n".join(lines)
 
 
 async def run_response_agent(state: AgentState) -> AgentState:

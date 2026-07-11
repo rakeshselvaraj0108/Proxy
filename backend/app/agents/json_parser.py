@@ -2,8 +2,38 @@
 
 from __future__ import annotations
 
+import ast
 import json
 import re
+
+
+def _strip_trailing_commas(text: str) -> str:
+    return re.sub(r",\s*([}\]])", r"\1", text)
+
+
+def _insert_missing_commas(text: str) -> str:
+    """When a string value spans many lines (a full drafted letter), the
+    model frequently forgets the comma that should separate it from the
+    next "key": pair -- valid-looking multi-line JSON that's actually just
+    several fields silently mashed together with no separator. Detect a
+    closing quote followed by only whitespace/newlines and then another
+    quoted key, and insert the missing comma."""
+    return re.sub(r'"(\s*\n\s*)"([a-zA-Z_][a-zA-Z0-9_]*)":', r'",\1"\2":', text)
+
+
+def _python_literal_repair(text: str) -> dict | None:
+    """Smaller LLMs sometimes emit Python-dict style instead of strict JSON
+    (single-quoted keys/values, unquoted True/False/None) -- that's invalid
+    JSON but valid-ish Python, so a literal_eval pass recovers it instead of
+    falling through to dumping the raw text into the UI."""
+    pyish = re.sub(r"\btrue\b", "True", text)
+    pyish = re.sub(r"\bfalse\b", "False", pyish)
+    pyish = re.sub(r"\bnull\b", "None", pyish)
+    try:
+        value = ast.literal_eval(pyish)
+    except (ValueError, SyntaxError):
+        return None
+    return value if isinstance(value, dict) else None
 
 
 def parse_agent_json(raw: str, fallback_fields: dict | None = None) -> dict:
@@ -15,19 +45,40 @@ def parse_agent_json(raw: str, fallback_fields: dict | None = None) -> dict:
     if fence_match:
         text = fence_match.group(1).strip()
 
-    # Try direct parse
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        pass
-
-    # Try to find the first { ... } block
+    candidates = [text]
     brace_match = re.search(r"\{.*\}", text, re.DOTALL)
     if brace_match:
+        candidates.append(brace_match.group(0))
+
+    for candidate in list(candidates):
         try:
-            return json.loads(brace_match.group(0))
+            return json.loads(candidate)
         except json.JSONDecodeError:
             pass
+        # strict=False allows raw control characters (literal newlines,
+        # tabs) inside string values -- the model routinely writes a
+        # numbered plan as "1. ...\n2. ...\n3. ..." with real newlines
+        # instead of the \n escape JSON requires, which strict mode
+        # rejects outright with "Invalid control character".
+        try:
+            return json.loads(candidate, strict=False)
+        except json.JSONDecodeError:
+            pass
+        try:
+            return json.loads(_strip_trailing_commas(candidate), strict=False)
+        except json.JSONDecodeError:
+            pass
+        try:
+            return json.loads(_insert_missing_commas(candidate), strict=False)
+        except json.JSONDecodeError:
+            pass
+        try:
+            return json.loads(_strip_trailing_commas(_insert_missing_commas(candidate)), strict=False)
+        except json.JSONDecodeError:
+            pass
+        repaired = _python_literal_repair(candidate)
+        if repaired is not None:
+            return repaired
 
     # Fallback: return the raw text in a summary field
     result = {"summary": text, "_parse_failed": True}

@@ -3,14 +3,33 @@ Housing Domain - Specialist Agents
 Routes to: rental_tenancy, rera_builder, property_registration, property_tax,
 apartment_society, home_loan, consumer_escalation, general_housing
 """
-import json
 import logging
 from typing import Dict, Any
+from app.agents.json_parser import parse_agent_json
 from app.llm.service import llm_service
 from app.models.domain import Domain
 from app.rag.retrieval.qdrant_service import qdrant_service
+from app.services.citation_verification import verify_claims
 
 logger = logging.getLogger(__name__)
+
+# Running specialist agents against retrieved regulations and the user's own
+# evidence only pays off if the answer is a complete, usable resolution --
+# not a shallow reply that just says "consult a lawyer" or asks for more
+# documents before it'll help, which is indistinguishable from a plain
+# chatbot and defeats the reason to run agents at all.
+COMPLETENESS_MANDATE = (
+    "Before answering: your \"analysis\" and \"action_plan\" must form a complete, usable resolution "
+    "built from what's available now, not a request for more information as the primary answer. Name "
+    "the specific RERA provision, tenancy act section, or society bye-law from the Regulatory & "
+    "Procedural Context above (not \"relevant housing rules\"). Give the exact escalation channel -- "
+    "State RERA Authority portal (e.g. Maharashtra: maharera.mahaonline.gov.in, Karnataka: "
+    "rera.karnataka.gov.in -- name the correct one for the state mentioned, or say 'search [state] RERA "
+    "portal' if the state isn't given) or Rent Authority/Registrar, then Consumer Forum (National "
+    "Consumer Helpline 1915 / consumerhelpline.gov.in) -- with what each step requires. If an exact date "
+    "or amount is missing from the query and evidence, give the complete plan for the most likely "
+    "scenario and note what to confirm in one line, rather than stopping to ask."
+)
 
 
 class HousingSpecialistAgent:
@@ -33,9 +52,10 @@ class HousingSpecialistAgent:
             "Before using the uploaded evidence above, check whether it actually relates to this case "
             "(same property/lease, same landlord or incident, same underlying issue -- not just the same "
             "broad topic). Set \"evidence_relevant\" to false if it clearly does NOT relate (e.g. it's a "
-            "certificate or an unrelated document), and in that case do not draw any facts from it. Set it to "
-            "true if it DOES relate, and then treat its dates, amounts, and reference numbers as verified "
-            "facts and use them directly."
+            "certificate or an unrelated document), and in that case leave \"evidence_facts\" empty and do not "
+            "draw any facts from it. Set it to true if it DOES relate, and populate \"evidence_facts\" with the "
+            "specific dates, amounts, reference numbers, and names you found in the evidence -- this is what "
+            "makes the answer visibly grounded in what the user uploaded rather than generic advice."
             if evidence_bundle
             else ""
         )
@@ -53,9 +73,12 @@ class HousingSpecialistAgent:
 
 {evidence_instruction}
 
+{COMPLETENESS_MANDATE}
+
 # Output (strict JSON only)
 {{
     "evidence_relevant": true,
+    "evidence_facts": ["specific dates/amounts/reference numbers/names found in the uploaded evidence, empty list if none uploaded or not relevant"],
     "analysis": "...",
     "applicable_rules": ["..."],
     "action_plan": ["..."],
@@ -64,15 +87,14 @@ class HousingSpecialistAgent:
     "estimated_resolution_days": "..."
 }}"""
         raw = await llm_service.generate(prompt, purpose="reasoning")
-        try:
-            if "```json" in raw:
-                raw = raw.split("```json")[1].split("```")[0].strip()
-            elif "```" in raw:
-                raw = raw.split("```")[1].strip()
-            data = json.loads(raw)
-        except Exception as e:
-            logger.error(f"{self.name} JSON parse error: {e}")
-            data = {"error": str(e), "raw": raw}
+        data = parse_agent_json(raw, {"analysis": "", "applicable_rules": [], "action_plan": []})
+        if "_parse_failed" in data:
+            logger.error(f"{self.name} JSON parse error")
+
+        rules = data.get("applicable_rules")
+        if isinstance(rules, list) and rules:
+            _, unverified = verify_claims(rules, context_text)
+            data["unverified_rules"] = unverified
 
         return {"specialist_name": self.name, "specialist_focus": self.focus, "strategy": data}
 

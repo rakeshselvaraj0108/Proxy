@@ -55,6 +55,7 @@ export interface DomainCandidate {
   domain: string;
   confidence: number;
   matched_terms: string[];
+  fallback?: boolean;
 }
 
 export interface Citation {
@@ -92,7 +93,16 @@ export interface GlobalSearchResponse {
 }
 
 export async function classifyQuery(query: string): Promise<{ query: string; candidates: DomainCandidate[] }> {
-  return request("/intelligence/classify", { method: "POST", body: JSON.stringify({ query }) });
+  const result = await request<{ query: string; candidates: DomainCandidate[] }>("/intelligence/classify", {
+    method: "POST",
+    body: JSON.stringify({ query }),
+  });
+  // The backend returns a single fallback candidate (confidence 0, marked
+  // fallback:true) when nothing actually matched, instead of no candidates
+  // -- so downstream code that always needs a domain to run against (the
+  // multi-domain workflow) has one. That's not a real detection though, so
+  // strip it here rather than let every caller show it as one.
+  return { ...result, candidates: result.candidates.filter((c) => !c.fallback) };
 }
 
 export async function globalSearch(query: string, topKOverall = 15): Promise<GlobalSearchResponse> {
@@ -120,6 +130,12 @@ export interface ResearchAgentOutput {
   possible_exclusions?: string[];
   waiting_periods?: string[];
   regulations?: string[];
+  // Subset of `regulations` that couldn't be confirmed word-for-word in the
+  // actual retrieved source text -- see backend app/services/
+  // citation_verification.py. A real regulation phrased differently than
+  // the source isn't necessarily wrong, but it's flagged rather than shown
+  // with the same unearned confidence as a directly-grounded citation.
+  unverified_regulations?: string[];
   summary?: string;
   confidence?: number;
 }
@@ -260,6 +276,12 @@ export interface UploadedDocument {
   filename: string;
   storage_path: string;
   indexed: boolean;
+  extraction_method?: string;
+  ocr_applied?: boolean;
+  pages_ocrd?: number;
+  text_chars?: number;
+  text_preview?: string;
+  relevance_warning?: string | null;
 }
 
 // Uses XMLHttpRequest instead of fetch() so upload progress is observable --

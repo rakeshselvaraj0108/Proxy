@@ -46,6 +46,7 @@ interface PendingUpload {
   id: string;
   filename: string;
   progress: number;
+  phase: "uploading" | "ocr";
   error?: string;
 }
 
@@ -58,7 +59,14 @@ interface DomainAnswer {
 
 export function NewAnalysisFlow() {
   const router = useRouter();
-  const [focusDomain, setFocusDomain] = useState(() => getPref(PREF_KEYS.newAnalysisDefaultDomain, "health_insurance"));
+  // Stable SSR-safe default; the real saved preference (if any) is only
+  // read client-side after mount to avoid a hydration mismatch (see the
+  // same fix in NotificationsCenter.tsx for why reading localStorage in a
+  // useState initializer is unsafe here).
+  const [focusDomain, setFocusDomain] = useState("health_insurance");
+  useEffect(() => {
+    setFocusDomain(getPref(PREF_KEYS.newAnalysisDefaultDomain, "health_insurance"));
+  }, []);
   const [domainCounts, setDomainCounts] = useState<Record<string, number>>({});
   const [issueText, setIssueText] = useState("");
   const [livePreview, setLivePreview] = useState<DomainCandidate[]>([]);
@@ -102,8 +110,14 @@ export function NewAnalysisFlow() {
   }, []);
 
   useEffect(() => {
+    // Clear synchronously on every keystroke/domain-switch instead of only
+    // once the new classification resolves -- otherwise the "Detected: X"
+    // badges (and the reasoning lanes, which fall back to this list) kept
+    // showing the *previous* domain for the full 500ms+debounce/network
+    // round trip, which read as the UI being stuck on the old domain.
+    setLivePreview([]);
     if (issueText.trim().length < 12) {
-      setLivePreview([]);
+      setClassifying(false);
       return;
     }
     setClassifying(true);
@@ -124,11 +138,17 @@ export function NewAnalysisFlow() {
       const list = Array.from(files);
       for (const file of list) {
         const pendingId = crypto.randomUUID();
-        setPendingUploads((current) => [...current, { id: pendingId, filename: file.name, progress: 0 }]);
+        setPendingUploads((current) => [...current, { id: pendingId, filename: file.name, progress: 0, phase: "uploading" }]);
         try {
           const doc = await uploadDocument(focusDomain, file, {
             onProgress: (percent) =>
-              setPendingUploads((current) => current.map((p) => (p.id === pendingId ? { ...p, progress: percent } : p))),
+              setPendingUploads((current) =>
+                current.map((p) =>
+                  p.id === pendingId
+                    ? { ...p, progress: percent, phase: percent >= 100 ? "ocr" : "uploading" }
+                    : p
+                )
+              ),
           });
           setPendingUploads((current) => current.filter((p) => p.id !== pendingId));
           setUploadedDocs((current) => [doc, ...current]);
@@ -153,8 +173,14 @@ export function NewAnalysisFlow() {
   }
 
   function pickDomain(domain: string) {
+    // Only auto-fill the sample prompt if the box is empty or still holds
+    // the *previous* domain's sample prompt untouched -- switching from
+    // healthcare to telecom used to leave healthcare's sample text sitting
+    // in the box forever, because this only ever checked "is it empty",
+    // which was only ever true once, the very first time.
+    const isAutofilledPlaceholder = !issueText.trim() || issueText === DOMAIN_PROMPTS[focusDomain];
+    if (isAutofilledPlaceholder) setIssueText(DOMAIN_PROMPTS[domain] ?? "");
     setFocusDomain(domain);
-    if (!issueText.trim()) setIssueText(DOMAIN_PROMPTS[domain] ?? "");
   }
 
   const canRun = issueText.trim().length > 12 && runState !== "running";
@@ -359,6 +385,17 @@ function DomainDeck({
   );
 }
 
+function extractionLabel(doc: UploadedDocument): string {
+  if (doc.ocr_applied) {
+    const pages = doc.pages_ocrd ? ` · ${doc.pages_ocrd} page${doc.pages_ocrd === 1 ? "" : "s"}` : "";
+    return `OCR${pages}`;
+  }
+  if (doc.extraction_method === "native") return "Text extracted";
+  if (doc.extraction_method === "mixed") return "Mixed OCR";
+  if ((doc.text_chars ?? 0) === 0) return "No text found";
+  return "Processed";
+}
+
 function IntakePanel({
   issueText, setIssueText, livePreview, classifying, uploadedDocs, pendingUploads, onPick, onRemoveDoc, draftAppeals, setDraftAppeals, canRun, runState, onRun,
 }: {
@@ -393,29 +430,48 @@ function IntakePanel({
                 <span className="truncate text-proxy-text">{upload.filename}</span>
                 {upload.error ? (
                   <span className="flex items-center gap-1 text-red-200"><AlertCircle className="size-3" /> Failed</span>
+                ) : upload.phase === "ocr" ? (
+                  <span className="flex items-center gap-1 text-cyan-200"><Loader2 className="size-3 animate-spin" /> OCR</span>
                 ) : (
                   <span className="text-proxy-tertiary">{upload.progress}%</span>
                 )}
               </div>
               {!upload.error && (
                 <div className="h-1 overflow-hidden rounded-full bg-white/10">
-                  <div className="h-full rounded-full bg-cyan-300 transition-all" style={{ width: `${upload.progress}%` }} />
+                  <div
+                    className={`h-full rounded-full transition-all ${upload.phase === "ocr" ? "animate-pulse bg-purple-300" : "bg-cyan-300"}`}
+                    style={{ width: upload.phase === "ocr" ? "100%" : `${upload.progress}%` }}
+                  />
                 </div>
               )}
             </div>
           ))}
           {uploadedDocs.map((doc) => (
-            <div key={doc.document_id} className="flex items-center gap-2 rounded-lg border border-white/10 bg-black/20 p-2 text-xs">
-              <FileText className="size-3.5 shrink-0 text-cyan-200" />
-              <span className="min-w-0 flex-1 truncate text-proxy-text">{doc.filename}</span>
-              {doc.indexed ? (
-                <span className="flex shrink-0 items-center gap-1 text-[10px] text-green-300"><CheckCircle2 className="size-3" /> Indexed</span>
-              ) : (
-                <span className="shrink-0 text-[10px] text-amber-300">Processing</span>
+            <div key={doc.document_id} className="rounded-lg border border-white/10 bg-black/20 p-2 text-xs">
+              <div className="flex items-center gap-2">
+                <FileText className="size-3.5 shrink-0 text-cyan-200" />
+                <span className="min-w-0 flex-1 truncate text-proxy-text">{doc.filename}</span>
+                {doc.indexed ? (
+                  <span className="flex shrink-0 items-center gap-1 text-[10px] text-green-300"><CheckCircle2 className="size-3" /> Indexed</span>
+                ) : (doc.text_chars ?? 0) > 0 ? (
+                  <span className="shrink-0 text-[10px] text-amber-300">Not indexed</span>
+                ) : (
+                  <span className="shrink-0 text-[10px] text-red-300">No text</span>
+                )}
+                <button onClick={() => onRemoveDoc(doc)} className="shrink-0 text-proxy-tertiary hover:text-red-200">
+                  <Trash2 className="size-3" />
+                </button>
+              </div>
+              <div className="mt-1 flex flex-wrap items-center gap-2 pl-5 text-[10px] text-proxy-tertiary">
+                <span>{extractionLabel(doc)}</span>
+                {(doc.text_chars ?? 0) > 0 && <span>{doc.text_chars?.toLocaleString()} chars</span>}
+              </div>
+              {doc.text_preview && (
+                <p className="mt-1.5 line-clamp-2 pl-5 text-[10px] leading-4 text-proxy-muted">{doc.text_preview}</p>
               )}
-              <button onClick={() => onRemoveDoc(doc)} className="shrink-0 text-proxy-tertiary hover:text-red-200">
-                <Trash2 className="size-3" />
-              </button>
+              {doc.relevance_warning && (
+                <p className="mt-1.5 pl-5 text-[10px] leading-4 text-amber-200">{doc.relevance_warning}</p>
+              )}
             </div>
           ))}
         </div>
@@ -509,20 +565,35 @@ function LiveFlowPanel({
   const idleFilledCount = livePreview.length > 0 ? 1 : 0;
   const displayFilledCount = runState === "running" ? filledCount : idleFilledCount;
 
+  const live = runState === "running" || classifying;
+
   return (
-    <div className="rounded-xl border border-white/10 bg-black/20 p-4">
+    <div className={`live-flow-card rounded-xl border p-4 transition-colors ${live ? "border-cyan-300/30" : "border-white/10"} bg-black/20`}>
       <div className="mb-3 flex items-center justify-between">
-        <h3 className="font-semibold">2. Live Agent Flow</h3>
+        <div className="flex items-center gap-2">
+          <h3 className="font-semibold">2. Live Agent Flow</h3>
+          <span className={`inline-flex items-center gap-1 rounded-full border px-1.5 py-0.5 text-[9px] font-medium uppercase tracking-wide ${live ? "border-cyan-300/40 text-cyan-200" : "border-white/10 text-proxy-tertiary"}`}>
+            <span className={`size-1.5 rounded-full ${live ? "live-dot bg-cyan-300" : "bg-proxy-tertiary"}`} />
+            {live ? "Live" : "Idle"}
+          </span>
+        </div>
         {runState === "running" ? (
           <span className="font-mono text-xs text-cyan-200">{elapsedSeconds.toFixed(1)}s elapsed</span>
         ) : (
           <span className="text-xs text-proxy-tertiary">Real multi-agent trace</span>
         )}
       </div>
-      <ReasoningLanes lanes={lanes} processing={runState === "running" || classifying} filledCount={displayFilledCount} />
+      <ReasoningLanes lanes={lanes} processing={live} filledCount={displayFilledCount} />
 
-      <div className="mt-4 rounded-xl border border-white/10 bg-[#050608] p-4 font-mono text-xs text-proxy-muted">
-        <div className="mb-2 flex items-center gap-1.5 text-cyan-100"><ScrollText className="size-3.5" /> Console</div>
+      <div className="console-frame relative mt-4 overflow-hidden rounded-xl border border-white/10 bg-[#050608] p-4 font-mono text-xs text-proxy-muted">
+        <div className="mb-2 flex items-center justify-between">
+          <div className="flex items-center gap-1.5 text-cyan-100"><ScrollText className="size-3.5" /> Console</div>
+          <div className="flex items-center gap-1">
+            <span className="size-1.5 rounded-full bg-red-400/50" />
+            <span className="size-1.5 rounded-full bg-amber-300/50" />
+            <span className="size-1.5 rounded-full bg-green-300/50" />
+          </div>
+        </div>
         {error ? (
           <p className="flex items-center gap-2 text-red-200"><AlertCircle className="size-3.5 shrink-0" /> {error}</p>
         ) : runState === "idle" ? (
@@ -544,7 +615,46 @@ function LiveFlowPanel({
         ) : (
           <p><span className="text-green-300">&#10003;</span> Complete. Results and citations unlocked below.</p>
         )}
+        {live && <span className="console-cursor" aria-hidden />}
+        {live && <div className="console-scanline" aria-hidden />}
       </div>
+      <style jsx>{`
+        .live-dot {
+          animation: live-pulse 1.4s ease-in-out infinite;
+        }
+        @keyframes live-pulse {
+          0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(0, 229, 255, 0.55); }
+          50% { opacity: 0.5; box-shadow: 0 0 0 3px rgba(0, 229, 255, 0); }
+        }
+        .console-cursor {
+          display: inline-block;
+          width: 6px;
+          height: 12px;
+          margin-left: 2px;
+          background: #5ff0d7;
+          animation: console-blink 1s step-end infinite;
+          vertical-align: -2px;
+        }
+        @keyframes console-blink {
+          50% { opacity: 0; }
+        }
+        .console-scanline {
+          position: absolute;
+          left: 0;
+          right: 0;
+          height: 40%;
+          background: linear-gradient(180deg, rgba(0, 229, 255, 0) 0%, rgba(0, 229, 255, 0.05) 50%, rgba(0, 229, 255, 0) 100%);
+          animation: console-sweep 3.2s linear infinite;
+          pointer-events: none;
+        }
+        @keyframes console-sweep {
+          0% { top: -40%; }
+          100% { top: 100%; }
+        }
+        .live-flow-card {
+          background-image: radial-gradient(circle at 100% 0%, rgba(0, 229, 255, 0.05), transparent 45%);
+        }
+      `}</style>
     </div>
   );
 }
@@ -563,14 +673,26 @@ function IdleConsole({
   for (const upload of pendingUploads) {
     lines.push(
       <p key={`pending-${upload.id}`} className="mb-1 flex items-center gap-2 text-proxy-muted">
-        <Loader2 className="size-3 shrink-0 animate-spin text-cyan-300" /> Uploading {upload.filename}... {upload.progress}%
+        <Loader2 className="size-3 shrink-0 animate-spin text-cyan-300" />
+        {upload.phase === "ocr"
+          ? `Running OCR on ${upload.filename}...`
+          : `Uploading ${upload.filename}... ${upload.progress}%`}
       </p>
     );
   }
   for (const doc of uploadedDocs) {
+    const status =
+      doc.indexed
+        ? "indexed and searchable"
+        : (doc.text_chars ?? 0) > 0
+          ? `${extractionLabel(doc)} · ${doc.text_chars?.toLocaleString()} chars`
+          : "no text extracted — try a clearer scan or photo";
     lines.push(
       <p key={`doc-${doc.document_id}`} className="mb-1">
-        <span className={doc.indexed ? "text-green-300" : "text-amber-300"}>{doc.indexed ? "✓" : "○"}</span> {doc.filename} {doc.indexed ? "indexed and searchable" : "processing..."}
+        <span className={doc.indexed ? "text-green-300" : (doc.text_chars ?? 0) > 0 ? "text-amber-300" : "text-red-300"}>
+          {doc.indexed || (doc.text_chars ?? 0) > 0 ? "✓" : "!"}
+        </span>{" "}
+        {doc.filename} — {status}
       </p>
     );
   }
@@ -680,15 +802,15 @@ function DomainAnswerSection({ answer }: { answer: DomainAnswer }) {
           <div className="mb-3 flex gap-1 rounded-lg border border-white/10 bg-black/20 p-0.5">
             <button
               onClick={() => setTab("report")}
-              className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition-colors ${tab === "report" ? "bg-white/10 text-proxy-text" : "text-proxy-tertiary hover:text-proxy-muted"}`}
+              className={`flex flex-1 items-center justify-center gap-1.5 rounded-md py-1.5 text-[11px] font-medium transition-colors ${tab === "report" ? "bg-white/10 text-proxy-text" : "text-proxy-tertiary hover:text-proxy-muted"}`}
             >
-              Plain-English Report
+              <ScrollText className="size-3" /> Plain-English Report
             </button>
             <button
               onClick={() => setTab("agents")}
-              className={`flex-1 rounded-md py-1.5 text-[11px] font-medium transition-colors ${tab === "agents" ? "bg-white/10 text-proxy-text" : "text-proxy-tertiary hover:text-proxy-muted"}`}
+              className={`flex flex-1 items-center justify-center gap-1.5 rounded-md py-1.5 text-[11px] font-medium transition-colors ${tab === "agents" ? "bg-white/10 text-proxy-text" : "text-proxy-tertiary hover:text-proxy-muted"}`}
             >
-              6-Agent Breakdown
+              <Network className="size-3" /> 6-Agent Breakdown
             </button>
           </div>
           {tab === "report" ? (
@@ -721,43 +843,89 @@ const AGENT_SPECS: AgentSpec[] = [
   { key: "review", label: "Review Agent", icon: ShieldAlert, color: "#ff4d6d", tagline: "Devil's advocate audit of everything above" },
 ];
 
+// Backend agents occasionally emit a nested object where a plain string is
+// expected (see app/agents/negotiation_agent/agent.py's _as_text -- fixed
+// server-side, but this is a UI-level safety net so a raw {"subject":...}
+// blob can never render as literal JSON text again, even if some future
+// field slips through un-flattened).
+function safeText(value: unknown): string {
+  if (value == null) return "";
+  if (typeof value === "string") return value;
+  if (typeof value === "number" || typeof value === "boolean") return String(value);
+  if (Array.isArray(value)) return value.map(safeText).join(", ");
+  if (typeof value === "object") {
+    const obj = value as Record<string, unknown>;
+    if (typeof obj.body === "string") {
+      return obj.subject ? `${safeText(obj.subject)}\n\n${obj.body}` : obj.body;
+    }
+    return Object.entries(obj)
+      .map(([k, v]) => `${k.replace(/_/g, " ")}: ${safeText(v)}`)
+      .join(" · ");
+  }
+  return String(value);
+}
+
 function AgentBreakdownView({ breakdown, accent }: { breakdown: AgentBreakdown; accent: string }) {
   return (
-    <div className="space-y-2.5">
-      {AGENT_SPECS.map((spec) => (
-        <AgentCard key={spec.key} spec={spec} breakdown={breakdown} fallbackAccent={accent} />
+    <div className="relative space-y-2.5 pl-3">
+      <div className="absolute bottom-3 left-[15px] top-3 w-px bg-gradient-to-b from-white/15 via-white/10 to-transparent" aria-hidden />
+      {AGENT_SPECS.map((spec, i) => (
+        <AgentCard key={spec.key} spec={spec} index={i} breakdown={breakdown} fallbackAccent={accent} />
       ))}
     </div>
   );
 }
 
-function AgentCard({ spec, breakdown, fallbackAccent }: { spec: AgentSpec; breakdown: AgentBreakdown; fallbackAccent: string }) {
+function AgentCard({
+  spec, index, breakdown, fallbackAccent,
+}: {
+  spec: AgentSpec;
+  index: number;
+  breakdown: AgentBreakdown;
+  fallbackAccent: string;
+}) {
   const [open, setOpen] = useState(false);
   const Icon = spec.icon;
   const color = spec.color || fallbackAccent;
 
   return (
-    <div className="overflow-hidden rounded-lg border border-white/10 bg-black/20">
-      <button onClick={() => setOpen((v) => !v)} className="flex w-full items-center gap-2.5 px-3 py-2.5 text-left hover:bg-white/[0.03]">
-        <div className="grid size-7 shrink-0 place-items-center rounded-lg border" style={{ borderColor: `${color}40`, backgroundColor: `${color}15` }}>
-          <Icon className="size-3.5" style={{ color }} />
-        </div>
-        <div className="min-w-0 flex-1">
-          <p className="text-xs font-medium text-proxy-text">{spec.label}</p>
-          <p className="truncate text-[10px] text-proxy-tertiary">{spec.tagline}</p>
-        </div>
-        <span className="shrink-0 text-[10px] text-proxy-tertiary">{open ? "Hide" : "Show"}</span>
-      </button>
-      {open && (
-        <div className="border-t border-white/5 px-3 py-3">
-          <AgentContent agentKey={spec.key} breakdown={breakdown} color={color} />
-        </div>
-      )}
+    <div className="relative">
+      <div
+        className="absolute left-[-3px] top-4 grid size-3.5 shrink-0 place-items-center rounded-full border-2 border-black/40 text-[8px] font-bold text-black"
+        style={{ backgroundColor: color }}
+      >
+        {index + 1}
+      </div>
+      <div
+        className={`overflow-hidden rounded-lg border bg-black/20 transition-colors ${open ? "" : "border-white/10"}`}
+        style={open ? { borderColor: `${color}45` } : undefined}
+      >
+        <button onClick={() => setOpen((v) => !v)} className="flex w-full items-center gap-2.5 px-3 py-2.5 pl-6 text-left hover:bg-white/[0.03]">
+          <div className="grid size-7 shrink-0 place-items-center rounded-lg border" style={{ borderColor: `${color}40`, backgroundColor: `${color}15` }}>
+            <Icon className="size-3.5" style={{ color }} />
+          </div>
+          <div className="min-w-0 flex-1">
+            <p className="text-xs font-medium text-proxy-text">{spec.label}</p>
+            <p className="truncate text-[10px] text-proxy-tertiary">{spec.tagline}</p>
+          </div>
+          <span
+            className="shrink-0 rounded-full border px-2 py-0.5 text-[10px] transition-colors"
+            style={open ? { borderColor: `${color}45`, backgroundColor: `${color}15`, color } : { borderColor: "rgba(255,255,255,.1)", color: "var(--proxy-tertiary)" }}
+          >
+            {open ? "Hide" : "Show"}
+          </span>
+        </button>
+        {open && (
+          <div className="aperture-agent-content border-t border-white/5 px-3 py-3 pl-6">
+            <AgentContent agentKey={spec.key} breakdown={breakdown} color={color} />
+          </div>
+        )}
+      </div>
     </div>
   );
 }
 
-function ListBlock({ label, items, color }: { label: string; items?: string[]; color: string }) {
+function ListBlock({ label, items, color }: { label: string; items?: unknown[]; color: string }) {
   if (!items || items.length === 0) return null;
   return (
     <div className="mb-2.5">
@@ -766,9 +934,42 @@ function ListBlock({ label, items, color }: { label: string; items?: string[]; c
         {items.map((item, i) => (
           <li key={i} className="flex items-start gap-1.5 text-xs leading-5 text-proxy-muted">
             <span className="mt-1.5 size-1 shrink-0 rounded-full" style={{ backgroundColor: color }} />
-            {item}
+            {safeText(item)}
           </li>
         ))}
+      </ul>
+    </div>
+  );
+}
+
+// Deterministically checks each cited item against the actual retrieved
+// source text server-side (app/services/citation_verification.py) -- this
+// renders that verdict inline instead of presenting every citation with
+// the same unearned confidence, so a hallucinated regulation name reads
+// differently from one directly grounded in what was retrieved.
+function CitationListBlock({ label, items, unverified, color }: { label: string; items?: string[]; unverified?: string[]; color: string }) {
+  if (!items || items.length === 0) return null;
+  const unverifiedSet = new Set(unverified ?? []);
+  return (
+    <div className="mb-2.5">
+      <p className="mb-1 text-[10px] uppercase tracking-wide text-proxy-tertiary">{label}</p>
+      <ul className="space-y-1">
+        {items.map((item, i) => {
+          const flagged = unverifiedSet.has(item);
+          return (
+            <li key={i} className="flex items-start gap-1.5 text-xs leading-5 text-proxy-muted">
+              {flagged ? (
+                <AlertCircle className="mt-0.5 size-3 shrink-0 text-amber-300" />
+              ) : (
+                <CheckCircle2 className="mt-0.5 size-3 shrink-0" style={{ color }} />
+              )}
+              <span>
+                {safeText(item)}
+                {flagged && <span className="ml-1.5 text-[10px] text-amber-300">not confirmed in retrieved sources</span>}
+              </span>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
@@ -782,7 +983,7 @@ function AgentContent({ agentKey, breakdown, color }: { agentKey: keyof AgentBre
         <ListBlock label="Applicable clauses / rules" items={r.applicable_clauses} color={color} />
         <ListBlock label="Possible exclusions" items={r.possible_exclusions} color={color} />
         <ListBlock label="Key timelines" items={r.waiting_periods} color={color} />
-        <ListBlock label="Regulations cited" items={r.regulations} color={color} />
+        <CitationListBlock label="Regulations cited" items={r.regulations} unverified={r.unverified_regulations} color={color} />
         {r.confidence !== undefined && (
           <div className="mt-2 flex items-center gap-2">
             <span className="text-[10px] text-proxy-tertiary">Research confidence</span>
@@ -790,7 +991,7 @@ function AgentContent({ agentKey, breakdown, color }: { agentKey: keyof AgentBre
             <span className="text-[10px] text-proxy-muted">{Math.round(r.confidence * 100)}%</span>
           </div>
         )}
-        {r.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{r.summary}</p>}
+        {r.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{safeText(r.summary)}</p>}
       </>
     );
   }
@@ -811,14 +1012,14 @@ function AgentContent({ agentKey, breakdown, color }: { agentKey: keyof AgentBre
             {fields.map(([key, value]) => (
               <div key={key} className="rounded-lg border border-white/5 bg-black/20 p-2">
                 <p className="text-[9px] uppercase tracking-wide text-proxy-tertiary">{key.replace(/_/g, " ")}</p>
-                <p className="mt-0.5 truncate text-xs text-proxy-text">{value as string}</p>
+                <p className="mt-0.5 truncate text-xs text-proxy-text">{safeText(value)}</p>
               </div>
             ))}
           </div>
         )}
         <ListBlock label="Documents still missing" items={e.documents_missing} color={color} />
         <ListBlock label="Key dates" items={e.key_dates} color={color} />
-        {e.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{e.summary as string}</p>}
+        {e.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{safeText(e.summary)}</p>}
       </>
     );
   }
@@ -844,35 +1045,47 @@ function AgentContent({ agentKey, breakdown, color }: { agentKey: keyof AgentBre
   if (agentKey === "strategy") {
     const s = breakdown.strategy;
     const steps = Array.isArray(s.recommended_strategy) ? s.recommended_strategy : s.recommended_strategy ? [s.recommended_strategy] : [];
+    // The strategy model doesn't always return clean JSON -- when parsing
+    // falls back, can_appeal lands on the literal "UNKNOWN" placeholder.
+    // Showing that next to a confident-looking "0%" ring read as a real
+    // answer rather than what it is: a degraded, unparsed response.
+    const degraded = s.can_appeal === "UNKNOWN";
     return (
       <>
-        <div className="mb-3 flex items-center gap-3">
-          {s.success_probability !== undefined && (
-            <div className="flex items-center gap-2">
-              <svg width="36" height="36" viewBox="0 0 36 36">
-                <circle cx="18" cy="18" r="15" fill="none" stroke="rgba(255,255,255,.08)" strokeWidth="4" />
-                <circle
-                  cx="18" cy="18" r="15" fill="none" stroke={color} strokeWidth="4" strokeLinecap="round"
-                  strokeDasharray={2 * Math.PI * 15} strokeDashoffset={2 * Math.PI * 15 * (1 - s.success_probability)}
-                  transform="rotate(-90 18 18)"
-                />
-              </svg>
-              <div>
-                <p className="text-xs font-semibold text-proxy-text">{Math.round(s.success_probability * 100)}%</p>
-                <p className="text-[9px] text-proxy-tertiary">success probability</p>
+        {degraded ? (
+          <div className="mb-2.5 flex items-start gap-2 rounded-lg border border-white/10 bg-white/[0.03] p-2.5">
+            <AlertCircle className="mt-0.5 size-3.5 shrink-0 text-proxy-tertiary" />
+            <p className="text-xs leading-5 text-proxy-tertiary">The strategy model's response couldn't be parsed into a clean structure this run -- showing its best-effort summary below instead of a confidence score.</p>
+          </div>
+        ) : (
+          <div className="mb-3 flex items-center gap-3">
+            {s.success_probability !== undefined && (
+              <div className="flex items-center gap-2">
+                <svg width="36" height="36" viewBox="0 0 36 36">
+                  <circle cx="18" cy="18" r="15" fill="none" stroke="rgba(255,255,255,.08)" strokeWidth="4" />
+                  <circle
+                    cx="18" cy="18" r="15" fill="none" stroke={color} strokeWidth="4" strokeLinecap="round"
+                    strokeDasharray={2 * Math.PI * 15} strokeDashoffset={2 * Math.PI * 15 * (1 - s.success_probability)}
+                    transform="rotate(-90 18 18)"
+                  />
+                </svg>
+                <div>
+                  <p className="text-xs font-semibold text-proxy-text">{Math.round(s.success_probability * 100)}%</p>
+                  <p className="text-[9px] text-proxy-tertiary">success probability</p>
+                </div>
               </div>
-            </div>
-          )}
-          {s.can_appeal && (
-            <span className="rounded-full border px-2 py-0.5 text-[10px]" style={{ borderColor: `${color}40`, backgroundColor: `${color}15`, color }}>
-              Can proceed: {s.can_appeal}
-            </span>
-          )}
-        </div>
+            )}
+            {s.can_appeal && (
+              <span className="rounded-full border px-2 py-0.5 text-[10px]" style={{ borderColor: `${color}40`, backgroundColor: `${color}15`, color }}>
+                Can proceed: {s.can_appeal}
+              </span>
+            )}
+          </div>
+        )}
         <ListBlock label="Recommended steps" items={steps} color={color} />
         <ListBlock label="Evidence still required" items={s.evidence_required} color={color} />
         <ListBlock label="Escalation path" items={s.escalation_path} color={color} />
-        {s.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{s.summary}</p>}
+        {s.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{safeText(s.summary)}</p>}
       </>
     );
   }
@@ -889,9 +1102,9 @@ function AgentContent({ agentKey, breakdown, color }: { agentKey: keyof AgentBre
     return (
       <div className="space-y-2">
         {docs.map(([label, content]) => (
-          <details key={label} className="rounded-lg border border-white/5 bg-black/20 p-2.5">
+          <details key={label} className="agent-doc rounded-lg border border-white/5 bg-black/20 p-2.5">
             <summary className="cursor-pointer text-xs font-medium" style={{ color }}>{label}</summary>
-            <p className="mt-2 whitespace-pre-wrap text-xs leading-5 text-proxy-muted">{content}</p>
+            <p className="mt-2 whitespace-pre-wrap text-xs leading-5 text-proxy-muted">{safeText(content)}</p>
           </details>
         ))}
       </div>
@@ -911,7 +1124,7 @@ function AgentContent({ agentKey, breakdown, color }: { agentKey: keyof AgentBre
       <ListBlock label="Hallucination risks caught" items={rv.hallucination_risks} color={color} />
       <ListBlock label="Wrong clause/regulation risks caught" items={rv.wrong_clause_risks} color={color} />
       <ListBlock label="Weak arguments flagged" items={rv.weak_arguments} color={color} />
-      {rv.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{rv.summary}</p>}
+      {rv.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{safeText(rv.summary)}</p>}
     </>
   );
 }
