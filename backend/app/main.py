@@ -11,7 +11,7 @@ from app.core.config import get_settings
 from app.core.errors import register_exception_handlers
 from app.core.logging import configure_logging
 from app.core.startup import run_startup_checks
-from app.middleware.request_context import InMemoryRateLimitMiddleware, RequestContextMiddleware
+from app.middleware.request_context import RequestContextMiddleware
 
 
 def patch_middleware_iterator_for_fastapi() -> None:
@@ -57,7 +57,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 app.add_middleware(RequestContextMiddleware)
-app.add_middleware(InMemoryRateLimitMiddleware)
 register_exception_handlers(app)
 app.include_router(api_router, prefix=settings.api_prefix)
 

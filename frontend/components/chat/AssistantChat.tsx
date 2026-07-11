@@ -7,18 +7,23 @@ import {
   Bot, Send, Mic, MicOff, Sparkles, Loader2, AlertCircle, Command, Trash2, RotateCcw, Zap,
 } from "lucide-react";
 import {
-  classifyQuery, runMultiDomainCase, type DomainCandidate, type Citation, type MultiDomainCaseResponse,
+  classifyQuery, runMultiDomainCase, type DomainCandidate, type Citation, type MultiDomainCaseResponse, type AgentBreakdown,
 } from "@/lib/api-client";
 import { ESTIMATED_STAGES } from "./pipeline";
 import { ReasoningLanes } from "./ReasoningLanes";
 import { CitationConstellation } from "./CitationConstellation";
 import { domainTheme } from "./domain-theme";
 import { markdownComponents } from "./markdown-components";
+import { AgentReasoningTrace } from "./AgentReasoningTrace";
+import { PipelineSidebar } from "./PipelineSidebar";
 
 interface DomainAnswer {
   domain: string;
   route: string;
   report: string | null;
+  trace: string[];
+  breakdown: AgentBreakdown;
+  confidence: number;
 }
 
 interface ChatMessage {
@@ -33,7 +38,12 @@ interface ChatMessage {
   error?: string;
 }
 
-const STORAGE_KEY = "proxy:assistant-chat-history";
+// Bumped to v2 when DomainAnswer gained required trace/breakdown/confidence
+// fields -- old v1 history in a returning user's browser predates those
+// fields entirely (not just empty), so loading it would crash components
+// that read them. A new key just leaves the old entry orphaned in
+// localStorage rather than needing a migration.
+const STORAGE_KEY = "proxy:assistant-chat-history-v2";
 
 function loadHistory(): ChatMessage[] {
   if (typeof window === "undefined") return [];
@@ -187,7 +197,7 @@ export function AssistantChat() {
       const perDomainAnswers: DomainAnswer[] = [];
       Object.entries(response.per_domain_results).forEach(([domain, result]) => {
         perDomainTraces[domain] = result.agent_trace ?? [];
-        perDomainAnswers.push({ domain, route: result.route, report: result.final_report });
+        perDomainAnswers.push({ domain, route: result.route, report: result.final_report, trace: result.agent_trace ?? [], breakdown: result.agent_breakdown, confidence: result.confidence });
       });
       setMessages((current) => [
         ...current,
@@ -234,43 +244,70 @@ export function AssistantChat() {
     window.localStorage.removeItem(STORAGE_KEY);
   }
 
+  // The sidebar always reflects the most current turn: while typing/running
+  // it's the live classification + in-flight trace; once a message lands,
+  // it switches to that message's real first-domain trace and breakdown.
+  const lastAssistant = [...messages].reverse().find((m) => m.role === "assistant" && !m.error);
+  const primaryAnswer = lastAssistant?.perDomainAnswers?.[0];
+  const sidebarCandidates = processing
+    ? (processingDomains.length ? processingDomains : livePreview.map((c) => c.domain)).map((d) => ({ domain: d }))
+    : livePreview.length > 0
+      ? livePreview.map((c) => ({ domain: c.domain, confidence: c.confidence }))
+      : (lastAssistant?.domains ?? []).map((d) => ({
+          domain: d,
+          confidence: lastAssistant?.perDomainAnswers?.find((a) => a.domain === d)?.confidence,
+        }));
+  const sidebarTrace = processing ? [] : primaryAnswer?.trace ?? [];
+
   return (
-    <div className="flex min-h-[720px] flex-1 flex-col rounded-2xl border border-white/10 bg-glass backdrop-blur-2xl">
-      <ChatHeader onClear={clearConversation} busy={processing} />
+    <div className="flex min-h-[720px] flex-1 gap-4">
+      <div className="flex flex-1 flex-col rounded-2xl border border-white/10 bg-glass backdrop-blur-2xl">
+        <ChatHeader onClear={clearConversation} busy={processing} />
 
-      <div ref={scrollRef} className="flex-1 space-y-5 overflow-y-auto px-4 py-6 sm:px-8">
-        {messages.length === 0 && !processing && <BootSequence onPick={setInput} />}
+        <div ref={scrollRef} className="flex-1 space-y-5 overflow-y-auto px-4 py-6 sm:px-8">
+          {messages.length === 0 && !processing && <BootSequence onPick={setInput} />}
 
-        {messages.map((message) =>
-          message.role === "user" ? (
-            <UserPrompt key={message.id} text={message.content} />
-          ) : (
-            <IntelligenceCard key={message.id} message={message} onRetry={message.error ? retryLast : undefined} />
-          )
-        )}
+          {messages.map((message) =>
+            message.role === "user" ? (
+              <UserPrompt key={message.id} text={message.content} />
+            ) : (
+              <IntelligenceCard key={message.id} message={message} onRetry={message.error ? retryLast : undefined} />
+            )
+          )}
 
-        {processing && (
-          <IntelligenceCard
-            message={{ id: "processing", role: "assistant", content: "", timestamp: Date.now() }}
-            processing
-            processingDomains={processingDomains.length ? processingDomains : ["health_insurance"]}
-            filledCount={filledCount}
-            elapsedMs={processingElapsedMs}
-          />
-        )}
+          {processing && (
+            <IntelligenceCard
+              message={{ id: "processing", role: "assistant", content: "", timestamp: Date.now() }}
+              processing
+              processingDomains={processingDomains.length ? processingDomains : ["health_insurance"]}
+              filledCount={filledCount}
+              elapsedMs={processingElapsedMs}
+            />
+          )}
+        </div>
+
+        <Composer
+          input={input}
+          setInput={setInput}
+          onSend={send}
+          processing={processing}
+          textareaRef={textareaRef}
+          voiceSupported={voiceSupported}
+          listening={listening}
+          onToggleVoice={toggleVoice}
+          livePreview={livePreview}
+        />
       </div>
 
-      <Composer
-        input={input}
-        setInput={setInput}
-        onSend={send}
-        processing={processing}
-        textareaRef={textareaRef}
-        voiceSupported={voiceSupported}
-        listening={listening}
-        onToggleVoice={toggleVoice}
-        livePreview={livePreview}
-      />
+      <div className="hidden py-4 xl:block">
+        <PipelineSidebar
+          candidates={sidebarCandidates}
+          primaryDomain={primaryAnswer?.domain}
+          primaryRoute={primaryAnswer?.route}
+          trace={sidebarTrace}
+          processing={processing}
+        />
+      </div>
     </div>
   );
 }
@@ -474,6 +511,7 @@ function DomainAnswerSection({ answer }: { answer: DomainAnswer }) {
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
             {answer.report}
           </ReactMarkdown>
+          <AgentReasoningTrace trace={answer.trace} breakdown={answer.breakdown} />
         </div>
       )}
     </div>

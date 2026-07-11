@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import logging
 from typing import AsyncIterator
 
@@ -83,6 +84,7 @@ class NvidiaProvider(LLMProvider):
                 "model": selected_model,
                 "messages": [{"role": "user", "content": prompt}],
                 "temperature": temperature,
+                "max_tokens": self.settings.nvidia_max_tokens,
             }
 
             async def _call() -> httpx.Response:
@@ -135,6 +137,7 @@ class NvidiaProvider(LLMProvider):
             "model": selected_model,
             "messages": [{"role": "user", "content": prompt}],
             "temperature": temperature,
+            "max_tokens": self.settings.nvidia_max_tokens,
             "stream": True,
         }
         await self._rate_limiter.acquire()
@@ -168,6 +171,76 @@ class NvidiaProvider(LLMProvider):
                 yield self._offline_response(prompt)
                 return
             raise RuntimeError(f"NVIDIA streaming API call failed: {exc}") from exc
+
+    async def generate_with_image(
+        self,
+        prompt: str,
+        image_bytes: bytes,
+        mime_type: str = "image/jpeg",
+        *,
+        purpose: LLMPurpose = "ocr",
+        model_name: str | None = None,
+        max_tokens: int = 4096,
+        temperature: float = 0.0,
+    ) -> str:
+        """Multimodal OCR / vision call via OpenAI-compatible image_url content."""
+        selected_model = model_name or self.settings.nvidia_vision_model
+        async with log_llm_call(self.name, "generate_with_image", purpose, selected_model) as record:
+            if not self._configured():
+                if self.settings.environment == "test" or self.settings.disable_external_llm:
+                    return ""
+                raise RuntimeError("NVIDIA API is not configured. Please set NVIDIA_API_KEY in your environment/dotenv file.")
+
+            encoded = base64.b64encode(image_bytes).decode("ascii")
+            data_url = f"data:{mime_type};base64,{encoded}"
+            payload = {
+                "model": selected_model,
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": prompt},
+                            {"type": "image_url", "image_url": {"url": data_url}},
+                        ],
+                    }
+                ],
+                "temperature": temperature,
+                "max_tokens": max_tokens,
+            }
+
+            timeout = self.settings.ocr_request_timeout_seconds
+
+            async def _call() -> httpx.Response:
+                await self._rate_limiter.acquire()
+                async with httpx.AsyncClient(timeout=timeout) as client:
+                    resp = await client.post(
+                        f"{self.settings.nvidia_base_url}/chat/completions",
+                        headers=self._headers(),
+                        json=payload,
+                    )
+                    resp.raise_for_status()
+                    return resp
+
+            try:
+                retryer = build_retrying(self.settings.nvidia_max_retries)
+                async for attempt in retryer:
+                    with attempt:
+                        record["retries"] = attempt.retry_state.attempt_number - 1
+                        response = await _call()
+            except Exception as exc:
+                if self.settings.environment == "test" or self.settings.disable_external_llm:
+                    return ""
+                raise RuntimeError(f"NVIDIA vision OCR API call failed: {exc}") from exc
+
+            data = response.json()
+            usage = data.get("usage") or {}
+            record["prompt_tokens"] = usage.get("prompt_tokens")
+            record["completion_tokens"] = usage.get("completion_tokens")
+            record["total_tokens"] = usage.get("total_tokens")
+            choices = data.get("choices") or []
+            if choices and choices[0].get("message", {}).get("content"):
+                return choices[0]["message"]["content"]
+            raise RuntimeError(f"NVIDIA vision OCR returned no content: {data}")
 
     async def embed_documents(self, texts: list[str]) -> list[list[float]]:
         return await self._embed_batch(texts, "passage")

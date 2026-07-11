@@ -100,6 +100,7 @@ class Settings(BaseModel):
     nvidia_response_model: str = "meta/llama-3.1-8b-instruct"
     nvidia_summarization_model: str = "meta/llama-3.1-8b-instruct"
     nvidia_ocr_model: str = "meta/llama-3.1-8b-instruct"
+    nvidia_vision_model: str = "meta/llama-3.2-11b-vision-instruct"
     nvidia_kg_model: str = "meta/llama-3.1-8b-instruct"
     nvidia_embedding_model: str = "nvidia/nv-embedqa-e5-v5"
     nvidia_embedding_dimension: int = 1024
@@ -107,6 +108,12 @@ class Settings(BaseModel):
     nvidia_embedding_timeout_seconds: int = 15
     nvidia_max_retries: int = 2
     nvidia_rate_limit_per_minute: int = 40
+    # Chat completions previously had no max_tokens at all, so they fell
+    # back to the API's own default cap -- fine for a single short answer,
+    # but agents that generate several full documents in one JSON response
+    # (e.g. the Negotiation Agent's 4 letters) would get silently truncated
+    # mid-object, producing invalid JSON that fell back to empty fields.
+    nvidia_max_tokens: int = 3072
     cache_enabled: bool = True
     cache_embedding_ttl_seconds: int = 604800
     cache_prompt_ttl_seconds: int = 3600
@@ -120,6 +127,11 @@ class Settings(BaseModel):
     tavily_api_key: str | None = None
     web_search_cache_ttl_seconds: int = 86400
     web_search_rate_limit_per_minute: int = 10
+    ocr_max_pages: int = 25
+    ocr_page_concurrency: int = 3
+    ocr_max_image_side: int = 1600
+    ocr_max_tokens: int = 4096
+    ocr_request_timeout_seconds: int = 90
 
 
 @lru_cache
@@ -176,6 +188,10 @@ def get_settings() -> Settings:
         nvidia_response_model=_env("NVIDIA_RESPONSE_MODEL", _optional_env("LLM_MODEL") or "meta/llama-3.1-8b-instruct"),
         nvidia_summarization_model=_env("NVIDIA_SUMMARIZATION_MODEL", _optional_env("LLM_MODEL") or "meta/llama-3.1-8b-instruct"),
         nvidia_ocr_model=_env("NVIDIA_OCR_MODEL", _optional_env("LLM_MODEL") or "meta/llama-3.1-8b-instruct"),
+        nvidia_vision_model=_env(
+            "NVIDIA_VISION_MODEL",
+            "meta/llama-3.2-11b-vision-instruct",
+        ),
         nvidia_kg_model=_env("NVIDIA_KG_MODEL", _optional_env("LLM_MODEL") or "meta/llama-3.1-8b-instruct"),
         nvidia_embedding_model=_env("EMBEDDING_MODEL", "nvidia/nv-embedqa-e5-v5"),
         nvidia_embedding_dimension=int(_env("NVIDIA_EMBEDDING_DIMENSION", "1024")),
@@ -183,6 +199,7 @@ def get_settings() -> Settings:
         nvidia_embedding_timeout_seconds=int(_env("EMBEDDING_TIMEOUT", "15")),
         nvidia_max_retries=int(_env("MAX_RETRIES", "2")),
         nvidia_rate_limit_per_minute=int(_env("NVIDIA_RATE_LIMIT_PER_MINUTE", "40")),
+        nvidia_max_tokens=int(_env("NVIDIA_MAX_TOKENS", "3072")),
         cache_enabled=_bool_env("CACHE_ENABLED", True),
         cache_embedding_ttl_seconds=int(_env("CACHE_EMBEDDING_TTL_SECONDS", "604800")),
         cache_prompt_ttl_seconds=int(_env("CACHE_PROMPT_TTL_SECONDS", "3600")),
@@ -196,5 +213,10 @@ def get_settings() -> Settings:
         tavily_api_key=_optional_env("TAVILY_API_KEY"),
         web_search_cache_ttl_seconds=int(_env("WEB_SEARCH_CACHE_TTL_SECONDS", "86400")),
         web_search_rate_limit_per_minute=int(_env("WEB_SEARCH_RATE_LIMIT_PER_MINUTE", "10")),
+        ocr_max_pages=int(_env("OCR_MAX_PAGES", "25")),
+        ocr_page_concurrency=int(_env("OCR_PAGE_CONCURRENCY", "3")),
+        ocr_max_image_side=int(_env("OCR_MAX_IMAGE_SIDE", "1600")),
+        ocr_max_tokens=int(_env("OCR_MAX_TOKENS", "4096")),
+        ocr_request_timeout_seconds=int(_env("OCR_TIMEOUT", "90")),
     )
 
