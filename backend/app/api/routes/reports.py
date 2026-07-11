@@ -91,15 +91,12 @@ async def report_summary(user: CurrentUser = Depends(get_current_user)) -> dict:
 
 @router.get("/case/{case_id}")
 async def case_report(case_id: str, user: CurrentUser = Depends(get_current_user)) -> dict:
-    """A full report for one case. Works even for the synthetic per-query
-    case_ids the multi-domain assistant workflow uses (e.g.
-    "<uuid>-airlines"), which never create a real Case row -- falls back to
-    a synthesized case summary built from whatever appeals/documents
-    actually reference that case_id, rather than 404ing."""
+    """A full report for one case including the latest AI analysis output."""
     case = await case_repository.get_case(case_id, user.id)
     appeals = [a for a in await case_repository.list_appeals(case_id) if a["user_id"] == user.id]
     documents = [d for d in await case_repository.list_documents(case_id) if d["user_id"] == user.id]
     events = await case_repository.list_events(case_id)
+    agent_runs = await case_repository.list_agent_runs(case_id)
 
     if not case and (appeals or documents):
         domain = (appeals[0].get("domain") if appeals else None) or (documents[0].get("domain") if documents else None)
@@ -114,9 +111,28 @@ async def case_report(case_id: str, user: CurrentUser = Depends(get_current_user
             "synthetic": True,
         }
 
+    # Extract real AI output from the latest completed agent run
+    latest_output: dict = {}
+    if agent_runs:
+        latest_output = agent_runs[-1].get("output", {}) or {}
+
     return {
         "case": case,
         "appeals": appeals,
         "documents": documents,
         "events": sorted(events, key=lambda e: e.get("created_at") or "", reverse=True),
+        "agent_runs": agent_runs,
+        # Flattened for easy frontend consumption
+        "latest_analysis": {
+            "research_summary": latest_output.get("research_summary", ""),
+            "evidence_summary": latest_output.get("evidence_summary", ""),
+            "strategy": latest_output.get("strategy", ""),
+            "appeal_draft": latest_output.get("appeal_draft", ""),
+            "final_report": latest_output.get("final_report") or latest_output.get("final_answer", ""),
+            "review_notes": latest_output.get("review_notes", []),
+            "citations": latest_output.get("citations", []),
+            "agent_trace": latest_output.get("agent_trace", []),
+            "llm_call_count": latest_output.get("llm_call_count", 0),
+            "embedding_mode": latest_output.get("embedding_mode", ""),
+        },
     }

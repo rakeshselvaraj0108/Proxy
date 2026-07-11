@@ -1,4 +1,4 @@
-﻿import { analyses, demoAnalysis, type Analysis } from "./proxy-analysis-data";
+import { analyses, demoAnalysis, type Analysis } from "./proxy-analysis-data";
 
 export const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8000/api/v1";
 
@@ -322,6 +322,19 @@ export interface ReportSummary {
   generated_at: string;
 }
 
+export interface LatestAnalysis {
+  research_summary: string;
+  evidence_summary: string;
+  strategy: string;
+  appeal_draft: string;
+  final_report: string;
+  review_notes: string[];
+  citations: string[];
+  agent_trace: string[];
+  llm_call_count: number;
+  embedding_mode: string;
+}
+
 export interface CaseReportData {
   case: {
     id: string;
@@ -335,7 +348,10 @@ export interface CaseReportData {
   appeals: Appeal[];
   documents: VaultDocument[];
   events: ReportSummary["recent_activity"];
+  agent_runs?: Array<{ id: string; workflow: string; status: string; output: Record<string, unknown>; created_at: string }>;
+  latest_analysis?: LatestAnalysis;
 }
+
 
 export async function getReportSummary(): Promise<ReportSummary> {
   return request("/reports/summary", { method: "GET" });

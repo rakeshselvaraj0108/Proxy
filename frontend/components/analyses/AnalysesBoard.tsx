@@ -442,34 +442,60 @@ function AnalysisDetailPanel({
 }) {
   const [report, setReport] = useState<CaseReportData | null>(null);
   const [loadingReport, setLoadingReport] = useState(true);
+  const [activeTab, setActiveTab] = useState<"overview" | "research" | "strategy" | "appeal" | "evidence" | "timeline">("overview");
+  const [copied, setCopied] = useState(false);
   const theme = domainTheme(analysis.domains_involved[0] ?? analysis.domain);
 
   useEffect(() => {
     setLoadingReport(true);
+    setActiveTab("overview");
     getCaseReport(analysis.id)
       .then(setReport)
       .catch(() => setReport(null))
       .finally(() => setLoadingReport(false));
   }, [analysis.id]);
 
+  const la = report?.latest_analysis;
+  const hasAnalysis = la && (la.final_report || la.research_summary || la.strategy || la.appeal_draft);
+
+  async function copyAppeal() {
+    if (!la?.appeal_draft) return;
+    await navigator.clipboard.writeText(la.appeal_draft);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }
+
+  const TABS = [
+    { key: "overview", label: "Overview" },
+    { key: "research", label: "Research", dot: !!la?.research_summary },
+    { key: "strategy", label: "Strategy", dot: !!la?.strategy },
+    { key: "appeal", label: "Appeal Draft", dot: !!la?.appeal_draft },
+    { key: "evidence", label: "Evidence" },
+    { key: "timeline", label: "Timeline" },
+  ] as const;
+
   return (
     <div className="fixed inset-0 z-30 flex justify-end bg-black/50 backdrop-blur-sm" onClick={onClose}>
       <div
-        className="flex h-full w-full max-w-md flex-col border-l border-white/10 bg-[#0a0b10]"
+        className="flex h-full w-full max-w-lg flex-col border-l border-white/10 bg-[#0a0b10]"
         style={{ borderTopColor: theme.color, borderTopWidth: 3 }}
         onClick={(e) => e.stopPropagation()}
       >
+        {/* Header */}
         <div className="flex items-start justify-between border-b border-white/10 p-4">
-          <div className="min-w-0">
+          <div className="min-w-0 flex-1">
             <p className="line-clamp-2 text-sm font-semibold text-proxy-text">{analysis.title}</p>
-            <p className="mt-1 text-[11px] text-proxy-tertiary">{timeAgo(analysis.created_at)} &middot; {analysis.run_count} agent run{analysis.run_count === 1 ? "" : "s"}</p>
+            <p className="mt-1 text-[11px] text-proxy-tertiary">
+              {analysis.institution_name} &middot; {timeAgo(analysis.created_at)} &middot; {analysis.run_count} run{analysis.run_count !== 1 ? "s" : ""}
+            </p>
           </div>
-          <button onClick={onClose} className="rounded-lg border border-white/10 p-1.5 text-proxy-muted hover:text-proxy-text">
+          <button onClick={onClose} className="ml-3 shrink-0 rounded-lg border border-white/10 p-1.5 text-proxy-muted hover:text-proxy-text">
             <X className="size-4" />
           </button>
         </div>
 
-        <div className="flex items-center gap-2 border-b border-white/10 p-3">
+        {/* Status + Export bar */}
+        <div className="flex items-center gap-2 border-b border-white/10 px-3 py-2">
           <select
             value={analysis.status}
             onChange={(e) => onStatusChange(e.target.value as CaseStatus)}
@@ -480,53 +506,243 @@ function AnalysisDetailPanel({
             ))}
           </select>
           <button onClick={onExport} className="ml-auto inline-flex items-center gap-1.5 rounded-lg border border-white/10 px-2.5 py-1.5 text-xs text-proxy-muted hover:border-cyan-300/30 hover:text-cyan-100">
-            <Download className="size-3.5" /> Export
+            <Download className="size-3.5" /> Export JSON
           </button>
         </div>
 
+        {/* Tabs */}
+        <div className="flex gap-0.5 overflow-x-auto border-b border-white/10 px-3 pt-2">
+          {TABS.map((tab) => (
+            <button
+              key={tab.key}
+              onClick={() => setActiveTab(tab.key)}
+              className={`relative shrink-0 rounded-t-lg px-3 py-1.5 text-[11px] font-medium transition-colors ${
+                activeTab === tab.key ? "border-b-2 border-cyan-300 text-cyan-100" : "text-proxy-tertiary hover:text-proxy-muted"
+              }`}
+            >
+              {tab.label}
+              {"dot" in tab && tab.dot && <span className="absolute right-1.5 top-1.5 size-1.5 rounded-full bg-cyan-400" />}
+            </button>
+          ))}
+        </div>
+
+        {/* Content */}
         <div className="flex-1 overflow-y-auto p-4">
-          <div className="mb-4 flex flex-wrap gap-1.5">
-            {analysis.domains_involved.map((d) => {
-              const t = domainTheme(d);
-              return <span key={d} className="rounded-full px-2 py-0.5 text-[10px]" style={{ backgroundColor: `${t.color}1a`, color: t.color }}>{t.label}</span>;
-            })}
-          </div>
-
-          <p className="mb-1 text-[10px] uppercase tracking-wide text-proxy-tertiary">Summary</p>
-          <p className="mb-4 text-sm leading-6 text-proxy-muted">{analysis.summary}</p>
-
-          <div className="mb-4 grid grid-cols-3 gap-2 text-center">
-            <div className="rounded-lg border border-white/5 bg-black/20 p-2">
-              <p className="text-sm font-semibold text-proxy-text">{analysis.avg_confidence !== null ? `${Math.round(analysis.avg_confidence * 100)}%` : "-"}</p>
-              <p className="text-[9px] text-proxy-tertiary">Confidence</p>
-            </div>
-            <div className="rounded-lg border border-white/5 bg-black/20 p-2">
-              <p className="text-sm font-semibold text-proxy-text">{analysis.completed_runs}/{analysis.run_count}</p>
-              <p className="text-[9px] text-proxy-tertiary">Runs completed</p>
-            </div>
-            <div className="rounded-lg border border-white/5 bg-black/20 p-2">
-              <p className="text-sm font-semibold text-proxy-text">{report?.appeals.length ?? 0}</p>
-              <p className="text-[9px] text-proxy-tertiary">Appeals</p>
-            </div>
-          </div>
-
           {loadingReport ? (
-            <div className="flex items-center justify-center py-6 text-proxy-tertiary"><Loader2 className="size-4 animate-spin" /></div>
-          ) : report && report.appeals.length > 0 ? (
-            <div>
-              <p className="mb-2 text-[10px] uppercase tracking-wide text-proxy-tertiary">Generated documents</p>
-              <div className="space-y-1.5">
-                {report.appeals.map((appeal) => (
-                  <div key={appeal.id} className="flex items-center gap-2 rounded-lg border border-white/5 bg-black/20 p-2 text-xs">
-                    <FileText className="size-3.5 shrink-0 text-cyan-200" />
-                    <span className="truncate text-proxy-text">{appeal.title}</span>
-                  </div>
-                ))}
-              </div>
+            <div className="flex items-center justify-center py-12 text-proxy-tertiary">
+              <Loader2 className="size-5 animate-spin" />
+              <span className="ml-2 text-xs">Loading analysis...</span>
             </div>
-          ) : null}
+          ) : (
+            <>
+              {/* OVERVIEW TAB */}
+              {activeTab === "overview" && (
+                <div className="space-y-4">
+                  {/* Domain tags */}
+                  <div className="flex flex-wrap gap-1.5">
+                    {analysis.domains_involved.map((d) => {
+                      const t = domainTheme(d);
+                      return <span key={d} className="rounded-full px-2 py-0.5 text-[10px]" style={{ backgroundColor: `${t.color}1a`, color: t.color }}>{t.label}</span>;
+                    })}
+                  </div>
+
+                  {/* Stats grid */}
+                  <div className="grid grid-cols-3 gap-2 text-center">
+                    <div className="rounded-lg border border-white/5 bg-black/20 p-2">
+                      <p className="text-sm font-semibold text-proxy-text">{analysis.avg_confidence !== null ? `${Math.round(analysis.avg_confidence * 100)}%` : "—"}</p>
+                      <p className="text-[9px] text-proxy-tertiary">Confidence</p>
+                    </div>
+                    <div className="rounded-lg border border-white/5 bg-black/20 p-2">
+                      <p className="text-sm font-semibold text-proxy-text">{analysis.completed_runs}/{analysis.run_count}</p>
+                      <p className="text-[9px] text-proxy-tertiary">Runs done</p>
+                    </div>
+                    <div className="rounded-lg border border-white/5 bg-black/20 p-2">
+                      <p className="text-sm font-semibold text-proxy-text">{report?.appeals.length ?? 0}</p>
+                      <p className="text-[9px] text-proxy-tertiary">Appeals</p>
+                    </div>
+                  </div>
+
+                  {/* Case summary */}
+                  <div>
+                    <p className="mb-1 text-[10px] uppercase tracking-wide text-proxy-tertiary">Case Summary</p>
+                    <p className="text-sm leading-6 text-proxy-muted">{analysis.summary || "No summary available."}</p>
+                  </div>
+
+                  {/* Final report (top-level result) */}
+                  {la?.final_report && (
+                    <div className="rounded-xl border border-cyan-300/20 bg-cyan-300/5 p-3">
+                      <p className="mb-2 text-[10px] uppercase tracking-wide text-cyan-300/70">AI Final Report</p>
+                      <p className="whitespace-pre-wrap text-xs leading-5 text-proxy-text">{la.final_report}</p>
+                    </div>
+                  )}
+
+                  {!hasAnalysis && (
+                    <div className="rounded-xl border border-dashed border-white/10 p-6 text-center">
+                      <p className="text-xs text-proxy-tertiary">No AI analysis yet. Click &quot;Analyze&quot; on this case to generate research, strategy, and appeal drafts.</p>
+                    </div>
+                  )}
+
+                  {/* Generated appeals */}
+                  {report && report.appeals.length > 0 && (
+                    <div>
+                      <p className="mb-2 text-[10px] uppercase tracking-wide text-proxy-tertiary">Generated Documents</p>
+                      <div className="space-y-1.5">
+                        {report.appeals.map((appeal) => (
+                          <div key={appeal.id} className="flex items-center gap-2 rounded-lg border border-white/5 bg-black/20 p-2 text-xs">
+                            <FileText className="size-3.5 shrink-0 text-cyan-200" />
+                            <span className="truncate text-proxy-text">{appeal.title}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* RESEARCH TAB */}
+              {activeTab === "research" && (
+                <div className="space-y-4">
+                  {la?.research_summary ? (
+                    <>
+                      <div className="rounded-xl border border-white/10 bg-black/20 p-3">
+                        <p className="mb-2 text-[10px] uppercase tracking-wide text-proxy-tertiary">Research Summary</p>
+                        <p className="whitespace-pre-wrap text-xs leading-5 text-proxy-muted">{la.research_summary}</p>
+                      </div>
+                      {la.citations.length > 0 && (
+                        <div>
+                          <p className="mb-2 text-[10px] uppercase tracking-wide text-proxy-tertiary">Citations</p>
+                          <ul className="space-y-1">
+                            {la.citations.map((c, i) => (
+                              <li key={i} className="rounded-lg border border-white/5 bg-black/20 px-3 py-1.5 text-xs text-proxy-muted">{c}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    <p className="py-8 text-center text-xs text-proxy-tertiary">Research output not yet available. Run the analysis to generate it.</p>
+                  )}
+                </div>
+              )}
+
+              {/* STRATEGY TAB */}
+              {activeTab === "strategy" && (
+                <div className="space-y-4">
+                  {la?.strategy ? (
+                    <>
+                      <div className="rounded-xl border border-white/10 bg-black/20 p-3">
+                        <p className="mb-2 text-[10px] uppercase tracking-wide text-proxy-tertiary">AI Strategy</p>
+                        <p className="whitespace-pre-wrap text-xs leading-5 text-proxy-muted">{la.strategy}</p>
+                      </div>
+                      {la.review_notes.length > 0 && (
+                        <div>
+                          <p className="mb-2 text-[10px] uppercase tracking-wide text-proxy-tertiary">Review Notes</p>
+                          <ul className="space-y-1.5">
+                            {la.review_notes.map((note, i) => (
+                              <li key={i} className="rounded-lg border border-amber-300/20 bg-amber-300/5 px-3 py-1.5 text-xs text-amber-100">{note}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    <p className="py-8 text-center text-xs text-proxy-tertiary">Strategy not yet generated. Run the analysis to see the AI's recommended action plan.</p>
+                  )}
+                </div>
+              )}
+
+              {/* APPEAL DRAFT TAB */}
+              {activeTab === "appeal" && (
+                <div className="space-y-3">
+                  {la?.appeal_draft ? (
+                    <>
+                      <div className="flex items-center justify-between">
+                        <p className="text-[10px] uppercase tracking-wide text-proxy-tertiary">Generated Appeal / Complaint Draft</p>
+                        <button
+                          onClick={copyAppeal}
+                          className="rounded-lg border border-white/10 px-2 py-1 text-[10px] text-proxy-muted hover:border-cyan-300/30 hover:text-cyan-100"
+                        >
+                          {copied ? "Copied!" : "Copy"}
+                        </button>
+                      </div>
+                      <pre className="whitespace-pre-wrap rounded-xl border border-white/10 bg-black/30 p-4 text-xs leading-5 text-proxy-text">{la.appeal_draft}</pre>
+                    </>
+                  ) : (
+                    <p className="py-8 text-center text-xs text-proxy-tertiary">No appeal draft yet. Run the analysis to auto-generate a draft complaint letter.</p>
+                  )}
+                </div>
+              )}
+
+              {/* EVIDENCE TAB */}
+              {activeTab === "evidence" && (
+                <div className="space-y-4">
+                  {la?.evidence_summary && (
+                    <div className="rounded-xl border border-white/10 bg-black/20 p-3">
+                      <p className="mb-2 text-[10px] uppercase tracking-wide text-proxy-tertiary">Evidence Summary</p>
+                      <p className="whitespace-pre-wrap text-xs leading-5 text-proxy-muted">{la.evidence_summary}</p>
+                    </div>
+                  )}
+                  <div>
+                    <p className="mb-2 text-[10px] uppercase tracking-wide text-proxy-tertiary">Uploaded Documents ({report?.documents.length ?? 0})</p>
+                    {report?.documents && report.documents.length > 0 ? (
+                      <div className="space-y-1.5">
+                        {report.documents.map((doc) => (
+                          <div key={doc.id} className="flex items-center gap-2 rounded-lg border border-white/5 bg-black/20 p-2.5">
+                            <FileText className="size-3.5 shrink-0 text-proxy-tertiary" />
+                            <div className="min-w-0 flex-1">
+                              <p className="truncate text-xs text-proxy-text">{doc.filename}</p>
+                              <p className="text-[10px] text-proxy-tertiary">{doc.document_type} &middot; {doc.size_bytes ? `${Math.round(doc.size_bytes / 1024)} KB` : "—"}</p>
+                            </div>
+                            {doc.indexed && <span className="shrink-0 rounded-full bg-green-500/10 px-1.5 py-0.5 text-[9px] text-green-400">Indexed</span>}
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="text-xs text-proxy-tertiary">No documents uploaded for this case.</p>
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {/* TIMELINE TAB */}
+              {activeTab === "timeline" && (
+                <div className="space-y-2">
+                  {report?.events && report.events.length > 0 ? (
+                    report.events.map((event, i) => (
+                      <div key={event.id || i} className="flex gap-3">
+                        <div className="flex flex-col items-center">
+                          <div className="mt-0.5 size-2 shrink-0 rounded-full border border-cyan-300/40 bg-cyan-300/20" />
+                          {i < (report.events.length - 1) && <div className="mt-1 w-px flex-1 bg-white/5" />}
+                        </div>
+                        <div className="pb-3 min-w-0">
+                          <p className="text-xs font-medium text-proxy-text">{event.title}</p>
+                          {event.body && <p className="mt-0.5 text-[11px] leading-4 text-proxy-tertiary">{event.body}</p>}
+                          <p className="mt-1 text-[10px] text-proxy-tertiary/60">{event.created_at ? timeAgo(event.created_at) : ""} &middot; {event.actor}</p>
+                        </div>
+                      </div>
+                    ))
+                  ) : (
+                    <p className="py-8 text-center text-xs text-proxy-tertiary">No timeline events yet.</p>
+                  )}
+
+                  {/* Agent trace */}
+                  {la?.agent_trace && la.agent_trace.length > 0 && (
+                    <div className="mt-4">
+                      <p className="mb-2 text-[10px] uppercase tracking-wide text-proxy-tertiary">Agent Execution Trace</p>
+                      <div className="rounded-xl border border-white/5 bg-black/30 p-3">
+                        {la.agent_trace.map((step, i) => (
+                          <p key={i} className="font-mono text-[10px] text-proxy-tertiary">{step}</p>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+            </>
+          )}
         </div>
       </div>
     </div>
   );
 }
+
