@@ -2,8 +2,6 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { AppShell } from "@/components/proxy-v2/Shell";
-import { SceneBackground } from "@/components/3d/SceneBackground";
 import {
   Search, Loader2, ExternalLink, ShieldCheck, Sparkles, Command, Clock, X,
   ChevronDown, ChevronUp, MessageSquare, Zap, Layers, Gauge,
@@ -143,8 +141,7 @@ export default function CrossDomainSearchPage() {
   }
 
   return (
-    <AppShell>
-      <SceneBackground />
+    <>
       <div className="relative z-10 mx-auto max-w-6xl px-4 py-6 sm:px-6 lg:px-8">
         <header className="mb-6">
           <p className="text-xs uppercase tracking-[0.22em] text-cyan-200">PROXY Enterprise Intelligence</p>
@@ -309,7 +306,7 @@ export default function CrossDomainSearchPage() {
           box-shadow: 0 0 18px rgba(0, 229, 255, 0.35);
         }
       `}</style>
-    </AppShell>
+    </>
   );
 }
 

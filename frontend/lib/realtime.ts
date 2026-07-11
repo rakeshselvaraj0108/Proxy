@@ -12,7 +12,10 @@ export function connectAnalysisRealtime(id: string, handlers: RealtimeHandlers) 
   function startPolling() {
     handlers.onMode?.("polling");
     async function tick() {
-      try { handlers.onUpdate(await getAnalysis(id)); }
+      // getAnalysis() is a legacy bridge that returns the raw /case/{id}
+      // response as Record<string, unknown> -- this whole polling path only
+      // ever fed the pre-migration mock Analysis shape, so bridge the type.
+      try { handlers.onUpdate((await getAnalysis(id)) as unknown as Analysis); }
       catch { handlers.onError?.("Polling failed. Showing offline cache."); handlers.onMode?.("offline"); }
     }
     void tick();

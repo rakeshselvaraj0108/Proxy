@@ -117,10 +117,10 @@ function AnalysisResults({ analysis, config, locked = false, full = false }: { a
   return (
     <section className="grid gap-5">
       <div className="grid gap-3 md:grid-cols-4"><GaugeCard label={config.primaryMetric} value={analysis.successProbability} /><GaugeCard label="Confidence Score" value={analysis.confidence} /><GaugeCard label={config.matchMetric} value={analysis.policyMatch} /><GaugeCard label="Missing Documents" value={analysis.missingDocuments.length} max={5} /></div>
-      <div className="grid gap-5 xl:grid-cols-[1fr_.85fr]"><AIExplanation analysis={analysis} /><ChatPanel analysis={analysis} /></div>
+      <div className="grid gap-5 xl:grid-cols-[1fr_.85fr]"><AIExplanation analysis={analysis} /><ChatPanel caseId={analysis.id} /></div>
       <DocumentHighlights analysis={analysis} />
       <KnowledgeGraphView analysis={analysis} />
-      <div className="grid gap-5 xl:grid-cols-[1fr_.82fr]"><AppealWorkflow analysis={analysis} /><TimelinePanel analysis={analysis} /></div>
+      <div className="grid gap-5 xl:grid-cols-[1fr_.82fr]"><AppealWorkflow caseId={analysis.id} /><TimelinePanel caseId={analysis.id} /></div>
       {!full && <Link href={`/dashboard/analyses/${analysis.id}`} className="inline-flex w-fit items-center gap-2 rounded-lg border border-cyan-300/25 bg-cyan-300/10 px-4 py-2 text-sm text-cyan-100">Open full analysis room <ChevronRight className="size-4" /></Link>}
     </section>
   );

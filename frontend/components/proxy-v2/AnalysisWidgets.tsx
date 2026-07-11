@@ -754,7 +754,7 @@ export function TimelinePanel({ caseId }: { caseId: string }) {
   useEffect(() => {
     import("@/lib/api-client").then(({ getCaseReport }) => {
       getCaseReport(caseId)
-        .then(r => setEvents(r.events ?? []))
+        .then(r => setEvents((r.events ?? []).map(e => ({ ...e, body: e.body ?? undefined }))))
         .catch(() => setEvents([]))
         .finally(() => setLoading(false));
     });
