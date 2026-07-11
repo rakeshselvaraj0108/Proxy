@@ -61,17 +61,28 @@ class JsonlGraphStore(GraphStore):
         return {"document_id": document_id, "mode": "jsonl"}
 
     async def query_institution_pattern(self, domain: Domain, institution_name: str) -> list[dict[str, Any]]:
-        fallback_cases = 0
+        prior_cases: list[dict[str, Any]] = []
         for event in self._read_events("case_graph"):
             case = event.get("payload", {}).get("case", {})
             case_domain = case.get("domain")
             domain_value = case_domain.value if hasattr(case_domain, "value") else case_domain
             if case.get("institution_name") == institution_name and domain_value == domain.value:
-                fallback_cases += 1
-        if fallback_cases:
+                prior_cases.append(case)
+        if prior_cases:
+            # Real substance from those prior cases (their titles/summaries),
+            # not just a bare count -- a bare "N prior cases" number reads as
+            # filler, and find_similar_cases() already surfaces the case
+            # details separately, so this complements that with an aggregate
+            # read of what keeps coming up against this specific institution.
+            topics = list(dict.fromkeys(
+                (case.get("title") or case.get("summary", ""))[:80]
+                for case in prior_cases
+                if case.get("title") or case.get("summary")
+            ))
+            topic_str = f" Recurring issues: {'; '.join(topics[:3])}." if topics else ""
             return [
                 {
-                    "pattern": f"{fallback_cases} prior cases logged against {institution_name} in local graph memory.",
+                    "pattern": f"{len(prior_cases)} prior case(s) logged against {institution_name} in this domain.{topic_str}",
                     "domain": domain.value,
                     "institution": institution_name,
                     "confidence": 0.7,
@@ -92,14 +103,15 @@ class JsonlGraphStore(GraphStore):
                     "confidence": 0.74,
                 }
             ]
-        return [
-            {
-                "pattern": "Repeated medical necessity denials require physician support letter and internal clinical review request.",
-                "domain": domain.value,
-                "institution": institution_name,
-                "confidence": 0.74,
-            }
-        ]
+        # Honest "nothing on file" signal instead of a fabricated pattern --
+        # this used to always return a hardcoded health-insurance-specific
+        # sentence ("Repeated medical necessity denials require...") no
+        # matter what domain the case was actually in, which meant a
+        # banking/telecom/airlines/etc. case with no institution history got
+        # fed an unrelated, made-up claim dressed up as real graph
+        # intelligence. An empty list is the truthful answer: no cross-case
+        # pattern exists yet for this institution.
+        return []
 
     async def find_similar_cases(self, domain: Domain, institution_name: str, limit: int = 5) -> list[dict[str, Any]]:
         cases: list[dict[str, Any]] = []

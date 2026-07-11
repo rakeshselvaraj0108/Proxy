@@ -178,14 +178,13 @@ class Neo4jGraphStore(GraphStore):
                         "confidence": 0.74,
                     }
                 ]
-            return [
-                {
-                    "pattern": "No prior cases in graph; cite insurer policy wording and IRDAI regulations.",
-                    "domain": domain.value,
-                    "institution": institution_name,
-                    "confidence": 0.5,
-                }
-            ]
+            # Honest "nothing on file yet" -- an empty list, not a hardcoded
+            # insurance-specific sentence ("cite insurer policy wording and
+            # IRDAI regulations") that used to get returned for every domain
+            # regardless of whether the case was actually about insurance.
+            # Domain-appropriate citation guidance already lives in
+            # DOMAIN_PROMPTS; this layer shouldn't duplicate or override it.
+            return []
         outcomes = [item for item in (result["outcomes"] or []) if item]
         outcome_text = f" Outcomes observed: {', '.join(outcomes)}." if outcomes else ""
         clauses = [item for item in (result["top_clauses"] or []) if item]
