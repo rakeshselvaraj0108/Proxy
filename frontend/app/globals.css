@@ -42,3 +42,26 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   animation: dash 1s linear infinite;
 }
 
+@keyframes aperture-agent-reveal {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.aperture-agent-content {
+  animation: aperture-agent-reveal .22s cubic-bezier(.16,1,.3,1);
+}
+.agent-doc summary {
+  list-style: none;
+}
+.agent-doc summary::-webkit-details-marker {
+  display: none;
+}
+.agent-doc summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 6px;
+  transition: transform .15s ease;
+}
+.agent-doc[open] summary::before {
+  transform: rotate(90deg);
+}
+

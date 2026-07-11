@@ -75,7 +75,6 @@ export function DashboardHome() {
   const [summary, setSummary] = useState<ReportSummary | null>(null);
   const [analyses, setAnalyses] = useState<AnalysisCase[]>([]);
   const [loading, setLoading] = useState(true);
-  const [now, setNow] = useState(new Date());
 
   useEffect(() => {
     Promise.all([getReportSummary().catch(() => null), listAnalyses().catch(() => [])]).then(
@@ -85,11 +84,6 @@ export function DashboardHome() {
         setLoading(false);
       }
     );
-  }, []);
-
-  useEffect(() => {
-    const timer = window.setInterval(() => setNow(new Date()), 1000);
-    return () => window.clearInterval(timer);
   }, []);
 
   const domainStats = useMemo(() => {
@@ -120,7 +114,6 @@ export function DashboardHome() {
   }, [analyses]);
 
   const recentAnalyses = analyses.slice(0, 6);
-  const greeting = now.getHours() < 12 ? "Good morning" : now.getHours() < 18 ? "Good afternoon" : "Good evening";
   const backendOnline = summary !== null;
 
   function openDomain(domain: string) {
@@ -130,7 +123,7 @@ export function DashboardHome() {
   return (
     <div className="flex flex-1 flex-col gap-4">
       <Reveal delay={0}>
-        <HeroComposer greeting={greeting} now={now} backendOnline={backendOnline} />
+        <HeroComposer backendOnline={backendOnline} />
       </Reveal>
 
       <Reveal delay={80}>
@@ -170,12 +163,27 @@ export function DashboardHome() {
   );
 }
 
-function HeroComposer({ greeting, now, backendOnline }: { greeting: string; now: Date; backendOnline: boolean }) {
+function HeroComposer({ backendOnline }: { backendOnline: boolean }) {
   const router = useRouter();
   const [input, setInput] = useState("");
   const [livePreview, setLivePreview] = useState<DomainCandidate[]>([]);
   const [classifying, setClassifying] = useState(false);
+  const [now, setNow] = useState<Date | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  useEffect(() => {
+    setNow(new Date());
+    const timer = window.setInterval(() => setNow(new Date()), 1000);
+    return () => window.clearInterval(timer);
+  }, []);
+
+  const greeting = !now
+    ? "Welcome"
+    : now.getHours() < 12
+      ? "Good morning"
+      : now.getHours() < 18
+        ? "Good afternoon"
+        : "Good evening";
 
   useEffect(() => {
     if (input.trim().length < 12) {
@@ -231,8 +239,16 @@ function HeroComposer({ greeting, now, backendOnline }: { greeting: string; now:
           </p>
         </div>
         <div className="shrink-0 rounded-xl border border-white/10 bg-black/25 px-4 py-2.5 text-right">
-          <p className="font-mono text-lg text-proxy-text">{now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })}</p>
-          <p className="text-[11px] text-proxy-tertiary">{now.toLocaleDateString([], { weekday: "long", month: "short", day: "numeric" })}</p>
+          <p className="font-mono text-lg text-proxy-text">
+            {now
+              ? now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" })
+              : "--:--:--"}
+          </p>
+          <p className="text-[11px] text-proxy-tertiary">
+            {now
+              ? now.toLocaleDateString([], { weekday: "long", month: "short", day: "numeric" })
+              : "\u00a0"}
+          </p>
         </div>
       </div>
 

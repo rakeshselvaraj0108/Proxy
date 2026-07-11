@@ -6,10 +6,11 @@ import remarkGfm from "remark-gfm";
 import {
   FileText, Mail, AlertTriangle, Scale, Search, Copy, Download, Check, Loader2,
   Sparkles, ChevronRight, Send, Inbox, Clock, CheckCircle2, ArrowUpCircle,
+  FolderOpen, Wand2,
 } from "lucide-react";
 import {
-  listAppeals, runMultiDomainCase, updateAppealStatus, classifyQuery,
-  type Appeal, type DomainCandidate,
+  listAppeals, runMultiDomainCase, updateAppealStatus, classifyQuery, listAnalyses, getCaseReport,
+  type Appeal, type DomainCandidate, type AnalysisCase,
 } from "@/lib/api-client";
 import { ReasoningLanes } from "@/components/chat/ReasoningLanes";
 import { domainTheme } from "@/components/chat/domain-theme";
@@ -57,6 +58,15 @@ export function AppealsCenter() {
   const [genError, setGenError] = useState<string | null>(null);
   const stageTimerRef = useRef<number | null>(null);
 
+  // Cases already analyzed in New Analysis -- generating an appeal from one
+  // of these reuses that case's real summary and uploaded documents instead
+  // of asking the user to redescribe everything in a disconnected text box
+  // that has never seen their evidence.
+  const [analyses, setAnalyses] = useState<AnalysisCase[]>([]);
+  const [analysesLoading, setAnalysesLoading] = useState(true);
+  const [generatingCaseId, setGeneratingCaseId] = useState<string | null>(null);
+  const [caseGenError, setCaseGenError] = useState<string | null>(null);
+
   async function refresh() {
     try {
       const data = await listAppeals();
@@ -69,9 +79,46 @@ export function AppealsCenter() {
     }
   }
 
+  async function refreshAnalyses() {
+    try {
+      setAnalyses(await listAnalyses());
+    } catch {
+      // keep last-known list on a transient failure
+    } finally {
+      setAnalysesLoading(false);
+    }
+  }
+
   useEffect(() => {
     refresh();
+    refreshAnalyses();
   }, []);
+
+  async function generateFromCase(analysis: AnalysisCase) {
+    if (generatingCaseId) return;
+    setGeneratingCaseId(analysis.id);
+    setCaseGenError(null);
+    try {
+      // Pull the same documents already uploaded for this case in New
+      // Analysis, so the appeal letter is grounded in the same evidence --
+      // not a fresh analysis that's never seen it.
+      const report = await getCaseReport(analysis.id);
+      const documentIds = report.documents.map((d) => d.document_id);
+      const response = await runMultiDomainCase(analysis.id, analysis.summary, true, documentIds);
+      const newAppeals = Object.values(response.per_domain_results).flatMap((r) => r.appeals ?? []);
+      const updated = await refresh();
+      if (newAppeals.length > 0) {
+        const firstNew = updated.find((a) => newAppeals.some((n) => n.id === a.id));
+        if (firstNew) setSelectedId(firstNew.id);
+      } else {
+        setCaseGenError("No appeal documents were produced for this case -- it may need more specific facts (dates, amounts, institution name) to draft from.");
+      }
+    } catch (err) {
+      setCaseGenError(err instanceof Error ? err.message : "Something went wrong generating the appeal.");
+    } finally {
+      setGeneratingCaseId(null);
+    }
+  }
 
   useEffect(() => {
     if (genQuery.trim().length < 12) {
@@ -147,6 +194,19 @@ export function AppealsCenter() {
       {/* List pane */}
       <div className="flex w-full flex-col rounded-2xl border border-white/10 bg-glass backdrop-blur-2xl xl:w-[380px]">
         <div className="border-b border-white/10 p-4">
+          <CaseAppealPicker
+            analyses={analyses}
+            loading={analysesLoading}
+            appeals={appeals}
+            generatingCaseId={generatingCaseId}
+            onGenerate={generateFromCase}
+          />
+          {caseGenError && <p className="mt-2 text-xs text-red-200">{caseGenError}</p>}
+
+          <div className="my-3 flex items-center gap-2 text-[10px] uppercase tracking-wide text-proxy-tertiary">
+            <span className="h-px flex-1 bg-white/10" /> or describe a new dispute <span className="h-px flex-1 bg-white/10" />
+          </div>
+
           <GenerateBar
             query={genQuery}
             setQuery={setGenQuery}
@@ -224,6 +284,73 @@ export function AppealsCenter() {
           </div>
         )}
       </div>
+    </div>
+  );
+}
+
+function CaseAppealPicker({
+  analyses, loading, appeals, generatingCaseId, onGenerate,
+}: {
+  analyses: AnalysisCase[];
+  loading: boolean;
+  appeals: Appeal[];
+  generatingCaseId: string | null;
+  onGenerate: (analysis: AnalysisCase) => void;
+}) {
+  const appealCountByCase = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const a of appeals) counts.set(a.case_id, (counts.get(a.case_id) ?? 0) + 1);
+    return counts;
+  }, [appeals]);
+
+  return (
+    <div>
+      <p className="mb-2 flex items-center gap-1.5 text-xs font-medium text-proxy-muted">
+        <FolderOpen className="size-3.5 text-cyan-200" /> Generate from an existing case
+      </p>
+      <p className="mb-2 text-[10px] leading-4 text-proxy-tertiary">
+        Reuses that case&apos;s real summary and uploaded documents from New Analysis -- no retyping.
+      </p>
+      {loading ? (
+        <div className="flex items-center gap-2 rounded-lg border border-white/10 bg-black/20 p-3 text-xs text-proxy-tertiary">
+          <Loader2 className="size-3.5 animate-spin" /> Loading your analyses...
+        </div>
+      ) : analyses.length === 0 ? (
+        <div className="rounded-lg border border-dashed border-white/10 bg-black/10 p-3 text-center text-[11px] text-proxy-tertiary">
+          No analyses yet -- run one in New Analysis first, then generate its appeal here.
+        </div>
+      ) : (
+        <div className="max-h-40 space-y-1.5 overflow-y-auto pr-0.5">
+          {analyses.map((analysis) => {
+            const theme = domainTheme(analysis.domain);
+            const existing = appealCountByCase.get(analysis.id) ?? 0;
+            const isGenerating = generatingCaseId === analysis.id;
+            return (
+              <div
+                key={analysis.id}
+                className="flex items-center gap-2 rounded-lg border border-white/10 bg-black/20 p-2"
+              >
+                <span className="size-1.5 shrink-0 rounded-full" style={{ backgroundColor: theme.color }} />
+                <div className="min-w-0 flex-1">
+                  <p className="truncate text-[11px] font-medium text-proxy-text">{analysis.title || theme.label}</p>
+                  <p className="truncate text-[9px] text-proxy-tertiary">
+                    {theme.label}
+                    {existing > 0 ? ` · ${existing} appeal${existing === 1 ? "" : "s"} already` : ""}
+                  </p>
+                </div>
+                <button
+                  onClick={() => onGenerate(analysis)}
+                  disabled={generatingCaseId !== null}
+                  className="flex shrink-0 items-center gap-1 rounded-md border border-cyan-300/25 bg-cyan-300/10 px-2 py-1 text-[10px] text-cyan-100 hover:bg-cyan-300/15 disabled:cursor-not-allowed disabled:opacity-40"
+                >
+                  {isGenerating ? <Loader2 className="size-3 animate-spin" /> : <Wand2 className="size-3" />}
+                  {isGenerating ? "Drafting" : "Generate"}
+                </button>
+              </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
