@@ -1,4 +1,4 @@
-﻿from pathlib import Path
+from pathlib import Path
 from uuid import uuid4
 
 from fastapi import UploadFile
@@ -10,6 +10,7 @@ from app.database.supabase.client import get_supabase
 from app.knowledge_graph.neo4j.service import knowledge_graph
 from app.rag.indexing.service import indexing_service
 from app.services.case_context import DocumentType, classify_document
+from app.services.document_relevance import check_document_relevance
 from app.services.knowledge_ingestion import knowledge_ingestion_service
 
 TEXT_MIME_PREFIXES = ("text/",)
@@ -113,10 +114,19 @@ class StorageService:
 
         resolved_type = document_type or classify_document(safe_name, file.content_type).value
 
+        relevance_warning: str | None = None
         if text_extract.strip():
-            indexed, chunks_indexed = await self._index_case_text(
-                case, user_id, document_id, safe_name, storage_path, text_extract, resolved_type
+            domain_val = case.get("domain")
+            is_relevant, reason = check_document_relevance(
+                text_extract, domain_val, filename=safe_name
             )
+            if is_relevant:
+                indexed, chunks_indexed = await self._index_case_text(
+                    case, user_id, document_id, safe_name, storage_path, text_extract, resolved_type
+                )
+            else:
+                # Store the file but do NOT index it — prevent it from poisoning analysis
+                relevance_warning = reason
 
         domain = case.get("domain")
         document = {
@@ -137,6 +147,8 @@ class StorageService:
             "domain": domain.value if hasattr(domain, "value") else domain,
         }
         await case_repository.add_document(document)
+        if relevance_warning:
+            document["relevance_warning"] = relevance_warning
         return document
 
     async def get_signed_download_url(self, user_id: str, case: dict, document: dict, expires_in: int = 300) -> str:
