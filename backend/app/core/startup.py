@@ -32,6 +32,18 @@ async def collect_health_status() -> dict:
     from app.llm.service import get_llm_provider
 
     llm_health = get_llm_provider().health_check()
+    provider = (settings.llm_provider or "gemini").strip().lower()
+    llm_key_status = {
+        "status": "disabled"
+        if settings.disable_external_llm
+        else (
+            "configured"
+            if (provider == "nvidia" and settings.nvidia_api_key)
+            or (provider == "gemini" and settings.gemini_api_key)
+            else "missing_key"
+        ),
+        "provider": provider,
+    }
     return {
         "vector_store": vector,
         "graph_store": graph,
@@ -39,9 +51,7 @@ async def collect_health_status() -> dict:
             "status": "configured" if settings.supabase_url and settings.supabase_service_role_key else "not_configured",
             "url": settings.supabase_url or "",
         },
-        "gemini": {
-            "status": "disabled" if settings.disable_external_llm else ("configured" if settings.gemini_api_key else "missing_key"),
-        },
+        "llm_provider": llm_key_status,
         "llm": llm_health,
         "redis": redis_status,
         "web_search": {

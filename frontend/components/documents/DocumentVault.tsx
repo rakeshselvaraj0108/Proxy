@@ -368,7 +368,7 @@ function DocumentDetail({ doc, onClose, onDelete }: { doc: VaultDocument; onClos
             {doc.text_extract}
           </pre>
         ) : (
-          <p className="text-xs text-proxy-tertiary">No text could be extracted from this file (likely a scanned image with no OCR pass yet).</p>
+          <p className="text-xs text-proxy-tertiary">No text could be extracted from this file. Try a clearer scan/photo, or upload a text-based PDF.</p>
         )}
       </div>
     </div>

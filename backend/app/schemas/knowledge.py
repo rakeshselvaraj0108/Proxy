@@ -8,6 +8,12 @@ class DocumentUploadResponse(BaseModel):
     filename: str
     storage_path: str
     indexed: bool = False
+    extraction_method: str = "none"
+    ocr_applied: bool = False
+    pages_ocrd: int = 0
+    text_chars: int = 0
+    text_preview: str = ""
+    relevance_warning: str | None = None
 
 
 class SearchRequest(BaseModel):

@@ -1,4 +1,3 @@
-from pathlib import Path
 from uuid import uuid4
 
 from fastapi import UploadFile
@@ -9,9 +8,9 @@ from app.database.postgres.repositories import case_repository
 from app.database.supabase.client import get_supabase
 from app.knowledge_graph.neo4j.service import knowledge_graph
 from app.rag.indexing.service import indexing_service
-from app.services.case_context import DocumentType, classify_document
+from app.services.case_context import classify_document
 from app.services.document_relevance import check_document_relevance
-from app.services.knowledge_ingestion import knowledge_ingestion_service
+from app.services.ocr_service import ocr_service
 
 TEXT_MIME_PREFIXES = ("text/",)
 TEXT_EXTENSIONS = {".txt", ".md", ".csv", ".json"}
@@ -31,6 +30,13 @@ class StorageService:
     def _is_pdf(self, filename: str, mime_type: str | None) -> bool:
         lower = filename.lower()
         return lower.endswith(".pdf") or mime_type == "application/pdf"
+
+    def _is_image(self, filename: str, mime_type: str | None) -> bool:
+        lower = filename.lower()
+        return (
+            (mime_type in ALLOWED_UPLOAD_MIME and mime_type.startswith("image/"))
+            or lower.endswith((".jpg", ".jpeg", ".png", ".webp", ".gif"))
+        )
 
     def _validate_upload(self, filename: str, mime_type: str | None, size: int) -> None:
         lower = filename.lower()
@@ -100,17 +106,25 @@ class StorageService:
         text_extract = ""
         indexed = False
         chunks_indexed = 0
+        extraction_method = "none"
+        pages_ocrd = 0
+        ocr_applied = False
 
         if self._is_text_extractable(safe_name, file.content_type):
             text_extract = raw.decode("utf-8", errors="ignore")
+            extraction_method = "native"
         elif self._is_pdf(safe_name, file.content_type):
-            import tempfile
-
-            with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
-                tmp.write(raw)
-                tmp_path = Path(tmp.name)
-            text_extract = knowledge_ingestion_service.read_pdf_text(tmp_path)
-            tmp_path.unlink(missing_ok=True)
+            result = await ocr_service.extract_pdf(raw)
+            text_extract = result.text
+            extraction_method = result.method
+            pages_ocrd = result.pages_ocrd
+            ocr_applied = result.method in {"ocr", "mixed"} and result.pages_ocrd > 0
+        elif self._is_image(safe_name, file.content_type):
+            result = await ocr_service.extract_image(raw, file.content_type)
+            text_extract = result.text
+            extraction_method = result.method
+            pages_ocrd = result.pages_ocrd
+            ocr_applied = result.method == "ocr" and bool(result.text)
 
         resolved_type = document_type or classify_document(safe_name, file.content_type).value
 
@@ -142,6 +156,10 @@ class StorageService:
             "document_type": resolved_type,
             "indexed": indexed,
             "chunks_indexed": chunks_indexed,
+            "extraction_method": extraction_method,
+            "ocr_applied": ocr_applied,
+            "pages_ocrd": pages_ocrd,
+            "text_chars": len(text_extract),
             # Denormalized so the cross-case Document Vault (list_documents_for_user)
             # can show a domain badge without a join against `cases`.
             "domain": domain.value if hasattr(domain, "value") else domain,
@@ -149,6 +167,7 @@ class StorageService:
         await case_repository.add_document(document)
         if relevance_warning:
             document["relevance_warning"] = relevance_warning
+        document["text_preview"] = text_extract[:240].strip()
         return document
 
     async def get_signed_download_url(self, user_id: str, case: dict, document: dict, expires_in: int = 300) -> str:
