@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import asyncio
 import logging
 from uuid import NAMESPACE_URL, uuid5
 
@@ -54,8 +55,15 @@ class QdrantService:
             }
             for index, (chunk, vector) in enumerate(zip(chunks, vectors))
         ]
-        count = store.upsert_batch(collection_name, points)
-        store.flush(collection_name)
+        # JsonlVectorStore's upsert_batch/flush do synchronous, potentially
+        # large file I/O (some domain collections are 100+MB) -- calling
+        # them directly from this async method blocks the entire single-
+        # worker event loop for the full read/write duration, during which
+        # NO other request (even a trivial one on a totally different route)
+        # can be served. asyncio.to_thread() runs the blocking work on a
+        # worker thread instead, so the event loop stays free.
+        count = await asyncio.to_thread(store.upsert_batch, collection_name, points)
+        await asyncio.to_thread(store.flush, collection_name)
         return count
 
     def dimension_status(self, domain: Domain) -> dict:
@@ -93,7 +101,11 @@ class QdrantService:
         -- previously every domain in a cross-domain search re-embedded the
         identical query text from scratch, multiplying both latency and
         NVIDIA API usage by the domain count for zero benefit."""
-        status = self.dimension_status(domain)
+        # dimension_status() -> collection_name() -> store.get_dimension()
+        # can do a synchronous full-file load on a collection's first touch
+        # (bootstrapping the registry entry) -- off the event loop, same
+        # reasoning as the store.query() wrap below.
+        status = await asyncio.to_thread(self.dimension_status, domain)
         if status["needs_reindex"]:
             logger.warning(
                 "vector_search_skipped_dimension_mismatch domain=%s current_dim=%s target_dim=%s",
@@ -118,7 +130,18 @@ class QdrantService:
             metrics.record_latency("embedding.query", (time.monotonic() - embed_start) * 1000)
 
         search_start = time.monotonic()
-        hits = store.query(collection_name, query_vector, top_k=limit, filters=filters)
+        # The real fix: store.query() on the JsonlVectorStore fallback does a
+        # synchronous full-file load (some collections are 100+MB -- e.g.
+        # health_insurance is ~156MB) PLUS a brute-force cosine-similarity
+        # scan over every record, all synchronously. Calling it directly
+        # from this async method blocks the entire single-worker event loop
+        # for that whole duration -- on a resource-constrained deployment
+        # (e.g. Render's free tier), this was confirmed live to freeze
+        # every other in-flight request (even ones on unrelated routes)
+        # until the search finished. asyncio.to_thread() moves the blocking
+        # work to a worker thread so the event loop can keep serving other
+        # requests concurrently.
+        hits = await asyncio.to_thread(store.query, collection_name, query_vector, top_k=limit, filters=filters)
         metrics.record_latency(f"vector_search.{domain.value}", (time.monotonic() - search_start) * 1000)
         metrics.increment("vector_search_total")
         if hits:
