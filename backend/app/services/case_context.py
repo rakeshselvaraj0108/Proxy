@@ -83,8 +83,19 @@ def build_case_summary(case: dict, documents: list[dict]) -> str:
 
 
 def build_evidence_bundle(documents: list[dict], domain: str | Domain | None = None) -> str:
+    # Deliberately returns "" (not a "No documents uploaded" placeholder
+    # sentence) when there's genuinely nothing to show -- every caller
+    # (evidence_prompt, build_agent_prompt, and all 6 domain specialists'
+    # `if evidence_bundle else "..."` checks) already renders its own
+    # correct fallback message on falsy input. A truthy placeholder string
+    # here made every one of those checks treat "no evidence" as "evidence
+    # exists", which fed the model a literal "Uploaded Case Evidence:
+    # No uploaded evidence documents." block and had it judge that
+    # placeholder's "relevance" -- producing evidence_facts hallucinated
+    # from the query text and headers like "Facts confirmed from your
+    # uploaded document" when the user uploaded nothing at all.
     if not documents:
-        return "No uploaded evidence documents."
+        return ""
     # Filter out unrelated documents so they never reach the LLM
     filtered = _relevant_documents(documents, domain) if domain else documents
     parts: list[str] = []
@@ -94,4 +105,4 @@ def build_evidence_bundle(documents: list[dict], domain: str | Domain | None = N
         if not text:
             continue
         parts.append(f"=== {doc_type.upper()}: {doc.get('filename', 'document')} ===\n{text[:8000]}")
-    return "\n\n".join(parts) if parts else "Uploaded documents contain no extractable text relevant to this case."
+    return "\n\n".join(parts)
