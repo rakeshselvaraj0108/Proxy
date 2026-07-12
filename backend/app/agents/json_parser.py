@@ -86,3 +86,33 @@ def parse_agent_json(raw: str, fallback_fields: dict | None = None) -> dict:
         for key, default in fallback_fields.items():
             result.setdefault(key, default)
     return result
+
+
+def unwrap_nested_json_summary(value: str, fallback: str = "") -> str:
+    """The model occasionally re-emits its own full JSON output a second
+    time as the *value* of the "summary" field, instead of a plain prose
+    sentence -- the outer parse_agent_json() call still succeeds either way
+    (the outer JSON is well-formed), so this isn't caught by any parse
+    failure path; it just silently leaks a literal '{"can_appeal": "YES",
+    ...}' blob straight into what the user reads as the case summary/
+    strategy/answer text. If the value looks like a JSON object, try to pull
+    a real prose field back out of it. That nested blob is itself often cut
+    off mid-string by the same [:2000] truncation applied to the outer raw
+    text (the model started re-emitting a full duplicate response and ran
+    out of the truncation budget partway through), which makes it
+    unparseable with no complete data to recover -- in that case fall back
+    to the caller-supplied already-good field (e.g. recommended_strategy)
+    instead of leaking the broken, truncated JSON fragment verbatim."""
+    stripped = value.strip()
+    if not stripped.startswith("{"):
+        return value
+    # Deliberately not also requiring stripped.endswith("}") here -- a
+    # truncated nested blob (see docstring) won't end cleanly either, and
+    # that's exactly the case that most needs the fallback below.
+    nested = parse_agent_json(stripped)
+    if isinstance(nested, dict) and not nested.get("_parse_failed"):
+        for key in ("summary", "recommended_strategy", "answer"):
+            nested_value = nested.get(key)
+            if isinstance(nested_value, str) and nested_value.strip() and not nested_value.strip().startswith("{"):
+                return nested_value
+    return fallback or value

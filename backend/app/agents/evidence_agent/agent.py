@@ -12,7 +12,7 @@ domain's real extracted facts.
 
 from __future__ import annotations
 
-from app.agents.json_parser import parse_agent_json
+from app.agents.json_parser import parse_agent_json, unwrap_nested_json_summary
 from app.agents.state import AgentState, EvidenceOutput
 from app.llm.service import llm_service
 from app.prompts.health_insurance_agents import evidence_prompt
@@ -40,7 +40,7 @@ async def run_evidence_agent(state: AgentState) -> AgentState:
         **{key: value for key, value in parsed.items() if key != "_parse_failed"},
         "documents_missing": parsed.get("documents_missing", []),
         "key_dates": parsed.get("key_dates", []),
-        "summary": parsed.get("summary", raw[:2000]),
+        "summary": unwrap_nested_json_summary(parsed.get("summary", raw[:2000])),
     }
     state["evidence_output"] = evidence_output
     state["evidence_summary"] = evidence_output["summary"]

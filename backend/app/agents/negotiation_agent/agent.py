@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import json
 
-from app.agents.json_parser import parse_agent_json
+from app.agents.json_parser import parse_agent_json, unwrap_nested_json_summary
 from app.agents.state import AgentState, NegotiationOutput
 from app.llm.service import llm_service
 from app.prompts.health_insurance_agents import negotiation_prompt
@@ -89,7 +89,7 @@ async def run_negotiation_agent(state: AgentState) -> AgentState:
         "complaint_email": _as_text(parsed.get("complaint_email", "")),
         "escalation_note": _as_text(parsed.get("escalation_note", "")),
         "consumer_complaint": _as_text(parsed.get("consumer_complaint", "")),
-        "summary": _as_text(parsed.get("summary", "Appeal documents generated.")),
+        "summary": unwrap_nested_json_summary(_as_text(parsed.get("summary", "Appeal documents generated."))),
     }
     state["negotiation_output"] = negotiation_output
 

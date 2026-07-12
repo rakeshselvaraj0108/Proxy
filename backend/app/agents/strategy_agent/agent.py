@@ -8,7 +8,7 @@
 
 from __future__ import annotations
 
-from app.agents.json_parser import parse_agent_json
+from app.agents.json_parser import parse_agent_json, unwrap_nested_json_summary
 from app.agents.state import AgentState, StrategyOutput
 from app.llm.service import llm_service
 from app.prompts.health_insurance_agents import strategy_prompt
@@ -50,13 +50,14 @@ async def run_strategy_agent(state: AgentState) -> AgentState:
 
     # Parse structured output
     parsed = parse_agent_json(raw, STRATEGY_FALLBACK_FIELDS)
+    recommended_strategy = parsed.get("recommended_strategy", "")
     strategy_output: StrategyOutput = {
         "can_appeal": parsed.get("can_appeal", "UNKNOWN"),
         "success_probability": float(parsed.get("success_probability", 0.5)),
-        "recommended_strategy": parsed.get("recommended_strategy", ""),
+        "recommended_strategy": recommended_strategy,
         "evidence_required": parsed.get("evidence_required", []),
         "escalation_path": parsed.get("escalation_path", []),
-        "summary": parsed.get("summary", raw[:2000]),
+        "summary": unwrap_nested_json_summary(parsed.get("summary", raw[:2000]), fallback=recommended_strategy),
     }
     state["strategy_output"] = strategy_output
     state["strategy"] = strategy_output["summary"]

@@ -8,7 +8,7 @@
 
 from __future__ import annotations
 
-from app.agents.json_parser import parse_agent_json
+from app.agents.json_parser import parse_agent_json, unwrap_nested_json_summary
 from app.agents.state import AgentState, ReviewOutput
 from app.llm.service import llm_service
 from app.prompts.health_insurance_agents import review_prompt
@@ -42,7 +42,7 @@ async def run_review_agent(state: AgentState) -> AgentState:
         "wrong_clause_risks": parsed.get("wrong_clause_risks", []),
         "weak_arguments": parsed.get("weak_arguments", []),
         "approval_ready": bool(parsed.get("approval_ready", False)),
-        "summary": parsed.get("summary", raw[:2000]),
+        "summary": unwrap_nested_json_summary(parsed.get("summary", raw[:2000])),
     }
     state["review_output"] = review_output
 

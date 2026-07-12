@@ -8,7 +8,7 @@
 
 from __future__ import annotations
 
-from app.agents.json_parser import parse_agent_json
+from app.agents.json_parser import parse_agent_json, unwrap_nested_json_summary
 from app.agents.state import AgentState, ResearchOutput
 from app.knowledge_graph.neo4j.service import knowledge_graph
 from app.llm.service import llm_service
@@ -134,7 +134,7 @@ async def run_research_agent(state: AgentState) -> AgentState:
         "waiting_periods": parsed.get("waiting_periods", []),
         "regulations": regulations,
         "unverified_regulations": unverified_regulations,
-        "summary": parsed.get("summary", raw[:2000]),
+        "summary": unwrap_nested_json_summary(parsed.get("summary", raw[:2000])),
         "confidence": float(parsed.get("confidence", 0.5)),
     }
     state["research_output"] = research_output
