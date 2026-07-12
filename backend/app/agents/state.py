@@ -115,6 +115,14 @@ class AgentState(TypedDict, total=False):
     specialist_results: list[dict[str, Any]]
     llm_call_count: int
     workflow_engine: str
+    # How many times review has sent the case back to strategy for a fix --
+    # caps the loop so a persistently uncorrectable case still terminates
+    # instead of looping until the retry limit crashes the pipeline.
+    review_retry_count: int
+    # Freshly re-evaluated by review_agent on every pass (not inferred from
+    # review_retry_count, which stays at its capped value on a second failed
+    # pass and would otherwise be indistinguishable from "just retried once").
+    review_should_retry: bool
 
     # Phase 2: Enterprise Intelligence Layer
     candidate_domains: list[dict[str, Any]]

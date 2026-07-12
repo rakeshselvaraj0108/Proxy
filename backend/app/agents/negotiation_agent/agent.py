@@ -73,7 +73,13 @@ async def run_negotiation_agent(state: AgentState) -> AgentState:
                 else:
                     lines.append(f"{label}: {val}")
             return "\n\n".join(lines)
-        if isinstance(value, list):
+        if isinstance(value, (list, set, frozenset, tuple)):
+            # A set specifically can come from _python_literal_repair()'s
+            # ast.literal_eval fallback: a malformed field like
+            # {"point one", "point two"} (no colons) is valid Python set
+            # syntax, and literal_eval happily parses it as one -- which
+            # then crashed json.dumps() below with "Object of type set is
+            # not JSON serializable" and took down the whole agent run.
             return "\n".join(f"- {item}" for item in value)
         return json.dumps(value, ensure_ascii=False, indent=2)
 

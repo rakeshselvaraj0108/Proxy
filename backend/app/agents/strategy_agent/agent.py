@@ -30,7 +30,22 @@ async def run_strategy_agent(state: AgentState) -> AgentState:
     evidence_summary = state.get("evidence_summary", "")
     research_summary = state.get("research_summary", "")
 
-    prompt = strategy_prompt(domain, case_summary, context, evidence_summary, research_summary)
+    # If review already rejected an earlier pass (review_retry_count > 0),
+    # feed its specific findings back in rather than silently re-rolling the
+    # same prompt and hoping for a different random output.
+    review_feedback = ""
+    if state.get("review_retry_count", 0) > 0:
+        review_output = state.get("review_output", {})
+        parts = []
+        if review_output.get("hallucination_risks"):
+            parts.append("Hallucinated/unsupported claims to remove: " + "; ".join(review_output["hallucination_risks"]))
+        if review_output.get("wrong_clause_risks"):
+            parts.append("Incorrectly cited clauses/regulations to fix: " + "; ".join(review_output["wrong_clause_risks"]))
+        if review_output.get("weak_arguments"):
+            parts.append("Weak arguments to strengthen or replace: " + "; ".join(review_output["weak_arguments"]))
+        review_feedback = "\n".join(parts)
+
+    prompt = strategy_prompt(domain, case_summary, context, evidence_summary, research_summary, review_feedback)
     raw = await llm_service.generate(prompt, temperature=0.2, purpose="reasoning")
 
     # Parse structured output

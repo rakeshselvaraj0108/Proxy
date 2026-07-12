@@ -98,7 +98,8 @@ class CaseAnalysisWorkflow:
         graph.add_node("final_report", run_final_report_agent)
         graph.add_node("done", self._done)
 
-        # Define edges â€” linear pipeline
+        # Define edges â€” linear pipeline, except review can send the case
+        # back to strategy once for a corrective re-pass (see run_review_agent).
         graph.add_edge(START, "init")
         graph.add_edge("init", "research")
         graph.add_edge("research", "evidence")
@@ -106,14 +107,19 @@ class CaseAnalysisWorkflow:
         graph.add_edge("graph", "strategy")
         graph.add_edge("strategy", "negotiation")
         graph.add_edge("negotiation", "review")
-        graph.add_edge("review", "final_report")
+        graph.add_conditional_edges(
+            "review",
+            lambda state: "strategy" if state.get("review_should_retry") else "final_report",
+            {"strategy": "strategy", "final_report": "final_report"},
+        )
         graph.add_edge("final_report", "done")
         graph.add_edge("done", END)
 
         return graph.compile()
 
     async def _run_fallback(self, state: AgentState) -> AgentState:
-        """Deterministic fallback when LangGraph is not installed."""
+        """Deterministic fallback when LangGraph is not installed. Mirrors
+        the compiled graph's review->strategy retry loop (see run_review_agent)."""
         state = await self._init(state)
         state = await run_research_agent(state)
         state = await run_evidence_agent(state)
@@ -121,6 +127,10 @@ class CaseAnalysisWorkflow:
         state = await run_strategy_agent(state)
         state = await run_negotiation_agent(state)
         state = await run_review_agent(state)
+        if state.get("review_should_retry"):
+            state = await run_strategy_agent(state)
+            state = await run_negotiation_agent(state)
+            state = await run_review_agent(state)
         state = await run_final_report_agent(state)
         return await self._done(state)
 

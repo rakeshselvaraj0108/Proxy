@@ -67,9 +67,25 @@ RETURN JSON ONLY. No markdown fences. Evidence Agent output."""
     return _base(domain, task, case_summary, context, evidence)
 
 
-def strategy_prompt(domain: Domain, case_summary: str, context: str, evidence_summary: str, research_summary: str) -> str:
+def strategy_prompt(
+    domain: Domain,
+    case_summary: str,
+    context: str,
+    evidence_summary: str,
+    research_summary: str,
+    review_feedback: str = "",
+) -> str:
     profile = get_profile(domain)
     escalation_json = ", ".join(f'"{step}"' for step in profile.escalation_path)
+    feedback_block = ""
+    if review_feedback:
+        feedback_block = f"""
+
+The Review Agent rejected the previous version of this strategy. You MUST fix every issue
+below, not just acknowledge it -- do not repeat a hallucinated claim or a miscited clause a
+second time, and do not soften a flagged weak argument instead of replacing it with one the
+retrieved research/evidence actually supports:
+{review_feedback}"""
 
     if not profile.is_dispute:
         task = f"""You are the Response Planning Agent for an informational query (not a dispute -- there is no counterparty to appeal to).
@@ -95,7 +111,7 @@ Decide:
 1. What should the response prioritize covering?
 2. Are there any red-flag/urgent symptoms or concerns that must be flagged prominently?
 3. What tone is appropriate (educational, reassuring, or urging prompt care)?
-
+{feedback_block}
 RETURN JSON ONLY. No markdown fences. Response Planning Agent output."""
         return _base(domain, task, case_summary, context)
 
@@ -124,7 +140,7 @@ Decide:
 3. Recommended strategy (numbered steps)
 4. Evidence still required before filing
 5. Escalation path if the {profile.counterparty} does not respond, in order: {' -> '.join(profile.escalation_path)}
-
+{feedback_block}
 RETURN JSON ONLY. No markdown fences. Strategy Agent output."""
     return _base(domain, task, case_summary, context)
 

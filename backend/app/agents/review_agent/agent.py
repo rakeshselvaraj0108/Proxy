@@ -46,6 +46,19 @@ async def run_review_agent(state: AgentState) -> AgentState:
     }
     state["review_output"] = review_output
 
+    # Blocking = the strategy/negotiation stated something not actually
+    # supported by the retrieved evidence -- a genuine defect a re-run with
+    # explicit corrective feedback can fix. Missing evidence and "weak"
+    # arguments are not blocking: missing evidence needs a document the user
+    # hasn't provided (retrying won't produce it), and a weak argument alone
+    # may just be an honest assessment, not a defect. Capped at one retry so
+    # a persistently uncorrectable case still terminates rather than looping.
+    retry_count = state.get("review_retry_count", 0)
+    blocking = bool(review_output["hallucination_risks"]) or bool(review_output["wrong_clause_risks"])
+    should_retry = blocking and not review_output["approval_ready"] and retry_count < 1
+    state["review_retry_count"] = retry_count + 1 if should_retry else retry_count
+    state["review_should_retry"] = should_retry
+
     # Backward compatibility: review_notes = flat list of all issues
     all_issues: list[str] = []
     for issue in review_output.get("missing_evidence", []):
