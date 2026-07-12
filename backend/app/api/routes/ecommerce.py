@@ -27,7 +27,7 @@ ECOMMERCE_ROOT = PROJECT_ROOT / "knowledge" / "ecommerce"
 ECOMMERCE_MANIFEST = ECOMMERCE_ROOT / "ecommerce_corpus_manifest.json"
 ECOMMERCE_CHUNKS = ECOMMERCE_ROOT / "chunks" / "ecommerce_chunks.jsonl"
 ECOMMERCE_QUALITY_REPORT = ECOMMERCE_ROOT / "ecommerce_source_quality_report.json"
-ECOMMERCE_VECTOR_SNAPSHOT = PROJECT_ROOT / "datasets" / "vector_embeddings" / "proxy_ecommerce.jsonl"
+ECOMMERCE_VECTOR_SNAPSHOT = PROJECT_ROOT / "backend" / "datasets" / "vector_embeddings" / "proxy_ecommerce.jsonl"
 GRAPH_EVENTS = PROJECT_ROOT / "backend" / "datasets" / "knowledge_graph" / "neo4j_fallback.jsonl"
 
 _status: Dict[str, Any] = {

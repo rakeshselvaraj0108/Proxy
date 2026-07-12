@@ -11,6 +11,7 @@ dist/
 build/
 coverage/
 .next/
+*.tsbuildinfo
 .DS_Store
 *.log
 backend/.venv/

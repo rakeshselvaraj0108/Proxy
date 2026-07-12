@@ -13,6 +13,8 @@ Usage:
     python scripts/migrate_jsonl_to_qdrant.py
 """
 import sys
+import time
+from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -22,7 +24,25 @@ from app.rag.retrieval.jsonl_vector_store import JsonlVectorStore
 from app.rag.retrieval.qdrant_vector_store import QdrantVectorStore
 from app.rag.retrieval.qdrant_service import qdrant_service
 
-BATCH_SIZE = 200
+# Smaller than the original 200 -- a 200-point batch of 1024-dim vectors
+# plus text payload timed out writing to a free-tier cluster even with the
+# client's timeout raised to 60s. 64 keeps each request body small enough
+# to consistently land well under that.
+BATCH_SIZE = 64
+MAX_RETRIES = 5
+
+
+def upsert_with_retry(qdrant_store: QdrantVectorStore, collection_name: str, batch: list) -> None:
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            qdrant_store.upsert_batch(collection_name, batch)
+            return
+        except Exception as exc:
+            if attempt == MAX_RETRIES:
+                raise
+            wait = 2 ** attempt
+            print(f"    retry {attempt}/{MAX_RETRIES} after error ({exc.__class__.__name__}: {exc}); waiting {wait}s")
+            time.sleep(wait)
 
 
 def main():
@@ -37,16 +57,33 @@ def main():
             print(f"[{domain.value}] nothing to migrate (0 records in {collection_name})")
             continue
 
-        print(f"[{domain.value}] migrating {len(records)} chunks from {collection_name}...")
+        # A handful of stale records can carry a vector dimension left over
+        # from before an embedding-model switch (confirmed live: 2 of 7631
+        # health_insurance records were 768-dim leftovers among 7629 correct
+        # 1024-dim ones). Qdrant rejects a mismatched dimension with a 400,
+        # which is not transient -- retrying it endlessly just wastes time
+        # and eventually aborts the whole domain. Detect the dominant
+        # dimension and skip only the outliers, so a couple of orphaned
+        # records don't block migrating everything else.
+        dim_counts = Counter(len(r["vector"]) for r in records)
+        target_dim = dim_counts.most_common(1)[0][0]
+        good_records = [r for r in records if len(r["vector"]) == target_dim]
+        skipped = [r for r in records if len(r["vector"]) != target_dim]
+        if skipped:
+            print(f"  skipping {len(skipped)} record(s) with non-{target_dim} vector dims: "
+                  f"{[(r['id'], r['payload'].get('document_id')) for r in skipped]}")
+
+        print(f"[{domain.value}] migrating {len(good_records)} chunks from {collection_name}...")
         migrated = 0
-        for i in range(0, len(records), BATCH_SIZE):
-            batch = records[i : i + BATCH_SIZE]
-            qdrant_store.upsert_batch(collection_name, batch)
+        for i in range(0, len(good_records), BATCH_SIZE):
+            batch = good_records[i : i + BATCH_SIZE]
+            upsert_with_retry(qdrant_store, collection_name, batch)
             migrated += len(batch)
-            print(f"  {migrated}/{len(records)}")
+            print(f"  {migrated}/{len(good_records)}")
 
         grand_total += migrated
-        print(f"[{domain.value}] done -- {migrated} chunks now in real Qdrant.\n")
+        print(f"[{domain.value}] done -- {migrated} chunks now in real Qdrant "
+              f"({len(skipped)} skipped due to dimension mismatch).\n")
 
     print(f"Migration complete. Total chunks migrated: {grand_total}")
     print("Verify with: qdrant_service.count(<domain>) after setting VECTOR_STORE_BACKEND=qdrant.")

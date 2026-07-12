@@ -21,8 +21,8 @@ CHUNK_PATH = ROOT / "knowledge" / "ecommerce" / "chunks" / "ecommerce_chunks.jso
 MANIFEST_PATH = ROOT / "knowledge" / "ecommerce" / "ecommerce_corpus_manifest.json"
 ENTITY_PATH = ROOT / "knowledge" / "ecommerce" / "knowledge_graph" / "ecommerce_entities.jsonl"
 REL_PATH = ROOT / "knowledge" / "ecommerce" / "knowledge_graph" / "ecommerce_relationships.jsonl"
-VECTOR_PATH = ROOT / "datasets" / "vector_embeddings" / f"{COLLECTION}.jsonl"
-GRAPH_EVENTS_PATH = ROOT / "backend" / "datasets" / "knowledge_graph" / "neo4j_fallback.jsonl"
+VECTOR_PATH = BACKEND / "datasets" / "vector_embeddings" / f"{COLLECTION}.jsonl"
+GRAPH_EVENTS_PATH = BACKEND / "datasets" / "knowledge_graph" / "neo4j_fallback.jsonl"
 
 
 def hash_embedding(text: str, dimensions: int = 768) -> list[float]:

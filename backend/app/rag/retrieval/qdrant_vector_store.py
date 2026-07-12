@@ -16,7 +16,12 @@ class QdrantVectorStore(VectorStore):
             return self._client
         from qdrant_client import QdrantClient
 
-        self._client = QdrantClient(url=self.settings.qdrant_url, api_key=self.settings.qdrant_api_key)
+        # Default REST timeout (5s) is too short for batch upserts of 100+
+        # points with 1024-dim vectors against a free-tier cluster -- writes
+        # were confirmed to genuinely take longer than that under real load,
+        # not hang indefinitely, so a longer timeout (not a retry-storm) is
+        # the correct fix.
+        self._client = QdrantClient(url=self.settings.qdrant_url, api_key=self.settings.qdrant_api_key, timeout=60)
         return self._client
 
     def _ensure_collection(self, collection: str, vector_size: int) -> None:
