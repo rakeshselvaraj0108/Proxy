@@ -129,6 +129,21 @@
           "last_indexed": "2026-07-08T03:39:38.553154+00:00"
         }
       }
+    },
+    "healthcare_provider": {
+      "active_version": "v1",
+      "versions": {
+        "v1": {
+          "collection_name": "proxy_healthcare_provider",
+          "provider": "legacy",
+          "embedding_model": "unknown",
+          "dimension": null,
+          "status": "unknown_dimension",
+          "chunk_count": null,
+          "created_at": "2026-07-11T17:25:52.480386+00:00",
+          "last_indexed": null
+        }
+      }
     }
   }
 }

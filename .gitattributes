@@ -1,0 +1,2 @@
+backend/datasets/vector_embeddings/*.jsonl filter=lfs diff=lfs merge=lfs -text
+backend/datasets/knowledge_graph/*.jsonl filter=lfs diff=lfs merge=lfs -text
