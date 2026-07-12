@@ -113,7 +113,7 @@ References
 [
 edit
 ]
-^
+↑
 Gupta, Om (4 June 2024).
 "Government approves Rs 128cr for CPGRAMS version 8.0: Here's why it's significant"
 .
@@ -123,23 +123,23 @@ News
 24 October
 2024
 .
-^
+↑
 PTI (24 October 2024).
 "Feedback mechanism for public grievance redressal system now operational: Govt"
 .
-^
+↑
 "PM Modi launches new public grievances redressal portal 'PRAGATI'
 "
 .
 Zee News
 . 25 March 2015.
-^
+↑
 Jani, Lisa (24 March 2016).
 "India launches Telephonic Feedback System for Grievance Redressal"
 .
 Oneindia
 .
-^
+↑
 "Compilation of Guidelines for Redress of Public Grievances"
 (PDF)
 .
@@ -148,32 +148,32 @@ Ministry of Personnel, Public Grievances and Pensions
 29 December
 2016
 .
-^
+↑
 "PG portal official Dept heads"
 . Retrieved
 16 September
 2016
 .
-^
+↑
 "PMO council of Ministers"
 . Retrieved
 16 September
 2016
 .
-^
+↑
 "President's Secretariat Helpline Portal"
 .
-^
-"CPGRAMS-PMO Portal"
+↑
+"CPGRMS-PMO Portal"
 .
-^
+↑
 "Directorate of Public Grievances (DPG) Portal"
 .
-^
-"CPGRAMS Portal"
+↑
+"CPGRMS Portal"
 .
 Retrieved from "
-https://en.wikipedia.org/w/index.php?title=Centralized_Public_Grievance_Redress_and_Monitoring_System&oldid=1357540338
+https://en.wikipedia.org/w/index.php?title=Centralized_Public_Grievance_Redress_and_Monitoring_System&oldid=1363695979
 "
 Categories
 :

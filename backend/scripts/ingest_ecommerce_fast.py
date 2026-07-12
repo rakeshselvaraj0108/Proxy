@@ -76,7 +76,7 @@ async def run_pipeline():
 
         doc_id = str(uuid5(NAMESPACE_URL, f"{DOMAIN.value}:{rel}"))
         try:
-            chunks = semantic_chunking(text, chunk_size=800, overlap=150)
+            chunks = semantic_chunking(text, chunk_size=350, overlap=80)
         except Exception as e:
             print(f"  Chunking error {fpath.name}: {e} — skipping")
             continue

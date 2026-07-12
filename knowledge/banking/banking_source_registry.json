@@ -38,5 +38,11 @@
   {"authority": "Wikipedia", "title": "Automated Teller Machine", "url": "https://en.wikipedia.org/wiki/Automated_teller_machine", "folder": "cards", "category": "overview", "slug": "wiki_atm", "type": "html"},
   {"authority": "Wikipedia", "title": "Immediate Payment Service (IMPS)", "url": "https://en.wikipedia.org/wiki/Immediate_Payment_Service", "folder": "upi", "category": "payments", "slug": "wiki_imps", "type": "html"},
   {"authority": "Wikipedia", "title": "Real Time Gross Settlement (RTGS)", "url": "https://en.wikipedia.org/wiki/Real_Time_Gross_Settlement", "folder": "rbi", "category": "payments", "slug": "wiki_rtgs", "type": "html"},
-  {"authority": "Wikipedia", "title": "National Electronic Funds Transfer (NEFT)", "url": "https://en.wikipedia.org/wiki/National_Electronic_Funds_Transfer", "folder": "rbi", "category": "payments", "slug": "wiki_neft", "type": "html"}
+  {"authority": "Wikipedia", "title": "National Electronic Funds Transfer (NEFT)", "url": "https://en.wikipedia.org/wiki/National_Electronic_Funds_Transfer", "folder": "rbi", "category": "payments", "slug": "wiki_neft", "type": "html"},
+
+  {"authority": "RBI", "title": "Master Directions on Frauds - Classification and Reporting by Commercial Banks and Select FIs", "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=12702", "folder": "rbi/master_directions", "category": "fraud", "slug": "rbi_md_frauds_classification_reporting", "type": "html"},
+  {"authority": "RBI", "title": "Safe Deposit Locker / Safe Custody Article Facility Provided by Banks - Revised Instructions", "url": "https://www.rbi.org.in/commonman/english/scripts/Notification.aspx?Id=1341", "folder": "rbi/master_directions", "category": "lockers", "slug": "rbi_safe_deposit_locker_instructions", "type": "html"},
+  {"authority": "DICGC", "title": "Deposit Insurance and Credit Guarantee Corporation Home", "url": "https://www.dicgc.org.in/", "folder": "dicgc", "category": "deposit_insurance", "slug": "dicgc_home", "type": "html"},
+  {"authority": "DICGC", "title": "DICGC About Us", "url": "https://www.dicgc.org.in/about-us", "folder": "dicgc", "category": "deposit_insurance", "slug": "dicgc_about_us", "type": "html"},
+  {"authority": "Wikipedia", "title": "Deposit Insurance and Credit Guarantee Corporation", "url": "https://en.wikipedia.org/wiki/Deposit_Insurance_and_Credit_Guarantee_Corporation", "folder": "dicgc", "category": "deposit_insurance", "slug": "wiki_dicgc", "type": "html"}
 ]

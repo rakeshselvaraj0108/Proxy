@@ -748,8 +748,8 @@ Director
 (US$2,000)
 Deputy General Manager (DGM)
 Grade D Officer
-Mid-senior management role
-Deputy Secretary
+Entry to the Senior management role
+Director
 7
 ₹
 110,850
@@ -761,7 +761,7 @@ Deputy Secretary
 Assistant General Manager (AGM)
 Grade C Officer
 Supervisory management role
-Under Secretary
+Deputy Secretary
 8
 ₹
 78,450
@@ -773,7 +773,7 @@ Under Secretary
 Manager
 Grade B Officer
 Entry-to-mid officer handling regulatory and policy work
-Assistant Secretary
+Under Secretary
 9
 ₹
 62,500
@@ -785,8 +785,11 @@ Assistant Secretary
 Assistant Manager
 Grade A Officer
 Junior officer level
-Section Officer/
-Assistant Section Officer
+Assistant Secretary
+Group A
+[
+55
+]
 10
 ₹
 29,000
@@ -799,10 +802,14 @@ Assistant
 Clerical staff, attendants, operational support
 UDC / LDC / MTS
 level support staff
+Group C
+[
+56
+]
 Note:
 Apart from the Basic Pay, every officers and staffs receive Special Allowance, Grade Allowance, Dearness Allowance, Local Compensatory Allowance, Special Grade Allowance, Learning Allowance, House Rent Allowance, other monthly allowances and annual allowances as per rules in force from time to time.
 [
-55
+57
 ]
 Branches and support bodies
 [
@@ -845,7 +852,7 @@ Patna
 Ranchi
 RBI Offices in India
 [
-56
+58
 ]
 RBI Regional Office in
 Mumbai
@@ -857,7 +864,7 @@ office) in
 Kolkata
 The RBI has four regional representations: North in New Delhi, South in Chennai, East in Kolkata and West in Mumbai. The representations are formed by five members, appointed for four years by the central government and with the advice of the central board of directors serve as a forum for regional banks and to deal with delegated tasks from the Central Board.
 [
-57
+59
 ]
 RBI has 31 branches in India. Mostly all are in Capital cities, exceptions are the
 Kanpur
@@ -880,7 +887,7 @@ Indira Gandhi Institute of Development Research
 Institute for Development and Research in Banking Technology
 (IDRBT).
 [
-58
+60
 ]
 There are also four zonal training centres at Mumbai, Chennai, Kolkata, and New Delhi.
 RBI Regional Office in
@@ -894,7 +901,7 @@ capital account convertibility
 . The five-member committee recommended a three-year time frame for complete convertibility by 1999–2000.
 On 08-December-2017, Surekha Marandi, executive director (ED) of Reserve Bank of India, said RBI will open an office in the north-eastern state of Arunachal Pradesh.
 [
-59
+61
 ]
 Subsidiaries
 [
@@ -937,7 +944,7 @@ On Nov 7, 2023 RBI published
 Master Direction on Information Technology Governance, Risk, Controls and Assurance Practices
 with an objective to tighten the governance framework for technology within banking segment. The Master Direction has been in effect since April 1, 2024.
 [
-60
+62
 ]
 Indian Financial Technology and Allied Services
 [
@@ -945,7 +952,7 @@ edit
 ]
 Indian Financial Technology and Allied Services
 [
-61
+63
 ]
 was established by RBI in February-2015, mandated to design, deploy and support IT-related services to all Banks and Financial Institutions in the country and also to the Reserve Bank of India. It manages and operates the Financial messaging platform (SFMS) that comprises Real-Time Gross Settlement and National Electronic Funds Transfer. INFINET is also managed by IFTAS. IFTAS has taken over the
 I
@@ -955,7 +962,7 @@ nancial
 NET
 work (INFINET),
 [
-62
+64
 ]
 Structured Financial Messaging System (SFMS) and the Indian Banking Community Cloud (IBCC) from the IDRBT, effective 01-April-2016.
 Reserve Bank of India Innovation Hub
@@ -971,22 +978,22 @@ Companies Act, 2013
 BFSI
 sector, start-up ecosystem, regulators and academia in the financial innovation space.
 [
-63
+65
 ]
 [
-64
+66
 ]
 RBIH is working on the blueprint of
 Digital Rupee
 .
 [
-65
+67
 ]
 Through the LF Decentralized Trust, the RBI is utilizing
 Linux Foundation
 's projects to build the Digital Rupee.
 [
-66
+68
 ]
 Functions
 [
@@ -995,7 +1002,7 @@ edit
 Reserve Bank of India Scheduled Structure
 The central bank of any country executes many functions such as overseeing monetary policy, issuing currency, managing foreign exchange, working as a bank for government and as a banker of scheduled commercial banks. It also works for overall economic growth of the country. The purposes for which the RBI has been established as India's central bank has been spelt out in the preamble to the RBI Act:
 [
-67
+69
 ]
 i) "to regulate the issue of banknotes and the keeping of reserves with a view to securing monetary stability in India and generally to operate the currency and credit system of the country to its advantage; and
 (ii) that it is essential to have a modern monetary policy framework to meet the challenge of an increasingly complex economy and the primary objective of the monetary policy is to maintain price stability while keeping in mind the objective of growth" ...to regulate the issue of Bank Notes and keeping of reserves with a view to securing monetary stability in India and generally to operate the currency and credit system of the country to its advantage.
@@ -1051,7 +1058,7 @@ As a regulator and supervisor of the Indian banking system it ensures financial 
 gross domestic product
 and has to decide the design of the rupee banknotes as well as coins.
 [
-68
+70
 ]
 RBI uses methods like on-site inspections, off-site surveillance, scrutiny and periodic meetings to supervise new bank licences, setting capital requirements and regulating interest rates in specific areas. RBI is currently focused on implementing norms.
 Regulator and supervisor of the payment and settlement systems
@@ -1060,7 +1067,7 @@ edit
 ]
 Payment and settlement systems play an important role in improving overall economic efficiency. The Payment and Settlement Systems Act of 2007 (PSS Act)
 [
-69
+71
 ]
 gives the Reserve Bank oversight authority, including regulation and supervision, for the payment and settlement systems in the country. In this role, the RBI focuses on the development and functioning of safe, secure and efficient payment and settlement mechanisms. Two payment systems
 National Electronic Fund Transfer
@@ -1069,11 +1076,11 @@ RTGS
 ) allow individuals, companies and firms to transfer funds from one bank to another. These facilities can only be used for transferring money within the country.
 From 16-December-2019, one can transfer money online using the National Electronic Funds Transfer (NEFT) route 24x7, i.e., any time of the day and any day of the week. The Reserve Bank of India stated earlier in December-2019 that bank customers will be able to transfer funds through NEFT around the clock on all days including weekends and holidays from 16-December.
 [
-70
+72
 ]
 In RTGS, transactions are processed continuously 24x7.
 [
-71
+73
 ]
 Banker and debt manager to government
 [
@@ -1081,11 +1088,11 @@ edit
 ]
 Just as individuals need a bank to carry out their financial transactions effectively and efficiently, governments also need a bank to carry out their financial transactions. The RBI serves this purpose for the Government of India (GoI). The RBI is also a banker to the government and performs merchant banking function for the central and the state governments. As a banker to the Government of India, the RBI maintains its accounts, receive payments into and make payments out of these accounts. The RBI also helps the GoI to raise money from the public via issuing bonds and government-approved securities. In September 2019, a decision at RBI directors meet was taken to change the RBI financial accounting year to March–April to align itself with the central government calendar instead of the current June–July year.
 [
-72
+74
 ]
 RBI issue taxable bonds for investments. From 1 July 2020, RBI is offering Floating Rate Savings Bonds, 2020 (Taxable) – FRSB 2020 (T). The interest on the bonds is payable semi-annually on 1 January and 1 July every year. The coupon on 1 January 2021 shall be paid at 7.15%. The Interest rate for next half-year will be reset every six months, the first reset being on 1 January 2021. There is no option to pay interest on cumulative basis.
 [
-73
+75
 ]
 Managing foreign exchange
 [
@@ -1094,16 +1101,16 @@ edit
 Nagpur
 branch holds most of India's gold deposits.
 [
-74
-]
-[
-75
-]
-[
 76
 ]
 [
 77
+]
+[
+78
+]
+[
+79
 ]
 The central bank manages to reach different goals of the
 Foreign Exchange Management Act
@@ -1122,7 +1129,7 @@ The bank also destroys banknotes when they are not fit for circulation. All the 
 The RBI maintains the economic structure of the country so that it can achieve the objective of price stability as well as economic development because both objectives are diverse in themselves.
 For the printing of notes, RBI uses four facilities:
 [
-78
+80
 ]
 The
 Security Printing and Minting Corporation of India Limited
@@ -1148,7 +1155,7 @@ and
 Hyderabad
 for coin production.
 [
-78
+80
 ]
 Whilst coins are minted by, and
 ₹
@@ -1177,7 +1184,7 @@ Earlier
 On 19 May 2023 the Reserve Bank of India announced the discontinuation of the Rs 2,000 denomination banknotes from circulation.
 This decision follows the cessation of its printing in 2018-19 due to the ample availability of other denominations and the note's limited use in transactions. This move aligns with the RBI's "Clean Note Policy", addressing the notes nearing the end of their lifespan and maintaining currency efficiency.
 [
-79
+81
 ]
 Bankers' bank
 [
@@ -1185,7 +1192,7 @@ edit
 ]
 Reserve Bank of India also works as a central bank where commercial banks are account holders and can deposit money. RBI maintains banking accounts of all scheduled banks.
 [
-80
+82
 ]
 Commercial banks create credit. It is the duty of the RBI to control the credit through the CRR, repo rate, and open market operations. As the bankers' bank, the RBI facilitates the clearing of cheques between the commercial banks and helps the inter-bank transfer of funds. It can grant financial accommodation to schedule banks. It acts as the lender of the last resort by providing emergency advances to the banks.
 Intelligence sharing
@@ -1206,13 +1213,13 @@ to secure the national interests and counter the
 terrorism financing
 .
 [
-81
-]
-[
-82
-]
-[
 83
+]
+[
+84
+]
+[
+85
 ]
 Detection of fake currency
 [
@@ -1224,11 +1231,11 @@ On 22 January 2014; RBI gave a press release stating that after 31 March 2014, i
 aadhar
 to the bank branch in order to exchange the notes.
 [
-84
+86
 ]
 This move from the reserve bank is expected to unearth black money held in cash. As the new currency notes have added increased security features, they would help in curbing the menace of fake currency.
 [
-85
+87
 ]
 Developmental role
 [
@@ -1240,7 +1247,7 @@ The central bank has to perform a wide range of promotional functions to support
 ]
 The RBI faces a lot of inter-sectoral and local inflation-related problems. Some of these problems are results of the dominant part of the public sector.
 [
-86
+88
 ]
 Key tools in this effort include Priority Sector Lending such as agriculture, micro and small enterprises (MSE), housing and education. RBI work towards strengthening and supporting small local banks and encourage banks to open branches in rural areas to include large section of society in banking net.
 Custodian to foreign exchange
@@ -1293,17 +1300,17 @@ banknotes of the
 Mahatma Gandhi Series
 despite being warned by the Reserve Bank of India (RBI).
 [
-87
-]
-[
-88
-]
-The government claimed that the action would curtail the shadow economy and crack down on the use of illicit and counterfeit cash to fund illegal activity and terrorism.
-[
 89
 ]
 [
 90
+]
+The government claimed that the action would curtail the shadow economy and crack down on the use of illicit and counterfeit cash to fund illegal activity and terrorism.
+[
+91
+]
+[
+92
 ]
 Long queue in front of
 SBI
@@ -1342,10 +1349,10 @@ per week per account from 10 to 13 November 2016. This limit was increased to
 (US$250)
 per week from 14 November.
 [
-91
+93
 ]
 [
-92
+94
 ]
 For immediate cash needs, the old banknotes could be exchanged for the new ₹500 and ₹2,000 banknotes as well as ₹100 banknotes over the counter of bank branches by filling up a requisition form along with a valid ID proof. It was announced that this facility would be available until 30 December 2016.
 Initially, the limit was fixed at
@@ -1359,10 +1366,10 @@ This limit was increased to
 (US$47)
 per person from 14 to 17 November 2016.
 [
-91
+93
 ]
 [
-92
+94
 ]
 The limit was reduced to
 ₹
@@ -1370,11 +1377,11 @@ The limit was reduced to
 (US$21)
 per person from 18 November 2016.
 [
-93
+95
 ]
 All exchange of banknotes was abruptly stopped from 25 November 2016.
 [
-94
+96
 ]
 Initially, all ATMs were dispensing banknotes of only
 ₹
@@ -1384,7 +1391,7 @@ Initially, all ATMs were dispensing banknotes of only
 (US$21)
 per day.
 [
-95
+97
 ]
 From 14 November onwards, ATMs were recalibrated to dispense new ₹500 and ₹2,000 notes and to allow a maximum withdrawal of
 ₹
@@ -1396,10 +1403,10 @@ per day, while other ATMs dispensing banknotes of only ₹50 and ₹100 denomina
 (US$21)
 per day.
 [
-91
+93
 ]
 [
-92
+94
 ]
 However, exceptions were given to petrol,
 CNG
@@ -1407,10 +1414,10 @@ and gas stations, government hospitals,
 railway
 and airline booking counters, state-government recognised dairies and ration stores, and crematoriums to accept the old ₹500 and ₹1,000 banknotes until 11 November 2016, which was later extended to 14 November 2016 and once again to 24 November 2016.
 [
-96
+98
 ]
 [
-97
+99
 ]
 International airports were also instructed to facilitate an exchange of notes amounting to a total value of
 ₹
@@ -1418,7 +1425,7 @@ International airports were also instructed to facilitate an exchange of notes a
 (US$52)
 for foreign tourists and outbound passengers.
 [
-98
+100
 ]
 Under the revised guidelines issued on 17 November 2016, families were allowed to withdraw
 ₹
@@ -1432,10 +1439,10 @@ compliant. The rules were also changed for farmers who are permitted to withdraw
 (US$260)
 per week from their accounts against crop loan.
 [
-93
+95
 ]
 [
-99
+101
 ]
 Cash crunch and demerits
 [
@@ -1465,33 +1472,33 @@ and
 1,000
 banknotes since 9 November.
 [
-100
-]
-[
-101
-]
-[
 102
+]
+[
+103
+]
+[
+104
 ]
 ATMs were running out of cash after a few hours of being functional, and around half the ATMs in the country were non-functional.
 [
-101
+103
 ]
 Sporadic violence was reported in
 New Delhi
 , but there were no reports of any grievous injury,
 [
-103
+105
 ]
 people attacked bank premises and ATMs,
 [
-104
-]
-[
-105
-]
-[
 106
+]
+[
+107
+]
+[
+108
 ]
 and a ration shop was looted in
 Madhya Pradesh
@@ -1499,13 +1506,13 @@ after the shop owner refused to accept
 ₹
 500 banknotes.
 [
-107
-]
-[
-108
-]
-[
 109
+]
+[
+110
+]
+[
+111
 ]
 Merits
 [
@@ -1513,11 +1520,11 @@ edit
 ]
 It gave the country a ₹5 trillion advantage as there was a huge spike in country's tax base and addition of 100,000 more pan card holders.
 [
-110
+112
 ]
 There was a very big spike in digital transaction even small town and cities people adopted paying digitally for goods and services leading to sustained growth of non-cash payments.
 [
-111
+113
 ]
 Policy rates and reserve ratios
 [
@@ -1525,10 +1532,10 @@ edit
 ]
 Rates as of 9 April 2025
 [
-112
+114
 ]
 [
-113
+115
 ]
 Policy rates
 Policy repo rate
@@ -1546,7 +1553,7 @@ Statutory liquidity ratio (SLR)
 18.00%
 Lending and deposit rates
 [
-114
+116
 ]
 Base rate
 8.85%–10.10%
@@ -1597,7 +1604,7 @@ reverse repo
 rate is just the opposite of repo rate. Reverse repo rate is the short-term borrowing rate in which commercial bank park their surplus in RBI. The reserve bank uses this tool when it feels there is too much money floating in the banking system. An increase in the reverse repo rate means that the banks will get a higher rate of interest from RBI. As a result, banks prefer to lend their money to RBI which is always safe instead of lending it to others (people, companies, etc.) which is always risky.
 Repo rate signifies the rate at which liquidity is injected into the banking system by RBI, whereas reverse repo rate signifies the rate at which the central bank absorbs liquidity from the banks. Currently, reverse repo rate is 3.35%.
 [
-115
+117
 ]
 Statutory liquidity ratio (SLR)
 [
@@ -1618,18 +1625,18 @@ Direct credit controls in India are of three types:
 Part of the interest rate structure, i.e., on small savings and provident funds, are administratively set.
 Banks are mandatory required to keep 18% of their NDTL (net demand and time liabilities) in the form of liquid assets.
 [
-112
+114
 ]
 Banks are required to lend to the priority sectors to the extent of 40% of their advances.
 The share of net demand and time liabilities that banks must maintain in safe and liquid assets, such as government securities, cash, and gold. Here it would be pertinent to mention the gold swap of July 2014.
 [
-116
+118
 ]
 [
-117
+119
 ]
 [
-77
+79
 ]
 The present SLR is 18.00%.
 Bank rate
@@ -1640,7 +1647,7 @@ Further information:
 Bank rate
 Bank rate is defined in Section 49 of the RBI Act of 1934 as the 'standard rate at which RBI is prepared to buy or rediscount bills of exchange or other commercial papers eligible for purchase'. When banks want to borrow long term funds from the RBI, it is the interest rate which the RBI charges to them. It is currently set to 6.50%.
 [
-112
+114
 ]
 The bank rate is not used to control money supply, but penal rates continue to be linked to the bank rate. If a bank fails to meet
 SLR
@@ -1672,11 +1679,11 @@ edit
 ]
 CRR refers to the ratio of bank's cash reserve balances with RBI with reference to the bank's net demand and time liabilities to ensure the liquidity and solvency of the scheduled banks. The share of net demand and time liabilities that banks must maintain as cash with the RBI. The RBI has set CRR at 4.0%
 [
-118
+120
 ]
 A 1% change in CRR affects the economy by ₹1.37 trillion.
 [
-118
+120
 ]
 An increase draw this amount from the economy, while a decrease injects this amount into the economy. So if a bank has
 ₹
@@ -1713,7 +1720,7 @@ purchase of government securities. The Reserve Bank is monitoring the financial 
 COVID-19 pandemic in India
 fears of a recession.
 [
-119
+121
 ]
 Marginal standing facility (MSF)
 [
@@ -1721,7 +1728,7 @@ edit
 ]
 This scheme was introduced in May 2011 and all the scheduled commercial bank can participate in this scheme. Banks can borrow up to 2.5%
 [
-120
+122
 ]
 per cent of their respective net demand and time liabilities. The RBI receives application under this facility for a minimum amount of
 ₹
@@ -1732,11 +1739,11 @@ million and in multiples of
 million thereafter.
 The important difference from repo rate is that bank can pledge government securities from its SLR quota (up to one per cent). So even if SLR goes below 20.5%
 [
-121
+123
 ]
 by pledging SLR quota securities under MSF, the bank will not have to pay any penalty. The marginal standing facility rate currently stands at 4.25%.
 [
-112
+114
 ]
 Qualitative tools
 [
@@ -1776,7 +1783,7 @@ RBI decided to remove charges on RTGS (Real Time Gross Settlement System) and NE
 National Electronic Funds Transfer
 ).
 [
-122
+124
 ]
 Regulation of variable pay of bank management
 [
@@ -1784,7 +1791,7 @@ edit
 ]
 In November, RBI introduced a set of draft guidelines to regulate the variable pay of CEOs and top management at private banks. The new rules are in line with the Sound Compensation Practices issued by the Financial Stability Board in April 2009. The rules will apply to CEOs, wholetime directors, and material risk takers at private banks, small finance banks and domestic executives of foreign banks. As per the new rules at least 50% of the pay should be based on individual, unit, business and firm wide performance evaluation which will be capped at 300% of the fixed pay. In case of variable pay above 200% then at least 50% of this amount should be via non-cash instruments. Share linked instruments are included as part of variable pay. Guaranteed bonus should not be part of the compensation package except in case of joining bonus. The RBI also has put clauses in place to clawback/malus in case of deteriorating performance. The bank shall identify a representative set of conditions when the recovery clause for clawback /malus can be invoked.
 [
-123
+125
 ]
 Publications
 [
@@ -1796,11 +1803,11 @@ is published annually, as required by the
 Banking Regulation Act, 1949
 . The report sums up trends and developments throughout the financial sector.
 [
-124
+126
 ]
 Starting in April 2014, the Reserve Bank of India publishes bi-monthly policy updates.
 [
-125
+127
 ]
 Committees set up by RBI
 [
@@ -1820,7 +1827,7 @@ bank in order to make recommendations on the norm for resolution of
 COVID-19
 related stressed loans. In order to restructure the loans up to ₹150 billion, the expert Committee was tasked with coming up with a sector specific plan for successful resolution of the stressed loans. The parameters were to include aspects related to leverage, liquidity and debt serviceability.
 [
-126
+128
 ]
 Attempt to caution customers against virtual currencies
 [
@@ -1828,11 +1835,11 @@ edit
 ]
 In April 2018, RBI banned banks from supporting crypto transactions after cases of fraud through virtual currencies were reported. However, the Supreme Court struck down the ban in March 2020. Among the reasons cited was that cryptocurrencies were not illegal though unregulated in India.
 [
-127
+129
 ]
 On June 30, 2025, the RBI directed all banks to use the Financial Fraud Risk Indicator (FRI), a tool developed by the Department of Telecommunications. The FRI flags mobile numbers linked to fraud in real time, helping banks prevent online financial scams.
 [
-128
+130
 ]
 Training academies
 [
@@ -1840,22 +1847,22 @@ edit
 ]
 Reserve Bank Staff College,
 [
-129
+131
 ]
 Chennai
 Reserve Bank of India Academy,
 [
-130
+132
 ]
 Mumbai
 Reserve Bank of India College of Agricultural Banking,
 [
-131
+133
 ]
 Pune
 The 3 training colleges of the Reserve Bank of India, train the officers of the Reserve Bank of India, and the banking industry.
 [
-132
+134
 ]
 Research units
 [
@@ -1871,7 +1878,7 @@ edit
 ]
 Regulatory bodies:
 [
-133
+135
 ]
 Export-Import Bank of India
 National Bank for Agriculture and Rural Development
@@ -1899,7 +1906,7 @@ Monetary Authority of Singapore
 Bank Indonesia
 involved as a special observer. The platform, which is expected to go live by 2026, will interlink domestic fast payment systems of the member countries.
 [
-134
+136
 ]
 In popular culture
 [
@@ -2562,6 +2569,23 @@ Reserve Bank of India
 . RBI
 . Retrieved
 22 May
+2026
+.
+↑
+Department of Financial Services, Ministry of Finance (7 April 2025).
+"Office Memorandum: Establishing the equivalence of posts in the PSBs, PSICs, PFIs, RRBs and Sectoral Regulators"
+(PDF)
+. Government of India
+. Retrieved
+8 July
+2026
+.
+↑
+Press Information Bureau (2 January 2019).
+"Posts Equivalent to Group A"
+(in Hindi). Ministry of Personnel, Public Grievances & Pensions, Government of India
+. Retrieved
+8 July
 2026
 .
 ↑
@@ -5234,7 +5258,7 @@ Business and economics
 Numismatics
 India
 Retrieved from "
-https://en.wikipedia.org/w/index.php?title=Reserve_Bank_of_India&oldid=1362571875
+https://en.wikipedia.org/w/index.php?title=Reserve_Bank_of_India&oldid=1363162881
 "
 Categories
 :
@@ -5261,6 +5285,7 @@ Pages using infobox mapframe with missing coordinates
 Pages using embedded infobox templates with the title parameter
 Webarchive template wayback links
 CS1 errors: missing periodical
+CS1 Hindi-language sources (hi)
 All articles with unsourced statements
 Articles with unsourced statements from August 2020
 Commons category link from Wikidata

@@ -102,9 +102,10 @@ billion)
 ]
 (2026)
 Total equity
+{{increase}}
 ₹
-−35,758 crore
-(US$−3.7
+35,758 crore
+(US$3.7
 billion)
 [
 4
@@ -1546,7 +1547,7 @@ Vodafone Idea
 Voltas
 Yes Bank
 Retrieved from "
-https://en.wikipedia.org/w/index.php?title=Vodafone_Idea&oldid=1361188544
+https://en.wikipedia.org/w/index.php?title=Vodafone_Idea&oldid=1363134591
 "
 Categories
 :

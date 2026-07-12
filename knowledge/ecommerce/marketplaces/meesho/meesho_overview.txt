@@ -492,7 +492,7 @@ edit
 ]
 Official Website
 Retrieved from "
-https://en.wikipedia.org/w/index.php?title=Meesho&oldid=1358982949
+https://en.wikipedia.org/w/index.php?title=Meesho&oldid=1363028790
 "
 Categories
 :
@@ -505,6 +505,7 @@ Privately held companies of India
 Companies listed on the Bombay Stock Exchange
 Companies listed on the National Stock Exchange of India
 2025 initial public offerings
+Y Combinator companies
 Hidden categories:
 Articles with short description
 Short description is different from Wikidata

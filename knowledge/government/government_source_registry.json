@@ -44,5 +44,23 @@
   {"authority": "Wikipedia", "title": "Digital India", "url": "https://en.wikipedia.org/wiki/Digital_India", "folder": "india_gov", "category": "policy", "slug": "wiki_digital_india"},
   {"authority": "Wikipedia", "title": "Consumer Protection Act 2019", "url": "https://en.wikipedia.org/wiki/Consumer_Protection_Act,_2019", "folder": "consumer", "category": "law_overview", "slug": "wiki_consumer_protection_act_2019"},
   {"authority": "Wikipedia", "title": "Income Tax Department (India)", "url": "https://en.wikipedia.org/wiki/Income_Tax_Department", "folder": "incometax", "category": "overview", "slug": "wiki_income_tax_dept"},
-  {"authority": "Wikipedia", "title": "Ministry of Home Affairs (India)", "url": "https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(India)", "folder": "india_gov", "category": "overview", "slug": "wiki_mha"}
+  {"authority": "Wikipedia", "title": "Ministry of Home Affairs (India)", "url": "https://en.wikipedia.org/wiki/Ministry_of_Home_Affairs_(India)", "folder": "india_gov", "category": "overview", "slug": "wiki_mha"},
+
+  {"authority": "MeitY", "title": "UMANG - One App, Many Government Services", "url": "https://web.umang.gov.in/", "folder": "umang", "category": "overview", "slug": "umang_home"},
+  {"authority": "MeitY", "title": "UMANG - Digital India Initiative Page", "url": "https://www.digitalindia.gov.in/initiative/umang/", "folder": "umang", "category": "overview", "slug": "digitalindia_umang"},
+  {"authority": "EPFO", "title": "Employees' Provident Fund Organisation Home", "url": "https://www.epfindia.gov.in/site_en/", "folder": "epfo", "category": "overview", "slug": "epfo_home"},
+  {"authority": "EPFO", "title": "EPFO For Employees", "url": "https://www.epfindia.gov.in/site_en/For_Employees.php", "folder": "epfo", "category": "guide", "slug": "epfo_for_employees"},
+  {"authority": "Ministry of Labour", "title": "About e-Shram Portal", "url": "https://eshram.gov.in/e-shram-portal", "folder": "eshram", "category": "overview", "slug": "eshram_about"},
+  {"authority": "Ministry of Labour", "title": "e-Shram Portal Home", "url": "https://eshram.gov.in/indexmain", "folder": "eshram", "category": "overview", "slug": "eshram_home"},
+  {"authority": "PIB", "title": "E-Shram Portal: World's Largest Database of Unorganised Workers", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086193", "folder": "eshram", "category": "overview", "slug": "pib_eshram_database"},
+  {"authority": "MeitY", "title": "myScheme - Government Schemes Discovery Platform", "url": "https://www.myscheme.gov.in/", "folder": "myscheme", "category": "overview", "slug": "myscheme_home"},
+  {"authority": "MeitY", "title": "myScheme - About Us", "url": "https://www.myscheme.gov.in/about", "folder": "myscheme", "category": "overview", "slug": "myscheme_about"},
+  {"authority": "DFPD", "title": "Department of Food and Public Distribution Home", "url": "https://dfpd.gov.in/en", "folder": "consumer", "category": "food_distribution", "slug": "dfpd_home"},
+  {"authority": "DoCA", "title": "Department of Consumer Affairs Home", "url": "https://consumeraffairs.gov.in/", "folder": "consumer", "category": "overview", "slug": "consumeraffairs_home"},
+  {"authority": "PFRDA", "title": "Pension Fund Regulatory and Development Authority Home", "url": "https://www.pfrda.org.in/", "folder": "pensions", "category": "regulator", "slug": "pfrda_home"},
+  {"authority": "Ministry of Labour", "title": "National Career Service Portal", "url": "https://www.ncs.gov.in/", "folder": "employment", "category": "overview", "slug": "ncs_home"},
+  {"authority": "PMBJP", "title": "Janaushadhi (PMBJP) Portal Home", "url": "https://janaushadhi.gov.in/", "folder": "schemes", "category": "scheme", "slug": "janaushadhi_home"},
+  {"authority": "Wikipedia", "title": "National Career Service (India)", "url": "https://en.wikipedia.org/wiki/National_Career_Service_(India)", "folder": "employment", "category": "overview", "slug": "wiki_ncs"},
+  {"authority": "Wikipedia", "title": "UMANG", "url": "https://en.wikipedia.org/wiki/UMANG", "folder": "umang", "category": "overview", "slug": "wiki_umang"},
+  {"authority": "Wikipedia", "title": "Pradhan Mantri Bharatiya Janaushadhi Pariyojana", "url": "https://en.wikipedia.org/wiki/Pradhan_Mantri_Bharatiya_Janaushadhi_Pariyojana", "folder": "schemes", "category": "scheme", "slug": "wiki_pmbjp"}
 ]

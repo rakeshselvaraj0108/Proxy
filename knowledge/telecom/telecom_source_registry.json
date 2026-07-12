@@ -241,5 +241,20 @@
     "category": "fiber",
     "slug": "bsnl_sim_mnp",
     "max_linked_pdfs": 1
-  }
+  },
+
+  {"authority": "DoT", "title": "Sanchar Saathi Portal (Citizen Central Portal)", "url": "https://sancharsaathi.gov.in/", "folder": "sanchar_saathi", "category": "consumer_protection", "slug": "sanchar_saathi_home", "max_linked_pdfs": 0},
+  {"authority": "DoT", "title": "Sanchar Saathi - Chakshu Suspected Fraud Communication Reporting", "url": "https://sancharsaathi.gov.in/sfc/", "folder": "sanchar_saathi", "category": "fraud_reporting", "slug": "sanchar_saathi_chakshu", "max_linked_pdfs": 0},
+  {"authority": "TRAI", "title": "TCCCPR - Telecom Commercial Communications Customer Preference Regulations Page", "url": "https://trai.gov.in/tcccpr", "folder": "trai", "category": "spam_ucc", "slug": "trai_tcccpr_page", "max_linked_pdfs": 0},
+  {"authority": "TRAI", "title": "Telecom Commercial Communications Customer Preference Regulations, 2018 (Full Text)", "url": "https://www.trai.gov.in/sites/default/files/2024-09/RegulationUcc19072018.pdf", "folder": "trai", "category": "spam_ucc", "slug": "trai_tcccpr_2018_full_text", "type": "pdf", "max_linked_pdfs": 0},
+  {"authority": "TRAI", "title": "Quality of Service (Code of Practice for Metering and Billing Accuracy) Regulations, 2023", "url": "http://trai.gov.in/node/3194", "folder": "trai", "category": "billing_accuracy", "slug": "trai_qos_metering_billing_2023", "max_linked_pdfs": 0},
+  {"authority": "TRAI", "title": "TRAI Regulations Index", "url": "https://www.trai.gov.in/release-publication/regulations", "folder": "trai", "category": "regulations", "slug": "trai_regulations_index_2", "max_linked_pdfs": 0},
+  {"authority": "PIB", "title": "TRAI Strengthens Consumer Protection with Amendments to TCCCPR, 2018", "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2102413", "folder": "trai", "category": "spam_ucc", "slug": "pib_tcccpr_amendment", "max_linked_pdfs": 0},
+  {"authority": "TRAI", "title": "Customer Preference Registration Facility (NCPR / DND)", "url": "https://trai.gov.in/preference-registration", "folder": "trai", "category": "dnd_ncpr", "slug": "trai_preference_registration", "max_linked_pdfs": 0},
+  {"authority": "USOF", "title": "Universal Service Obligation Fund / Digital Bharat Nidhi", "url": "https://usof.gov.in/en/home", "folder": "usof", "category": "rural_connectivity", "slug": "usof_home", "max_linked_pdfs": 0},
+  {"authority": "Wikipedia", "title": "Do Not Disturb Registry", "url": "https://en.wikipedia.org/wiki/Do_Not_Disturb_Registry", "folder": "trai", "category": "dnd_ncpr", "slug": "wiki_dnd_registry", "max_linked_pdfs": 0},
+  {"authority": "TRAI", "title": "Telecommunication Mobile Number Portability Regulations, 2009 (Full Text)", "url": "https://www.trai.gov.in/sites/default/files/2024-10/201208081218350931511Regulation23sep09%5b1%5d.pdf", "folder": "mnp", "category": "mnp", "slug": "trai_mnp_regulations_2009_full_text", "type": "pdf", "max_linked_pdfs": 0},
+  {"authority": "TRAI", "title": "Telecommunication Tariff Order 1999 (Amendment, Jan 2022)", "url": "https://www.trai.gov.in/sites/default/files/2024-09/Regulation_27012022.pdf", "folder": "trai", "category": "tariff", "slug": "trai_tariff_order_amendment_2022", "type": "pdf", "max_linked_pdfs": 0},
+  {"authority": "TRAI", "title": "Standards of QoS of Basic Telephone (Wireline) and Cellular Mobile Telephone Service Regulations, 2009", "url": "https://www.trai.gov.in/sites/default/files/2024-09/201211091141353328813Regulation20mar09%20(1).pdf", "folder": "trai", "category": "quality_of_service", "slug": "trai_qos_basic_cellular_2009", "type": "pdf", "max_linked_pdfs": 0},
+  {"authority": "TRAI", "title": "TRAI Quality of Service Landing Page", "url": "http://www.trai.gov.in/telecom/qos", "folder": "trai", "category": "quality_of_service", "slug": "trai_qos_landing", "max_linked_pdfs": 0}
 ]

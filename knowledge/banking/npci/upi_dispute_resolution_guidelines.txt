@@ -1,0 +1,9 @@
+# UPI Dispute Resolution Guidelines
+
+## Clause 1.1: Failed UPI Payment
+When a Transaction INVOLVES a Merchant and a Customer, and the amount is debited but the merchant has not received the funds, it is a failed UPI payment.
+The Customer FILES Complaint with their bank via the UPI app.
+
+## Clause 1.2: Reversal Timelines
+The issuing Bank ISSUES a reversal within T+1 days.
+If the reversal is not done within T+1, a Penalty of Rs 100 per day is payable to the Customer.

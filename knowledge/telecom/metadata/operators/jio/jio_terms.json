@@ -1,15 +1,8 @@
 {
-  "domain": "telecom",
-  "authority": "Jio",
   "title": "Jio Terms and Conditions",
-  "category": "terms",
+  "authority": "Jio",
   "source_url": "https://www.jio.com/en-in/terms-and-conditions",
-  "final_url": "https://www.jio.com/page-not-found.html",
+  "domain": "telecom",
   "type": "html_text",
-  "official_source": true,
-  "raw_chars": 2209,
-  "stored_path": "knowledge/telecom/operators/jio/jio_terms.txt",
-  "sha256": "f5cc892dec94f734a9d26c9257f25aba95965c4f54c49f244dbb5acbc28a714f",
-  "bytes": 2215,
-  "fetched_at": "2026-07-06T13:59:33.117568+00:00"
+  "raw_chars": 1519
 }

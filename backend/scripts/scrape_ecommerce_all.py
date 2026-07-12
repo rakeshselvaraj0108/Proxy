@@ -185,6 +185,32 @@ SOURCES = [
     ("https://en.wikipedia.org/wiki/Refund",
      "refunds", "refund_law_overview",
      "Refund Laws and Procedures", "Legal"),
+
+    # ── NEW: OFFICIAL RULES, ACTS & GUIDELINES (verified this session) ─────
+    ("https://www.icsi.edu/media/webmodules/Consumer_Protection_E-Commerce_Rules_2020.pdf",
+     "regulations", "ecommerce_rules_2020_full_text",
+     "Consumer Protection (E-Commerce) Rules, 2020 - Full Text", "GoI"),
+    ("https://www.indiacode.nic.in/ViewFileUploaded?path=AC_CEN_21_44_00007_201001_1517807327712%2Fnotificationindividualfile%2F&file=2-packgd_rules_2011.pdf",
+     "regulations", "legal_metrology_packaged_commodities_rules_2011",
+     "Legal Metrology (Packaged Commodities) Rules, 2011 - Full Text", "GoI"),
+    ("https://www.nls.ac.in/wp-content/uploads/2021/04/Dark-Patterns.pdf",
+     "ccpa", "ccpa_dark_patterns_guidelines_2023",
+     "CCPA Guidelines for Prevention and Regulation of Dark Patterns, 2023", "CCPA"),
+    ("https://fcsca.mizoram.gov.in/uploads/qms/e9121baff24698a3668010b6befee96c/consumer-protection-act-2019.pdf",
+     "consumer_protection", "consumer_protection_act_2019_full_text",
+     "Consumer Protection Act, 2019 - Full Text", "GoI"),
+    ("https://consumeraffairs.gov.in/pages/consumer-protection-acts",
+     "consumer_protection", "doca_consumer_protection_acts_page",
+     "Department of Consumer Affairs - Consumer Protection Acts", "DoCA"),
+    ("https://www.ondc.org/",
+     "ondc", "ondc_official_home",
+     "ONDC Official Website", "ONDC"),
+    ("https://www.ondc.org/learn-about-ondc/",
+     "ondc", "ondc_learn_about",
+     "Learn About ONDC", "ONDC"),
+    ("https://www.amazon.in/gp/help/customer/display.html?nodeId=202134240",
+     "marketplaces/amazon", "amazon_grievance_redressal",
+     "Amazon Pay Grievance Redressal Policy", "Amazon"),
 ]
 
 # ───────────────────────────────────────────────────────────────────────────

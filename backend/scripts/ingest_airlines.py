@@ -241,7 +241,7 @@ async def run_pipeline():
             doc_id = str(uuid5(NAMESPACE_URL, f"{Domain.AIRLINES.value}:{file.name}"))
             
             # semantic_chunking()
-            chunks = semantic_chunking(text, chunk_size=800, overlap=150)
+            chunks = semantic_chunking(text, chunk_size=350, overlap=80)
             
             # embedding() & vector_storage()
             await qdrant_service.upsert_chunks(Domain.AIRLINES, doc_id, chunks, meta)

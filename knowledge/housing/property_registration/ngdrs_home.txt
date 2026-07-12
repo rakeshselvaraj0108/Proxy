@@ -1,0 +1,55 @@
+Home | NGDRS
+N
+G
+D
+R
+S
+L
+O
+A
+D
+I
+N
+G
+26
+States
+3354
+Total SROs
+28483765
+Total Appointments
+67898503
+Documents Submitted
+64659386
+Documents Registered
+# The data is extracted from respective state live IGR servers for the period of 01-01-2017 to 12-07-2026 at 00:00 Hrs.
+5
+States
+1506
+Total SROs
+38504
+Total Appointments
+39839
+Documents Submitted
+39789
+Documents Registered
+# The data is submitted by respective state IGR Department (Data Entry Form)
+Introduction to
+NGDRS
+A project initiated by the Department of Land Resources, Ministry of Rural Development, Government of India, the National Generic Document Registration System (NGDRS) is a common, generic and configurable application developed for registration departments across the country. The application is specifically designed for the use of sub registrars, citizens and apex users from registration departments. NGDRS facilitates states to create state specific instances and configure the software as per requirements. Offering a complete user interface for property and document registration, the application enables citizens to proceed with land buying online. They can find out the circle rate for land, calculate property valuation as per prevailing rates and understand the type of land.
+Transactions of prohibited properties are restricted for sale like government land, tribal land,mortgaged land etc., is also available,which ultimately helps them decide where and what type of land they should buy. Thereafter, they can apply online for document submission, make instant payment and take prior appointments. Property buyers need to visit the sub-registrar’s office only once and that too at the time of final signing and registration. This entire workflow has not only proved to be beneficial for citizens but has also increased productivity of the department staff.
+Read More
+Shri Shivraj Singh Chouhan
+Minister of Rural Development, Agriculture & Farmers Welfare
+Dr. Chandra Sekhar Pemmasani
+Minister of State for Rural Development & Ministry of Communications
+Shri Kamlesh Paswan
+Minister of State for Rural Development
+Shri. Narendra Bhooshan
+Secretary, Department of Land Resources, Ministry of Rural Development
+Latest Updates
+Launching NGDRS in Ladahkh
+Launching NGDRS in Ladahkh
+Launching NGDRS in Ladahkh
+Launching NGDRS in Ladahkh
+Video Gallery
+View All

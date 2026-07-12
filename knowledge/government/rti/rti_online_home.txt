@@ -20,6 +20,7 @@ Contact Us
 FAQ
 Payment Reconciliation
 The Central Information Commission (CIC) has integrated its Second Appeal Filing Portal with the Department of Personnel and Training (DoPT) RTI Online Portal. Now, while submitting a Second Appeal, appellants can input the First Appeal Registration Number, Email ID and Date of Filing the First Appeal, thereafter, the system will automatically retrieve related details of the RTI Application and First Appeal from the RTI Online Portal. This will ensure a smooth and more streamlined Second Appeal filing process.
+Due to Scheduled Maintenance activity, SBIePay Lite/MOPS application will not be available from 01:40 hrs IST to 03:10 hrs IST on 11th July 2026. Services will be available from 03:10 hrs IST onward on 11th July 2026.
 Please do not file RTI applications through this portal for the public authorities under the State Governments, including Government of NCT Delhi. If filed, the application would be returned, without refund of amount.
 This is a portal to file RTI applications/first appeals online along with payment gateway. Payment can be made through internet banking, debit/credit cards of Master/Visa, RuPay cards and UPI. Through this portal, RTI applications/first appeals can be filed by Indian Citizens for all Ministries/Departments and other Public Authorities of Central Government. RTI applications/first appeals should not be filed for other Public authorities under State Govt. through this portal.
 Please read instructions carefully while submitting request/appeal.

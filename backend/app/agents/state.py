@@ -64,6 +64,10 @@ class ReviewOutput(TypedDict, total=False):
 class AgentState(TypedDict, total=False):
     # Case identity
     case_id: str
+    # The real, saved case's id -- only set (and different from case_id) in
+    # multi-domain runs, where case_id is per-domain-suffixed for internal
+    # state isolation but only one case record is ever actually saved.
+    base_case_id: str
     user_id: str
     domain: Domain
     case_summary: str

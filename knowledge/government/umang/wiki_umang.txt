@@ -1,0 +1,604 @@
+UMANG - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+Indian government app
+UMANG
+Unified Mobile Application for New-age Governance
+Developer
+Government of India
+Release
+November
+2017
+;
+8
+years ago
+(
+2017-11
+)
+Operating system
+Android
+,
+iOS
+Available in
+22
+Languages of India
+Type
+Online service provider
+,
+DigiLocker
+,
+License
+Freeware
+,
+proprietary
+Website
+umang.gov.in
+Politics of India
+Constitution
+Amendment
+Basic structure doctrine
+Fundamental Rights, Directive Principles, and
+Fundamental Duties
+Human rights
+Judicial review
+Taxation
+Government
+President of India
+(
+List
+)
+Droupadi Murmu
+Vice President of India
+(
+List
+)
+C. P. Radhakrishnan
+Prime Minister of India
+(
+List
+)
+Narendra Modi
+Cabinet Secretary
+T. V. Somanathan
+Ministries
+Ministers
+Departments and Agencies
+Secretaries
+Parliament
+Lok Sabha
+(
+18th
+)
+Speaker
+Om Birla
+Deputy Speaker
+Vacant
+Leader of the House
+Narendra Modi
+(
+BJP
+)
+Leader of the Opposition
+Rahul Gandhi
+(
+INC
+)
+Secretary General
+Utpal Kumar Singh
+Rajya Sabha
+(
+Members
+)
+Chairman
+C. P. Radhakrishnan
+Deputy Speaker
+Harivansh Narayan Singh
+Leader of the House
+Jagat Prakash Nadda
+(
+BJP
+)
+Leader of the Opposition
+Mallikarjun Kharge
+(
+INC
+)
+Secretary General
+Pramod Chandra Mody
+Ministry of Parliamentary Affairs
+Cabinet Minister
+Kiren Rijiju
+Minister of State
+Arjun Ram Meghwal
+L. Murugan
+Law and judiciary
+Law of India
+Indian criminal law
+Bharatiya Nyaya Sanhita
+Bharatiya Nagarik Suraksha Sanhita
+Bharatiya Sakshya Adhiniyam
+Code of Civil Procedure
+Supreme Court of India
+Chief Justice
+(
+List
+)
+Surya Kant
+Judges
+Bar Association
+Bar Council
+District Court
+List
+Gram Nyayalaya
+High Court
+Chief Justices
+Judges
+Lok Adalat
+Nyaya Panchayat
+Pendency of court cases
+Other tribunals
+Ministry of Law and Justice
+Minister
+Arjun Ram Meghwal
+Attorney-General
+R. Venkataramani
+Solicitor General
+Tushar Mehta
+Additional Solicitor General
+Law Commission
+National Judicial Appointments Commission
+National Legal Services Authority
+Advocates General of the States
+Elections and politics
+Election Commission
+Chief Election Commissioner
+Gyanesh Kumar
+Election Commissioners
+Sukhbir Singh Sandhu
+Vivek Joshi
+State Election Commission
+Elections
+Democracy
+Electoral College
+Electronic voting
+Presidential elections
+2012
+2017
+2022
+Vice Presidential elections
+2017
+2022
+2025
+Lok Sabha elections
+(
+Constituencies
+)
+2014
+2019
+2024
+Rajya Sabha elections
+2023
+2024
+2025
+State Assembly elections
+2020
+2021
+2022
+2023
+2024
+2025
+National coalitions
+NDA
+INDIA
+Political parties
+National parties
+State parties
+Administrative divisions
+States and union territories
+(
+Capitals
+)
+States
+Andhra Pradesh
+Arunachal Pradesh
+Assam
+Bihar
+Chhattisgarh
+Goa
+Gujarat
+Haryana
+Himachal Pradesh
+Jharkhand
+Karnataka
+Kerala
+Madhya Pradesh
+Maharashtra
+Manipur
+Meghalaya
+Mizoram
+Nagaland
+Odisha
+Punjab
+Rajasthan
+Sikkim
+Tamil Nadu
+Telangana
+Tripura
+Uttar Pradesh
+Uttarakhand
+West Bengal
+Union territories
+Andaman and Nicobar
+Chandigarh
+Dadra and Nagar Haveli and Daman and Diu
+Delhi
+Jammu and Kashmir
+Ladakh
+Lakshadweep
+Puducherry
+Proposed states and union territories
+Autonomous Divisions
+Divisions
+Districts
+Sub-districts
+Community Development Block
+Metropolitan Areas
+Urban Agglomerations
+Federalism
+Executive
+Governor
+List
+Lieutenant Governor/Administrator
+List
+Chief Minister
+List
+Deputy Chief Minister
+List
+Ministries
+Legislative
+Legislative Council
+Legislative Assembly
+Speaker
+List
+List
+Local Government
+Municipal Governance
+Municipal Corporation
+Municipality
+Town Panchayat
+Panchayati Raj
+District Panchayat
+Block Panchayat
+Gram Panchayat
+Foreign relations
+Ministry of External Affairs
+Cabinet Minister
+S. Jaishankar
+Minister of State
+Kirti Vardhan Singh
+Pabitra Margherita
+Foreign Secretary
+Vinay Mohan Kwatra
+Diplomatic missions of
+/
+in India
+Ambassadors and High Commissioners of India
+/
+to India
+Nationality law
+Overseas Citizenship
+Passports
+Visa policy
+Visa requirements
+Foreign Relations
+2+2
+BIMSTEC
+BBIN
+BRICS
+Commonwealth
+G4
+G20
+IBSA
+IONS
+IORA
+MGC
+Non-Aligned Movement
+SAARC
+SCO
+United Nations
+QUAD
+Africa
+East Asia
+European Union
+Latin America
+Pacific Islands
+Diaspora
+History
+Extradition Treaties
+Foreign aid by India
+/
+to India
+Sanctions
+State Visits by Indian Prime Ministers
+State Visits to India
+Kashmir Conflict
+Indo-Pakistani Wars
+Sino-Indian Disputes
+Disputes with Nepal
+Foreign Policy
+ITEC
+Look East policy
+Pan-African e-Network project
+Indira Gandhi
+Narendra Modi
+India
+portal
+Other countries
+v
+t
+e
+Unified Mobile Application for New-age Governance
+(
+UMANG
+) is a
+mobile app
+that is part of the
+Digital India
+initiative
+[
+1
+]
+by the
+Ministry of Electronics and Information Technology
+(MeitY)
+[
+2
+]
+of the
+Government of India
+. It provides access to services from both central and state governments. The app supports 23
+Indian languages
+and is available for both
+Android
+and
+iOS
+platforms.
+The app is aimed at all citizens of India and offers hundreds of services including payment, registration, information search and application forms.
+[
+3
+]
+It is a component of the Digital India initiative, intending to make government services available to the general public online and around the clock.
+[
+4
+]
+[
+5
+]
+The app was developed by the Ministry of Electronics and Information Technology with the
+National e-Governance Division
+[
+4
+]
+and launched in November 2017 by
+Prime Minister of India
+Narendra Modi
+at the Global Conference on Cyberspace in New Delhi.
+[
+3
+]
+[
+6
+]
+At launch the app offered 162 services from 33 state and central government departments and four states.
+[
+5
+]
+See also
+[
+edit
+]
+Aarogya Setu
+BharatNet
+T App Folio
+CoWIN
+References
+[
+edit
+]
+↑
+"UMANG FAQ"
+.
+UMANG
+. Retrieved
+23 May
+2021
+.
+↑
+"Ministry of Electronics and Information Technology, Government of India | Home Page"
+.
+Ministry of Electronics and Information Technology
+. Retrieved
+23 May
+2021
+.
+1
+2
+"Government unveils Umang app for citizen services."
+,
+Economic Times
+, 23 November 2017.
+1
+2
+"Govt's Umang app finally sees the light of the day: All you need to know."
+,
+Business Standard
+, 23 November 2017.
+1
+2
+"PM Modi launches UMANG app for government services."
+,
+The Times of India
+, 23 November 2017.
+↑
+"Narendra Modi launches all-in-one UMANG app at Global Conference on Cyberspace: Here's what it can do for you."
+,
+First Post
+, 23 November 2017.
+v
+t
+e
+Government schemes in India
+List of schemes
+Welfare schemes for women
+Poverty alleviation programmes
+Subsidies
+Social security
+Food security
+Active
+Schemes
+Antyodaya Anna
+Atal Pension
+Ayushman Bharat
+Beti Bachao, Beti Padhao
+Deen Dayal Upadhyaya Antyodaya
+Deen Dayal Upadhyaya Grameen Kaushalya
+Deen Dayal Upadhyaya Gram Jyoti
+Direct Benefit Transfer
+DigiLocker
+Garib Kalyan Rojgar Abhiyaan
+Heritage City Development and Augmentation
+Integrated Child Development Services
+Income declaration
+JAM Yojana
+Khelo India
+Pravasi Suraksha
+Midday Meal Scheme
+Local Area Development
+National Infrastructure Pipeline
+National Pension System
+National Social Assistance Scheme
+National Service Scheme
+Post Office Passport
+Farmer Income Protection Scheme (PM AASHA)
+Adarsh Gram
+Gramin Awaas
+Awas
+Digital Health Mission
+Gram Sadak
+Jan Dhan
+Krishi Sinchai
+Matsya Sampada
+Matritva Vandana
+Shram Yogi Mandhan
+Ujjwala
+Bhartiya Jan Aushadhi
+Garib Kalyan
+Garib Kalyan Anna Yojana
+Jeevan Jyoti Bima
+Kisan Samman Nidhi
+Suraksha Bima
+Sansad Adarsh Gram
+Saubhagya
+Soil Health Card
+UDAN
+Ujwal DISCOM Assurance
+Unnat Jeevan
+Missions
+Rejuvenation and Urban Transformation
+Indradhanush
+Education
+Climate Resilient Agriculture
+Manuscripts
+Health
+Anganwadi
+Auxiliary nurse midwife
+Accredited Social Health Activist
+Solar
+Translation
+Providing Urban Amenities to Rural Areas
+Rashtriya Madhyamik Shiksha Abhiyan
+Rashtriya Uchchatar Shiksha Abhiyan
+Remunerative Approach for Agriculture and Allied sector Rejuvenation
+Sarva Shiksha Abhiyan
+Smart Cities Mission
+TB-Mission 2020
+Projects
+Agriculture MMP
+Bharatmala
+Indian rivers interlinking project
+Operation Flood
+Sagar Mala project
+Setu Bharatam
+Urja Ganga Gas Pipeline Project
+Campaigns
+Accessible India Campaign
+Digital India
+Make in India
+Skill India
+Standup India
+Startup India
+Swachh Bharat Mission
+Identity
+Aadhaar
+Business identification
+Passport
+Permanent account
+Ration card
+Unorganised Workers
+Voters
+State
+AP
+Annadatha Sukhibhava
+TG
+Mission Bhagiratha
+T App Folio
+GJ
+Jyotigram
+Vibrant Gujarat
+MP
+Global Investors Summit
+Ladli Laxmi
+MH
+Mahatma Jyotiba Phule Jan Arogya
+Magnetic Maharashtra
+OR
+Ahar
+Biju Krushak Kalyan
+Madhu Babu Pension
+RJ
+Bhamashah
+UP
+Global Investors Summit
+TN
+Global Investors Meet
+Closed/subsumed
+Schemes
+Bharat Nirman
+National Urban Renewal
+Kasturba Gandhi Balika Vidyalaya
+Kishore Vaigyanik Protsahan
+Rural Livelihood
+Finance Development Fund
+Rashtriya Swasthya Bima
+Tuberculosis Control
+Sampoorna Grameen Rozgar
+Voluntary Disclosure of Income
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=UMANG&oldid=1329007060
+"
+Categories
+:
+Electronic funds transfer
+Mobile payments
+Online payments
+Payment systems
+E-government in India
+Hidden categories:
+Articles with short description
+Short description is different from Wikidata
+Use dmy dates from May 2021
+Search
+Search
+UMANG
+3 languages
+Add topic

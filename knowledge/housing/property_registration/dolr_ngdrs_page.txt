@@ -1,0 +1,48 @@
+National Generic Document Registration System (NGDRS) / e-Registration | Home - DEPARTMENT OF LAND RESOURCES | India
+Share on Facebook
+Share of X (formerly Twitter)
+Share on Linkedin
+National Generic Document Registration System (NGDRS) / e-Registration
+In order to have a uniform process for registration of deeds/documents across the Country, Department of Land Resources is implementing “One Nation One Registration Software” namely “National Generic Document Registration System (NGDRS)” which is an in- house developed software under the broad aegis of ‘Computerization of Registration’ a component of the Digital India Land Records Modernization Programme (DILRMP)
+NGDRS is a common, generic, and configurable application developed to assist registration departments across the country. The product is designed to achieve following aspirations:
+(i) Put forth a state of Art, single window document registration platform.
+(ii) Develop a common generic configurable registration system across pan India for the aspects of planning activity.
+(iii) Maintain a single Data Structure.
+(iv) Provision of Cloud Enabled Centric Solutions.
+(v) Develop Virtual SRO.
+Objectives
+The system aims to ensure that the registrations and delivery of documents happen in accelerated and swift manner compared to the conventional methods. The broad level objectives are:
+To achieve one nation one software concept under DILRMP (Digital India Land Records Modernization Programme) a central sector scheme to register deeds and documents of property transactions across the country.
+Considering India’s diversity of languages, legal terminology, state specific laws and legislations, provide nationwide generic software for registering property transaction documents.
+Assist the states and UTs to customize and design their own state specific Document Registration System (DRS) enterprise architecture to analyze and establish their document registration landscape and guide them in implementing NGDRS as a generic solution.
+Provide e-Registration/Presence less registration with remote authentication.
+Citizen will visit Registration Departments with prior appointment only which reduces effective registration time.
+Citizen empowerment by enabling property valuation and online document submission.
+Maintain a single platform for all the stakeholders in the registration process.
+Uphold this generic platform for the registration of properties and documents across the country.
+Provide easy and user-friendly interface for the convenience of the citizens.
+Salient Features
+Single source code and single data structure across pan India.
+State IGR is the Custodian of Data as per the Registration Act.
+eKYC based party authentication and PAN verification.
+Configurable restriction on registration of any prohibited property.
+Integration of state specific digital payment gateways as well as bank payment gateways.
+Presence less e-Registration with remote eKYC.
+Auto-mutation of land parcels after the completion of registration process.
+Paid Tatkal appointment facility available for emergency registration.
+Template based e-Registration to minimize the scan document space which is for retrievals in such reports.
+Integration with urban local bodies for property tax.
+Facility of generating Encumbrance Certificate.
+13 Block Chain components for property registration and land records to check Records of Rights (ROR).
+The software is provided with an online valuation module with stamp duty calculation.
+Data Security:NGDRS applications use inherited cloud Security and implies the best practices designed to protect data and information within the cloud architecture. It ensures data privacy and compliance around the data stored in the cloud. Cloud security includes controls and process improvements that strengthen the system, warn of potential attackers and detect incidents when they do occur. Further, Web Server Security, Application Security and Database Security is also insured.
+Benefits
+The major benefits of the system include- citizen empowerment through online entry of deed, online payment, online appointment, online admission, document search and certified copy generation.
+It checks on fraudulent transaction; reduces document registration process, time and cost at Sub Registrar level. NGDRS emerged as cost effective solution with improved efficiency and transparency in document registration process.
+Ultimately it accommodates all variations/gaps prevailing across the states with added facilities of SMS and email enabled alerts related to transactions on property
+Ensures rule based transparent online valuation with accurate calculation of property cost.
+The NGDRS is intended to provide quality services to users through single portal and achieve transparency in registration process. The architecture of NGDRS is generic in nature to include more department/agencies as and when they become a stakeholder as per criteria.
+NGDRS has made the registration process simple and easier so that it can quickly be adapted by the ecosystem and they can instantly start utilizing it.
+Implementation
+The NGDRS or e-Registration has so far been implemented in 18 States /UTs namely Andaman & Nicobar, Assam, Bihar, Chhattisgarh, Dadra and Nagar Haveli& Daman and Diu, Goa, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Ladakh, Maharashtra, Manipur, Meghalaya, Mizoram, NCT of Delhi, Punjab, Tripura and Uttarakhand.
+13 States / UTs namely; Andhra Pradesh, Chandigarh, Haryana, Gujarat, Madhya Pradesh, Odisha, Puducherry, Rajasthan, Sikkim, Tamil Nadu, Telangana, Uttar Pradesh and West Bengal have started sharing data with national portal of NGDRS or e-Registration through User Interface / API. Thus, making it total 31 States / UTs covered under NGDRS or e-Registration.

@@ -642,7 +642,9 @@ Please help
 improve this article
 by
 adding citations to reliable sources
-in this section. Unsourced material may be challenged and removed.
+in this section. Unsourced material may be challenged and
+removed
+.
 (
 June 2018
 )
@@ -3409,7 +3411,7 @@ ja
 ]
 Yucho
 Pakistan
-1LINK
+1Link
 MNET
 Philippines
 BancNet
@@ -3474,8 +3476,7 @@ First Data
 STAR
 MAC
 Interac
-NCR
-Cardtronics
+NCR Atleos
 Allpoint
 Visa
 Interlink

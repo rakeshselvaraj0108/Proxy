@@ -10,7 +10,9 @@ Please help
 improve this article
 by
 adding citations to reliable sources
-. Unsourced material may be challenged and removed.
+. Unsourced material may be challenged and
+removed
+.
 Find sources:
 "Immediate Payment Service"
 –
@@ -33,8 +35,10 @@ Immediate Payment Service
 Operating area
 India
 Founded
-22 November 2010
-; 15 years ago
+22
+November 2010
+;
+15 years ago
 (
 2010-11-22
 )
@@ -121,7 +125,6 @@ of transaction amount happen every month in India.
 8
 ]
 IPMS Statistics
-[1]
 Year
 Member banks
 INR value (in mn)
@@ -231,7 +234,7 @@ References
 [
 edit
 ]
-^
+↑
 Livemint (8 December 2019).
 "NEFT money transfer facility to be available 24×7 soon: 5 things to know"
 .
@@ -240,7 +243,7 @@ Livemint
 16 April
 2020
 .
-^
+↑
 "RTGS is now available 24x7: Here are its advantages"
 .
 The Economic Times
@@ -248,7 +251,7 @@ The Economic Times
 29 December
 2020
 .
-^
+↑
 "Mobile Payment Forum to come out with user-friendly features"
 .
 mint
@@ -257,11 +260,11 @@ mint
 3 December
 2024
 .
-^
+↑
 UPI: Product Booklet
 (PDF)
 (Report). NPCI.
-^
+↑
 Das, Neelanjit (4 June 2022).
 "What Makes India's Unified Payments Interface (UPI) A Global Test Case?"
 .
@@ -270,7 +273,7 @@ Outlook Money
 3 December
 2024
 .
-^
+↑
 VK, Anirudh (3 July 2019).
 "Multilingual Support Will Help Increase Adoption Of Mobile Payments In India, Says Gaurav Raina Of MPFI"
 .
@@ -279,7 +282,7 @@ Analytics India Magazine
 10 April
 2023
 .
-^
+↑
 "ProdIMPS Volumes | NPCI - National Payments Corporation of Indiauct Statistics"
 .
 www.npci.org.in
@@ -287,7 +290,7 @@ www.npci.org.in
 10 April
 2023
 .
-^
+↑
 "IMPS Volumes"
 .
 www.npci.org.in
@@ -295,7 +298,7 @@ www.npci.org.in
 5 October
 2019
 .
-^
+↑
 "Address by Governor, Reserve Bank of India at the Digital Payments Awareness Week celebrations, March 4, 2024, RBI, Mumbai"
 .
 Reserve Bank of India
@@ -304,7 +307,7 @@ Reserve Bank of India
 3 December
 2024
 .
-^
+↑
 Parasnis, Sharveya (5 March 2024).
 "RBI to Launch Interoperable Payment System For Net Banking"
 .
@@ -313,7 +316,7 @@ MEDIANAMA
 3 December
 2024
 .
-^
+↑
 "Payments Vision 2025"
 (PDF)
 .
@@ -323,7 +326,7 @@ Reserve Bank of India
 3 December
 2024
 .
-^
+↑
 Bhakta, Pratik (25 March 2024).
 "NPCI arm, banks and fintechs in talks for net banking synergies"
 .
@@ -335,7 +338,7 @@ ISSN
 3 December
 2024
 .
-^
+↑
 Kumar, Abhijeet (27 March 2024).
 "NBBL to begin work on net banking interoperability from April: Report"
 .
@@ -344,7 +347,7 @@ Business Standard
 3 December
 2024
 .
-^
+↑
 Bhakta, Pratik (28 November 2024).
 "Interoperability in net banking payments soon"
 .
@@ -957,7 +960,6 @@ Banking in India
 Mobile payments in India
 Payment and settlement systems in India
 Hidden categories:
-Pages with non-numeric formatnum arguments
 Articles with short description
 Short description is different from Wikidata
 Articles needing additional references from May 2017
@@ -965,6 +967,7 @@ All articles needing additional references
 Use dmy dates from October 2015
 Use Indian English from October 2015
 All Wikipedia articles written in Indian English
+Pages with non-numeric formatnum arguments
 Official website different in Wikidata and Wikipedia
 Search
 Search

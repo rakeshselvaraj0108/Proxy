@@ -51,84 +51,84 @@ SLR
 Exchange  Rates
 INR / 1 USD
 :
-95.3138
+95.3129
 INR / 1 GBP
 :
-127.5451
+128.0252
 INR / 1 EUR
 :
-108.9395
+109.0815
 INR / 100 JPY
 :
-58.8300
+59.0200
 INR / 1 AED
 :
-25.9514
+25.9506
 INR / 10000 IDR
 :
-52.9727
-(As at 1.00pm of July 07, 2026)
+52.7420
+(As at 1.00pm of July 10, 2026)
 (Source : FBIL)
 Archives
 Lending / Deposit  Rates
 Base Rate
 :
-8.35% - 9.90%
+8.40% - 10.00%
 MCLR (Overnight)
 :
-7.80% - 7.95%
+7.80% - 8.00%
 Savings Deposit Rate
 :
 2.50%
 Term Deposit Rate > 1 Year
 :
-6.00% - 6.60%
+6.00% - 6.70%
 Market  Trends
 Money Market
 Call Rates
 :
-4.20% - 5.30%
+4.60% - 5.49%
 *
 *
 as on
-July 06, 2026
+July 09, 2026
 Government Securities Market
 6.03% GS 2029
-: 6.1138% #
+: 6.1509% #
 6.36% GS 2031
-: 6.3754% #
+: 6.4304% #
 6.94% GS 2036
-: 6.6843% #
+: 6.7512% #
 6.68% GS 2040
-: 6.9270% #
+: 6.9759% #
 7.24% GS 2055
-: 7.3052% #
+: 7.3473% #
 91 day T-bills
 :
-5.2521%*
+5.2970%*
 182 day T-bills
 :
-5.4702%*
+5.4851%*
 364 day T-bills
 :
-5.6632%*
+5.6595%*
 *
 cut-off at the last auction
 #
 as on
-July 06, 2026
+July 09, 2026
 Capital Market
 S&P BSE Sensex
 :
-78285.07
+76741.82
 *
 Nifty 50
 :
-24430.35
+23962.80
 *
 *
 as on
-July 06, 2026
+July 09, 2026
 2.
 Connect
 2 Regulate
@@ -161,29 +161,6 @@ Performance of Private Corporate Business Sector during 2025-26
 RBI issues Amendment Directions on ‘review of methodology for identification of NBFC-UL and inclusion of Government owned NBFCs in NBFC-UL’ and         ‘Credit/Investment Concentration Norms – Government owned NBFCs’
 RBI issues Amendment Directions on ‘Net Open Position – Revised Instructions’
 RBI issues draft ‘Guidance on Regulatory Principles for Model Risk Management’
-Open positions of Authorised Dealer Category-I banks
-FAQs on Swap Facility for FCNR (B) deposits, External Commercial Borrowings and Overseas Foreign Currency Borrowings
-RBI issues Final directions on Trade Receivables Discounting System (TReDS)
-Remarks of the Governor on the Inauguration of Week-long celebration of International MSME Day 2026 Kochi, Kerala, June 22, 2026
-RBI Bulletin – June 2026
-Revised Kisan Credit Card (KCC) Scheme
-RBI issues Circular on Lead Bank Scheme
-Reserve Bank of India (Regional Rural Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Third Amendment Directions, 2026
-Reserve Bank of India (Rural Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Third Amendment Directions, 2026
-Reserve Bank of India (Urban Co-operative Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Third Amendment Directions, 2026
-Reserve Bank of India (Small Finance Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Third Amendment Directions, 2026
-Reserve Bank of India (Commercial Banks – Cash Reserve Ratio and Statutory Liquidity Ratio) Third Amendment Directions, 2026
-Reporting of FCNR (B) Deposits, ECB and OFCB mobilized under Reserve Bank’s Swap Facility
-Minutes of the Monetary Policy Committee Meeting, June 3 to 5, 2026
-Reserve Bank of India (Rural Co-operative Banks – Interest Rate on Deposits) Amendment Directions, 2026
-Reserve Bank of India (Urban Co-operative Banks – Interest Rate on Deposits) Amendment Directions, 2026
-Reserve Bank of India (Local Area Banks – Interest Rate on Deposits) Amendment Directions, 2026
-Reserve Bank of India (Regional Rural Banks – Interest Rate on Deposits) Amendment Directions, 2026
-Reserve Bank of India (Small Finance Banks – Interest Rate on Deposits) Amendment Directions, 2026
-Reserve Bank of India (Commercial Banks – Interest Rate on Deposits) Amendment Directions, 2026
-Performance of Private Corporate Business Sector during Q4:2025-26
-Engagement of Young Professionals in Reserve Bank of India
-RBI invites comments on Harmonisation and Consolidation of Instructions on Control / Assurance Functions
 Recruitment related Announcements
 More
 what’s new links

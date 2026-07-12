@@ -7,7 +7,10 @@ export const API_BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhos
 // string as a stand-in user id when ENVIRONMENT=development and no Supabase
 // JWT secret is configured -- persist a stable per-browser id so requests
 // authenticate consistently instead of getting a fresh identity every call.
-function getDeviceUserId(): string {
+// Exported so isolated feature folders (e.g. features/knowledge-graph) can
+// build their own fetch helpers against the SAME persisted device identity
+// instead of minting a second one under a different localStorage key.
+export function getDeviceUserId(): string {
   if (typeof window === "undefined") return "server";
   const key = "proxy:device-user-id";
   let id = window.localStorage.getItem(key);

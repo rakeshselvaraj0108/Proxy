@@ -135,9 +135,20 @@ class CaseWorkflow:
     async def _record_citizen_case(self, state: AgentState) -> None:
         """Best-effort: link this case into the cross-domain Enterprise
         Knowledge Graph (Citizen -> Case -> Institution/Domain). Never blocks
-        or fails the case on a graph-store hiccup."""
+        or fails the case on a graph-store hiccup.
+
+        Uses base_case_id (the real, saved case's id) when present, not
+        case_id -- multi_domain_workflow.py runs this whole workflow once
+        PER matched domain with case_id set to f"{base_case_id}-{domain}"
+        (e.g. "abc123-banking", "abc123-telecom") for internal per-domain
+        state isolation, but only ever saves ONE actual case record under
+        the bare base_case_id. Recording base_case_id here keeps the
+        Knowledge Graph's citizen_case entries pointing at case IDs that
+        really exist, so "My Knowledge Footprint" -> click a case ->
+        Reasoning Trail actually resolves instead of 404ing on a synthetic
+        per-domain suffix that was never a real case."""
         user_id = state.get("user_id")
-        case_id = state.get("case_id")
+        case_id = state.get("base_case_id") or state.get("case_id")
         domain = state.get("domain")
         if not user_id or not case_id or not domain:
             return

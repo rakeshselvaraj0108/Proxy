@@ -120,7 +120,7 @@ async def run_pipeline():
             meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
 
             doc_id = str(uuid5(NAMESPACE_URL, f"{DOMAIN.value}:{fpath.name}"))
-            chunks = semantic_chunking(text, chunk_size=800, overlap=150)
+            chunks = semantic_chunking(text, chunk_size=350, overlap=80)
 
             await qdrant_service.upsert_chunks(DOMAIN, doc_id, chunks, meta)
 

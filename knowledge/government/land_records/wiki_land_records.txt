@@ -38,22 +38,22 @@ systems and land registration are both types of land recording and complement ea
 ]
 Implementations
 [
-edit
+edit source
 ]
 Americas
 [
-edit
+edit source
 ]
 Canada
 [
-edit
+edit source
 ]
 Main article:
 Torrens title §
 Canada
 Falkland Islands
 [
-edit
+edit source
 ]
 The Falkland Islands registry holds copies of all Crown Grants from 1844.
 [
@@ -61,7 +61,7 @@ The Falkland Islands registry holds copies of all Crown Grants from 1844.
 ]
 United States
 [
-edit
+edit source
 ]
 Main article:
 Recording (real estate)
@@ -71,30 +71,30 @@ United States
 Land registration is a matter for individual states in the USA. Thus each state will define the officials, authorities, and their functions and duties with respect to the ownership of land within that state, as is more fully described in the specified main article.
 Europe
 [
-edit
+edit source
 ]
 Austria
 [
-edit
+edit source
 ]
 Main article:
 Grundbuch in German-language Wikipedia
 Czech Republic
 [
-edit
+edit source
 ]
 Main article:
 Katastr nemovitostí České republiky in Czech-language Wikipedia
 Denmark
 [
-edit
+edit source
 ]
 Main article:
 Danish mortgage market §
 Property registration and the granting of a loan
 Finland
 [
-edit
+edit source
 ]
 Finland operates a cadastral system operated by the
 National Land Survey of Finland
@@ -106,7 +106,7 @@ Maanmittauslaitos, MML
 ).
 France
 [
-edit
+edit source
 ]
 The French system uses a cadastre, maintained by the French public land registry. The plans are boundaries of land parcels but do not provide details of the land owner or precise boundaries.
 [
@@ -114,7 +114,7 @@ The French system uses a cadastre, maintained by the French public land registry
 ]
 Germany
 [
-edit
+edit source
 ]
 Main article:
 Grundbuch in German-language Wikipedia
@@ -124,7 +124,7 @@ Grundbuch
 ). Except for the cases explicitly provided for by law, the respective agreement becomes binding only upon its registration. Land used for purposes in the public interest is exempt from this requirement.
 Ireland
 [
-edit
+edit source
 ]
 Land registration is compulsory in the
 Republic of Ireland
@@ -176,13 +176,13 @@ EULIS
 .
 Italy
 [
-edit
+edit source
 ]
 Main article:
 Catasto
 Lithuania
 [
-edit
+edit source
 ]
 The land register (
 nekilnojamojo turto registras
@@ -202,13 +202,13 @@ A sale agreement on real estate is legally binding even without registration in 
 ]
 Netherlands
 [
-edit
+edit source
 ]
 Main article:
 Kadaster
 Poland
 [
-edit
+edit source
 ]
 Main articles:
 księga wieczysta in Polish-language Wikipedia
@@ -232,7 +232,7 @@ Also a public credibility principle protects buyers acting in good faith on the 
 ]
 Russia
 [
-edit
+edit source
 ]
 Content in this edit is translated from the existing Russian Wikipedia article at
 ru:Титул Торренса
@@ -273,19 +273,19 @@ According to some experts, the restriction of information openness reduces the c
 ]
 Slovakia
 [
-edit
+edit source
 ]
 Main article:
 Kataster nehnuteľností in Slovak-language Wikipedia
 Spain
 [
-edit
+edit source
 ]
 Main article:
 Registro de la Propiedad in Spanish-language Wikipedia
 United Kingdom
 [
-edit
+edit source
 ]
 In the United Kingdom there are several land registers, including
 HM Land Registry
@@ -294,7 +294,7 @@ Registers of Scotland
 , and Land and Property Services in Northern Ireland.
 England and Wales
 [
-edit
+edit source
 ]
 Main articles:
 English land law
@@ -345,7 +345,7 @@ In a joint statement between Land Registry (England and Wales) and Ordnance Surv
 This title plan shows the general position of the boundaries: it does not show the exact line of the boundaries. Measurements scaled from this plan may not match measurements between the same points on the ground.
 Scotland
 [
-edit
+edit source
 ]
 Scotland is one of the first countries in the world to have a system of land registration. Land registration commenced in Scotland with the creation of the "Register of
 Sasines
@@ -356,7 +356,7 @@ For full discussion, see
 Land Registration (Scots law)
 Northern Ireland
 [
-edit
+edit source
 ]
 Land registration in
 Northern Ireland
@@ -367,11 +367,11 @@ Land Registers Northern Ireland
 government agency.
 Asia
 [
-edit
+edit source
 ]
 Hong Kong
 [
-edit
+edit source
 ]
 Main article:
 Land Registry (Hong Kong)
@@ -381,7 +381,7 @@ Land Registry
 administers the Land Registration Ordinance and provides facilities for search of the Land Register and related records by the public and government departments. It has responsibility for the registration of owners corporations under the Building Management Ordinance.
 India
 [
-edit
+edit source
 ]
 Land registration is a matter for individual states in India.  Thus each state will define the officials, authorities, and their functions and duties with respect to the ownership of land within that state.
 [
@@ -395,7 +395,7 @@ Further information:
 7/12 extract
 Israel
 [
-edit
+edit source
 ]
 Main articles:
 Torrens title §
@@ -404,20 +404,20 @@ Israel
 Israeli land and property laws
 Japan
 [
-edit
+edit source
 ]
 See also:
 Ōtabumi
 Malaysia
 [
-edit
+edit source
 ]
 Main article:
 Torrens title §
 Malaysia
 New Zealand
 [
-edit
+edit source
 ]
 New Zealand
 uses the
@@ -456,7 +456,7 @@ Limited as to Parcel
 if there were doubts about the ownership or the survey.
 Philippines
 [
-edit
+edit source
 ]
 Main article:
 Torrens title §
@@ -469,32 +469,32 @@ Pangasiwaan sa Patalaan ng Lupain
 )
 Singapore
 [
-edit
+edit source
 ]
 Main article:
 Torrens title §
 Singapore
 Thailand
 [
-edit
+edit source
 ]
 Main article:
 Torrens title §
 Thailand
 Oceania
 [
-edit
+edit source
 ]
 Australia
 [
-edit
+edit source
 ]
 Main article:
 Torrens title §
 Australia
 See also
 [
-edit
+edit source
 ]
 Cadastre
 Deed
@@ -510,7 +510,7 @@ Sasine
 Web mapping
 Notes
 [
-edit
+edit source
 ]
 1
 2
@@ -801,7 +801,7 @@ from the original on 14 November 2018
 Land Transfer (Compulsory Registration of Titles) Act 1924.
 References
 [
-edit
+edit source
 ]
 Arruñada, B. (1996).
 Institutional Foundations of Impersonal Exchange: The Theory and Policy of Contractual Registries
@@ -868,7 +868,7 @@ link
 )
 External links
 [
-edit
+edit source
 ]
 Fortescue-Brickdale, Charles
 (1911).

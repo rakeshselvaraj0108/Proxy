@@ -18,8 +18,8 @@ REPO_ROOT      = Path(__file__).resolve().parents[2]
 KNOWLEDGE_ROOT = REPO_ROOT / "knowledge"
 
 MAX_CHARS  = 50_000
-CHUNK_SIZE = 800
-OVERLAP    = 100
+CHUNK_SIZE = 350
+OVERLAP    = 80
 MIN_CHARS  = 300   # files below this are too short to be useful
 
 SUPPORTED_EXTS = {".txt", ".md", ".pdf", ".html"}

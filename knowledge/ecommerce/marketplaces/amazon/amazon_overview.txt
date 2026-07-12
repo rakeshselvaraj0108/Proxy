@@ -1744,13 +1744,9 @@ neighborhood, from 1998 to 2011.
 [
 170
 ]
-Amazon is currently
-[
-needs update
-]
-building a new four tower, four low-rise, complex in Seattle's
+Amazon built a four tower, four low-rise, complex in Seattle's
 Denny Triangle
-neighborhood to serve as the primary headquarters, though it will retain many of the earlier purchased buildings to house its more than 45,000 corporate employees in the Seattle area.
+neighborhood to serve as the company's primary headquarters, though it retained many of the earlier purchased buildings to house its more than 45,000 corporate employees in the Seattle area.
 [
 171
 ]
@@ -1763,7 +1759,7 @@ and named "Rufus 2.0" after a dog who was a fixture of the company in its early 
 [
 173
 ]
-was approved by the city of Seattle in 2012 and construction began the year after.
+was approved by the city of Seattle in 2012, with construction commencing the following year.
 [
 174
 ]
@@ -1820,6 +1816,14 @@ Hyderabad
 [
 182
 ]
+In 2021, construction began on the
+Riverlands
+mixed-use development in
+Cape Town
+, South Africa. The 14-hectare site includes the headquarters of Amazon Africa. The company began using its new HQ in December 2023.
+[
+183
+]
 Amazon plans to build a major campus in
 Bellevue, Washington
 , a suburb of
@@ -1829,14 +1833,14 @@ Seattle
 needs update
 ]
 [
-183
+184
 ]
 The company opened its first Bellevue office in 2017, marking a return to the city since the company was founded there in 1995.
 [
-184
+185
 ]
 [
-185
+186
 ]
 Amazon's largest building in the city is Sonic, a 42-story building developed by
 Vulcan Real Estate
@@ -1848,32 +1852,32 @@ m
 )
 of office space. It opened in 2024.
 [
-186
+187
 ]
 The Bellevue campus will include the 43-story
 Bellevue 600
 tower, which is planned to be the tallest building in the city and the tallest to be developed by Amazon.
 [
-187
+188
 ]
 Global corporate offices
 Amazon in Amman, Jordan
 While much of Amazon's software development occurs in Seattle, the company employs software developers in centers across the globe. Some of these sites are run by an Amazon subsidiary called A2Z Development.
 [
-188
+189
 ]
 Retail
 Amazon has operated various retail store brands. Most of the stores are located inside of the United States, but Whole Foods also operates stores in Canada and the United Kingdom, while Amazon Go has six locations in London under the Amazon Fresh name.
 [
-189
+190
 ]
 [
-190
+191
 ]
 Whole Foods Market
 (557 locations as of June 2026)
 [
-191
+192
 ]
 Amazon Books
 (24
@@ -1899,10 +1903,10 @@ needs update
 ]
 )
 [
-189
+190
 ]
 [
-192
+193
 ]
 Amazon 4-Star
 (31
@@ -1911,9 +1915,6 @@ needs update
 ]
 ) - a collection of new and trending items from Amazon.com that are rated four stars or higher.
 [
-193
-]
-[
 194
 ]
 [
@@ -1921,6 +1922,9 @@ needs update
 ]
 [
 196
+]
+[
+197
 ]
 Amazon Pop-Up (7
 [
@@ -1932,17 +1936,17 @@ and
 Oculus Quest
 are also found; usually housed in malls.
 [
-197
-]
-[
 198
-]
-All 87 were closed in May 2019 with 5 initially reopening later on.
-[
-196
 ]
 [
 199
+]
+All 87 were closed in May 2019 with 5 initially reopening later on.
+[
+197
+]
+[
+200
 ]
 365 by Whole Foods Market
 (12
@@ -1951,10 +1955,10 @@ needs update
 ]
 ) - In January 2019, it was announced that the 365 by Whole Foods Market concept would be discontinued; all existing stores would be converted into regular Whole Foods stores.
 [
-200
+201
 ]
 [
-201
+202
 ]
 Logistics
 Amazon Transportation Services truck at an Amazon Logistics delivery station
@@ -1971,14 +1975,14 @@ Prime Now
 Amazon Fresh
 groceries, and standard Amazon.com orders, in addition to orders from local stores that contract with Amazon.
 [
-202
+203
 ]
 Amazon Freight
 , a
 freight brokerage
 and logistics service
 [
-203
+204
 ]
 Amazon Logistics, in which Amazon contracts with small businesses (which it calls "Delivery Service Partners") to perform deliveries to customers. Each business has a fleet of approximately 20–40 Amazon-branded vans, and employees of the contractors wear Amazon uniforms.
 As of December
@@ -1988,7 +1992,7 @@ update
 ]
 , it operates in the United States, Canada, Italy, Germany, Spain, and the United Kingdom.
 [
-204
+205
 ]
 Amazon Prime Air
 is an experimental drone delivery service that delivers packages via drones to Amazon Prime subscribers in select cities.
@@ -2000,7 +2004,7 @@ update
 ]
 , it is not hiring delivery drivers as employees.
 [
-205
+206
 ]
 Rakuten Intelligence
 estimated that in 2020 in the United States, the proportion of last-mile deliveries was 56% by Amazon's directly contracted services (mostly in urban areas), 30% by the
@@ -2009,40 +2013,40 @@ United States Postal Service
 UPS
 .
 [
-206
+207
 ]
 In April 2021, Amazon reported to investors it had increased its in-house delivery capacity by 50% in the last 12 months (which included the first year of the
 COVID-19 pandemic in the United States
 ).
 [
-207
+208
 ]
 Pickup points
 In addition to
 Amazon Lockers
 , Amazon has around 30 staffed pickup points in the United States and over 800 independent ones in India. The US locations have large sets of Amazon Lockers and an area for customers to make returns.
 [
-208
+209
 ]
 The India locations are in existing retailers and have customers wait for a store employee to retrieve their package.
 [
-209
+210
 ]
 Supply chain
 Amazon first launched its distribution network in 1997 with two fulfillment centers in Seattle and
 New Castle, Delaware
 . Amazon has several types of distribution facilities consisting of cross-dock centers, fulfillment centers, sortation centers, delivery stations, Prime now hubs, and Prime air hubs. There are 75 fulfillment centers and 25 sortation centers with over 125,000 employees.
 [
-210
+211
 ]
 [
-211
+212
 ]
 Employees are responsible for five basic tasks: unpacking and inspecting incoming goods; placing goods in storage and recording their location; picking goods from their computer recorded locations to make up an individual shipment; sorting and packing orders; and shipping. A computer that records the location of goods and maps out routes for pickers plays a key role: employees carry hand-held computers which communicate with the central computer and monitor their rate of progress. Some warehouses are partially automated with systems built by
 Amazon Robotics
 .
 [
-212
+213
 ]
 In September 2006, Amazon launched a program called FBA (Fulfillment By Amazon) whereby it could handle storage, packing and distribution of products and services for small sellers.
 [
@@ -2057,34 +2061,34 @@ Amazon Robotics
 Randstad NV
 and other temporary employment agencies. In the United States, many workers are hired as Amazon employees and granted shares of stock or sign-on bonuses, while others are offered temporary seasonal positions. "When we have permanent positions available, we look to the top-performing temporary associates to fill them," said an Amazon spokesperson.
 [
-213
+214
 ]
 Amazon acquired
 Kiva Systems
 , a warehouse automation company, in 2012.
 Amazon fulfillment centers can also provide warehousing and order-fulfillment for third-party sellers, for an extra fee.
 [
-214
+215
 ]
 Third-party sellers can use Fulfillment by Amazon (FBA) to ship for other platforms as well, such as
 eBay
 or their own websites.
 [
-215
+216
 ]
 On March 20, 2020, Amazon agreed to remove metal detectors from its warehouses after a warehouse worker tested positive for
 COVID-19
 .
 [
-216
+217
 ]
 In addition to removing metal detectors, Amazon enacted a "6 feet rule", which enforced a six-feet distance between warehouse employees.
 [
-216
+217
 ]
 The Federal Public Health Emergency (PHE) for COVID-19 (which included social distancing) declared under Section 319 of the Public Health Service (PHS) Act, expired at the end of the day on May 11, 2023.
 [
-217
+218
 ]
 Amazon.fr fulfillment center in
 Lauwin-Planque
@@ -2126,7 +2130,7 @@ update
 ]
 , Amazon's board of directors were:
 [
-218
+219
 ]
 Jeff Bezos
 , executive chairman, Amazon.com, Inc.
@@ -2216,7 +2220,7 @@ Other
 0.9%
 Amazon.com is primarily a retail site with a sales revenue model; Amazon takes a small percentage of the sale price of each item that is sold through its website while also allowing companies to advertise their products by paying to be listed as featured products.
 [
-219
+220
 ]
 As of 2018
 [
@@ -2226,13 +2230,13 @@ update
 Fortune 500
 rankings of the largest United States corporations by total revenue.
 [
-220
+221
 ]
 In
 Forbes Global 2000
 2023 Amazon ranked 36th.
 [
-221
+222
 ]
 For the fiscal year 2021, Amazon reported earnings of US$33.36
 billion, with an annual revenue of US$469.82
@@ -2240,17 +2244,17 @@ billion, an increase of 21.7% over the previous fiscal cycle. Since 2007 sales i
 billion to 469.822
 billion, due to continued business expansion.
 [
-222
+223
 ]
 Amazon's market capitalization went over US$1
 trillion again in early February 2020 after the announcement of the fourth quarter 2019 results.
 [
-223
+224
 ]
 Year
 Revenue
 [
-224
+225
 ]
 Net income
 Total Assets
@@ -2258,21 +2262,21 @@ Employees
 in million US$
 1995
 [
-225
+226
 ]
 0.5
 −0.3
 1.1
 1996
 [
-225
+226
 ]
 16
 −6
 8
 1997
 [
-225
+226
 ]
 148
 −28
@@ -2280,7 +2284,7 @@ in million US$
 614
 1998
 [
-226
+227
 ]
 610
 −124
@@ -2288,7 +2292,7 @@ in million US$
 2,100
 1999
 [
-226
+227
 ]
 1,639
 −720
@@ -2296,7 +2300,7 @@ in million US$
 7,600
 2000
 [
-226
+227
 ]
 2,761
 −1,411
@@ -2304,7 +2308,7 @@ in million US$
 9,000
 2001
 [
-226
+227
 ]
 3,122
 −567
@@ -2312,7 +2316,7 @@ in million US$
 7,800
 2002
 [
-226
+227
 ]
 3,932
 −149
@@ -2320,7 +2324,7 @@ in million US$
 7,500
 2003
 [
-227
+228
 ]
 5,263
 35
@@ -2328,7 +2332,7 @@ in million US$
 7,800
 2004
 [
-227
+228
 ]
 6,921
 588
@@ -2336,7 +2340,7 @@ in million US$
 9,000
 2005
 [
-227
+228
 ]
 8,490
 359
@@ -2344,7 +2348,7 @@ in million US$
 12,000
 2006
 [
-227
+228
 ]
 10,711
 190
@@ -2352,7 +2356,7 @@ in million US$
 13,900
 2007
 [
-227
+228
 ]
 14,835
 476
@@ -2360,7 +2364,7 @@ in million US$
 17,000
 2008
 [
-228
+229
 ]
 19,166
 645
@@ -2368,7 +2372,7 @@ in million US$
 20,700
 2009
 [
-229
+230
 ]
 24,509
 902
@@ -2376,7 +2380,7 @@ in million US$
 24,300
 2010
 [
-230
+231
 ]
 34,204
 1,152
@@ -2384,7 +2388,7 @@ in million US$
 33,700
 2011
 [
-231
+232
 ]
 48,077
 631
@@ -2392,7 +2396,7 @@ in million US$
 56,200
 2012
 [
-232
+233
 ]
 61,093
 −39
@@ -2400,7 +2404,7 @@ in million US$
 88,400
 2013
 [
-233
+234
 ]
 74,452
 274
@@ -2408,7 +2412,7 @@ in million US$
 117,300
 2014
 [
-234
+235
 ]
 88,988
 −241
@@ -2417,7 +2421,7 @@ in million US$
 in billion US$
 2015
 [
-235
+236
 ]
 107.0
 0.59
@@ -2425,7 +2429,7 @@ in billion US$
 230,800
 2016
 [
-236
+237
 ]
 135.9
 2.3
@@ -2433,7 +2437,7 @@ in billion US$
 341,400
 2017
 [
-237
+238
 ]
 177.8
 3.0
@@ -2441,7 +2445,7 @@ in billion US$
 566,000
 2018
 [
-238
+239
 ]
 232.8
 10.0
@@ -2449,7 +2453,7 @@ in billion US$
 647,500
 2019
 [
-239
+240
 ]
 280.5
 11.5
@@ -2457,7 +2461,7 @@ in billion US$
 798,000
 2020
 [
-240
+241
 ]
 386.0
 21.3
@@ -2465,7 +2469,7 @@ in billion US$
 1,298,000
 2021
 [
-241
+242
 ]
 469.8
 33.3
@@ -2473,7 +2477,7 @@ in billion US$
 1,608,000
 2022
 [
-241
+242
 ]
 513.9
 −2.7
@@ -2481,7 +2485,7 @@ in billion US$
 1,541,000
 2023
 [
-242
+243
 ]
 574.7
 30.4
@@ -2497,7 +2501,7 @@ in billion US$
 1,556,000
 2025
 [
-243
+244
 ]
 716.9
 77.7
@@ -2508,18 +2512,18 @@ During his tenure, Jeff Bezos had become renowned for his annual shareholder let
 Warren Buffett
 .
 [
-244
+245
 ]
 These annual letters gave an "invaluable window" into the famously "secretive" company, and revealed Bezos's perspectives and strategic focus.
 [
-244
+245
 ]
 [
-245
+246
 ]
 A common theme of these letters is Bezos's desire to instill customer-centricity (in his words, "customer obsession") at all levels of Amazon, notably by making all senior executives field customer support queries for a short time at Amazon call centers. He also read many emails addressed by customers to his public email address.
 [
-246
+247
 ]
 One of Bezos's most well-known internal memos was his mandate for "all teams" to "expose their data and functionality" through service interfaces "designed from the ground up to be externalizable". This process, commonly known as a
 service-oriented architecture
@@ -2527,17 +2531,17 @@ service-oriented architecture
 dogfooding
 of services that would later be commercialized as part of AWS.
 [
-247
-]
-Amazon has used internal recognition programs such as the Just Do It Award
-[
 248
 ]
+Amazon has used internal recognition programs such as the Just Do It Award
 [
 249
 ]
 [
 250
+]
+[
+251
 ]
 to encourage employee initiative and experimentation.
 Lobbying
@@ -2554,18 +2558,18 @@ million, $5
 million and $9.5
 million on lobbying, in 2013, 2014 and 2015, respectively.
 [
-251
+252
 ]
 In 2019, it spent $16.8
 million and had a team of 104 lobbyists.
 [
-252
+253
 ]
 Amazon.com was a corporate member of the
 American Legislative Exchange Council
 (ALEC) until it dropped membership following protests at its shareholders' meeting on May 24, 2012.
 [
-253
+254
 ]
 In 2014, Amazon expanded its lobbying practices as it prepared to lobby the
 Federal Aviation Administration
@@ -2573,52 +2577,52 @@ to approve its drone delivery program, hiring the
 Akin Gump Strauss Hauer & Feld
 lobbying firm in June.
 [
-254
+255
 ]
 Amazon and its lobbyists have visited with Federal Aviation Administration officials and aviation committees in Washington, D.C. to explain its plans to deliver packages.
 [
-255
+256
 ]
 In September 2020 this moved one step closer with the granting of a critical certificate by the FAA.
 [
-256
+257
 ]
 During the second Trump Administration, Amazon donated several times to various events and aspects of his presidency. Along with several other major companies, Amazon donated $1 million to Trump's inaugural fund.
 [
-257
+258
 ]
 In April 2025, Amazon was a corporate sponsor of the
 White House Easter Egg Roll
 , after Donald Trump solicited corporate sponsors for the event for the first time.
 [
-258
+259
 ]
 [
-259
+260
 ]
 In October 2025, Amazon was listed among the donors funding the construction of the
 White House State Ballroom
 .
 [
-260
+261
 ]
 Amazon lobbies on climate policy internationally. In the US, following Trump’s 2025 inauguration, Amazon began frequent engagements with the executive branch to advocate for permitting reform and energy development to support data center growth. In July 2025, Amazon joined policymakers at the Pennsylvania Energy and Innovation Summit, where it supported the development of nuclear energy to meet growing electricity demand, and lobbied for permitting reform to support grid development nationwide.
 [
-261
-]
-[
 262
 ]
-Amazon sponsored the Conservative Coalition for Climate Solutions’ (C3) Energy Summit in Washington D.C. in December 2025, which brought together administration officials and industry representatives to discuss meeting the country’s growing electricity demand through modernization of the permitting process, investment in energy infrastructure, and scaling new technologies.
 [
 263
 ]
-A December 2025 DeSmog article reported that the company’s sponsorship came alongside several organizations that had supported climate change denial, and a continued role for fossil fuels to meet growing energy demand.
+Amazon sponsored the Conservative Coalition for Climate Solutions’ (C3) Energy Summit in Washington D.C. in December 2025, which brought together administration officials and industry representatives to discuss meeting the country’s growing electricity demand through modernization of the permitting process, investment in energy infrastructure, and scaling new technologies.
 [
 264
 ]
+A December 2025 DeSmog article reported that the company’s sponsorship came alongside several organizations that had supported climate change denial, and a continued role for fossil fuels to meet growing energy demand.
 [
 265
+]
+[
+266
 ]
 Criticism and controversies
 Main article:
@@ -2626,32 +2630,32 @@ Criticism of Amazon
 A sticker expressing an anti-Amazon message is pictured on the back of a street sign in Seattle
 Amazon has attracted criticism for its actions, including supplying law enforcement with facial recognition surveillance tools;
 [
-266
+267
 ]
 forming cloud computing partnerships with the
 CIA
 ;
 [
-267
+268
 ]
 leading customers away from bookshops;
 [
-268
+269
 ]
 adversely impacting the environment;
 [
-269
+270
 ]
 placing a low priority on warehouse conditions for workers;
 [
-270
+271
 ]
 [
-271
+272
 ]
 actively opposing unionization efforts;
 [
-272
+273
 ]
 remotely deleting content purchased by Amazon Kindle users; taking public subsidies; seeking to patent its
 1-Click
@@ -2659,19 +2663,19 @@ technology; engaging in anti-competitive actions and
 price discrimination
 ;
 [
-273
+274
 ]
 [
-274
+275
 ]
 and reclassifying
 LGBTQ
 books as adult content.
 [
-275
+276
 ]
 [
-276
+277
 ]
 Criticism has also concerned various decisions over whether to censor or publish content such as the
 WikiLeaks
@@ -2690,11 +2694,11 @@ in the wake of social media website
 Parler
 's termination of service by Amazon Web Service highlights the power companies like Amazon now have over the internet.
 [
-277
+278
 ]
 In December 2011, Amazon faced a backlash from small businesses for running a one-day deal to promote its new Price Check app. Shoppers who used the app to check prices in a brick-and-mortar store were offered a 5% discount to purchase the same item from Amazon.
 [
-278
+279
 ]
 Companies like
 Groupon
@@ -2702,10 +2706,10 @@ Groupon
 eBay
 and Taap have countered Amazon's promotion by offering $10 off from its products.
 [
-279
+280
 ]
 [
-280
+281
 ]
 The company has also faced accusations of putting undue pressure on suppliers to maintain and extend its profitability. One effort to squeeze the most vulnerable book publishers was known within the company as the Gazelle Project, after Bezos suggested, according to
 Brad Stone
@@ -2717,7 +2721,7 @@ In July 2014, the
 Federal Trade Commission
 launched a lawsuit against the company alleging it was promoting in-app purchases to children, which were being transacted without parental consent.
 [
-281
+282
 ]
 In 2019, Amazon banned selling
 skin-lightening
@@ -2726,13 +2730,13 @@ Minnesota
 health and
 environmental activists.
 [
-282
+283
 ]
 In 2022, a lawsuit filed by state attorney-general
 Letitia James
 was dismissed by the New York state court of appeals.
 [
-283
+284
 ]
 After the
 COVID-19 pandemic
@@ -2742,10 +2746,10 @@ Biden Administration
 COVID-19 vaccine
 ,
 [
-284
+285
 ]
 [
-285
+286
 ]
 which was revealed after Rep.
 Jim Jordan
@@ -2753,7 +2757,7 @@ Jim Jordan
 House Judiciary Committee
 ) subpoenaed emails between the company and the Biden Administration.
 [
-286
+287
 ]
 An Amazon Prime truck blocking a bike lane in Washington, D.C.
 Amazon Prime has been criticized for its vehicles systemically
@@ -2764,9 +2768,6 @@ bike lanes
 traffic congestion
 and endangering other road users.
 [
-287
-]
-[
 288
 ]
 [
@@ -2775,16 +2776,16 @@ and endangering other road users.
 [
 290
 ]
-Jane Friedman
 [
 291
+]
+Jane Friedman
+[
+292
 ]
 discovered six listings of books fraudulently using her name, on Amazon and
 Goodreads
 . Amazon and Goodreads resisted removing the fraudulent titles until the author's complaints went viral on social media, in a blog post titled "I Would Rather See My Books Get Pirated Than This (Or: Why Goodreads and Amazon Are Becoming Dumpster Fires)."
-[
-292
-]
 [
 293
 ]
@@ -2794,23 +2795,26 @@ Goodreads
 [
 295
 ]
+[
+296
+]
 In 2024, following years of criticism for providing law enforcement footage in the custody of
 Ring
 (a home security company owned by Amazon) without a warrant, Ring has halted this practice.
 [
-296
+297
 ]
 It received cautious praise from privacy-focused organizations such as the
 Electronic Frontier Foundation
 for this change.
 [
-296
+297
 ]
 In February 2025,
 Sky
 accused Amazon of not doing enough to prevent the piracy of its sports rights via "jailbroken" Fire Sticks.
 [
-297
+298
 ]
 Project Nimbus
 is a contract by which Amazon and Google provide
@@ -2819,10 +2823,10 @@ and
 its military
 with artificial intelligence, machine learning, and other cloud-computing services.
 [
-298
+299
 ]
 [
-299
+300
 ]
 The contract has been criticized by shareholders and employees concerned that the project may lead to abuses of
 Palestinian
@@ -2830,14 +2834,14 @@ human rights in the
 Israeli–Palestinian conflict
 .
 [
-300
+301
 ]
 In October 2025, Amazon suspended an employee who posted messages to the company's Slack and wrote a letter to Andy Jassy criticizing Nimbus.
 [
-301
+302
 ]
 [
-302
+303
 ]
 On July 22, 2025, Amazon announced its plan to acquire
 San Francisco
@@ -2845,11 +2849,11 @@ San Francisco
 smartwatches
 , equipped with AI and microphones. The wristband is capable of providing summaries of conversations and reminders of tasks, effectively serving as a 24/7 note taker. News outlets criticize the fact that the devices saves transcripts, potentially utilizing it to train generative AI models which require vast quantities of data.
 [
-303
+304
 ]
 In January 2026, Amazon sent a notice out to cloud staffers in an apparent error acknowledging “organizational changes” at the company. The note also mentioned a "Project Dawn" which was cancelled, although it is unclear what the project is about.
 [
-304
+305
 ]
 See also
 Internet portal
@@ -4900,6 +4904,14 @@ September 22,
 2021
 .
 ↑
+Hanno Labuschagne (December 12, 2024).
+"Amazon's new home in Cape Town"
+. MyBroadband
+. Retrieved
+July 4,
+2026
+.
+↑
 Romano, Benjamin (February 6, 2020).
 "Amazon plans for 15,000 employees in Bellevue"
 .
@@ -6496,9 +6508,7 @@ Links to related articles
 v
 t
 e
-Companies of the
-Nasdaq-100
-index
+List of NASDAQ-100 companies
 Adobe
 ADP
 AMD
@@ -6528,7 +6538,6 @@ Comcast
 Constellation Energy
 Copart
 CoreWeave
-CoStar
 Costco
 CrowdStrike
 CSX
@@ -6554,6 +6563,7 @@ KLA
 Kraft Heinz
 Lam Research
 Linde
+Lumentum
 Marriott International
 Marvell
 Mercado Libre
@@ -8193,7 +8203,7 @@ SNAC
 ELMCIP
 Yale LUX
 Retrieved from "
-https://en.wikipedia.org/w/index.php?title=Amazon_(company)&oldid=1362951846
+https://en.wikipedia.org/w/index.php?title=Amazon_(company)&oldid=1363194005
 "
 Categories
 :
@@ -8246,7 +8256,6 @@ Articles containing potentially dated statements from December 2020
 Articles containing potentially dated statements from 2021
 Articles containing potentially dated statements from 2015
 Articles containing potentially dated statements from September 2013
-Wikipedia articles in need of updating from November 2025
 Wikipedia articles in need of updating from May 2026
 Articles containing potentially dated statements from August 2025
 Articles containing potentially dated statements from 2018

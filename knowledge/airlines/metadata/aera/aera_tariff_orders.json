@@ -1,0 +1,9 @@
+{
+  "title": "AERA Tariff Orders",
+  "authority": "AERA",
+  "source_url": "https://aera.gov.in/tariff-orders",
+  "domain": "airlines",
+  "type": "html_text",
+  "category": "tariff",
+  "raw_chars": 11385
+}

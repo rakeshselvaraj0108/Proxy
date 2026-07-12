@@ -13,9 +13,12 @@ Safdarjung Airport
 , New Delhi
 28°34′58.56″N
 77°12′47.12″E
-﻿ / ﻿
+﻿
+/
+﻿
 28.5829333°N 77.2130889°E
-﻿ /
+﻿
+/
 28.5829333; 77.2130889
 Ministers responsible
 Kinjarapu Ram Mohan Naidu
@@ -97,7 +100,8 @@ Licensing to pilots, aircraft maintenance engineers, air traffic controllers and
 ]
 Carrying out amendments to the Aircraft Act, the Aircraft Rules and the Civil Aviation Requirements for complying with the amendments to ICAO Annexes, and initiating proposals for amendment to any other Act or for passing a new Act in order to give effect to an international Convention or amendment to an existing convention.
 Formulation of standards of airworthiness for civil aircraft registered in India and grant of certificates of airworthiness to such aircraft
-Conducting investigation into incidents and serious incidents involving aircraft up to 2250 kg AUW and taking accident prevention measures, including formulation of implementation of Safety Aviation Management Programmes
+Conducting investigation into incidents and serious incidents involving aircraft up to 2250
+kg AUW and taking accident prevention measures, including formulation of implementation of Safety Aviation Management Programmes
 Checks on the proficiency of flight crew and other operational personnel such as flight dispatchers and cabin crew
 Coordination of
 ICAO
@@ -210,7 +214,7 @@ References
 [
 edit
 ]
-^
+↑
 "Archived copy"
 (PDF)
 . Archived from
@@ -227,13 +231,11 @@ cite web
 :  CS1 maint: archived copy as title (
 link
 )
-^
+↑
 "
-[1]
 ." Directorate General of Civil Aviation. Retrieved on 9 June 2009. "Aurbindo Marg, Opp. Safdarjung Airport, New Delhi 110 003, INDIA "
-^
-a
-b
+1
+2
 "Aviation Ministry moots to replace DGCA with a Super-regulator"
 .
 India Today
@@ -242,7 +244,7 @@ India Today
 7 May
 2013
 .
-^
+↑
 "DGCA Rules and Regulations"
 .
 Dgca.nic.in
@@ -253,7 +255,7 @@ on 22 October 2018
 14 August
 2018
 .
-^
+↑
 "DGCA Exam Syllabus and Subjects"
 .
 Wing Path Aviation Academy
@@ -261,14 +263,14 @@ Wing Path Aviation Academy
 24 August
 2025
 .
-^
+↑
 "About DGCA"
 . Directorate General of Civil Aviation
 . Retrieved
 10 November
 2009
 .
-^
+↑
 "Bill to replace DGCA by new aviation regulator likely to be tabled in Parliament: report"
 .
 NDTV Profit
@@ -277,7 +279,7 @@ NDTV Profit
 7 May
 2013
 .
-^
+↑
 "
 No. AV. 11012/01/2011 - PG
 Archived
@@ -288,13 +290,13 @@ Archive
 )
 Ministry of Civil Aviation
 . Retrieved on 16 March 2014.
-^
+↑
 "
 About Us
 " (
 Archive
 ) Bureau of Civil Aviation Security. Retrieved on 16 March 2014.
-^
+↑
 V, Manju (27 May 2015).
 "Blow to Indian air safety as 13 flight inspectors resign"
 .
@@ -683,16 +685,16 @@ Ministry of Civil Aviation (India)
 Government agencies established in 2020
 2020 establishments in India
 Hidden categories:
-CS1 maint: archived copy as title
-Webarchive template wayback links
 Articles with short description
 Short description is different from Wikidata
 Use dmy dates from September 2019
 Use Indian English from September 2019
 All Wikipedia articles written in Indian English
 Pages using gadget WikiMiniAtlas
+CS1 maint: archived copy as title
 All articles with vague or ambiguous time
 Vague or ambiguous time from December 2025
+Webarchive template wayback links
 Official website different in Wikidata and Wikipedia
 Pages using the Kartographer extension
 Search

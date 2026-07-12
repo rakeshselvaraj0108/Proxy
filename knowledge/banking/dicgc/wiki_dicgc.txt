@@ -1,0 +1,257 @@
+Deposit Insurance and Credit Guarantee Corporation - Wikipedia
+Jump to content
+From Wikipedia, the free encyclopedia
+RBI subsidiary
+Deposit Insurance and Credit Guarantee Corporation
+Reserve Bank of India (Specialised Division)
+overview
+Formed
+1978
+;
+48
+years ago
+(
+1978
+)
+Jurisdiction
+Reserve Bank of India
+,
+Ministry of Finance
+,
+Government of India
+Headquarters
+Mumbai
+,
+India
+Reserve Bank of India (Specialised Division)
+executive
+M.D. Patra, Deputy Governor of
+RBI
+Key document
+The Deposit Insurance and Credit Guarantee Corporation Act, 1961
+Website
+www
+.dicgc
+.org
+.in
+The
+Deposit Insurance and Credit Guarantee Corporation
+(
+DICGC
+) is a
+specialised division
+of the
+Reserve Bank of India
+, which is under the
+jurisdiction
+of the
+Ministry of Finance
+,
+Government of India
+. It was established on 15 July 1978 under the Deposit Insurance and Credit Guarantee Corporation Act (1961) for the purpose of providing
+insurance of deposits
+and guaranteeing of credit facilities.
+The DICGC insures all
+bank deposits
+, such as saving, fixed, current,
+recurring deposit
+for up to the limit of
+Rs
+. 500,000 of each depositor in a bank. The limit was increased from 1
+lakh
+to 5 lakh on 4 February 2020.
+[
+1
+]
+[
+2
+]
+Statistics
+[
+edit
+]
+Deposit Amount Insurance
+[
+3
+]
+[
+4
+]
+Year
+Amount
+1 Jan 1962
+1,500
+1 Jan 1968
+5,000
+1 Apr 1970
+10,000
+1 Jan 1976
+20,000
+1 Jul 1980
+30,000
+1 May 1993
+1,00,000
+4 Feb 2020
+5,00,000
+Per 100Rs Deposit Insurance
+Year
+Amount
+1 Jan 1962
+0.05
+1 Oct 1971
+0.04
+1 Jul 1993
+0.05
+1 Apr 2004
+0.08
+1 Apr 2005
+0.10
+1 Apr 2020
+0.12
+The functions of the subsidiary are governed by the provisions of
+The Deposit Insurance and Credit Guarantee Corporation Act, 1961
+(DICGC Act) and
+The Deposit Insurance and Credit Guarantee Corporation General Regulations, 1961
+framed by the Reserve Bank of India in exercise of the powers conferred by sub-section (3) of Section 50 of the Act.
+[
+5
+]
+A maximum of ₹5,00,000 (after the budget of 2020–21) is insured for each user for both
+principal
+and interest amount.
+If the customer has accounts in different branches of the same bank, all of those accounts are clubbed together and the total sum is insured to a maximum of ₹5,00,000.
+[
+6
+]
+However, if there are more accounts in same bank, all of those are treated as a single account. The
+insurance premium
+is paid by the insured banks itself. This means that the benefit of
+deposit insurance
+protection is made available to the depositors or customers of banks free of cost.
+The Corporation has the power to cancel the registration of an insured bank if it fails to pay the premium for three consecutive half-year periods.
+The Corporation may restore the registration of the bank if the bank makes a request and pays all the amounts due by way of premium from the date of default together with interest.
+Reforms
+[
+edit
+]
+The
+Financial Sector Legislative Reforms Commission
+(FSLRC) was set up by the Government of India,
+Ministry of Finance
+, on 24 March 2011, to review and rewrite the legal-institutional architecture of the Indian financial sector. In its report the FSLRC recommended a regulatory structure consisting of seven agencies including a deposit insurance-cum regulatory agency (which was named as Resolution Corporation). The present DICGC will be subsumed into the Resolution Corporation (RC)  which will work across the financial system.
+The FSLRC proposal involved a unified resolution corporation aims to deal with financial firms such as banks and
+insurance companies
+and is concerned with financial firms which make highly intense promises to consumers, such as banks, insurance companies, defined benefit pension funds, and payment systems.
+It will also take responsibility for the graceful resolution of systemically important financial firms, even if they have no direct links to consumers.
+[
+citation needed
+]
+The Government of India introduced the Financial Resolution and Deposit Insurance bill, 2017 (FRDI bill) in Lok Sabha in the Monsoon session of 2017 to bring forth these reforms.
+[
+7
+]
+There have been many concerns with regards to the new bill such as:
+Presently the banks have to pay a sum to the DICGC as insurance premium which insures all kinds of bank deposits up to a limit of ₹5,000,000. In case a stressed bank had to be liquidated, the depositors would be paid through DICGC. Though the bill proposes the banks to pay a sum to the Resolution Corporation, it neither specifies the insured amount nor the amount a depositor would be paid. It is thus unclear how much a depositor would be paid in case of
+liquidation
+.
+The bail in clause which largely worked against the interests of the depositors (as in Cyprus).
+[
+8
+]
+[
+clarification needed
+]
+References
+[
+edit
+]
+↑
+"Srikrishna panel insists on single unified regulator in financial sector"
+.
+Business Standard
+. 21 March 2013
+. Retrieved
+23 November
+2013
+.
+↑
+"DICGC - About Us - Profile"
+. Archived from
+the original
+on 16 April 2021.
+↑
+"Deposit Insurance of Rs 5 Lakh: Customers to Get Money in 90 Days if Bank Under Moratorium"
+.
+↑
+Subrata Panda (2 February 2020).
+"Budget 2020: Govt increases deposit insurance to Rs 500,000 from Rs 100,000"
+.
+↑
+"About Us - Profile"
+. ..Dicgc. Archived from
+the original
+on 24 March 2013
+. Retrieved
+23 November
+2013
+.
+↑
+"DICGC_Flyer.pdf"
+(PDF)
+.
+DICGC
+. p.
+Pdf page 3
+. Retrieved
+22 March
+2023
+.
+For the purpose of the above ceiling, all the deposit accounts of a depositor in the 'same right and the same capacity' maintained across all branches of the concerned bank are clubbed.
+↑
+"PRS - Bill Track - The Financial Resolution and Deposit Insurance Bill, 2017"
+.
+www.prsindia.org
+. Archived from
+the original
+on 6 January 2018
+. Retrieved
+4 May
+2018
+.
+↑
+"The FRDI Bill and concerns of the depositor"
+.
+The Hindu
+. 29 November 2017.
+External links
+[
+edit
+]
+DICGC Official Website
+Retrieved from "
+https://en.wikipedia.org/w/index.php?title=Deposit_Insurance_and_Credit_Guarantee_Corporation&oldid=1361154752
+"
+Categories
+:
+Banking in India
+Subsidiaries of the Reserve Bank of India
+Financial services companies based in Mumbai
+Deposit insurance
+Corporate subsidiaries
+Indian companies established in 1978
+1978 establishments in Maharashtra
+Hidden categories:
+Articles with short description
+Short description matches Wikidata
+Use dmy dates from October 2015
+Use Indian English from October 2015
+All Wikipedia articles written in Indian English
+Pages using infobox mapframe with missing coordinates
+All articles with unsourced statements
+Articles with unsourced statements from May 2018
+Wikipedia articles needing clarification from October 2019
+Search
+Search
+Deposit Insurance and Credit Guarantee Corporation
+1 language
+Add topic

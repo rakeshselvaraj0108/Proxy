@@ -1,0 +1,246 @@
+Reserve Bank of India
+SELECT LANGUAGE
+ASSAMESE
+BENGALI
+ENGLISH
+GUJARATI
+HINDI
+KANNADA
+MALAYALAM
+MARATHI
+ODIA
+PUNJABI
+TAMIL
+TELUGU
+URDU
+SITE MAP
+CONTACT US
+DISCLAIMER
+About Us
+Useful Information
+FAQs
+Financial Education
+Complaints
+Important Websites
+Search
+Period
+From
+To
+Archives
+Year
+2026
+2025
+2024
+2023
+2022
+2021
+2020
+2019
+2018
+2017
+2016
+2015
+2014
+2013
+2012
+2011
+2010
+2009
+2008
+2007
+2006
+2005
+2004
+2003
+2002
+2001
+2000
+1999
+1998
+1997
+1996
+1995
+1994
+1993
+1992
+1991
+1990
+1989
+1988
+1987
+1986
+1985
+Month
+All Months
+January
+Feburary
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+Home
+>>
+Notification
+- Display
+Note :
+To obtain an aligned printout please download the
+(26.00
+kb
+) version to your machine and then use respective software to print the story.
+Date:
+18/05/2007
+StCBs/DCCBs â Safe Deposit Locker/Safe Custody Article Facility and Access to Safe Deposit Lockers/Return of Safe Custody Articles
+RBI/2006-2007/400
+RPCD.CO.RF.BC No. 95/07.38.01/2006-07
+May 18, 2007
+All State and Central Co-operative Banks
+Dear Sir,
+Extension of Safe Deposit Locker / Safe Custody Article Facility and Access to Safe Deposit Lockers / Return of Safe Custody Articles by banks.
+The Committee on Procedures and Performance Audit on Public Services (CPPAPS) had made some recommendations for easy operation of lockers. We have reviewed all the guidelines issued by us on various issues relating to safe deposit lockers / safe custody articles. We are issuing the following guidelines
+in supersession
+of all the guidelines issued earlier.
+1. Allotment of Lockers
+1.1 Linking of Allotment of Lockers to placement of Fixed Deposits
+The Committee on Procedures and Performance Audit of Public Services (CPPAPS) observed that linking the lockers facility with placement of fixed or any other deposit beyond what is specifically permitted is a restrictive practice and should be prohibited forthwith. We concur with the Committee's observations and advise banks to refrain from such restrictive practices.
+1.2 Fixed Deposit as Security for Lockers
+Banks may face situations where the locker-hirer neither operates the locker nor pays rent. To ensure prompt payment of locker rent, banks may at the time of allotment, obtain a Fixed Deposit which would cover 3 years rent and the charges for breaking open the locker in case of an eventuality. However, banks should not insist on such Fixed Deposit from the existing locker-hirers.
+1.3 Wait List of Lockers
+Branches should maintain a wait list for the purpose of allotment of lockers and ensure transparency in allotment of lockers. All applications received for allotment of locker should be acknowledged and given a wait list number.
+1.4
+Banks are also advised to give a
+copy of the agreement
+regarding operation of the locker to the locker-hirer at the time of allotment of the locker.
+2. Security aspects relating to Safe Deposit Lockers
+2.1 Operations of Safe Deposit Vaults/Lockers
+Banks should exercise due care and necessary precaution for the protection of the lockers provided to the customer. Banks should review the systems in force for operation of safe deposit vaults / locker at their branches on an on-going basis and take necessary steps. The security procedures should be well-documented and the concerned staff should be properly trained in the procedure. The internal auditors should ensure that the procedures are strictly adhered to.
+2.2 Customer due diligence for allotment of lockers / Measures relating to lockers which have remained unoperated
+In a recent incident, explosives and weapons were found in a locker in a bank branch. This emphasises that banks should be aware of the risks involved in renting safe deposit lockers. In this connection, banks should take following measures:
+(i) Banks should carry out customer due diligence for both new and existing customers at least to the levels prescribed for customers classified as medium risk. If the customer is classified in a higher risk category, customer due diligence as per KYC norms applicable to such higher risk category should be carried out.
+(ii) Where the lockers have remained un-operated for more than three years for medium risk category or one year for a higher risk category, banks should immediately contact the locker-hirer and advise him to either operate the locker or surrender it. This exercise should be carried out even if the locker hirer is paying the rent regularly. Further, banks should ask the locker hirer to give in writing, the reasons why he / she did not operate the locker. In case the locker-hirer has some genuine reasons as in the case of NRIs or persons who are out of town due to a transferable job etc., banks may allow the locker hirer to continue with the locker. In case the locker-hirer does not respond nor operate the locker, banks should consider opening the lockers after giving due notice to him. In this context, banks should incorporate a clause in the locker agreement that in case the locker remains unoperated for more than one year, the bank would have the right to cancel the allotment of the locker and open the locker, even if the rent is paid regularly.
+(iii) Banks should have clear procedure drawn up in consultation with their legal advisers for breaking open the lockers and taking stock of inventory.
+3. Access to the safe deposit lockers / return of safe custody articles to Survivor(s) / Nominee(s) / Legal heir(s)
+3.1
+We invite a reference to our circular
+RPCD.CO.RF.BC No. 12/07.38.01/2005-06 dated July 12, 2005
+wherein we had advised banks to deal with the issue of handing over the proceeds of deposit accounts. A similar procedure should be adopted for return of contents of lockers / safe custody articles to Survivor / Nominee / Legal Heirs.
+3.2 Access to the safe deposit lockers / return of safe custody articles (with survivor/nominee clause)
+If the sole locker hirer nominates a person banks should give to such nominee access of the locker and liberty to remove the contents of the locker in the event of the death of the sole locker hirer. In case the locker was hired jointly with the instructions to operate it under joint signatures, and the locker hirer(s) nominates person(s), in the event of death of any of the locker hirers, the bank should give access of the locker and the liberty to remove the contents jointly to the survivor(s) and the nominee(s). In case the locker was hired jointly with survivorship clause and the hirers instructed that the access of the locker should be given over to 'either or survivor', 'anyone or survivor' or 'former or survivor' or according to any other survivorship clause, banks should follow the mandate in the event of the death of one or more of the locker-hirers. However, banks should take the following precautions before handing over the contents:
+a. Bank should exercise due care and caution in establishing the identity of the survivor(s) / nominee(s) and the fact of death of the locker hirer by obtaining appropriate documentary evidence;
+b. Banks should make diligent effort to find out if there is any order from a competent court restraining the bank from giving access to the locker of the deceased; and
+c. Banks should make it clear to the survivor(s) / nominee(s) that access to locker/ safe custody articles is given to them only as a trustee of the legal heirs of the deceased locker hirer i.e., such access given to him shall not affect the right or claim which any person may have against the survivor(s) / nominee(s) to whom the access is given.
+Similar procedure should be followed for return of articles placed in the safe custody of the bank. Banks should note that the facility of nomination is not available in case of deposit of safe custody articles by more than one person.
+3.3
+Banks should note that since the access given to the survivor(s) / nominee(s), subject to the foregoing conditions, would constitute a full discharge of the bank's liability, insistence on production of legal representation is superfluous and unwarranted and only serves to cause entirely avoidable inconvenience to the survivor(s) / nominee(s) and would, therefore, invite serious supervisory disapproval. In such case, therefore, while giving access to the survivor(s) / nominee(s) of the deceased locker hirer / depositor of the safe custody articles, the banks should desist from insisting on production of succession certificate, letter of administration or probate, etc., or obtain any bond of indemnity or surety from the survivor(s)/nominee(s).
+3.4 Access to the safe deposit lockers / return of safe custody articles (without survivor/nominee clause)
+There is an imperative need to avoid inconvenience and undue hardship to legal heir(s) of the locker hirer(s). In case where the deceased locker hirer had not made any nomination or where the joint hirers had not given any mandate that the access may be given to one or more of the survivors by a clear survivorship clause, banks are advised to adopt a customer-friendly procedure drawn up in consultation with their legal advisers for giving access to legal heir(s) / legal representative of the deceased locker hirer. Similar procedure should be followed for the articles under safe custody of the bank.
+3.5
+Banks are advised to be guided also by the provisions of Sections 45 ZC to 45 ZF of the Banking Regulation Act, 1949(AACS) and the Co-operative Banks (Nomination) Rules, 1985 and the relevant provisions of Indian Contract Act and Indian Succession Act.
+3.6 Banks should prepare an inventory before returning articles left in safe custody / before permitting removal of the contents of a safe deposit locker as advised in terms of Notification
+UBD.BR.764/B.1-84/85 dated March 29, 1985
+. The inventory shall be in the appropriate Forms set out as enclosed to the above Notification or as near thereto as circumstances require. A copy of the above Notification is shown as
+Annex 1
+of this circular.
+3.7 Further, in case the nominee(s) / survivor(s) / legal heir(s) wishes to continue with the locker, banks may enter into a fresh contract with nominee(s) / survivor(s) / legal heir(s) and also adhere to KYC norms in respect of the nominee(s) / legal heir(s). Banks are not required to open sealed/closed packets left with them for safe custody or found in locker while releasing them to the nominee(s) and surviving locker hirers / depositor of safe custody article.
+3.8
+Simplified operational systems / procedures
+We have advised NABARD to formulate a Model Operational Procedure (MOP) for giving access to lockers / return of safe custody articles under various circumstances. We also advise banks to undertake a comprehensive review of their extant systems and procedures relating to settlement of claims of their deceased constituents (locker-hirers / depositors of safe-custody articles) with a view to evolving a simplified policy / procedures for the purpose. The review should be made with the approval of their Board and take into account the applicable statutory provisions, foregoing instructions as also the MOP to be formulated by the NABARD.
+4. Customer Guidance and Publicity
+4.1 Benefits of nomination / survivorship clause
+Banks should give wide publicity and provide guidance to locker-hirers / depositors of safe custody articles on the benefits of the nomination facility and the survivorship clause. Illustratively, it should be highlighted in the publicity material that in the event of the death of one of the joint account holders, the right to the contents of the locker or the articles under safe custody does not automatically devolve on the surviving joint deposit account holder, unless there is a survivorship clause.
+4.2 Banks should place on their websites the instructions along with the policies / procedures put in place for giving access of the locker / safe custody articles to the nominee(s) / survivor(s) / legal heir(s) of the deceased locker hirer / depositor of the safe custody articles. Further, a printed copy of the same should also be given to the nominee(s) / survivor(s) / legal heir(s) whenever a claim is received from them.
+5. We also advise the banks to ensure that identification code of the bank / branch is embossed on all the locker keys with a view to facilitate Authorities in identifying the ownership of the locker keys.
+6. Please acknowledge receipt to our Regional Office concerned.
+Yours faithfully
+(
+K.Bhattacharya
+)
+General Manager
+ANNEX 1
+UBD.BR.764/B.1-84/85
+NOTIFICATION
+Sub: Banking Regulation Act, 1949
+(As Applicable to Co-operative Societies)-Sections 45ZC(3) and ZE(4)
+Form of inventory to be prepared by cooperative banks while returning articles left in safe custody and permitting the removal of contents of safety lockers
+In exercise of the powers conferred on the Reserve Bank of India by sub-Section (3) of Section 45 ZC and sub-Section (4) of section 45 ZE read with Section 56 of the Banking Regulation Act, 1949, the Reserve Bank of India hereby directs that the inventory to be prepared before returning articles left in safe custody and the inventory to be prepared before permitting removal of the contents of a safety locker, shall respectively be in the appropriate Forms set out as enclosed or as near thereto as circumstances require.
+(P. D. Ojha)
+Executive Director
+Dated: 29 March 1985
+Form of Inventory of articles left in safe custody with the co-operative bank
+(Section 45ZC (3) of the Banking Regulation Act, 1949)
+The following inventory of articles left in safe custody with _________________________________ branch, by Shri/Smt. _______________________ (deceased) under an agreement/receipt dated _____ was taken on this, ______________ day of ______________ 20 ________.
+Sr. No.
+Description of Articles in Safe Custody
+Other Identifying Particulars, if any
+The above inventory was taken in the presence of :
+1. Shri/Smt. ______________________________ (Nominee)
+Shri/Smt. ___________________________
+(Appointed on behalf of minor Nominee)
+Address________________________________ OR
+Address________________________________
+Signature_______________________________
+Signature________________________________
+I, Shri/Smt. _____________________________ (Nominee / appointed on behalf of minor Nominee) hereby acknowledge receipt of the articles comprised and set out in the
+above inventory together with a copy of the said inventory.
+Shri/Smt. ______________________   (Nominee)
+Signature ______________________
+Date & Place____________________
+Shri/Smt. _______________________
+(Appointed on behalf of minor Nominee)
+Signature _______________________
+Date & Place_____________________
+Form of Inventory of Contents of
+Safety Locker Hired from the co-operative bank
+(Section 45ZE (4) of the Banking Regulation Act, 1949)
+The following inventory of contents of Safety Locker No. ____________ located in the Safe Deposit Vault of ________________, __________________ Branch at ______________.
+* hired by Shri/Smt. ________________________________ deceased in his/her sole name.
+* hired by Shri/Smt. (i)   ________________________________ (deceased)
+(ii) ________________________________  Jointly
+(iii) ________________________________
+was taken on this _______________ day of _____________ 20___.
+Sr. No.
+Description of Articles in Safety Locker
+Other Identifying Particulars, if any
+For the purpose of inventory, access to the locker was given to the Nominee/and the surviving hirers
+ who produced the key to the locker.
+ by breaking open the locker under his/her/their instructions.
+The above inventory was taken in the presence of:
+1.  Shri/Smt. __________________________  (Nominee)
+____________________
+Address ___________________________
+(Signature)
+or
+1.  Shri/Smt. __________________________  (Nominee)
+____________________
+Address ___________________________
+(Signature)
+and
+Shri/Smt. __________________________                        ____________________
+Address ___________________________
+(Signature)
+Shri/Smt. __________________________
+____________________   Survivors of
+Address ___________________________
+(Signature)
+joint hirers
+2.  Witness(es) with name, address and signature:
+*    I, Shri/Smt. ________________________________ (Nominee)
+*    We, Shri Smt. _______________________________ (Nominee),
+Shri/Smt. ________________________ and Shri/Smt.________________________ the survivors of the joint hirers, hereby acknowledge the receipt of the contents of the safety locker comprised in and set out in the above inventory together with a copy of the said inventory.
+Shri/Smt. ______________________   (Nominee)
+Shri/Smt. _______________________ (Survivor)
+Signature ______________________
+Signature _______________________
+Date & Place____________________
+Shri/Smt. _______________________ (Survivor)
+Signature _______________________
+Date & Place_____________________
+(* Delete whichever is not applicable)
+Top
+© Reserve Bank of India. All Rights Reserved.
+Best viewed in 1024x768 resolution in IE 5 and above.

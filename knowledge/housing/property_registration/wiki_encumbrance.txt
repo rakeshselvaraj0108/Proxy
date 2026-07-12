@@ -40,11 +40,11 @@ leases
 , restrictions, encroachments, and air and subsurface rights.
 Jurisdictions
 [
-edit
+edit source
 ]
 Hong Kong
 [
-edit
+edit source
 ]
 In
 Hong Kong
@@ -53,11 +53,11 @@ Hong Kong
 ".
 Other uses
 [
-edit
+edit source
 ]
 Colleges
 [
-edit
+edit source
 ]
 It is also a term used by
 colleges
@@ -70,7 +70,7 @@ diplomas
 .
 Accounting
 [
-edit
+edit source
 ]
 In
 management accounting
@@ -89,19 +89,19 @@ Expenditure
 Amount for which there has been an expenditure of funds. An expenditure is recorded in Commitment Control for both vouchers payable and journal entries.  The encumbrance will be removed from the records when the expenditure is recorded.
 Intellectual property
 [
-edit
+edit source
 ]
 An example of
 Intellectual property
 encumbrance is "encumbered code", software that cannot be freely distributed due to intellectual property rights.
 Real Estate
 [
-edit
+edit source
 ]
 In certain parts of the world, such as India, an Encumbrance Certificate is issued prior to the sale of a home in order to ascertain whether the title of the home is free and clear.
 References
 [
-edit
+edit source
 ]
 ↑
 Gifis, Steven H. (2008). "encumbrance".
@@ -290,5 +290,5 @@ All stub articles
 Search
 Search
 Encumbrance
-3 languages
+4 languages
 Add topic

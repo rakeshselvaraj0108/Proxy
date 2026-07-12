@@ -4,9 +4,9 @@ import time
 import requests
 from pathlib import Path
 from bs4 import BeautifulSoup
-from duckduckgo_search import DDGS
 
 KNOWLEDGE_ROOT = Path(__file__).resolve().parents[2] / "knowledge" / "airlines"
+REGISTRY_PATH = KNOWLEDGE_ROOT / "airlines_source_registry.json"
 
 FOLDERS = [
     "regulations", "dgca", "passenger_charter", "iata",
@@ -82,10 +82,106 @@ def scrape_text_from_url(url: str) -> str:
         print(f"Error fetching {url}: {e}")
         return ""
 
-def main():
+def save_registry(folder: str, name: str, content: bytes, ext: str, metadata: dict):
+    dest_dir = KNOWLEDGE_ROOT / folder
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    filepath = dest_dir / f"{name}.{ext}"
+    filepath.write_bytes(content)
+
+    meta_dir = KNOWLEDGE_ROOT / "metadata" / folder
+    meta_dir.mkdir(parents=True, exist_ok=True)
+    (meta_dir / f"{name}.json").write_text(
+        json.dumps(metadata, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    return filepath
+
+
+def download_registry_source(source: dict) -> bool:
+    """Download one entry from airlines_source_registry.json (RBI/banking-scraper pattern)."""
+    url = source["url"]
+    folder = source["folder"]
+    name = source["slug"]
+    title = source["title"]
+    authority = source["authority"]
+    print(f"  GET {url}")
+    try:
+        resp = requests.get(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36", "Accept-Language": "en-US,en;q=0.9"}, timeout=30)
+        if resp.status_code not in (200, 301, 302):
+            print(f"    -> HTTP {resp.status_code} — skipping")
+            return False
+
+        is_pdf = (
+            source.get("type") == "pdf"
+            or url.lower().endswith(".pdf")
+            or resp.headers.get("Content-Type", "").startswith("application/pdf")
+        )
+
+        if is_pdf:
+            if len(resp.content) < 1000:
+                print(f"    -> PDF too small ({len(resp.content)} bytes) — skipping")
+                return False
+            filepath = save_registry(
+                folder, name, resp.content, "pdf",
+                {"title": title, "authority": authority, "source_url": url,
+                 "domain": "airlines", "type": "pdf", "category": source.get("category")}
+            )
+        else:
+            text = html_to_text_registry(resp.content)
+            if len(text) < 200:
+                print(f"    -> Too little content ({len(text)} chars) — skipping")
+                return False
+            filepath = save_registry(
+                folder, name, text.encode("utf-8"), "txt",
+                {"title": title, "authority": authority, "source_url": url,
+                 "domain": "airlines", "type": "html_text",
+                 "category": source.get("category"), "raw_chars": len(text)}
+            )
+
+        size_kb = filepath.stat().st_size // 1024
+        print(f"    -> Saved {size_kb} KB  =>  {filepath.relative_to(KNOWLEDGE_ROOT)}")
+        return True
+    except Exception as exc:
+        print(f"    -> ERROR: {exc}")
+        return False
+
+
+def html_to_text_registry(html_bytes: bytes) -> str:
+    soup = BeautifulSoup(html_bytes, "html.parser")
+    for tag in soup(["script", "style", "nav", "footer", "header", "noscript"]):
+        tag.decompose()
+    text = soup.get_text(separator="\n", strip=True)
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    return "\n".join(lines)
+
+
+def download_from_registry():
+    """Registry-driven download (same pattern as scrape_banking_all.py), driven by
+    knowledge/airlines/airlines_source_registry.json. This is the current/preferred
+    path for airlines — the legacy DDGS-search-based crawl below (run_ddgs_search)
+    is kept only for reference and is NOT invoked by default."""
+    print("=" * 60)
+    print("AIRLINES DOMAIN — REGISTRY-DRIVEN LIVE DATA DOWNLOAD")
+    print("=" * 60)
+    sources = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
+    ok = fail = 0
+    for src in sources:
+        if download_registry_source(src):
+            ok += 1
+        else:
+            fail += 1
+        time.sleep(1)
+    print("=" * 60)
+    print(f"Done.  Downloaded: {ok}   Failed: {fail}   Total: {ok + fail}")
+    print("=" * 60)
+
+
+def run_ddgs_search():
+    """Legacy DDGS-search-based crawl. Not invoked by default (requires the
+    duckduckgo_search package which may not be installed). Kept for reference."""
+    from duckduckgo_search import DDGS
     print(f"Initializing Web Scraper to populate {KNOWLEDGE_ROOT} from real sources...")
     ensure_folders()
-    
+
     with DDGS() as ddgs:
         for item in QUERIES:
             print(f"Searching web for real data: {item['query']}")
@@ -147,4 +243,4 @@ def main():
                 print(f"  [WARNING] Could not find or scrape data for {item['name']}")
 
 if __name__ == "__main__":
-    main()
+    download_from_registry()

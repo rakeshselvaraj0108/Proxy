@@ -486,7 +486,7 @@ Factories that manufacture counterfeit designer brand garments and watches are u
 ]
 Expensive
 watches
-are vulnerable to counterfeiting as well. In Malaysia, Thailand, Vietnam and the Philippines, authentic-looking but poor quality watch fakes with self-winding mechanisms and fully working movements can sell for as little as US$20, with good quality ones selling for $100 and over. Some fakes' movements and materials are also of remarkably passable quality, albeit inconsistently so, and may look good and work well for some years, a possible consequence of increasing competition within the counterfeiting community.
+are vulnerable to counterfeiting. In Malaysia, Thailand, Vietnam and the Philippines some fakes' movements and materials are of passable quality, albeit inconsistently so, and may look good and work well for some years, a possible consequence of increasing competition within the counterfeiting community.
 Some counterfeiters have begun to manufacture their goods in the same factory as the authentic goods. 'Yuandan goods' (
 原单
 ) are those fakes that are produced in the same factory as legitimate designer pieces without authorized permission to do so. These goods are made from scraps and leftover materials from genuine products, produced illegally, and sold on the black market.
@@ -1428,11 +1428,7 @@ In 2016, in a span of 3-day period, Instagram has identified 20,892 fake account
 [
 141
 ]
-Social media and mobile applications have turned into ideal platforms for transactions and trades. Counterfeit users and sellers would set up online accounts on Instagram, Twitter, and Facebook and post counterfeit or illicit products through ways of sponsored ads and deals. The consumer can easily contact buyers and purchase the counterfeit goods unknowingly by email, WhatsApp, WeChat, and PayPal. As social media watchdogs and groups
-[
-clarification needed
-]
-are working on cracking and shutting down accounts selling counterfeit goods, counterfeiters continue to operate 24 hours with advanced systems in algorithms, artificial intelligence, and spambots using tactics involving automatic account creation, avoidance in detection and tax-and-duty-free law. It is advised by many that brands, tech platforms, governments and consumers require a comprehensive strategy and cross-sector collaboration to combat the multifaceted system enabling the international counterfeit market.
+Counterfeit users and sellers set up online accounts on Instagram, Twitter, and Facebook and post counterfeit or illicit products through ways of sponsored ads. The consumer can contact buyers and purchase the counterfeit goods unknowingly via email, WhatsApp, WeChat, and PayPal. Counterfeiters operate with advanced algorithms, artificial intelligence, and spambots using tactics involving automatic account creation, avoidance in detection and tax-and-duty-free law. Brands, tech platforms, governments and consumers require a comprehensive strategy and cross-sector collaboration to combat the multifaceted system enabling the international counterfeit market.
 [
 142
 ]
@@ -1635,6 +1631,9 @@ Asia Times
 September 25,
 2023
 .
+[
+dead link
+]
 1
 2
 3
@@ -2081,6 +2080,9 @@ CBS News
 3
 4
 "New Tricks Needed to Stop the €45 Billion Counterfeit Smartphone Market"
+Archived
+December 17, 2023, at the
+Wayback Machine
 ,
 Developing Telecoms
 , November 9, 2017
@@ -2334,7 +2336,6 @@ MeatProcess.com, November 13, 2006
 1
 2
 "Food frauds - Intention, detection and management"
-(PDF)
 .
 Food safety toolkit for Asia and the Pacific
 . Vol.
@@ -2342,7 +2343,10 @@ Food safety toolkit for Asia and the Pacific
 Bangkok
 :
 Food and Agriculture Organization of the United Nations
-(FAO). 2021
+(FAO). 2021. Archived from
+the original
+(PDF)
+on April 17, 2024
 . Retrieved
 April 17,
 2024
@@ -2488,9 +2492,9 @@ EUObserver.com
 , October 7, 2010
 ↑
 "Counterfeit drugs making nonsense of medical practice in Nigeria"
-Deprecated link
-archived July 21, 2012, at
-archive.today
+Archived
+August 15, 2012, at the
+Wayback Machine
 ,
 Nigerian Health Journal
 , July 16, 2011
@@ -2637,6 +2641,9 @@ Further reading
 [
 edit
 ]
+Wikimedia Commons has media related to
+Counterfeit consumer goods
+.
 Sara R. Ellis,
 Copyrighting Couture: An Examination of Fashion Design Protection and Why the DPPA and IDPPPA are a Step Towards the Solution to Counterfeit Chic
 , 78 Tenn. L. Rev. 163 (2010).
@@ -2686,11 +2693,8 @@ Stroppa, A., & Stefano, D. D. (2016).
 Social media and luxury goods counterfeit: a growing concern for government, industry and consumers worldwide
 (pp.
 1–50, Rep.) (B. Parrella, Ed.). Washington, D.C.: The Washington Post.
-Wikimedia Commons has media related to
-Counterfeit consumer goods
-.
 Retrieved from "
-https://en.wikipedia.org/w/index.php?title=Counterfeit_consumer_good&oldid=1362039137
+https://en.wikipedia.org/w/index.php?title=Counterfeit_consumer_good&oldid=1363503561
 "
 Categories
 :
@@ -2701,6 +2705,8 @@ Hidden categories:
 Articles with short description
 Short description is different from Wikidata
 Use mdy dates from December 2018
+All articles with dead external links
+Articles with dead external links from July 2026
 CS1 errors: periodical ignored
 All articles with vague or ambiguous time
 Vague or ambiguous time from October 2022
@@ -2710,10 +2716,8 @@ Articles containing potentially dated statements from 2014
 All articles containing potentially dated statements
 Articles containing potentially dated statements from 2013
 CS1 maint: archived copy as title
-Webarchive template archiveis links
 CS1 maint: deprecated archival service
 CS1 maint: publisher location
-Wikipedia articles needing clarification from January 2021
 Commons category link is on Wikidata
 Search
 Search
