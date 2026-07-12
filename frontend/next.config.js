@@ -17,7 +17,15 @@ const nextConfig = {
   // safe to leave in unconditionally.
   async rewrites() {
     const port = process.env.INTERNAL_API_PORT || "8000";
-    return [{ source: "/api/v1/:path*", destination: `http://127.0.0.1:${port}/api/v1/:path*` }];
+    return [
+      { source: "/api/v1/:path*", destination: `http://127.0.0.1:${port}/api/v1/:path*` },
+      // getSystemHealth() in api-client.ts strips /api/v1 off the base URL
+      // and calls /health directly (matching the backend's real route,
+      // which isn't under the /api/v1 prefix) -- needed its own rule, the
+      // /api/v1/* one above doesn't cover it.
+      { source: "/health", destination: `http://127.0.0.1:${port}/health` },
+      { source: "/health/live", destination: `http://127.0.0.1:${port}/health/live` },
+    ];
   },
 };
 
