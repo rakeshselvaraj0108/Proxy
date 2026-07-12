@@ -19,7 +19,15 @@ COPY frontend ./
 RUN npm run build
 
 FROM node:20-slim AS runner
-ENV NODE_ENV=production
+# HOSTNAME=0.0.0.0 is required, not optional: Next.js's standalone server.js
+# reads process.env.HOSTNAME to decide its bind address, and platforms like
+# Render inject their own HOSTNAME env var (the container's internal DNS
+# name) into every container. Without this override, the server binds to
+# that internal hostname instead of all interfaces, and the platform's own
+# external routing/load balancer can't reach it at all -- every request
+# 502s even though the app is running and logs "Ready" with no errors.
+ENV NODE_ENV=production \
+    HOSTNAME=0.0.0.0
 WORKDIR /app
 COPY --from=builder /app/frontend/.next/standalone ./
 COPY --from=builder /app/frontend/.next/static ./frontend/.next/static
