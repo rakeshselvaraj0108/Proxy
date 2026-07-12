@@ -1,13 +1,15 @@
 from __future__ import annotations
 
 from app.agents.orchestrator.case_analysis_workflow import case_analysis_workflow
+from app.agents.research_agent.agent import rank_hits
 from app.auth.dependencies import CurrentUser, get_current_user
 from app.core.errors import ProxyError
 from app.database.postgres.repositories import case_repository
 from app.knowledge_graph.neo4j.service import knowledge_graph
 from app.llm.service import llm_service
-from app.models.domain import ACTIVE_DOMAINS
+from app.models.domain import ACTIVE_DOMAINS, Domain
 from app.prompts.consumer_advocacy import build_agent_prompt
+from app.rag.retrieval.qdrant_service import qdrant_service
 from app.schemas.case_ai import (
     AnalyzeCaseRequest,
     AppealCaseRequest,
@@ -19,6 +21,7 @@ from app.schemas.case_ai import (
 )
 from app.schemas.cases import CaseStatus
 from app.services.case_context import build_case_summary, build_evidence_bundle
+from app.services.citation_engine import build_citations
 from app.storage.service import storage_service
 from fastapi import APIRouter, Depends, File, Form, UploadFile
 
@@ -121,23 +124,72 @@ async def generate_appeal(payload: AppealCaseRequest, user: CurrentUser = Depend
 
 @router.post("/chat", response_model=dict)
 async def chat_about_case(payload: ChatCaseRequest, user: CurrentUser = Depends(get_current_user)) -> dict:
+    """Follow-up Q&A on an existing case. This does its own fresh retrieval
+    for the specific question asked -- not just a bare LLM call over the
+    original analysis -- because a follow-up question ("what's the deadline
+    to escalate?", "does this exclusion apply to my case?") is often about
+    something the initial research pass never searched for. Reusing only
+    the stale research_summary silently degraded this into a generic
+    ungrounded chatbot reply for anything outside that original scope."""
     case = await _get_case_or_404(payload.case_id, user.id)
     documents = await case_repository.list_documents(case["id"])
     runs = await case_repository.list_agent_runs(case["id"])
     latest = runs[-1]["output"] if runs else {}
-    context = build_evidence_bundle(documents)
+    domain: Domain = case["domain"]
+    institution = case.get("institution_name") or ""
+
+    # --- Fresh retrieval scoped to the actual question, same rigor as the
+    # research agent: real Qdrant search + authority-boosted ranking +
+    # Neo4j institution patterns, not a bare LLM call. ---
+    hits = await qdrant_service.search(domain, f"{payload.message} {institution}", limit=8)
+    ranked = rank_hits(hits)[:8]
+    retrieved_context = "\n\n".join(
+        f"Source: {hit.get('metadata', {}).get('title') or hit.get('metadata', {}).get('filename') or hit['id']}\n"
+        f"Authority: {hit.get('metadata', {}).get('authority') or hit.get('metadata', {}).get('insurer_name', 'unknown')}\n"
+        f"Citation: {hit.get('metadata', {}).get('final_url') or hit.get('metadata', {}).get('source_path') or hit['id']}\n"
+        f"Text: {hit.get('text', '')[:1500]}"
+        for hit in ranked
+    )
+    patterns = await knowledge_graph.find_institution_patterns(domain, institution)
+    graph_context = "\n".join(p.get("pattern", "") for p in patterns if p.get("pattern"))
+    if graph_context:
+        retrieved_context = f"{retrieved_context}\n\nGraph memory:\n{graph_context}".strip()
+    prior_research = latest.get("research_summary", "")
+    if prior_research:
+        retrieved_context = f"{retrieved_context}\n\nEarlier case research:\n{prior_research}".strip()
+
+    evidence_bundle = build_evidence_bundle(documents, domain=domain)
     prompt = build_agent_prompt(
-        case["domain"],
-        f"Answer the user's question about this case. Be concise and cite evidence/policy when possible.\nQuestion: {payload.message}",
+        domain,
+        f"Answer the user's follow-up question about this case completely -- with the same rigor and "
+        f"citation discipline as the main case analysis, not a shortened chat reply. If the retrieved "
+        f"context or evidence answers it, give the specific clause/rule/deadline/contact, not a vague "
+        f"pointer to \"the relevant policy\".\nQuestion: {payload.message}",
         build_case_summary(case, documents),
-        f"{latest.get('research_summary', '')}\n{context}"[:12000],
+        retrieved_context,
+        evidence_bundle,
     )
     answer = await llm_service.generate(prompt, temperature=0.2, purpose="response")
+
+    structured_citations = build_citations(domain, ranked)
+    citations = [
+        hit.get("metadata", {}).get("final_url") or hit.get("metadata", {}).get("source_path") or str(hit.get("id"))
+        for hit in ranked
+    ]
+
     await case_repository.add_event(
         case["id"],
         {"actor": "user", "event_type": "chat", "title": "Case chat", "body": payload.message},
     )
-    return {"case_id": case["id"], "question": payload.message, "answer": answer}
+    return {
+        "case_id": case["id"],
+        "question": payload.message,
+        "answer": answer,
+        "citations": citations,
+        "structured_citations": structured_citations,
+        "graph_patterns": patterns,
+        "agent_trace": ["chat:qdrant+graph+gemini"],
+    }
 
 
 @router.get("/{case_id}", response_model=CaseDetailResponse)

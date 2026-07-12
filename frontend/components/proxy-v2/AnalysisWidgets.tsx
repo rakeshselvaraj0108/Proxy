@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { Activity, AlertTriangle, Bot, Check, ChevronRight, CircleDot, ClipboardList, Download, FileText, Heart, Loader2, MessageSquare, Network, Pin, RefreshCw, Search, Sparkles, Star, Upload, Wifi, WifiOff } from "lucide-react";
 import { agentStages, appealSteps, type StageStatus } from "@/lib/design-tokens";
 import { analyses as mockAnalyses, getDomainConfig, domainRegistry, type Analysis } from "@/lib/proxy-analysis-data";
-import { askAI, getReportSummary, listAnalyses, type ReportSummary, type AnalysisCase } from "@/lib/api-client";
+import { askAI, getReportSummary, listAnalyses, type ReportSummary, type AnalysisCase, type ChatCitation } from "@/lib/api-client";
 import { domainTheme } from "@/components/chat/domain-theme";
 import { connectAnalysisRealtime, type RealtimeMode } from "@/lib/realtime";
 
@@ -703,6 +703,7 @@ export function AppealWorkflow({ caseId }: { caseId: string }) {
 export function ChatPanel({ caseId }: { caseId: string }) {
   const [message, setMessage] = useState("What is the strongest argument in this case?");
   const [answer, setAnswer] = useState("Ask the AI a question about this case. Answers are grounded in your uploaded evidence and case context.");
+  const [citations, setCitations] = useState<ChatCitation[]>([]);
   const [loading, setLoading] = useState(false);
 
   async function submit() {
@@ -711,8 +712,10 @@ export function ChatPanel({ caseId }: { caseId: string }) {
     try {
       const response = await askAI(caseId, message);
       setAnswer(response.answer);
+      setCitations(response.structured_citations ?? []);
     } catch {
       setAnswer("Unable to reach the AI backend. Please ensure the FastAPI server is running.");
+      setCitations([]);
     } finally {
       setLoading(false);
     }
@@ -722,6 +725,25 @@ export function ChatPanel({ caseId }: { caseId: string }) {
     <section className="rounded-xl border border-white/10 bg-glass p-4 backdrop-blur-xl">
       <h2 className="mb-3 flex items-center gap-2 font-semibold"><Bot className="size-5 text-cyan-200" />AI Assistant</h2>
       {loading ? <LoadingSkeleton label="chat" /> : <div className="rounded-lg border border-white/10 bg-black/20 p-4 text-sm leading-7 text-proxy-muted">{answer}</div>}
+      {!loading && citations.length > 0 && (
+        <div className="mt-3 space-y-2">
+          <p className="text-[11px] font-medium uppercase tracking-wide text-proxy-tertiary">Sources this answer is grounded in</p>
+          {citations.map((c, i) => (
+            <div key={i} className="rounded-lg border border-white/10 bg-black/15 p-3 text-xs">
+              <div className="flex items-center justify-between gap-2">
+                <span className="font-medium text-proxy-text">{c.title}</span>
+                <span className="shrink-0 rounded-full border border-white/10 px-2 py-0.5 text-[10px] text-proxy-tertiary">{c.authority}</span>
+              </div>
+              <p className="mt-1 line-clamp-2 text-proxy-muted">{c.retrieved_chunk}</p>
+              {c.url && (
+                <a href={c.url} target="_blank" rel="noreferrer" className="mt-1 inline-block text-[11px] text-cyan-300 hover:underline">
+                  View source
+                </a>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
       <div className="mt-3 flex flex-col gap-2 sm:flex-row">
         <input
           value={message}

@@ -45,10 +45,29 @@ export async function runAnalysis(id: string) {
   return request("/case/analyze", { method: "POST", body: JSON.stringify({ case_id: id }) });
 }
 
-// Chat about a specific case — hits the real LLM endpoint backed by Qdrant
-// retrieval and case evidence context.
-export async function askAI(caseId: string, message: string): Promise<{ answer: string; question?: string }> {
-  return request<{ answer: string; question?: string }>("/case/chat", {
+export interface ChatCitation {
+  title: string;
+  authority: string;
+  url?: string | null;
+  retrieved_chunk: string;
+  confidence?: number;
+}
+
+export interface ChatResponse {
+  answer: string;
+  question?: string;
+  citations?: string[];
+  structured_citations?: ChatCitation[];
+  graph_patterns?: Array<{ pattern: string; confidence?: number }>;
+  agent_trace?: string[];
+}
+
+// Chat about a specific case — runs a fresh Qdrant + Neo4j lookup scoped to
+// the actual question asked (not just the original case's initial
+// research), so a follow-up outside that original scope is still grounded
+// in real retrieved evidence instead of falling back to a generic reply.
+export async function askAI(caseId: string, message: string): Promise<ChatResponse> {
+  return request<ChatResponse>("/case/chat", {
     method: "POST",
     body: JSON.stringify({ case_id: caseId, message }),
   });
