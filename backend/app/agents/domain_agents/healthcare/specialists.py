@@ -73,7 +73,8 @@ class HealthcareSpecialistAgent:
             "populate \"evidence_facts\" with the specific details you found in the evidence -- this is what "
             "makes the answer visibly grounded in what the user uploaded rather than generic information."
             if evidence_bundle
-            else ""
+            else "No documents were uploaded -- always set \"evidence_relevant\" to true (there is no separate "
+            "uploaded document to judge as relevant or not) and leave \"evidence_facts\" empty."
         )
 
         prompt = f"""{self.system_prompt}
