@@ -176,18 +176,24 @@ async def run_response_agent(state: AgentState) -> AgentState:
     state["strategy"] = state.get("strategy") or f"Use the {state.get('route', 'faq')} route: verify policy wording, attach evidence, and escalate only if the institution response conflicts with cited rules."
     state["appeal_draft"] = state.get("appeal_draft") or _default_appeal(state)
     
-    from app.models.domain import Domain
-    if state.get("domain") == Domain.BANKING:
-        state["review_notes"] = state.get("review_notes") or [
-            "Verify the exact card agreement or loan terms name before relying on a clause.",
-            "Prefer bank terms & conditions and RBI/NPCI sources over generic summaries.",
-        ]
-    else:
-        state["review_notes"] = state.get("review_notes") or [
-            "Verify the exact policy/product name before relying on a clause.",
-            "Prefer insurer policy wording and IRDAI sources over generic summaries.",
-        ]
-        
+    if not state.get("review_notes"):
+        # Was hardcoded to insurance-specific text ("insurer policy wording
+        # and IRDAI sources") for every domain except banking -- a telecom,
+        # airlines, ecommerce, government, healthcare, or housing case would
+        # get nonsensical advice to check IRDAI (India's insurance
+        # regulator) sources. get_profile(domain) already has the correct
+        # counterparty/regulator per domain; use it instead.
+        from app.prompts.domain_profiles import get_profile
+        domain = state.get("domain")
+        profile = get_profile(domain) if domain else None
+        if profile:
+            state["review_notes"] = [
+                f"Verify the exact {profile.counterparty} terms/product name before relying on a clause.",
+                f"Prefer {profile.counterparty} documentation and {profile.regulator} sources over generic summaries.",
+            ]
+        else:
+            state["review_notes"] = ["Verify the exact terms/policy name and cite the specific regulator before relying on a clause."]
+
     state.setdefault("agent_trace", []).append("response:final")
     return state
 

@@ -28,9 +28,10 @@ async def run_evidence_agent(state: AgentState) -> AgentState:
     domain = state["domain"]
     case_summary = state.get("case_summary", "")
     context = state.get("retrieved_context", "")
+    has_uploaded_documents = bool(state.get("evidence_bundle"))
     evidence = state.get("evidence_bundle") or case_summary
 
-    prompt = evidence_prompt(domain, case_summary, context, evidence)
+    prompt = evidence_prompt(domain, case_summary, context, evidence, has_uploaded_documents)
     raw = await llm_service.generate(prompt, temperature=0.1, purpose="reasoning")
 
     # Parse structured output -- keep every field the LLM returned (the

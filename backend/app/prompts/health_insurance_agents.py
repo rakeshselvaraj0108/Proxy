@@ -44,13 +44,39 @@ RETURN JSON ONLY. No markdown fences. Research Agent output."""
     return _base(domain, task, case_summary, context)
 
 
-def evidence_prompt(domain: Domain, case_summary: str, context: str, evidence: str) -> str:
+def evidence_prompt(domain: Domain, case_summary: str, context: str, evidence: str, has_uploaded_documents: bool = True) -> str:
     profile = get_profile(domain)
     domain_label = domain.value.replace("_", " ")
     schema_lines = ",\n  ".join(f'"{key}": "{example}"' for key, example in profile.evidence_schema.items())
-    task = f"""You are the Evidence Agent. Read the uploaded case evidence below and extract structured facts for this {domain_label} case.
+    if has_uploaded_documents:
+        relevance_instruction = (
+            "FIRST, decide whether the uploaded evidence actually relates to the case summary below (same case, "
+            "same institution/counterparty, same underlying issue -- not just the same broad domain). If the "
+            "uploaded evidence is about a different, unrelated matter (wrong institution, wrong transaction/"
+            "incident, or simply doesn't mention anything from the case summary), set \"evidence_relevant\" to "
+            "false, leave every extracted field an empty string, and say so plainly in \"summary\" -- do NOT "
+            "invent or guess values to fill the schema just because a document was uploaded."
+        )
+        summary_hint = "Concise one-paragraph extraction summary, or a note that the uploaded evidence doesn't match the case if evidence_relevant is false."
+    else:
+        # No document was uploaded at all -- the case summary text below is
+        # being reused as the only source to extract structured facts from,
+        # NOT a stand-in "uploaded document" to judge relevance against.
+        # Asking the model to judge whether the case summary "relates to"
+        # itself is a meaningless comparison that was producing false
+        # evidence_relevant=false verdicts, which then rendered as "the
+        # document you uploaded does not appear to relate to this case" --
+        # confusing and wrong when the user never uploaded anything.
+        relevance_instruction = (
+            "No documents were uploaded for this case -- extract whatever structured facts you can from the case "
+            "summary text alone. Always set \"evidence_relevant\" to true (there is no separate uploaded document "
+            "to judge as relevant or not); leave a field empty string only if that specific fact genuinely isn't "
+            "present in the case summary."
+        )
+        summary_hint = "Concise one-paragraph summary of what could be extracted from the case summary alone, noting this is based on the written description only, not uploaded documents."
+    task = f"""You are the Evidence Agent. Read the case evidence below and extract structured facts for this {domain_label} case.
 
-FIRST, decide whether the uploaded evidence actually relates to the case summary below (same case, same institution/counterparty, same underlying issue -- not just the same broad domain). If the uploaded evidence is about a different, unrelated matter (wrong institution, wrong transaction/incident, or simply doesn't mention anything from the case summary), set "evidence_relevant" to false, leave every extracted field an empty string, and say so plainly in "summary" -- do NOT invent or guess values to fill the schema just because a document was uploaded.
+{relevance_instruction}
 
 Return JSON with exactly this schema:
 
@@ -59,7 +85,7 @@ Return JSON with exactly this schema:
   {schema_lines},
   "documents_missing": ["Document or fact still needed"],
   "key_dates": ["Event: date"],
-  "summary": "Concise one-paragraph extraction summary, or a note that the uploaded evidence doesn't match the case if evidence_relevant is false."
+  "summary": "{summary_hint}"
 }}
 
 Be strictly factual. Do not invent values not present in the evidence. Leave fields empty string if not found there.

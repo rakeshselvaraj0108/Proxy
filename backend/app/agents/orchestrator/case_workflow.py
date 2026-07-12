@@ -79,7 +79,17 @@ class CaseWorkflow:
         graph.add_edge("evidence", "strategy")
         graph.add_edge("strategy", "appeal")
         graph.add_edge("appeal", "review")
-        graph.add_edge("review", "response")
+        # Same hard gate as case_analysis_workflow.py: run_review_agent sets
+        # review_should_retry when it finds a hallucinated claim or a
+        # miscited clause, capped at one retry -- previously this graph
+        # flowed review -> response unconditionally, so a rejected strategy
+        # still shipped to the user unchanged on this (more heavily used)
+        # planner-driven path too.
+        graph.add_conditional_edges(
+            "review",
+            lambda state: "strategy" if state.get("review_should_retry") else "response",
+            {"strategy": "strategy", "response": "response"},
+        )
         graph.add_edge("response", "supervisor_done")
         graph.add_edge("supervisor_done", END)
         return graph.compile()
@@ -98,6 +108,10 @@ class CaseWorkflow:
         state = await run_strategy_agent(state)
         state = await run_negotiation_agent(state)
         state = await run_review_agent(state)
+        if state.get("review_should_retry"):
+            state = await run_strategy_agent(state)
+            state = await run_negotiation_agent(state)
+            state = await run_review_agent(state)
         state = await run_response_agent(state)
         return await self._supervisor_done(state)
 
