@@ -4,7 +4,6 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from starlette.middleware import Middleware
 
 from app.api.router import api_router
 from app.core.config import get_settings
@@ -13,25 +12,6 @@ from app.core.logging import configure_logging
 from app.core.startup import run_startup_checks
 from app.middleware.request_context import RequestContextMiddleware
 
-
-def patch_middleware_iterator_for_fastapi() -> None:
-    try:
-        sample = tuple(Middleware(CORSMiddleware, allow_origins=[]))
-    except Exception:
-        return
-    if len(sample) != 3:
-        return
-
-    def compatible_iter(self):
-        if getattr(self, "args", ()):
-            raise TypeError("Middleware positional args are not supported by this FastAPI compatibility shim")
-        yield self.cls
-        yield self.kwargs
-
-    Middleware.__iter__ = compatible_iter
-
-
-patch_middleware_iterator_for_fastapi()
 configure_logging()
 settings = get_settings()
 
