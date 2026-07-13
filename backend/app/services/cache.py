@@ -5,8 +5,27 @@ import json
 import logging
 import time
 from typing import Any, Awaitable, Callable, TypeVar
+from urllib.parse import urlsplit, urlunsplit
 
 from app.core.config import get_settings
+
+
+def _redact_url(url: str) -> str:
+    """Unlike Qdrant/Neo4j (whose API key/password are separate settings
+    fields, never embedded in the URL shown by their health checks), a Redis
+    connection string embeds the password inline (redis://user:pass@host) --
+    returning it verbatim from a *public, unauthenticated* /health endpoint
+    would leak the real credential to anyone who curls it."""
+    try:
+        parts = urlsplit(url)
+    except ValueError:
+        return url
+    if not parts.password and not parts.username:
+        return url
+    netloc = parts.hostname or ""
+    if parts.port:
+        netloc += f":{parts.port}"
+    return urlunsplit((parts.scheme, netloc, parts.path, parts.query, parts.fragment))
 
 logger = logging.getLogger("app.cache")
 
@@ -116,9 +135,10 @@ class RedisCache:
 
         ok = await self._guarded("ping", _op, False)
         latency_ms = round((time.monotonic() - start) * 1000, 1)
+        redacted_url = _redact_url(self.settings.redis_url)
         if ok:
-            return {"status": "ready", "url": self.settings.redis_url, "latency_ms": latency_ms}
-        return {"status": "unreachable", "url": self.settings.redis_url, "latency_ms": latency_ms}
+            return {"status": "ready", "url": redacted_url, "latency_ms": latency_ms}
+        return {"status": "unreachable", "url": redacted_url, "latency_ms": latency_ms}
 
 
 redis_cache = RedisCache()

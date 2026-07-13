@@ -61,11 +61,19 @@ async def collect_health_status() -> dict:
 
 
 def _redis_health(redis_url: str) -> dict:
+    # /health is public and unauthenticated -- a Redis URL embeds its
+    # password inline (redis://user:pass@host), unlike Qdrant/Neo4j whose
+    # health checks only ever show the endpoint, never the API key. Must
+    # redact before this ever reaches the response, not just when a real
+    # credential is configured (that's exactly when it would matter).
+    from app.services.cache import _redact_url
+
+    redacted = _redact_url(redis_url)
     try:
         import redis
 
         client = redis.from_url(redis_url, socket_connect_timeout=2)
         client.ping()
-        return {"status": "ready", "url": redis_url}
+        return {"status": "ready", "url": redacted}
     except Exception as exc:
-        return {"status": "unreachable", "url": redis_url, "error": str(exc)}
+        return {"status": "unreachable", "url": redacted, "error": str(exc)}
