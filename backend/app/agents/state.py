@@ -102,6 +102,10 @@ class AgentState(TypedDict, total=False):
     # Review outputs
     review_output: ReviewOutput
     review_notes: list[str]
+    # Every review pass in order (see review_agent.py) -- powers the
+    # self-correction timeline: what was flagged on pass 1, proof it was
+    # resolved by the final pass.
+    review_history: list[ReviewOutput]
 
     # Final
     final_report: str

@@ -174,6 +174,45 @@ class JsonlGraphStore(GraphStore):
             "by_domain": domains_summary,
         }
 
+    async def get_institution_radar(self, limit: int = 25) -> list[dict[str, Any]]:
+        # Mirrors Neo4jGraphStore.get_institution_radar()'s coalescing of
+        # both write paths' institution field -- case_graph events store it
+        # on the case dict, citizen_case events store it directly.
+        cases_by_key: dict[tuple[str, str], set[str]] = {}
+        for event in self._read_events("case_graph"):
+            case = event.get("payload", {}).get("case", {})
+            institution = case.get("institution_name")
+            domain = case.get("domain")
+            domain_value = domain.value if hasattr(domain, "value") else domain
+            case_id = case.get("id")
+            if institution and institution != "Not specified" and domain_value and case_id:
+                cases_by_key.setdefault((institution, domain_value), set()).add(case_id)
+        for event in self._read_events("citizen_case"):
+            payload = event.get("payload", {})
+            institution = payload.get("institution_name")
+            domain_value = payload.get("domain")
+            case_id = payload.get("case_id")
+            if institution and institution != "Not specified" and domain_value and case_id:
+                cases_by_key.setdefault((institution, domain_value), set()).add(case_id)
+
+        by_institution: dict[str, dict[str, set[str]]] = {}
+        for (institution, domain_value), case_ids in cases_by_key.items():
+            by_institution.setdefault(institution, {})[domain_value] = case_ids
+
+        radar = [
+            {
+                "institution_name": institution,
+                "total_cases": sum(len(ids) for ids in by_domain_ids.values()),
+                "by_domain": sorted(
+                    ({"domain": domain_value, "case_count": len(ids)} for domain_value, ids in by_domain_ids.items()),
+                    key=lambda d: d["case_count"], reverse=True,
+                ),
+            }
+            for institution, by_domain_ids in by_institution.items()
+        ]
+        radar.sort(key=lambda item: item["total_cases"], reverse=True)
+        return radar[:limit]
+
     def iter_events(self) -> list[dict[str, Any]]:
         return self._read_events()
 

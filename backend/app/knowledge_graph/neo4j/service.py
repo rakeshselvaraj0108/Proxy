@@ -65,5 +65,14 @@ class Neo4jKnowledgeGraph:
     async def get_citizen_profile(self, user_id: str) -> dict:
         return await self._timed("get_citizen_profile", self.store.get_citizen_profile(user_id))
 
+    async def get_institution_radar(self, limit: int = 25) -> list[dict]:
+        key = f"institution_radar:{limit}"
+        cached = await redis_cache.get_json(key)
+        if cached is not None:
+            return cached
+        result = await self._timed("get_institution_radar", self.store.get_institution_radar(limit))
+        await redis_cache.set_json(key, result, get_settings().cache_graph_ttl_seconds)
+        return result
+
 
 knowledge_graph = Neo4jKnowledgeGraph()

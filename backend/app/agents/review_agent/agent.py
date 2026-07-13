@@ -45,6 +45,12 @@ async def run_review_agent(state: AgentState) -> AgentState:
         "summary": unwrap_nested_json_summary(parsed.get("summary", raw[:2000])),
     }
     state["review_output"] = review_output
+    # Keep every pass, not just the last one -- a second review_output
+    # overwrote the first pass's findings entirely, so there was no way to
+    # show "here's what was wrong, and here's proof it got fixed" -- only
+    # ever the final, already-clean state. This is what the self-correction
+    # timeline (see run_review_agent's caller) actually renders.
+    state.setdefault("review_history", []).append(review_output)
 
     # Blocking = the strategy/negotiation stated something not actually
     # supported by the retrieved evidence -- a genuine defect a re-run with

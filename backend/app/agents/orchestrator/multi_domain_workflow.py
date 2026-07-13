@@ -237,4 +237,10 @@ def _build_agent_breakdown(state: dict) -> dict:
         "strategy": state.get("strategy_output") or {},
         "negotiation": state.get("negotiation_output") or {},
         "review": state.get("review_output") or {},
+        # Every review pass, not just the final one -- powers the
+        # self-correction timeline (what was flagged on the first pass,
+        # proof the retry actually fixed it), which the single final
+        # review_output above can't show since it's already the clean result.
+        "review_history": state.get("review_history") or [],
+        "review_retry_count": state.get("review_retry_count", 0),
     }

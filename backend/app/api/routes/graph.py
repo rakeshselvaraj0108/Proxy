@@ -14,6 +14,17 @@ async def institution_patterns(domain: Domain, institution_name: str, _: Current
     return await knowledge_graph.find_institution_patterns(domain, institution_name)
 
 
+@router.get("/institution-radar")
+async def institution_radar(limit: int = 25, _: CurrentUser = Depends(get_current_user)) -> list[dict]:
+    """Aggregate, cross-citizen dispute volume per institution across every
+    domain -- a public accountability view built entirely from real case
+    data already in the graph (no separate tracking system), ranking which
+    institutions accumulate the most real disputes. A pattern invisible in
+    any single case (this institution has denied dozens of similar claims)
+    becomes visible in aggregate."""
+    return await knowledge_graph.get_institution_radar(limit)
+
+
 @router.get("/similar-cases")
 async def similar_cases(domain: Domain, institution_name: str, limit: int = 5, _: CurrentUser = Depends(get_current_user)) -> list[dict]:
     """Other real cases (across all citizens) logged against this domain +

@@ -58,3 +58,13 @@ class GraphStore(ABC):
         cross-domain profile: which domains, which institutions, how many
         cases each — the Enterprise Knowledge Graph traversal entry point."""
         raise NotImplementedError
+
+    @abstractmethod
+    async def get_institution_radar(self, limit: int = 25) -> list[dict[str, Any]]:
+        """Aggregate, cross-citizen dispute volume per institution across
+        every domain -- not scoped to one citizen or one institution+domain
+        pair like query_institution_pattern. Powers a public accountability
+        view: which institutions accumulate the most real disputes, so a
+        pattern that's invisible in any single case (this institution has
+        denied dozens of similar claims) becomes visible in aggregate."""
+        raise NotImplementedError

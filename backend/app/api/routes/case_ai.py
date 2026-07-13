@@ -48,6 +48,17 @@ def _analysis_response(case_id: str, state: dict) -> dict:
         "strategy_output": state.get("strategy_output"),
         "negotiation_output": state.get("negotiation_output"),
         "review_output": state.get("review_output"),
+        # Computed by the agents already but previously dropped before it
+        # ever reached the response -- structured_citations carries a real
+        # confidence score + verified/unverified flag per source (the Trust
+        # & Provenance layer), graph_patterns carries cross-case
+        # institutional intelligence, and review_history/review_retry_count
+        # expose the self-correction loop instead of only ever showing its
+        # final, already-clean result.
+        "structured_citations": state.get("structured_citations", []),
+        "graph_patterns": state.get("graph_patterns", []),
+        "review_retry_count": state.get("review_retry_count", 0),
+        "review_history": state.get("review_history", []),
     }
 
 

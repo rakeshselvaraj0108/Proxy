@@ -289,4 +289,42 @@ class Neo4jGraphStore(GraphStore):
             "by_domain": domains_summary,
         }
 
+    async def get_institution_radar(self, limit: int = 25) -> list[dict[str, Any]]:
+        driver = self._get_driver()
+        # Case records link to their institution through one of two node
+        # shapes depending on which write path created them --
+        # upsert_case_graph() writes (:Case)-[:AGAINST]->(:Insurer), while
+        # upsert_citizen_case() writes (:Case)-[:AGAINST_INSTITUTION]->
+        # (:Institution). Neither alone is the complete picture; coalescing
+        # both into one institution_name is what makes this aggregate real
+        # instead of silently undercounting whichever path a case didn't
+        # also go through.
+        query = """
+        MATCH (c:Case)
+        OPTIONAL MATCH (c)-[:AGAINST]->(ins:Insurer)
+        OPTIONAL MATCH (c)-[:AGAINST_INSTITUTION]->(inst:Institution)
+        WITH c, coalesce(ins.name, inst.name) AS institution_name
+        // "Not specified" is the Document Vault's placeholder institution
+        // name (see get_or_create_vault_case) for uploads not tied to a
+        // real dispute -- neither that nor an empty string is a real
+        // institution to rank.
+        WHERE institution_name IS NOT NULL AND trim(institution_name) <> "" AND institution_name <> "Not specified"
+        WITH institution_name, c.domain AS domain, count(DISTINCT c) AS domain_case_count
+        WITH institution_name, collect({domain: domain, case_count: domain_case_count}) AS by_domain,
+             sum(domain_case_count) AS total_cases
+        RETURN institution_name, total_cases, by_domain
+        ORDER BY total_cases DESC
+        LIMIT $limit
+        """
+        with driver.session() as session:
+            rows = list(session.run(query, limit=limit))
+        return [
+            {
+                "institution_name": row["institution_name"],
+                "total_cases": int(row["total_cases"]),
+                "by_domain": sorted(row["by_domain"], key=lambda d: d["case_count"], reverse=True),
+            }
+            for row in rows
+        ]
+
 
