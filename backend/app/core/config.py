@@ -78,7 +78,15 @@ class Settings(BaseModel):
     gemini_response_model: str = "gemini-2.5-flash"
     gemini_summarization_model: str = "gemini-2.5-flash-lite"
     gemini_ocr_model: str = "gemini-2.5-flash"
-    response_agent_llm_enabled: bool = False
+    # This gates the ONLY step that turns raw, concatenated per-specialist
+    # template text into one synthesized, deduplicated, causally-reasoned
+    # answer (see run_response_agent/_synthesize_final_answer) -- with this
+    # off, the user-facing "final_answer" for every multi-specialist domain
+    # is literally 2-3 specialists' near-identical template output pasted
+    # back to back, addressed in third person, with zero deduplication or
+    # sequencing. Defaulting to False (and never being set in the deployed
+    # environment) meant this had silently never run in production.
+    response_agent_llm_enabled: bool = True
     disable_external_llm: bool = False
     embedding_model: str = "gemini-embedding-001"
 
@@ -164,7 +172,7 @@ def get_settings() -> Settings:
         gemini_response_model=_env("GEMINI_RESPONSE_MODEL", gemini_model),
         gemini_summarization_model=_env("GEMINI_SUMMARIZATION_MODEL", "gemini-2.5-flash-lite"),
         gemini_ocr_model=_env("GEMINI_OCR_MODEL", gemini_model),
-        response_agent_llm_enabled=_bool_env("RESPONSE_AGENT_LLM_ENABLED", False),
+        response_agent_llm_enabled=_bool_env("RESPONSE_AGENT_LLM_ENABLED", True),
         disable_external_llm=_bool_env("DISABLE_EXTERNAL_LLM", False),
         embedding_model=_env(
             "EMBEDDING_MODEL",

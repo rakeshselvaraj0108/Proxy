@@ -11,17 +11,60 @@ def _default_appeal(state: AgentState) -> str:
 
 
 async def _optional_polish(state: AgentState, answer: str) -> str:
+    """Synthesize the raw, per-specialist template output into one coherent
+    answer -- not just a "make it concise" rewrite. With multiple
+    specialists dispatched for one case, `answer` going in is 2-3 sections
+    that routinely recommend the exact same escalation channel in slightly
+    different words (confirmed live: a real government-domain case produced
+    three specialists all independently telling the user to file a CPGRAMS
+    grievance), addressed in third person ("the applicant"), with no
+    causal diagnosis, no deadline-aware sequencing, and no single coherent
+    voice -- structurally worse than a single well-prompted LLM call would
+    produce from the same retrieved context, because it never combines the
+    specialists' findings into one answer at all."""
     settings = get_settings()
     if not settings.response_agent_llm_enabled:
         return answer
-    prompt = (
-        "Rewrite the specialist answer into a concise final user response. Keep citations and uncertainty. "
-        "Do not add new facts beyond the specialist output and retrieved context.\n\n"
-        f"Specialist output:\n{answer}\n\nRetrieved context:\n{state.get('retrieved_context', '')[:6000]}"
-    )
+    prompt = f"""You are combining several specialist agents' raw findings into ONE final answer for the
+person who asked. Do not add any fact not present in the specialist output or retrieved context below --
+your job is synthesis and rewriting, not new research.
+
+Original question/situation (may include the person's name -- address them by it if given, otherwise use
+a warm neutral opening; do not write "the applicant" or any third-person case-file language anywhere):
+{state.get('case_summary', '')[:2000]}
+
+Raw specialist findings to synthesize (multiple specialists may repeat the same recommendation in
+different words -- collapse every repeated recommendation into a single entry, do not list it more than
+once just because more than one specialist said it):
+{answer}
+
+Retrieved context (for verifying specifics, not for adding new claims):
+{state.get('retrieved_context', '')[:6000]}
+
+Write the final answer with this structure:
+1. One warm, specific opening sentence or two, addressed directly to the person (by name if they gave one).
+2. A short "why this is happening" diagnosis (1-3 sentences) -- the underlying cause, not just a restatement
+   of the facts back to them. E.g. "no accountable officer is attached to your file" or "this looks like a
+   training gap at this specific office, not a policy issue, because..." -- this is what makes an answer
+   read as real expertise instead of a procedure lookup.
+3. ONE deduplicated, prioritized action plan -- if the original situation mentions a real deadline or
+   urgency, sequence the actions against it explicitly (e.g. "Day 1: do X and Y in parallel", "Day 2-3: Z"),
+   not just an unordered list of channels with equal weight.
+4. If anything in the specialist findings was flagged as unconfirmed against retrieved sources, fold that
+   into at most one natural sentence (e.g. "I'd confirm the exact clause number with the office directly,
+   but the underlying process is clear") -- never leave a bracketed technical annotation like
+   "(not confirmed word-for-word in retrieved sources)" in the text; that is an internal QA note that must
+   never reach the reader verbatim.
+5. End with a specific, concrete offer to draft the actual next artifact (name it -- e.g. "the CPGRAMS
+   complaint text", "the RTI application", "the formal escalation letter" -- whatever documents are
+   genuinely relevant here), not a generic closing line.
+
+Write in second person throughout, one continuous voice -- no agent names, no "Specialist" labels, no
+visible seams between where one specialist's input ended and another's began. Keep every real citation,
+regulation name, and specific contact detail from the source material; do not invent new ones."""
     state["llm_call_count"] = int(state.get("llm_call_count", 0)) + 1
     state.setdefault("agent_trace", []).append("response:gemini_response")
-    return await llm_service.generate(prompt, temperature=0.15, purpose="response")
+    return await llm_service.generate(prompt, temperature=0.2, purpose="response")
 
 
 _SHARED_LIST_FIELDS = ("applicable_rules", "applicable_regulations", "escalation_path")
