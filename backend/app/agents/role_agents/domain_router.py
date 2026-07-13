@@ -163,20 +163,28 @@ def classify_domains(query: str, max_domains: int = 3, min_relative_score: float
 
 
 async def classify_domains_multilingual(query: str, max_domains: int = 3, min_relative_score: float = 0.55) -> list[dict]:
-    """classify_domains() only recognizes ASCII a-z keywords -- a query
-    written in Tamil, Hindi, or any non-Latin script produces zero keyword
-    hits no matter what it's actually about, and silently falls back to a
-    hardcoded HEALTH_INSURANCE default with confidence 0.0. Confirmed live:
-    a Tamil query about a cancelled flight got analyzed as a health
-    insurance pre-existing-condition case -- completely unrelated to what
-    was actually asked, because classification failed before the real
-    pipeline ever ran. Translate to English first when the query is mostly
-    non-Latin script, then classify the translation -- English queries
-    (the common case) skip this entirely and keep the existing zero-LLM-call
-    keyword path."""
-    ascii_ratio = sum(1 for c in query if ord(c) < 128) / max(len(query), 1)
-    if ascii_ratio > 0.85:
-        return classify_domains(query, max_domains, min_relative_score)
+    """classify_domains() only recognizes ASCII a-z keywords -- any query
+    with no English-keyword overlap produces zero hits and silently falls
+    back to a hardcoded HEALTH_INSURANCE default with confidence 0.0.
+    Confirmed live: a Tamil query about a cancelled flight got analyzed as
+    a health insurance pre-existing-condition case, completely unrelated to
+    what was actually asked, because classification failed before the real
+    pipeline ever ran.
+
+    Deliberately does NOT branch on script/character-set (e.g. "is this
+    mostly non-ASCII") -- that heuristic correctly catches Tamil/Hindi/
+    Chinese/Japanese/Arabic (non-Latin scripts) but silently misses
+    Portuguese, Spanish, French, German, and Italian, which are written in
+    the same Latin alphabet as English and would score as "mostly ASCII"
+    while still having zero real keyword overlap. Instead: always try the
+    fast, free, zero-LLM-call keyword classifier first -- it correctly
+    handles English (the common case) with no added latency at all -- and
+    only fall back to translating when it genuinely found nothing, which is
+    the actual signal that the query wasn't in English, regardless of what
+    script or language it's actually written in."""
+    candidates = classify_domains(query, max_domains, min_relative_score)
+    if not candidates[0].get("fallback"):
+        return candidates
     try:
         from app.llm.service import llm_service
 
@@ -188,7 +196,9 @@ async def classify_domains_multilingual(query: str, max_domains: int = 3, min_re
         translated = translated.strip()
     except Exception:
         translated = ""
-    return classify_domains(translated or query, max_domains, min_relative_score)
+    if not translated:
+        return candidates
+    return classify_domains(translated, max_domains, min_relative_score)
 
 
 async def run_domain_router_agent(state: AgentState) -> AgentState:
