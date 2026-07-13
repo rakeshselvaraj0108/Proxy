@@ -304,8 +304,11 @@ Sections, in this order:
    internal QA note, not something the reader should ever see verbatim.
 8. Next Steps - if there's a real deadline anywhere in the case summary, sequence these as an explicit
    schedule (Day 1: ..., Day 2-3: ...), not an unordered list. If there's no deadline, rank by leverage/speed.
-9. Close with a specific, concrete offer to draft the actual next document (name it) -- not a generic
-   closing line.
+9. Close with a concrete pointer to what's already been generated -- e.g. "the formal appeal letter is
+   drafted in the Generated Documents section above, ready for you to review and send" -- do NOT phrase
+   this as an open question like "would you like me to draft this?" if it's already been generated in
+   section 6 above (it usually has been); only ask a genuine open question if something truly hasn't been
+   drafted yet, and even then phrase it as a next step to take, not a yes/no awaiting a reply.
 
 Research findings: {research_output.get('summary', state.get('research_summary', 'Not available'))}
 Evidence findings: {evidence_output.get('summary', state.get('evidence_summary', 'Not available'))}

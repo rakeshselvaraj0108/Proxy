@@ -523,9 +523,40 @@ function DomainAnswerSection({ answer }: { answer: DomainAnswer }) {
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
             {answer.report}
           </ReactMarkdown>
+          <DraftedDocuments negotiation={answer.breakdown.negotiation} color={theme.color} />
           <AgentReasoningTrace trace={answer.trace} breakdown={answer.breakdown} />
         </div>
       )}
+    </div>
+  );
+}
+
+// The negotiation agent already drafts these on every run -- the
+// synthesized report now points to them ("the appeal letter is drafted
+// below") instead of asking "would you like me to draft this?", since this
+// chat has no conversation continuity between messages. That reference is
+// only true if they're actually rendered somewhere, which they previously
+// weren't: the agent trace above only ever showed step badges, never the
+// document text itself.
+function DraftedDocuments({ negotiation, color }: { negotiation?: AgentBreakdown["negotiation"]; color: string }) {
+  if (!negotiation) return null;
+  const docs: Array<[string, string | undefined]> = [
+    ["Appeal / dispute letter", negotiation.appeal_letter],
+    ["Complaint email", negotiation.complaint_email],
+    ["Escalation note", negotiation.escalation_note],
+    ["Consumer complaint", negotiation.consumer_complaint],
+  ];
+  const available = docs.filter(([, v]) => v && v.trim()) as Array<[string, string]>;
+  if (available.length === 0) return null;
+  return (
+    <div className="mt-3 space-y-2">
+      <p className="text-[10px] font-medium uppercase tracking-wide text-proxy-tertiary">Drafted documents (ready to review and send)</p>
+      {available.map(([label, content]) => (
+        <details key={label} className="rounded-lg border border-white/10 bg-black/20 p-2.5">
+          <summary className="cursor-pointer text-xs font-medium" style={{ color }}>{label}</summary>
+          <p className="mt-2 whitespace-pre-wrap text-xs leading-5 text-proxy-muted">{content}</p>
+        </details>
+      ))}
     </div>
   );
 }

@@ -25,6 +25,39 @@ async def _optional_polish(state: AgentState, answer: str) -> str:
     settings = get_settings()
     if not settings.response_agent_llm_enabled:
         return answer
+    negotiation_output = state.get("negotiation_output") or {}
+    drafted_docs = [
+        label for label, key in [
+            ("a formal appeal/dispute letter", "appeal_letter"),
+            ("a shorter complaint email", "complaint_email"),
+            ("an internal escalation note", "escalation_note"),
+            ("a formal regulator complaint", "consumer_complaint"),
+        ]
+        if isinstance(negotiation_output, dict) and (negotiation_output.get(key) or "").strip()
+    ]
+    # This chat has no conversational continuity -- each message starts a
+    # brand-new, independent analysis with no memory of what was just
+    # discussed (confirmed live: a user who replied "yes" to a prior
+    # "would you like me to draft this?" offer got an unrelated fresh
+    # analysis of the word "yes", not the promised document). Never end
+    # with a question implying a future reply will be understood in
+    # context -- if the documents already exist (they usually do, from the
+    # same run's negotiation agent), point to them directly instead.
+    if drafted_docs:
+        closing_instruction = (
+            f"5. Close by telling them {', '.join(drafted_docs)} {'has' if len(drafted_docs) == 1 else 'have'} "
+            "already been drafted as part of this same analysis and are available below/in the documents "
+            "section -- do NOT phrase this as a question awaiting their reply (e.g. never \"would you like me "
+            "to draft...\"), since this chat does not carry conversation state between messages and a reply "
+            "would start an unrelated new analysis, not continue this one."
+        )
+    else:
+        closing_instruction = (
+            "5. Close with the single most concrete next action they should take right now -- not a question "
+            "awaiting a reply (e.g. never \"would you like me to draft...\"), since this chat does not carry "
+            "conversation state between messages and a reply would start an unrelated new analysis, not "
+            "continue this one."
+        )
     prompt = f"""You are combining several specialist agents' raw findings into ONE final answer for the
 person who asked. Do not add any fact not present in the specialist output or retrieved context below --
 your job is synthesis and rewriting, not new research.
@@ -55,9 +88,7 @@ Write the final answer with this structure:
    but the underlying process is clear") -- never leave a bracketed technical annotation like
    "(not confirmed word-for-word in retrieved sources)" in the text; that is an internal QA note that must
    never reach the reader verbatim.
-5. End with a specific, concrete offer to draft the actual next artifact (name it -- e.g. "the CPGRAMS
-   complaint text", "the RTI application", "the formal escalation letter" -- whatever documents are
-   genuinely relevant here), not a generic closing line.
+{closing_instruction}
 
 Write in second person throughout, one continuous voice -- no agent names, no "Specialist" labels, no
 visible seams between where one specialist's input ended and another's began. Keep every real citation,
