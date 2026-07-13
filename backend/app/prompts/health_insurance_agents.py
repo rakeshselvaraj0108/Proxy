@@ -290,6 +290,10 @@ case, in second person, by name if they mentioned one in the case summary below.
 document they'll actually read, so it needs to read like a real answer from someone who understands their
 situation, not a formal audit log.
 
+Do not end any sentence with a question awaiting their reply (no "would you like...", no "let me know
+if..."). State what's already been generated and what to do next directly, as fact -- not as something
+offered pending their response.
+
 Sections, in this order:
 1. A short, warm opening acknowledging their specific situation (1-2 sentences, not generic).
 2. Why this is happening - the underlying cause in plain terms (1-3 sentences), before any procedure. This

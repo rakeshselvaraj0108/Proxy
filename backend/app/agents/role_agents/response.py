@@ -46,21 +46,25 @@ async def _optional_polish(state: AgentState, answer: str) -> str:
     if drafted_docs:
         closing_instruction = (
             f"5. Close by telling them {', '.join(drafted_docs)} {'has' if len(drafted_docs) == 1 else 'have'} "
-            "already been drafted as part of this same analysis and are available below/in the documents "
-            "section -- do NOT phrase this as a question awaiting their reply (e.g. never \"would you like me "
-            "to draft...\"), since this chat does not carry conversation state between messages and a reply "
-            "would start an unrelated new analysis, not continue this one."
+            f"already been drafted as part of this same analysis and are available below. Do not mention any "
+            f"OTHER document type that isn't in this list of {len(drafted_docs)} -- if something wasn't "
+            f"actually drafted, simply don't bring it up at all rather than offering to draft it."
         )
     else:
         closing_instruction = (
-            "5. Close with the single most concrete next action they should take right now -- not a question "
-            "awaiting a reply (e.g. never \"would you like me to draft...\"), since this chat does not carry "
-            "conversation state between messages and a reply would start an unrelated new analysis, not "
-            "continue this one."
+            "5. Close with the single most concrete next action they should take right now. Do not offer to "
+            "draft, prepare, or generate any document -- none exist yet, and this chat has no way to act on a "
+            "reply agreeing to that offer."
         )
     prompt = f"""You are combining several specialist agents' raw findings into ONE final answer for the
 person who asked. Do not add any fact not present in the specialist output or retrieved context below --
 your job is synthesis and rewriting, not new research.
+
+HARD RULE, applies to the entire answer, not just the closing line: never end a sentence with a question
+mark asking whether they want something done (no "would you like...", no "let me know if...", no "shall I
+draft..."). This chat cannot see or act on a reply -- each message starts a brand-new, unrelated analysis
+with no memory of this one, so any question you ask will never be answered in context. State things
+directly instead: what's already done, what to do next -- never what you could do if asked.
 
 Original question/situation (may include the person's name -- address them by it if given, otherwise use
 a warm neutral opening; do not write "the applicant" or any third-person case-file language anywhere):
