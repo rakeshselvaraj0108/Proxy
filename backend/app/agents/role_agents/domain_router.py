@@ -162,11 +162,40 @@ def classify_domains(query: str, max_domains: int = 3, min_relative_score: float
     return selected
 
 
+async def classify_domains_multilingual(query: str, max_domains: int = 3, min_relative_score: float = 0.55) -> list[dict]:
+    """classify_domains() only recognizes ASCII a-z keywords -- a query
+    written in Tamil, Hindi, or any non-Latin script produces zero keyword
+    hits no matter what it's actually about, and silently falls back to a
+    hardcoded HEALTH_INSURANCE default with confidence 0.0. Confirmed live:
+    a Tamil query about a cancelled flight got analyzed as a health
+    insurance pre-existing-condition case -- completely unrelated to what
+    was actually asked, because classification failed before the real
+    pipeline ever ran. Translate to English first when the query is mostly
+    non-Latin script, then classify the translation -- English queries
+    (the common case) skip this entirely and keep the existing zero-LLM-call
+    keyword path."""
+    ascii_ratio = sum(1 for c in query if ord(c) < 128) / max(len(query), 1)
+    if ascii_ratio > 0.85:
+        return classify_domains(query, max_domains, min_relative_score)
+    try:
+        from app.llm.service import llm_service
+
+        prompt = (
+            "Translate the following text to English for classification purposes only. "
+            "Return ONLY the English translation, no commentary, no quotes:\n\n" + query[:2000]
+        )
+        translated = await llm_service.generate(prompt, temperature=0.0, purpose="router")
+        translated = translated.strip()
+    except Exception:
+        translated = ""
+    return classify_domains(translated or query, max_domains, min_relative_score)
+
+
 async def run_domain_router_agent(state: AgentState) -> AgentState:
     """Populate state["candidate_domains"] and default state["domain"] to the
     top candidate when the caller hasn't already pinned one explicitly."""
     query = state.get("case_summary", "")
-    candidates = classify_domains(query)
+    candidates = await classify_domains_multilingual(query)
     state["candidate_domains"] = candidates
     if not state.get("domain"):
         state["domain"] = candidates[0]["domain"]

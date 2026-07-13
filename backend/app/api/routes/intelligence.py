@@ -9,7 +9,7 @@ from fastapi import APIRouter, Depends
 from pydantic import BaseModel, Field
 
 from app.agents.orchestrator.multi_domain_workflow import run_multi_domain_case
-from app.agents.role_agents.domain_router import classify_domains
+from app.agents.role_agents.domain_router import classify_domains_multilingual
 from app.agents.tools.registry import tool_registry
 from app.auth.dependencies import CurrentUser, get_current_user
 from app.core.errors import ProxyError
@@ -26,7 +26,7 @@ class ClassifyRequest(BaseModel):
 @router.post("/classify")
 async def classify(payload: ClassifyRequest, _: CurrentUser = Depends(get_current_user)) -> dict:
     """Which domain(s) a raw query belongs to, with confidence scores."""
-    candidates = classify_domains(payload.query)
+    candidates = await classify_domains_multilingual(payload.query)
     return {
         "query": payload.query,
         "candidates": [{"domain": c["domain"].value, "confidence": c["confidence"], "matched_terms": c["matched_terms"]} for c in candidates],

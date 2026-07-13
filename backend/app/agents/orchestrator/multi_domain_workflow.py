@@ -10,7 +10,7 @@ from __future__ import annotations
 import asyncio
 
 from app.agents.orchestrator.case_workflow import case_workflow
-from app.agents.role_agents.domain_router import classify_domains
+from app.agents.role_agents.domain_router import classify_domains_multilingual
 from app.services.case_context import build_evidence_bundle
 
 # NegotiationOutput's fields (app/agents/state.py) mapped to a human title
@@ -164,7 +164,7 @@ async def run_multi_domain_case(base_state: dict, save_appeals: bool = False) ->
         extract = (doc.get("text_extract") or "")[:2000]
         if extract:
             classification_text = f"{classification_text}\n{extract}"
-    candidates = classify_domains(classification_text)
+    candidates = await classify_domains_multilingual(classification_text)
     base_case_id = base_state.get("case_id", "case")
 
     await _create_analysis_case(user_id, base_case_id, candidates[0]["domain"], query, base_state.get("institution_name", ""))
