@@ -194,29 +194,29 @@ class GeminiProvider(LLMProvider):
         return {"provider": self.name, "status": "configured", "reasoning_model": self.settings.gemini_reasoning_model}
 
     def _offline_response(self, prompt: str) -> str:
+        # Deliberately domain-neutral -- see nvidia_provider.py's identical
+        # method for the full explanation. This used to hardcode health-
+        # insurance vocabulary as the offline fallback for every domain's
+        # agents, so a telecom/banking/airlines/etc. case would get back a
+        # fabricated insurance regulator citation and insurance-shaped
+        # evidence fields that don't apply to its actual domain.
         lower = prompt.lower()
         if "return json" in lower and "research agent" in lower:
-            return '{"applicable_clauses":["Sample coverage clause"],"possible_exclusions":[],"waiting_periods":[],"regulations":["IRDAI health insurance guidelines"],"summary":"Offline research fallback using indexed knowledge.","confidence":0.55}'
+            return '{"applicable_clauses":[],"possible_exclusions":[],"waiting_periods":[],"regulations":[],"summary":"Offline fallback -- no LLM connectivity, so no real research was performed. Configure an LLM provider for real analysis.","confidence":0.0}'
         if "return json" in lower and "evidence agent" in lower:
-            return '{"diagnosis":"","treatment":"","hospital":"","coverage_requested":"","admission_date":"","discharge_date":"","bill_amount":"","reason_for_rejection":"","documents_missing":["Physician support letter"],"key_dates":[],"summary":"Offline evidence extraction fallback."}'
+            return '{"documents_missing":[],"key_dates":[],"summary":"Offline fallback -- no LLM connectivity, so no evidence extraction was performed."}'
         if "return json" in lower and "strategy agent" in lower:
-            return '{"can_appeal":"YES","success_probability":0.62,"recommended_strategy":"Request internal appeal with policy clause citation and medical necessity evidence.","evidence_required":["Physician letter","Policy wording"],"escalation_path":["Internal appeal","GRO"],"summary":"Appeal recommended pending missing documents."}'
+            return '{"can_appeal":"UNKNOWN","success_probability":0.0,"recommended_strategy":"","evidence_required":[],"escalation_path":[],"summary":"Offline fallback -- no LLM connectivity, so no strategy was generated. Configure an LLM provider for a real recommendation."}'
         if "return json" in lower and "review agent" in lower:
-            return '{"missing_evidence":["Verify exact policy product name"],"hallucination_risks":[],"wrong_clause_risks":[],"weak_arguments":[],"approval_ready":false,"summary":"Human review required before submission."}'
+            return '{"missing_evidence":[],"hallucination_risks":[],"wrong_clause_risks":[],"weak_arguments":[],"approval_ready":false,"summary":"Offline fallback -- no LLM connectivity, so nothing was reviewed. Do not treat this case as reviewed."}'
         if "appeal letter" in lower or "negotiation agent" in lower:
             return (
-                '{"appeal_letter":"Formal appeal letter draft.",'
-                '"complaint_email":"Complaint email draft.",'
-                '"escalation_note":"Escalation note draft.",'
-                '"consumer_complaint":"Consumer complaint draft.",'
-                '"summary":"Generated all negotiation documents."}'
+                '{"appeal_letter":"Offline placeholder -- no LLM connectivity, so no real appeal letter was drafted.",'
+                '"complaint_email":"Offline placeholder -- no real complaint email was drafted.",'
+                '"escalation_note":"Offline placeholder -- no real escalation note was drafted.",'
+                '"consumer_complaint":"Offline placeholder -- no real regulator complaint was drafted.",'
+                '"summary":"Offline fallback -- no LLM connectivity, so no documents were actually drafted."}'
             )
         if "final case report" in lower:
-            return "Executive Summary: Case analyzed offline. Upload documents and configure GEMINI_API_KEY for full semantic analysis."
-        if "appeal" in lower or "draft" in lower:
-            return "Draft appeal: request clinical review, cite policy clause, attach physician support, and ask insurer to specify exclusion relied upon."
-        if "strategy" in lower:
-            return "Recommended strategy: verify policy wording, attach clinical necessity evidence, request expedited internal appeal, then regulator escalation if needed."
-        if "review" in lower or "devil" in lower:
-            return "Review notes: verify appeal deadline, attach physician letter, confirm policy clause number, and avoid unsupported statutory citations."
-        return "Evidence summary: extract denial reason, dates, hospital, treatment, and missing documents from uploaded files."
+            return "Executive Summary: No LLM provider is currently reachable, so this case has not actually been analyzed. Configure GEMINI_API_KEY (or another provider) and re-run for a real analysis."
+        return "No LLM provider is currently reachable, so no real output was generated for this request."
