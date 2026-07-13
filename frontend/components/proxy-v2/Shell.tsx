@@ -4,14 +4,14 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
-  Bell, Bot, ClipboardList, Command, FileSearch, FileText, Gauge, Home, Network, Search, Settings, Upload, Workflow, X, ChevronRight, ScrollText, Loader2, ArrowUpRight,
+  Bell, Bot, ClipboardList, Command, FileSearch, FileText, Gauge, Home, Network, Search, Settings, Upload, Workflow, X, ChevronRight, ScrollText, Loader2, ArrowUpRight, Building2,
 } from "lucide-react";
 import { listAnalyses, type AnalysisCase } from "@/lib/api-client";
 import { domainTheme } from "@/components/chat/domain-theme";
 import { SceneBackground } from "@/components/3d/SceneBackground";
 
 const nav = [
-  ["Dashboard", "/dashboard", Home], ["New Analysis", "/dashboard/new", Upload], ["My Analyses", "/dashboard/analyses", FileSearch], ["AI Assistant", "/dashboard/assistant", Bot], ["Knowledge Graph", "/dashboard/knowledge-graph", Network], ["Cross-Domain Search", "/dashboard/cross-domain-search", Search], ["Documents", "/dashboard/documents", FileText], ["Appeals", "/dashboard/appeals", ClipboardList], ["Reports", "/dashboard/reports", Gauge], ["Notifications", "/dashboard/notifications", Bell], ["Settings", "/dashboard/settings", Settings],
+  ["Dashboard", "/dashboard", Home], ["New Analysis", "/dashboard/new", Upload], ["My Analyses", "/dashboard/analyses", FileSearch], ["AI Assistant", "/dashboard/assistant", Bot], ["Knowledge Graph", "/dashboard/knowledge-graph", Network], ["Cross-Domain Search", "/dashboard/cross-domain-search", Search], ["Institution Radar", "/dashboard/institution-radar", Building2], ["Documents", "/dashboard/documents", FileText], ["Appeals", "/dashboard/appeals", ClipboardList], ["Reports", "/dashboard/reports", Gauge], ["Notifications", "/dashboard/notifications", Bell], ["Settings", "/dashboard/settings", Settings],
 ] as const;
 
 function getDeviceId(): string {

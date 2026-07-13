@@ -214,6 +214,11 @@ export interface AgentBreakdown {
   strategy: StrategyAgentOutput;
   negotiation: NegotiationAgentOutput;
   review: ReviewAgentOutput;
+  // Every review pass in order (not just the final one) -- pass 1's flagged
+  // issues plus proof the retry actually resolved them, not just the
+  // already-clean end state.
+  review_history?: ReviewAgentOutput[];
+  review_retry_count?: number;
 }
 
 export interface DomainResult {
@@ -232,6 +237,18 @@ export interface MultiDomainCaseResponse {
   per_domain_results: Record<string, DomainResult>;
   combined_citations: Citation[];
   combined_summary: string;
+}
+
+export interface InstitutionRadarEntry {
+  institution_name: string;
+  total_cases: number;
+  by_domain: Array<{ domain: string; case_count: number }>;
+}
+
+// Aggregate, cross-citizen dispute volume per institution across every
+// domain -- real graph data (no separate tracking system), not a mock.
+export async function getInstitutionRadar(limit = 25): Promise<InstitutionRadarEntry[]> {
+  return request(`/graph/institution-radar?limit=${limit}`);
 }
 
 export async function runMultiDomainCase(

@@ -8,10 +8,12 @@ import {
   Upload, Play, Loader2, FileText, AlertCircle, CheckCircle2, Sparkles,
   ArrowUpRight, Trash2, RotateCcw, ClipboardList, ScrollText,
   Search, FileSearch, Network, Target, PenLine, ShieldAlert,
+  ShieldCheck, RefreshCw,
 } from "lucide-react";
 import {
   classifyQuery, runMultiDomainCase, uploadDocument, deleteDocument, listAnalyses,
   type DomainCandidate, type MultiDomainCaseResponse, type UploadedDocument, type AgentBreakdown,
+  type ReviewAgentOutput,
 } from "@/lib/api-client";
 import { DOMAIN_THEME, domainTheme } from "@/components/chat/domain-theme";
 import { ReasoningLanes } from "@/components/chat/ReasoningLanes";
@@ -736,6 +738,23 @@ function ResultsPanel({
   }));
   const appealCount = Object.values(result.per_domain_results).reduce((sum, r) => sum + r.appeals.length, 0);
 
+  // Trust score: how many cited regulations were actually confirmed present
+  // in the retrieved source text vs. just stated by the model -- a signal a
+  // raw chat answer can't give you at all, since it never checks its own
+  // claims against anything.
+  const domainResults = Object.values(result.per_domain_results);
+  const trust = domainResults.reduce(
+    (acc, r) => {
+      const regs = r.agent_breakdown.research.regulations ?? [];
+      const unverified = new Set(r.agent_breakdown.research.unverified_regulations ?? []);
+      acc.total += regs.length;
+      acc.verified += regs.filter((item) => !unverified.has(item)).length;
+      return acc;
+    },
+    { total: 0, verified: 0 },
+  );
+  const selfCorrections = domainResults.reduce((sum, r) => sum + (r.agent_breakdown.review_retry_count ?? 0), 0);
+
   return (
     <section className="rounded-2xl border border-white/10 bg-glass p-4 backdrop-blur-2xl sm:p-6">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
@@ -765,6 +784,27 @@ function ResultsPanel({
           </button>
         </div>
       </div>
+
+      {(trust.total > 0 || selfCorrections > 0) && (
+        <div className="mb-4 flex flex-wrap gap-2">
+          {trust.total > 0 && (
+            <div className="inline-flex items-center gap-1.5 rounded-lg border border-white/10 bg-black/20 px-2.5 py-1.5 text-[11px]">
+              <ShieldCheck className={`size-3.5 ${trust.verified === trust.total ? "text-green-300" : "text-amber-300"}`} />
+              <span className="text-proxy-muted">
+                <span className="font-medium text-proxy-text">{trust.verified}/{trust.total}</span> cited regulations confirmed in real retrieved sources
+              </span>
+            </div>
+          )}
+          {selfCorrections > 0 && (
+            <div className="inline-flex items-center gap-1.5 rounded-lg border border-amber-300/25 bg-amber-300/10 px-2.5 py-1.5 text-[11px]">
+              <RefreshCw className="size-3.5 text-amber-300" />
+              <span className="text-amber-100">
+                Review agent caught {selfCorrections} unverified claim{selfCorrections === 1 ? "" : "s"} and re-generated the strategy before showing you this
+              </span>
+            </div>
+          )}
+        </div>
+      )}
 
       <div className="space-y-3">
         {answers.map((answer) => (
@@ -1113,8 +1153,10 @@ function AgentContent({ agentKey, breakdown, color }: { agentKey: keyof AgentBre
 
   // review
   const rv = breakdown.review;
+  const history = breakdown.review_history ?? [];
   return (
     <>
+      {history.length > 1 && <SelfCorrectionTimeline history={history} />}
       {rv.approval_ready !== undefined && (
         <span className={`mb-2.5 inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] ${rv.approval_ready ? "border border-green-300/25 bg-green-300/10 text-green-100" : "border border-amber-300/25 bg-amber-300/10 text-amber-100"}`}>
           {rv.approval_ready ? "Ready for approval" : "Needs attention before approval"}
@@ -1126,5 +1168,57 @@ function AgentContent({ agentKey, breakdown, color }: { agentKey: keyof AgentBre
       <ListBlock label="Weak arguments flagged" items={rv.weak_arguments} color={color} />
       {rv.summary && <p className="mt-2.5 text-xs leading-6 text-proxy-muted">{safeText(rv.summary)}</p>}
     </>
+  );
+}
+
+/**
+ * Renders every review pass, not just the final one -- proof the pipeline
+ * actually caught a bad claim and re-generated the strategy, rather than
+ * just showing the already-clean end result with no record it wasn't
+ * clean the first time. This is real pipeline history (review_history),
+ * not a scripted animation.
+ */
+function SelfCorrectionTimeline({ history }: { history: ReviewAgentOutput[] }) {
+  return (
+    <div className="mb-3 rounded-lg border border-amber-300/20 bg-amber-300/5 p-2.5">
+      <p className="mb-2 flex items-center gap-1.5 text-[10px] font-medium uppercase tracking-wide text-amber-200">
+        <RefreshCw className="size-3" /> Self-correction: {history.length} review passes
+      </p>
+      <div className="space-y-2">
+        {history.map((pass, i) => {
+          const issues = [...(pass.hallucination_risks ?? []), ...(pass.wrong_clause_risks ?? [])];
+          const isLast = i === history.length - 1;
+          return (
+            <div key={i} className="flex gap-2 text-xs">
+              <div className="flex flex-col items-center">
+                <span
+                  className="grid size-4 shrink-0 place-items-center rounded-full text-[9px] font-semibold"
+                  style={{ backgroundColor: isLast ? "#37f29a" : "#ffc857", color: "#000" }}
+                >
+                  {i + 1}
+                </span>
+                {!isLast && <span className="mt-0.5 h-full w-px flex-1 bg-white/10" />}
+              </div>
+              <div className="pb-2">
+                <p className="text-proxy-text">
+                  {isLast
+                    ? issues.length > 0
+                      ? `Pass ${i + 1}: re-generated -- issues resolved`
+                      : `Pass ${i + 1}: approved, no issues`
+                    : `Pass ${i + 1}: flagged ${issues.length} issue${issues.length === 1 ? "" : "s"}, sent back for correction`}
+                </p>
+                {!isLast && issues.length > 0 && (
+                  <ul className="mt-1 space-y-0.5 text-proxy-tertiary">
+                    {issues.map((issue, j) => (
+                      <li key={j} className="line-clamp-1">&bull; {issue}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
   );
 }
