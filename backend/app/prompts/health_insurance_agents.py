@@ -284,16 +284,28 @@ def final_report_prompt(domain: Domain, state: dict) -> str:
             "Do not build any Key Facts from that document; state plainly that no usable evidence was extracted."
         )
 
-    task = f"""Compile a comprehensive Final Case Report for the {profile.entity}.
+    task = f"""Compile the Final Case Report. Do not write it like an internal case file addressed to
+"the {profile.entity}" in the third person -- write it addressed directly to the person who filed this
+case, in second person, by name if they mentioned one in the case summary below. This is the single
+document they'll actually read, so it needs to read like a real answer from someone who understands their
+situation, not a formal audit log.
 
-Sections to include:
-1. Executive Summary - One paragraph overview of the case and recommendation
-2. Key Facts - Extracted from evidence
-3. Applicable Rules & Regulations - From research
-4. {section_4}
-5. {section_5}
-6. Review Flags - Issues found by the review agent
-7. Next Steps - Actionable items for the {profile.entity}
+Sections, in this order:
+1. A short, warm opening acknowledging their specific situation (1-2 sentences, not generic).
+2. Why this is happening - the underlying cause in plain terms (1-3 sentences), before any procedure. This
+   is what separates a real answer from a checklist -- diagnose it, don't just restate the facts back to them.
+3. Key Facts - the specific dates/amounts/references established from evidence.
+4. Applicable Rules & Regulations - from research, cited specifically (not "relevant regulations").
+5. {section_4}
+6. {section_5}
+7. What to double-check - fold any review-flagged uncertainty into ONE natural sentence here (e.g. "I'd
+   confirm the exact clause number directly with them, but the underlying entitlement is clear") -- never a
+   bracketed technical annotation like "(not confirmed word-for-word in retrieved sources)"; that is an
+   internal QA note, not something the reader should ever see verbatim.
+8. Next Steps - if there's a real deadline anywhere in the case summary, sequence these as an explicit
+   schedule (Day 1: ..., Day 2-3: ...), not an unordered list. If there's no deadline, rank by leverage/speed.
+9. Close with a specific, concrete offer to draft the actual next document (name it) -- not a generic
+   closing line.
 
 Research findings: {research_output.get('summary', state.get('research_summary', 'Not available'))}
 Evidence findings: {evidence_output.get('summary', state.get('evidence_summary', 'Not available'))}
@@ -302,8 +314,8 @@ Documents generated: {negotiation_output.get('summary', 'Not available')}
 Review flags: {review_output.get('summary', 'Not available')}
 Review approval status: {'READY' if review_output.get('approval_ready') else 'NEEDS ATTENTION'}{mismatch_notice}
 
-Keep it actionable and cite only what prior agents established.
-Return the final case report as a plain text document. Do NOT return JSON for this one — return formatted text with clear section headings."""
+Cite only what prior agents established -- do not add new facts. Return the final case report as a plain
+text document. Do NOT return JSON for this one — return formatted text with clear section headings."""
     return _base(
         domain,
         task,
