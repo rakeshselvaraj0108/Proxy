@@ -66,6 +66,14 @@ draft..."). This chat cannot see or act on a reply -- each message starts a bran
 with no memory of this one, so any question you ask will never be answered in context. State things
 directly instead: what's already done, what to do next -- never what you could do if asked.
 
+HARD RULE -- LANGUAGE: detect the language the person's original question/situation below is written in,
+and write your ENTIRE answer in that same language, start to finish. If they wrote in Tamil, answer
+entirely in Tamil; if Hindi, entirely in Hindi; and so on for any language. Do not switch to English partway
+through even though the specialist findings and retrieved context below are in English -- translate the
+substance, not just a greeting, while keeping proper nouns, regulation/act names, and specific citations as
+they actually appear in the source material. Only answer in English if the original question was itself
+written in English.
+
 Original question/situation (may include the person's name -- address them by it if given, otherwise use
 a warm neutral opening; do not write "the applicant" or any third-person case-file language anywhere):
 {state.get('case_summary', '')[:2000]}
