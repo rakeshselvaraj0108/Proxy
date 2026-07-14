@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Loader2, AlertTriangle, TrendingUp, Building2, ArrowUpRight } from "lucide-react";
+import { Loader2, AlertTriangle, TrendingUp, Building2, ArrowUpRight, Search, Network } from "lucide-react";
 import { getInstitutionRadar, type InstitutionRadarEntry } from "@/lib/api-client";
 import { domainTheme } from "@/components/chat/domain-theme";
 
@@ -11,6 +11,7 @@ export default function InstitutionRadarPage() {
   const [entries, setEntries] = useState<InstitutionRadarEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     let cancelled = false;
@@ -30,6 +31,22 @@ export default function InstitutionRadarPage() {
   }, []);
 
   const maxCases = entries.length > 0 ? entries[0].total_cases : 1;
+  const filtered = useMemo(
+    () => entries.filter((e) => e.institution_name.toLowerCase().includes(search.toLowerCase())),
+    [entries, search]
+  );
+  const totalDisputes = useMemo(() => entries.reduce((sum, e) => sum + e.total_cases, 0), [entries]);
+  const domainsCovered = useMemo(() => new Set(entries.flatMap((e) => e.by_domain.map((d) => d.domain))).size, [entries]);
+
+  function viewPatterns(entry: InstitutionRadarEntry) {
+    // Deep-link into the Institution Intelligence 3D graph (real patterns +
+    // similar cases, not just a text answer) -- default to whichever domain
+    // has the most disputes for this institution, since that's what the
+    // user almost always means to inspect first.
+    const topDomain = [...entry.by_domain].sort((a, b) => b.case_count - a.case_count)[0]?.domain;
+    if (!topDomain) return;
+    router.push(`/dashboard/knowledge-graph?domain=${encodeURIComponent(topDomain)}&institution=${encodeURIComponent(entry.institution_name)}`);
+  }
 
   return (
     <div className="relative z-10 mx-auto max-w-5xl px-4 py-6 sm:px-6 lg:px-8">
@@ -43,7 +60,26 @@ export default function InstitutionRadarPage() {
           not a single user's opinion, a pattern that only becomes visible once enough real cases accumulate. A single
           conversation with a chatbot can never show you this; it has no memory of anyone else's case.
         </p>
+        {!loading && !error && entries.length > 0 && (
+          <div className="mt-4 flex flex-wrap gap-4 text-xs text-proxy-muted">
+            <span><span className="font-semibold text-proxy-text">{entries.length}</span> institutions tracked</span>
+            <span><span className="font-semibold text-proxy-text">{totalDisputes}</span> disputes on file</span>
+            <span><span className="font-semibold text-proxy-text">{domainsCovered}</span> domains covered</span>
+          </div>
+        )}
       </header>
+
+      {!loading && !error && entries.length > 0 && (
+        <div className="relative mb-4 max-w-sm">
+          <Search className="absolute left-2.5 top-1/2 size-3.5 -translate-y-1/2 text-proxy-tertiary" />
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="Search institutions..."
+            className="w-full rounded-lg border border-white/10 bg-black/30 py-1.5 pl-8 pr-2 text-xs text-proxy-text outline-none placeholder:text-proxy-tertiary focus:border-cyan-300/40"
+          />
+        </div>
+      )}
 
       {loading && (
         <div className="rounded-2xl border border-white/10 bg-glass p-10 text-center backdrop-blur-2xl">
@@ -63,17 +99,25 @@ export default function InstitutionRadarPage() {
         </div>
       )}
 
-      {!loading && !error && entries.length > 0 && (
+      {!loading && !error && entries.length > 0 && filtered.length === 0 && (
+        <div className="rounded-2xl border border-dashed border-white/10 bg-white/[0.015] p-10 text-center">
+          <Search className="mx-auto mb-3 size-8 text-proxy-tertiary" />
+          <p className="text-sm text-proxy-tertiary">No institution matches &quot;{search}&quot;.</p>
+        </div>
+      )}
+
+      {!loading && !error && filtered.length > 0 && (
         <div className="space-y-2.5">
-          {entries.map((entry, index) => (
+          {filtered.map((entry) => (
             <InstitutionRow
               key={entry.institution_name}
-              rank={index + 1}
+              rank={entries.indexOf(entry) + 1}
               entry={entry}
               maxCases={maxCases}
               onAsk={() =>
                 router.push(`/dashboard/assistant?q=${encodeURIComponent(`What patterns exist in disputes against ${entry.institution_name}?`)}`)
               }
+              onViewPatterns={() => viewPatterns(entry)}
             />
           ))}
         </div>
@@ -83,12 +127,13 @@ export default function InstitutionRadarPage() {
 }
 
 function InstitutionRow({
-  rank, entry, maxCases, onAsk,
+  rank, entry, maxCases, onAsk, onViewPatterns,
 }: {
   rank: number;
   entry: InstitutionRadarEntry;
   maxCases: number;
   onAsk: () => void;
+  onViewPatterns: () => void;
 }) {
   const widthPct = Math.max(4, Math.round((entry.total_cases / maxCases) * 100));
   const isHigh = rank <= 3;
@@ -137,12 +182,20 @@ function InstitutionRow({
             </span>
           );
         })}
-        <button
-          onClick={onAsk}
-          className="ml-auto inline-flex items-center gap-1 rounded-full border border-purple-300/25 bg-purple-300/10 px-2.5 py-1 text-[10px] text-purple-100 hover:bg-purple-300/20"
-        >
-          <TrendingUp className="size-3" /> Ask about this institution <ArrowUpRight className="size-3" />
-        </button>
+        <div className="ml-auto flex items-center gap-1.5">
+          <button
+            onClick={onViewPatterns}
+            className="inline-flex items-center gap-1 rounded-full border border-cyan-300/25 bg-cyan-300/10 px-2.5 py-1 text-[10px] text-cyan-100 hover:bg-cyan-300/20"
+          >
+            <Network className="size-3" /> View real patterns <ArrowUpRight className="size-3" />
+          </button>
+          <button
+            onClick={onAsk}
+            className="inline-flex items-center gap-1 rounded-full border border-purple-300/25 bg-purple-300/10 px-2.5 py-1 text-[10px] text-purple-100 hover:bg-purple-300/20"
+          >
+            <TrendingUp className="size-3" /> Ask about this institution <ArrowUpRight className="size-3" />
+          </button>
+        </div>
       </div>
     </div>
   );

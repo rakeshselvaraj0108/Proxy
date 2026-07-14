@@ -14,17 +14,26 @@ function PageShell() {
   const mode = useKnowledgeGraphStore((s) => s.mode);
   const setMode = useKnowledgeGraphStore((s) => s.setMode);
   const setSelectedCaseId = useKnowledgeGraphStore((s) => s.setSelectedCaseId);
+  const setPendingInstitutionQuery = useKnowledgeGraphStore((s) => s.setPendingInstitutionQuery);
   const askAIOpen = useKnowledgeGraphStore((s) => s.askAIOpen);
   const setAskAIOpen = useKnowledgeGraphStore((s) => s.setAskAIOpen);
 
   // Deep-link from Notifications / other pages (?case=<id>) straight into
-  // that case's Reasoning Trail.
+  // that case's Reasoning Trail, or from the Institution Radar
+  // (?institution=<domain>|<name>) straight into a pre-filled, auto-run
+  // Institution Intelligence query.
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const caseId = params.get("case");
+    const domain = params.get("domain");
+    const institution = params.get("institution");
     if (caseId) {
       setSelectedCaseId(caseId);
       setMode("reasoning-trail");
+      window.history.replaceState({}, "", window.location.pathname);
+    } else if (domain && institution) {
+      setPendingInstitutionQuery({ domain, institution });
+      setMode("institution-intelligence");
       window.history.replaceState({}, "", window.location.pathname);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

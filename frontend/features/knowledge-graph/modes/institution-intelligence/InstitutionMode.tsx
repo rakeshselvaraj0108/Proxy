@@ -44,7 +44,7 @@ function loadRecent(): Slot[] {
  * cluster, with gold arcs for real shared entities computed server-side. */
 export function InstitutionMode() {
   const tier = useDeviceTier();
-  const { selectedInstitutionNodeId, setSelectedInstitutionNodeId } = useKnowledgeGraphStore();
+  const { selectedInstitutionNodeId, setSelectedInstitutionNodeId, pendingInstitutionQuery, setPendingInstitutionQuery } = useKnowledgeGraphStore();
   const [slots, setSlots] = useState<Slot[]>([{ domain: "health_insurance", institution: "" }]);
   const [queryParams, setQueryParams] = useState<InstitutionQueryParams | null>(null);
   const [recent, setRecent] = useState<Slot[]>([]);
@@ -80,6 +80,18 @@ export function InstitutionMode() {
     setRecent(nextRecent);
     window.localStorage.setItem(RECENT_KEY, JSON.stringify(nextRecent));
   }
+
+  // Consume a deep-link from the Institution Radar page (?domain=&institution=)
+  // exactly once: pre-fill slot 0 and auto-run, then clear it so switching
+  // modes and back doesn't silently re-run a stale query.
+  useEffect(() => {
+    if (!pendingInstitutionQuery) return;
+    const next = [pendingInstitutionQuery];
+    setSlots(next);
+    runQuery(next);
+    setPendingInstitutionQuery(null);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pendingInstitutionQuery]);
 
   const { nodes, edges, sharedEdges } = useMemo(() => buildConstellation(graphQuery.data), [graphQuery.data]);
   const selectedNode = nodes.find((n) => n.id === selectedInstitutionNodeId) ?? null;

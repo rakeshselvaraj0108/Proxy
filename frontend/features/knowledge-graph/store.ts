@@ -25,6 +25,11 @@ interface KnowledgeGraphState {
   // Institution Intelligence
   selectedInstitutionNodeId: string | null;
   setSelectedInstitutionNodeId: (id: string | null) => void;
+  // Deep-link from Institution Radar (/dashboard/institution-radar) into a
+  // pre-filled, auto-run query -- consumed once by InstitutionMode then
+  // cleared, so navigating back to this page later doesn't re-trigger it.
+  pendingInstitutionQuery: { domain: string; institution: string } | null;
+  setPendingInstitutionQuery: (query: { domain: string; institution: string } | null) => void;
 
   // Knowledge Footprint
   selectedDomain: string | null;
@@ -67,6 +72,8 @@ export const useKnowledgeGraphStore = create<KnowledgeGraphState>((set) => ({
 
   selectedInstitutionNodeId: null,
   setSelectedInstitutionNodeId: (id) => set({ selectedInstitutionNodeId: id }),
+  pendingInstitutionQuery: null,
+  setPendingInstitutionQuery: (query) => set({ pendingInstitutionQuery: query }),
 
   selectedDomain: null,
   setSelectedDomain: (domain) => set({ selectedDomain: domain }),
