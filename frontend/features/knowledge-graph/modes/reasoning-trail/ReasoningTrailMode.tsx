@@ -20,7 +20,7 @@ import { enrichReplaySteps } from "./replaySteps";
 const ReasoningTrailScene3D = dynamic(() => import("./ReasoningTrailScene3D"), {
   ssr: false,
   loading: () => (
-    <div className="flex h-full min-h-[500px] items-center justify-center">
+    <div className="flex h-full min-h-[720px] items-center justify-center">
       <div className="size-6 animate-spin rounded-full border-2 border-cyan-300/30 border-t-cyan-300" />
     </div>
   ),
@@ -128,7 +128,7 @@ export function ReasoningTrailMode() {
       </aside>
 
       <div className="flex flex-col gap-3">
-        <section className="relative min-h-[500px] flex-1 overflow-hidden rounded-2xl border border-cyan-300/15 bg-[#050608] shadow-glow-cyan">
+        <section className="relative min-h-[720px] flex-1 overflow-hidden rounded-2xl border border-cyan-300/15 bg-[#050608] shadow-glow-cyan">
           {!selectedCaseId ? (
             <EmptyState icon={Sparkles} title="No case selected" description="Pick a case from the list to explore how the AI reasoned through it." />
           ) : caseGraphQuery.isLoading ? (

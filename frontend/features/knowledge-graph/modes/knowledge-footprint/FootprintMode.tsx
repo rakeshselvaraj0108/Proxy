@@ -17,7 +17,7 @@ import type { OrreryDomain } from "./FootprintScene3D";
 const FootprintScene3D = dynamic(() => import("./FootprintScene3D"), {
   ssr: false,
   loading: () => (
-    <div className="flex h-full min-h-[500px] items-center justify-center">
+    <div className="flex h-full min-h-[720px] items-center justify-center">
       <div className="size-6 animate-spin rounded-full border-2 border-amber-300/30 border-t-amber-300" />
     </div>
   ),
@@ -114,7 +114,7 @@ export function FootprintMode({ onOpenCase }: { onOpenCase: (caseId: string) => 
 
       <div className="grid flex-1 gap-4 xl:grid-cols-[minmax(0,1fr)_340px]">
         <div className="flex flex-col gap-3">
-          <section className="relative min-h-[500px] flex-1 overflow-hidden rounded-2xl border border-cyan-300/15 bg-[#050608] shadow-glow-cyan">
+          <section className="relative min-h-[720px] flex-1 overflow-hidden rounded-2xl border border-cyan-300/15 bg-[#050608] shadow-glow-cyan">
             <div className="absolute left-4 top-4 z-10 rounded-xl border border-white/10 bg-black/45 px-3 py-2 backdrop-blur-xl">
               <p className="font-mono text-xs uppercase tracking-[.18em] text-proxy-tertiary">Personal Knowledge Orrery</p>
               <p className="text-sm text-cyan-100">{profile.total_cases} case{profile.total_cases === 1 ? "" : "s"} across {profile.domains_active_in.length} domain{profile.domains_active_in.length === 1 ? "" : "s"}</p>
