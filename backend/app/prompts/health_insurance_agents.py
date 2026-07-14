@@ -307,8 +307,16 @@ established in English -- translate the substance, but keep proper nouns, regula
 specific citations as they actually appear in the source material. Only write in English if the case
 summary itself is in English.
 
+HARD RULE -- DO NOT PARROT A CORRECTED COMPLAINT: the case summary below is the person's own initial framing,
+written before any evidence was examined -- it can be imprecise about what actually happened (e.g. they call
+it "charged twice" when the evidence findings below actually show unrelated unauthorized transactions).
+Evidence findings reflect what the evidence actually shows. If the two disagree, the opening and Key Facts
+must describe what the evidence actually shows, not the person's original guess -- never open by restating
+their framing and then contradict it later in the same report. Silently correct it in your own words.
+
 Sections, in this order:
-1. A short, warm opening acknowledging their specific situation (1-2 sentences, not generic).
+1. A short, warm opening acknowledging their specific situation (1-2 sentences, not generic), describing
+   what actually happened per the rule above.
 2. Why this is happening - the underlying cause in plain terms (1-3 sentences), before any procedure. This
    is what separates a real answer from a checklist -- diagnose it, don't just restate the facts back to them.
 3. Key Facts - the specific dates/amounts/references established from evidence.

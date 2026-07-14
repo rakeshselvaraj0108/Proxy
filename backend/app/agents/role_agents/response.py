@@ -54,9 +54,12 @@ async def _optional_polish(state: AgentState, answer: str) -> str:
         )
     else:
         closing_instruction = (
-            "5. Close with the single most concrete next action they should take right now. Do not offer to "
-            "draft, prepare, or generate any document -- none exist yet, and this chat has no way to act on a "
-            "reply agreeing to that offer."
+            "5. Close with ONE forward-looking sentence: what happens if they DON'T act (a deadline, an "
+            "escalation window closing, evidence going stale), not a restatement of an action already listed "
+            "above. If step 3's action plan already opens with the single most urgent action, do not repeat "
+            "that action's wording again here -- the reader already saw it once. Do not offer to draft, "
+            "prepare, or generate any document -- none exist yet, and this chat has no way to act on a reply "
+            "agreeing to that offer."
         )
     prompt = f"""You are combining several specialist agents' raw findings into ONE final answer for the
 person who asked. Do not add any fact not present in the specialist output or retrieved context below --
@@ -94,8 +97,19 @@ once just because more than one specialist said it):
 Retrieved context (for verifying specifics, not for adding new claims):
 {state.get('retrieved_context', '')[:6000]}
 
+HARD RULE -- DO NOT PARROT A CORRECTED COMPLAINT: the person's original question/situation is their own
+initial framing, written before any evidence was examined -- it can be imprecise or flatly wrong about what
+actually happened (e.g. they call it "charged twice" when the uploaded document actually shows unrelated
+unauthorized transactions; they call it "denied" when the document shows it was only delayed). The
+specialist findings below reflect what the evidence actually shows. If the two disagree, the opening
+sentence and everything after it must describe what the evidence actually shows, not the person's original
+guess -- never open by restating their framing and then contradict it two sentences later. Silently correct
+it in your own words instead (e.g. "the transactions on your account weren't a duplicate charge -- they were
+unauthorized transactions made without your card present").
+
 Write the final answer with this structure:
-1. One warm, specific opening sentence or two, addressed directly to the person (by name if they gave one).
+1. One warm, specific opening sentence or two, addressed directly to the person (by name if they gave one),
+   describing what actually happened per the rule above.
 2. A short "why this is happening" diagnosis (1-3 sentences) -- the underlying cause, not just a restatement
    of the facts back to them. E.g. "no accountable officer is attached to your file" or "this looks like a
    training gap at this specific office, not a policy issue, because..." -- this is what makes an answer
