@@ -125,11 +125,31 @@ async def _record_analysis_runs(user_id: str, case_id: str, per_domain_results: 
             f"multi_domain:{entry['domain']}",
             status="completed" if succeeded else "failed",
             input_payload={"query": query, "domain": entry["domain"]},
+            # Previously saved only {domain, confidence, route, citation
+            # COUNT} -- /reports/case/{case_id} (the "My Analyses" detail
+            # view) reads agent_runs[-1].output.strategy/research_summary/
+            # evidence_summary/appeal_draft/final_report as flat keys, the
+            # shape case_analysis_workflow.py's single-domain pipeline
+            # produces. The multi-domain pipeline (the one actually used by
+            # both the New Analysis and AI Assistant pages) discarded all of
+            # that real, already-generated content before it was ever
+            # persisted, so a case analyzed through either of those surfaces
+            # showed "Strategy not yet generated" etc. on reload even though
+            # the analysis had genuinely run and produced real content --
+            # confirmed live against a real saved case.
             output_payload={
                 "domain": entry["domain"],
                 "confidence": entry["confidence"],
                 "route": state.get("route"),
-                "citations": len(state.get("structured_citations") or []),
+                "research_summary": state.get("research_summary", ""),
+                "evidence_summary": state.get("evidence_summary", ""),
+                "strategy": state.get("strategy", ""),
+                "appeal_draft": state.get("appeal_draft", ""),
+                "final_report": final or "",
+                "review_notes": state.get("review_notes", []),
+                "citations": state.get("citations", []),
+                "agent_trace": state.get("agent_trace", []),
+                "llm_call_count": state.get("llm_call_count", 0),
             },
         )
     await case_repository.update_case_status(
