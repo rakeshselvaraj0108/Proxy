@@ -16,7 +16,7 @@
 ![Neo4j](https://img.shields.io/badge/Neo4j-knowledge%20graph-008CC1?logo=neo4j&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-cache-DC382D?logo=redis&logoColor=white)
 
-**[🚀 Live App](https://proxy-frontend-7am8.onrender.com) &nbsp;·&nbsp; [🩺 API Health](https://proxy-backend-0sct.onrender.com/health) &nbsp;·&nbsp; [📦 Source](https://github.com/rakeshselvaraj0108/Proxy)**
+**[▶️ Demo Video](https://youtu.be/M_n-Z1yxMUg) &nbsp;·&nbsp; [🚀 Live App](https://proxy-frontend-7am8.onrender.com) &nbsp;·&nbsp; [🩺 API Health](https://proxy-backend-0sct.onrender.com/health) &nbsp;·&nbsp; [📦 Source](https://github.com/rakeshselvaraj0108/Proxy)**
 
 </div>
 
@@ -24,6 +24,7 @@
 
 ## Table of Contents
 
+- [Demo Video](#demo-video)
 - [The Problem](#the-problem)
 - [What PROXY Actually Does](#what-proxy-actually-does)
 - [What Makes This Agentic, Not a Chatbot](#what-makes-this-agentic-not-a-chatbot)
@@ -37,6 +38,12 @@
 - [Project Structure](#project-structure)
 
 ---
+
+## Demo Video
+
+[![Watch the PROXY demo](https://img.youtube.com/vi/M_n-Z1yxMUg/maxresdefault.jpg)](https://youtu.be/M_n-Z1yxMUg)
+
+**[▶️ Watch on YouTube](https://youtu.be/M_n-Z1yxMUg)**
 
 ## The Problem
 
