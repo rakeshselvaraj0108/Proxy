@@ -46,9 +46,11 @@ async def _optional_polish(state: AgentState, answer: str) -> str:
     if drafted_docs:
         closing_instruction = (
             f"5. Close by telling them {', '.join(drafted_docs)} {'has' if len(drafted_docs) == 1 else 'have'} "
-            f"already been drafted as part of this same analysis and are available below. Do not mention any "
-            f"OTHER document type that isn't in this list of {len(drafted_docs)} -- if something wasn't "
-            f"actually drafted, simply don't bring it up at all rather than offering to draft it."
+            f"already been drafted as part of this same analysis and are available below, on this same page -- "
+            f"do not invent a URL, link, or download location for them (there is no such link; they render "
+            f"directly inline below this answer). Do not mention any OTHER document type that isn't in this "
+            f"list of {len(drafted_docs)} -- if something wasn't actually drafted, simply don't bring it up at "
+            f"all rather than offering to draft it."
         )
     else:
         closing_instruction = (
@@ -65,6 +67,12 @@ mark asking whether they want something done (no "would you like...", no "let me
 draft..."). This chat cannot see or act on a reply -- each message starts a brand-new, unrelated analysis
 with no memory of this one, so any question you ask will never be answered in context. State things
 directly instead: what's already done, what to do next -- never what you could do if asked.
+
+HARD RULE -- NO INVENTED LINKS: never write a URL, hyperlink, or "download here" reference for the drafted
+documents themselves -- they are not hosted anywhere and have no link; they render directly on this same
+page. Only include a URL when it's a real one copied from the retrieved context/specialist findings below
+(e.g. an actual regulator portal). Inventing a plausible-looking link for anything else is a fabrication,
+not a convenience.
 
 HARD RULE -- LANGUAGE: detect the language the person's original question/situation below is written in,
 and write your ENTIRE answer in that same language, start to finish. If they wrote in Tamil, answer

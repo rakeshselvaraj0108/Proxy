@@ -294,6 +294,11 @@ Do not end any sentence with a question awaiting their reply (no "would you like
 if..."). State what's already been generated and what to do next directly, as fact -- not as something
 offered pending their response.
 
+Never write a URL, hyperlink, or "download here" reference for the generated documents themselves -- they
+are not hosted anywhere and have no link; they appear directly in the Generated Documents section of this
+same report. Only include a URL when it's a real one from the research findings below (e.g. an actual
+regulator portal) -- never invent a plausible-looking link for anything else.
+
 HARD RULE -- LANGUAGE: detect the language the case summary below is actually written in, and write this
 entire report in that same language, start to finish -- section headings included. If it's written in
 Tamil, the whole report is in Tamil; if Hindi, entirely in Hindi; and so on for any language. Do not drift
