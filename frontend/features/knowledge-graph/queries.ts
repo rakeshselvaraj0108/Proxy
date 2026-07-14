@@ -37,3 +37,7 @@ export function useInstitutionGraphQuery(params: InstitutionQueryParams | null) 
 export function useKnowledgeFootprintQuery() {
   return useQuery({ queryKey: [KG_KEY, "footprint"], queryFn: api.fetchKnowledgeFootprint, staleTime: 15_000 });
 }
+
+export function useInstitutionRadarQuery() {
+  return useQuery({ queryKey: [KG_KEY, "institution-radar"], queryFn: () => api.fetchInstitutionRadar(50), staleTime: 30_000 });
+}

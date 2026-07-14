@@ -6,7 +6,7 @@ import { Landmark, Loader2, Plus, Search, X } from "lucide-react";
 import { useDeviceTier } from "@/components/landing/useDeviceTier";
 import { DOMAIN_THEME } from "@/components/chat/domain-theme";
 import { useKnowledgeGraphStore } from "../../store";
-import { useInstitutionGraphQuery } from "../../queries";
+import { useInstitutionGraphQuery, useInstitutionRadarQuery } from "../../queries";
 import type { InstitutionQueryParams } from "../../api";
 import { EmptyState } from "../../components/EmptyState";
 import { ErrorState } from "../../components/ErrorState";
@@ -52,6 +52,7 @@ export function InstitutionMode() {
   useEffect(() => setRecent(loadRecent()), []);
 
   const graphQuery = useInstitutionGraphQuery(queryParams);
+  const radarQuery = useInstitutionRadarQuery();
 
   function updateSlot(index: number, patch: Partial<Slot>) {
     setSlots((current) => current.map((s, i) => (i === index ? { ...s, ...patch } : s)));
@@ -82,6 +83,21 @@ export function InstitutionMode() {
 
   const { nodes, edges, sharedEdges } = useMemo(() => buildConstellation(graphQuery.data), [graphQuery.data]);
   const selectedNode = nodes.find((n) => n.id === selectedInstitutionNodeId) ?? null;
+
+  // Real institutions that already have case data for the domain currently
+  // selected in slot 0, ranked by dispute volume -- querying an institution
+  // name that has zero real matches silently renders an empty constellation
+  // with no explanation, so surfacing names guaranteed to have data (instead
+  // of making the user blind-guess exact spelling) is the actual fix.
+  const knownForDomain = useMemo(() => {
+    const domain = slots[0]?.domain;
+    if (!domain || !radarQuery.data) return [];
+    return radarQuery.data
+      .map((entry) => ({ entry, caseCount: entry.by_domain.find((d) => d.domain === domain)?.case_count ?? 0 }))
+      .filter((row) => row.caseCount > 0)
+      .sort((a, b) => b.caseCount - a.caseCount)
+      .slice(0, 8);
+  }, [radarQuery.data, slots]);
 
   const fallbackNodes: Fallback2DNode[] = nodes.map((n) => ({ id: n.id, kind: n.kind, label: n.label, size: n.kind === "institution" ? 30 : 18 }));
   const fallbackEdges: Fallback2DEdge[] = [...edges, ...sharedEdges];
@@ -122,6 +138,34 @@ export function InstitutionMode() {
           </button>
         )}
 
+        <div className="mb-4">
+          <p className="mb-1.5 font-mono text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">
+            Real institutions on file &middot; {DOMAIN_THEME[slots[0]?.domain]?.label ?? slots[0]?.domain}
+          </p>
+          {radarQuery.isLoading ? (
+            <p className="text-[11px] text-proxy-tertiary">Loading real dispute data...</p>
+          ) : knownForDomain.length === 0 ? (
+            <p className="text-[11px] text-proxy-tertiary">No cases on file for this domain yet -- pick another domain, or type an institution name directly.</p>
+          ) : (
+            <div className="flex flex-wrap gap-1.5">
+              {knownForDomain.map(({ entry, caseCount }) => (
+                <button
+                  key={entry.institution_name}
+                  onClick={() => {
+                    const next = [{ domain: slots[0].domain, institution: entry.institution_name }, ...slots.slice(1)];
+                    setSlots(next);
+                    runQuery(next);
+                  }}
+                  className="rounded-full border border-amber-300/25 bg-amber-300/10 px-2.5 py-1 text-[10px] text-amber-100 hover:bg-amber-300/20"
+                  title={`${caseCount} real dispute${caseCount === 1 ? "" : "s"} on file against ${entry.institution_name}`}
+                >
+                  {entry.institution_name} &middot; {caseCount}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+
         {recent.length > 0 && (
           <div className="mb-4">
             <p className="mb-1.5 font-mono text-[10px] uppercase tracking-[.16em] text-proxy-tertiary">Recent queries</p>
@@ -148,6 +192,12 @@ export function InstitutionMode() {
           <div className="flex h-full min-h-[500px] items-center justify-center"><Loader2 className="size-6 animate-spin text-cyan-200" /></div>
         ) : graphQuery.isError ? (
           <ErrorState message={(graphQuery.error as Error).message} onRetry={() => graphQuery.refetch()} />
+        ) : (graphQuery.data?.institutions.every((i) => i.patterns.length === 0 && i.similar_cases.length === 0) ?? false) ? (
+          <EmptyState
+            icon={Landmark}
+            title="No real cases on file for this exact name"
+            description="The graph only matches an exact institution name -- try one of the real institutions listed on the left, or check the spelling (e.g. 'Star Health' rather than 'Star Health Insurance')."
+          />
         ) : (
           <>
             <div className="absolute left-4 top-4 z-10 rounded-xl border border-white/10 bg-black/45 px-3 py-2 backdrop-blur-xl">

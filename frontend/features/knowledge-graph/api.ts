@@ -2,9 +2,9 @@ import { z } from "zod";
 import { API_BASE, getDeviceUserId } from "@/lib/api-client";
 import {
   CaseGraphResponseSchema, ReasoningTrailResponseSchema, InstitutionGraphResponseSchema,
-  KnowledgeFootprintResponseSchema, CaseListItemSchema, ChatAnswerSchema,
+  KnowledgeFootprintResponseSchema, CaseListItemSchema, ChatAnswerSchema, InstitutionRadarResponseSchema,
   type CaseGraphResponse, type ReasoningTrailResponse, type InstitutionGraphResponse,
-  type KnowledgeFootprintResponse, type CaseListItem, type ChatAnswer,
+  type KnowledgeFootprintResponse, type CaseListItem, type ChatAnswer, type InstitutionRadarEntry,
 } from "./schemas";
 
 /** Self-contained fetch layer for this feature -- same device-identity
@@ -62,6 +62,14 @@ export function fetchInstitutionGraph(params: InstitutionQueryParams): Promise<I
 
 export function fetchKnowledgeFootprint(): Promise<KnowledgeFootprintResponse> {
   return request(`/graph/user/knowledge-footprint`, KnowledgeFootprintResponseSchema);
+}
+
+/** Real institutions that already have case data in the graph, ranked by
+ * dispute volume -- lets Institution Intelligence mode offer a browsable
+ * list instead of forcing the user to blind-guess an exact institution
+ * name (which silently returns an empty constellation on any mismatch). */
+export function fetchInstitutionRadar(limit = 50): Promise<InstitutionRadarEntry[]> {
+  return request(`/graph/institution-radar?limit=${limit}`, InstitutionRadarResponseSchema);
 }
 
 export function askAboutCase(caseId: string, message: string): Promise<ChatAnswer> {

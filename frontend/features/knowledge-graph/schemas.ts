@@ -85,6 +85,14 @@ export const KnowledgeFootprintResponseSchema = z.object({
 });
 export type KnowledgeFootprintResponse = z.infer<typeof KnowledgeFootprintResponseSchema>;
 
+export const InstitutionRadarEntrySchema = z.object({
+  institution_name: z.string(),
+  total_cases: z.number(),
+  by_domain: z.array(z.object({ domain: z.string(), case_count: z.number() })),
+});
+export type InstitutionRadarEntry = z.infer<typeof InstitutionRadarEntrySchema>;
+export const InstitutionRadarResponseSchema = z.array(InstitutionRadarEntrySchema);
+
 export const CaseListItemSchema = z.object({
   id: z.string(),
   domain: z.string(),
