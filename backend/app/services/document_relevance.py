@@ -45,6 +45,29 @@ _DOMAIN_KEYWORDS: dict[Domain, set[str]] = {
         "cancellation", "consumer", "complaint", "tracking", "package",
         "otp delivery", "undelivered", "customer support",
     },
+    Domain.HOUSING: {
+        "rent", "rental", "landlord", "tenant", "lease", "rera", "builder",
+        "possession", "society", "maintenance", "deposit", "eviction",
+        "property", "registration", "sale deed", "apartment", "flat",
+        "construction", "occupancy", "noc", "home loan", "mortgage",
+        "stamp duty", "allotment", "carpet area", "encumbrance", "tenancy",
+        "housing society", "co-operative",
+    },
+    Domain.GOVERNMENT: {
+        "rti", "right to information", "grievance", "certificate", "scheme",
+        "application", "government", "department", "ministry", "office",
+        "ration card", "aadhaar", "pan card", "passport", "license",
+        "municipal", "panchayat", "taluk", "collector", "public",
+        "administrative", "appeal", "pension", "subsidy", "welfare",
+        "notice", "gazette", "affidavit", "district magistrate",
+    },
+    Domain.HEALTHCARE: {
+        "disease", "symptom", "vaccination", "vaccine", "clinical", "lab",
+        "laboratory", "reference range", "drug", "medication", "patient",
+        "diagnosis", "treatment", "prescription", "hospital", "doctor",
+        "medical", "health", "prevention", "screening", "test result",
+        "immunization", "dosage", "side effect", "clinical guideline",
+    },
 }
 
 # Generic "noise" documents we always reject regardless of domain
